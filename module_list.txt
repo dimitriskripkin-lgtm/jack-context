@@ -12,7 +12,6 @@
 -rwx------. 1 u0_a400 u0_a400  3217 Jul  7 15:00 /data/data/com.termux/files/home/jack/jack_health.py
 -rw-------. 1 u0_a400 u0_a400  2350 Jul  9 15:13 /data/data/com.termux/files/home/jack/jack_improve.py
 -rw-------. 1 u0_a400 u0_a400  2720 Jul  9 20:47 /data/data/com.termux/files/home/jack/jack_learn.py
--rw-------. 1 u0_a400 u0_a400  5353 Jul  8 14:52 /data/data/com.termux/files/home/jack/jack_learning_loop.py
 -rw-------. 1 u0_a400 u0_a400   656 Jul  9 15:13 /data/data/com.termux/files/home/jack/jack_log.py
 -rw-------. 1 u0_a400 u0_a400  3008 Jul  9 15:05 /data/data/com.termux/files/home/jack/jack_math.py
 -rw-------. 1 u0_a400 u0_a400  1883 Jul  8 08:35 /data/data/com.termux/files/home/jack/jack_memory.py

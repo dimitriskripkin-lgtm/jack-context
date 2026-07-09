@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T21:23:29.544209)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T21:24:19.900779)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T21:23:29.532848
+Stand: 2026-07-09T21:24:19.893623
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-07-09T21:23:29.532848
 - JACK wurde am 18. Juni gebaut.
 - JACK hat über den Chat keinen direkten Shell- oder Dateizugriff.
 
-## Aktive Module (40)
+## Aktive Module (39)
 - jack_agent.py
 - jack_approval.py
 - jack_budget.py
@@ -43,7 +43,6 @@ Stand: 2026-07-09T21:23:29.532848
 - jack_health.py
 - jack_improve.py
 - jack_learn.py
-- jack_learning_loop.py
 - jack_log.py
 - jack_math.py
 - jack_memory.py
@@ -74,10 +73,10 @@ Stand: 2026-07-09T21:23:29.532848
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 23994s
-run: jack_telegram: (pid 23044) 130s
-run: jack_autolearn: (pid 12394) 2169s
-run: ollama: (pid 12229) 38770s
+run: jack_cortex: (pid 11922) 24044s
+run: jack_telegram: (pid 23044) 180s
+run: jack_autolearn: (pid 12394) 2219s
+run: ollama: (pid 12229) 38820s
 
 ## Letzte Aenderungen
 61694b6 Claude Code Bruecke: /cc im Telegram (Text) + Sprach-Routing (Voice startet mit 'claude'). Read-only Berater kennt die ganze Umgebung, laeuft ueber Abo
