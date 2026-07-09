@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T23:59:12.836258)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T00:02:14.759865)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T23:59:12.827655
+Stand: 2026-07-10T00:02:14.745617
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-09T23:59:12.827655
 - Offene Fehler: 0
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 33337s
-run: jack_telegram: (pid 23044) 9473s
-run: jack_autolearn: (pid 12394) 11512s
-run: ollama: (pid 12229) 48113s
+run: jack_cortex: (pid 11922) 33519s
+run: jack_telegram: (pid 23044) 9655s
+run: jack_autolearn: (pid 12394) 11694s
+run: ollama: (pid 12229) 48295s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-09 22:21:13] DATEI-SCHREIBEN | konventionen_fuer_gemini_20260709_2220.json | 1563 Zeichen
 
 ## Budget heute
-Heute: Text 45/300 | Vision 1/40 | Tokens 13816
+Heute: Text 0/300 | Vision 0/40 | Tokens 0
