@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T21:14:24.562440)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T21:17:26.073782)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T21:14:24.553860
+Stand: 2026-07-09T21:17:26.066426
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,11 +28,12 @@ Stand: 2026-07-09T21:14:24.553860
 - JACK wurde am 18. Juni gebaut.
 - JACK hat über den Chat keinen direkten Shell- oder Dateizugriff.
 
-## Aktive Module (39)
+## Aktive Module (40)
 - jack_agent.py
 - jack_approval.py
 - jack_budget.py
 - jack_bug_fixer.py
+- jack_claude.py
 - jack_code_writer.py
 - jack_coder.py
 - jack_config.py
@@ -73,10 +74,10 @@ Stand: 2026-07-09T21:14:24.553860
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 23449s
-run: jack_telegram: (pid 29277) 3440s
-run: jack_autolearn: (pid 12394) 1624s
-run: ollama: (pid 12229) 38225s
+run: jack_cortex: (pid 11922) 23631s
+run: jack_telegram: (pid 29277) 3622s
+run: jack_autolearn: (pid 12394) 1806s
+run: ollama: (pid 12229) 38407s
 
 ## Letzte Aenderungen
 ff4ac38 CLAUDE.md Wissensbasis + Publisher pusht ganze Umgebung (Werkstatt/Skills/Logs)
