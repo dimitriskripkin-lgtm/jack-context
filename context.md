@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T21:35:15.148581)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T21:35:36.524072)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T21:35:15.141909
+Stand: 2026-07-09T21:35:36.514087
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -74,12 +74,13 @@ Stand: 2026-07-09T21:35:15.141909
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 24700s
-run: jack_telegram: (pid 23044) 836s
-run: jack_autolearn: (pid 12394) 2875s
-run: ollama: (pid 12229) 39476s
+run: jack_cortex: (pid 11922) 24721s
+run: jack_telegram: (pid 23044) 857s
+run: jack_autolearn: (pid 12394) 2896s
+run: ollama: (pid 12229) 39497s
 
 ## Letzte Aenderungen
+60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
 3641e51 taskrunner neu gestartet, Waechter-Baseline frisch
 c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probleme per Telegram, restartet tote Dienste, erster Lauf nur Baseline (weckt nicht)
 60f557c Aufraeumen: jack_learning_loop.py + Backups stillgelegt, CLAUDE.md mit echter Dienstliste - verhindert dass Claude Code aus toten Dateien liest
@@ -94,7 +95,6 @@ b683f1f Skill-Bibliothek: erfolgreiche Code-Bausteine speichern (/skill save) + 
 14fb2a3 Entscheidungs-Logbuch: jede JACK-Aktion nachvollziehbar (jack_log), /log in Telegram - Grundstein fuer sichere Autonomie
 b372e98 Selbstverbesserung jack_math.py (JACK-Vorschlag, Dima-Freigabe)
 6768994 Fix: doppelte tote GEMINI-Key-Zeile entfernt (401-Ursache), Bot-Loop + propose_improvement gegen Absturz/Crashloop abgesichert
-6d9284d Selbstverbesserungs-Kreis: /verbessere <modul> -> Gemini-Patch-Vorschlag -> Freigabe -> Patch mit Auto-Rollback + Commit. Sicherheitsnetze doppelt getestet
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
