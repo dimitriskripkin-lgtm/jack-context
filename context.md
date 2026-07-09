@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T20:50:11.197444)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T20:53:12.822463)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T20:50:11.188780
+Stand: 2026-07-09T20:53:12.811230
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -73,10 +73,10 @@ Stand: 2026-07-09T20:50:11.188780
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 21996s
-run: jack_telegram: (pid 29277) 1987s
-run: jack_autolearn: (pid 12394) 171s
-run: ollama: (pid 12229) 36772s
+run: jack_cortex: (pid 11922) 22177s
+run: jack_telegram: (pid 29277) 2168s
+run: jack_autolearn: (pid 12394) 352s
+run: ollama: (pid 12229) 36953s
 
 ## Letzte Aenderungen
 b56a851 Memory: absolute Korrekturen (kein Hund/LKW-Fahrer) verankert, Publish-Scrub praeziser
