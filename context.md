@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T21:20:27.723203)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T21:23:29.544209)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T21:20:27.715538
+Stand: 2026-07-09T21:23:29.532848
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -74,12 +74,13 @@ Stand: 2026-07-09T21:20:27.715538
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 23812s
-run: jack_telegram: (pid 29277) 3803s
-run: jack_autolearn: (pid 12394) 1987s
-run: ollama: (pid 12229) 38588s
+run: jack_cortex: (pid 11922) 23994s
+run: jack_telegram: (pid 23044) 130s
+run: jack_autolearn: (pid 12394) 2169s
+run: ollama: (pid 12229) 38770s
 
 ## Letzte Aenderungen
+61694b6 Claude Code Bruecke: /cc im Telegram (Text) + Sprach-Routing (Voice startet mit 'claude'). Read-only Berater kennt die ganze Umgebung, laeuft ueber Abo
 ff4ac38 CLAUDE.md Wissensbasis + Publisher pusht ganze Umgebung (Werkstatt/Skills/Logs)
 b56a851 Memory: absolute Korrekturen (kein Hund/LKW-Fahrer) verankert, Publish-Scrub praeziser
 a98e082 Rate-Limit-Fix: Modellwechsel auf freies Gemini-Modell, Token-Zaehler eingebaut, Agent-Kaskaden-Bug behoben (Fehlermeldung nicht mehr als Code), Runden-Pause
@@ -94,7 +95,6 @@ b372e98 Selbstverbesserung jack_math.py (JACK-Vorschlag, Dima-Freigabe)
 6714a4b Selbstverbesserung _improve_demo.py (JACK-Vorschlag, Dima-Freigabe)
 acc20df Cortex: letzte laute Meldung (Recovery-Exception) auf Status gestellt - abwesendes Xiaomi jetzt komplett ruhig
 d4c5a7a Cortex sauber: abwesendes Xiaomi = Status statt Fehleralarm (log_status, kein DB-Eintrag)
-6cca0d1 JACK hat Augen: Xiaomi-Kamera + Gemini Vision live verifiziert, Sensoren laufen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
