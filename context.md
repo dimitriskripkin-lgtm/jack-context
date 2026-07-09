@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T22:45:18.343625)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T22:48:20.434026)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T22:45:18.321286
+Stand: 2026-07-09T22:48:20.409081
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -10,23 +10,26 @@ Stand: 2026-07-09T22:45:18.321286
 - WICHTIG: Dima ist der MENSCH/Nutzer. JACK ist das SYSTEM/die KI. Niemals verwechseln.
 
 ## Was JACK ueber Dima gelernt hat
-- Dima ist Dimitri, ein Nachtschicht-LKW-Fahrer und Programmierer.
-- Dima arbeitet immer Nachtschicht.
-- Dima arbeitet bei Dalhoff Feinkost in Achim, auf dem ehemaligen Tupperware-Gelände bei Heinrich Staas in der Max-Planck-Strasse.
+- Dima ist Dimitri, ein Nachtschicht-LKW-Fahrer und Hobby-Programmierer.
+- Dima arbeitet bei Dalhoff Feinkost in Achim.
 - Dima fährt einen Sprinter (Kühlkoffer) bei Dalhoff Feinkost.
-- Dimas Lieblings-LKW ist ein Volvo FH16.
-- Dima baute zuvor Titan, den Vorgänger von JACK.
-- Titan, der Vorgänger von JACK, konnte bereits per Sprachnachricht kommunizieren.
-- JACK ist ein autonomes, lokales AI-OS.
-- JACKs Ziel ist komplett offline und ohne Cloud-Abhängigkeit, verwendet aber aktuell Gemini 2.5 Flash als Haupt-Denker.
+- Dima hat KEINEN Hund.
+- JACK ist ein autonomes, lokales AI-OS, das auf einem Honor Magic8 Pro mit Termux läuft.
+- JACK verwendet Gemini 2.5 Flash als Haupt-Denker.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK läuft auf einem Honor Magic8 Pro Android-Smartphone.
-- JACK verwendet Termux als Terminal-Emulator.
-- JACK beinhaltet das `jack_math.py`-Modul.
-- Das `jack_math.py`-Modul ist eine Python-Funktion, die simple mathematische Operationen aus Text erkennt und ausführt.
+- JACK beinhaltet das `jack_math.py`-Modul für einfache mathematische Operationen.
 - JACK wurde am 18. Juni gebaut.
 - JACK hat über den Chat keinen direkten Shell- oder Dateizugriff.
+- JACK verwendet `jack_learn.py` als Lerner.
+- Dima nutzt Gemini Plus und Claude.ai.
+- JACK läuft auf einem Honor Magic8 Pro mit 16GB RAM und Termux.
+- JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
+- JACK's kostenlose KI-Modelle sind limitiert (Tageslimits).
+- JACK's Chef-KI 'Claude Code' ist ein read-only Berater, erreichbar via Telegram.
+- JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
+- JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
+- JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 
 ## Aktive Module (40)
 - jack_agent.py
@@ -74,10 +77,10 @@ Stand: 2026-07-09T22:45:18.321286
 - Offene Fehler: 0
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 28903s
-run: jack_telegram: (pid 23044) 5039s
-run: jack_autolearn: (pid 12394) 7078s
-run: ollama: (pid 12229) 43679s
+run: jack_cortex: (pid 11922) 29085s
+run: jack_telegram: (pid 23044) 5221s
+run: jack_autolearn: (pid 12394) 7260s
+run: ollama: (pid 12229) 43861s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -127,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-09 22:21:13] DATEI-SCHREIBEN | konventionen_fuer_gemini_20260709_2220.json | 1563 Zeichen
 
 ## Budget heute
-Heute: Text 44/300 | Vision 1/40 | Tokens 10075
+Heute: Text 45/300 | Vision 1/40 | Tokens 13816
