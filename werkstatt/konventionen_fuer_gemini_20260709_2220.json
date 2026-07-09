@@ -1,0 +1,25 @@
+{
+    "konventionen_fuer_gemini": {
+        "sprache": "Deutsch, Kumpel-Ton, direkt, ehrlich inkl. Kritik.",
+        "tts": "Dima HOERT per TTS. Code-Bloecke ans ENDE, davor Fliesstext.",
+        "bloecke": "fertige Copy-Paste-Bloecke, Geraet angeben. Mobile-PTY: /tmp nicht schreibbar, sed/kleine ASCII-Heredocs, keine verschachtelten Quotes, Commit-Msg ohne Zeilenumbruch. Prompt an Claude Code via STDIN.",
+        "stil": "kleine testbare Schritte, erst Sicherheitsnetz dann testen dann verdrahten, Root-Cause statt Pflaster."
+    },
+
+    "BITTE_NICHT_vorschlagen": {
+        "mcp_layer_event_bus_plugins": "Overhead ohne Nutzen bei Solo-Projekt, macht Black-Box.",
+        "adb_ui_steuerung": "verfrueht/riskant, ADB bewusst gegen SSH getauscht.",
+        "qwen_phi_downgrade": "getestet, schlechter als llama3.2:3b.",
+        "ganzdatei_rewrites": "nur SEARCH/REPLACE."
+    },
+
+    "OFFEN_denk_drueber_nach": [
+        "1. Xiaomi-Live-Status in den Publisher (SPAETER geplant).",
+        "2. Claude Code Schreibrechte auf dem Xiaomi (Root-Spielgeraet) - mit Waenden (SPAETER).",
+        "3. GPS-Fahrtenbuch getriggert vom Bewegungssensor (akkuschonend). Tasker+Termux:Tasker vorhanden.",
+        "4. Gestufte Autonomie: Risiko-Stufen-Matrix (lesend=allein, gefaehrlich=Dima).",
+        "5. Token schlank halten pro Call (Verlauf trimmen) gegen Rate-Limit."
+    ],
+
+    "status": "6 Dienste laufen, 0 offene Fehler, alle Keys rotiert, Verbindung sturmfest, Live-Umgebung im Netz. Repos: jack-core (privat, Code), jack-context (oeffentlich, Live-Umgebung)."
+}
