@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T21:26:31.391267)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T21:29:33.136240)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T21:26:31.383561
+Stand: 2026-07-09T21:29:33.127227
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -73,10 +73,10 @@ Stand: 2026-07-09T21:26:31.383561
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 24176s
-run: jack_telegram: (pid 23044) 312s
-run: jack_autolearn: (pid 12394) 2351s
-run: ollama: (pid 12229) 38952s
+run: jack_cortex: (pid 11922) 24358s
+run: jack_telegram: (pid 23044) 494s
+run: jack_autolearn: (pid 12394) 2533s
+run: ollama: (pid 12229) 39134s
 
 ## Letzte Aenderungen
 60f557c Aufraeumen: jack_learning_loop.py + Backups stillgelegt, CLAUDE.md mit echter Dienstliste - verhindert dass Claude Code aus toten Dateien liest
