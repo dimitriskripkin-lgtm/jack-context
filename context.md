@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T21:11:22.949834)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T21:14:24.562440)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T21:11:22.942614
+Stand: 2026-07-09T21:14:24.553860
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -73,10 +73,10 @@ Stand: 2026-07-09T21:11:22.942614
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 23267s
-run: jack_telegram: (pid 29277) 3258s
-run: jack_autolearn: (pid 12394) 1442s
-run: ollama: (pid 12229) 38043s
+run: jack_cortex: (pid 11922) 23449s
+run: jack_telegram: (pid 29277) 3440s
+run: jack_autolearn: (pid 12394) 1624s
+run: ollama: (pid 12229) 38225s
 
 ## Letzte Aenderungen
 ff4ac38 CLAUDE.md Wissensbasis + Publisher pusht ganze Umgebung (Werkstatt/Skills/Logs)
