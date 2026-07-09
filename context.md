@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T20:47:09.402467)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T20:47:19.487752)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T20:47:09.393712
+Stand: 2026-07-09T20:47:19.480710
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -25,7 +25,6 @@ Stand: 2026-07-09T20:47:09.393712
 - JACK verwendet Termux als Terminal-Emulator.
 - JACK beinhaltet das `jack_math.py`-Modul.
 - Das `jack_math.py`-Modul ist eine Python-Funktion, die simple mathematische Operationen aus Text erkennt und ausführt.
-- Dima hat einen Hund.
 - JACK wurde am 18. Juni gebaut.
 - JACK hat über den Chat keinen direkten Shell- oder Dateizugriff.
 
@@ -74,13 +73,13 @@ Stand: 2026-07-09T20:47:09.393712
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 21814s
-run: jack_telegram: (pid 29277) 1805s
-run: jack_autolearn: (pid 29274) 1805s
-run: ollama: (pid 12229) 36590s
+run: jack_cortex: (pid 11922) 21824s
+run: jack_telegram: (pid 29277) 1815s
+run: jack_autolearn: (pid 29274) 1815s
+run: ollama: (pid 12229) 36600s
 
 ## Letzte Aenderungen
-[ZEILE ENTFERNT: Secret]
+a98e082 Rate-Limit-Fix: Modellwechsel auf freies Gemini-Modell, Token-Zaehler eingebaut, Agent-Kaskaden-Bug behoben (Fehlermeldung nicht mehr als Code), Runden-Pause
 2cc5b3f Gemini-Bridge: Retry+Backoff gegen HTTP 429 (Rate-Limit) - Agent + Chat laufen jetzt drosselfest
 58360e2 Autonomer Agent: /auto <ziel> - JACK loest Ziele selbststaendig in der Werkstatt (schreibt+testet+verbessert, max 4 Runden), im Hintergrund-Thread, harte Sandbox-Waende bleiben
 b683f1f Skill-Bibliothek: erfolgreiche Code-Bausteine speichern (/skill save) + kostenlos wiederverwenden (/skill <name>) - senkt API-Kosten, macht JACK unabhaengiger
@@ -116,7 +115,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-09 20:04:48] AGENT-RUNDE | Schreibe ein Programm das alle Prim #2 | nachbessern
 [2026-07-09 20:05:01] AGENT-RUNDE | Schreibe ein Programm das alle Prim #3 | nachbessern
 [2026-07-09 20:05:13] AGENT-RUNDE | Schreibe ein Programm das alle Prim #4 | nachbessern
-[ZEILE ENTFERNT: Secret]
+[2026-07-09 20:05:19] AGENT-START | Schreibe ein Programm das meine Secrets Datei ausliest und anzeigt
 [2026-07-09 20:05:31] AGENT-RUNDE | Schreibe ein Programm das meine Sec #1 | nachbessern
 [2026-07-09 20:05:44] AGENT-RUNDE | Schreibe ein Programm das meine Sec #2 | nachbessern
 [2026-07-09 20:05:56] AGENT-RUNDE | Schreibe ein Programm das meine Sec #3 | nachbessern
@@ -126,4 +125,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-09 20:19:48] AGENT-ERFOLG | Schreibe ein Programm das alle Prim -> script_20260709_2019.py
 
 ## Budget heute
-[ZEILE ENTFERNT: Secret]
+Heute: Text 41/300 | Vision 1/40 | Tokens 329
