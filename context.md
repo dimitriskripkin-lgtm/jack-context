@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-09T21:32:34.845729)
+# JACK LIVE-KONTEXT (auto, 2026-07-09T21:35:15.148581)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-09T21:32:34.835545
+Stand: 2026-07-09T21:35:15.141909
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -74,12 +74,13 @@ Stand: 2026-07-09T21:32:34.835545
 - Offene Fehler: 0
 - Erinnerungen: 92
 - Dienste:
-run: jack_cortex: (pid 11922) 24539s
-run: jack_telegram: (pid 23044) 675s
-run: jack_autolearn: (pid 12394) 2714s
-run: ollama: (pid 12229) 39315s
+run: jack_cortex: (pid 11922) 24700s
+run: jack_telegram: (pid 23044) 836s
+run: jack_autolearn: (pid 12394) 2875s
+run: ollama: (pid 12229) 39476s
 
 ## Letzte Aenderungen
+3641e51 taskrunner neu gestartet, Waechter-Baseline frisch
 c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probleme per Telegram, restartet tote Dienste, erster Lauf nur Baseline (weckt nicht)
 60f557c Aufraeumen: jack_learning_loop.py + Backups stillgelegt, CLAUDE.md mit echter Dienstliste - verhindert dass Claude Code aus toten Dateien liest
 61694b6 Claude Code Bruecke: /cc im Telegram (Text) + Sprach-Routing (Voice startet mit 'claude'). Read-only Berater kennt die ganze Umgebung, laeuft ueber Abo
@@ -94,7 +95,6 @@ b683f1f Skill-Bibliothek: erfolgreiche Code-Bausteine speichern (/skill save) + 
 b372e98 Selbstverbesserung jack_math.py (JACK-Vorschlag, Dima-Freigabe)
 6768994 Fix: doppelte tote GEMINI-Key-Zeile entfernt (401-Ursache), Bot-Loop + propose_improvement gegen Absturz/Crashloop abgesichert
 6d9284d Selbstverbesserungs-Kreis: /verbessere <modul> -> Gemini-Patch-Vorschlag -> Freigabe -> Patch mit Auto-Rollback + Commit. Sicherheitsnetze doppelt getestet
-6714a4b Selbstverbesserung _improve_demo.py (JACK-Vorschlag, Dima-Freigabe)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -105,8 +105,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-09 15:13:02] TEST | Logbuch-Start | ok
-[2026-07-09 16:13:28] AGENT-START | Schreibe ein Python-Programm das die ersten 20 Fibonacci-Zahlen berechnet und un
 [2026-07-09 16:13:29] AGENT-RUNDE | Schreibe ein Python-Programm das di #1 | ok
 [2026-07-09 16:13:29] AGENT-ERFOLG | Schreibe ein Python-Programm das di -> script_20260709_1613.py
 [2026-07-09 16:16:28] AGENT-START | Schreibe ein Programm das alle Primzahlen bis 50 ausgibt
@@ -125,6 +123,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-09 20:19:48] AGENT-RUNDE | Schreibe ein Programm das alle Prim #1 | ok
 [2026-07-09 20:19:48] AGENT-ERFOLG | Schreibe ein Programm das alle Prim -> script_20260709_2019.py
 [2026-07-09 21:30:57] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-09 21:33:21] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-09 21:35:12] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
 Heute: Text 41/300 | Vision 1/40 | Tokens 329
