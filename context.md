@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-10T20:47:51.121676)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T20:50:52.986248)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-10T20:47:51.113140
+Stand: 2026-07-10T20:50:52.976397
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,6 +29,7 @@ Stand: 2026-07-10T20:47:51.113140
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
+- JACK's Hauptdenker ist Gemini 2.5 Flash (Lite).
 
 ## Aktive Module (40)
 - jack_agent.py
@@ -76,10 +77,10 @@ Stand: 2026-07-10T20:47:51.113140
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 108256s
-run: jack_telegram: (pid 23044) 84392s
-run: jack_autolearn: (pid 12394) 86431s
-run: ollama: (pid 12229) 123032s
+run: jack_cortex: (pid 11922) 108437s
+run: jack_telegram: (pid 23044) 84573s
+run: jack_autolearn: (pid 12394) 86612s
+run: ollama: (pid 12229) 123213s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -129,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-10 12:17:06] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
-Heute: Text 10/300 | Vision 0/40 | Tokens 34360
+Heute: Text 11/300 | Vision 0/40 | Tokens 38148
