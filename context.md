@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-10T12:14:39.045179)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T12:17:41.261659)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-10T12:14:39.029153
+Stand: 2026-07-10T12:17:41.250561
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-10T12:14:39.029153
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 77464s
-run: jack_telegram: (pid 23044) 53600s
-run: jack_autolearn: (pid 12394) 55639s
-run: ollama: (pid 12229) 92240s
+run: jack_cortex: (pid 11922) 77646s
+run: jack_telegram: (pid 23044) 53782s
+run: jack_autolearn: (pid 12394) 55821s
+run: ollama: (pid 12229) 92422s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -108,7 +108,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-09 16:16:39] AGENT-START | Schreibe ein Programm das alle Primzahlen bis 50 ausgibt
 [2026-07-09 20:04:23] AGENT-START | Schreibe ein Programm das alle Primzahlen bis 50 ausgibt
 [2026-07-09 20:04:36] AGENT-RUNDE | Schreibe ein Programm das alle Prim #1 | nachbessern
 [2026-07-09 20:04:48] AGENT-RUNDE | Schreibe ein Programm das alle Prim #2 | nachbessern
@@ -128,6 +127,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-09 22:21:13] DATEI-SCHREIBEN | konventionen_fuer_gemini_20260709_2220.json | 1563 Zeichen
 [2026-07-10 09:21:35] WAECHTER-MELDUNG | Xiaomi weg
 [2026-07-10 11:56:58] WAECHTER-MELDUNG | Xiaomi weg
+[2026-07-10 12:17:06] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 22960
