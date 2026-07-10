@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-10T22:46:04.812051)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T22:49:06.671570)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-10T22:46:04.804644
+Stand: 2026-07-10T22:49:06.662291
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-10T22:46:04.804644
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 115349s
-run: jack_telegram: (pid 23044) 91485s
-run: jack_autolearn: (pid 12394) 93524s
-run: ollama: (pid 12229) 130125s
+run: jack_cortex: (pid 11922) 115531s
+run: jack_telegram: (pid 23044) 91667s
+run: jack_autolearn: (pid 12394) 93706s
+run: ollama: (pid 12229) 130307s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-10 12:17:06] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
-Heute: Text 11/300 | Vision 0/40 | Tokens 38148
+Heute: Text 12/300 | Vision 0/40 | Tokens 41954
