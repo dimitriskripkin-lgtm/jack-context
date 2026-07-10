@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-10T14:46:25.287186)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T14:49:27.018060)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-10T14:46:25.274627
+Stand: 2026-07-10T14:49:27.005352
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -27,7 +27,6 @@ Stand: 2026-07-10T14:46:25.274627
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
-- JACK's Lernschleife wurde von `jack_learning_loop.py` zu `jack_learn.py` geändert.
 - Dima hat KEINEN Hund.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
@@ -77,10 +76,10 @@ Stand: 2026-07-10T14:46:25.274627
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 86570s
-run: jack_telegram: (pid 23044) 62706s
-run: jack_autolearn: (pid 12394) 64745s
-run: ollama: (pid 12229) 101346s
+run: jack_cortex: (pid 11922) 86752s
+run: jack_telegram: (pid 23044) 62888s
+run: jack_autolearn: (pid 12394) 64927s
+run: ollama: (pid 12229) 101528s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -130,4 +129,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-10 12:17:06] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
-Heute: Text 7/300 | Vision 0/40 | Tokens 26793
+Heute: Text 8/300 | Vision 0/40 | Tokens 30591
