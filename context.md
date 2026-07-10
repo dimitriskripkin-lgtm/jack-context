@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-10T06:45:50.426357)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T06:48:52.357765)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-10T06:45:50.417631
+Stand: 2026-07-10T06:48:52.349357
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,6 +11,7 @@ Stand: 2026-07-10T06:45:50.417631
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri, ein Nachtschicht-LKW-Fahrer mit Sprinter (Kühlkoffer) bei Dalhoff Feinkost in Achim.
+- Dima ist Hobby-Programmierer.
 - Dima hat KEINEN Hund.
 - JACK ist ein autonomes, lokales AI-OS, das auf einem Honor Magic8 Pro mit Termux läuft.
 - JACK verwendet Gemini 2.5 Flash (Lite) als Haupt-Denker.
@@ -29,7 +30,6 @@ Stand: 2026-07-10T06:45:50.417631
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - JACK's Lernschleife wurde von `jack_learning_loop.py` zu `jack_learn.py` geändert.
-- JACK nutzt `memgpt-3-tier` für sein Gedächtnis, welches selbstlernend und selbstkorrigierend ist.
 
 ## Aktive Module (40)
 - jack_agent.py
@@ -77,10 +77,10 @@ Stand: 2026-07-10T06:45:50.417631
 - Offene Fehler: 0
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 57735s
-run: jack_telegram: (pid 23044) 33871s
-run: jack_autolearn: (pid 12394) 35910s
-run: ollama: (pid 12229) 72511s
+run: jack_cortex: (pid 11922) 57917s
+run: jack_telegram: (pid 23044) 34053s
+run: jack_autolearn: (pid 12394) 36092s
+run: ollama: (pid 12229) 72693s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-09 22:21:13] DATEI-SCHREIBEN | konventionen_fuer_gemini_20260709_2220.json | 1563 Zeichen
 
 ## Budget heute
-Heute: Text 3/300 | Vision 0/40 | Tokens 11430
+Heute: Text 4/300 | Vision 0/40 | Tokens 15286
