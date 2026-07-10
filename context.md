@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-10T06:36:44.185474)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T06:39:46.371201)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-10T06:36:44.175750
+Stand: 2026-07-10T06:39:46.362737
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-10T06:36:44.175750
 - Offene Fehler: 0
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 57189s
-run: jack_telegram: (pid 23044) 33325s
-run: jack_autolearn: (pid 12394) 35364s
-run: ollama: (pid 12229) 71965s
+run: jack_cortex: (pid 11922) 57371s
+run: jack_telegram: (pid 23044) 33507s
+run: jack_autolearn: (pid 12394) 35546s
+run: ollama: (pid 12229) 72147s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
