@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-10T12:45:00.955239)
+# JACK LIVE-KONTEXT (auto, 2026-07-10T12:48:03.132731)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-10T12:45:00.940610
+Stand: 2026-07-10T12:48:03.123250
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -17,19 +17,19 @@ Stand: 2026-07-10T12:45:00.940610
 - JACK verwendet Gemini 2.5 Flash (Lite) als Haupt-Denker.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK beinhaltet das `jack_math.py`-Modul für einfache mathematische Operationen.
 - JACK wurde am 18. Juni gebaut.
 - JACK hat über den Chat keinen direkten Shell- oder Dateizugriff.
 - JACK verwendet `jack_learn.py` als Lerner.
 - JACK läuft auf einem Honor Magic8 Pro mit 16GB RAM und Termux.
 - JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
 - JACK's kostenlose KI-Modelle sind limitiert (Tageslimits).
-- JACK's Chef-KI 'Claude Code' ist ein read-only Berater, erreichbar via Telegram.
+- JACK's Chef-KI 'Claude Code' ist ein read-only Berater.
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - JACK's Lernschleife wurde von `jack_learning_loop.py` zu `jack_learn.py` geändert.
 - Dima hat KEINEN Hund.
+- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
 ## Aktive Module (40)
 - jack_agent.py
@@ -77,10 +77,10 @@ Stand: 2026-07-10T12:45:00.940610
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 11922) 79285s
-run: jack_telegram: (pid 23044) 55421s
-run: jack_autolearn: (pid 12394) 57460s
-run: ollama: (pid 12229) 94061s
+run: jack_cortex: (pid 11922) 79468s
+run: jack_telegram: (pid 23044) 55604s
+run: jack_autolearn: (pid 12394) 57643s
+run: ollama: (pid 12229) 94244s
 
 ## Letzte Aenderungen
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-10 12:17:06] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 22960
+Heute: Text 7/300 | Vision 0/40 | Tokens 26793
