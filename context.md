@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T18:13:28.491357)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T18:19:41.694587)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T18:13:28.481879
+Stand: 2026-07-11T18:19:41.683961
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T18:13:28.481879
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 61409s
-run: jack_telegram: (pid 20687) 61409s
-run: jack_autolearn: (pid 20689) 61409s
-run: ollama: (pid 20694) 61409s
+run: jack_cortex: (pid 20695) 61782s
+run: jack_telegram: (pid 20687) 61782s
+run: jack_autolearn: (pid 20689) 61782s
+run: ollama: (pid 20694) 61782s
 
 ## Letzte Aenderungen
 aebe902 Skill-Gate (Weg 1): assess_skill_risk - subprocess via Whitelist erlaubt, Killer-Muster hart geblockt, /code-Gate unberuehrt
