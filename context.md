@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T16:12:52.910019)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T16:15:54.526699)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T16:12:52.899946
+Stand: 2026-07-11T16:15:54.514825
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T16:12:52.899946
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 54173s
-run: jack_telegram: (pid 20687) 54173s
-run: jack_autolearn: (pid 20689) 54173s
-run: ollama: (pid 20694) 54173s
+run: jack_cortex: (pid 20695) 54355s
+run: jack_telegram: (pid 20687) 54355s
+run: jack_autolearn: (pid 20689) 54355s
+run: ollama: (pid 20694) 54355s
 
 ## Letzte Aenderungen
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
@@ -108,26 +108,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-09 20:19:38] AGENT-START | Schreibe ein Programm das alle Primzahlen bis 50 ausgibt
-[2026-07-09 20:19:48] AGENT-RUNDE | Schreibe ein Programm das alle Prim #1 | ok
-[2026-07-09 20:19:48] AGENT-ERFOLG | Schreibe ein Programm das alle Prim -> script_20260709_2019.py
-[2026-07-09 21:30:57] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-09 21:33:21] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-09 21:35:12] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-09 22:21:13] DATEI-SCHREIBEN | konventionen_fuer_gemini_20260709_2220.json | 1563 Zeichen
-[2026-07-10 09:21:35] WAECHTER-MELDUNG | Xiaomi weg
-[2026-07-10 11:56:58] WAECHTER-MELDUNG | Xiaomi weg
-[2026-07-10 12:17:06] WAECHTER-MELDUNG | Xiaomi weg
-[2026-07-11 01:09:59] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-11 01:14:45] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-11 01:16:16] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-11 01:19:15] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 01:20:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 01:21:59] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 01:22:09] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 15:08:46] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-AUSGEFUEHRT | jack_status
+[2026-07-11 16:15:20] SKILL-GESPEICHERT | ram_check
+[2026-07-11 16:15:20] SKILL-GESPEICHERT | disk_check
+[2026-07-11 16:15:20] SKILL-GESPEICHERT | fehler_report
+[2026-07-11 16:15:20] SKILL-GESPEICHERT | git_status
+[2026-07-11 16:15:20] SKILL-GESPEICHERT | gedaechtnis_stats
+[2026-07-11 16:15:20] SKILL-GESPEICHERT | modell_check
+[2026-07-11 16:15:20] SKILL-GESPEICHERT | budget_rest
+[2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | ram_check
+[2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | disk_check
+[2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | fehler_report
+[2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | git_status
+[2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | gedaechtnis_stats
+[2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | modell_check
+[2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | budget_rest
 
 ## Budget heute
 Heute: Text 2/300 | Vision 0/40 | Tokens 7612

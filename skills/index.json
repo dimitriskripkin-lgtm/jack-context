@@ -1,3 +1,10 @@
 {
-  "jack_status": "Dienste+RAM auf einen Blick"
+  "jack_status": "Dienste+RAM auf einen Blick",
+  "ram_check": "RAM frei/belegt",
+  "disk_check": "Speicherplatz",
+  "fehler_report": "Offene Fehler aus DB",
+  "git_status": "Git-Stand beider Repos",
+  "gedaechtnis_stats": "Gedaechtnis-Zahlen",
+  "modell_check": "Ollama-Modelle",
+  "budget_rest": "API-Budget heute"
 }
