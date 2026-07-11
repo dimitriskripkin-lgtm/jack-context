@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T19:26:37.579639)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T19:29:39.282306)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T19:26:37.570748
+Stand: 2026-07-11T19:29:39.274360
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T19:26:37.570748
 - Offene Fehler: 1
 - Erinnerungen: 96
 - Dienste:
-run: jack_cortex: (pid 20695) 65798s
-run: jack_telegram: (pid 23876) 494s
-run: jack_autolearn: (pid 20689) 65798s
-run: ollama: (pid 20694) 65798s
+run: jack_cortex: (pid 20695) 65980s
+run: jack_telegram: (pid 23876) 676s
+run: jack_autolearn: (pid 20689) 65980s
+run: ollama: (pid 20694) 65980s
 
 ## Letzte Aenderungen
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
@@ -108,8 +108,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 01:20:48] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-11 01:21:59] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 01:22:09] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 15:08:46] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-GESPEICHERT | jack_status
@@ -128,6 +126,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | gedaechtnis_stats
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | modell_check
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | budget_rest
+[2026-07-11 19:28:02] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
 Heute: Text 9/300 | Vision 0/40 | Tokens 22024
