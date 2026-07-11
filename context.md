@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T14:50:40.616052)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T14:53:42.165174)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T14:50:40.606569
+Stand: 2026-07-11T14:53:42.155585
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T14:50:40.606569
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 49241s
-run: jack_telegram: (pid 20687) 49241s
-run: jack_autolearn: (pid 20689) 49241s
-run: ollama: (pid 20694) 49241s
+run: jack_cortex: (pid 20695) 49423s
+run: jack_telegram: (pid 20687) 49423s
+run: jack_autolearn: (pid 20689) 49423s
+run: ollama: (pid 20694) 49423s
 
 ## Letzte Aenderungen
 b55f1d6 CLAUDE.md: auf Live-Stand konsolidiert - jack_waechter->jack_autonomous Mapping, alle 6 Dienste, DB-Schemas, erledigte Baustellen raus
