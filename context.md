@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T15:20:56.164351)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T15:23:57.935246)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T15:20:56.156457
+Stand: 2026-07-11T15:23:57.927434
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T15:20:56.156457
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 51057s
-run: jack_telegram: (pid 20687) 51057s
-run: jack_autolearn: (pid 20689) 51057s
-run: ollama: (pid 20694) 51057s
+run: jack_cortex: (pid 20695) 51238s
+run: jack_telegram: (pid 20687) 51238s
+run: jack_autolearn: (pid 20689) 51238s
+run: ollama: (pid 20694) 51238s
 
 ## Letzte Aenderungen
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
@@ -108,8 +108,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-09 20:05:56] AGENT-RUNDE | Schreibe ein Programm das meine Sec #3 | nachbessern
-[2026-07-09 20:06:09] AGENT-RUNDE | Schreibe ein Programm das meine Sec #4 | nachbessern
 [2026-07-09 20:19:38] AGENT-START | Schreibe ein Programm das alle Primzahlen bis 50 ausgibt
 [2026-07-09 20:19:48] AGENT-RUNDE | Schreibe ein Programm das alle Prim #1 | ok
 [2026-07-09 20:19:48] AGENT-ERFOLG | Schreibe ein Programm das alle Prim -> script_20260709_2019.py
@@ -128,6 +126,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 01:21:59] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 01:22:09] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 15:08:46] SKILL-GESPEICHERT | jack_status
+[2026-07-11 15:23:19] SKILL-GESPEICHERT | jack_status
+[2026-07-11 15:23:19] SKILL-AUSGEFUEHRT | jack_status
 
 ## Budget heute
 Heute: Text 2/300 | Vision 0/40 | Tokens 7612
