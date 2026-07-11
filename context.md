@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T15:05:48.186453)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T15:08:49.712983)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T15:05:48.177644
+Stand: 2026-07-11T15:08:49.702850
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T15:05:48.177644
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 50149s
-run: jack_telegram: (pid 20687) 50149s
-run: jack_autolearn: (pid 20689) 50149s
-run: ollama: (pid 20694) 50149s
+run: jack_cortex: (pid 20695) 50330s
+run: jack_telegram: (pid 20687) 50330s
+run: jack_autolearn: (pid 20689) 50330s
+run: ollama: (pid 20694) 50330s
 
 ## Letzte Aenderungen
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
@@ -108,7 +108,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-09 20:05:44] AGENT-RUNDE | Schreibe ein Programm das meine Sec #2 | nachbessern
 [2026-07-09 20:05:56] AGENT-RUNDE | Schreibe ein Programm das meine Sec #3 | nachbessern
 [2026-07-09 20:06:09] AGENT-RUNDE | Schreibe ein Programm das meine Sec #4 | nachbessern
 [2026-07-09 20:19:38] AGENT-START | Schreibe ein Programm das alle Primzahlen bis 50 ausgibt
@@ -128,6 +127,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 01:20:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 01:21:59] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 01:22:09] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-11 15:08:46] SKILL-GESPEICHERT | jack_status
 
 ## Budget heute
 Heute: Text 2/300 | Vision 0/40 | Tokens 7612
