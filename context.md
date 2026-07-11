@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T18:38:30.582381)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T18:41:32.221567)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T18:38:30.573254
+Stand: 2026-07-11T18:41:32.209510
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,9 +31,10 @@ Stand: 2026-07-11T18:38:30.573254
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK's Hauptdenker ist Gemini 2.5 Flash (Lite).
 
-## Aktive Module (40)
+## Aktive Module (41)
 - jack_agent.py
 - jack_approval.py
+- jack_audit.py
 - jack_autonomous.py
 - jack_budget.py
 - jack_bug_fixer.py
@@ -77,10 +78,10 @@ Stand: 2026-07-11T18:38:30.573254
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 62911s
-run: jack_telegram: (pid 20687) 62911s
-run: jack_autolearn: (pid 20689) 62911s
-run: ollama: (pid 20694) 62911s
+run: jack_cortex: (pid 20695) 63093s
+run: jack_telegram: (pid 20687) 63093s
+run: jack_autolearn: (pid 20689) 63093s
+run: ollama: (pid 20694) 63093s
 
 ## Letzte Aenderungen
 aebe902 Skill-Gate (Weg 1): assess_skill_risk - subprocess via Whitelist erlaubt, Killer-Muster hart geblockt, /code-Gate unberuehrt
