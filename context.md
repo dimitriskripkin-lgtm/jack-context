@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T22:39:06.767422)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T22:42:08.844061)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T22:39:06.745472
+Stand: 2026-07-11T22:42:08.824702
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -10,25 +10,25 @@ Stand: 2026-07-11T22:39:06.745472
 - WICHTIG: Dima ist der MENSCH/Nutzer. JACK ist das SYSTEM/die KI. Niemals verwechseln.
 
 ## Was JACK ueber Dima gelernt hat
-- Dima ist Dimitri, ein Nachtschicht-LKW-Fahrer mit Sprinter (Kühlkoffer) bei Dalhoff Feinkost in Achim.
+- Dima ist Dimitri.
+- Dima ist Nachtschicht-LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim.
 - Dima ist Hobby-Programmierer.
 - Dima nutzt Gemini Plus und Claude.ai.
-- JACK ist ein autonomes, lokales AI-OS, das auf einem Honor Magic8 Pro mit Termux läuft.
-- JACK verwendet Gemini 2.5 Flash (Lite) als Haupt-Denker.
+- JACK ist ein autonomes, lokales AI-OS.
+- JACK läuft auf einem Honor Magic8 Pro mit Termux und 16GB RAM.
+- JACK nutzt Gemini 2.5 Flash (Lite) als Hauptdenker.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
 - JACK wurde am 18. Juni gebaut.
 - JACK verwendet `jack_learn.py` als Lerner.
-- JACK läuft auf einem Honor Magic8 Pro mit 16GB RAM und Termux.
 - JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
-- JACK's kostenlose KI-Modelle sind limitiert (Tageslimits).
+- JACK's kostenlose KI-Modelle haben Tageslimits.
 - JACK's Chef-KI 'Claude Code' ist ein read-only Berater.
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
-- JACK's Hauptdenker ist Gemini 2.5 Flash (Lite).
+- Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 
 ## Aktive Module (40)
@@ -77,10 +77,10 @@ Stand: 2026-07-11T22:39:06.745472
 - Offene Fehler: 1
 - Erinnerungen: 99
 - Dienste:
-run: jack_cortex: (pid 20695) 77347s
-run: jack_telegram: (pid 23876) 12043s
-run: jack_autolearn: (pid 20689) 77347s
-run: ollama: (pid 20694) 77347s
+run: jack_cortex: (pid 20695) 77529s
+run: jack_telegram: (pid 23876) 12225s
+run: jack_autolearn: (pid 20689) 77529s
+run: ollama: (pid 20694) 77529s
 
 ## Letzte Aenderungen
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 16/300 | Vision 0/40 | Tokens 36209
+Heute: Text 17/300 | Vision 0/40 | Tokens 40062
