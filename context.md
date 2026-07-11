@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T15:42:08.171084)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T15:45:09.733125)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T15:42:08.160890
+Stand: 2026-07-11T15:45:09.719322
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T15:42:08.160890
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 52329s
-run: jack_telegram: (pid 20687) 52329s
-run: jack_autolearn: (pid 20689) 52329s
-run: ollama: (pid 20694) 52329s
+run: jack_cortex: (pid 20695) 52510s
+run: jack_telegram: (pid 20687) 52510s
+run: jack_autolearn: (pid 20689) 52510s
+run: ollama: (pid 20694) 52510s
 
 ## Letzte Aenderungen
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
