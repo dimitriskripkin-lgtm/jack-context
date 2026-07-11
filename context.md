@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T19:10:31.060261)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T19:14:31.064568)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T19:10:31.045097
+Stand: 2026-07-11T19:14:31.056722
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-11T19:10:31.045097
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK's Hauptdenker ist Gemini 2.5 Flash (Lite).
 
-## Aktive Module (41)
+## Aktive Module (40)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -45,7 +45,6 @@ Stand: 2026-07-11T19:10:31.045097
 - jack_cortex.py
 - jack_gemini_bridge.py
 - jack_handshake_gen.py
-- jack_health.py
 - jack_improve.py
 - jack_learn.py
 - jack_log.py
@@ -78,12 +77,13 @@ Stand: 2026-07-11T19:10:31.045097
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 64832s
-run: jack_telegram: (pid 20687) 64832s
-run: jack_autolearn: (pid 20689) 64832s
-run: ollama: (pid 20694) 64832s
+run: jack_cortex: (pid 20695) 65072s
+run: jack_telegram: (pid 20687) 65072s
+run: jack_autolearn: (pid 20689) 65072s
+run: ollama: (pid 20694) 65072s
 
 ## Letzte Aenderungen
+a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
 aebe902 Skill-Gate (Weg 1): assess_skill_risk - subprocess via Whitelist erlaubt, Killer-Muster hart geblockt, /code-Gate unberuehrt
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
 b55f1d6 CLAUDE.md: auf Live-Stand konsolidiert - jack_waechter->jack_autonomous Mapping, alle 6 Dienste, DB-Schemas, erledigte Baustellen raus
@@ -98,7 +98,6 @@ a98e082 Rate-Limit-Fix: Modellwechsel auf freies Gemini-Modell, Token-Zaehler ei
 2cc5b3f Gemini-Bridge: Retry+Backoff gegen HTTP 429 (Rate-Limit) - Agent + Chat laufen jetzt drosselfest
 58360e2 Autonomer Agent: /auto <ziel> - JACK loest Ziele selbststaendig in der Werkstatt (schreibt+testet+verbessert, max 4 Runden), im Hintergrund-Thread, harte Sandbox-Waende bleiben
 b683f1f Skill-Bibliothek: erfolgreiche Code-Bausteine speichern (/skill save) + kostenlos wiederverwenden (/skill <name>) - senkt API-Kosten, macht JACK unabhaengiger
-77a3333 Kosten-Bremse: Tageslimits Gemini Text(300)+Vision(40), /budget-Befehl - schuetzt vor Kosten-Explosion bei Bild-/Sensordaten
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
