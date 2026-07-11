@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T14:53:42.165174)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T14:56:43.782661)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T14:53:42.155585
+Stand: 2026-07-11T14:56:43.774081
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,12 +77,13 @@ Stand: 2026-07-11T14:53:42.155585
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 49423s
-run: jack_telegram: (pid 20687) 49423s
-run: jack_autolearn: (pid 20689) 49423s
-run: ollama: (pid 20694) 49423s
+run: jack_cortex: (pid 20695) 49604s
+run: jack_telegram: (pid 20687) 49604s
+run: jack_autolearn: (pid 20689) 49604s
+run: ollama: (pid 20694) 49604s
 
 ## Letzte Aenderungen
+f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
 b55f1d6 CLAUDE.md: auf Live-Stand konsolidiert - jack_waechter->jack_autonomous Mapping, alle 6 Dienste, DB-Schemas, erledigte Baustellen raus
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
 3641e51 taskrunner neu gestartet, Waechter-Baseline frisch
@@ -97,7 +98,6 @@ a98e082 Rate-Limit-Fix: Modellwechsel auf freies Gemini-Modell, Token-Zaehler ei
 b683f1f Skill-Bibliothek: erfolgreiche Code-Bausteine speichern (/skill save) + kostenlos wiederverwenden (/skill <name>) - senkt API-Kosten, macht JACK unabhaengiger
 77a3333 Kosten-Bremse: Tageslimits Gemini Text(300)+Vision(40), /budget-Befehl - schuetzt vor Kosten-Explosion bei Bild-/Sensordaten
 14fb2a3 Entscheidungs-Logbuch: jede JACK-Aktion nachvollziehbar (jack_log), /log in Telegram - Grundstein fuer sichere Autonomie
-b372e98 Selbstverbesserung jack_math.py (JACK-Vorschlag, Dima-Freigabe)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
