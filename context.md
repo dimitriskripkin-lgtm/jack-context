@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T19:32:41.167513)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T19:35:56.738306)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T19:32:41.157752
+Stand: 2026-07-11T19:35:56.729703
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -18,7 +18,6 @@ Stand: 2026-07-11T19:32:41.157752
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
 - JACK wurde am 18. Juni gebaut.
-- JACK hat über den Chat keinen direkten Shell- oder Dateizugriff.
 - JACK verwendet `jack_learn.py` als Lerner.
 - JACK läuft auf einem Honor Magic8 Pro mit 16GB RAM und Termux.
 - JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
@@ -30,6 +29,7 @@ Stand: 2026-07-11T19:32:41.157752
 - Dima hat KEINEN Hund.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK's Hauptdenker ist Gemini 2.5 Flash (Lite).
+- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 
 ## Aktive Module (40)
 - jack_agent.py
@@ -77,10 +77,10 @@ Stand: 2026-07-11T19:32:41.157752
 - Offene Fehler: 1
 - Erinnerungen: 96
 - Dienste:
-run: jack_cortex: (pid 20695) 66162s
-run: jack_telegram: (pid 23876) 858s
-run: jack_autolearn: (pid 20689) 66162s
-run: ollama: (pid 20694) 66162s
+run: jack_cortex: (pid 20695) 66357s
+run: jack_telegram: (pid 23876) 1053s
+run: jack_autolearn: (pid 20689) 66357s
+run: ollama: (pid 20694) 66357s
 
 ## Letzte Aenderungen
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 22024
+Heute: Text 10/300 | Vision 0/40 | Tokens 25837
