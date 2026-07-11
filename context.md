@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-11T16:21:57.735258)
+# JACK LIVE-KONTEXT (auto, 2026-07-11T16:24:59.326188)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-11T16:21:57.728322
+Stand: 2026-07-11T16:24:59.317294
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-11T16:21:57.728322
 - Offene Fehler: 1
 - Erinnerungen: 93
 - Dienste:
-run: jack_cortex: (pid 20695) 54718s
-run: jack_telegram: (pid 20687) 54718s
-run: jack_autolearn: (pid 20689) 54718s
-run: ollama: (pid 20694) 54718s
+run: jack_cortex: (pid 20695) 54900s
+run: jack_telegram: (pid 20687) 54900s
+run: jack_autolearn: (pid 20689) 54900s
+run: ollama: (pid 20694) 54900s
 
 ## Letzte Aenderungen
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | budget_rest
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 7612
+Heute: Text 3/300 | Vision 0/40 | Tokens 11891
