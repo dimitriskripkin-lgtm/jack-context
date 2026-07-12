@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-12T19:45:29.177698)
+# JACK LIVE-KONTEXT (auto, 2026-07-12T20:32:44.735453)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-12T19:45:29.166062
+Stand: 2026-07-12T20:32:44.727662
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,11 +11,11 @@ Stand: 2026-07-12T19:45:29.166062
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist Nachtschicht-LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim.
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
 - Dima ist Hobby-Programmierer.
 - Dima nutzt Gemini Plus und Claude.ai.
 - JACK ist ein autonomes, lokales AI-OS.
-- JACK läuft auf einem Honor Magic8 Pro mit Termux und 16GB RAM.
+- JACK läuft auf einem Honor Magic8 Pro mit Termux.
 - JACK nutzt Gemini 2.5 Flash (Lite) als Hauptdenker.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
@@ -28,7 +28,6 @@ Stand: 2026-07-12T19:45:29.166062
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
-- Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 
 ## Aktive Module (40)
@@ -77,10 +76,10 @@ Stand: 2026-07-12T19:45:29.166062
 - Offene Fehler: 1
 - Erinnerungen: 99
 - Dienste:
-run: jack_cortex: (pid 20695) 153330s
-run: jack_telegram: (pid 23876) 88026s
-run: jack_autolearn: (pid 20689) 153330s
-run: ollama: (pid 20694) 153330s
+run: jack_cortex: (pid 20695) 156165s
+run: jack_telegram: (pid 23876) 90861s
+run: jack_autolearn: (pid 20689) 156165s
+run: ollama: (pid 20694) 156165s
 
 ## Letzte Aenderungen
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
@@ -130,4 +129,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 4/300 | Vision 0/40 | Tokens 15220
+Heute: Text 5/300 | Vision 0/40 | Tokens 19010
