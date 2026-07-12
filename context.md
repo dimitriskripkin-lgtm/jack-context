@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-12T07:58:46.225004)
+# JACK LIVE-KONTEXT (auto, 2026-07-12T08:35:11.311942)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-12T07:58:46.216093
+Stand: 2026-07-12T08:35:11.294435
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-12T07:58:46.216093
 - Offene Fehler: 1
 - Erinnerungen: 99
 - Dienste:
-run: jack_cortex: (pid 20695) 110927s
-run: jack_telegram: (pid 23876) 45623s
-run: jack_autolearn: (pid 20689) 110927s
-run: ollama: (pid 20694) 110927s
+run: jack_cortex: (pid 20695) 113112s
+run: jack_telegram: (pid 23876) 47808s
+run: jack_autolearn: (pid 20689) 113112s
+run: ollama: (pid 20694) 113112s
 
 ## Letzte Aenderungen
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
