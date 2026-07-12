@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-12T08:47:19.307826)
+# JACK LIVE-KONTEXT (auto, 2026-07-12T09:28:42.817161)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-12T08:47:19.297835
+Stand: 2026-07-12T09:28:42.807363
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,10 +77,10 @@ Stand: 2026-07-12T08:47:19.297835
 - Offene Fehler: 1
 - Erinnerungen: 99
 - Dienste:
-run: jack_cortex: (pid 20695) 113840s
-run: jack_telegram: (pid 23876) 48536s
-run: jack_autolearn: (pid 20689) 113840s
-run: ollama: (pid 20694) 113840s
+run: jack_cortex: (pid 20695) 116323s
+run: jack_telegram: (pid 23876) 51019s
+run: jack_autolearn: (pid 20689) 116323s
+run: ollama: (pid 20694) 116323s
 
 ## Letzte Aenderungen
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 7610
+Heute: Text 3/300 | Vision 0/40 | Tokens 11415
