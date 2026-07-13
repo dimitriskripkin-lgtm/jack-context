@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T12:01:01.803951)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T12:04:03.504558)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T12:01:01.795096
+Stand: 2026-07-13T12:04:03.495722
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -84,10 +84,10 @@ Stand: 2026-07-13T12:01:01.795096
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 211862s
-run: jack_telegram: (pid 7791) 6343s
-run: jack_autolearn: (pid 20689) 211862s
-run: ollama: (pid 20694) 211862s
+run: jack_cortex: (pid 20695) 212044s
+run: jack_telegram: (pid 7791) 6525s
+run: jack_autolearn: (pid 20689) 212044s
+run: ollama: (pid 20694) 212044s
 
 ## Letzte Aenderungen
 529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
@@ -115,8 +115,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
-[2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 06:51:45] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-13 06:52:25] SELF-IMPROVE | jack_cortex 1x, fix=fix_cortex_ssh_timeout_20260713_065225
 [2026-07-13 07:00:56] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_065225: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
@@ -135,6 +133,8 @@ OK: Fix
 [2026-07-13 10:46:16] CONSOLIDATE | Session gespeichert: 10 Logs, 3 Zugriffe
 [2026-07-13 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 4 Zugriffe
 [2026-07-13 11:59:44] RADAR | 0 neue Anzeigen gefunden
+[2026-07-13 12:02:00] RADAR | 0 neue Anzeigen gefunden
+[2026-07-13 12:03:41] RADAR | 20 neue Anzeigen gefunden
 
 ## Budget heute
 Heute: Text 24/300 | Vision 0/40 | Tokens 49706
