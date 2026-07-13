@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T07:16:13.842013)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T07:19:15.511301)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T07:16:13.833201
+Stand: 2026-07-13T07:19:15.503192
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -80,12 +80,13 @@ Stand: 2026-07-13T07:16:13.833201
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 194774s
-run: jack_telegram: (pid 30633) 1375s
-run: jack_autolearn: (pid 20689) 194774s
-run: ollama: (pid 20694) 194774s
+run: jack_cortex: (pid 20695) 194956s
+run: jack_telegram: (pid 30633) 1557s
+run: jack_autolearn: (pid 20689) 194956s
+run: ollama: (pid 20694) 194956s
 
 ## Letzte Aenderungen
+a27ee9d chore: .last_self_improve zu gitignore
 1f0eaed feat: Waechter ruft jack_self_improve taeglich auf
 ca5742c feat: JACK erste autonome Selbstverbesserung - SSH-Timeout 15->25s per approve_fix
 7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
@@ -100,7 +101,6 @@ a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 8d5848b fix: restliche 4 Silent Fails geloggt (jack_publish/bug_fixer/sensors/gemini)
 4e2ae04 fix: Silent Fails ausgeraeumt - alle except:pass loggen jetzt nach jack_decisions.log
 dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
-c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
