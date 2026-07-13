@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:02:47.359424)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:05:48.986500)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:02:47.345243
+Stand: 2026-07-13T10:05:48.979383
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,12 +81,13 @@ Stand: 2026-07-13T10:02:47.345243
 - Offene Fehler: 0
 - Erinnerungen: 106
 - Dienste:
-run: jack_cortex: (pid 20695) 204768s
-run: jack_telegram: (pid 22938) 364s
-run: jack_autolearn: (pid 20689) 204768s
-run: ollama: (pid 20694) 204768s
+run: jack_cortex: (pid 20695) 204949s
+run: jack_telegram: (pid 28376) 118s
+run: jack_autolearn: (pid 20689) 204949s
+run: ollama: (pid 20694) 204949s
 
 ## Letzte Aenderungen
+d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü funktioniert
 7b62d48 chore: negative_patterns.json tracken
 31d5bd1 feat: /m /menu Schnellzugriff mit 6 Buttons + Logs-Handler
 2858ee8 feat: Status-Button kompakt, test_button mit echten Queries
@@ -101,7 +102,6 @@ a27ee9d chore: .last_self_improve zu gitignore
 1f0eaed feat: Waechter ruft jack_self_improve taeglich auf
 ca5742c feat: JACK erste autonome Selbstverbesserung - SSH-Timeout 15->25s per approve_fix
 7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
-a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
