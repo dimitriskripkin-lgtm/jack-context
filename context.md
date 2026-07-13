@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:21:55.080960)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:24:56.626850)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:21:55.076954
+Stand: 2026-07-13T04:24:56.616822
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,12 +78,13 @@ Stand: 2026-07-13T04:21:55.076954
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 184316s
-run: jack_telegram: (pid 4826) 226s
-run: jack_autolearn: (pid 20689) 184316s
-run: ollama: (pid 20694) 184316s
+run: jack_cortex: (pid 20695) 184497s
+run: jack_telegram: (pid 10273) 179s
+run: jack_autolearn: (pid 20689) 184497s
+run: ollama: (pid 20694) 184497s
 
 ## Letzte Aenderungen
+c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
 e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreibt nur sensoren-Block
 94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
 7fc9e3c feat: kortex_memory.py - semantisches Gedaechtnis mit FTS5, 3 Flask-Routen live
@@ -98,7 +99,6 @@ c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probl
 60f557c Aufraeumen: jack_learning_loop.py + Backups stillgelegt, CLAUDE.md mit echter Dienstliste - verhindert dass Claude Code aus toten Dateien liest
 61694b6 Claude Code Bruecke: /cc im Telegram (Text) + Sprach-Routing (Voice startet mit 'claude'). Read-only Berater kennt die ganze Umgebung, laeuft ueber Abo
 ff4ac38 CLAUDE.md Wissensbasis + Publisher pusht ganze Umgebung (Werkstatt/Skills/Logs)
-b56a851 Memory: absolute Korrekturen (kein Hund/LKW-Fahrer) verankert, Publish-Scrub praeziser
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
