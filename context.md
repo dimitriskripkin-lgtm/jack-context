@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:42:09.383482)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:45:11.002684)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:42:09.377902
+Stand: 2026-07-13T10:45:10.994420
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T10:42:09.377902
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (44)
+## Aktive Module (45)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -52,6 +52,7 @@ Stand: 2026-07-13T10:42:09.377902
 - jack_math.py
 - jack_memory.py
 - jack_memory_engine.py
+- jack_memory_maintenance.py
 - jack_operator.py
 - jack_patch.py
 - jack_personality.py
@@ -81,12 +82,14 @@ Stand: 2026-07-13T10:42:09.377902
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 207130s
-run: jack_telegram: (pid 7791) 1611s
-run: jack_autolearn: (pid 20689) 207130s
-run: ollama: (pid 20694) 207130s
+run: jack_cortex: (pid 20695) 207311s
+run: jack_telegram: (pid 7791) 1792s
+run: jack_autolearn: (pid 20689) 207311s
+run: ollama: (pid 20694) 207311s
 
 ## Letzte Aenderungen
+45fe598 feat: jack_memory_maintenance.py - Stale-Marking taeglich 06:00
+f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Score
 8d24455 feat: Persona in AGENTS.md und jack_self.json verlinkt
 60a03af feat: jack_persona.json - psychologisches Profil fuer JACK und alle KIs
 6a19f35 fix: gedaechtnis zeigt 200 Zeichen
@@ -100,8 +103,6 @@ a0b50f2 feat: status + suche callback Handler fuer Inline-Buttons
 496289a fix: callback_query vor CHAT_ID-Check - Buttons live
 74a2e7c fix: null nicht mehr senden wenn handle() None zurueckgibt
 b6e12f5 feat: Fix-Vorschlaege mit Inline-Buttons + /test_button Befehl
-ab9e621 feat: Telegram Inline-Keyboard + callback_query + negative_patterns.json
-317e403 chore: jack_fixes.json nach Test-Fix geleert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -112,7 +113,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | budget_rest
 [2026-07-11 19:28:02] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -132,6 +132,7 @@ OK: Fix
 [2026-07-13 08:19:11] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 09:02:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-13 09:36:57] REJECT-FIX-BUTTON | test abgelehnt
+[2026-07-13 10:43:50] MEMORY-MAINTENANCE | Gesamt: 10 Eintraege | Stale: 0
 
 ## Budget heute
 Heute: Text 23/300 | Vision 0/40 | Tokens 44598
