@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:58:15.046196)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:59:58.911516)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:58:15.036212
+Stand: 2026-07-13T04:59:58.903904
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,12 +78,13 @@ Stand: 2026-07-13T04:58:15.036212
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 186496s
-run: jack_telegram: (pid 10273) 2178s
-run: jack_autolearn: (pid 20689) 186496s
-run: ollama: (pid 20694) 186496s
+run: jack_cortex: (pid 20695) 186599s
+run: jack_telegram: (pid 10273) 2281s
+run: jack_autolearn: (pid 20689) 186599s
+run: ollama: (pid 20694) 186599s
 
 ## Letzte Aenderungen
+8d5848b fix: restliche 4 Silent Fails geloggt (jack_publish/bug_fixer/sensors/gemini)
 4e2ae04 fix: Silent Fails ausgeraeumt - alle except:pass loggen jetzt nach jack_decisions.log
 dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
 c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
@@ -98,7 +99,6 @@ b55f1d6 CLAUDE.md: auf Live-Stand konsolidiert - jack_waechter->jack_autonomous 
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
 3641e51 taskrunner neu gestartet, Waechter-Baseline frisch
 c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probleme per Telegram, restartet tote Dienste, erster Lauf nur Baseline (weckt nicht)
-60f557c Aufraeumen: jack_learning_loop.py + Backups stillgelegt, CLAUDE.md mit echter Dienstliste - verhindert dass Claude Code aus toten Dateien liest
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
