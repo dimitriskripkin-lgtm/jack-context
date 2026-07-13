@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:41:34.425061)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:44:35.995427)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:41:34.416615
+Stand: 2026-07-13T09:44:35.983107
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,10 +81,10 @@ Stand: 2026-07-13T09:41:34.416615
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 203495s
-run: jack_telegram: (pid 12526) 113s
-run: jack_autolearn: (pid 20689) 203495s
-run: ollama: (pid 20694) 203495s
+run: jack_cortex: (pid 20695) 203676s
+run: jack_telegram: (pid 12526) 294s
+run: jack_autolearn: (pid 20689) 203676s
+run: ollama: (pid 20694) 203676s
 
 ## Letzte Aenderungen
 2858ee8 feat: Status-Button kompakt, test_button mit echten Queries
