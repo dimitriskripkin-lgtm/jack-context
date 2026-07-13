@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T12:19:12.187601)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T12:22:13.881978)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T12:19:12.177898
+Stand: 2026-07-13T12:22:13.873648
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T12:19:12.177898
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (47)
+## Aktive Module (48)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -67,6 +67,7 @@ Stand: 2026-07-13T12:19:12.177898
 - jack_telegram.py
 - jack_v2.py
 - jack_vecdb.py
+- jack_vinted_radar.py
 - jack_voice.py
 - jack_voice_el.py
 - jack_voice_processor.py
@@ -84,10 +85,10 @@ Stand: 2026-07-13T12:19:12.177898
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 212953s
-run: jack_telegram: (pid 7791) 7434s
-run: jack_autolearn: (pid 20689) 212953s
-run: ollama: (pid 20694) 212953s
+run: jack_cortex: (pid 20695) 213134s
+run: jack_telegram: (pid 7791) 7615s
+run: jack_autolearn: (pid 20689) 213134s
+run: ollama: (pid 20694) 213134s
 
 ## Letzte Aenderungen
 592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert

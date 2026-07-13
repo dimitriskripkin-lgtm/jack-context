@@ -33,6 +33,7 @@
 -rw-------. 1 u0_a400 u0_a400 18255 Jul 13 10:15 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rwx------. 1 u0_a400 u0_a400  1555 Jun 19 10:49 /data/data/com.termux/files/home/jack/jack_v2.py
 -rw-------. 1 u0_a400 u0_a400  2199 Jul  9 03:19 /data/data/com.termux/files/home/jack/jack_vecdb.py
+-rw-------. 1 u0_a400 u0_a400  4921 Jul 13 12:20 /data/data/com.termux/files/home/jack/jack_vinted_radar.py
 -rw-------. 1 u0_a400 u0_a400  2151 Jul  3 17:53 /data/data/com.termux/files/home/jack/jack_voice.py
 -rw-------. 1 u0_a400 u0_a400  1437 Jul  3 17:51 /data/data/com.termux/files/home/jack/jack_voice_el.py
 -rw-------. 1 u0_a400 u0_a400  1842 Jul  9 21:21 /data/data/com.termux/files/home/jack/jack_voice_processor.py
