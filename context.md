@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T12:04:03.504558)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T12:07:05.187173)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T12:04:03.495722
+Stand: 2026-07-13T12:07:05.179425
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -84,10 +84,10 @@ Stand: 2026-07-13T12:04:03.495722
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 212044s
-run: jack_telegram: (pid 7791) 6525s
-run: jack_autolearn: (pid 20689) 212044s
-run: ollama: (pid 20694) 212044s
+run: jack_cortex: (pid 20695) 212226s
+run: jack_telegram: (pid 7791) 6707s
+run: jack_autolearn: (pid 20689) 212226s
+run: ollama: (pid 20694) 212226s
 
 ## Letzte Aenderungen
 529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
