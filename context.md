@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:52:11.774490)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:55:13.492825)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:52:11.766318
+Stand: 2026-07-13T04:55:13.481499
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,10 +78,10 @@ Stand: 2026-07-13T04:52:11.766318
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 186132s
-run: jack_telegram: (pid 10273) 1814s
-run: jack_autolearn: (pid 20689) 186132s
-run: ollama: (pid 20694) 186132s
+run: jack_cortex: (pid 20695) 186314s
+run: jack_telegram: (pid 10273) 1996s
+run: jack_autolearn: (pid 20689) 186314s
+run: ollama: (pid 20694) 186314s
 
 ## Letzte Aenderungen
 dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
@@ -109,7 +109,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 15:23:19] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-AUSGEFUEHRT | jack_status
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | ram_check
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | disk_check
@@ -129,6 +128,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
+[2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
 Heute: Text 13/300 | Vision 0/40 | Tokens 15238
