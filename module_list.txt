@@ -38,7 +38,7 @@
 -rw-------. 1 u0_a400 u0_a400  3079 Jul  9 15:13 /data/data/com.termux/files/home/jack/jack_write.py
 -rw-------. 1 u0_a400 u0_a400  2850 Jul  7 14:57 /data/data/com.termux/files/home/jack/jack_xiaomi.py
 -rw-------. 1 u0_a400 u0_a400  5140 Jul 13 04:04 /data/data/com.termux/files/home/jack/kortex_controller.py
--rw-------. 1 u0_a400 u0_a400  2883 Jul 13 10:42 /data/data/com.termux/files/home/jack/kortex_memory.py
+-rw-------. 1 u0_a400 u0_a400  3057 Jul 13 10:52 /data/data/com.termux/files/home/jack/kortex_memory.py
 -rw-------. 1 u0_a400 u0_a400  3252 Jul 13 05:19 /data/data/com.termux/files/home/jack/kortex_profile_updater.py
 -rwx------. 1 u0_a400 u0_a400  1966 Jul 13 04:11 /data/data/com.termux/files/home/jack/kortex_profiler.py
 -rwx------. 1 u0_a400 u0_a400  1963 Jul  6 14:40 /data/data/com.termux/files/home/jack/kortex_sensor_daemon.py

@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:51:16.486817)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:54:18.075353)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:51:16.477330
+Stand: 2026-07-13T10:54:18.066104
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -83,12 +83,13 @@ Stand: 2026-07-13T10:51:16.477330
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 207677s
-run: jack_telegram: (pid 7791) 2158s
-run: jack_autolearn: (pid 20689) 207677s
-run: ollama: (pid 20694) 207677s
+run: jack_cortex: (pid 20695) 207859s
+run: jack_telegram: (pid 7791) 2340s
+run: jack_autolearn: (pid 20689) 207859s
+run: ollama: (pid 20694) 207859s
 
 ## Letzte Aenderungen
+c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
 0da8631 fix: Session-Text auf 300 Zeichen erweitert
 efb0b2c feat: Briefing v2 - Akku, Dienste, Sessions, Fehler, Fixes chronologisch
 2e90553 feat: jack_consolidate.py - Session-Konsolidierung taeglich 11:00
@@ -103,7 +104,6 @@ d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü fun
 7b62d48 chore: negative_patterns.json tracken
 31d5bd1 feat: /m /menu Schnellzugriff mit 6 Buttons + Logs-Handler
 2858ee8 feat: Status-Button kompakt, test_button mit echten Queries
-a0b50f2 feat: status + suche callback Handler fuer Inline-Buttons
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
