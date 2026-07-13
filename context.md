@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:20:22.032887)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:23:23.592213)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:20:22.023316
+Stand: 2026-07-13T09:23:23.587089
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,10 +81,10 @@ Stand: 2026-07-13T09:20:22.023316
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 202223s
-run: jack_telegram: (pid 25540) 140s
-run: jack_autolearn: (pid 20689) 202223s
-run: ollama: (pid 20694) 202223s
+run: jack_cortex: (pid 20695) 202404s
+run: jack_telegram: (pid 25540) 321s
+run: jack_autolearn: (pid 20689) 202404s
+run: ollama: (pid 20694) 202404s
 
 ## Letzte Aenderungen
 74a2e7c fix: null nicht mehr senden wenn handle() None zurueckgibt
