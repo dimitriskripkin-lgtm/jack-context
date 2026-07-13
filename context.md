@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T12:13:08.497350)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T12:16:10.164262)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T12:13:08.490315
+Stand: 2026-07-13T12:16:10.154367
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -84,12 +84,13 @@ Stand: 2026-07-13T12:13:08.490315
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 212589s
-run: jack_telegram: (pid 7791) 7070s
-run: jack_autolearn: (pid 20689) 212589s
-run: ollama: (pid 20694) 212589s
+run: jack_cortex: (pid 20695) 212771s
+run: jack_telegram: (pid 7791) 7252s
+run: jack_autolearn: (pid 20689) 212771s
+run: ollama: (pid 20694) 212771s
 
 ## Letzte Aenderungen
+592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert
 529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
 0da8631 fix: Session-Text auf 300 Zeichen erweitert
@@ -104,7 +105,6 @@ f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Scor
 8f0d666 fix: raw vor audit-Check definiert
 d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü funktioniert
 7b62d48 chore: negative_patterns.json tracken
-31d5bd1 feat: /m /menu Schnellzugriff mit 6 Buttons + Logs-Handler
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
