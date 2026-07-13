@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:48:12.716601)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:51:16.486817)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:48:12.708401
+Stand: 2026-07-13T10:51:16.477330
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -83,12 +83,14 @@ Stand: 2026-07-13T10:48:12.708401
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 207493s
-run: jack_telegram: (pid 7791) 1974s
-run: jack_autolearn: (pid 20689) 207493s
-run: ollama: (pid 20694) 207493s
+run: jack_cortex: (pid 20695) 207677s
+run: jack_telegram: (pid 7791) 2158s
+run: jack_autolearn: (pid 20689) 207677s
+run: ollama: (pid 20694) 207677s
 
 ## Letzte Aenderungen
+0da8631 fix: Session-Text auf 300 Zeichen erweitert
+efb0b2c feat: Briefing v2 - Akku, Dienste, Sessions, Fehler, Fixes chronologisch
 2e90553 feat: jack_consolidate.py - Session-Konsolidierung taeglich 11:00
 45fe598 feat: jack_memory_maintenance.py - Stale-Marking taeglich 06:00
 f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Score
@@ -102,8 +104,6 @@ d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü fun
 31d5bd1 feat: /m /menu Schnellzugriff mit 6 Buttons + Logs-Handler
 2858ee8 feat: Status-Button kompakt, test_button mit echten Queries
 a0b50f2 feat: status + suche callback Handler fuer Inline-Buttons
-496289a fix: callback_query vor CHAT_ID-Check - Buttons live
-74a2e7c fix: null nicht mehr senden wenn handle() None zurueckgibt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
