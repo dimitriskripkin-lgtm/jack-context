@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:18:53.520047)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:21:55.080960)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:18:53.512772
+Stand: 2026-07-13T04:21:55.076954
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -76,12 +76,12 @@ Stand: 2026-07-13T04:18:53.512772
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 102
+- Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 184134s
-run: jack_telegram: (pid 4826) 44s
-run: jack_autolearn: (pid 20689) 184134s
-run: ollama: (pid 20694) 184134s
+run: jack_cortex: (pid 20695) 184316s
+run: jack_telegram: (pid 4826) 226s
+run: jack_autolearn: (pid 20689) 184316s
+run: ollama: (pid 20694) 184316s
 
 ## Letzte Aenderungen
 e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreibt nur sensoren-Block
@@ -131,4 +131,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 8/300 | Vision 0/40 | Tokens 10581
+Heute: Text 13/300 | Vision 0/40 | Tokens 15238
