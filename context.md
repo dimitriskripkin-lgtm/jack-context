@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T23:02:03.079418)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T23:05:05.201877)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T23:02:03.069203
+Stand: 2026-07-13T23:05:05.192594
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,6 +29,7 @@ Stand: 2026-07-13T23:02:03.069203
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
+- Dima korrigierte die Beschreibung des Host-Geräts: Honor Magic8 Pro (nicht Honor 8).
 
 ## Aktive Module (49)
 - jack_agent.py
@@ -85,10 +86,10 @@ Stand: 2026-07-13T23:02:03.069203
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 25020s
-run: jack_telegram: (pid 23977) 24772s
-run: jack_autolearn: (pid 20689) 251524s
-run: ollama: (pid 20694) 251524s
+run: jack_cortex: (pid 21793) 25202s
+run: jack_telegram: (pid 23977) 24954s
+run: jack_autolearn: (pid 20689) 251706s
+run: ollama: (pid 20694) 251706s
 
 ## Letzte Aenderungen
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
@@ -138,4 +139,4 @@ OK: Fix
 [2026-07-13 21:03:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 29/300 | Vision 0/40 | Tokens 65010
+Heute: Text 30/300 | Vision 0/40 | Tokens 70421
