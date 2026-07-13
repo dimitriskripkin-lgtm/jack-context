@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T03:51:38.966119)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T03:54:40.562692)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T03:51:38.956305
+Stand: 2026-07-13T03:54:40.550357
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -75,14 +75,15 @@ Stand: 2026-07-13T03:51:38.956305
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 99
+- Erinnerungen: 100
 - Dienste:
-run: jack_cortex: (pid 20695) 182499s
-run: jack_telegram: (pid 23876) 117195s
-run: jack_autolearn: (pid 20689) 182499s
-run: ollama: (pid 20694) 182499s
+run: jack_cortex: (pid 20695) 182681s
+run: jack_telegram: (pid 23876) 117377s
+run: jack_autolearn: (pid 20689) 182681s
+run: ollama: (pid 20694) 182681s
 
 ## Letzte Aenderungen
+98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
 aebe902 Skill-Gate (Weg 1): assess_skill_risk - subprocess via Whitelist erlaubt, Killer-Muster hart geblockt, /code-Gate unberuehrt
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
@@ -97,7 +98,6 @@ b56a851 Memory: absolute Korrekturen (kein Hund/LKW-Fahrer) verankert, Publish-S
 a98e082 Rate-Limit-Fix: Modellwechsel auf freies Gemini-Modell, Token-Zaehler eingebaut, Agent-Kaskaden-Bug behoben (Fehlermeldung nicht mehr als Code), Runden-Pause
 2cc5b3f Gemini-Bridge: Retry+Backoff gegen HTTP 429 (Rate-Limit) - Agent + Chat laufen jetzt drosselfest
 58360e2 Autonomer Agent: /auto <ziel> - JACK loest Ziele selbststaendig in der Werkstatt (schreibt+testet+verbessert, max 4 Runden), im Hintergrund-Thread, harte Sandbox-Waende bleiben
-b683f1f Skill-Bibliothek: erfolgreiche Code-Bausteine speichern (/skill save) + kostenlos wiederverwenden (/skill <name>) - senkt API-Kosten, macht JACK unabhaengiger
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -108,7 +108,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 01:22:09] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 15:08:46] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-AUSGEFUEHRT | jack_status
@@ -128,6 +127,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | budget_rest
 [2026-07-11 19:28:02] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
+[2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 3790
+Heute: Text 3/300 | Vision 0/40 | Tokens 5953
