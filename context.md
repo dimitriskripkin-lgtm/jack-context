@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T08:16:45.444140)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T08:19:47.020112)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T08:16:45.432571
+Stand: 2026-07-13T08:19:47.010581
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,11 +31,12 @@ Stand: 2026-07-13T08:16:45.432571
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (43)
+## Aktive Module (44)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
 - jack_autonomous.py
+- jack_briefing.py
 - jack_budget.py
 - jack_bug_fixer.py
 - jack_claude.py
@@ -80,12 +81,14 @@ Stand: 2026-07-13T08:16:45.432571
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 198406s
-run: jack_telegram: (pid 30633) 5007s
-run: jack_autolearn: (pid 20689) 198406s
-run: ollama: (pid 20694) 198406s
+run: jack_cortex: (pid 20695) 198588s
+run: jack_telegram: (pid 30633) 5189s
+run: jack_autolearn: (pid 20689) 198588s
+run: ollama: (pid 20694) 198588s
 
 ## Letzte Aenderungen
+317e403 chore: jack_fixes.json nach Test-Fix geleert
+a97e7d4 feat: Schwellenwert n>=5, Ruhezeit 16-22, Briefing-Cron 07:55, AGENTS.md
 a27ee9d chore: .last_self_improve zu gitignore
 1f0eaed feat: Waechter ruft jack_self_improve taeglich auf
 ca5742c feat: JACK erste autonome Selbstverbesserung - SSH-Timeout 15->25s per approve_fix
@@ -99,8 +102,6 @@ a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 47e65e6 chore: Silent-Fail Review abgeschlossen - verbleibende except:pass sind bewusste Fallbacks
 1528de5 fix: letzte Silent Fails geloggt, alle except:pass im Repo eliminiert
 8d5848b fix: restliche 4 Silent Fails geloggt (jack_publish/bug_fixer/sensors/gemini)
-4e2ae04 fix: Silent Fails ausgeraeumt - alle except:pass loggen jetzt nach jack_decisions.log
-dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -111,7 +112,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | git_status
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | gedaechtnis_stats
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | modell_check
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | budget_rest
@@ -131,6 +131,7 @@ OK: Fix
 [2026-07-13 07:15:44] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 07:15:50] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-13 07:15:50] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-13 08:19:11] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
 Heute: Text 16/300 | Vision 0/40 | Tokens 27005
