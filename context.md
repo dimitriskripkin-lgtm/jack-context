@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T11:18:33.417651)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T11:21:35.614443)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T11:18:33.407326
+Stand: 2026-07-13T11:21:35.601940
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -83,10 +83,10 @@ Stand: 2026-07-13T11:18:33.407326
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 209314s
-run: jack_telegram: (pid 7791) 3795s
-run: jack_autolearn: (pid 20689) 209314s
-run: ollama: (pid 20694) 209314s
+run: jack_cortex: (pid 20695) 209496s
+run: jack_telegram: (pid 7791) 3977s
+run: jack_autolearn: (pid 20689) 209496s
+run: ollama: (pid 20694) 209496s
 
 ## Letzte Aenderungen
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
