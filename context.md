@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T07:04:07.392531)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T07:07:09.084838)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T07:04:07.382756
+Stand: 2026-07-13T07:07:09.071092
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -80,10 +80,10 @@ Stand: 2026-07-13T07:04:07.382756
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 194048s
-run: jack_telegram: (pid 30633) 649s
-run: jack_autolearn: (pid 20689) 194048s
-run: ollama: (pid 20694) 194048s
+run: jack_cortex: (pid 20695) 194230s
+run: jack_telegram: (pid 30633) 831s
+run: jack_autolearn: (pid 20689) 194230s
+run: ollama: (pid 20694) 194230s
 
 ## Letzte Aenderungen
 7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
