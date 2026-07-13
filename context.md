@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T21:00:43.808221)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T21:03:45.719456)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T21:00:43.800622
+Stand: 2026-07-13T21:03:45.709494
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-07-13T21:00:43.800622
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
+- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), KEIN Fernfahrer.
 - Dima ist Hobby-Programmierer.
 - Dima nutzt Gemini Plus und Claude.ai.
 - JACK ist ein autonomes, lokales AI-OS.
@@ -29,7 +29,6 @@ Stand: 2026-07-13T21:00:43.800622
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
 ## Aktive Module (49)
 - jack_agent.py
@@ -86,10 +85,10 @@ Stand: 2026-07-13T21:00:43.800622
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 17740s
-run: jack_telegram: (pid 23977) 17492s
-run: jack_autolearn: (pid 20689) 244244s
-run: ollama: (pid 20694) 244244s
+run: jack_cortex: (pid 21793) 17922s
+run: jack_telegram: (pid 23977) 17674s
+run: jack_autolearn: (pid 20689) 244426s
+run: ollama: (pid 20694) 244426s
 
 ## Letzte Aenderungen
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
@@ -117,7 +116,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 06:51:45] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-13 06:52:25] SELF-IMPROVE | jack_cortex 1x, fix=fix_cortex_ssh_timeout_20260713_065225
 [2026-07-13 07:00:56] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_065225: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
 FEHLER:
@@ -137,6 +135,7 @@ OK: Fix
 [2026-07-13 11:59:44] RADAR | 0 neue Anzeigen gefunden
 [2026-07-13 12:02:00] RADAR | 0 neue Anzeigen gefunden
 [2026-07-13 12:03:41] RADAR | 20 neue Anzeigen gefunden
+[2026-07-13 21:03:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 28/300 | Vision 0/40 | Tokens 59922
+Heute: Text 29/300 | Vision 0/40 | Tokens 65010
