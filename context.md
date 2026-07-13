@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T06:42:56.405156)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T06:45:57.892840)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T06:42:56.395790
+Stand: 2026-07-13T06:45:57.883403
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,10 +79,10 @@ Stand: 2026-07-13T06:42:56.395790
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 192777s
-run: jack_telegram: (pid 19928) 4424s
-run: jack_autolearn: (pid 20689) 192777s
-run: ollama: (pid 20694) 192777s
+run: jack_cortex: (pid 20695) 192958s
+run: jack_telegram: (pid 19928) 4605s
+run: jack_autolearn: (pid 20689) 192958s
+run: ollama: (pid 20694) 192958s
 
 ## Letzte Aenderungen
 a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
