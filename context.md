@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T03:57:42.562291)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:00:44.077446)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T03:57:42.550767
+Stand: 2026-07-13T04:00:44.068537
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T03:57:42.550767
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima hat einen Hund seit 1 Jahr.
 
-## Aktive Module (40)
+## Aktive Module (41)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -68,6 +68,7 @@ Stand: 2026-07-13T03:57:42.550767
 - jack_write.py
 - jack_xiaomi.py
 - kortex_controller.py
+- kortex_memory.py
 - kortex_profiler.py
 - kortex_sensor_daemon.py
 - quick_bridge.py
@@ -77,10 +78,10 @@ Stand: 2026-07-13T03:57:42.550767
 - Offene Fehler: 0
 - Erinnerungen: 101
 - Dienste:
-run: jack_cortex: (pid 20695) 182863s
-run: jack_telegram: (pid 23876) 117559s
-run: jack_autolearn: (pid 20689) 182863s
-run: ollama: (pid 20694) 182863s
+run: jack_cortex: (pid 20695) 183045s
+run: jack_telegram: (pid 23876) 117741s
+run: jack_autolearn: (pid 20689) 183045s
+run: ollama: (pid 20694) 183045s
 
 ## Letzte Aenderungen
 98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
@@ -108,7 +109,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 15:08:46] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-GESPEICHERT | jack_status
 [2026-07-11 15:23:19] SKILL-AUSGEFUEHRT | jack_status
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | ram_check
@@ -128,6 +128,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 19:28:02] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 8409
