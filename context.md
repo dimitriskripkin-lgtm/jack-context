@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:35:30.406457)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:38:32.447637)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:35:30.398359
+Stand: 2026-07-13T09:38:32.438208
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,10 +81,10 @@ Stand: 2026-07-13T09:35:30.398359
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 203131s
-run: jack_telegram: (pid 8197) 72s
-run: jack_autolearn: (pid 20689) 203131s
-run: ollama: (pid 20694) 203131s
+run: jack_cortex: (pid 20695) 203313s
+run: jack_telegram: (pid 8197) 254s
+run: jack_autolearn: (pid 20689) 203313s
+run: ollama: (pid 20694) 203313s
 
 ## Letzte Aenderungen
 a0b50f2 feat: status + suche callback Handler fuer Inline-Buttons
@@ -112,7 +112,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | modell_check
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | budget_rest
 [2026-07-11 19:28:02] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
@@ -132,6 +131,7 @@ OK: Fix
 [2026-07-13 07:15:50] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-13 08:19:11] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 09:02:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-13 09:36:57] REJECT-FIX-BUTTON | test abgelehnt
 
 ## Budget heute
 Heute: Text 17/300 | Vision 0/40 | Tokens 30931
