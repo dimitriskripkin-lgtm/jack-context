@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T16:30:54.194726)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T16:33:56.062993)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T16:30:54.187096
+Stand: 2026-07-13T16:33:56.053197
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T16:30:54.187096
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (48)
+## Aktive Module (49)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -80,15 +80,16 @@ Stand: 2026-07-13T16:30:54.187096
 - kortex_sensor_daemon.py
 - quick_bridge.py
 - test_jack_approval.py
+- voice_service_v2.py
 
 ## System-Status
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 1551s
-run: jack_telegram: (pid 23977) 1303s
-run: jack_autolearn: (pid 20689) 228055s
-run: ollama: (pid 20694) 228055s
+run: jack_cortex: (pid 21793) 1733s
+run: jack_telegram: (pid 23977) 1485s
+run: jack_autolearn: (pid 20689) 228237s
+run: ollama: (pid 20694) 228237s
 
 ## Letzte Aenderungen
 2602703 feat: send_webapp + /radar_ergebnisse Telegram-Button
