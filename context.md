@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T07:13:12.281824)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T07:16:13.842013)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T07:13:12.271302
+Stand: 2026-07-13T07:16:13.833201
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,15 +77,17 @@ Stand: 2026-07-13T07:13:12.271302
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 1
+- Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 194593s
-run: jack_telegram: (pid 30633) 1194s
-run: jack_autolearn: (pid 20689) 194593s
-run: ollama: (pid 20694) 194593s
+run: jack_cortex: (pid 20695) 194774s
+run: jack_telegram: (pid 30633) 1375s
+run: jack_autolearn: (pid 20689) 194774s
+run: ollama: (pid 20694) 194774s
 
 ## Letzte Aenderungen
+1f0eaed feat: Waechter ruft jack_self_improve taeglich auf
+ca5742c feat: JACK erste autonome Selbstverbesserung - SSH-Timeout 15->25s per approve_fix
 7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
 a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 6f51505 feat: jack_status_report.sh - Session-Start auf einen Befehl
@@ -99,8 +101,6 @@ a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 4e2ae04 fix: Silent Fails ausgeraeumt - alle except:pass loggen jetzt nach jack_decisions.log
 dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
 c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
-e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreibt nur sensoren-Block
-94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -111,9 +111,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | ram_check
-[2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | disk_check
-[2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | fehler_report
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | git_status
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | gedaechtnis_stats
 [2026-07-11 16:15:21] SKILL-AUSGEFUEHRT | modell_check
@@ -131,6 +128,9 @@ FEHLER:
 [2026-07-13 07:11:08] SELF-IMPROVE | jack_cortex 1x, fix=fix_cortex_ssh_timeout_20260713_071108
 [2026-07-13 07:12:00] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_071108: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
 OK: Fix
+[2026-07-13 07:15:44] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-13 07:15:50] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-13 07:15:50] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
 Heute: Text 16/300 | Vision 0/40 | Tokens 27005
