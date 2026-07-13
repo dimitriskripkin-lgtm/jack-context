@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:17:20.327329)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:20:22.032887)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:17:20.319436
+Stand: 2026-07-13T09:20:22.023316
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,12 +81,13 @@ Stand: 2026-07-13T09:17:20.319436
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 202041s
-run: jack_telegram: (pid 22723) 209s
-run: jack_autolearn: (pid 20689) 202041s
-run: ollama: (pid 20694) 202041s
+run: jack_cortex: (pid 20695) 202223s
+run: jack_telegram: (pid 25540) 140s
+run: jack_autolearn: (pid 20689) 202223s
+run: ollama: (pid 20694) 202223s
 
 ## Letzte Aenderungen
+74a2e7c fix: null nicht mehr senden wenn handle() None zurueckgibt
 b6e12f5 feat: Fix-Vorschlaege mit Inline-Buttons + /test_button Befehl
 ab9e621 feat: Telegram Inline-Keyboard + callback_query + negative_patterns.json
 317e403 chore: jack_fixes.json nach Test-Fix geleert
@@ -101,7 +102,6 @@ a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 5d8602d feat: kortex_profile_updater.py - Profil wird automatisch nach jedem jack_learn aktualisiert
 85a0b3a feat: jack_learn schreibt neue Fakten automatisch in kortex_memory.db
 6d29dd5 chore: .last_audit aus Git-Tracking entfernt
-47e65e6 chore: Silent-Fail Review abgeschlossen - verbleibende except:pass sind bewusste Fallbacks
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
