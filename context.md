@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T13:19:46.153064)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T13:22:47.741927)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T13:19:46.142325
+Stand: 2026-07-13T13:22:47.730265
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,12 +85,14 @@ Stand: 2026-07-13T13:19:46.142325
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 216587s
-run: jack_telegram: (pid 7791) 11068s
-run: jack_autolearn: (pid 20689) 216587s
-run: ollama: (pid 20694) 216587s
+run: jack_cortex: (pid 20695) 216768s
+run: jack_telegram: (pid 7791) 11249s
+run: jack_autolearn: (pid 20689) 216768s
+run: ollama: (pid 20694) 216768s
 
 ## Letzte Aenderungen
+8459198 chore: Config-Dateien mit Tokens aus Git entfernt
+859f8bd feat: jack_vinted_radar.py - Vinted Radar live, 96 Items gefunden
 592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert
 529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
@@ -104,8 +106,6 @@ f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Scor
 6a19f35 fix: gedaechtnis zeigt 200 Zeichen
 9a73924 fix: Status-Button zeigt 150 Zeichen statt 50/80
 8f0d666 fix: raw vor audit-Check definiert
-d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü funktioniert
-7b62d48 chore: negative_patterns.json tracken
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
