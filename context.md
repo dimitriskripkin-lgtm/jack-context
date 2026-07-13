@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:05:48.986500)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:08:50.596581)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:05:48.979383
+Stand: 2026-07-13T10:08:50.588683
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,14 +79,15 @@ Stand: 2026-07-13T10:05:48.979383
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 106
+- Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 204949s
-run: jack_telegram: (pid 28376) 118s
-run: jack_autolearn: (pid 20689) 204949s
-run: ollama: (pid 20694) 204949s
+run: jack_cortex: (pid 20695) 205131s
+run: jack_telegram: (pid 30939) 88s
+run: jack_autolearn: (pid 20689) 205131s
+run: ollama: (pid 20694) 205131s
 
 ## Letzte Aenderungen
+8f0d666 fix: raw vor audit-Check definiert
 d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü funktioniert
 7b62d48 chore: negative_patterns.json tracken
 31d5bd1 feat: /m /menu Schnellzugriff mit 6 Buttons + Logs-Handler
@@ -101,7 +102,6 @@ a97e7d4 feat: Schwellenwert n>=5, Ruhezeit 16-22, Briefing-Cron 07:55, AGENTS.md
 a27ee9d chore: .last_self_improve zu gitignore
 1f0eaed feat: Waechter ruft jack_self_improve taeglich auf
 ca5742c feat: JACK erste autonome Selbstverbesserung - SSH-Timeout 15->25s per approve_fix
-7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -134,4 +134,4 @@ OK: Fix
 [2026-07-13 09:36:57] REJECT-FIX-BUTTON | test abgelehnt
 
 ## Budget heute
-Heute: Text 21/300 | Vision 0/40 | Tokens 41402
+Heute: Text 23/300 | Vision 0/40 | Tokens 44598
