@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:08:50.596581)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:11:52.248926)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:08:50.588683
+Stand: 2026-07-13T10:11:52.240841
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,10 +81,10 @@ Stand: 2026-07-13T10:08:50.588683
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 205131s
-run: jack_telegram: (pid 30939) 88s
-run: jack_autolearn: (pid 20689) 205131s
-run: ollama: (pid 20694) 205131s
+run: jack_cortex: (pid 20695) 205313s
+run: jack_telegram: (pid 30939) 270s
+run: jack_autolearn: (pid 20689) 205313s
+run: ollama: (pid 20694) 205313s
 
 ## Letzte Aenderungen
 8f0d666 fix: raw vor audit-Check definiert
