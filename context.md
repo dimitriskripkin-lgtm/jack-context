@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T11:58:00.296534)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T12:01:01.803951)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T11:58:00.288243
+Stand: 2026-07-13T12:01:01.795096
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -84,12 +84,13 @@ Stand: 2026-07-13T11:58:00.288243
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 211681s
-run: jack_telegram: (pid 7791) 6162s
-run: jack_autolearn: (pid 20689) 211681s
-run: ollama: (pid 20694) 211681s
+run: jack_cortex: (pid 20695) 211862s
+run: jack_telegram: (pid 7791) 6343s
+run: jack_autolearn: (pid 20689) 211862s
+run: ollama: (pid 20694) 211862s
 
 ## Letzte Aenderungen
+529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
 0da8631 fix: Session-Text auf 300 Zeichen erweitert
 efb0b2c feat: Briefing v2 - Akku, Dienste, Sessions, Fehler, Fixes chronologisch
@@ -104,7 +105,6 @@ f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Scor
 d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü funktioniert
 7b62d48 chore: negative_patterns.json tracken
 31d5bd1 feat: /m /menu Schnellzugriff mit 6 Buttons + Logs-Handler
-2858ee8 feat: Status-Button kompakt, test_button mit echten Queries
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -115,7 +115,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 06:51:45] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -135,6 +134,7 @@ OK: Fix
 [2026-07-13 10:43:50] MEMORY-MAINTENANCE | Gesamt: 10 Eintraege | Stale: 0
 [2026-07-13 10:46:16] CONSOLIDATE | Session gespeichert: 10 Logs, 3 Zugriffe
 [2026-07-13 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 4 Zugriffe
+[2026-07-13 11:59:44] RADAR | 0 neue Anzeigen gefunden
 
 ## Budget heute
 Heute: Text 24/300 | Vision 0/40 | Tokens 49706
