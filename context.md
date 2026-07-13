@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T03:00:09.830807)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T03:03:11.706566)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T03:00:09.817477
+Stand: 2026-07-13T03:03:11.697563
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,6 +29,7 @@ Stand: 2026-07-13T03:00:09.817477
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
+- Dima hat einen Hund seit 1 Jahr.
 
 ## Aktive Module (40)
 - jack_agent.py
@@ -76,10 +77,10 @@ Stand: 2026-07-13T03:00:09.817477
 - Offene Fehler: 1
 - Erinnerungen: 99
 - Dienste:
-run: jack_cortex: (pid 20695) 179410s
-run: jack_telegram: (pid 23876) 114106s
-run: jack_autolearn: (pid 20689) 179410s
-run: ollama: (pid 20694) 179410s
+run: jack_cortex: (pid 20695) 179592s
+run: jack_telegram: (pid 23876) 114288s
+run: jack_autolearn: (pid 20689) 179592s
+run: ollama: (pid 20694) 179592s
 
 ## Letzte Aenderungen
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
@@ -129,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 0/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 3790
