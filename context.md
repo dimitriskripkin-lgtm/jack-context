@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:27:00.655610)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:30:02.409745)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:27:00.648245
+Stand: 2026-07-13T10:30:02.399447
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,10 +81,10 @@ Stand: 2026-07-13T10:27:00.648245
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 206221s
-run: jack_telegram: (pid 7791) 702s
-run: jack_autolearn: (pid 20689) 206221s
-run: ollama: (pid 20694) 206221s
+run: jack_cortex: (pid 20695) 206403s
+run: jack_telegram: (pid 7791) 884s
+run: jack_autolearn: (pid 20689) 206403s
+run: ollama: (pid 20694) 206403s
 
 ## Letzte Aenderungen
 6a19f35 fix: gedaechtnis zeigt 200 Zeichen
