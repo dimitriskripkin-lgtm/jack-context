@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T05:21:09.775358)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T05:24:11.334845)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T05:21:09.769190
+Stand: 2026-07-13T05:24:11.326878
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,12 +79,13 @@ Stand: 2026-07-13T05:21:09.769190
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 187870s
-run: jack_telegram: (pid 30438) 1248s
-run: jack_autolearn: (pid 20689) 187870s
-run: ollama: (pid 20694) 187870s
+run: jack_cortex: (pid 20695) 188052s
+run: jack_telegram: (pid 30438) 1430s
+run: jack_autolearn: (pid 20689) 188052s
+run: ollama: (pid 20694) 188052s
 
 ## Letzte Aenderungen
+5d8602d feat: kortex_profile_updater.py - Profil wird automatisch nach jedem jack_learn aktualisiert
 85a0b3a feat: jack_learn schreibt neue Fakten automatisch in kortex_memory.db
 6d29dd5 chore: .last_audit aus Git-Tracking entfernt
 47e65e6 chore: Silent-Fail Review abgeschlossen - verbleibende except:pass sind bewusste Fallbacks
@@ -99,7 +100,6 @@ e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreib
 98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
 aebe902 Skill-Gate (Weg 1): assess_skill_risk - subprocess via Whitelist erlaubt, Killer-Muster hart geblockt, /code-Gate unberuehrt
-f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
