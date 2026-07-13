@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:24:56.626850)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:27:58.104160)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:24:56.616822
+Stand: 2026-07-13T04:27:58.095871
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,10 +78,10 @@ Stand: 2026-07-13T04:24:56.616822
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 184497s
-run: jack_telegram: (pid 10273) 179s
-run: jack_autolearn: (pid 20689) 184497s
-run: ollama: (pid 20694) 184497s
+run: jack_cortex: (pid 20695) 184679s
+run: jack_telegram: (pid 10273) 361s
+run: jack_autolearn: (pid 20689) 184679s
+run: ollama: (pid 20694) 184679s
 
 ## Letzte Aenderungen
 c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
