@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T05:33:16.341819)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T05:36:17.998743)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T05:33:16.333032
+Stand: 2026-07-13T05:36:17.989465
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,12 +79,13 @@ Stand: 2026-07-13T05:33:16.333032
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 188597s
-run: jack_telegram: (pid 19928) 244s
-run: jack_autolearn: (pid 20689) 188597s
-run: ollama: (pid 20694) 188597s
+run: jack_cortex: (pid 20695) 188778s
+run: jack_telegram: (pid 19928) 425s
+run: jack_autolearn: (pid 20689) 188778s
+run: ollama: (pid 20694) 188778s
 
 ## Letzte Aenderungen
+6f51505 feat: jack_status_report.sh - Session-Start auf einen Befehl
 7cd021f feat: access_count bei Suche + /status_report Telegram-Befehl
 5d8602d feat: kortex_profile_updater.py - Profil wird automatisch nach jedem jack_learn aktualisiert
 85a0b3a feat: jack_learn schreibt neue Fakten automatisch in kortex_memory.db
@@ -99,7 +100,6 @@ e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreib
 94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
 7fc9e3c feat: kortex_memory.py - semantisches Gedaechtnis mit FTS5, 3 Flask-Routen live
 98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
-a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
