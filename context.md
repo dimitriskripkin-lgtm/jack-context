@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T06:24:45.862877)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T06:27:47.553740)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T06:24:45.855826
+Stand: 2026-07-13T06:27:47.539416
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,10 +79,10 @@ Stand: 2026-07-13T06:24:45.855826
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 191686s
-run: jack_telegram: (pid 19928) 3333s
-run: jack_autolearn: (pid 20689) 191686s
-run: ollama: (pid 20694) 191686s
+run: jack_cortex: (pid 20695) 191868s
+run: jack_telegram: (pid 19928) 3515s
+run: jack_autolearn: (pid 20689) 191868s
+run: ollama: (pid 20694) 191868s
 
 ## Letzte Aenderungen
 6f51505 feat: jack_status_report.sh - Session-Start auf einen Befehl
