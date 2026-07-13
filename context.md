@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:59:58.911516)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T05:03:00.391831)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:59:58.903904
+Stand: 2026-07-13T05:03:00.382793
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-07-13T04:59:58.903904
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima hat einen Hund seit 1 Jahr.
+- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer
 
 ## Aktive Module (41)
 - jack_agent.py
@@ -78,12 +78,13 @@ Stand: 2026-07-13T04:59:58.903904
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 186599s
-run: jack_telegram: (pid 10273) 2281s
-run: jack_autolearn: (pid 20689) 186599s
-run: ollama: (pid 20694) 186599s
+run: jack_cortex: (pid 20695) 186781s
+run: jack_telegram: (pid 30438) 159s
+run: jack_autolearn: (pid 20689) 186781s
+run: ollama: (pid 20694) 186781s
 
 ## Letzte Aenderungen
+1528de5 fix: letzte Silent Fails geloggt, alle except:pass im Repo eliminiert
 8d5848b fix: restliche 4 Silent Fails geloggt (jack_publish/bug_fixer/sensors/gemini)
 4e2ae04 fix: Silent Fails ausgeraeumt - alle except:pass loggen jetzt nach jack_decisions.log
 dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
@@ -98,7 +99,6 @@ f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Auge
 b55f1d6 CLAUDE.md: auf Live-Stand konsolidiert - jack_waechter->jack_autonomous Mapping, alle 6 Dienste, DB-Schemas, erledigte Baustellen raus
 60a9c28 Fix: jack_taskrunner-Gespenst entfernt (nie gebaut), Waechter + CLAUDE.md sauber. Notiz: Xiaomi-Status pushen + Claude-Schreibrechte Xiaomi = spaeter
 3641e51 taskrunner neu gestartet, Waechter-Baseline frisch
-c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probleme per Telegram, restartet tote Dienste, erster Lauf nur Baseline (weckt nicht)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -131,4 +131,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 13/300 | Vision 0/40 | Tokens 15238
+Heute: Text 14/300 | Vision 0/40 | Tokens 19153
