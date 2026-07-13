@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:03:45.607471)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:06:47.154365)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:03:45.599912
+Stand: 2026-07-13T04:06:47.146703
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,12 +78,13 @@ Stand: 2026-07-13T04:03:45.599912
 - Offene Fehler: 0
 - Erinnerungen: 101
 - Dienste:
-run: jack_cortex: (pid 20695) 183226s
-run: jack_telegram: (pid 23876) 117922s
-run: jack_autolearn: (pid 20689) 183226s
-run: ollama: (pid 20694) 183226s
+run: jack_cortex: (pid 20695) 183408s
+run: jack_telegram: (pid 23876) 118104s
+run: jack_autolearn: (pid 20689) 183408s
+run: ollama: (pid 20694) 183408s
 
 ## Letzte Aenderungen
+94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
 7fc9e3c feat: kortex_memory.py - semantisches Gedaechtnis mit FTS5, 3 Flask-Routen live
 98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
@@ -98,7 +99,6 @@ c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probl
 ff4ac38 CLAUDE.md Wissensbasis + Publisher pusht ganze Umgebung (Werkstatt/Skills/Logs)
 b56a851 Memory: absolute Korrekturen (kein Hund/LKW-Fahrer) verankert, Publish-Scrub praeziser
 a98e082 Rate-Limit-Fix: Modellwechsel auf freies Gemini-Modell, Token-Zaehler eingebaut, Agent-Kaskaden-Bug behoben (Fehlermeldung nicht mehr als Code), Runden-Pause
-2cc5b3f Gemini-Bridge: Retry+Backoff gegen HTTP 429 (Rate-Limit) - Agent + Chat laufen jetzt drosselfest
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
