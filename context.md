@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T05:06:02.031486)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T05:09:03.670863)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T05:06:02.022311
+Stand: 2026-07-13T05:09:03.661841
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,10 +78,10 @@ Stand: 2026-07-13T05:06:02.022311
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 186963s
-run: jack_telegram: (pid 30438) 341s
-run: jack_autolearn: (pid 20689) 186963s
-run: ollama: (pid 20694) 186963s
+run: jack_cortex: (pid 20695) 187144s
+run: jack_telegram: (pid 30438) 522s
+run: jack_autolearn: (pid 20689) 187144s
+run: ollama: (pid 20694) 187144s
 
 ## Letzte Aenderungen
 47e65e6 chore: Silent-Fail Review abgeschlossen - verbleibende except:pass sind bewusste Fallbacks
