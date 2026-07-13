@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:45:11.002684)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:48:12.716601)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:45:10.994420
+Stand: 2026-07-13T10:48:12.708401
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T10:45:10.994420
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (45)
+## Aktive Module (46)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -43,6 +43,7 @@ Stand: 2026-07-13T10:45:10.994420
 - jack_code_writer.py
 - jack_coder.py
 - jack_config.py
+- jack_consolidate.py
 - jack_cortex.py
 - jack_gemini_bridge.py
 - jack_handshake_gen.py
@@ -82,12 +83,13 @@ Stand: 2026-07-13T10:45:10.994420
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 207311s
-run: jack_telegram: (pid 7791) 1792s
-run: jack_autolearn: (pid 20689) 207311s
-run: ollama: (pid 20694) 207311s
+run: jack_cortex: (pid 20695) 207493s
+run: jack_telegram: (pid 7791) 1974s
+run: jack_autolearn: (pid 20689) 207493s
+run: ollama: (pid 20694) 207493s
 
 ## Letzte Aenderungen
+2e90553 feat: jack_consolidate.py - Session-Konsolidierung taeglich 11:00
 45fe598 feat: jack_memory_maintenance.py - Stale-Marking taeglich 06:00
 f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Score
 8d24455 feat: Persona in AGENTS.md und jack_self.json verlinkt
@@ -102,7 +104,6 @@ d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü fun
 a0b50f2 feat: status + suche callback Handler fuer Inline-Buttons
 496289a fix: callback_query vor CHAT_ID-Check - Buttons live
 74a2e7c fix: null nicht mehr senden wenn handle() None zurueckgibt
-b6e12f5 feat: Fix-Vorschlaege mit Inline-Buttons + /test_button Befehl
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -113,7 +114,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 19:28:02] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
@@ -133,6 +133,7 @@ OK: Fix
 [2026-07-13 09:02:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-13 09:36:57] REJECT-FIX-BUTTON | test abgelehnt
 [2026-07-13 10:43:50] MEMORY-MAINTENANCE | Gesamt: 10 Eintraege | Stale: 0
+[2026-07-13 10:46:16] CONSOLIDATE | Session gespeichert: 10 Logs, 3 Zugriffe
 
 ## Budget heute
 Heute: Text 23/300 | Vision 0/40 | Tokens 44598
