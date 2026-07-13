@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:57:19.774223)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T11:00:21.763188)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:57:19.764396
+Stand: 2026-07-13T11:00:21.754634
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -83,10 +83,10 @@ Stand: 2026-07-13T10:57:19.764396
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 208040s
-run: jack_telegram: (pid 7791) 2521s
-run: jack_autolearn: (pid 20689) 208040s
-run: ollama: (pid 20694) 208040s
+run: jack_cortex: (pid 20695) 208222s
+run: jack_telegram: (pid 7791) 2703s
+run: jack_autolearn: (pid 20689) 208222s
+run: ollama: (pid 20694) 208222s
 
 ## Letzte Aenderungen
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
@@ -114,7 +114,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 19:28:11] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -134,6 +133,7 @@ OK: Fix
 [2026-07-13 09:36:57] REJECT-FIX-BUTTON | test abgelehnt
 [2026-07-13 10:43:50] MEMORY-MAINTENANCE | Gesamt: 10 Eintraege | Stale: 0
 [2026-07-13 10:46:16] CONSOLIDATE | Session gespeichert: 10 Logs, 3 Zugriffe
+[2026-07-13 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 4 Zugriffe
 
 ## Budget heute
 Heute: Text 23/300 | Vision 0/40 | Tokens 44598
