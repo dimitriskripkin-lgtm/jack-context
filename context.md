@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T05:18:08.287733)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T05:21:09.775358)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T05:18:08.280844
+Stand: 2026-07-13T05:21:09.769190
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T05:18:08.280844
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer
 
-## Aktive Module (41)
+## Aktive Module (42)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -69,6 +69,7 @@ Stand: 2026-07-13T05:18:08.280844
 - jack_xiaomi.py
 - kortex_controller.py
 - kortex_memory.py
+- kortex_profile_updater.py
 - kortex_profiler.py
 - kortex_sensor_daemon.py
 - quick_bridge.py
@@ -78,10 +79,10 @@ Stand: 2026-07-13T05:18:08.280844
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 187689s
-run: jack_telegram: (pid 30438) 1067s
-run: jack_autolearn: (pid 20689) 187689s
-run: ollama: (pid 20694) 187689s
+run: jack_cortex: (pid 20695) 187870s
+run: jack_telegram: (pid 30438) 1248s
+run: jack_autolearn: (pid 20689) 187870s
+run: ollama: (pid 20694) 187870s
 
 ## Letzte Aenderungen
 85a0b3a feat: jack_learn schreibt neue Fakten automatisch in kortex_memory.db
