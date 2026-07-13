@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T13:47:00.826958)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T13:50:02.469732)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T13:47:00.817041
+Stand: 2026-07-13T13:50:02.457611
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,10 +85,10 @@ Stand: 2026-07-13T13:47:00.817041
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 218221s
-run: jack_telegram: (pid 7791) 12702s
-run: jack_autolearn: (pid 20689) 218221s
-run: ollama: (pid 20694) 218221s
+run: jack_cortex: (pid 20695) 218403s
+run: jack_telegram: (pid 7791) 12884s
+run: jack_autolearn: (pid 20689) 218403s
+run: ollama: (pid 20694) 218403s
 
 ## Letzte Aenderungen
 8459198 chore: Config-Dateien mit Tokens aus Git entfernt
