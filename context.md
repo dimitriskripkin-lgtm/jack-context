@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:14:53.817103)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:17:55.612529)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:14:53.806301
+Stand: 2026-07-13T10:17:55.605241
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,12 +81,13 @@ Stand: 2026-07-13T10:14:53.806301
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 205494s
-run: jack_telegram: (pid 3514) 135s
-run: jack_autolearn: (pid 20689) 205494s
-run: ollama: (pid 20694) 205494s
+run: jack_cortex: (pid 20695) 205676s
+run: jack_telegram: (pid 7791) 157s
+run: jack_autolearn: (pid 20689) 205676s
+run: ollama: (pid 20694) 205676s
 
 ## Letzte Aenderungen
+6a19f35 fix: gedaechtnis zeigt 200 Zeichen
 9a73924 fix: Status-Button zeigt 150 Zeichen statt 50/80
 8f0d666 fix: raw vor audit-Check definiert
 d8a74a9 fix: Bot-Name-Suffix bei Commands ignorieren, /gedaechtnis aus Menü funktioniert
@@ -101,7 +102,6 @@ ab9e621 feat: Telegram Inline-Keyboard + callback_query + negative_patterns.json
 317e403 chore: jack_fixes.json nach Test-Fix geleert
 a97e7d4 feat: Schwellenwert n>=5, Ruhezeit 16-22, Briefing-Cron 07:55, AGENTS.md
 a27ee9d chore: .last_self_improve zu gitignore
-1f0eaed feat: Waechter ruft jack_self_improve taeglich auf
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
