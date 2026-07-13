@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:14:18.592751)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:17:20.327329)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:14:18.585059
+Stand: 2026-07-13T09:17:20.319436
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,10 +81,10 @@ Stand: 2026-07-13T09:14:18.585059
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 201859s
-run: jack_telegram: (pid 22723) 27s
-run: jack_autolearn: (pid 20689) 201859s
-run: ollama: (pid 20694) 201859s
+run: jack_cortex: (pid 20695) 202041s
+run: jack_telegram: (pid 22723) 209s
+run: jack_autolearn: (pid 20689) 202041s
+run: ollama: (pid 20694) 202041s
 
 ## Letzte Aenderungen
 b6e12f5 feat: Fix-Vorschlaege mit Inline-Buttons + /test_button Befehl
