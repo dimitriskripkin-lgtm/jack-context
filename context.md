@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T06:33:51.268766)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T06:36:52.988684)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T06:33:51.259929
+Stand: 2026-07-13T06:36:52.977245
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,12 +79,13 @@ Stand: 2026-07-13T06:33:51.259929
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 192232s
-run: jack_telegram: (pid 19928) 3879s
-run: jack_autolearn: (pid 20689) 192232s
-run: ollama: (pid 20694) 192232s
+run: jack_cortex: (pid 20695) 192413s
+run: jack_telegram: (pid 19928) 4060s
+run: jack_autolearn: (pid 20689) 192413s
+run: ollama: (pid 20694) 192413s
 
 ## Letzte Aenderungen
+a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 6f51505 feat: jack_status_report.sh - Session-Start auf einen Befehl
 7cd021f feat: access_count bei Suche + /status_report Telegram-Befehl
 5d8602d feat: kortex_profile_updater.py - Profil wird automatisch nach jedem jack_learn aktualisiert
@@ -99,7 +100,6 @@ c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
 e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreibt nur sensoren-Block
 94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
 7fc9e3c feat: kortex_memory.py - semantisches Gedaechtnis mit FTS5, 3 Flask-Routen live
-98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
