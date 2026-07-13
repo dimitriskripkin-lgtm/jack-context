@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:29:27.093369)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:32:28.777656)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:29:27.083780
+Stand: 2026-07-13T09:32:28.768129
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,12 +81,13 @@ Stand: 2026-07-13T09:29:27.083780
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 202768s
-run: jack_telegram: (pid 32183) 122s
-run: jack_autolearn: (pid 20689) 202768s
-run: ollama: (pid 20694) 202768s
+run: jack_cortex: (pid 20695) 202949s
+run: jack_telegram: (pid 5706) 16s
+run: jack_autolearn: (pid 20689) 202949s
+run: ollama: (pid 20694) 202949s
 
 ## Letzte Aenderungen
+496289a fix: callback_query vor CHAT_ID-Check - Buttons live
 74a2e7c fix: null nicht mehr senden wenn handle() None zurueckgibt
 b6e12f5 feat: Fix-Vorschlaege mit Inline-Buttons + /test_button Befehl
 ab9e621 feat: Telegram Inline-Keyboard + callback_query + negative_patterns.json
@@ -101,7 +102,6 @@ a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 7cd021f feat: access_count bei Suche + /status_report Telegram-Befehl
 5d8602d feat: kortex_profile_updater.py - Profil wird automatisch nach jedem jack_learn aktualisiert
 85a0b3a feat: jack_learn schreibt neue Fakten automatisch in kortex_memory.db
-6d29dd5 chore: .last_audit aus Git-Tracking entfernt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
