@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T18:13:55.696497)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T18:16:57.331124)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T18:13:55.687940
+Stand: 2026-07-13T18:16:57.323000
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,12 +86,14 @@ Stand: 2026-07-13T18:13:55.687940
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 7732s
-run: jack_telegram: (pid 23977) 7484s
-run: jack_autolearn: (pid 20689) 234236s
-run: ollama: (pid 20694) 234236s
+run: jack_cortex: (pid 21793) 7914s
+run: jack_telegram: (pid 23977) 7666s
+run: jack_autolearn: (pid 20689) 234418s
+run: ollama: (pid 20694) 234418s
 
 ## Letzte Aenderungen
+6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
+7d10661 feat: voice_service_v2 non-blocking funktioniert - Stabilitaets-Check fuer M4A
 37f5dec feat: voice_service_v2 Poller-Ansatz - non-blocking Aufnahme funktioniert
 2602703 feat: send_webapp + /radar_ergebnisse Telegram-Button
 cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
@@ -105,8 +107,6 @@ cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
 0da8631 fix: Session-Text auf 300 Zeichen erweitert
 efb0b2c feat: Briefing v2 - Akku, Dienste, Sessions, Fehler, Fixes chronologisch
-2e90553 feat: jack_consolidate.py - Session-Konsolidierung taeglich 11:00
-45fe598 feat: jack_memory_maintenance.py - Stale-Marking taeglich 06:00
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
