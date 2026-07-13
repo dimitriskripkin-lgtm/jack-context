@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T16:12:42.832611)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T16:15:44.506869)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T16:12:42.823585
+Stand: 2026-07-13T16:15:44.496124
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,10 +85,10 @@ Stand: 2026-07-13T16:12:42.823585
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 459s
-run: jack_telegram: (pid 23977) 211s
-run: jack_autolearn: (pid 20689) 226963s
-run: ollama: (pid 20694) 226963s
+run: jack_cortex: (pid 21793) 641s
+run: jack_telegram: (pid 23977) 393s
+run: jack_autolearn: (pid 20689) 227145s
+run: ollama: (pid 20694) 227145s
 
 ## Letzte Aenderungen
 2602703 feat: send_webapp + /radar_ergebnisse Telegram-Button
