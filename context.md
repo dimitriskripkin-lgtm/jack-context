@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T21:18:55.757341)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T21:21:57.759279)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T21:18:55.738803
+Stand: 2026-07-13T21:21:57.748023
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,10 +85,10 @@ Stand: 2026-07-13T21:18:55.738803
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 18832s
-run: jack_telegram: (pid 23977) 18584s
-run: jack_autolearn: (pid 20689) 245336s
-run: ollama: (pid 20694) 245336s
+run: jack_cortex: (pid 21793) 19014s
+run: jack_telegram: (pid 23977) 18766s
+run: jack_autolearn: (pid 20689) 245518s
+run: ollama: (pid 20694) 245518s
 
 ## Letzte Aenderungen
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
