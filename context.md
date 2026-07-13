@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:12:50.236448)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:15:51.841138)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:12:50.227296
+Stand: 2026-07-13T04:15:51.827800
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,12 +78,13 @@ Stand: 2026-07-13T04:12:50.227296
 - Offene Fehler: 0
 - Erinnerungen: 101
 - Dienste:
-run: jack_cortex: (pid 20695) 183771s
-run: jack_telegram: (pid 23876) 118467s
-run: jack_autolearn: (pid 20689) 183771s
-run: ollama: (pid 20694) 183771s
+run: jack_cortex: (pid 20695) 183952s
+run: jack_telegram: (pid 23876) 118648s
+run: jack_autolearn: (pid 20689) 183952s
+run: ollama: (pid 20694) 183952s
 
 ## Letzte Aenderungen
+e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreibt nur sensoren-Block
 94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
 7fc9e3c feat: kortex_memory.py - semantisches Gedaechtnis mit FTS5, 3 Flask-Routen live
 98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
@@ -98,7 +99,6 @@ c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probl
 61694b6 Claude Code Bruecke: /cc im Telegram (Text) + Sprach-Routing (Voice startet mit 'claude'). Read-only Berater kennt die ganze Umgebung, laeuft ueber Abo
 ff4ac38 CLAUDE.md Wissensbasis + Publisher pusht ganze Umgebung (Werkstatt/Skills/Logs)
 b56a851 Memory: absolute Korrekturen (kein Hund/LKW-Fahrer) verankert, Publish-Scrub praeziser
-a98e082 Rate-Limit-Fix: Modellwechsel auf freies Gemini-Modell, Token-Zaehler eingebaut, Agent-Kaskaden-Bug behoben (Fehlermeldung nicht mehr als Code), Runden-Pause
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
