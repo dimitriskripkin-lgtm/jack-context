@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T15:18:12.485913)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T15:21:14.015271)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T15:18:12.478111
+Stand: 2026-07-13T15:21:14.006190
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,10 +85,10 @@ Stand: 2026-07-13T15:18:12.478111
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 223693s
-run: jack_telegram: (pid 19645) 5149s
-run: jack_autolearn: (pid 20689) 223693s
-run: ollama: (pid 20694) 223693s
+run: jack_cortex: (pid 20695) 223875s
+run: jack_telegram: (pid 19645) 5331s
+run: jack_autolearn: (pid 20689) 223875s
+run: ollama: (pid 20694) 223875s
 
 ## Letzte Aenderungen
 9e6b605 feat: /radar_an /radar_aus /vinted_an /vinted_aus /radar_intervall /vinted_intervall
