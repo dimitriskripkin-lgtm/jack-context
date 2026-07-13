@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:09:48.719945)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:12:50.236448)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:09:48.711691
+Stand: 2026-07-13T04:12:50.227296
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,10 +78,10 @@ Stand: 2026-07-13T04:09:48.711691
 - Offene Fehler: 0
 - Erinnerungen: 101
 - Dienste:
-run: jack_cortex: (pid 20695) 183589s
-run: jack_telegram: (pid 23876) 118285s
-run: jack_autolearn: (pid 20689) 183589s
-run: ollama: (pid 20694) 183589s
+run: jack_cortex: (pid 20695) 183771s
+run: jack_telegram: (pid 23876) 118467s
+run: jack_autolearn: (pid 20689) 183771s
+run: ollama: (pid 20694) 183771s
 
 ## Letzte Aenderungen
 94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
