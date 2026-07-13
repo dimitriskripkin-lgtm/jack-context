@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T11:54:58.576733)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T11:58:00.296534)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T11:54:58.569425
+Stand: 2026-07-13T11:58:00.288243
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T11:54:58.569425
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (46)
+## Aktive Module (47)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -58,6 +58,7 @@ Stand: 2026-07-13T11:54:58.569425
 - jack_patch.py
 - jack_personality.py
 - jack_publish.py
+- jack_radar.py
 - jack_self_improve.py
 - jack_sensors.py
 - jack_skills.py
@@ -83,10 +84,10 @@ Stand: 2026-07-13T11:54:58.569425
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 211499s
-run: jack_telegram: (pid 7791) 5980s
-run: jack_autolearn: (pid 20689) 211499s
-run: ollama: (pid 20694) 211499s
+run: jack_cortex: (pid 20695) 211681s
+run: jack_telegram: (pid 7791) 6162s
+run: jack_autolearn: (pid 20689) 211681s
+run: ollama: (pid 20694) 211681s
 
 ## Letzte Aenderungen
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
