@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T06:52:01.161026)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T06:55:02.743544)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T06:52:01.150050
+Stand: 2026-07-13T06:55:02.734059
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -80,12 +80,13 @@ Stand: 2026-07-13T06:52:01.150050
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 193322s
-run: jack_telegram: (pid 19928) 4969s
-run: jack_autolearn: (pid 20689) 193322s
-run: ollama: (pid 20694) 193322s
+run: jack_cortex: (pid 20695) 193503s
+run: jack_telegram: (pid 30633) 104s
+run: jack_autolearn: (pid 20689) 193503s
+run: ollama: (pid 20694) 193503s
 
 ## Letzte Aenderungen
+7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
 a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 6f51505 feat: jack_status_report.sh - Session-Start auf einen Befehl
 7cd021f feat: access_count bei Suche + /status_report Telegram-Befehl
@@ -100,7 +101,6 @@ dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboo
 c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
 e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreibt nur sensoren-Block
 94b1dcd fix: Shebang-Position + psutil aus Setup entfernt
-7fc9e3c feat: kortex_memory.py - semantisches Gedaechtnis mit FTS5, 3 Flask-Routen live
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -111,7 +111,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 16:15:20] SKILL-GESPEICHERT | ram_check
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | disk_check
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | fehler_report
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | git_status
@@ -131,6 +130,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 06:51:45] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-13 06:52:25] SELF-IMPROVE | jack_cortex 1x, fix=fix_cortex_ssh_timeout_20260713_065225
 
 ## Budget heute
 Heute: Text 15/300 | Vision 0/40 | Tokens 23079
