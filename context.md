@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T07:10:10.756369)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T07:13:12.281824)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T07:10:10.744023
+Stand: 2026-07-13T07:13:12.271302
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -77,13 +77,13 @@ Stand: 2026-07-13T07:10:10.744023
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 0
+- Offene Fehler: 1
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 194411s
-run: jack_telegram: (pid 30633) 1012s
-run: jack_autolearn: (pid 20689) 194411s
-run: ollama: (pid 20694) 194411s
+run: jack_cortex: (pid 20695) 194593s
+run: jack_telegram: (pid 30633) 1194s
+run: jack_autolearn: (pid 20689) 194593s
+run: ollama: (pid 20694) 194593s
 
 ## Letzte Aenderungen
 7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
@@ -111,9 +111,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 16:15:20] SKILL-GESPEICHERT | gedaechtnis_stats
-[2026-07-11 16:15:20] SKILL-GESPEICHERT | modell_check
-[2026-07-11 16:15:20] SKILL-GESPEICHERT | budget_rest
 [2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | ram_check
 [2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | disk_check
 [2026-07-11 16:15:20] SKILL-AUSGEFUEHRT | fehler_report
@@ -131,6 +128,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 07:00:56] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_065225: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
 FEHLER:
 [2026-07-13 07:02:16] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-13 07:11:08] SELF-IMPROVE | jack_cortex 1x, fix=fix_cortex_ssh_timeout_20260713_071108
+[2026-07-13 07:12:00] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_071108: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
+OK: Fix
 
 ## Budget heute
 Heute: Text 16/300 | Vision 0/40 | Tokens 27005
