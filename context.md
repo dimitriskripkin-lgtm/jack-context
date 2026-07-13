@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:38:32.447637)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:41:34.425061)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:38:32.438208
+Stand: 2026-07-13T09:41:34.416615
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,12 +81,13 @@ Stand: 2026-07-13T09:38:32.438208
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 203313s
-run: jack_telegram: (pid 8197) 254s
-run: jack_autolearn: (pid 20689) 203313s
-run: ollama: (pid 20694) 203313s
+run: jack_cortex: (pid 20695) 203495s
+run: jack_telegram: (pid 12526) 113s
+run: jack_autolearn: (pid 20689) 203495s
+run: ollama: (pid 20694) 203495s
 
 ## Letzte Aenderungen
+2858ee8 feat: Status-Button kompakt, test_button mit echten Queries
 a0b50f2 feat: status + suche callback Handler fuer Inline-Buttons
 496289a fix: callback_query vor CHAT_ID-Check - Buttons live
 74a2e7c fix: null nicht mehr senden wenn handle() None zurueckgibt
@@ -101,7 +102,6 @@ ca5742c feat: JACK erste autonome Selbstverbesserung - SSH-Timeout 15->25s per a
 a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 6f51505 feat: jack_status_report.sh - Session-Start auf einen Befehl
 7cd021f feat: access_count bei Suche + /status_report Telegram-Befehl
-5d8602d feat: kortex_profile_updater.py - Profil wird automatisch nach jedem jack_learn aktualisiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
