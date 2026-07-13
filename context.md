@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T06:48:59.452330)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T06:52:01.161026)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T06:48:59.443327
+Stand: 2026-07-13T06:52:01.150050
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-13T06:48:59.443327
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer
 
-## Aktive Module (42)
+## Aktive Module (43)
 - jack_agent.py
 - jack_approval.py
 - jack_audit.py
@@ -55,6 +55,7 @@ Stand: 2026-07-13T06:48:59.443327
 - jack_patch.py
 - jack_personality.py
 - jack_publish.py
+- jack_self_improve.py
 - jack_sensors.py
 - jack_skills.py
 - jack_snapshot.py
@@ -79,10 +80,10 @@ Stand: 2026-07-13T06:48:59.443327
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 193140s
-run: jack_telegram: (pid 19928) 4787s
-run: jack_autolearn: (pid 20689) 193140s
-run: ollama: (pid 20694) 193140s
+run: jack_cortex: (pid 20695) 193322s
+run: jack_telegram: (pid 19928) 4969s
+run: jack_autolearn: (pid 20689) 193322s
+run: ollama: (pid 20694) 193322s
 
 ## Letzte Aenderungen
 a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
@@ -110,7 +111,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 15:23:19] SKILL-AUSGEFUEHRT | jack_status
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | ram_check
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | disk_check
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | fehler_report
@@ -130,6 +130,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 03:58:33] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-13 06:51:45] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 
 ## Budget heute
 Heute: Text 15/300 | Vision 0/40 | Tokens 23079
