@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:30:02.409745)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:33:04.133545)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:30:02.399447
+Stand: 2026-07-13T10:33:04.124266
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,12 +81,14 @@ Stand: 2026-07-13T10:30:02.399447
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 206403s
-run: jack_telegram: (pid 7791) 884s
-run: jack_autolearn: (pid 20689) 206403s
-run: ollama: (pid 20694) 206403s
+run: jack_cortex: (pid 20695) 206585s
+run: jack_telegram: (pid 7791) 1066s
+run: jack_autolearn: (pid 20689) 206585s
+run: ollama: (pid 20694) 206585s
 
 ## Letzte Aenderungen
+8d24455 feat: Persona in AGENTS.md und jack_self.json verlinkt
+60a03af feat: jack_persona.json - psychologisches Profil fuer JACK und alle KIs
 6a19f35 fix: gedaechtnis zeigt 200 Zeichen
 9a73924 fix: Status-Button zeigt 150 Zeichen statt 50/80
 8f0d666 fix: raw vor audit-Check definiert
@@ -100,8 +102,6 @@ a0b50f2 feat: status + suche callback Handler fuer Inline-Buttons
 b6e12f5 feat: Fix-Vorschlaege mit Inline-Buttons + /test_button Befehl
 ab9e621 feat: Telegram Inline-Keyboard + callback_query + negative_patterns.json
 317e403 chore: jack_fixes.json nach Test-Fix geleert
-a97e7d4 feat: Schwellenwert n>=5, Ruhezeit 16-22, Briefing-Cron 07:55, AGENTS.md
-a27ee9d chore: .last_self_improve zu gitignore
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
