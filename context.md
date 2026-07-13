@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T12:40:23.649312)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T12:43:25.490345)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T12:40:23.638474
+Stand: 2026-07-13T12:43:25.482420
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,10 +85,10 @@ Stand: 2026-07-13T12:40:23.638474
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 214224s
-run: jack_telegram: (pid 7791) 8705s
-run: jack_autolearn: (pid 20689) 214224s
-run: ollama: (pid 20694) 214224s
+run: jack_cortex: (pid 20695) 214406s
+run: jack_telegram: (pid 7791) 8887s
+run: jack_autolearn: (pid 20689) 214406s
+run: ollama: (pid 20694) 214406s
 
 ## Letzte Aenderungen
 592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert
