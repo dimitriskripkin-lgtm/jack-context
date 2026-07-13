@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T05:24:11.334845)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T05:27:12.996215)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T05:24:11.326878
+Stand: 2026-07-13T05:27:12.985267
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,10 +79,10 @@ Stand: 2026-07-13T05:24:11.326878
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 188052s
-run: jack_telegram: (pid 30438) 1430s
-run: jack_autolearn: (pid 20689) 188052s
-run: ollama: (pid 20694) 188052s
+run: jack_cortex: (pid 20695) 188233s
+run: jack_telegram: (pid 30438) 1611s
+run: jack_autolearn: (pid 20689) 188233s
+run: ollama: (pid 20694) 188233s
 
 ## Letzte Aenderungen
 5d8602d feat: kortex_profile_updater.py - Profil wird automatisch nach jedem jack_learn aktualisiert
