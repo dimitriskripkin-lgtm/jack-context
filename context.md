@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:56:42.970159)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:59:44.660587)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:56:42.956247
+Stand: 2026-07-13T09:59:44.652244
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -79,12 +79,12 @@ Stand: 2026-07-13T09:56:42.956247
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 104
+- Erinnerungen: 106
 - Dienste:
-run: jack_cortex: (pid 20695) 204403s
-run: jack_telegram: (pid 19098) 342s
-run: jack_autolearn: (pid 20689) 204403s
-run: ollama: (pid 20694) 204403s
+run: jack_cortex: (pid 20695) 204585s
+run: jack_telegram: (pid 22938) 181s
+run: jack_autolearn: (pid 20689) 204585s
+run: ollama: (pid 20694) 204585s
 
 ## Letzte Aenderungen
 31d5bd1 feat: /m /menu Schnellzugriff mit 6 Buttons + Logs-Handler
@@ -134,4 +134,4 @@ OK: Fix
 [2026-07-13 09:36:57] REJECT-FIX-BUTTON | test abgelehnt
 
 ## Budget heute
-Heute: Text 17/300 | Vision 0/40 | Tokens 30931
+Heute: Text 21/300 | Vision 0/40 | Tokens 41402
