@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T17:43:37.799304)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T17:46:39.254312)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T17:43:37.791586
+Stand: 2026-07-13T17:46:39.246222
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-13T17:43:37.791586
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 5914s
-run: jack_telegram: (pid 23977) 5666s
-run: jack_autolearn: (pid 20689) 232418s
-run: ollama: (pid 20694) 232418s
+run: jack_cortex: (pid 21793) 6096s
+run: jack_telegram: (pid 23977) 5848s
+run: jack_autolearn: (pid 20689) 232600s
+run: ollama: (pid 20694) 232600s
 
 ## Letzte Aenderungen
 37f5dec feat: voice_service_v2 Poller-Ansatz - non-blocking Aufnahme funktioniert
