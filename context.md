@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T09:11:16.927824)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T09:14:18.592751)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T09:11:16.919569
+Stand: 2026-07-13T09:14:18.585059
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,12 +81,13 @@ Stand: 2026-07-13T09:11:16.919569
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 201677s
-run: jack_telegram: (pid 20966) 64s
-run: jack_autolearn: (pid 20689) 201677s
-run: ollama: (pid 20694) 201677s
+run: jack_cortex: (pid 20695) 201859s
+run: jack_telegram: (pid 22723) 27s
+run: jack_autolearn: (pid 20689) 201859s
+run: ollama: (pid 20694) 201859s
 
 ## Letzte Aenderungen
+b6e12f5 feat: Fix-Vorschlaege mit Inline-Buttons + /test_button Befehl
 ab9e621 feat: Telegram Inline-Keyboard + callback_query + negative_patterns.json
 317e403 chore: jack_fixes.json nach Test-Fix geleert
 a97e7d4 feat: Schwellenwert n>=5, Ruhezeit 16-22, Briefing-Cron 07:55, AGENTS.md
@@ -101,7 +102,6 @@ a3573b4 feat: jack_self.json - JACKs Selbstbild und Identitaet
 85a0b3a feat: jack_learn schreibt neue Fakten automatisch in kortex_memory.db
 6d29dd5 chore: .last_audit aus Git-Tracking entfernt
 47e65e6 chore: Silent-Fail Review abgeschlossen - verbleibende except:pass sind bewusste Fallbacks
-1528de5 fix: letzte Silent Fails geloggt, alle except:pass im Repo eliminiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
