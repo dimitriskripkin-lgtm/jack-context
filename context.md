@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T03:54:40.562692)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T03:57:42.562291)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T03:54:40.550357
+Stand: 2026-07-13T03:57:42.550767
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -74,13 +74,13 @@ Stand: 2026-07-13T03:54:40.550357
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 1
-- Erinnerungen: 100
+- Offene Fehler: 0
+- Erinnerungen: 101
 - Dienste:
-run: jack_cortex: (pid 20695) 182681s
-run: jack_telegram: (pid 23876) 117377s
-run: jack_autolearn: (pid 20689) 182681s
-run: ollama: (pid 20694) 182681s
+run: jack_cortex: (pid 20695) 182863s
+run: jack_telegram: (pid 23876) 117559s
+run: jack_autolearn: (pid 20689) 182863s
+run: ollama: (pid 20694) 182863s
 
 ## Letzte Aenderungen
 98e2044 Fix: _sec() Token-Parse auf Bot-Logik angeglichen, notify() funktioniert wieder
@@ -130,4 +130,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 03:53:18] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 3/300 | Vision 0/40 | Tokens 5953
+Heute: Text 6/300 | Vision 0/40 | Tokens 8409
