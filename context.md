@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T16:03:36.917548)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T16:06:38.985978)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T16:03:36.908440
+Stand: 2026-07-13T16:06:38.979179
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,12 +85,13 @@ Stand: 2026-07-13T16:03:36.908440
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 226417s
-run: jack_telegram: (pid 19645) 7873s
-run: jack_autolearn: (pid 20689) 226417s
-run: ollama: (pid 20694) 226417s
+run: jack_cortex: (pid 21793) 95s
+run: jack_telegram: (pid 19645) 8055s
+run: jack_autolearn: (pid 20689) 226599s
+run: ollama: (pid 20694) 226599s
 
 ## Letzte Aenderungen
+08306dd fix: Xiaomi IP 10.234->10.244 in jack_config.py
 9cfeba1 chore: Xiaomi IP auf 10.244.147.131 aktualisiert
 9e6b605 feat: /radar_an /radar_aus /vinted_an /vinted_aus /radar_intervall /vinted_intervall
 8459198 chore: Config-Dateien mit Tokens aus Git entfernt
@@ -105,7 +106,6 @@ efb0b2c feat: Briefing v2 - Akku, Dienste, Sessions, Fehler, Fixes chronologisch
 f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Score
 8d24455 feat: Persona in AGENTS.md und jack_self.json verlinkt
 60a03af feat: jack_persona.json - psychologisches Profil fuer JACK und alle KIs
-6a19f35 fix: gedaechtnis zeigt 200 Zeichen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
