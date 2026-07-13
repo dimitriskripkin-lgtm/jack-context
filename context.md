@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T13:50:02.469732)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T13:53:04.287850)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T13:50:02.457611
+Stand: 2026-07-13T13:53:04.278255
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,12 +85,13 @@ Stand: 2026-07-13T13:50:02.457611
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 218403s
-run: jack_telegram: (pid 7791) 12884s
-run: jack_autolearn: (pid 20689) 218403s
-run: ollama: (pid 20694) 218403s
+run: jack_cortex: (pid 20695) 218585s
+run: jack_telegram: (pid 19645) 41s
+run: jack_autolearn: (pid 20689) 218585s
+run: ollama: (pid 20694) 218585s
 
 ## Letzte Aenderungen
+9e6b605 feat: /radar_an /radar_aus /vinted_an /vinted_aus /radar_intervall /vinted_intervall
 8459198 chore: Config-Dateien mit Tokens aus Git entfernt
 859f8bd feat: jack_vinted_radar.py - Vinted Radar live, 96 Items gefunden
 592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert
@@ -105,7 +106,6 @@ f1ca237 feat: Gedaechtnis gehaertet - last_accessed + importance + Relevanz-Scor
 60a03af feat: jack_persona.json - psychologisches Profil fuer JACK und alle KIs
 6a19f35 fix: gedaechtnis zeigt 200 Zeichen
 9a73924 fix: Status-Button zeigt 150 Zeichen statt 50/80
-8f0d666 fix: raw vor audit-Check definiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
