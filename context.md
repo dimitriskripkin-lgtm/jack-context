@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:55:13.492825)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:58:15.046196)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:55:13.481499
+Stand: 2026-07-13T04:58:15.036212
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,12 +78,13 @@ Stand: 2026-07-13T04:55:13.481499
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 186314s
-run: jack_telegram: (pid 10273) 1996s
-run: jack_autolearn: (pid 20689) 186314s
-run: ollama: (pid 20694) 186314s
+run: jack_cortex: (pid 20695) 186496s
+run: jack_telegram: (pid 10273) 2178s
+run: jack_autolearn: (pid 20689) 186496s
+run: ollama: (pid 20694) 186496s
 
 ## Letzte Aenderungen
+4e2ae04 fix: Silent Fails ausgeraeumt - alle except:pass loggen jetzt nach jack_decisions.log
 dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
 c883aae feat: /merke /suche /gedaechtnis - Gedaechtnis per Telegram live
 e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreibt nur sensoren-Block
@@ -98,7 +99,6 @@ b55f1d6 CLAUDE.md: auf Live-Stand konsolidiert - jack_waechter->jack_autonomous 
 3641e51 taskrunner neu gestartet, Waechter-Baseline frisch
 c088322 Nacht-Waechter: regelbasierte Selbstueberwachung, meldet nur echte Probleme per Telegram, restartet tote Dienste, erster Lauf nur Baseline (weckt nicht)
 60f557c Aufraeumen: jack_learning_loop.py + Backups stillgelegt, CLAUDE.md mit echter Dienstliste - verhindert dass Claude Code aus toten Dateien liest
-61694b6 Claude Code Bruecke: /cc im Telegram (Text) + Sprach-Routing (Voice startet mit 'claude'). Read-only Berater kennt die ganze Umgebung, laeuft ueber Abo
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
