@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T04:30:59.603695)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T04:34:01.322604)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T04:30:59.594682
+Stand: 2026-07-13T04:34:01.315201
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,10 +78,10 @@ Stand: 2026-07-13T04:30:59.594682
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 184860s
-run: jack_telegram: (pid 10273) 542s
-run: jack_autolearn: (pid 20689) 184860s
-run: ollama: (pid 20694) 184860s
+run: jack_cortex: (pid 20695) 185042s
+run: jack_telegram: (pid 10273) 724s
+run: jack_autolearn: (pid 20689) 185042s
+run: ollama: (pid 20694) 185042s
 
 ## Letzte Aenderungen
 dcc487f feat: kortex_bridge runit-Service, Bridge startet automatisch nach Reboot
