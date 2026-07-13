@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T10:39:07.678400)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T10:42:09.383482)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T10:39:07.669389
+Stand: 2026-07-13T10:42:09.377902
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -81,10 +81,10 @@ Stand: 2026-07-13T10:39:07.669389
 - Offene Fehler: 0
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 20695) 206948s
-run: jack_telegram: (pid 7791) 1429s
-run: jack_autolearn: (pid 20689) 206948s
-run: ollama: (pid 20694) 206948s
+run: jack_cortex: (pid 20695) 207130s
+run: jack_telegram: (pid 7791) 1611s
+run: jack_autolearn: (pid 20689) 207130s
+run: ollama: (pid 20694) 207130s
 
 ## Letzte Aenderungen
 8d24455 feat: Persona in AGENTS.md und jack_self.json verlinkt
