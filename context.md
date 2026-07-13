@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T07:01:05.876654)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T07:04:07.392531)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T07:01:05.867365
+Stand: 2026-07-13T07:04:07.382756
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-07-13T07:01:05.867365
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer
+- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 
 ## Aktive Module (43)
 - jack_agent.py
@@ -80,10 +80,10 @@ Stand: 2026-07-13T07:01:05.867365
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 193866s
-run: jack_telegram: (pid 30633) 467s
-run: jack_autolearn: (pid 20689) 193866s
-run: ollama: (pid 20694) 193866s
+run: jack_cortex: (pid 20695) 194048s
+run: jack_telegram: (pid 30633) 649s
+run: jack_autolearn: (pid 20689) 194048s
+run: ollama: (pid 20694) 194048s
 
 ## Letzte Aenderungen
 7db5485 feat: jack_self_improve.py - Selbstdiagnose + /approve_fix_ Handler live
@@ -111,7 +111,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-11 16:15:20] SKILL-GESPEICHERT | git_status
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | gedaechtnis_stats
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | modell_check
 [2026-07-11 16:15:20] SKILL-GESPEICHERT | budget_rest
@@ -131,6 +130,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 06:52:25] SELF-IMPROVE | jack_cortex 1x, fix=fix_cortex_ssh_timeout_20260713_065225
 [2026-07-13 07:00:56] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_065225: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
 FEHLER:
+[2026-07-13 07:02:16] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 15/300 | Vision 0/40 | Tokens 23079
+Heute: Text 16/300 | Vision 0/40 | Tokens 27005
