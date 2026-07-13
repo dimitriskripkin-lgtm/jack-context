@@ -46,4 +46,4 @@
 -rwx------. 1 u0_a400 u0_a400  1963 Jul  6 14:40 /data/data/com.termux/files/home/jack/kortex_sensor_daemon.py
 -rw-------. 1 u0_a400 u0_a400   457 Jul  6 14:23 /data/data/com.termux/files/home/jack/quick_bridge.py
 -rw-------. 1 u0_a400 u0_a400  1529 Jul  3 20:47 /data/data/com.termux/files/home/jack/test_jack_approval.py
--rw-------. 1 u0_a400 u0_a400  2351 Jul 13 17:57 /data/data/com.termux/files/home/jack/voice_service_v2.py
+-rw-------. 1 u0_a400 u0_a400  2321 Jul 13 18:01 /data/data/com.termux/files/home/jack/voice_service_v2.py
