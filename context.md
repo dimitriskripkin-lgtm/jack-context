@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-13T05:12:05.273630)
+# JACK LIVE-KONTEXT (auto, 2026-07-13T05:15:06.766067)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-13T05:12:05.264185
+Stand: 2026-07-13T05:15:06.757357
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -78,12 +78,13 @@ Stand: 2026-07-13T05:12:05.264185
 - Offene Fehler: 0
 - Erinnerungen: 104
 - Dienste:
-run: jack_cortex: (pid 20695) 187326s
-run: jack_telegram: (pid 30438) 704s
-run: jack_autolearn: (pid 20689) 187326s
-run: ollama: (pid 20694) 187326s
+run: jack_cortex: (pid 20695) 187507s
+run: jack_telegram: (pid 30438) 885s
+run: jack_autolearn: (pid 20689) 187507s
+run: ollama: (pid 20694) 187507s
 
 ## Letzte Aenderungen
+85a0b3a feat: jack_learn schreibt neue Fakten automatisch in kortex_memory.db
 6d29dd5 chore: .last_audit aus Git-Tracking entfernt
 47e65e6 chore: Silent-Fail Review abgeschlossen - verbleibende except:pass sind bewusste Fallbacks
 1528de5 fix: letzte Silent Fails geloggt, alle except:pass im Repo eliminiert
@@ -98,7 +99,6 @@ e5138fe feat: kortex_profile.json v2.0 - strukturiertes Wissen, Profiler schreib
 a35bb6e jack_audit: Gesundheits+Sicherheits-Check (Dienste/Secrets/Scrubber/Gate); verwaistes jack_health nach LEGACY_ARCHIVE
 aebe902 Skill-Gate (Weg 1): assess_skill_risk - subprocess via Whitelist erlaubt, Killer-Muster hart geblockt, /code-Gate unberuehrt
 f724f96 ARCHITEKTUR.md: auf Live-Stand - erledigte Baustellen (Keys/SSH/Log/Augen/Selbstverbesserung) raus, neue Schichten+Befehle rein, ehrliche OFFEN-Liste
-b55f1d6 CLAUDE.md: auf Live-Stand konsolidiert - jack_waechter->jack_autonomous Mapping, alle 6 Dienste, DB-Schemas, erledigte Baustellen raus
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
@@ -131,4 +131,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-13 04:54:43] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 14/300 | Vision 0/40 | Tokens 19153
+Heute: Text 15/300 | Vision 0/40 | Tokens 23079
