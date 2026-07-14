@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-14T17:01:40.012276)
+# JACK LIVE-KONTEXT (auto, 2026-07-14T17:04:41.878647)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-14T17:01:40.003597
+Stand: 2026-07-14T17:04:41.869809
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-07-14T17:01:40.003597
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), KEIN Fernfahrer.
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), KEIN Fernfahrer.
 - Dima ist Hobby-Programmierer.
 - Dima nutzt Gemini Plus und Claude.ai.
 - JACK ist ein autonomes, lokales AI-OS.
@@ -84,12 +84,12 @@ Stand: 2026-07-14T17:01:40.003597
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 114
+- Erinnerungen: 116
 - Dienste:
-run: jack_cortex: (pid 21793) 89797s
-run: jack_telegram: (pid 23977) 89549s
-run: jack_autolearn: (pid 20689) 316301s
-run: ollama: (pid 20694) 316301s
+run: jack_cortex: (pid 21793) 89978s
+run: jack_telegram: (pid 23977) 89730s
+run: jack_autolearn: (pid 20689) 316482s
+run: ollama: (pid 20694) 316482s
 
 ## Letzte Aenderungen
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
@@ -117,7 +117,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 07:15:50] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-13 07:15:50] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-13 08:19:11] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 09:02:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
@@ -137,6 +136,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-14 09:04:04] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 11:00:01] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-14 11:04:06] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-14 17:04:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 24/300 | Vision 0/40 | Tokens 67746
+Heute: Text 29/300 | Vision 0/40 | Tokens 77728
