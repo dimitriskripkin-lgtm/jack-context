@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-14T15:00:20.809479)
+# JACK LIVE-KONTEXT (auto, 2026-07-14T15:03:22.881272)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-14T15:00:20.801675
+Stand: 2026-07-14T15:03:22.876553
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,12 +86,13 @@ Stand: 2026-07-14T15:00:20.801675
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 82517s
-run: jack_telegram: (pid 23977) 82269s
-run: jack_autolearn: (pid 20689) 309021s
-run: ollama: (pid 20694) 309021s
+run: jack_cortex: (pid 21793) 82699s
+run: jack_telegram: (pid 23977) 82451s
+run: jack_autolearn: (pid 20689) 309203s
+run: ollama: (pid 20694) 309203s
 
 ## Letzte Aenderungen
+e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
 7d10661 feat: voice_service_v2 non-blocking funktioniert - Stabilitaets-Check fuer M4A
 37f5dec feat: voice_service_v2 Poller-Ansatz - non-blocking Aufnahme funktioniert
@@ -106,7 +107,6 @@ cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
 0da8631 fix: Session-Text auf 300 Zeichen erweitert
-efb0b2c feat: Briefing v2 - Akku, Dienste, Sessions, Fehler, Fixes chronologisch
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
