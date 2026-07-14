@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-14T23:02:48.665290)
+# JACK LIVE-KONTEXT (auto, 2026-07-14T23:05:50.462014)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-14T23:02:48.656917
+Stand: 2026-07-14T23:05:50.450105
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-07-14T23:02:48.656917
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), KEIN Fernfahrer.
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
 - Dima ist Hobby-Programmierer.
 - Dima nutzt Gemini Plus und Claude.ai.
 - JACK ist ein autonomes, lokales AI-OS.
@@ -86,10 +86,10 @@ Stand: 2026-07-14T23:02:48.656917
 - Offene Fehler: 1
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 111465s
-run: jack_telegram: (pid 23977) 111217s
-run: jack_autolearn: (pid 20689) 337969s
-run: ollama: (pid 20694) 337969s
+run: jack_cortex: (pid 21793) 111647s
+run: jack_telegram: (pid 23977) 111399s
+run: jack_autolearn: (pid 20689) 338151s
+run: ollama: (pid 20694) 338151s
 
 ## Letzte Aenderungen
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
@@ -117,7 +117,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 07:15:50] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-13 08:19:11] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 09:02:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-13 09:36:57] REJECT-FIX-BUTTON | test abgelehnt
@@ -137,6 +136,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-14 11:00:01] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-14 11:04:06] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 17:04:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-14 23:04:37] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 41/300 | Vision 0/40 | Tokens 101547
+Heute: Text 42/300 | Vision 0/40 | Tokens 107009
