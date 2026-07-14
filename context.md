@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-14T05:02:57.550510)
+# JACK LIVE-KONTEXT (auto, 2026-07-14T05:05:59.384597)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-14T05:02:57.540726
+Stand: 2026-07-14T05:05:59.373870
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -19,7 +19,6 @@ Stand: 2026-07-14T05:02:57.540726
 - JACK nutzt Gemini 2.5 Flash (Lite) als Hauptdenker.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK wurde am 18. Juni gebaut.
 - JACK verwendet `jack_learn.py` als Lerner.
 - JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
 - JACK's kostenlose KI-Modelle haben Tageslimits.
@@ -86,10 +85,10 @@ Stand: 2026-07-14T05:02:57.540726
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 46674s
-run: jack_telegram: (pid 23977) 46426s
-run: jack_autolearn: (pid 20689) 273178s
-run: ollama: (pid 20694) 273178s
+run: jack_cortex: (pid 21793) 46856s
+run: jack_telegram: (pid 23977) 46608s
+run: jack_autolearn: (pid 20689) 273360s
+run: ollama: (pid 20694) 273360s
 
 ## Letzte Aenderungen
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
@@ -139,4 +138,4 @@ OK: Fix
 [2026-07-14 01:03:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 10256
+Heute: Text 3/300 | Vision 0/40 | Tokens 15373
