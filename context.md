@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-14T05:57:31.528856)
+# JACK LIVE-KONTEXT (auto, 2026-07-14T06:00:33.036396)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-14T05:57:31.518831
+Stand: 2026-07-14T06:00:33.028706
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,10 +85,10 @@ Stand: 2026-07-14T05:57:31.518831
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 49948s
-run: jack_telegram: (pid 23977) 49700s
-run: jack_autolearn: (pid 20689) 276452s
-run: ollama: (pid 20694) 276452s
+run: jack_cortex: (pid 21793) 50130s
+run: jack_telegram: (pid 23977) 49882s
+run: jack_autolearn: (pid 20689) 276634s
+run: ollama: (pid 20694) 276634s
 
 ## Letzte Aenderungen
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
@@ -116,7 +116,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 07:00:56] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_065225: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
 FEHLER:
 [2026-07-13 07:02:16] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-13 07:11:08] SELF-IMPROVE | jack_cortex 1x, fix=fix_cortex_ssh_timeout_20260713_071108
@@ -136,6 +135,7 @@ OK: Fix
 [2026-07-13 12:03:41] RADAR | 20 neue Anzeigen gefunden
 [2026-07-13 21:03:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 01:03:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-14 06:00:00] MEMORY-MAINTENANCE | Gesamt: 15 Eintraege | Stale: 0
 
 ## Budget heute
 Heute: Text 3/300 | Vision 0/40 | Tokens 15373
