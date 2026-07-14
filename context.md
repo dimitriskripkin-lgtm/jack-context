@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-14T09:02:23.484620)
+# JACK LIVE-KONTEXT (auto, 2026-07-14T09:05:25.177150)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-14T09:02:23.476162
+Stand: 2026-07-14T09:05:25.169308
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-07-14T09:02:23.476162
 - Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK's Entwickler Dima hat das Host-Gerät als Honor Magic8 Pro (nicht Honor 8) korrigiert.
-- JACK's Telegram-Commands wurden aktualisiert und die Änderung wurde committet und gepusht.
+- JACK's Telegram-Commands wurden aktualisiert, committed und gepusht.
 
 ## Aktive Module (49)
 - jack_agent.py
@@ -86,10 +86,10 @@ Stand: 2026-07-14T09:02:23.476162
 - Offene Fehler: 1
 - Erinnerungen: 107
 - Dienste:
-run: jack_cortex: (pid 21793) 61040s
-run: jack_telegram: (pid 23977) 60792s
-run: jack_autolearn: (pid 20689) 287544s
-run: ollama: (pid 20694) 287544s
+run: jack_cortex: (pid 21793) 61222s
+run: jack_telegram: (pid 23977) 60974s
+run: jack_autolearn: (pid 20689) 287726s
+run: ollama: (pid 20694) 287726s
 
 ## Letzte Aenderungen
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
@@ -117,7 +117,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 07:12:00] APPROVE-FIX | approve_fix_cortex_ssh_timeout_20260713_071108: Backup: /data/data/com.termux/files/home/jack/jack_cortex.py.bak_autofix
 OK: Fix
 [2026-07-13 07:15:44] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-13 07:15:50] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -137,6 +136,7 @@ OK: Fix
 [2026-07-14 07:04:01] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 07:16:40] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-14 07:16:40] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-14 09:04:04] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 4/300 | Vision 0/40 | Tokens 20502
+Heute: Text 5/300 | Vision 0/40 | Tokens 25648
