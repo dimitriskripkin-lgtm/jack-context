@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T01:23:48.201613)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T01:26:50.223552)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T01:23:48.191970
+Stand: 2026-07-16T01:26:50.212406
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-16T01:23:48.191970
 - Offene Fehler: 1
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 206325s
-run: jack_telegram: (pid 28408) 55164s
-run: jack_autolearn: (pid 20689) 432829s
-run: ollama: (pid 20694) 432829s
+run: jack_cortex: (pid 21793) 206507s
+run: jack_telegram: (pid 28408) 55346s
+run: jack_autolearn: (pid 20689) 433011s
+run: ollama: (pid 20694) 433011s
 
 ## Letzte Aenderungen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
