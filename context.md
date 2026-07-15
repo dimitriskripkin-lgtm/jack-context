@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-15T05:04:07.541523)
+# JACK LIVE-KONTEXT (auto, 2026-07-15T05:07:09.273099)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-15T05:04:07.532621
+Stand: 2026-07-15T05:07:09.263822
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-15T05:04:07.532621
 - Offene Fehler: 1
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 133144s
-run: jack_telegram: (pid 23977) 132896s
-run: jack_autolearn: (pid 20689) 359648s
-run: ollama: (pid 20694) 359648s
+run: jack_cortex: (pid 21793) 133326s
+run: jack_telegram: (pid 23977) 133078s
+run: jack_autolearn: (pid 20689) 359830s
+run: ollama: (pid 20694) 359830s
 
 ## Letzte Aenderungen
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
@@ -139,4 +139,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-14 23:04:37] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 10916
+Heute: Text 3/300 | Vision 0/40 | Tokens 16374
