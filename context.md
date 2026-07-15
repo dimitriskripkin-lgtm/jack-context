@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-15T10:58:59.455655)
+# JACK LIVE-KONTEXT (auto, 2026-07-15T11:02:01.370949)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-15T10:58:59.443647
+Stand: 2026-07-15T11:02:01.361733
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-15T10:58:59.443647
 - Offene Fehler: 1
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 154436s
-run: jack_telegram: (pid 28408) 3275s
-run: jack_autolearn: (pid 20689) 380940s
-run: ollama: (pid 20694) 380940s
+run: jack_cortex: (pid 21793) 154618s
+run: jack_telegram: (pid 28408) 3457s
+run: jack_autolearn: (pid 20689) 381122s
+run: ollama: (pid 20694) 381122s
 
 ## Letzte Aenderungen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
@@ -117,7 +117,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 10:43:50] MEMORY-MAINTENANCE | Gesamt: 10 Eintraege | Stale: 0
 [2026-07-13 10:46:16] CONSOLIDATE | Session gespeichert: 10 Logs, 3 Zugriffe
 [2026-07-13 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 4 Zugriffe
 [2026-07-13 11:59:44] RADAR | 0 neue Anzeigen gefunden
@@ -137,6 +136,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-15 06:00:01] MEMORY-MAINTENANCE | Gesamt: 21 Eintraege | Stale: 0
 [2026-07-15 07:20:13] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-15 07:20:13] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-15 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 29081
