@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-15T03:05:46.764874)
+# JACK LIVE-KONTEXT (auto, 2026-07-15T03:08:48.693873)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-15T03:05:46.751843
+Stand: 2026-07-15T03:08:48.684091
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-15T03:05:46.751843
 - Offene Fehler: 1
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 126043s
-run: jack_telegram: (pid 23977) 125795s
-run: jack_autolearn: (pid 20689) 352547s
-run: ollama: (pid 20694) 352547s
+run: jack_cortex: (pid 21793) 126225s
+run: jack_telegram: (pid 23977) 125977s
+run: jack_autolearn: (pid 20689) 352729s
+run: ollama: (pid 20694) 352729s
 
 ## Letzte Aenderungen
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
