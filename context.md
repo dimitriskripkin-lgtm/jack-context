@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T12:33:39.172860)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T12:36:40.972615)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T12:33:39.165753
+Stand: 2026-07-16T12:36:40.963741
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,10 +88,10 @@ Stand: 2026-07-16T12:33:39.165753
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 246516s
-run: jack_telegram: (pid 11956) 172s
-run: jack_autolearn: (pid 20689) 473020s
-run: ollama: (pid 20694) 473020s
+run: jack_cortex: (pid 21793) 246697s
+run: jack_telegram: (pid 11956) 353s
+run: jack_autolearn: (pid 20689) 473201s
+run: ollama: (pid 20694) 473201s
 
 ## Letzte Aenderungen
 340dba9 feat: jack_xiaomi_cmd - Telegram /xiaomi Loop komplett, ADB tap funktioniert
