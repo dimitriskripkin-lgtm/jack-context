@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T13:13:05.258580)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T13:16:07.487302)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T13:13:05.247228
+Stand: 2026-07-16T13:16:07.478712
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,14 +89,18 @@ Stand: 2026-07-16T13:13:05.247228
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 248882s
-run: jack_telegram: (pid 11956) 2538s
-run: jack_autolearn: (pid 20689) 475386s
-run: ollama: (pid 20694) 475386s
+run: jack_cortex: (pid 21793) 249064s
+run: jack_telegram: (pid 11956) 2720s
+run: jack_autolearn: (pid 20689) 475568s
+run: ollama: (pid 20694) 475568s
 
 ## Letzte Aenderungen
+a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
 3dcb140 fix: /xiaomi handler + telegram fixes
+0ed075c feat: Node Alpha Lern-System, Skill-Generator gefixt
 340dba9 feat: jack_xiaomi_cmd - Telegram /xiaomi Loop komplett, ADB tap funktioniert
+7299e40 feat: jack_node_alpha daemon + ADB tap funktioniert autonom
+6435547 fix: MIUI uiautomator via Datei, Gemini 2.5-flash-lite, Quote-Strip
 f52ad49 feat: jack_android
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
@@ -106,10 +110,6 @@ e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 37f5dec feat: voice_service_v2 Poller-Ansatz - non-blocking Aufnahme funktioniert
 2602703 feat: send_webapp + /radar_ergebnisse Telegram-Button
 cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
-08306dd fix: Xiaomi IP 10.234->10.244 in jack_config.py
-9cfeba1 chore: Xiaomi IP auf 10.244.147.131 aktualisiert
-9e6b605 feat: /radar_an /radar_aus /vinted_an /vinted_aus /radar_intervall /vinted_intervall
-8459198 chore: Config-Dateien mit Tokens aus Git entfernt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
