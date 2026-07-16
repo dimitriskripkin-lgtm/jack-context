@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T12:12:27.995713)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T12:15:29.519595)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T12:12:27.985115
+Stand: 2026-07-16T12:15:29.511638
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-16T12:12:27.985115
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 
-## Aktive Module (50)
+## Aktive Module (51)
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
@@ -74,6 +74,7 @@ Stand: 2026-07-16T12:12:27.985115
 - jack_voice_processor.py
 - jack_write.py
 - jack_xiaomi.py
+- jack_xiaomi_cmd.py
 - kortex_controller.py
 - kortex_memory.py
 - kortex_profile_updater.py
@@ -87,10 +88,10 @@ Stand: 2026-07-16T12:12:27.985115
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 245244s
-run: jack_telegram: (pid 28408) 94083s
-run: jack_autolearn: (pid 20689) 471748s
-run: ollama: (pid 20694) 471748s
+run: jack_cortex: (pid 21793) 245426s
+run: jack_telegram: (pid 28325) 168s
+run: jack_autolearn: (pid 20689) 471930s
+run: ollama: (pid 20694) 471930s
 
 ## Letzte Aenderungen
 f52ad49 feat: jack_android
