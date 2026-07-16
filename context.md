@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T11:02:46.127504)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T11:05:47.979796)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T11:02:46.118733
+Stand: 2026-07-16T11:05:47.966421
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,9 +26,9 @@ Stand: 2026-07-16T11:02:46.118733
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
-- Dima hat KEINEN Hund.
+- Dima hat KEINEN Hund (Rex war nur ein Test).
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- JACK's Entwickler Dima hat das Host-Gerät als Honor Magic8 Pro (nicht Honor 8) korrigiert.
+- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 
 ## Aktive Module (50)
@@ -87,10 +87,10 @@ Stand: 2026-07-16T11:02:46.118733
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 241063s
-run: jack_telegram: (pid 28408) 89902s
-run: jack_autolearn: (pid 20689) 467567s
-run: ollama: (pid 20694) 467567s
+run: jack_cortex: (pid 21793) 241244s
+run: jack_telegram: (pid 28408) 90083s
+run: jack_autolearn: (pid 20689) 467748s
+run: ollama: (pid 20694) 467748s
 
 ## Letzte Aenderungen
 f52ad49 feat: jack_android
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 12:03:41] RADAR | 20 neue Anzeigen gefunden
 [2026-07-13 21:03:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 01:03:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 06:00:00] MEMORY-MAINTENANCE | Gesamt: 15 Eintraege | Stale: 0
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-16 07:23:42] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-16 07:23:42] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-16 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-16 11:05:30] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 27290
+Heute: Text 6/300 | Vision 0/40 | Tokens 32748
