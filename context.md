@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T08:46:19.733200)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T08:49:21.351683)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T08:46:19.723882
+Stand: 2026-07-16T08:49:21.342214
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -83,15 +83,16 @@ Stand: 2026-07-16T08:46:19.723882
 - voice_service_v2.py
 
 ## System-Status
-- Offene Fehler: 1
+- Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 232876s
-run: jack_telegram: (pid 28408) 81715s
-run: jack_autolearn: (pid 20689) 459380s
-run: ollama: (pid 20694) 459380s
+run: jack_cortex: (pid 21793) 233058s
+run: jack_telegram: (pid 28408) 81897s
+run: jack_autolearn: (pid 20689) 459562s
+run: ollama: (pid 20694) 459562s
 
 ## Letzte Aenderungen
+a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
@@ -106,7 +107,6 @@ cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 859f8bd feat: jack_vinted_radar.py - Vinted Radar live, 96 Items gefunden
 592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert
 529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
-c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
