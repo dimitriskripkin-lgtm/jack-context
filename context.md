@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T13:03:59.000172)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T13:07:00.982643)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T13:03:58.988702
+Stand: 2026-07-16T13:07:00.971171
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,9 +26,9 @@ Stand: 2026-07-16T13:03:58.988702
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
-- Dima hat KEINEN Hund.
+- Dima hat KEINEN Hund (Rex war nur ein Test).
+- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- JACK's Entwickler Dima hat das Host-Gerät als Honor Magic8 Pro (nicht Honor 8) korrigiert.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 
 ## Aktive Module (52)
@@ -89,10 +89,10 @@ Stand: 2026-07-16T13:03:58.988702
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 248335s
-run: jack_telegram: (pid 11956) 1991s
-run: jack_autolearn: (pid 20689) 474839s
-run: ollama: (pid 20694) 474839s
+run: jack_cortex: (pid 21793) 248517s
+run: jack_telegram: (pid 11956) 2173s
+run: jack_autolearn: (pid 20689) 475021s
+run: ollama: (pid 20694) 475021s
 
 ## Letzte Aenderungen
 3dcb140 fix: /xiaomi handler + telegram fixes
@@ -120,7 +120,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-13 21:03:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 01:03:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 06:00:00] MEMORY-MAINTENANCE | Gesamt: 15 Eintraege | Stale: 0
 [2026-07-14 07:04:01] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
@@ -140,6 +139,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-16 07:23:42] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-16 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-16 11:05:30] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-16 13:05:35] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 4/300 | Vision 0/40 | Tokens 21832
+Heute: Text 5/300 | Vision 0/40 | Tokens 27290
