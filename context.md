@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T19:04:59.376924)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T19:08:01.345590)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T19:04:59.369819
+Stand: 2026-07-16T19:08:01.337210
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-16T19:04:59.369819
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 269996s
-run: jack_telegram: (pid 11956) 23652s
-run: jack_autolearn: (pid 20689) 496500s
-run: ollama: (pid 20694) 496500s
+run: jack_cortex: (pid 21793) 270178s
+run: jack_telegram: (pid 11956) 23834s
+run: jack_autolearn: (pid 20689) 496682s
+run: ollama: (pid 20694) 496682s
 
 ## Letzte Aenderungen
 a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
@@ -142,4 +142,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-16 13:05:35] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 7/300 | Vision 0/40 | Tokens 38206
+Heute: Text 8/300 | Vision 0/40 | Tokens 43664
