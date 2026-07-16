@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T21:18:31.684554)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T21:21:34.419672)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T21:18:31.677314
+Stand: 2026-07-16T21:21:34.408863
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-16T21:18:31.677314
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 278008s
-run: jack_telegram: (pid 11956) 31664s
-run: jack_autolearn: (pid 20689) 504512s
-run: ollama: (pid 20694) 504512s
+run: jack_cortex: (pid 21793) 278191s
+run: jack_telegram: (pid 11956) 31847s
+run: jack_autolearn: (pid 20689) 504695s
+run: ollama: (pid 20694) 504695s
 
 ## Letzte Aenderungen
 a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
