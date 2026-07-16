@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T12:21:32.773980)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T12:24:34.407932)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T12:21:32.763570
+Stand: 2026-07-16T12:24:34.400163
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,12 +88,13 @@ Stand: 2026-07-16T12:21:32.763570
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 245789s
-run: jack_telegram: (pid 658) 61s
-run: jack_autolearn: (pid 20689) 472293s
-run: ollama: (pid 20694) 472293s
+run: jack_cortex: (pid 21793) 245971s
+run: jack_telegram: (pid 658) 243s
+run: jack_autolearn: (pid 20689) 472475s
+run: ollama: (pid 20694) 472475s
 
 ## Letzte Aenderungen
+340dba9 feat: jack_xiaomi_cmd - Telegram /xiaomi Loop komplett, ADB tap funktioniert
 f52ad49 feat: jack_android
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
@@ -108,7 +109,6 @@ cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 9e6b605 feat: /radar_an /radar_aus /vinted_an /vinted_aus /radar_intervall /vinted_intervall
 8459198 chore: Config-Dateien mit Tokens aus Git entfernt
 859f8bd feat: jack_vinted_radar.py - Vinted Radar live, 96 Items gefunden
-592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
