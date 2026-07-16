@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T12:51:51.036569)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T12:54:53.117272)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T12:51:51.028220
+Stand: 2026-07-16T12:54:53.106233
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-16T12:51:51.028220
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 247608s
-run: jack_telegram: (pid 11956) 1264s
-run: jack_autolearn: (pid 20689) 474112s
-run: ollama: (pid 20694) 474112s
+run: jack_cortex: (pid 21793) 247790s
+run: jack_telegram: (pid 11956) 1446s
+run: jack_autolearn: (pid 20689) 474294s
+run: ollama: (pid 20694) 474294s
 
 ## Letzte Aenderungen
 3dcb140 fix: /xiaomi handler + telegram fixes
