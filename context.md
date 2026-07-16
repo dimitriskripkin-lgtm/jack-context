@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T09:19:40.748811)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T09:22:42.589346)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T09:19:40.734916
+Stand: 2026-07-16T09:22:42.580979
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,8 +31,9 @@ Stand: 2026-07-16T09:19:40.734916
 - JACK's Entwickler Dima hat das Host-Gerät als Honor Magic8 Pro (nicht Honor 8) korrigiert.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 
-## Aktive Module (49)
+## Aktive Module (50)
 - jack_agent.py
+- jack_android.py
 - jack_approval.py
 - jack_audit.py
 - jack_autonomous.py
@@ -86,12 +87,13 @@ Stand: 2026-07-16T09:19:40.734916
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 234877s
-run: jack_telegram: (pid 28408) 83716s
-run: jack_autolearn: (pid 20689) 461381s
-run: ollama: (pid 20694) 461381s
+run: jack_cortex: (pid 21793) 235059s
+run: jack_telegram: (pid 28408) 83898s
+run: jack_autolearn: (pid 20689) 461563s
+run: ollama: (pid 20694) 461563s
 
 ## Letzte Aenderungen
+f52ad49 feat: jack_android
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
@@ -106,7 +108,6 @@ cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 8459198 chore: Config-Dateien mit Tokens aus Git entfernt
 859f8bd feat: jack_vinted_radar.py - Vinted Radar live, 96 Items gefunden
 592e323 feat: Radar Parser JSON-LD, 20 Treffer live - vorerst deaktiviert
-529f84c feat: jack_radar.py - Kleinanzeigen Radar Grundgeruest
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).

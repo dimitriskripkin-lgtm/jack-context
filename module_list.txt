@@ -1,4 +1,5 @@
 -rw-------. 1 u0_a400 u0_a400  2356 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_agent.py
+-rw-------. 1 u0_a400 u0_a400 14814 Jul 16 09:21 /data/data/com.termux/files/home/jack/jack_android.py
 -rw-------. 1 u0_a400 u0_a400  3005 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_approval.py
 -rw-------. 1 u0_a400 u0_a400  2966 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_audit.py
 -rw-------. 1 u0_a400 u0_a400  5315 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_autonomous.py
