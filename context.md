@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T09:16:38.618806)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T09:19:40.748811)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T09:16:38.605911
+Stand: 2026-07-16T09:19:40.734916
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-16T09:16:38.605911
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 234695s
-run: jack_telegram: (pid 28408) 83534s
-run: jack_autolearn: (pid 20689) 461199s
-run: ollama: (pid 20694) 461199s
+run: jack_cortex: (pid 21793) 234877s
+run: jack_telegram: (pid 28408) 83716s
+run: jack_autolearn: (pid 20689) 461381s
+run: ollama: (pid 20694) 461381s
 
 ## Letzte Aenderungen
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
