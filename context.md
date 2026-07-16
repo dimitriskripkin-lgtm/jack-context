@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T08:43:18.066547)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T08:46:19.733200)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T08:43:18.057358
+Stand: 2026-07-16T08:46:19.723882
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-16T08:43:18.057358
 - Offene Fehler: 1
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 232695s
-run: jack_telegram: (pid 28408) 81534s
-run: jack_autolearn: (pid 20689) 459199s
-run: ollama: (pid 20694) 459199s
+run: jack_cortex: (pid 21793) 232876s
+run: jack_telegram: (pid 28408) 81715s
+run: jack_autolearn: (pid 20689) 459380s
+run: ollama: (pid 20694) 459380s
 
 ## Letzte Aenderungen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
@@ -109,7 +109,7 @@ cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 c7a1a38 feat: FTS5 Zeitdaempfung - Score sinkt nach 14 Tagen ohne Abruf
 
 ## Architektur
-Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.234.166.131:8022).
+Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
 Gehirn: Gemini 2.5 Flash + llama3.2:3b Fallback + nomic-embed-text.
 Gedaechtnis 3-Tier (MemGPT-Muster): Core=identity.json, Recall=Verlauf, Archival=sqlite-vec.
 Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
