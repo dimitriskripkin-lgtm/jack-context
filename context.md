@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T09:22:42.589346)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T09:25:44.396031)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T09:22:42.580979
+Stand: 2026-07-16T09:25:44.379216
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-16T09:22:42.580979
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 235059s
-run: jack_telegram: (pid 28408) 83898s
-run: jack_autolearn: (pid 20689) 461563s
-run: ollama: (pid 20694) 461563s
+run: jack_cortex: (pid 21793) 235241s
+run: jack_telegram: (pid 28408) 84080s
+run: jack_autolearn: (pid 20689) 461745s
+run: ollama: (pid 20694) 461745s
 
 ## Letzte Aenderungen
 f52ad49 feat: jack_android
