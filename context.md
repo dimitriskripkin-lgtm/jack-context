@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-16T12:36:40.972615)
+# JACK LIVE-KONTEXT (auto, 2026-07-16T12:39:42.788507)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-16T12:36:40.963741
+Stand: 2026-07-16T12:39:42.766591
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,12 +26,12 @@ Stand: 2026-07-16T12:36:40.963741
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
-- Dima hat KEINEN Hund (Rex war nur ein Test).
+- Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
+- JACK's Entwickler Dima hat das Host-Gerät als Honor Magic8 Pro (nicht Honor 8) korrigiert.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 
-## Aktive Module (51)
+## Aktive Module (52)
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
@@ -55,6 +55,7 @@ Stand: 2026-07-16T12:36:40.963741
 - jack_memory.py
 - jack_memory_engine.py
 - jack_memory_maintenance.py
+- jack_node_alpha.py
 - jack_operator.py
 - jack_patch.py
 - jack_personality.py
@@ -88,12 +89,13 @@ Stand: 2026-07-16T12:36:40.963741
 - Offene Fehler: 2
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 246697s
-run: jack_telegram: (pid 11956) 353s
-run: jack_autolearn: (pid 20689) 473201s
-run: ollama: (pid 20694) 473201s
+run: jack_cortex: (pid 21793) 246879s
+run: jack_telegram: (pid 11956) 535s
+run: jack_autolearn: (pid 20689) 473383s
+run: ollama: (pid 20694) 473383s
 
 ## Letzte Aenderungen
+3dcb140 fix: /xiaomi handler + telegram fixes
 340dba9 feat: jack_xiaomi_cmd - Telegram /xiaomi Loop komplett, ADB tap funktioniert
 f52ad49 feat: jack_android
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
@@ -108,7 +110,6 @@ cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 9cfeba1 chore: Xiaomi IP auf 10.244.147.131 aktualisiert
 9e6b605 feat: /radar_an /radar_aus /vinted_an /vinted_aus /radar_intervall /vinted_intervall
 8459198 chore: Config-Dateien mit Tokens aus Git entfernt
-859f8bd feat: jack_vinted_radar.py - Vinted Radar live, 96 Items gefunden
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -141,4 +142,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-16 11:05:30] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 32748
+Heute: Text 4/300 | Vision 0/40 | Tokens 21832
