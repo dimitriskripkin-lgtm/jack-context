@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-17T10:02:49.197888)
+# JACK LIVE-KONTEXT (auto, 2026-07-17T10:05:50.995726)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-17T10:02:49.187592
+Stand: 2026-07-17T10:05:50.988318
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-17T10:02:49.187592
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 
-## Aktive Module (52)
+## Aktive Module (53)
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
@@ -61,6 +61,7 @@ Stand: 2026-07-17T10:02:49.187592
 - jack_personality.py
 - jack_publish.py
 - jack_radar.py
+- jack_screen_tracker.py
 - jack_self_improve.py
 - jack_sensors.py
 - jack_skills.py
@@ -89,10 +90,10 @@ Stand: 2026-07-17T10:02:49.187592
 - Offene Fehler: 4
 - Erinnerungen: 122
 - Dienste:
-run: jack_cortex: (pid 21793) 323866s
-run: jack_telegram: (pid 11956) 77522s
-run: jack_autolearn: (pid 20689) 550370s
-run: ollama: (pid 20694) 550370s
+run: jack_cortex: (pid 21793) 324047s
+run: jack_telegram: (pid 11956) 77703s
+run: jack_autolearn: (pid 20689) 550551s
+run: ollama: (pid 20694) 550551s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
