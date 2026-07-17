@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-17T08:04:29.759457)
+# JACK LIVE-KONTEXT (auto, 2026-07-17T08:07:31.840198)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-17T08:04:29.745936
+Stand: 2026-07-17T08:07:31.820435
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,13 +86,13 @@ Stand: 2026-07-17T08:04:29.745936
 - voice_service_v2.py
 
 ## System-Status
-- Offene Fehler: 2
+- Offene Fehler: 3
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 316766s
-run: jack_telegram: (pid 11956) 70422s
-run: jack_autolearn: (pid 20689) 543270s
-run: ollama: (pid 20694) 543270s
+run: jack_cortex: (pid 21793) 316948s
+run: jack_telegram: (pid 11956) 70604s
+run: jack_autolearn: (pid 20689) 543452s
+run: ollama: (pid 20694) 543452s
 
 ## Letzte Aenderungen
 a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
