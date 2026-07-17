@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-17T14:05:40.094995)
+# JACK LIVE-KONTEXT (auto, 2026-07-17T14:08:42.165152)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-17T14:05:40.078397
+Stand: 2026-07-17T14:08:42.148920
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -90,10 +90,10 @@ Stand: 2026-07-17T14:05:40.078397
 - Offene Fehler: 4
 - Erinnerungen: 122
 - Dienste:
-run: jack_cortex: (pid 21793) 338437s
-run: jack_telegram: (pid 11956) 92093s
-run: jack_autolearn: (pid 20689) 564941s
-run: ollama: (pid 20694) 564941s
+run: jack_cortex: (pid 21793) 338619s
+run: jack_telegram: (pid 11956) 92275s
+run: jack_autolearn: (pid 20689) 565123s
+run: ollama: (pid 20694) 565123s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
