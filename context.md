@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-17T15:03:22.134250)
+# JACK LIVE-KONTEXT (auto, 2026-07-17T15:06:24.191604)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-17T15:03:22.124038
+Stand: 2026-07-17T15:06:24.176670
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -90,10 +90,10 @@ Stand: 2026-07-17T15:03:22.124038
 - Offene Fehler: 4
 - Erinnerungen: 122
 - Dienste:
-run: jack_cortex: (pid 21793) 341899s
-run: jack_telegram: (pid 11956) 95555s
-run: jack_autolearn: (pid 20689) 568403s
-run: ollama: (pid 20694) 568403s
+run: jack_cortex: (pid 21793) 342081s
+run: jack_telegram: (pid 11956) 95737s
+run: jack_autolearn: (pid 20689) 568585s
+run: ollama: (pid 20694) 568585s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
@@ -143,4 +143,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-17 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 41525
+Heute: Text 10/300 | Vision 0/40 | Tokens 41525
