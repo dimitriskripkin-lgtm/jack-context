@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-17T08:37:53.206394)
+# JACK LIVE-KONTEXT (auto, 2026-07-17T08:40:54.933974)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-17T08:37:53.196419
+Stand: 2026-07-17T08:40:54.926468
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,12 +89,13 @@ Stand: 2026-07-17T08:37:53.196419
 - Offene Fehler: 4
 - Erinnerungen: 121
 - Dienste:
-run: jack_cortex: (pid 21793) 318770s
-run: jack_telegram: (pid 11956) 72426s
-run: jack_autolearn: (pid 20689) 545274s
-run: ollama: (pid 20694) 545274s
+run: jack_cortex: (pid 21793) 318951s
+run: jack_telegram: (pid 11956) 72607s
+run: jack_autolearn: (pid 20689) 545455s
+run: ollama: (pid 20694) 545455s
 
 ## Letzte Aenderungen
+c081ad6 chore: runtime files
 a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
 3dcb140 fix: /xiaomi handler + telegram fixes
 0ed075c feat: Node Alpha Lern-System, Skill-Generator gefixt
@@ -109,7 +110,6 @@ e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 7d10661 feat: voice_service_v2 non-blocking funktioniert - Stabilitaets-Check fuer M4A
 37f5dec feat: voice_service_v2 Poller-Ansatz - non-blocking Aufnahme funktioniert
 2602703 feat: send_webapp + /radar_ergebnisse Telegram-Button
-cf8bb21 feat: WebApp-Routen /radar/webapp und /radar/kleinanzeigen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
