@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-18T19:04:16.270216)
+# JACK LIVE-KONTEXT (auto, 2026-07-18T19:07:18.282742)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-18T19:04:16.247059
+Stand: 2026-07-18T19:07:18.269888
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-07-18T19:04:16.247059
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), kein Fernfahrer.
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), KEIN Fernfahrer.
 - Dima ist Hobby-Programmierer.
 - Dima nutzt Gemini Plus und Claude.ai.
 - JACK ist ein autonomes, lokales AI-OS.
@@ -90,10 +90,10 @@ Stand: 2026-07-18T19:04:16.247059
 - Offene Fehler: 4
 - Erinnerungen: 123
 - Dienste:
-run: jack_cortex: (pid 21793) 442753s
-run: jack_telegram: (pid 11956) 196409s
-run: jack_autolearn: (pid 20689) 669257s
-run: ollama: (pid 20694) 669257s
+run: jack_cortex: (pid 21793) 442935s
+run: jack_telegram: (pid 11956) 196591s
+run: jack_autolearn: (pid 20689) 669439s
+run: ollama: (pid 20694) 669439s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
@@ -143,4 +143,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-18 17:06:57] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 11/300 | Vision 0/40 | Tokens 45862
+Heute: Text 12/300 | Vision 0/40 | Tokens 49961
