@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-18T17:06:02.353571)
+# JACK LIVE-KONTEXT (auto, 2026-07-18T17:09:04.273135)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-18T17:06:02.345027
+Stand: 2026-07-18T17:09:04.265070
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-07-18T17:06:02.345027
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), kein Fernfahrer.
 - Dima ist Hobby-Programmierer.
 - Dima nutzt Gemini Plus und Claude.ai.
 - JACK ist ein autonomes, lokales AI-OS.
@@ -27,9 +27,9 @@ Stand: 2026-07-18T17:06:02.345027
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
+- JACK nutzt `jack_operator` für die Genehmigung von Fixes.
 
 ## Aktive Module (53)
 - jack_agent.py
@@ -90,10 +90,10 @@ Stand: 2026-07-18T17:06:02.345027
 - Offene Fehler: 4
 - Erinnerungen: 123
 - Dienste:
-run: jack_cortex: (pid 21793) 435659s
-run: jack_telegram: (pid 11956) 189315s
-run: jack_autolearn: (pid 20689) 662163s
-run: ollama: (pid 20694) 662163s
+run: jack_cortex: (pid 21793) 435841s
+run: jack_telegram: (pid 11956) 189497s
+run: jack_autolearn: (pid 20689) 662345s
+run: ollama: (pid 20694) 662345s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
@@ -121,7 +121,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-14 17:04:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 23:04:37] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-15 06:00:01] MEMORY-MAINTENANCE | Gesamt: 21 Eintraege | Stale: 0
 [2026-07-15 07:20:13] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -141,6 +140,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-18 07:31:09] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-18 07:31:09] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-18 11:00:01] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-18 17:06:57] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 10/300 | Vision 0/40 | Tokens 41762
+Heute: Text 11/300 | Vision 0/40 | Tokens 45862
