@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-18T07:29:43.001833)
+# JACK LIVE-KONTEXT (auto, 2026-07-18T07:32:44.952996)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-18T07:29:42.991696
+Stand: 2026-07-18T07:32:44.943002
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -90,10 +90,10 @@ Stand: 2026-07-18T07:29:42.991696
 - Offene Fehler: 4
 - Erinnerungen: 122
 - Dienste:
-run: jack_cortex: (pid 21793) 401079s
-run: jack_telegram: (pid 11956) 154735s
-run: jack_autolearn: (pid 20689) 627583s
-run: ollama: (pid 20694) 627583s
+run: jack_cortex: (pid 21793) 401261s
+run: jack_telegram: (pid 11956) 154917s
+run: jack_autolearn: (pid 20689) 627765s
+run: ollama: (pid 20694) 627765s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
@@ -121,8 +121,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-14 09:04:04] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
-[2026-07-14 11:00:01] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-14 11:04:06] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 17:04:29] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-14 23:04:37] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
@@ -141,6 +139,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-17 07:27:16] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-17 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-18 06:00:01] MEMORY-MAINTENANCE | Gesamt: 29 Eintraege | Stale: 0
+[2026-07-18 07:31:09] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-18 07:31:09] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
 Heute: Text 4/300 | Vision 0/40 | Tokens 21820
