@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-19T19:04:50.080638)
+# JACK LIVE-KONTEXT (auto, 2026-07-19T19:07:51.969844)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-19T19:04:50.073231
+Stand: 2026-07-19T19:07:51.961891
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,7 +26,7 @@ Stand: 2026-07-19T19:04:50.073231
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
-- Dima hat KEINEN Hund (Rex war nur ein Test).
+- Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 - JACK nutzt `jack_operator` für die Genehmigung von Fixes.
@@ -90,10 +90,10 @@ Stand: 2026-07-19T19:04:50.073231
 - Offene Fehler: 4
 - Erinnerungen: 125
 - Dienste:
-run: jack_cortex: (pid 21793) 529187s
-run: jack_telegram: (pid 11956) 282843s
-run: jack_autolearn: (pid 20689) 755691s
-run: ollama: (pid 20694) 755691s
+run: jack_cortex: (pid 21793) 529368s
+run: jack_telegram: (pid 11956) 283024s
+run: jack_autolearn: (pid 20689) 755872s
+run: ollama: (pid 20694) 755872s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
@@ -121,7 +121,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-15 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-16 06:00:00] MEMORY-MAINTENANCE | Gesamt: 23 Eintraege | Stale: 0
 [2026-07-16 07:23:42] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-16 07:23:42] SELF-IMPROVE | Tagescheck abgeschlossen
@@ -141,6 +140,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-19 07:34:58] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-19 07:34:58] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-19 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-19 19:07:36] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 36772
+Heute: Text 10/300 | Vision 0/40 | Tokens 40845
