@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-20T03:07:05.563420)
+# JACK LIVE-KONTEXT (auto, 2026-07-20T03:10:07.179371)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-20T03:07:05.555160
+Stand: 2026-07-20T03:10:07.170164
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,7 +26,7 @@ Stand: 2026-07-20T03:07:05.555160
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
-- Dima hat KEINEN Hund.
+- Dima hat KEINEN Hund (Rex war nur ein Test).
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 - JACK nutzt `jack_operator` für die Genehmigung von Fixes.
@@ -90,10 +90,10 @@ Stand: 2026-07-20T03:07:05.555160
 - Offene Fehler: 4
 - Erinnerungen: 125
 - Dienste:
-run: jack_cortex: (pid 21793) 558122s
-run: jack_telegram: (pid 11956) 311778s
-run: jack_autolearn: (pid 20689) 784626s
-run: ollama: (pid 20694) 784626s
+run: jack_cortex: (pid 21793) 558304s
+run: jack_telegram: (pid 11956) 311960s
+run: jack_autolearn: (pid 20689) 784808s
+run: ollama: (pid 20694) 784808s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
@@ -143,4 +143,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-19 19:07:36] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 4066
+Heute: Text 2/300 | Vision 0/40 | Tokens 8139
