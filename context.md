@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-21T12:18:28.819622)
+# JACK LIVE-KONTEXT (auto, 2026-07-21T12:28:36.863105)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-21T12:18:28.811307
+Stand: 2026-07-21T12:28:36.855822
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,12 +91,13 @@ Stand: 2026-07-21T12:18:28.811307
 - Offene Fehler: 4
 - Erinnerungen: 133
 - Dienste:
-run: jack_cortex: (pid 7336) 6160s
-run: jack_telegram: (pid 7335) 6160s
-run: jack_autolearn: (pid 7339) 6160s
-run: ollama: (pid 7342) 6160s
+run: jack_cortex: (pid 7336) 6768s
+run: jack_telegram: (pid 7335) 6768s
+run: jack_autolearn: (pid 7339) 6768s
+run: ollama: (pid 7342) 6768s
 
 ## Letzte Aenderungen
+aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
 ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), reden + Status-Aktion
 c081ad6 chore: runtime files
 a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
@@ -111,7 +112,6 @@ a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
 7d10661 feat: voice_service_v2 non-blocking funktioniert - Stabilitaets-Check fuer M4A
-37f5dec feat: voice_service_v2 Poller-Ansatz - non-blocking Aufnahme funktioniert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
