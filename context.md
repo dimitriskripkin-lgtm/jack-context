@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-21T11:51:00.702947)
+# JACK LIVE-KONTEXT (auto, 2026-07-21T11:54:02.377575)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-21T11:51:00.693308
+Stand: 2026-07-21T11:54:02.369361
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,14 +89,15 @@ Stand: 2026-07-21T11:51:00.693308
 
 ## System-Status
 - Offene Fehler: 4
-- Erinnerungen: 132
+- Erinnerungen: 133
 - Dienste:
-run: jack_cortex: (pid 7336) 4512s
-run: jack_telegram: (pid 7335) 4512s
-run: jack_autolearn: (pid 7339) 4512s
-run: ollama: (pid 7342) 4512s
+run: jack_cortex: (pid 7336) 4694s
+run: jack_telegram: (pid 7335) 4694s
+run: jack_autolearn: (pid 7339) 4694s
+run: ollama: (pid 7342) 4694s
 
 ## Letzte Aenderungen
+ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), reden + Status-Aktion
 c081ad6 chore: runtime files
 a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
 3dcb140 fix: /xiaomi handler + telegram fixes
@@ -111,7 +112,6 @@ e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
 7d10661 feat: voice_service_v2 non-blocking funktioniert - Stabilitaets-Check fuer M4A
 37f5dec feat: voice_service_v2 Poller-Ansatz - non-blocking Aufnahme funktioniert
-2602703 feat: send_webapp + /radar_ergebnisse Telegram-Button
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-21 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
-Heute: Text 17/300 | Vision 0/40 | Tokens 20455
+Heute: Text 18/300 | Vision 0/40 | Tokens 22347
