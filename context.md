@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-21T11:32:32.681497)
+# JACK LIVE-KONTEXT (auto, 2026-07-21T11:44:57.016505)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-21T11:32:32.670337
+Stand: 2026-07-21T11:44:57.010698
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-07-21T11:32:32.670337
 - JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 - JACK nutzt `jack_operator` für die Genehmigung von Fixes.
 
-## Aktive Module (53)
+## Aktive Module (54)
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
@@ -48,6 +48,7 @@ Stand: 2026-07-21T11:32:32.670337
 - jack_cortex.py
 - jack_gemini_bridge.py
 - jack_handshake_gen.py
+- jack_hey.py
 - jack_improve.py
 - jack_learn.py
 - jack_log.py
@@ -90,10 +91,10 @@ Stand: 2026-07-21T11:32:32.670337
 - Offene Fehler: 4
 - Erinnerungen: 132
 - Dienste:
-run: jack_cortex: (pid 7336) 3404s
-run: jack_telegram: (pid 7335) 3404s
-run: jack_autolearn: (pid 7339) 3404s
-run: ollama: (pid 7342) 3404s
+run: jack_cortex: (pid 7336) 4149s
+run: jack_telegram: (pid 7335) 4149s
+run: jack_autolearn: (pid 7339) 4149s
+run: ollama: (pid 7342) 4149s
 
 ## Letzte Aenderungen
 c081ad6 chore: runtime files
@@ -143,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-21 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
-Heute: Text 16/300 | Vision 0/40 | Tokens 18379
+Heute: Text 17/300 | Vision 0/40 | Tokens 20455
