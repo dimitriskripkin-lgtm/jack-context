@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-21T11:57:04.123922)
+# JACK LIVE-KONTEXT (auto, 2026-07-21T12:00:05.877444)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-21T11:57:04.115925
+Stand: 2026-07-21T12:00:05.870066
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-21T11:57:04.115925
 - Offene Fehler: 4
 - Erinnerungen: 133
 - Dienste:
-run: jack_cortex: (pid 7336) 4876s
-run: jack_telegram: (pid 7335) 4876s
-run: jack_autolearn: (pid 7339) 4876s
-run: ollama: (pid 7342) 4876s
+run: jack_cortex: (pid 7336) 5057s
+run: jack_telegram: (pid 7335) 5057s
+run: jack_autolearn: (pid 7339) 5057s
+run: ollama: (pid 7342) 5057s
 
 ## Letzte Aenderungen
 ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), reden + Status-Aktion
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-21 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
-Heute: Text 18/300 | Vision 0/40 | Tokens 22347
+Heute: Text 21/300 | Vision 0/40 | Tokens 28125
