@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T10:58:58.153117)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T11:03:41.999682)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T10:58:58.145267
+Stand: 2026-07-22T11:03:41.989427
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-22T10:58:58.145267
 - Offene Fehler: 4
 - Erinnerungen: 138
 - Dienste:
-run: jack_cortex: (pid 7336) 87790s
-run: jack_telegram: (pid 23523) 6628s
-run: jack_autolearn: (pid 7339) 87790s
-run: ollama: (pid 7342) 87790s
+run: jack_cortex: (pid 7336) 88073s
+run: jack_telegram: (pid 23523) 6911s
+run: jack_autolearn: (pid 7339) 88073s
+run: ollama: (pid 7342) 88073s
 
 ## Letzte Aenderungen
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
@@ -120,7 +120,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-18 07:31:09] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-18 11:00:01] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-18 17:06:57] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-19 06:00:00] MEMORY-MAINTENANCE | Gesamt: 33 Eintraege | Stale: 0
@@ -140,6 +139,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 10:01:09] PROFIL-UPDATE | 6 neue Eintraege in kortex_profile.json
 [2026-07-22 10:40:42] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-22 10:40:42] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-22 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
 Heute: Text 33/300 | Vision 0/40 | Tokens 75962
