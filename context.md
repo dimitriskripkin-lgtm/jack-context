@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:41:50.876543)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:44:52.570069)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:41:50.868058
+Stand: 2026-07-22T14:44:52.561444
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,12 +86,13 @@ Stand: 2026-07-22T14:41:50.868058
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 101162s
-run: jack_telegram: (pid 12181) 112s
-run: jack_autolearn: (pid 7339) 101162s
-run: ollama: (pid 7342) 101162s
+run: jack_cortex: (pid 7336) 101344s
+run: jack_telegram: (pid 12847) 152s
+run: jack_autolearn: (pid 7339) 101344s
+run: ollama: (pid 7342) 101344s
 
 ## Letzte Aenderungen
+0955315 Prompt: Titan-Lektionen still integriert
 8e20a4e titan_legacy: falsche context.md entfernt, Ordner bleibt leer bis bewusste Entscheidung
 ab0073f titan_legacy: Kern-DNA gesichert (Persona+Anchor+Evolution)
 66d036b titan_legacy: Ordner angelegt, Ingest folgt
@@ -106,7 +107,6 @@ ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), red
 c081ad6 chore: runtime files
 a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
 3dcb140 fix: /xiaomi handler + telegram fixes
-0ed075c feat: Node Alpha Lern-System, Skill-Generator gefixt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
