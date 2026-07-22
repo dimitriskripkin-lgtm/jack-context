@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T05:55:12.529484)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T05:58:14.613777)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T05:55:12.516344
+Stand: 2026-07-22T05:58:14.600839
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T05:55:12.516344
 - Offene Fehler: 4
 - Erinnerungen: 134
 - Dienste:
-run: jack_cortex: (pid 7336) 69564s
-run: jack_telegram: (pid 5383) 2179s
-run: jack_autolearn: (pid 7339) 69564s
-run: ollama: (pid 7342) 69564s
+run: jack_cortex: (pid 7336) 69746s
+run: jack_telegram: (pid 5383) 2361s
+run: jack_autolearn: (pid 7339) 69746s
+run: ollama: (pid 7342) 69746s
 
 ## Letzte Aenderungen
 d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
