@@ -40,7 +40,7 @@
 -rw-------. 1 u0_a400 u0_a400  4840 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_vinted_radar.py
 -rw-------. 1 u0_a400 u0_a400  2151 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_voice.py
 -rw-------. 1 u0_a400 u0_a400  1437 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_voice_el.py
--rw-------. 1 u0_a400 u0_a400  2816 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_voice_processor.py
+-rw-------. 1 u0_a400 u0_a400  4367 Jul 22 04:51 /data/data/com.termux/files/home/jack/jack_voice_processor.py
 -rw-------. 1 u0_a400 u0_a400  3079 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_write.py
 -rw-------. 1 u0_a400 u0_a400  2850 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_xiaomi.py
 -rw-------. 1 u0_a400 u0_a400  1819 Jul 16 12:19 /data/data/com.termux/files/home/jack/jack_xiaomi_cmd.py

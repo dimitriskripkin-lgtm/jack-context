@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T04:50:10.284018)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T04:53:12.137551)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T04:50:10.274996
+Stand: 2026-07-22T04:53:12.128725
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,12 +91,13 @@ Stand: 2026-07-22T04:50:10.274996
 - Offene Fehler: 4
 - Erinnerungen: 133
 - Dienste:
-run: jack_cortex: (pid 7336) 65662s
-run: jack_telegram: (pid 7335) 65662s
-run: jack_autolearn: (pid 7339) 65662s
-run: ollama: (pid 7342) 65662s
+run: jack_cortex: (pid 7336) 65844s
+run: jack_telegram: (pid 24370) 96s
+run: jack_autolearn: (pid 7339) 65844s
+run: ollama: (pid 7342) 65844s
 
 ## Letzte Aenderungen
+0d46bc3 voice_processor: whisper-small + robuste Fehlerbehandlung (kein stummer Crash mehr)
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
 ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), reden + Status-Aktion
 c081ad6 chore: runtime files
@@ -111,7 +112,6 @@ a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
-7d10661 feat: voice_service_v2 non-blocking funktioniert - Stabilitaets-Check fuer M4A
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 4/300 | Vision 0/40 | Tokens 12467
+Heute: Text 5/300 | Vision 0/40 | Tokens 14465
