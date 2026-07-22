@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T05:02:17.587889)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T05:05:19.547587)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T05:02:17.579424
+Stand: 2026-07-22T05:05:19.540390
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,12 +91,13 @@ Stand: 2026-07-22T05:02:17.579424
 - Offene Fehler: 4
 - Erinnerungen: 134
 - Dienste:
-run: jack_cortex: (pid 7336) 66389s
-run: jack_telegram: (pid 24370) 641s
-run: jack_autolearn: (pid 7339) 66389s
-run: ollama: (pid 7342) 66389s
+run: jack_cortex: (pid 7336) 66571s
+run: jack_telegram: (pid 30506) 130s
+run: jack_autolearn: (pid 7339) 66571s
+run: ollama: (pid 7342) 66571s
 
 ## Letzte Aenderungen
+827ef7a Label: Gemini/Lokal/Direkt-Indikator nach jeder Antwort
 0d46bc3 voice_processor: whisper-small + robuste Fehlerbehandlung (kein stummer Crash mehr)
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
 ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), reden + Status-Aktion
@@ -111,7 +112,6 @@ f52ad49 feat: jack_android
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
 e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
-6e0e880 feat: voice_poller.sh + record_trigger.sh - Mikrofon-Trigger fuer Xiaomi
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 20942
+Heute: Text 11/300 | Vision 0/40 | Tokens 24815
