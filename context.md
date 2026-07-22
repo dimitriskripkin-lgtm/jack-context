@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:29:43.279700)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:32:45.219461)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:29:43.271093
+Stand: 2026-07-22T14:32:45.197207
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-22T14:29:43.271093
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 100435s
-run: jack_telegram: (pid 23523) 19273s
-run: jack_autolearn: (pid 7339) 100435s
-run: ollama: (pid 7342) 100435s
+run: jack_cortex: (pid 7336) 100617s
+run: jack_telegram: (pid 23523) 19455s
+run: jack_autolearn: (pid 7339) 100617s
+run: ollama: (pid 7342) 100617s
 
 ## Letzte Aenderungen
 ab0073f titan_legacy: Kern-DNA gesichert (Persona+Anchor+Evolution)
@@ -139,4 +139,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 12:12:25] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 38/300 | Vision 0/40 | Tokens 89618
+Heute: Text 39/300 | Vision 0/40 | Tokens 92926
