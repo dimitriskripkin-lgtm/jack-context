@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T05:14:25.292544)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T05:17:27.360586)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T05:14:25.281101
+Stand: 2026-07-22T05:17:27.347407
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T05:14:25.281101
 - Offene Fehler: 4
 - Erinnerungen: 134
 - Dienste:
-run: jack_cortex: (pid 7336) 67117s
-run: jack_telegram: (pid 30506) 676s
-run: jack_autolearn: (pid 7339) 67117s
-run: ollama: (pid 7342) 67117s
+run: jack_cortex: (pid 7336) 67299s
+run: jack_telegram: (pid 30506) 858s
+run: jack_autolearn: (pid 7339) 67299s
+run: ollama: (pid 7342) 67299s
 
 ## Letzte Aenderungen
 827ef7a Label: Gemini/Lokal/Direkt-Indikator nach jeder Antwort
