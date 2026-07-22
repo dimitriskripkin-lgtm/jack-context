@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T23:11:08.520398)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T00:12:27.762299)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T23:11:08.507078
+Stand: 2026-07-23T00:12:27.753681
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-22T23:11:08.507078
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 131720s
-run: jack_telegram: (pid 12847) 30528s
-run: jack_autolearn: (pid 7339) 131720s
-run: ollama: (pid 7342) 131720s
+run: jack_cortex: (pid 7336) 135399s
+run: jack_telegram: (pid 12847) 34207s
+run: jack_autolearn: (pid 7339) 135399s
+run: ollama: (pid 7342) 135399s
 
 ## Letzte Aenderungen
 e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
@@ -140,4 +140,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 
 ## Budget heute
-Heute: Text 39/300 | Vision 0/40 | Tokens 92926
+Heute: Text 0/300 | Vision 0/40 | Tokens 0
