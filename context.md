@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:50:55.994841)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:53:58.217300)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:50:55.983580
+Stand: 2026-07-22T14:53:58.207975
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,7 +26,7 @@ Stand: 2026-07-22T14:50:55.983580
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima testet das Gedächtnis.
 
-## Aktive Module (54)
+## Aktive Module (55)
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
@@ -53,6 +53,7 @@ Stand: 2026-07-22T14:50:55.983580
 - jack_memory_maintenance.py
 - jack_node_alpha.py
 - jack_operator.py
+- jack_oracle.py
 - jack_patch.py
 - jack_personality.py
 - jack_publish.py
@@ -86,10 +87,10 @@ Stand: 2026-07-22T14:50:55.983580
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 101707s
-run: jack_telegram: (pid 12847) 515s
-run: jack_autolearn: (pid 7339) 101707s
-run: ollama: (pid 7342) 101707s
+run: jack_cortex: (pid 7336) 101890s
+run: jack_telegram: (pid 12847) 698s
+run: jack_autolearn: (pid 7339) 101890s
+run: ollama: (pid 7342) 101890s
 
 ## Letzte Aenderungen
 0955315 Prompt: Titan-Lektionen still integriert
@@ -117,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-18 17:06:57] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-19 06:00:00] MEMORY-MAINTENANCE | Gesamt: 33 Eintraege | Stale: 0
 [2026-07-19 07:34:58] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-19 07:34:58] SELF-IMPROVE | Tagescheck abgeschlossen
@@ -137,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 10:40:42] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-22 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-22 12:12:25] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-07-22 14:53:25] ORACLE-EINGANG | init: echo JACK_ORACLE_READY
 
 ## Budget heute
 Heute: Text 39/300 | Vision 0/40 | Tokens 92926
