@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:38:49.002801)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:41:50.876543)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:38:48.993630
+Stand: 2026-07-22T14:41:50.868058
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-22T14:38:48.993630
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 100980s
-run: jack_telegram: (pid 23523) 19818s
-run: jack_autolearn: (pid 7339) 100980s
-run: ollama: (pid 7342) 100980s
+run: jack_cortex: (pid 7336) 101162s
+run: jack_telegram: (pid 12181) 112s
+run: jack_autolearn: (pid 7339) 101162s
+run: ollama: (pid 7342) 101162s
 
 ## Letzte Aenderungen
 8e20a4e titan_legacy: falsche context.md entfernt, Ordner bleibt leer bis bewusste Entscheidung
