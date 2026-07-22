@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T04:28:56.754747)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T04:31:58.568678)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T04:28:56.741011
+Stand: 2026-07-22T04:31:58.558702
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T04:28:56.741011
 - Offene Fehler: 4
 - Erinnerungen: 133
 - Dienste:
-run: jack_cortex: (pid 7336) 64388s
-run: jack_telegram: (pid 7335) 64388s
-run: jack_autolearn: (pid 7339) 64388s
-run: ollama: (pid 7342) 64388s
+run: jack_cortex: (pid 7336) 64570s
+run: jack_telegram: (pid 7335) 64570s
+run: jack_autolearn: (pid 7339) 64570s
+run: ollama: (pid 7342) 64570s
 
 ## Letzte Aenderungen
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
@@ -122,8 +122,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-17 06:00:00] MEMORY-MAINTENANCE | Gesamt: 28 Eintraege | Stale: 0
-[2026-07-17 07:27:16] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-17 07:27:16] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-17 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-18 06:00:01] MEMORY-MAINTENANCE | Gesamt: 29 Eintraege | Stale: 0
@@ -142,6 +140,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-21 10:35:57] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-21 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-22 03:55:50] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-07-22 04:29:53] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
 Heute: Text 2/300 | Vision 0/40 | Tokens 8467
