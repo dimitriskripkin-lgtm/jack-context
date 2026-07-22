@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T05:17:27.360586)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T05:20:29.385458)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T05:17:27.347407
+Stand: 2026-07-22T05:20:29.375857
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,12 +91,13 @@ Stand: 2026-07-22T05:17:27.347407
 - Offene Fehler: 4
 - Erinnerungen: 134
 - Dienste:
-run: jack_cortex: (pid 7336) 67299s
-run: jack_telegram: (pid 30506) 858s
-run: jack_autolearn: (pid 7339) 67299s
-run: ollama: (pid 7342) 67299s
+run: jack_cortex: (pid 7336) 67481s
+run: jack_telegram: (pid 5383) 96s
+run: jack_autolearn: (pid 7339) 67481s
+run: ollama: (pid 7342) 67481s
 
 ## Letzte Aenderungen
+d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
 827ef7a Label: Gemini/Lokal/Direkt-Indikator nach jeder Antwort
 0d46bc3 voice_processor: whisper-small + robuste Fehlerbehandlung (kein stummer Crash mehr)
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
@@ -111,7 +112,6 @@ a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-co
 f52ad49 feat: jack_android
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
 6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
-e213119 chore: Karpathy-Guidelines in AGENTS.md integriert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 12/300 | Vision 0/40 | Tokens 27032
+Heute: Text 13/300 | Vision 0/40 | Tokens 29151
