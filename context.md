@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T05:20:29.385458)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T05:23:31.083682)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T05:20:29.375857
+Stand: 2026-07-22T05:23:31.074760
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T05:20:29.375857
 - Offene Fehler: 4
 - Erinnerungen: 134
 - Dienste:
-run: jack_cortex: (pid 7336) 67481s
-run: jack_telegram: (pid 5383) 96s
-run: jack_autolearn: (pid 7339) 67481s
-run: ollama: (pid 7342) 67481s
+run: jack_cortex: (pid 7336) 67663s
+run: jack_telegram: (pid 5383) 278s
+run: jack_autolearn: (pid 7339) 67663s
+run: ollama: (pid 7342) 67663s
 
 ## Letzte Aenderungen
 d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 
 ## Budget heute
-Heute: Text 13/300 | Vision 0/40 | Tokens 29151
+Heute: Text 14/300 | Vision 0/40 | Tokens 31384
