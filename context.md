@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T08:42:15.336351)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T08:45:17.127333)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T08:42:15.326947
+Stand: 2026-07-22T08:45:17.118625
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T08:42:15.326947
 - Offene Fehler: 4
 - Erinnerungen: 138
 - Dienste:
-run: jack_cortex: (pid 7336) 79587s
-run: jack_telegram: (pid 14542) 210s
-run: jack_autolearn: (pid 7339) 79587s
-run: ollama: (pid 7342) 79587s
+run: jack_cortex: (pid 7336) 79769s
+run: jack_telegram: (pid 16936) 71s
+run: jack_autolearn: (pid 7339) 79769s
+run: ollama: (pid 7342) 79769s
 
 ## Letzte Aenderungen
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 06:00:00] MEMORY-MAINTENANCE | 10 Eintraege als 'stale' markiert | Gesamt: 41 Eintraege | Stale: 10
 
 ## Budget heute
-Heute: Text 30/300 | Vision 0/40 | Tokens 66814
+Heute: Text 31/300 | Vision 0/40 | Tokens 69723
