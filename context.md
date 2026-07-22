@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:17:36.538002)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:20:38.022790)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:17:36.528017
+Stand: 2026-07-22T14:20:38.013828
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,12 +86,13 @@ Stand: 2026-07-22T14:17:36.528017
 - Offene Fehler: 4
 - Erinnerungen: 138
 - Dienste:
-run: jack_cortex: (pid 7336) 99708s
-run: jack_telegram: (pid 23523) 18546s
-run: jack_autolearn: (pid 7339) 99708s
-run: ollama: (pid 7342) 99708s
+run: jack_cortex: (pid 7336) 99890s
+run: jack_telegram: (pid 23523) 18728s
+run: jack_autolearn: (pid 7339) 99890s
+run: ollama: (pid 7342) 99890s
 
 ## Letzte Aenderungen
+a410265 titan_legacy: Ordner vorbereitet fuer Kontext-Ingest
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
 4850d0d Prompt-Fix: JACK kennt jetzt ehrlich seine eigene Architektur (Gemini als Werkzeug)
 d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
@@ -106,7 +107,6 @@ a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-co
 340dba9 feat: jack_xiaomi_cmd - Telegram /xiaomi Loop komplett, ADB tap funktioniert
 7299e40 feat: jack_node_alpha daemon + ADB tap funktioniert autonom
 6435547 fix: MIUI uiautomator via Datei, Gemini 2.5-flash-lite, Quote-Strip
-f52ad49 feat: jack_android
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
