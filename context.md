@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T10:00:33.485036)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T10:03:35.637476)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T10:00:33.463776
+Stand: 2026-07-22T10:03:35.611929
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,23 +13,21 @@ Stand: 2026-07-22T10:00:33.463776
 - Dima ist Dimitri.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
 - Dima ist Hobby-Programmierer.
-- JACK ist ein autonomes, lokales AI-OS.
-- JACK läuft auf einem Honor Magic8 Pro mit Termux.
+- Dima ist aus Russland nach Deutschland migriert, Baujahr ca. 1996.
+- Dima ist Einzelkind.
+- JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
+- JACK nutzt Gemini als Gehirn (API-Calls) und hat ein lokales Gedächtnis in SQLite.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK verwendet `jack_learn.py` als Lerner.
+- JACK nutzt `jack_learn.py` als Lerner.
 - JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
-- JACK's Chef-KI 'Claude Code' ist ein read-only Berater.
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
-- JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
-- Dima hat KEINEN Hund (Rex war nur ein Test).
+- Dima hat KEINEN Hund.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima hat die Telegram-Commands aktualisiert, committed und gepusht.
-- JACK nutzt `jack_operator` für die Genehmigung von Fixes.
-- Dima testet das Gedaechtnis.
+- Dima testet das Gedächtnis.
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
-- JACK hat Telegram-Commands aktualisiert, committed und gepusht.
+- JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
 
 ## Aktive Module (54)
 - jack_agent.py
@@ -91,10 +89,10 @@ Stand: 2026-07-22T10:00:33.463776
 - Offene Fehler: 4
 - Erinnerungen: 138
 - Dienste:
-run: jack_cortex: (pid 7336) 84285s
-run: jack_telegram: (pid 23523) 3123s
-run: jack_autolearn: (pid 7339) 84285s
-run: ollama: (pid 7342) 84285s
+run: jack_cortex: (pid 7336) 84467s
+run: jack_telegram: (pid 23523) 3305s
+run: jack_autolearn: (pid 7339) 84467s
+run: ollama: (pid 7342) 84467s
 
 ## Letzte Aenderungen
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
@@ -122,7 +120,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-17 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-18 06:00:01] MEMORY-MAINTENANCE | Gesamt: 29 Eintraege | Stale: 0
 [2026-07-18 07:31:09] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-18 07:31:09] SELF-IMPROVE | Tagescheck abgeschlossen
@@ -142,6 +139,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 04:29:53] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-22 06:00:00] MEMORY-MAINTENANCE | 10 Eintraege als 'stale' markiert | Gesamt: 41 Eintraege | Stale: 10
+[2026-07-22 10:01:09] PROFIL-UPDATE | 6 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 32/300 | Vision 0/40 | Tokens 72648
+Heute: Text 33/300 | Vision 0/40 | Tokens 75962
