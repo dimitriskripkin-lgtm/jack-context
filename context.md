@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:32:45.219461)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:35:47.251578)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:32:45.197207
+Stand: 2026-07-22T14:35:47.243096
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-22T14:32:45.197207
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 100617s
-run: jack_telegram: (pid 23523) 19455s
-run: jack_autolearn: (pid 7339) 100617s
-run: ollama: (pid 7342) 100617s
+run: jack_cortex: (pid 7336) 100799s
+run: jack_telegram: (pid 23523) 19637s
+run: jack_autolearn: (pid 7339) 100799s
+run: ollama: (pid 7342) 100799s
 
 ## Letzte Aenderungen
 ab0073f titan_legacy: Kern-DNA gesichert (Persona+Anchor+Evolution)
