@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:26:41.558823)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:29:43.279700)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:26:41.551197
+Stand: 2026-07-22T14:29:43.271093
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -84,14 +84,15 @@ Stand: 2026-07-22T14:26:41.551197
 
 ## System-Status
 - Offene Fehler: 4
-- Erinnerungen: 138
+- Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 100253s
-run: jack_telegram: (pid 23523) 19091s
-run: jack_autolearn: (pid 7339) 100253s
-run: ollama: (pid 7342) 100253s
+run: jack_cortex: (pid 7336) 100435s
+run: jack_telegram: (pid 23523) 19273s
+run: jack_autolearn: (pid 7339) 100435s
+run: ollama: (pid 7342) 100435s
 
 ## Letzte Aenderungen
+ab0073f titan_legacy: Kern-DNA gesichert (Persona+Anchor+Evolution)
 66d036b titan_legacy: Ordner angelegt, Ingest folgt
 a410265 titan_legacy: Ordner vorbereitet fuer Kontext-Ingest
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
@@ -106,7 +107,6 @@ a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-co
 3dcb140 fix: /xiaomi handler + telegram fixes
 0ed075c feat: Node Alpha Lern-System, Skill-Generator gefixt
 340dba9 feat: jack_xiaomi_cmd - Telegram /xiaomi Loop komplett, ADB tap funktioniert
-7299e40 feat: jack_node_alpha daemon + ADB tap funktioniert autonom
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -139,4 +139,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 12:12:25] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 34/300 | Vision 0/40 | Tokens 79169
+Heute: Text 38/300 | Vision 0/40 | Tokens 89618
