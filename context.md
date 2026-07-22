@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T12:10:10.316430)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T12:13:12.070792)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T12:10:10.308199
+Stand: 2026-07-22T12:13:12.063254
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -16,18 +16,15 @@ Stand: 2026-07-22T12:10:10.308199
 - Dima ist aus Russland nach Deutschland migriert, Baujahr ca. 1996.
 - Dima ist Einzelkind.
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
-- JACK nutzt Gemini als Gehirn (API-Calls) und hat ein lokales Gedächtnis in SQLite.
+- JACK nutzt Gemini als Gehirn (API-Calls).
+- JACK hat ein lokales Gedächtnis in SQLite.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK nutzt `jack_learn.py` als Lerner.
-- JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
-- JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
-- JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
-- Dima hat KEINEN Hund.
-- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima testet das Gedächtnis.
-- Dima hat auf Xiaomi in Termux sshd eingegeben.
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
+- Dima hat KEINEN Hund (Rex war nur ein Test).
+- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
+- Dima hat auf Xiaomi in Termux sshd eingegeben.
+- Dima testet das Gedächtnis.
 
 ## Aktive Module (54)
 - jack_agent.py
@@ -89,10 +86,10 @@ Stand: 2026-07-22T12:10:10.308199
 - Offene Fehler: 4
 - Erinnerungen: 138
 - Dienste:
-run: jack_cortex: (pid 7336) 92062s
-run: jack_telegram: (pid 23523) 10900s
-run: jack_autolearn: (pid 7339) 92062s
-run: ollama: (pid 7342) 92062s
+run: jack_cortex: (pid 7336) 92244s
+run: jack_telegram: (pid 23523) 11082s
+run: jack_autolearn: (pid 7339) 92244s
+run: ollama: (pid 7342) 92244s
 
 ## Letzte Aenderungen
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
@@ -120,7 +117,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-18 11:00:01] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-18 17:06:57] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-19 06:00:00] MEMORY-MAINTENANCE | Gesamt: 33 Eintraege | Stale: 0
 [2026-07-19 07:34:58] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -140,6 +136,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 10:40:42] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-22 10:40:42] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-22 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-22 12:12:25] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 33/300 | Vision 0/40 | Tokens 75962
+Heute: Text 34/300 | Vision 0/40 | Tokens 79169
