@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T14:20:38.022790)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T14:23:39.744676)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T14:20:38.013828
+Stand: 2026-07-22T14:23:39.737944
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-22T14:20:38.013828
 - Offene Fehler: 4
 - Erinnerungen: 138
 - Dienste:
-run: jack_cortex: (pid 7336) 99890s
-run: jack_telegram: (pid 23523) 18728s
-run: jack_autolearn: (pid 7339) 99890s
-run: ollama: (pid 7342) 99890s
+run: jack_cortex: (pid 7336) 100071s
+run: jack_telegram: (pid 23523) 18909s
+run: jack_autolearn: (pid 7339) 100071s
+run: ollama: (pid 7342) 100071s
 
 ## Letzte Aenderungen
 a410265 titan_legacy: Ordner vorbereitet fuer Kontext-Ingest
