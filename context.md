@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T06:53:04.668533)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T06:56:06.730760)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T06:53:04.658422
+Stand: 2026-07-22T06:56:06.721053
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T06:53:04.658422
 - Offene Fehler: 4
 - Erinnerungen: 136
 - Dienste:
-run: jack_cortex: (pid 7336) 73036s
-run: jack_telegram: (pid 23985) 1863s
-run: jack_autolearn: (pid 7339) 73036s
-run: ollama: (pid 7342) 73036s
+run: jack_cortex: (pid 7336) 73218s
+run: jack_telegram: (pid 23985) 2045s
+run: jack_autolearn: (pid 7339) 73218s
+run: ollama: (pid 7342) 73218s
 
 ## Letzte Aenderungen
 4850d0d Prompt-Fix: JACK kennt jetzt ehrlich seine eigene Architektur (Gemini als Werkzeug)
