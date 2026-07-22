@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T06:19:40.469825)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T06:22:42.282583)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T06:19:40.459330
+Stand: 2026-07-22T06:22:42.270726
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,12 +91,13 @@ Stand: 2026-07-22T06:19:40.459330
 - Offene Fehler: 4
 - Erinnerungen: 134
 - Dienste:
-run: jack_cortex: (pid 7336) 71032s
-run: jack_telegram: (pid 5383) 3647s
-run: jack_autolearn: (pid 7339) 71032s
-run: ollama: (pid 7342) 71032s
+run: jack_cortex: (pid 7336) 71214s
+run: jack_telegram: (pid 23985) 41s
+run: jack_autolearn: (pid 7339) 71214s
+run: ollama: (pid 7342) 71214s
 
 ## Letzte Aenderungen
+4850d0d Prompt-Fix: JACK kennt jetzt ehrlich seine eigene Architektur (Gemini als Werkzeug)
 d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
 827ef7a Label: Gemini/Lokal/Direkt-Indikator nach jeder Antwort
 0d46bc3 voice_processor: whisper-small + robuste Fehlerbehandlung (kein stummer Crash mehr)
@@ -111,7 +112,6 @@ a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-co
 6435547 fix: MIUI uiautomator via Datei, Gemini 2.5-flash-lite, Quote-Strip
 f52ad49 feat: jack_android
 a84c96e fix: IP 10.234.166.x -> 10.244.147.x in allen Modulen
-6913a0a feat: Circuit Breaker in jack_agent - Abbruch nach 3x gleichem Fehler
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
