@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T16:02:07.715474)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T16:17:42.783602)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T16:02:07.708403
+Stand: 2026-07-22T16:17:42.774807
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-22T16:02:07.708403
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 105979s
-run: jack_telegram: (pid 12847) 4787s
-run: jack_autolearn: (pid 7339) 105979s
-run: ollama: (pid 7342) 105979s
+run: jack_cortex: (pid 7336) 106914s
+run: jack_telegram: (pid 12847) 5722s
+run: jack_autolearn: (pid 7339) 106914s
+run: ollama: (pid 7342) 106914s
 
 ## Letzte Aenderungen
 0955315 Prompt: Titan-Lektionen still integriert
