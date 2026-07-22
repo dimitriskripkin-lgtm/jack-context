@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T13:23:30.206609)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T13:26:32.017436)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T13:23:30.196972
+Stand: 2026-07-22T13:26:32.009374
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,10 +86,10 @@ Stand: 2026-07-22T13:23:30.196972
 - Offene Fehler: 4
 - Erinnerungen: 138
 - Dienste:
-run: jack_cortex: (pid 7336) 96462s
-run: jack_telegram: (pid 23523) 15300s
-run: jack_autolearn: (pid 7339) 96462s
-run: ollama: (pid 7342) 96462s
+run: jack_cortex: (pid 7336) 96644s
+run: jack_telegram: (pid 23523) 15482s
+run: jack_autolearn: (pid 7339) 96644s
+run: ollama: (pid 7342) 96644s
 
 ## Letzte Aenderungen
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
