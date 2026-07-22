@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T04:59:15.684887)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T05:02:17.587889)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T04:59:15.676378
+Stand: 2026-07-22T05:02:17.579424
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T04:59:15.676378
 - Offene Fehler: 4
 - Erinnerungen: 134
 - Dienste:
-run: jack_cortex: (pid 7336) 66207s
-run: jack_telegram: (pid 24370) 459s
-run: jack_autolearn: (pid 7339) 66207s
-run: ollama: (pid 7342) 66207s
+run: jack_cortex: (pid 7336) 66389s
+run: jack_telegram: (pid 24370) 641s
+run: jack_autolearn: (pid 7339) 66389s
+run: ollama: (pid 7342) 66389s
 
 ## Letzte Aenderungen
 0d46bc3 voice_processor: whisper-small + robuste Fehlerbehandlung (kein stummer Crash mehr)
