@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T03:53:48.305578)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T03:56:50.387313)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T03:53:48.289568
+Stand: 2026-07-22T03:56:50.373956
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,23 +13,23 @@ Stand: 2026-07-22T03:53:48.289568
 - Dima ist Dimitri.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
 - Dima ist Hobby-Programmierer.
-- Dima nutzt Gemini Plus und Claude.ai.
 - JACK ist ein autonomes, lokales AI-OS.
 - JACK läuft auf einem Honor Magic8 Pro mit Termux.
-- JACK nutzt Gemini 2.5 Flash (Lite) als Hauptdenker.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
 - JACK verwendet `jack_learn.py` als Lerner.
 - JACK nutzt ein Xiaomi 11T Pro als Slave-Gerät via SSH.
-- JACK's kostenlose KI-Modelle haben Tageslimits.
 - JACK's Chef-KI 'Claude Code' ist ein read-only Berater.
 - JACK hat Fähigkeiten wie Text- und Sprachchat, sicheres Code schreiben, autonomes Handeln und Selbstverbesserung.
 - JACK nutzt `jack_waechter` für regelbasierte Überwachung und Neustarts.
 - JACK's Konfiguration und Logs werden in einem öffentlichen Repo (`jack-context`) geteilt.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- JACK hat Telegram-Commands aktualisiert, committed und gepusht.
+- Dima hat die Telegram-Commands aktualisiert, committed und gepusht.
 - JACK nutzt `jack_operator` für die Genehmigung von Fixes.
+- Dima testet das Gedaechtnis.
+- Dima hat auf Xiaomi in Termux sshd eingegeben.
+- JACK hat Telegram-Commands aktualisiert, committed und gepusht.
 
 ## Aktive Module (54)
 - jack_agent.py
@@ -91,10 +91,10 @@ Stand: 2026-07-22T03:53:48.289568
 - Offene Fehler: 4
 - Erinnerungen: 133
 - Dienste:
-run: jack_cortex: (pid 7336) 62280s
-run: jack_telegram: (pid 7335) 62280s
-run: jack_autolearn: (pid 7339) 62280s
-run: ollama: (pid 7342) 62280s
+run: jack_cortex: (pid 7336) 62462s
+run: jack_telegram: (pid 7335) 62462s
+run: jack_autolearn: (pid 7339) 62462s
+run: ollama: (pid 7342) 62462s
 
 ## Letzte Aenderungen
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
@@ -122,7 +122,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-16 13:05:35] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-17 06:00:00] MEMORY-MAINTENANCE | Gesamt: 28 Eintraege | Stale: 0
 [2026-07-17 07:27:16] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-17 07:27:16] SELF-IMPROVE | Tagescheck abgeschlossen
@@ -142,6 +141,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-21 10:35:57] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-21 10:35:57] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-21 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-22 03:55:50] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 4269
+Heute: Text 2/300 | Vision 0/40 | Tokens 8467
