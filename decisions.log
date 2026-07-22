@@ -116,3 +116,4 @@ OK: Fix
 [2026-07-22 03:55:50] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-22 04:29:53] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
+[2026-07-22 06:00:00] MEMORY-MAINTENANCE | 10 Eintraege als 'stale' markiert | Gesamt: 41 Eintraege | Stale: 10
