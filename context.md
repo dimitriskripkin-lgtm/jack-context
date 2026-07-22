@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T04:22:52.868018)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T04:25:54.832931)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T04:22:52.857244
+Stand: 2026-07-22T04:25:54.825228
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T04:22:52.857244
 - Offene Fehler: 4
 - Erinnerungen: 133
 - Dienste:
-run: jack_cortex: (pid 7336) 64024s
-run: jack_telegram: (pid 7335) 64024s
-run: jack_autolearn: (pid 7339) 64024s
-run: ollama: (pid 7342) 64024s
+run: jack_cortex: (pid 7336) 64206s
+run: jack_telegram: (pid 7335) 64206s
+run: jack_autolearn: (pid 7339) 64206s
+run: ollama: (pid 7342) 64206s
 
 ## Letzte Aenderungen
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
