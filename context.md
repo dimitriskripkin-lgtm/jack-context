@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T06:25:44.245378)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T06:28:46.225134)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T06:25:44.237986
+Stand: 2026-07-22T06:28:46.215226
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-22T06:25:44.237986
 - Offene Fehler: 4
 - Erinnerungen: 136
 - Dienste:
-run: jack_cortex: (pid 7336) 71396s
-run: jack_telegram: (pid 23985) 223s
-run: jack_autolearn: (pid 7339) 71396s
-run: ollama: (pid 7342) 71396s
+run: jack_cortex: (pid 7336) 71578s
+run: jack_telegram: (pid 23985) 405s
+run: jack_autolearn: (pid 7339) 71578s
+run: ollama: (pid 7342) 71578s
 
 ## Letzte Aenderungen
 4850d0d Prompt-Fix: JACK kennt jetzt ehrlich seine eigene Architektur (Gemini als Werkzeug)
@@ -144,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 06:00:00] MEMORY-MAINTENANCE | 10 Eintraege als 'stale' markiert | Gesamt: 41 Eintraege | Stale: 10
 
 ## Budget heute
-Heute: Text 20/300 | Vision 0/40 | Tokens 43118
+Heute: Text 21/300 | Vision 0/40 | Tokens 46003
