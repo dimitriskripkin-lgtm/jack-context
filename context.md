@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T16:17:42.783602)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T16:20:44.598444)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T16:17:42.774807
+Stand: 2026-07-22T16:20:44.587000
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,14 @@ Stand: 2026-07-22T16:17:42.774807
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 106914s
-run: jack_telegram: (pid 12847) 5722s
-run: jack_autolearn: (pid 7339) 106914s
-run: ollama: (pid 7342) 106914s
+run: jack_cortex: (pid 7336) 107096s
+run: jack_telegram: (pid 12847) 5904s
+run: jack_autolearn: (pid 7339) 107096s
+run: ollama: (pid 7342) 107096s
 
 ## Letzte Aenderungen
+e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
+9de06fc jack_oracle: bidirektionaler Claude<->JACK Kanal via GitHub, Live-Test erfolgreich (free -h)
 0955315 Prompt: Titan-Lektionen still integriert
 8e20a4e titan_legacy: falsche context.md entfernt, Ordner bleibt leer bis bewusste Entscheidung
 ab0073f titan_legacy: Kern-DNA gesichert (Persona+Anchor+Evolution)
@@ -106,8 +108,6 @@ d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
 ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), reden + Status-Aktion
 c081ad6 chore: runtime files
-a7ea6e2 Merge branch 'master' of https://github.com/dimitriskripkin-lgtm/jack-core
-3dcb140 fix: /xiaomi handler + telegram fixes
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
