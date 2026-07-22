@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-22T16:32:53.358287)
+# JACK LIVE-KONTEXT (auto, 2026-07-22T16:35:55.699568)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-22T16:32:53.338433
+Stand: 2026-07-22T16:35:55.675841
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-22T16:32:53.338433
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 7336) 107825s
-run: jack_telegram: (pid 12847) 6633s
-run: jack_autolearn: (pid 7339) 107825s
-run: ollama: (pid 7342) 107825s
+run: jack_cortex: (pid 7336) 108007s
+run: jack_telegram: (pid 12847) 6815s
+run: jack_autolearn: (pid 7339) 108007s
+run: ollama: (pid 7342) 108007s
 
 ## Letzte Aenderungen
 e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
