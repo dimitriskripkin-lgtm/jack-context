@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T13:07:12.778816)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T13:10:15.069329)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T13:07:12.769999
+Stand: 2026-07-23T13:10:15.061582
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -84,13 +84,13 @@ Stand: 2026-07-23T13:07:12.769999
 - voice_service_v2.py
 
 ## System-Status
-- Offene Fehler: 0
+- Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 2750s
-run: jack_telegram: (pid 21411) 5480s
-run: jack_autolearn: (pid 7339) 181884s
-run: ollama: (pid 7342) 181884s
+run: jack_cortex: (pid 12726) 2933s
+run: jack_telegram: (pid 21411) 5663s
+run: jack_autolearn: (pid 7339) 182067s
+run: ollama: (pid 7342) 182067s
 
 ## Letzte Aenderungen
 37b56f6 Oracle: chr(10) statt Newline-Literal + Audit 7/7 Nenner fix
