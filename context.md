@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T03:21:38.617572)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T03:24:40.374361)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T03:21:38.608304
+Stand: 2026-07-23T03:24:40.365196
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-23T03:21:38.608304
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 3661s
-run: jack_telegram: (pid 9882) 243s
-run: jack_autolearn: (pid 7339) 146750s
-run: ollama: (pid 7342) 146750s
+run: jack_cortex: (pid 4424) 3843s
+run: jack_telegram: (pid 9882) 425s
+run: jack_autolearn: (pid 7339) 146932s
+run: ollama: (pid 7342) 146932s
 
 ## Letzte Aenderungen
 f3d1cdd Oracle: deutsche Aliase + Ergebnis-Stack (letzte 5)
