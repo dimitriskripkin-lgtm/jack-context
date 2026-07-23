@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T04:52:35.327225)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T04:55:37.320028)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T04:52:35.313182
+Stand: 2026-07-23T04:55:37.313078
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-23T04:52:35.313182
 - Offene Fehler: 4
 - Erinnerungen: 143
 - Dienste:
-run: jack_cortex: (pid 19393) 1618s
-run: jack_telegram: (pid 20543) 4694s
-run: jack_autolearn: (pid 7339) 152207s
-run: ollama: (pid 7342) 152207s
+run: jack_cortex: (pid 19393) 1800s
+run: jack_telegram: (pid 20543) 4876s
+run: jack_autolearn: (pid 7339) 152389s
+run: ollama: (pid 7342) 152389s
 
 ## Letzte Aenderungen
 2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
