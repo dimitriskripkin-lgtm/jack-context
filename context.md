@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T03:18:36.966161)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T03:21:38.617572)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T03:18:36.958644
+Stand: 2026-07-23T03:21:38.608304
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -23,8 +23,10 @@ Stand: 2026-07-23T03:18:36.958644
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima testet das Gedächtnis.
+- Dima hat auf Xiaomi in Termux sshd eingegeben.
+- Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
+- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 
 ## Aktive Module (55)
 - jack_agent.py
@@ -87,10 +89,10 @@ Stand: 2026-07-23T03:18:36.958644
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 3479s
-run: jack_telegram: (pid 9882) 61s
-run: jack_autolearn: (pid 7339) 146568s
-run: ollama: (pid 7342) 146568s
+run: jack_cortex: (pid 4424) 3661s
+run: jack_telegram: (pid 9882) 243s
+run: jack_autolearn: (pid 7339) 146750s
+run: ollama: (pid 7342) 146750s
 
 ## Letzte Aenderungen
 f3d1cdd Oracle: deutsche Aliase + Ergebnis-Stack (letzte 5)
@@ -118,8 +120,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-21 10:35:57] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
-[2026-07-21 10:35:57] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-21 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-22 03:55:50] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-22 04:29:53] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -138,6 +138,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 02:54:13] ORACLE-EINGANG | tg-17847: df -h
 [2026-07-23 03:04:40] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:17:43] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
+[2026-07-23 03:19:45] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
+[2026-07-23 03:20:01] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 3987
+Heute: Text 3/300 | Vision 0/40 | Tokens 7398
