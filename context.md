@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:47:37.010098)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:50:38.787494)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:47:37.003592
+Stand: 2026-07-23T10:50:38.777791
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,10 +88,10 @@ Stand: 2026-07-23T10:47:37.003592
 - Offene Fehler: 0
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 29850) 1256s
-run: jack_telegram: (pid 16626) 21s
-run: jack_autolearn: (pid 7339) 173509s
-run: ollama: (pid 7342) 173509s
+run: jack_cortex: (pid 17752) 81s
+run: jack_telegram: (pid 17755) 81s
+run: jack_autolearn: (pid 7339) 173690s
+run: ollama: (pid 7342) 173690s
 
 ## Letzte Aenderungen
 b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
