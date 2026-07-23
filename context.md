@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-24T00:48:28.678455)
+# JACK LIVE-KONTEXT (auto, 2026-07-24T00:51:30.890094)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-24T00:48:28.668509
+Stand: 2026-07-24T00:51:30.875406
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -92,10 +92,10 @@ Stand: 2026-07-24T00:48:28.668509
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 44826s
-run: jack_telegram: (pid 21411) 47556s
-run: jack_autolearn: (pid 7339) 223960s
-run: ollama: (pid 7342) 223960s
+run: jack_cortex: (pid 12726) 45008s
+run: jack_telegram: (pid 21411) 47738s
+run: jack_autolearn: (pid 7339) 224142s
+run: ollama: (pid 7342) 224142s
 
 ## Letzte Aenderungen
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
