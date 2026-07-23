@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T03:27:42.614865)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T03:30:44.630862)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T03:27:42.600734
+Stand: 2026-07-23T03:30:44.621389
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-23T03:27:42.600734
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 4025s
-run: jack_telegram: (pid 15943) 31s
-run: jack_autolearn: (pid 7339) 147114s
-run: ollama: (pid 7342) 147114s
+run: jack_cortex: (pid 4424) 4207s
+run: jack_telegram: (pid 15943) 213s
+run: jack_autolearn: (pid 7339) 147296s
+run: ollama: (pid 7342) 147296s
 
 ## Letzte Aenderungen
 16c72d3 Telegram: /befehle Uebersicht fix
