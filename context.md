@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T14:35:09.756860)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T14:38:11.374740)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T14:35:09.747208
+Stand: 2026-07-23T14:38:11.362972
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -90,10 +90,10 @@ Stand: 2026-07-23T14:35:09.747208
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 8027s
-run: jack_telegram: (pid 21411) 10757s
-run: jack_autolearn: (pid 7339) 187161s
-run: ollama: (pid 7342) 187161s
+run: jack_cortex: (pid 12726) 8209s
+run: jack_telegram: (pid 21411) 10939s
+run: jack_autolearn: (pid 7339) 187343s
+run: ollama: (pid 7342) 187343s
 
 ## Letzte Aenderungen
 37b56f6 Oracle: chr(10) statt Newline-Literal + Audit 7/7 Nenner fix
