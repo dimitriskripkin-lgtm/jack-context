@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T03:24:40.374361)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T03:27:42.614865)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T03:24:40.365196
+Stand: 2026-07-23T03:27:42.600734
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,12 +89,14 @@ Stand: 2026-07-23T03:24:40.365196
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 3843s
-run: jack_telegram: (pid 9882) 425s
-run: jack_autolearn: (pid 7339) 146932s
-run: ollama: (pid 7342) 146932s
+run: jack_cortex: (pid 4424) 4025s
+run: jack_telegram: (pid 15943) 31s
+run: jack_autolearn: (pid 7339) 147114s
+run: ollama: (pid 7342) 147114s
 
 ## Letzte Aenderungen
+16c72d3 Telegram: /befehle Uebersicht fix
+9ec19c7 Telegram: /befehle Uebersicht
 f3d1cdd Oracle: deutsche Aliase + Ergebnis-Stack (letzte 5)
 2e72523 oracle_result bugfix: json import
 b494b09 oracle bugfix: import vor json.dumps gezogen
@@ -108,8 +110,6 @@ e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
 ab0073f titan_legacy: Kern-DNA gesichert (Persona+Anchor+Evolution)
 66d036b titan_legacy: Ordner angelegt, Ingest folgt
 a410265 titan_legacy: Ordner vorbereitet fuer Kontext-Ingest
-5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
-4850d0d Prompt-Fix: JACK kennt jetzt ehrlich seine eigene Architektur (Gemini als Werkzeug)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
