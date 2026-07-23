@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T07:18:12.620612)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T07:21:14.928418)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T07:18:12.602420
+Stand: 2026-07-23T07:21:14.912055
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -27,6 +27,9 @@ Stand: 2026-07-23T07:18:12.602420
 - Dima korrigierte JACK: "Ich bin JACK, dein System. Ich nutze Gemini als Gehirn für API-Calls, aber ich antworte nicht direkt daraus."
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
+- Dima hat KEINEN Hund (Rex war nur ein Test).
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer, KEIN Fernfahrer.
+- Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
 
 ## Aktive Module (55)
 - jack_agent.py
@@ -89,10 +92,10 @@ Stand: 2026-07-23T07:18:12.602420
 - Offene Fehler: 4
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 16257) 7055s
-run: jack_telegram: (pid 20543) 13431s
-run: jack_autolearn: (pid 7339) 160944s
-run: ollama: (pid 7342) 160944s
+run: jack_cortex: (pid 16257) 7237s
+run: jack_telegram: (pid 20543) 13613s
+run: jack_autolearn: (pid 7339) 161126s
+run: ollama: (pid 7342) 161126s
 
 ## Letzte Aenderungen
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
@@ -120,7 +123,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 04:29:53] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-22 06:00:00] MEMORY-MAINTENANCE | 10 Eintraege als 'stale' markiert | Gesamt: 41 Eintraege | Stale: 10
 [2026-07-22 10:01:09] PROFIL-UPDATE | 6 neue Eintraege in kortex_profile.json
@@ -140,6 +142,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 03:20:01] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-23 05:20:03] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
 [2026-07-23 06:00:00] MEMORY-MAINTENANCE | 2 Eintraege als 'stale' markiert | Gesamt: 58 Eintraege | Stale: 12
+[2026-07-23 07:20:05] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 16/300 | Vision 0/40 | Tokens 36714
+Heute: Text 17/300 | Vision 0/40 | Tokens 40131
