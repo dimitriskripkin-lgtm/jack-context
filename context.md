@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T02:51:19.338502)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T02:54:20.980233)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T02:51:19.332841
+Stand: 2026-07-23T02:54:20.970764
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-23T02:51:19.332841
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 1842s
-run: jack_telegram: (pid 23426) 223s
-run: jack_autolearn: (pid 7339) 144931s
-run: ollama: (pid 7342) 144931s
+run: jack_cortex: (pid 4424) 2023s
+run: jack_telegram: (pid 23426) 404s
+run: jack_autolearn: (pid 7339) 145112s
+run: ollama: (pid 7342) 145112s
 
 ## Letzte Aenderungen
 2e72523 oracle_result bugfix: json import
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-19 19:07:36] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-21 10:35:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-21 10:35:57] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-21 10:35:57] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 02:22:08] DATEI-SCHREIBEN | jack_cmd.json | 169 Zeichen
 [2026-07-23 02:44:09] ORACLE-EINGANG | tg-17847: free -h
+[2026-07-23 02:54:13] ORACLE-EINGANG | tg-17847: df -h
 
 ## Budget heute
 Heute: Text 2/300 | Vision 0/40 | Tokens 3987
