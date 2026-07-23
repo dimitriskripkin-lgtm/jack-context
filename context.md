@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T17:19:10.401036)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T17:22:12.259177)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T17:19:10.389950
+Stand: 2026-07-23T17:22:12.245000
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -22,7 +22,6 @@ Stand: 2026-07-23T17:19:10.389950
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat JACK das Ziel gegeben, sich selbst zu lernen und zu verbessern.
 - Dima hat JACK das Ziel gegeben, unter seiner Kontrolle zu stehen.
-- Dima hat die Aussage korrigiert, dass JACK direkten Shell- oder Dateizugriff über den Chat hat.
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
@@ -90,10 +89,10 @@ Stand: 2026-07-23T17:19:10.389950
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 17868s
-run: jack_telegram: (pid 21411) 20598s
-run: jack_autolearn: (pid 7339) 197002s
-run: ollama: (pid 7342) 197002s
+run: jack_cortex: (pid 12726) 18050s
+run: jack_telegram: (pid 21411) 20780s
+run: jack_autolearn: (pid 7339) 197184s
+run: ollama: (pid 7342) 197184s
 
 ## Letzte Aenderungen
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
@@ -143,4 +142,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 13:20:12] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 43/300 | Vision 0/40 | Tokens 86779
+Heute: Text 44/300 | Vision 0/40 | Tokens 90310
