@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:53:40.458181)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:56:42.013715)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:53:40.449520
+Stand: 2026-07-23T10:56:42.002995
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,12 +88,13 @@ Stand: 2026-07-23T10:53:40.449520
 - Offene Fehler: 0
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 19130) 162s
-run: jack_telegram: (pid 20187) 32s
-run: jack_autolearn: (pid 7339) 173872s
-run: ollama: (pid 7342) 173872s
+run: jack_cortex: (pid 19130) 344s
+run: jack_telegram: (pid 22106) 57s
+run: jack_autolearn: (pid 7339) 174054s
+run: ollama: (pid 7342) 174054s
 
 ## Letzte Aenderungen
+76119de Telegram: doppelte handle_callback entfernt, Oracle in Haupt-Handler integriert
 cd3655e Cleanup: kritische bare excepts durch logging ersetzt
 b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
 b1b190d Cortex: notify True korrekte Stelle
@@ -108,7 +109,6 @@ d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 f3d1cdd Oracle: deutsche Aliase + Ergebnis-Stack (letzte 5)
 2e72523 oracle_result bugfix: json import
 b494b09 oracle bugfix: import vor json.dumps gezogen
-dcbaff7 oracle bugfix: json import im block
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
