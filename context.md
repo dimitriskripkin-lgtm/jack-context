@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:17:54.354093)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:20:56.031762)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:17:54.345237
+Stand: 2026-07-23T11:20:56.019761
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -20,10 +20,9 @@ Stand: 2026-07-23T11:17:54.345237
 - JACK hat ein lokales Gedächtnis in SQLite.
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
-- Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
 - Dima hat JACK das Ziel gegeben, sich selbst zu lernen und zu verbessern.
 - Dima hat JACK das Ziel gegeben, unter seiner Kontrolle zu stehen.
-- Dima korrigierte JACK: "Ich bin JACK, dein System. Ich nutze Gemini als Gehirn für API-Calls, aber ich antworte nicht direkt daraus."
+- Dima hat die Aussage korrigiert, dass JACK direkten Shell- oder Dateizugriff über den Chat hat.
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
 
@@ -86,14 +85,15 @@ Stand: 2026-07-23T11:17:54.345237
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 155
+- Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 19130) 1616s
-run: jack_telegram: (pid 9336) 112s
-run: jack_autolearn: (pid 7339) 175326s
-run: ollama: (pid 7342) 175326s
+run: jack_cortex: (pid 19130) 1798s
+run: jack_telegram: (pid 11230) 176s
+run: jack_autolearn: (pid 7339) 175508s
+run: ollama: (pid 7342) 175508s
 
 ## Letzte Aenderungen
+0ed4d1c Telegram: Start-Offset fix wiederhergestellt
 72ba9fd Telegram: oracle Callback-Handler in handle_callback
 e22d3f9 Telegram: buttons Format fix fuer send_keyboard
 58392b1 Telegram: send_buttons -> send_keyboard fix
@@ -108,7 +108,6 @@ d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
 69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
 2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
-2fcd4fc Telegram: Inline-Buttons fuer /befehle, Callback-Handler
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -119,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-22 12:12:25] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-22 14:53:25] ORACLE-EINGANG | init: echo JACK_ORACLE_READY
 [2026-07-22 14:59:04] ORACLE-EINGANG | test-001: free -h
@@ -139,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 10:42:22] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-23 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
+[2026-07-23 11:20:10] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 36/300 | Vision 0/40 | Tokens 70312
+Heute: Text 41/300 | Vision 0/40 | Tokens 79717
