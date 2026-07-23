@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:56:42.013715)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:59:43.780653)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:56:42.002995
+Stand: 2026-07-23T10:59:43.773699
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,12 +86,12 @@ Stand: 2026-07-23T10:56:42.002995
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 146
+- Erinnerungen: 147
 - Dienste:
-run: jack_cortex: (pid 19130) 344s
-run: jack_telegram: (pid 22106) 57s
-run: jack_autolearn: (pid 7339) 174054s
-run: ollama: (pid 7342) 174054s
+run: jack_cortex: (pid 19130) 525s
+run: jack_telegram: (pid 22106) 238s
+run: jack_autolearn: (pid 7339) 174235s
+run: ollama: (pid 7342) 174235s
 
 ## Letzte Aenderungen
 76119de Telegram: doppelte handle_callback entfernt, Oracle in Haupt-Handler integriert
@@ -141,4 +141,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 10:42:22] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
-Heute: Text 18/300 | Vision 0/40 | Tokens 43542
+Heute: Text 20/300 | Vision 0/40 | Tokens 46474
