@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T21:18:58.062512)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T21:22:00.334273)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T21:18:58.053756
+Stand: 2026-07-23T21:22:00.325545
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -22,12 +22,12 @@ Stand: 2026-07-23T21:18:58.053756
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat JACK das Ziel gegeben, sich selbst zu lernen und zu verbessern.
 - Dima hat JACK das Ziel gegeben, unter seiner Kontrolle zu stehen.
-- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
-- Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff ueber den Chat.
 - JACK erinnert sich an vergangene Gespräche mit Zeitstempel.
+- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
+- Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
 
 ## Aktive Module (55)
 - jack_agent.py
@@ -90,10 +90,10 @@ Stand: 2026-07-23T21:18:58.053756
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 32256s
-run: jack_telegram: (pid 21411) 34986s
-run: jack_autolearn: (pid 7339) 211390s
-run: ollama: (pid 7342) 211390s
+run: jack_cortex: (pid 12726) 32438s
+run: jack_telegram: (pid 21411) 35168s
+run: jack_autolearn: (pid 7339) 211572s
+run: ollama: (pid 7342) 211572s
 
 ## Letzte Aenderungen
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
@@ -143,4 +143,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 19:20:31] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 45/300 | Vision 0/40 | Tokens 93831
+Heute: Text 46/300 | Vision 0/40 | Tokens 97366
