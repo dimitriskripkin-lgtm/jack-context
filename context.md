@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T05:19:51.722297)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T05:22:53.414143)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T05:19:51.713055
+Stand: 2026-07-23T05:22:53.406685
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -18,15 +18,15 @@ Stand: 2026-07-23T05:19:51.713055
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
 - JACK nutzt Gemini als Gehirn (API-Calls).
 - JACK hat ein lokales Gedächtnis in SQLite.
-- JACK soll sich selbst lernen und verbessern.
-- JACK steht unter Dimas voller Kontrolle.
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
-- Dima hat KEINEN Hund (Rex war nur ein Test).
-- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima testet das Gedächtnis.
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
+- Dima hat JACK das Ziel gegeben, sich selbst zu lernen und zu verbessern.
+- Dima hat JACK das Ziel gegeben, unter seiner Kontrolle zu stehen.
+- Dima korrigierte JACK: "Ich bin JACK, dein System. Ich nutze Gemini als Gehirn für API-Calls, aber ich antworte nicht direkt daraus."
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
+- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 
 ## Aktive Module (55)
 - jack_agent.py
@@ -89,12 +89,13 @@ Stand: 2026-07-23T05:19:51.713055
 - Offene Fehler: 4
 - Erinnerungen: 143
 - Dienste:
-run: jack_cortex: (pid 19393) 3254s
-run: jack_telegram: (pid 20543) 6330s
-run: jack_autolearn: (pid 7339) 153843s
-run: ollama: (pid 7342) 153843s
+run: jack_cortex: (pid 16257) 136s
+run: jack_telegram: (pid 20543) 6512s
+run: jack_autolearn: (pid 7339) 154025s
+run: ollama: (pid 7342) 154025s
 
 ## Letzte Aenderungen
+0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
 69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
 2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
 2fcd4fc Telegram: Inline-Buttons fuer /befehle, Callback-Handler
@@ -109,7 +110,6 @@ f5c4768 Security: Flask von 0.0.0.0 auf 127.0.0.1 (kein offener Endpoint mehr)
 e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
 9de06fc jack_oracle: bidirektionaler Claude<->JACK Kanal via GitHub, Live-Test erfolgreich (free -h)
 0955315 Prompt: Titan-Lektionen still integriert
-8e20a4e titan_legacy: falsche context.md entfernt, Ordner bleibt leer bis bewusste Entscheidung
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -120,7 +120,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-21 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-22 03:55:50] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-22 04:29:53] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
@@ -140,6 +139,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 03:17:43] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:19:45] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:20:01] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-07-23 05:20:03] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 21313
+Heute: Text 10/300 | Vision 0/40 | Tokens 24711
