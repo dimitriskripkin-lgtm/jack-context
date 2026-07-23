@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:26:59.592433)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:30:01.428193)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:26:59.583503
+Stand: 2026-07-23T11:30:01.418799
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,13 @@ Stand: 2026-07-23T11:26:59.583503
 - Offene Fehler: 0
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 19130) 2161s
-run: jack_telegram: (pid 11230) 539s
-run: jack_autolearn: (pid 7339) 175871s
-run: ollama: (pid 7342) 175871s
+run: jack_cortex: (pid 19130) 2343s
+run: jack_telegram: (pid 16239) 114s
+run: jack_autolearn: (pid 7339) 176053s
+run: ollama: (pid 7342) 176053s
 
 ## Letzte Aenderungen
+fefc1f1 Telegram: Oracle-Dispatcher an Anfang von handle() - Gemini wird nie mehr fuer /oracle aufgerufen
 0ed4d1c Telegram: Start-Offset fix wiederhergestellt
 72ba9fd Telegram: oracle Callback-Handler in handle_callback
 e22d3f9 Telegram: buttons Format fix fuer send_keyboard
@@ -107,7 +108,6 @@ b1b190d Cortex: notify True korrekte Stelle
 d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
 69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
-2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
