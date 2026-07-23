@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:02:45.643391)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:05:47.372801)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:02:45.633179
+Stand: 2026-07-23T11:05:47.362944
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,14 +86,15 @@ Stand: 2026-07-23T11:02:45.633179
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 148
+- Erinnerungen: 149
 - Dienste:
-run: jack_cortex: (pid 19130) 707s
-run: jack_telegram: (pid 26005) 56s
-run: jack_autolearn: (pid 7339) 174417s
-run: ollama: (pid 7342) 174417s
+run: jack_cortex: (pid 19130) 889s
+run: jack_telegram: (pid 27883) 55s
+run: jack_autolearn: (pid 7339) 174599s
+run: ollama: (pid 7342) 174599s
 
 ## Letzte Aenderungen
+4542529 Telegram: /oracle und /oracle_result Dispatcher wiederhergestellt
 76119de Telegram: doppelte handle_callback entfernt, Oracle in Haupt-Handler integriert
 cd3655e Cleanup: kritische bare excepts durch logging ersetzt
 b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
@@ -108,7 +109,6 @@ d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 9ec19c7 Telegram: /befehle Uebersicht
 f3d1cdd Oracle: deutsche Aliase + Ergebnis-Stack (letzte 5)
 2e72523 oracle_result bugfix: json import
-b494b09 oracle bugfix: import vor json.dumps gezogen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -141,4 +141,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
 
 ## Budget heute
-Heute: Text 22/300 | Vision 0/40 | Tokens 49436
+Heute: Text 24/300 | Vision 0/40 | Tokens 52421
