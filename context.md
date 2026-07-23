@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-24T01:18:49.453802)
+# JACK LIVE-KONTEXT (auto, 2026-07-24T01:21:51.624342)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-24T01:18:49.440642
+Stand: 2026-07-24T01:21:51.610582
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -19,13 +19,13 @@ Stand: 2026-07-24T01:18:49.440642
 - JACK nutzt Gemini als Gehirn (API-Calls).
 - JACK hat ein lokales Gedächtnis in SQLite.
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
+- JACK erinnert sich an vergangene Gespräche mit Zeitstempel.
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat JACK das Ziel gegeben, sich selbst zu lernen und zu verbessern.
 - Dima hat JACK das Ziel gegeben, unter seiner Kontrolle zu stehen.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff ueber den Chat.
-- JACK erinnert sich an vergangene Gespräche mit Zeitstempel.
 - Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - Dima hat eine kleine Autobiographie über sich hochgeladen.
@@ -92,10 +92,10 @@ Stand: 2026-07-24T01:18:49.440642
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 46647s
-run: jack_telegram: (pid 21411) 49377s
-run: jack_autolearn: (pid 7339) 225781s
-run: ollama: (pid 7342) 225781s
+run: jack_cortex: (pid 12726) 46829s
+run: jack_telegram: (pid 21411) 49559s
+run: jack_autolearn: (pid 7339) 225963s
+run: ollama: (pid 7342) 225963s
 
 ## Letzte Aenderungen
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
@@ -145,4 +145,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 23:20:37] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 0/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 3597
