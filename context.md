@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T19:17:34.454396)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T19:20:36.428120)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T19:17:34.446601
+Stand: 2026-07-23T19:20:36.418418
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -27,6 +27,7 @@ Stand: 2026-07-23T19:17:34.446601
 - Dima hat KEINEN Hund (Rex war nur ein Test).
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff ueber den Chat.
+- JACK erinnert sich an vergangene Gespräche mit Zeitstempel.
 
 ## Aktive Module (55)
 - jack_agent.py
@@ -89,10 +90,10 @@ Stand: 2026-07-23T19:17:34.446601
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 24972s
-run: jack_telegram: (pid 21411) 27702s
-run: jack_autolearn: (pid 7339) 204106s
-run: ollama: (pid 7342) 204106s
+run: jack_cortex: (pid 12726) 25154s
+run: jack_telegram: (pid 21411) 27884s
+run: jack_autolearn: (pid 7339) 204288s
+run: ollama: (pid 7342) 204288s
 
 ## Letzte Aenderungen
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
@@ -120,7 +121,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-23 02:44:09] ORACLE-EINGANG | tg-17847: free -h
 [2026-07-23 02:54:13] ORACLE-EINGANG | tg-17847: df -h
 [2026-07-23 03:04:40] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:17:43] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
@@ -140,6 +140,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:38:43] ORACLE-EINGANG | btn-1784: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 11:43:52] ORACLE-EINGANG | btn-1784: python3 -c "import sys,os; sys.path.insert(0,os.path.expanduser('~/jack')); impo
 [2026-07-23 13:20:12] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-07-23 19:20:31] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 44/300 | Vision 0/40 | Tokens 90310
+Heute: Text 45/300 | Vision 0/40 | Tokens 93831
