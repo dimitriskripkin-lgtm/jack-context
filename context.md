@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T23:20:25.541861)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T23:23:28.151620)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T23:20:25.534313
+Stand: 2026-07-23T23:23:28.142629
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,8 +26,10 @@ Stand: 2026-07-23T23:20:25.534313
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff ueber den Chat.
 - JACK erinnert sich an vergangene Gespräche mit Zeitstempel.
-- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
+- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
+- Dima hat eine kleine Autobiographie über sich hochgeladen.
+- JACK kann auf Basis von Dimas Eingaben über sich selbst lernen.
 
 ## Aktive Module (55)
 - jack_agent.py
@@ -90,10 +92,10 @@ Stand: 2026-07-23T23:20:25.534313
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 39543s
-run: jack_telegram: (pid 21411) 42273s
-run: jack_autolearn: (pid 7339) 218677s
-run: ollama: (pid 7342) 218677s
+run: jack_cortex: (pid 12726) 39726s
+run: jack_telegram: (pid 21411) 42456s
+run: jack_autolearn: (pid 7339) 218860s
+run: ollama: (pid 7342) 218860s
 
 ## Letzte Aenderungen
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
@@ -121,7 +123,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-23 02:54:13] ORACLE-EINGANG | tg-17847: df -h
 [2026-07-23 03:04:40] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:17:43] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:19:45] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
@@ -141,6 +142,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:43:52] ORACLE-EINGANG | btn-1784: python3 -c "import sys,os; sys.path.insert(0,os.path.expanduser('~/jack')); impo
 [2026-07-23 13:20:12] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-23 19:20:31] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-23 23:20:37] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 46/300 | Vision 0/40 | Tokens 97366
+Heute: Text 47/300 | Vision 0/40 | Tokens 100934
