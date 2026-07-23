@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T05:38:02.374056)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T05:41:03.971721)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T05:38:02.365710
+Stand: 2026-07-23T05:41:03.963007
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-23T05:38:02.365710
 - Offene Fehler: 4
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 16257) 1045s
-run: jack_telegram: (pid 20543) 7421s
-run: jack_autolearn: (pid 7339) 154934s
-run: ollama: (pid 7342) 154934s
+run: jack_cortex: (pid 16257) 1226s
+run: jack_telegram: (pid 20543) 7602s
+run: jack_autolearn: (pid 7339) 155115s
+run: ollama: (pid 7342) 155115s
 
 ## Letzte Aenderungen
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
