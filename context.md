@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:14:52.574954)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:17:54.354093)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:14:52.566805
+Stand: 2026-07-23T11:17:54.345237
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,14 +86,15 @@ Stand: 2026-07-23T11:14:52.566805
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 152
+- Erinnerungen: 155
 - Dienste:
-run: jack_cortex: (pid 19130) 1434s
-run: jack_telegram: (pid 7975) 13s
-run: jack_autolearn: (pid 7339) 175144s
-run: ollama: (pid 7342) 175144s
+run: jack_cortex: (pid 19130) 1616s
+run: jack_telegram: (pid 9336) 112s
+run: jack_autolearn: (pid 7339) 175326s
+run: ollama: (pid 7342) 175326s
 
 ## Letzte Aenderungen
+72ba9fd Telegram: oracle Callback-Handler in handle_callback
 e22d3f9 Telegram: buttons Format fix fuer send_keyboard
 58392b1 Telegram: send_buttons -> send_keyboard fix
 eba34ba Telegram: oracle+befehle Dispatcher vor Gemini-Fallback eingefuegt
@@ -108,7 +109,6 @@ d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
 2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
 2fcd4fc Telegram: Inline-Buttons fuer /befehle, Callback-Handler
-16c72d3 Telegram: /befehle Uebersicht fix
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -141,4 +141,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
 
 ## Budget heute
-Heute: Text 30/300 | Vision 0/40 | Tokens 61384
+Heute: Text 36/300 | Vision 0/40 | Tokens 70312
