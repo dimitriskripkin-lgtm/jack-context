@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T05:25:55.204671)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T05:28:57.097689)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T05:25:55.196200
+Stand: 2026-07-23T05:28:57.088484
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,12 @@ Stand: 2026-07-23T05:25:55.196200
 
 ## System-Status
 - Offene Fehler: 4
-- Erinnerungen: 144
+- Erinnerungen: 145
 - Dienste:
-run: jack_cortex: (pid 16257) 318s
-run: jack_telegram: (pid 20543) 6694s
-run: jack_autolearn: (pid 7339) 154207s
-run: ollama: (pid 7342) 154207s
+run: jack_cortex: (pid 16257) 500s
+run: jack_telegram: (pid 20543) 6876s
+run: jack_autolearn: (pid 7339) 154389s
+run: ollama: (pid 7342) 154389s
 
 ## Letzte Aenderungen
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
@@ -142,4 +142,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 05:20:03] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 12/300 | Vision 0/40 | Tokens 29210
+Heute: Text 14/300 | Vision 0/40 | Tokens 33627
