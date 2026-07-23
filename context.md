@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T09:19:37.706784)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T09:22:40.058408)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T09:19:37.697935
+Stand: 2026-07-23T09:22:40.050697
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -19,16 +19,12 @@ Stand: 2026-07-23T09:19:37.697935
 - JACK nutzt Gemini als Gehirn (API-Calls).
 - JACK hat ein lokales Gedächtnis in SQLite.
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
-- Dima testet das Gedächtnis.
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
 - Dima hat JACK das Ziel gegeben, sich selbst zu lernen und zu verbessern.
 - Dima hat JACK das Ziel gegeben, unter seiner Kontrolle zu stehen.
 - Dima korrigierte JACK: "Ich bin JACK, dein System. Ich nutze Gemini als Gehirn für API-Calls, aber ich antworte nicht direkt daraus."
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
-- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima hat KEINEN Hund (Rex war nur ein Test).
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer, KEIN Fernfahrer.
 - Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
 
 ## Aktive Module (55)
@@ -92,10 +88,10 @@ Stand: 2026-07-23T09:19:37.697935
 - Offene Fehler: 4
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 16257) 14340s
-run: jack_telegram: (pid 20543) 20716s
-run: jack_autolearn: (pid 7339) 168229s
-run: ollama: (pid 7342) 168229s
+run: jack_cortex: (pid 16257) 14523s
+run: jack_telegram: (pid 20543) 20899s
+run: jack_autolearn: (pid 7339) 168412s
+run: ollama: (pid 7342) 168412s
 
 ## Letzte Aenderungen
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
@@ -145,4 +141,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 07:20:05] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 17/300 | Vision 0/40 | Tokens 40131
+Heute: Text 18/300 | Vision 0/40 | Tokens 43542
