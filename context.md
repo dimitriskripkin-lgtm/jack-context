@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T04:13:10.728616)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T04:16:12.694875)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T04:13:10.714007
+Stand: 2026-07-23T04:16:12.681047
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-23T04:13:10.714007
 - Offene Fehler: 4
 - Erinnerungen: 143
 - Dienste:
-run: jack_cortex: (pid 32259) 704s
-run: jack_telegram: (pid 20543) 2329s
-run: jack_autolearn: (pid 7339) 149842s
-run: ollama: (pid 7342) 149842s
+run: jack_cortex: (pid 32259) 886s
+run: jack_telegram: (pid 20543) 2511s
+run: jack_autolearn: (pid 7339) 150024s
+run: ollama: (pid 7342) 150024s
 
 ## Letzte Aenderungen
 2fcd4fc Telegram: Inline-Buttons fuer /befehle, Callback-Handler
