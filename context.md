@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T02:36:10.726024)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T02:39:12.355544)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T02:36:10.718968
+Stand: 2026-07-23T02:39:12.347084
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,13 @@ Stand: 2026-07-23T02:36:10.718968
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 933s
-run: jack_telegram: (pid 15552) 31s
-run: jack_autolearn: (pid 7339) 144022s
-run: ollama: (pid 7342) 144022s
+run: jack_cortex: (pid 4424) 1115s
+run: jack_telegram: (pid 17409) 34s
+run: jack_autolearn: (pid 7339) 144204s
+run: ollama: (pid 7342) 144204s
 
 ## Letzte Aenderungen
+bc451eb Telegram: /oracle + /oracle_result
 f5c4768 Security: Flask von 0.0.0.0 auf 127.0.0.1 (kein offener Endpoint mehr)
 e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
 9de06fc jack_oracle: bidirektionaler Claude<->JACK Kanal via GitHub, Live-Test erfolgreich (free -h)
@@ -107,7 +108,6 @@ d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
 827ef7a Label: Gemini/Lokal/Direkt-Indikator nach jeder Antwort
 0d46bc3 voice_processor: whisper-small + robuste Fehlerbehandlung (kein stummer Crash mehr)
 aa06f1a Charakter-Patch: JACK redet jetzt wie ein Kumpel, nicht wie ein Helpdesk. Telegram-Limit 3000, whisper-small, memory-save fix
-ae39e4f jack_hey: hands-free Sprach-Interaktion (whisper/routen/ElevenLabs), reden + Status-Aktion
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
