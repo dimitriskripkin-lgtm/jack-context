@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:17:19.326993)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:20:21.196024)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:17:19.317460
+Stand: 2026-07-23T10:20:21.185735
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,10 +88,10 @@ Stand: 2026-07-23T10:17:19.317460
 - Offene Fehler: 4
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 22805) 14s
-run: jack_telegram: (pid 19008) 348s
-run: jack_autolearn: (pid 7339) 171691s
-run: ollama: (pid 7342) 171691s
+run: jack_cortex: (pid 25546) 4s
+run: jack_telegram: (pid 25547) 4s
+run: jack_autolearn: (pid 7339) 171873s
+run: ollama: (pid 7342) 171873s
 
 ## Letzte Aenderungen
 579e8c6 Cortex: Xiaomi Verbindungs-Benachrichtigung per Telegram
