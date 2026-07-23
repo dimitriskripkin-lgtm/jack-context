@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:11:15.359602)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:14:17.239653)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:11:15.350481
+Stand: 2026-07-23T10:14:17.232133
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,12 +88,13 @@ Stand: 2026-07-23T10:11:15.350481
 - Offene Fehler: 4
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 16257) 17438s
-run: jack_telegram: (pid 20543) 23814s
-run: jack_autolearn: (pid 7339) 171327s
-run: ollama: (pid 7342) 171327s
+run: jack_cortex: (pid 16257) 17620s
+run: jack_telegram: (pid 19008) 166s
+run: jack_autolearn: (pid 7339) 171509s
+run: ollama: (pid 7342) 171509s
 
 ## Letzte Aenderungen
+d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
 69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
 2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
@@ -108,7 +109,6 @@ bc451eb Telegram: /oracle + /oracle_result
 f5c4768 Security: Flask von 0.0.0.0 auf 127.0.0.1 (kein offener Endpoint mehr)
 e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
 9de06fc jack_oracle: bidirektionaler Claude<->JACK Kanal via GitHub, Live-Test erfolgreich (free -h)
-0955315 Prompt: Titan-Lektionen still integriert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
