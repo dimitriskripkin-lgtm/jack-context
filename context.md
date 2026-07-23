@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T05:59:16.448240)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T06:02:18.563863)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T05:59:16.424676
+Stand: 2026-07-23T06:02:18.540091
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-23T05:59:16.424676
 - Offene Fehler: 4
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 16257) 2319s
-run: jack_telegram: (pid 20543) 8695s
-run: jack_autolearn: (pid 7339) 156208s
-run: ollama: (pid 7342) 156208s
+run: jack_cortex: (pid 16257) 2501s
+run: jack_telegram: (pid 20543) 8877s
+run: jack_autolearn: (pid 7339) 156390s
+run: ollama: (pid 7342) 156390s
 
 ## Letzte Aenderungen
 0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
@@ -120,7 +120,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 03:55:50] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-22 04:29:53] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
 [2026-07-22 06:00:00] MEMORY-MAINTENANCE | 10 Eintraege als 'stale' markiert | Gesamt: 41 Eintraege | Stale: 10
@@ -140,6 +139,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 03:19:45] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:20:01] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-23 05:20:03] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
+[2026-07-23 06:00:00] MEMORY-MAINTENANCE | 2 Eintraege als 'stale' markiert | Gesamt: 58 Eintraege | Stale: 12
 
 ## Budget heute
 Heute: Text 16/300 | Vision 0/40 | Tokens 36714

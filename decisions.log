@@ -133,3 +133,4 @@ OK: Fix
 [2026-07-23 03:19:45] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 03:20:01] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-23 05:20:03] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
+[2026-07-23 06:00:00] MEMORY-MAINTENANCE | 2 Eintraege als 'stale' markiert | Gesamt: 58 Eintraege | Stale: 12
