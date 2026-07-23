@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:33:03.138532)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:36:04.797188)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:33:03.130144
+Stand: 2026-07-23T11:36:04.786541
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,14 @@ Stand: 2026-07-23T11:33:03.130144
 - Offene Fehler: 0
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 19130) 2525s
-run: jack_telegram: (pid 16239) 296s
-run: jack_autolearn: (pid 7339) 176235s
-run: ollama: (pid 7342) 176235s
+run: jack_cortex: (pid 19130) 2706s
+run: jack_telegram: (pid 21411) 12s
+run: jack_autolearn: (pid 7339) 176416s
+run: ollama: (pid 7342) 176416s
 
 ## Letzte Aenderungen
+139042b Oracle: Ergebnis automatisch per Telegram nach Ausfuehrung + Audit 7/7
+3957896 Audit: 7 Dienste + Oracle UUID auf Millisekunden fuer einzigartige Button-Klicks
 fefc1f1 Telegram: Oracle-Dispatcher an Anfang von handle() - Gemini wird nie mehr fuer /oracle aufgerufen
 0ed4d1c Telegram: Start-Offset fix wiederhergestellt
 72ba9fd Telegram: oracle Callback-Handler in handle_callback
@@ -106,8 +108,6 @@ b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
 b1b190d Cortex: notify True korrekte Stelle
 579e8c6 Cortex: Xiaomi Verbindungs-Benachrichtigung per Telegram
 d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
-0461543 Cortex: ping durch SSH-Check ersetzt (Android hat kein ICMP)
-69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
