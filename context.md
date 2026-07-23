@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:30:01.428193)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:33:03.138532)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:30:01.418799
+Stand: 2026-07-23T11:33:03.130144
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-23T11:30:01.418799
 - Offene Fehler: 0
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 19130) 2343s
-run: jack_telegram: (pid 16239) 114s
-run: jack_autolearn: (pid 7339) 176053s
-run: ollama: (pid 7342) 176053s
+run: jack_cortex: (pid 19130) 2525s
+run: jack_telegram: (pid 16239) 296s
+run: jack_autolearn: (pid 7339) 176235s
+run: ollama: (pid 7342) 176235s
 
 ## Letzte Aenderungen
 fefc1f1 Telegram: Oracle-Dispatcher an Anfang von handle() - Gemini wird nie mehr fuer /oracle aufgerufen
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 14:53:25] ORACLE-EINGANG | init: echo JACK_ORACLE_READY
 [2026-07-22 14:59:04] ORACLE-EINGANG | test-001: free -h
 [2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 02:22:08] DATEI-SCHREIBEN | jack_cmd.json | 169 Zeichen
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
 [2026-07-23 11:20:10] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-23 11:21:11] ORACLE-EINGANG | btn-1784: tail -10 /data/data/com.termux/files/home/jack/jack_decisions.log
+[2026-07-23 11:31:13] ORACLE-EINGANG | btn-1784: free -h
 
 ## Budget heute
 Heute: Text 41/300 | Vision 0/40 | Tokens 79717
