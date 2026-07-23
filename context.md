@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:59:43.780653)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:02:45.643391)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:59:43.773699
+Stand: 2026-07-23T11:02:45.633179
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,12 +86,12 @@ Stand: 2026-07-23T10:59:43.773699
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 147
+- Erinnerungen: 148
 - Dienste:
-run: jack_cortex: (pid 19130) 525s
-run: jack_telegram: (pid 22106) 238s
-run: jack_autolearn: (pid 7339) 174235s
-run: ollama: (pid 7342) 174235s
+run: jack_cortex: (pid 19130) 707s
+run: jack_telegram: (pid 26005) 56s
+run: jack_autolearn: (pid 7339) 174417s
+run: ollama: (pid 7342) 174417s
 
 ## Letzte Aenderungen
 76119de Telegram: doppelte handle_callback entfernt, Oracle in Haupt-Handler integriert
@@ -119,8 +119,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 10:40:42] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
-[2026-07-22 10:40:42] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-22 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-22 12:12:25] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-22 14:53:25] ORACLE-EINGANG | init: echo JACK_ORACLE_READY
@@ -139,6 +137,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 10:42:22] WAECHTER-NEUSTART | jack_telegram
 [2026-07-23 10:42:22] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-23 10:42:22] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-23 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
 
 ## Budget heute
-Heute: Text 20/300 | Vision 0/40 | Tokens 46474
+Heute: Text 22/300 | Vision 0/40 | Tokens 49436
