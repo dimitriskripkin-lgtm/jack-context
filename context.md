@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T05:16:50.074721)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T05:19:51.722297)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T05:16:50.066945
+Stand: 2026-07-23T05:19:51.713055
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,10 +89,10 @@ Stand: 2026-07-23T05:16:50.066945
 - Offene Fehler: 4
 - Erinnerungen: 143
 - Dienste:
-run: jack_cortex: (pid 19393) 3073s
-run: jack_telegram: (pid 20543) 6149s
-run: jack_autolearn: (pid 7339) 153662s
-run: ollama: (pid 7342) 153662s
+run: jack_cortex: (pid 19393) 3254s
+run: jack_telegram: (pid 20543) 6330s
+run: jack_autolearn: (pid 7339) 153843s
+run: ollama: (pid 7342) 153843s
 
 ## Letzte Aenderungen
 69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
