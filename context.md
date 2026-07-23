@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:11:50.795310)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:14:52.574954)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:11:50.785595
+Stand: 2026-07-23T11:14:52.566805
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,12 +88,13 @@ Stand: 2026-07-23T11:11:50.785595
 - Offene Fehler: 0
 - Erinnerungen: 152
 - Dienste:
-run: jack_cortex: (pid 19130) 1252s
-run: jack_telegram: (pid 2709) 22s
-run: jack_autolearn: (pid 7339) 174962s
-run: ollama: (pid 7342) 174962s
+run: jack_cortex: (pid 19130) 1434s
+run: jack_telegram: (pid 7975) 13s
+run: jack_autolearn: (pid 7339) 175144s
+run: ollama: (pid 7342) 175144s
 
 ## Letzte Aenderungen
+e22d3f9 Telegram: buttons Format fix fuer send_keyboard
 58392b1 Telegram: send_buttons -> send_keyboard fix
 eba34ba Telegram: oracle+befehle Dispatcher vor Gemini-Fallback eingefuegt
 4542529 Telegram: /oracle und /oracle_result Dispatcher wiederhergestellt
@@ -108,7 +109,6 @@ d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
 2fcd4fc Telegram: Inline-Buttons fuer /befehle, Callback-Handler
 16c72d3 Telegram: /befehle Uebersicht fix
-9ec19c7 Telegram: /befehle Uebersicht
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
