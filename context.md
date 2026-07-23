@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T05:10:46.576705)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T05:13:48.439332)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T05:10:46.562515
+Stand: 2026-07-23T05:13:48.432360
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -89,12 +89,13 @@ Stand: 2026-07-23T05:10:46.562515
 - Offene Fehler: 4
 - Erinnerungen: 143
 - Dienste:
-run: jack_cortex: (pid 19393) 2709s
-run: jack_telegram: (pid 20543) 5785s
-run: jack_autolearn: (pid 7339) 153298s
-run: ollama: (pid 7342) 153298s
+run: jack_cortex: (pid 19393) 2891s
+run: jack_telegram: (pid 20543) 5967s
+run: jack_autolearn: (pid 7339) 153480s
+run: ollama: (pid 7342) 153480s
 
 ## Letzte Aenderungen
+69d8c7e Session 2026-07-23: Oracle live, Xiaomi IP fix, Inline-Buttons, Flask Security
 2f8ddf9 Xiaomi statische IP 10.58.220.131 dokumentiert
 2fcd4fc Telegram: Inline-Buttons fuer /befehle, Callback-Handler
 16c72d3 Telegram: /befehle Uebersicht fix
@@ -109,7 +110,6 @@ e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
 9de06fc jack_oracle: bidirektionaler Claude<->JACK Kanal via GitHub, Live-Test erfolgreich (free -h)
 0955315 Prompt: Titan-Lektionen still integriert
 8e20a4e titan_legacy: falsche context.md entfernt, Ordner bleibt leer bis bewusste Entscheidung
-ab0073f titan_legacy: Kern-DNA gesichert (Persona+Anchor+Evolution)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
