@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:41:33.307249)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:44:35.183267)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:41:33.298846
+Stand: 2026-07-23T10:44:35.172258
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,10 +88,10 @@ Stand: 2026-07-23T10:41:33.298846
 - Offene Fehler: 0
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 29850) 892s
-run: jack_telegram: (pid 12119) 0s
-run: jack_autolearn: (pid 7339) 173145s
-run: ollama: (pid 7342) 173145s
+run: jack_cortex: (pid 29850) 1074s
+down: jack_telegram: 0s, normally up, want up
+run: jack_autolearn: (pid 7339) 173327s
+run: ollama: (pid 7342) 173327s
 
 ## Letzte Aenderungen
 b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
@@ -119,9 +119,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 04:30:02] WAECHTER-AUDIT | woechentlich verschickt
-[2026-07-22 06:00:00] MEMORY-MAINTENANCE | 10 Eintraege als 'stale' markiert | Gesamt: 41 Eintraege | Stale: 10
-[2026-07-22 10:01:09] PROFIL-UPDATE | 6 neue Eintraege in kortex_profile.json
 [2026-07-22 10:40:42] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-07-22 10:40:42] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-22 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
@@ -139,6 +136,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 05:20:03] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
 [2026-07-23 06:00:00] MEMORY-MAINTENANCE | 2 Eintraege als 'stale' markiert | Gesamt: 58 Eintraege | Stale: 12
 [2026-07-23 07:20:05] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-07-23 10:42:22] WAECHTER-NEUSTART | jack_telegram
+[2026-07-23 10:42:22] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-23 10:42:22] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
 Heute: Text 18/300 | Vision 0/40 | Tokens 43542
