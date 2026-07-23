@@ -1,0 +1,4 @@
+if text.startswith('/oracle '):
+    cmd = text[8:].strip()
+    # schreib jack_cmd.json + push
+    return "Oracle-Befehl abgeschickt. Ergebnis in ~60s via /oracle_result"

@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T02:21:01.191626)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T02:24:03.603874)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T02:21:01.185298
+Stand: 2026-07-23T02:24:03.588570
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-23T02:21:01.185298
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 24s
-run: jack_telegram: (pid 12847) 41921s
-run: jack_autolearn: (pid 7339) 143113s
-run: ollama: (pid 7342) 143113s
+run: jack_cortex: (pid 4424) 206s
+run: jack_telegram: (pid 12847) 42103s
+run: jack_autolearn: (pid 7339) 143295s
+run: ollama: (pid 7342) 143295s
 
 ## Letzte Aenderungen
 e374319 7 Dienste: jack_oracle live, Meilenstein 2026-07-22
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-19 07:34:58] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-07-19 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-19 19:07:36] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-21 10:35:48] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 14:53:25] ORACLE-EINGANG | init: echo JACK_ORACLE_READY
 [2026-07-22 14:59:04] ORACLE-EINGANG | test-001: free -h
 [2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
+[2026-07-23 02:22:08] DATEI-SCHREIBEN | jack_cmd.json | 169 Zeichen
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 3357
+Heute: Text 2/300 | Vision 0/40 | Tokens 3987
