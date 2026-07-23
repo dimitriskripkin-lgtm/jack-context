@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:36:04.797188)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:39:06.533841)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:36:04.786541
+Stand: 2026-07-23T11:39:06.525169
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,13 @@ Stand: 2026-07-23T11:36:04.786541
 - Offene Fehler: 0
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 19130) 2706s
-run: jack_telegram: (pid 21411) 12s
-run: jack_autolearn: (pid 7339) 176416s
-run: ollama: (pid 7342) 176416s
+run: jack_cortex: (pid 19130) 2888s
+run: jack_telegram: (pid 21411) 194s
+run: jack_autolearn: (pid 7339) 176598s
+run: ollama: (pid 7342) 176598s
 
 ## Letzte Aenderungen
+37b56f6 Oracle: chr(10) statt Newline-Literal + Audit 7/7 Nenner fix
 139042b Oracle: Ergebnis automatisch per Telegram nach Ausfuehrung + Audit 7/7
 3957896 Audit: 7 Dienste + Oracle UUID auf Millisekunden fuer einzigartige Button-Klicks
 fefc1f1 Telegram: Oracle-Dispatcher an Anfang von handle() - Gemini wird nie mehr fuer /oracle aufgerufen
@@ -107,7 +108,6 @@ cd3655e Cleanup: kritische bare excepts durch logging ersetzt
 b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
 b1b190d Cortex: notify True korrekte Stelle
 579e8c6 Cortex: Xiaomi Verbindungs-Benachrichtigung per Telegram
-d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 14:59:04] ORACLE-EINGANG | test-001: free -h
 [2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 02:22:08] DATEI-SCHREIBEN | jack_cmd.json | 169 Zeichen
 [2026-07-23 02:44:09] ORACLE-EINGANG | tg-17847: free -h
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:20:10] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-23 11:21:11] ORACLE-EINGANG | btn-1784: tail -10 /data/data/com.termux/files/home/jack/jack_decisions.log
 [2026-07-23 11:31:13] ORACLE-EINGANG | btn-1784: free -h
+[2026-07-23 11:38:43] ORACLE-EINGANG | btn-1784: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 
 ## Budget heute
 Heute: Text 41/300 | Vision 0/40 | Tokens 79717
