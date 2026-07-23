@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:29:26.314572)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:32:28.393574)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:29:26.305077
+Stand: 2026-07-23T10:32:28.380961
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -88,10 +88,10 @@ Stand: 2026-07-23T10:29:26.305077
 - Offene Fehler: 4
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 29850) 165s
-run: jack_telegram: (pid 29851) 165s
-run: jack_autolearn: (pid 7339) 172418s
-run: ollama: (pid 7342) 172418s
+run: jack_cortex: (pid 29850) 347s
+run: jack_telegram: (pid 592) 105s
+run: jack_autolearn: (pid 7339) 172600s
+run: ollama: (pid 7342) 172600s
 
 ## Letzte Aenderungen
 b1b190d Cortex: notify True korrekte Stelle
