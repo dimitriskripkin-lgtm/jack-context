@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T02:45:15.876229)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T02:48:17.578949)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T02:45:15.867679
+Stand: 2026-07-23T02:48:17.569497
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,13 @@ Stand: 2026-07-23T02:45:15.867679
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 1478s
-run: jack_telegram: (pid 20655) 117s
-run: jack_autolearn: (pid 7339) 144567s
-run: ollama: (pid 7342) 144567s
+run: jack_cortex: (pid 4424) 1660s
+run: jack_telegram: (pid 23426) 41s
+run: jack_autolearn: (pid 7339) 144749s
+run: ollama: (pid 7342) 144749s
 
 ## Letzte Aenderungen
+2e72523 oracle_result bugfix: json import
 b494b09 oracle bugfix: import vor json.dumps gezogen
 dcbaff7 oracle bugfix: json import im block
 bc451eb Telegram: /oracle + /oracle_result
@@ -107,7 +108,6 @@ a410265 titan_legacy: Ordner vorbereitet fuer Kontext-Ingest
 5e7e277 Dima-Profil v1: persoenlicher Kontext fuer JACK und alle KI-Partner
 4850d0d Prompt-Fix: JACK kennt jetzt ehrlich seine eigene Architektur (Gemini als Werkzeug)
 d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
-827ef7a Label: Gemini/Lokal/Direkt-Indikator nach jeder Antwort
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
