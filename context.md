@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T10:32:28.393574)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T10:35:29.948999)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T10:32:28.380961
+Stand: 2026-07-23T10:35:29.939541
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -85,15 +85,16 @@ Stand: 2026-07-23T10:32:28.380961
 - voice_service_v2.py
 
 ## System-Status
-- Offene Fehler: 4
+- Offene Fehler: 0
 - Erinnerungen: 146
 - Dienste:
-run: jack_cortex: (pid 29850) 347s
-run: jack_telegram: (pid 592) 105s
-run: jack_autolearn: (pid 7339) 172600s
-run: ollama: (pid 7342) 172600s
+run: jack_cortex: (pid 29850) 528s
+run: jack_telegram: (pid 6028) 49s
+run: jack_autolearn: (pid 7339) 172781s
+run: ollama: (pid 7342) 172781s
 
 ## Letzte Aenderungen
+b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
 b1b190d Cortex: notify True korrekte Stelle
 579e8c6 Cortex: Xiaomi Verbindungs-Benachrichtigung per Telegram
 d0963ff bridge: collect_status Xiaomi-Check auf SSH umgestellt, alte IP entfernt
@@ -108,7 +109,6 @@ f3d1cdd Oracle: deutsche Aliase + Ergebnis-Stack (letzte 5)
 b494b09 oracle bugfix: import vor json.dumps gezogen
 dcbaff7 oracle bugfix: json import im block
 bc451eb Telegram: /oracle + /oracle_result
-f5c4768 Security: Flask von 0.0.0.0 auf 127.0.0.1 (kein offener Endpoint mehr)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
