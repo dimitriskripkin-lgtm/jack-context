@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:20:56.031762)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:23:57.776708)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:20:56.019761
+Stand: 2026-07-23T11:23:57.769398
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-23T11:20:56.019761
 - Offene Fehler: 0
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 19130) 1798s
-run: jack_telegram: (pid 11230) 176s
-run: jack_autolearn: (pid 7339) 175508s
-run: ollama: (pid 7342) 175508s
+run: jack_cortex: (pid 19130) 1979s
+run: jack_telegram: (pid 11230) 357s
+run: jack_autolearn: (pid 7339) 175689s
+run: ollama: (pid 7342) 175689s
 
 ## Letzte Aenderungen
 0ed4d1c Telegram: Start-Offset fix wiederhergestellt
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 12:12:25] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-22 14:53:25] ORACLE-EINGANG | init: echo JACK_ORACLE_READY
 [2026-07-22 14:59:04] ORACLE-EINGANG | test-001: free -h
 [2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
 [2026-07-23 11:20:10] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-07-23 11:21:11] ORACLE-EINGANG | btn-1784: tail -10 /data/data/com.termux/files/home/jack/jack_decisions.log
 
 ## Budget heute
 Heute: Text 41/300 | Vision 0/40 | Tokens 79717
