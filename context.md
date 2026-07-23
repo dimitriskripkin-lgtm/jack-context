@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:05:47.372801)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:08:49.065602)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:05:47.362944
+Stand: 2026-07-23T11:08:49.054288
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -86,12 +86,12 @@ Stand: 2026-07-23T11:05:47.362944
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 149
+- Erinnerungen: 150
 - Dienste:
-run: jack_cortex: (pid 19130) 889s
-run: jack_telegram: (pid 27883) 55s
-run: jack_autolearn: (pid 7339) 174599s
-run: ollama: (pid 7342) 174599s
+run: jack_cortex: (pid 19130) 1071s
+run: jack_telegram: (pid 30456) 52s
+run: jack_autolearn: (pid 7339) 174781s
+run: ollama: (pid 7342) 174781s
 
 ## Letzte Aenderungen
 4542529 Telegram: /oracle und /oracle_result Dispatcher wiederhergestellt
@@ -141,4 +141,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
 
 ## Budget heute
-Heute: Text 24/300 | Vision 0/40 | Tokens 52421
+Heute: Text 26/300 | Vision 0/40 | Tokens 55425
