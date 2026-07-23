@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T11:42:08.385763)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T11:45:10.073618)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T11:42:08.377389
+Stand: 2026-07-23T11:45:10.066789
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,10 +87,10 @@ Stand: 2026-07-23T11:42:08.377389
 - Offene Fehler: 0
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 19130) 3070s
-run: jack_telegram: (pid 21411) 376s
-run: jack_autolearn: (pid 7339) 176780s
-run: ollama: (pid 7342) 176780s
+run: jack_cortex: (pid 19130) 3252s
+run: jack_telegram: (pid 21411) 558s
+run: jack_autolearn: (pid 7339) 176962s
+run: ollama: (pid 7342) 176962s
 
 ## Letzte Aenderungen
 37b56f6 Oracle: chr(10) statt Newline-Literal + Audit 7/7 Nenner fix
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 02:22:08] DATEI-SCHREIBEN | jack_cmd.json | 169 Zeichen
 [2026-07-23 02:44:09] ORACLE-EINGANG | tg-17847: free -h
 [2026-07-23 02:54:13] ORACLE-EINGANG | tg-17847: df -h
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 11:21:11] ORACLE-EINGANG | btn-1784: tail -10 /data/data/com.termux/files/home/jack/jack_decisions.log
 [2026-07-23 11:31:13] ORACLE-EINGANG | btn-1784: free -h
 [2026-07-23 11:38:43] ORACLE-EINGANG | btn-1784: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
+[2026-07-23 11:43:52] ORACLE-EINGANG | btn-1784: python3 -c "import sys,os; sys.path.insert(0,os.path.expanduser('~/jack')); impo
 
 ## Budget heute
 Heute: Text 41/300 | Vision 0/40 | Tokens 79717
