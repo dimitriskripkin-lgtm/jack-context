@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-23T02:42:14.107585)
+# JACK LIVE-KONTEXT (auto, 2026-07-23T02:45:15.876229)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-23T02:42:14.098894
+Stand: 2026-07-23T02:45:15.867679
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -87,12 +87,13 @@ Stand: 2026-07-23T02:42:14.098894
 - Offene Fehler: 4
 - Erinnerungen: 140
 - Dienste:
-run: jack_cortex: (pid 4424) 1297s
-run: jack_telegram: (pid 18935) 100s
-run: jack_autolearn: (pid 7339) 144386s
-run: ollama: (pid 7342) 144386s
+run: jack_cortex: (pid 4424) 1478s
+run: jack_telegram: (pid 20655) 117s
+run: jack_autolearn: (pid 7339) 144567s
+run: ollama: (pid 7342) 144567s
 
 ## Letzte Aenderungen
+b494b09 oracle bugfix: import vor json.dumps gezogen
 dcbaff7 oracle bugfix: json import im block
 bc451eb Telegram: /oracle + /oracle_result
 f5c4768 Security: Flask von 0.0.0.0 auf 127.0.0.1 (kein offener Endpoint mehr)
@@ -107,7 +108,6 @@ a410265 titan_legacy: Ordner vorbereitet fuer Kontext-Ingest
 4850d0d Prompt-Fix: JACK kennt jetzt ehrlich seine eigene Architektur (Gemini als Werkzeug)
 d1c288e Datum als sprechbarer Text fuer ElevenLabs (kein ISO-Format mehr)
 827ef7a Label: Gemini/Lokal/Direkt-Indikator nach jeder Antwort
-0d46bc3 voice_processor: whisper-small + robuste Fehlerbehandlung (kein stummer Crash mehr)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -118,7 +118,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-19 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-07-19 19:07:36] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-21 10:35:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-07-21 10:35:57] WAECHTER-AUDIT | woechentlich verschickt
@@ -138,6 +137,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-22 14:59:04] ORACLE-EINGANG | test-001: free -h
 [2026-07-22 16:26:04] ORACLE-EINGANG | live-001: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
 [2026-07-23 02:22:08] DATEI-SCHREIBEN | jack_cmd.json | 169 Zeichen
+[2026-07-23 02:44:09] ORACLE-EINGANG | tg-17847: free -h
 
 ## Budget heute
 Heute: Text 2/300 | Vision 0/40 | Tokens 3987
