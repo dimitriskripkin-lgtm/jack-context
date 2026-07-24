@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-24T03:32:20.510343)
+# JACK LIVE-KONTEXT (auto, 2026-07-24T03:35:22.249788)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-24T03:32:20.502822
+Stand: 2026-07-24T03:35:22.242893
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,10 +91,10 @@ Stand: 2026-07-24T03:32:20.502822
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 54658s
-run: jack_telegram: (pid 28301) 55s
-run: jack_autolearn: (pid 7339) 233792s
-run: ollama: (pid 7342) 233792s
+run: jack_cortex: (pid 12726) 54840s
+run: jack_telegram: (pid 28301) 237s
+run: jack_autolearn: (pid 7339) 233974s
+run: ollama: (pid 7342) 233974s
 
 ## Letzte Aenderungen
 6c2508d Security: HMAC-Signatur + Rate-Limit (10/h) fuer Oracle-Kanal
