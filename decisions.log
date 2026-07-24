@@ -148,3 +148,8 @@ OK: Fix
 [2026-07-23 13:20:12] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-23 19:20:31] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-23 23:20:37] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-07-24 03:36:54] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 03:36:54] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:36:54] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_autolearn
+[2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_publisher

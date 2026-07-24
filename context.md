@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-24T03:35:22.249788)
+# JACK LIVE-KONTEXT (auto, 2026-07-24T03:37:00.440429)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-24T03:35:22.242893
+Stand: 2026-07-24T03:37:00.431564
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,12 +91,13 @@ Stand: 2026-07-24T03:35:22.242893
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 54840s
-run: jack_telegram: (pid 28301) 237s
-run: jack_autolearn: (pid 7339) 233974s
-run: ollama: (pid 7342) 233974s
+run: jack_cortex: (pid 12726) 54938s
+run: jack_telegram: (pid 28301) 335s
+run: jack_autolearn: (pid 32539) 0s
+run: ollama: (pid 7342) 234072s
 
 ## Letzte Aenderungen
+6908297 Konsolidierung: autolearn+publisher Threads in autonomous, 7->5 Services
 6c2508d Security: HMAC-Signatur + Rate-Limit (10/h) fuer Oracle-Kanal
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
 37b56f6 Oracle: chr(10) statt Newline-Literal + Audit 7/7 Nenner fix
@@ -111,7 +112,6 @@ eba34ba Telegram: oracle+befehle Dispatcher vor Gemini-Fallback eingefuegt
 4542529 Telegram: /oracle und /oracle_result Dispatcher wiederhergestellt
 76119de Telegram: doppelte handle_callback entfernt, Oracle in Haupt-Handler integriert
 cd3655e Cleanup: kritische bare excepts durch logging ersetzt
-b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -122,11 +122,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-23 03:04:40] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
-[2026-07-23 03:17:43] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
-[2026-07-23 03:19:45] ORACLE-EINGANG | tg-17847: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
-[2026-07-23 03:20:01] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
-[2026-07-23 05:20:03] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
 [2026-07-23 06:00:00] MEMORY-MAINTENANCE | 2 Eintraege als 'stale' markiert | Gesamt: 58 Eintraege | Stale: 12
 [2026-07-23 07:20:05] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-23 10:42:22] WAECHTER-NEUSTART | jack_telegram
@@ -142,6 +137,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 13:20:12] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-07-23 19:20:31] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-07-23 23:20:37] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-07-24 03:36:54] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 03:36:54] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:36:54] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_autolearn
+[2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_publisher
 
 ## Budget heute
 Heute: Text 2/300 | Vision 0/40 | Tokens 7162
