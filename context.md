@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-24T03:20:13.059832)
+# JACK LIVE-KONTEXT (auto, 2026-07-24T03:23:14.747913)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-24T03:20:13.051493
+Stand: 2026-07-24T03:23:14.738584
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -27,7 +27,6 @@ Stand: 2026-07-24T03:20:13.051493
 - Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff ueber den Chat.
 - Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
-- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - Dima hat eine kleine Autobiographie über sich hochgeladen.
 - JACK kann auf Basis von Dimas Eingaben über sich selbst lernen.
 
@@ -92,10 +91,10 @@ Stand: 2026-07-24T03:20:13.051493
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 53931s
-run: jack_telegram: (pid 21411) 56661s
-run: jack_autolearn: (pid 7339) 233065s
-run: ollama: (pid 7342) 233065s
+run: jack_cortex: (pid 12726) 54112s
+run: jack_telegram: (pid 21411) 56842s
+run: jack_autolearn: (pid 7339) 233246s
+run: ollama: (pid 7342) 233246s
 
 ## Letzte Aenderungen
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
@@ -145,4 +144,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-07-23 23:20:37] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 3597
+Heute: Text 2/300 | Vision 0/40 | Tokens 7162
