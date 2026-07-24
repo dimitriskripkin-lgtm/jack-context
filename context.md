@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-24T03:29:18.548290)
+# JACK LIVE-KONTEXT (auto, 2026-07-24T03:32:20.510343)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-24T03:29:18.540190
+Stand: 2026-07-24T03:32:20.502822
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -91,12 +91,13 @@ Stand: 2026-07-24T03:29:18.540190
 - Offene Fehler: 1
 - Erinnerungen: 157
 - Dienste:
-run: jack_cortex: (pid 12726) 54476s
-run: jack_telegram: (pid 21411) 57206s
-run: jack_autolearn: (pid 7339) 233610s
-run: ollama: (pid 7342) 233610s
+run: jack_cortex: (pid 12726) 54658s
+run: jack_telegram: (pid 28301) 55s
+run: jack_autolearn: (pid 7339) 233792s
+run: ollama: (pid 7342) 233792s
 
 ## Letzte Aenderungen
+6c2508d Security: HMAC-Signatur + Rate-Limit (10/h) fuer Oracle-Kanal
 9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
 37b56f6 Oracle: chr(10) statt Newline-Literal + Audit 7/7 Nenner fix
 139042b Oracle: Ergebnis automatisch per Telegram nach Ausfuehrung + Audit 7/7
@@ -111,7 +112,6 @@ eba34ba Telegram: oracle+befehle Dispatcher vor Gemini-Fallback eingefuegt
 76119de Telegram: doppelte handle_callback entfernt, Oracle in Haupt-Handler integriert
 cd3655e Cleanup: kritische bare excepts durch logging ersetzt
 b8c74eb Telegram: Start-Offset auf neuestes Update gesetzt, kein Backlog mehr
-b1b190d Cortex: notify True korrekte Stelle
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
