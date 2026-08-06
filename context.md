@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T18:27:58.869897)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T18:31:00.741491)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T18:27:58.855604
+Stand: 2026-08-06T18:31:00.730297
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -110,10 +110,10 @@ Stand: 2026-08-06T18:27:58.855604
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 24052s
-run: jack_telegram: (pid 5190) 8996s
+run: jack_cortex: (pid 24341) 24234s
+run: jack_telegram: (pid 5190) 9178s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 37219s
+run: ollama: (pid 8054) 37401s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -141,7 +141,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 10:55:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 10:55:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-06 10:57:10] SCOUT-LAUF | 378a903516f59d33
 [2026-08-06 10:57:48] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
@@ -161,6 +160,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 12:55:50] MONITOR-EVENT | 1 Events
 [2026-08-06 14:27:03] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-08-06 16:27:05] PROFIL-UPDATE | 5 neue Eintraege in kortex_profile.json
+[2026-08-06 18:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
 Heute: Text 69/300 | Vision 0/40 | Tokens 111499
