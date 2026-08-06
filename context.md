@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:46:29.541550)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:49:31.305941)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:46:29.534458
+Stand: 2026-08-06T11:49:31.296866
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,12 +112,13 @@ Stand: 2026-08-06T11:46:29.534458
 - Offene Fehler: 1
 - Erinnerungen: 189
 - Dienste:
-run: jack_cortex: (pid 14887) 916s
-run: jack_telegram: (pid 21341) 291s
+run: jack_cortex: (pid 24341) 145s
+run: jack_telegram: (pid 21341) 473s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 13130s
+run: ollama: (pid 8054) 13312s
 
 ## Letzte Aenderungen
+dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
 6d6439d talk: intent vor gemini, ergebnis fliesst in antwort statt raten
 3977c63 intent-engine v2: hybrid keyword+gemini, bestaetigungs-buttons, historie mit mustererkennung, 11 aktionen
 b2cea51 intent: xiaomi_status als alias, /level ohne space
@@ -132,7 +133,6 @@ a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
 66eb8c3 memory: save() alle 7 spalten inkl timestamp+source
 af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory: save() spalten fix | vecdb: expanduser
 303fa37 telegram: oracle-block komplett neu ohne kaputte f-strings
-53ea18f telegram: oracle newlines, voice thread, doppel-callback weg | cortex: scan-range fix, find_xiaomi nur bei fail
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
