@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:19:11.570320)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:22:13.280778)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:19:11.560619
+Stand: 2026-08-06T11:22:13.268783
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -110,14 +110,15 @@ Stand: 2026-08-06T11:19:11.560619
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 180
+- Erinnerungen: 182
 - Dienste:
-run: jack_cortex: (pid 13264) 1910s
-run: jack_telegram: (pid 1669) 182s
+run: jack_cortex: (pid 13264) 2092s
+run: jack_telegram: (pid 8681) 2s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 11492s
+run: ollama: (pid 8054) 11674s
 
 ## Letzte Aenderungen
+b2cea51 intent: xiaomi_status als alias, /level ohne space
 1e815d7 talk: few-shot beispiel + mindestlaenge persoenliche fragen | telegram: merke-dir handler
 081dbf8 talk: context persoenlicher, nicht ausweichen, kumpel-ton
 54df78d bridge: system-prompt reste entfernt, sauber
@@ -132,7 +133,6 @@ af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory
 53ea18f telegram: oracle newlines, voice thread, doppel-callback weg | cortex: scan-range fix, find_xiaomi nur bei fail
 ef0f434 oracle: direkte subprocess-ausfuehrung statt git-roundtrip, sofortiges ergebnis
 13219bf telegram: shebang-fix, kortex sicherer import, voice in thread, hardcode-pfade weg
-adbca2b bridge+talk: expanduser statt hardcode, xiaomi-ip fix, fname-nameerror, math-signals bereinigt, doppel-import weg
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -165,4 +165,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:18:10] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 34/300 | Vision 0/40 | Tokens 43529
+Heute: Text 38/300 | Vision 0/40 | Tokens 49725
