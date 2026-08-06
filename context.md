@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T09:53:36.604948)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T09:56:38.700509)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T09:53:36.597205
+Stand: 2026-08-06T09:56:38.687299
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -106,12 +106,12 @@ Stand: 2026-08-06T09:53:36.597205
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 172
+- Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 10434) 1112361s
-run: jack_telegram: (pid 22987) 146208s
+run: jack_cortex: (pid 10434) 1112543s
+run: jack_telegram: (pid 10275) 176s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 6357s
+run: ollama: (pid 8054) 6539s
 
 ## Letzte Aenderungen
 2b5b89d jack_selftest: ein befehl gruen/rot fuer alle kern-checks
@@ -161,4 +161,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 09:24:43] SCOUT-LAUF | 20083632b0872eff
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 0
+Heute: Text 11/300 | Vision 0/40 | Tokens 0
