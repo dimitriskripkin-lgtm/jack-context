@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:52:33.031682)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:55:34.758217)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:52:33.023720
+Stand: 2026-08-06T11:55:34.751583
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -113,10 +113,10 @@ Stand: 2026-08-06T11:52:33.023720
 - Offene Fehler: 1
 - Erinnerungen: 189
 - Dienste:
-run: jack_cortex: (pid 24341) 327s
-run: jack_telegram: (pid 21341) 655s
+run: jack_cortex: (pid 24341) 508s
+run: jack_telegram: (pid 21341) 836s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 13494s
+run: ollama: (pid 8054) 13675s
 
 ## Letzte Aenderungen
 dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
