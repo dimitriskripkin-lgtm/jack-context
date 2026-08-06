@@ -628,3 +628,4 @@ SyntaxError: '(' wa
 17. Thermal: Negative Werte (mmw3 -273000) rausfiltern
 18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
 STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
+[2026-08-06 10:53:39] WAECHTER-START | Nacht-Ueberwachung laeuft

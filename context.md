@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:52:34.692030)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:53:40.003348)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:52:34.685272
+Stand: 2026-08-06T10:53:39.996355
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -111,10 +111,10 @@ Stand: 2026-08-06T10:52:34.685272
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 13264) 313s
-run: jack_telegram: (pid 9439) 639s
+run: jack_cortex: (pid 13264) 378s
+run: jack_telegram: (pid 9439) 704s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 9895s
+run: ollama: (pid 8054) 9960s
 
 ## Letzte Aenderungen
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
@@ -142,7 +142,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 10:51:15] SESSION-SUMMARY | Heute gefixt (Claude+Dima):
 1. Publisher: push() statt nur build() - context.md wieder live alle 3min
 2. Telegram: get_updates(-1) Bug - erster Befehl nach Restart nicht mehr verschluckt
 3. Telegram: Voice in Thread - kein Loop-Block mehr bei Sprachnachrichten
@@ -162,6 +161,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 17. Thermal: Negative Werte (mmw3 -273000) rausfiltern
 18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
 STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
+[2026-08-06 10:53:39] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 14/300 | Vision 0/40 | Tokens 5434
+Heute: Text 16/300 | Vision 0/40 | Tokens 8394
