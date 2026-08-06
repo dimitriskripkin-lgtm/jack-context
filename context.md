@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:47:26.896263)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:49:33.120790)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:47:26.887509
+Stand: 2026-08-06T10:49:33.112157
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -108,12 +108,14 @@ Stand: 2026-08-06T10:47:26.887509
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 13264) 5s
-run: jack_telegram: (pid 9439) 331s
+run: jack_cortex: (pid 13264) 132s
+run: jack_telegram: (pid 9439) 458s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 9587s
+run: ollama: (pid 8054) 9714s
 
 ## Letzte Aenderungen
+a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
+66eb8c3 memory: save() alle 7 spalten inkl timestamp+source
 af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory: save() spalten fix | vecdb: expanduser
 303fa37 telegram: oracle-block komplett neu ohne kaputte f-strings
 53ea18f telegram: oracle newlines, voice thread, doppel-callback weg | cortex: scan-range fix, find_xiaomi nur bei fail
@@ -127,8 +129,6 @@ aa1099a telegram: erster befehl nach restart nicht mehr verschluckt - start-ts f
 2b5b89d jack_selftest: ein befehl gruen/rot fuer alle kern-checks
 bc6974f publisher: push() loop-fix, thermal: negative sensor filter
 8c08356 publisher: push() statt nur build() im waechter-loop, thermal: negative sensor-werte rausfiltern
-b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf Alltagsfragen
-81d3f6e Cleanup: Muell-Datei entfernt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -139,7 +139,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 04:54:34] MONITOR-EVENT | 1 Events
 [2026-08-06 05:04:39] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-06 05:04:39] MONITOR-EVENT | 1 Events
 [2026-08-06 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 27 Eintraege
@@ -159,6 +158,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 10:39:50] MONITOR-EVENT | 1 Events
 [2026-08-06 10:43:10] MONITOR-VOLLSCAN | ok
 [2026-08-06 10:43:52] MONITOR-EVENT | 1 Events
+[2026-08-06 10:49:33] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 13/300 | Vision 0/40 | Tokens 2515
+Heute: Text 14/300 | Vision 0/40 | Tokens 2515
