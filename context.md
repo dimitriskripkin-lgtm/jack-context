@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:23:12.655146)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:26:14.426409)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:23:12.647396
+Stand: 2026-08-06T10:26:14.417822
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -108,12 +108,13 @@ Stand: 2026-08-06T10:23:12.647396
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 10434) 1114137s
-run: jack_telegram: (pid 25139) 388s
+run: jack_cortex: (pid 10434) 1114319s
+run: jack_telegram: (pid 25139) 570s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 8133s
+run: ollama: (pid 8054) 8315s
 
 ## Letzte Aenderungen
+71ee032 autonomous: xiaomi-ip aus config statt hardcoded, skill-builder nach scout-erfolg nicht im except
 299ec62 stand 2026-08-06 vor code-review
 194642d telegram: threading fuer langsame calls, sofortige quittung, fast_cmds direkt
 aa1099a telegram: erster befehl nach restart nicht mehr verschluckt - start-ts filter statt get_updates(-1)
@@ -128,7 +129,6 @@ b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf A
 67c6321 fix: Watchdog zeigt echtes Limit an (95°C)
 5f65efc feat: litert_watchdog.py - Temperatur-sicherer LLM-Runner (85°C Limit)
 e7fba45 jack_hey: Loop-Overhead weg, Stille-Pruefung schaltet sich bei lauter Umgebung ab
-807a1c3 jack_hey: Standardzeit 5s, Stille-Schwelle -45dB (fahrendes Auto hat -18dB Grundrauschen)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -139,7 +139,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 02:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-06 04:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-06 04:26:16] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-06 04:26:16] MONITOR-EVENT | 1 Events
@@ -159,6 +158,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 09:24:43] SCOUT-LAUF | 20083632b0872eff
 [2026-08-06 10:23:12] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 10:23:12] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 10:24:33] SCOUT-LAUF | 591827d2a3613065
 
 ## Budget heute
 Heute: Text 12/300 | Vision 0/40 | Tokens 0
