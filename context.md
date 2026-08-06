@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:58:50.462107)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:00:43.862651)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:58:50.454639
+Stand: 2026-08-06T11:00:43.854926
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -111,10 +111,10 @@ Stand: 2026-08-06T10:58:50.454639
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 13264) 689s
-run: jack_telegram: (pid 20085) 182s
+run: jack_cortex: (pid 13264) 802s
+run: jack_telegram: (pid 20085) 295s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 10271s
+run: ollama: (pid 8054) 10384s
 
 ## Letzte Aenderungen
 32f837e config: get_val als alias | telegram: /trace zeigt live-zustand jack
@@ -142,8 +142,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-7. Autonomous: Skill-Builder nach Scout-Erfolg, nicht im except-Block
-8. Cortex: find_xiaomi() nur bei SSH-Fail, nicht jede Runde - spart Akku+RAM
 9. Cortex: Scan-Range 10.234.166.x -> 10.58.220.x (richtige Range)
 10. Cortex: u0_a400 -> root als SSH-User
 11. Bridge: collect_status() rief find_xiaomi() auf -> direkter SSH-Check
@@ -162,6 +160,8 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:55:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-06 10:57:10] SCOUT-LAUF | 378a903516f59d33
 [2026-08-06 10:57:48] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-06 10:59:50] MONITOR-VOLLSCAN | ok
+[2026-08-06 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
 Heute: Text 18/300 | Vision 0/40 | Tokens 16721

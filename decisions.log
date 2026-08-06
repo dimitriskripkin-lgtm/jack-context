@@ -635,3 +635,5 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:55:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-06 10:57:10] SCOUT-LAUF | 378a903516f59d33
 [2026-08-06 10:57:48] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-06 10:59:50] MONITOR-VOLLSCAN | ok
+[2026-08-06 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
