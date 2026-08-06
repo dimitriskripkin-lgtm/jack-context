@@ -647,3 +647,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 12:27:01] PROFIL-UPDATE | 6 neue Eintraege in kortex_profile.json
 [2026-08-06 12:28:21] SCOUT-LAUF | 3170291340c90743
 [2026-08-06 12:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-06 12:52:07] WAECHTER-MELDUNG | Xiaomi weg
