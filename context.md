@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T09:26:18.933683)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T09:29:20.753272)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T09:26:18.924957
+Stand: 2026-08-06T09:29:20.739181
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -107,12 +107,13 @@ Stand: 2026-08-06T09:26:18.924957
 - Offene Fehler: 0
 - Erinnerungen: 171
 - Dienste:
-run: jack_cortex: (pid 10434) 1110723s
-run: jack_telegram: (pid 22987) 144570s
+run: jack_cortex: (pid 10434) 1110905s
+run: jack_telegram: (pid 22987) 144752s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 4719s
+run: ollama: (pid 8054) 4901s
 
 ## Letzte Aenderungen
+bc6974f publisher: push() loop-fix, thermal: negative sensor filter
 8c08356 publisher: push() statt nur build() im waechter-loop, thermal: negative sensor-werte rausfiltern
 b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf Alltagsfragen
 81d3f6e Cleanup: Muell-Datei entfernt
@@ -127,7 +128,6 @@ adfd702 jack_hey: Stille-Erkennung - Aufnahme stoppt automatisch nach 2s Ruhe
 211513e Voice-Aufraeumen: jack_hey Argument-Bug gefixt, 3 tote Module archiviert, Shortcuts beschriftet
 add6692 feat: Router-Logging für Transparenz
 9ee8d53 feat: Aufnahmezeit 5s -> 10s
-29d4556 fix: mpv überlebt Prozess-Exit (kein Audio-Abriss)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
