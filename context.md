@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:40:25.958915)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:43:27.464087)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:40:25.950889
+Stand: 2026-08-06T11:43:27.455752
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -110,14 +110,16 @@ Stand: 2026-08-06T11:40:25.950889
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 185
+- Erinnerungen: 188
 - Dienste:
-run: jack_cortex: (pid 14887) 552s
-run: jack_telegram: (pid 20267) 19s
+run: jack_cortex: (pid 14887) 734s
+run: jack_telegram: (pid 21341) 109s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 12766s
+run: ollama: (pid 8054) 12948s
 
 ## Letzte Aenderungen
+6d6439d talk: intent vor gemini, ergebnis fliesst in antwort statt raten
+3977c63 intent-engine v2: hybrid keyword+gemini, bestaetigungs-buttons, historie mit mustererkennung, 11 aktionen
 b2cea51 intent: xiaomi_status als alias, /level ohne space
 1e815d7 talk: few-shot beispiel + mindestlaenge persoenliche fragen | telegram: merke-dir handler
 081dbf8 talk: context persoenlicher, nicht ausweichen, kumpel-ton
@@ -131,8 +133,6 @@ a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
 af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory: save() spalten fix | vecdb: expanduser
 303fa37 telegram: oracle-block komplett neu ohne kaputte f-strings
 53ea18f telegram: oracle newlines, voice thread, doppel-callback weg | cortex: scan-range fix, find_xiaomi nur bei fail
-ef0f434 oracle: direkte subprocess-ausfuehrung statt git-roundtrip, sofortiges ergebnis
-13219bf telegram: shebang-fix, kortex sicherer import, voice in thread, hardcode-pfade weg
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -165,4 +165,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:31:10] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
-Heute: Text 45/300 | Vision 0/40 | Tokens 66996
+Heute: Text 53/300 | Vision 0/40 | Tokens 79826
