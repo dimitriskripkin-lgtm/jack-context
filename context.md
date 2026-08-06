@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:43:27.464087)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:46:29.541550)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:43:27.455752
+Stand: 2026-08-06T11:46:29.534458
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -109,13 +109,13 @@ Stand: 2026-08-06T11:43:27.455752
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 0
-- Erinnerungen: 188
+- Offene Fehler: 1
+- Erinnerungen: 189
 - Dienste:
-run: jack_cortex: (pid 14887) 734s
-run: jack_telegram: (pid 21341) 109s
+run: jack_cortex: (pid 14887) 916s
+run: jack_telegram: (pid 21341) 291s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 12948s
+run: ollama: (pid 8054) 13130s
 
 ## Letzte Aenderungen
 6d6439d talk: intent vor gemini, ergebnis fliesst in antwort statt raten
@@ -165,4 +165,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:31:10] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
-Heute: Text 53/300 | Vision 0/40 | Tokens 79826
+Heute: Text 57/300 | Vision 0/40 | Tokens 84889
