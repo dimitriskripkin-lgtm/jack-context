@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:01:52.124185)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:04:53.738980)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:01:52.118016
+Stand: 2026-08-06T11:04:53.730157
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -109,12 +109,12 @@ Stand: 2026-08-06T11:01:52.118016
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 173
+- Erinnerungen: 175
 - Dienste:
-run: jack_cortex: (pid 13264) 871s
-run: jack_telegram: (pid 20085) 364s
+run: jack_cortex: (pid 13264) 1052s
+run: jack_telegram: (pid 20085) 545s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 10453s
+run: ollama: (pid 8054) 10634s
 
 ## Letzte Aenderungen
 32f837e config: get_val als alias | telegram: /trace zeigt live-zustand jack
@@ -164,4 +164,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
-Heute: Text 18/300 | Vision 0/40 | Tokens 16721
+Heute: Text 22/300 | Vision 0/40 | Tokens 22659
