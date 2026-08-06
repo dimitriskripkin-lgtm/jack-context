@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:25:14.767386)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:28:16.381061)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:25:14.759881
+Stand: 2026-08-06T11:28:16.374645
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -110,12 +110,12 @@ Stand: 2026-08-06T11:25:14.759881
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 184
+- Erinnerungen: 185
 - Dienste:
-run: jack_cortex: (pid 13264) 2273s
-run: jack_telegram: (pid 8681) 183s
+run: jack_cortex: (pid 13264) 2455s
+run: jack_telegram: (pid 8681) 365s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 11855s
+run: ollama: (pid 8054) 12037s
 
 ## Letzte Aenderungen
 b2cea51 intent: xiaomi_status als alias, /level ohne space
@@ -165,4 +165,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:18:10] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 43/300 | Vision 0/40 | Tokens 63217
+Heute: Text 45/300 | Vision 0/40 | Tokens 66996
