@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:55:48.947484)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:58:50.462107)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:55:48.938992
+Stand: 2026-08-06T10:58:50.454639
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -21,15 +21,15 @@ Stand: 2026-08-06T10:55:48.938992
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
+- JACK kann das Xiaomi per SSH ansprechen.
+- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
+- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima testet das Gedächtnis.
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
-- JACK kann das Xiaomi per SSH ansprechen.
-- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
-- JACK kennt Befehle wie `/skill save <name>`.
 
 ## Aktive Module (74)
 - install_litert.py
@@ -111,12 +111,13 @@ Stand: 2026-08-06T10:55:48.938992
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 13264) 507s
-run: jack_telegram: (pid 20085) 0s
+run: jack_cortex: (pid 13264) 689s
+run: jack_telegram: (pid 20085) 182s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 10089s
+run: ollama: (pid 8054) 10271s
 
 ## Letzte Aenderungen
+32f837e config: get_val als alias | telegram: /trace zeigt live-zustand jack
 1fcafcc session 2026-08-06: 19 bugs gefixt, rag aktiv, oracle instant, voice thread, publisher live
 9cb6fe1 autonomous: sanity-thread alle 6h | selftest: temp-schwelle 43->50C
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
@@ -131,7 +132,6 @@ adbca2b bridge+talk: expanduser statt hardcode, xiaomi-ip fix, fname-nameerror, 
 299ec62 stand 2026-08-06 vor code-review
 194642d telegram: threading fuer langsame calls, sofortige quittung, fast_cmds direkt
 aa1099a telegram: erster befehl nach restart nicht mehr verschluckt - start-ts filter statt get_updates(-1)
-2b5b89d jack_selftest: ein befehl gruen/rot fuer alle kern-checks
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -142,9 +142,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-4. Telegram: Oracle-Buttons direkt ohne Git-Roundtrip - sofortiger Output
-5. Telegram: Shebang-Fix, kortex sicherer Import, threading oben
-6. Autonomous: Xiaomi-IP hardcoded 10.244.147.131 -> config.ini (Spam-Quelle gefixt)
 7. Autonomous: Skill-Builder nach Scout-Erfolg, nicht im except-Block
 8. Cortex: find_xiaomi() nur bei SSH-Fail, nicht jede Runde - spart Akku+RAM
 9. Cortex: Scan-Range 10.234.166.x -> 10.58.220.x (richtige Range)
@@ -162,6 +159,9 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:55:01] SCOUT-LAUF | 021e2908c65a8686
 [2026-08-06 10:55:39] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 10:55:48] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 10:55:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-06 10:57:10] SCOUT-LAUF | 378a903516f59d33
+[2026-08-06 10:57:48] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 17/300 | Vision 0/40 | Tokens 11354
+Heute: Text 18/300 | Vision 0/40 | Tokens 16721
