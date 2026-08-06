@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:51:15.786533)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:52:34.692030)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:51:15.777139
+Stand: 2026-08-06T10:52:34.685272
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -111,10 +111,10 @@ Stand: 2026-08-06T10:51:15.777139
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 13264) 234s
-run: jack_telegram: (pid 9439) 560s
+run: jack_cortex: (pid 13264) 313s
+run: jack_telegram: (pid 9439) 639s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 9816s
+run: ollama: (pid 8054) 9895s
 
 ## Letzte Aenderungen
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
