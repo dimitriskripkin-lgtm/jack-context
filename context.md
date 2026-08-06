@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:07:55.373319)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:10:56.896053)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:07:55.365798
+Stand: 2026-08-06T11:10:56.887294
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -109,14 +109,15 @@ Stand: 2026-08-06T11:07:55.365798
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 175
+- Erinnerungen: 179
 - Dienste:
-run: jack_cortex: (pid 13264) 1234s
-run: jack_telegram: (pid 28938) 43s
+run: jack_cortex: (pid 13264) 1415s
+run: jack_telegram: (pid 30010) 125s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 10816s
+run: ollama: (pid 8054) 10997s
 
 ## Letzte Aenderungen
+081dbf8 talk: context persoenlicher, nicht ausweichen, kumpel-ton
 54df78d bridge: system-prompt reste entfernt, sauber
 dfc28fd bridge: system-prompt persoenlicher kumpel-ton, dima-kontext tief
 32f837e config: get_val als alias | telegram: /trace zeigt live-zustand jack
@@ -131,7 +132,6 @@ ef0f434 oracle: direkte subprocess-ausfuehrung statt git-roundtrip, sofortiges e
 13219bf telegram: shebang-fix, kortex sicherer import, voice in thread, hardcode-pfade weg
 adbca2b bridge+talk: expanduser statt hardcode, xiaomi-ip fix, fname-nameerror, math-signals bereinigt, doppel-import weg
 71ee032 autonomous: xiaomi-ip aus config statt hardcoded, skill-builder nach scout-erfolg nicht im except
-299ec62 stand 2026-08-06 vor code-review
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -164,4 +164,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
-Heute: Text 23/300 | Vision 0/40 | Tokens 25222
+Heute: Text 31/300 | Vision 0/40 | Tokens 37192
