@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:13:58.473630)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:16:10.080917)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:13:58.466056
+Stand: 2026-08-06T11:16:10.073539
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-06T11:13:58.466056
 - Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 
-## Aktive Module (74)
+## Aktive Module (75)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -53,6 +53,7 @@ Stand: 2026-08-06T11:13:58.466056
 - jack_hey.py
 - jack_improve.py
 - jack_install.py
+- jack_intent.py
 - jack_learn.py
 - jack_log.py
 - jack_math.py
@@ -111,10 +112,10 @@ Stand: 2026-08-06T11:13:58.466056
 - Offene Fehler: 0
 - Erinnerungen: 179
 - Dienste:
-run: jack_cortex: (pid 13264) 1597s
-run: jack_telegram: (pid 32179) 103s
+run: jack_cortex: (pid 13264) 1729s
+run: jack_telegram: (pid 1669) 1s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 11179s
+run: ollama: (pid 8054) 11311s
 
 ## Letzte Aenderungen
 1e815d7 talk: few-shot beispiel + mindestlaenge persoenliche fragen | telegram: merke-dir handler
@@ -142,7 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-9. Cortex: Scan-Range 10.234.166.x -> 10.58.220.x (richtige Range)
 10. Cortex: u0_a400 -> root als SSH-User
 11. Bridge: collect_status() rief find_xiaomi() auf -> direkter SSH-Check
 12. Bridge: Alle hardcoded Pfade -> expanduser
@@ -162,6 +162,7 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:57:48] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 10:59:50] MONITOR-VOLLSCAN | ok
 [2026-08-06 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-08-06 11:16:10] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 31/300 | Vision 0/40 | Tokens 37192
+Heute: Text 32/300 | Vision 0/40 | Tokens 37192
