@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:26:14.426409)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:29:16.204942)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:26:14.417822
+Stand: 2026-08-06T10:29:16.191982
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -108,12 +108,13 @@ Stand: 2026-08-06T10:26:14.417822
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 10434) 1114319s
-run: jack_telegram: (pid 25139) 570s
+run: jack_cortex: (pid 10434) 1114501s
+run: jack_telegram: (pid 25139) 752s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 8315s
+run: ollama: (pid 8054) 8497s
 
 ## Letzte Aenderungen
+adbca2b bridge+talk: expanduser statt hardcode, xiaomi-ip fix, fname-nameerror, math-signals bereinigt, doppel-import weg
 71ee032 autonomous: xiaomi-ip aus config statt hardcoded, skill-builder nach scout-erfolg nicht im except
 299ec62 stand 2026-08-06 vor code-review
 194642d telegram: threading fuer langsame calls, sofortige quittung, fast_cmds direkt
@@ -128,7 +129,6 @@ b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf A
 130c329 feat: Stack B mit Vulkan GPU-Beschleunigung (6.6s statt 35-85s)
 67c6321 fix: Watchdog zeigt echtes Limit an (95°C)
 5f65efc feat: litert_watchdog.py - Temperatur-sicherer LLM-Runner (85°C Limit)
-e7fba45 jack_hey: Loop-Overhead weg, Stille-Pruefung schaltet sich bei lauter Umgebung ab
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
