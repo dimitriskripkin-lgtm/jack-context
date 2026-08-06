@@ -603,3 +603,5 @@ SyntaxError: '(' wa
 [2026-08-06 10:30:08] ORACLE-EINGANG | btn-1786: sv status jack_cortex jack_telegram jack_waechter ollama
 [2026-08-06 10:39:49] MONITOR-DIENST-TOT | jack_telegram
 [2026-08-06 10:39:50] MONITOR-EVENT | 1 Events
+[2026-08-06 10:43:10] MONITOR-VOLLSCAN | ok
+[2026-08-06 10:43:52] MONITOR-EVENT | 1 Events

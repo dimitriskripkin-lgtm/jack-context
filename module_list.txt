@@ -46,7 +46,7 @@
 -rw-------. 1 u0_a400 u0_a400  5969 Aug  4 14:39 /data/data/com.termux/files/home/jack/jack_skills_db.py
 -rw-------. 1 u0_a400 u0_a400  1791 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_snapshot.py
 -rw-------. 1 u0_a400 u0_a400  8928 Aug  6 10:27 /data/data/com.termux/files/home/jack/jack_talk.py
--rw-------. 1 u0_a400 u0_a400 29414 Aug  6 10:40 /data/data/com.termux/files/home/jack/jack_telegram.py
+-rw-------. 1 u0_a400 u0_a400 29503 Aug  6 10:41 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  5003 Aug  6 09:23 /data/data/com.termux/files/home/jack/jack_thermal.py
 -rw-------. 1 u0_a400 u0_a400  2594 Aug  6 07:51 /data/data/com.termux/files/home/jack/jack_ui.py
 -rwx------. 1 u0_a400 u0_a400  1555 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_v2.py
