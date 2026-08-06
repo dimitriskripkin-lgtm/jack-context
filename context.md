@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:34:19.591196)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:37:24.186031)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:34:19.580257
+Stand: 2026-08-06T11:37:24.178358
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-06T11:34:19.580257
 - Offene Fehler: 0
 - Erinnerungen: 185
 - Dienste:
-run: jack_cortex: (pid 14887) 186s
-run: jack_telegram: (pid 8681) 728s
+run: jack_cortex: (pid 14887) 371s
+run: jack_telegram: (pid 8681) 913s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 12400s
+run: ollama: (pid 8054) 12585s
 
 ## Letzte Aenderungen
 b2cea51 intent: xiaomi_status als alias, /level ohne space
