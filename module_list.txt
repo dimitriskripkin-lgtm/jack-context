@@ -39,6 +39,7 @@
 -rw-------. 1 u0_a400 u0_a400  9563 Aug  4 14:23 /data/data/com.termux/files/home/jack/jack_scout.py
 -rw-------. 1 u0_a400 u0_a400  3495 Jul 17 10:03 /data/data/com.termux/files/home/jack/jack_screen_tracker.py
 -rw-------. 1 u0_a400 u0_a400  6661 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_self_improve.py
+-rw-------. 1 u0_a400 u0_a400  1842 Aug  6 09:50 /data/data/com.termux/files/home/jack/jack_selftest.py
 -rw-------. 1 u0_a400 u0_a400  2996 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_sensors.py
 -rw-------. 1 u0_a400 u0_a400  8854 Aug  6 03:28 /data/data/com.termux/files/home/jack/jack_skill_builder.py
 -rw-------. 1 u0_a400 u0_a400  3717 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_skills.py
