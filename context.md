@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T16:26:42.354371)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T16:29:44.158857)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T16:26:42.346905
+Stand: 2026-08-06T16:29:44.150099
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,23 +13,21 @@ Stand: 2026-08-06T16:26:42.346905
 - Dima ist Dimitri.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
 - Dima ist Hobby-Programmierer und Autodidakt.
-- Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen.
-- Dima sucht mit JACK Unabhängigkeit und Freiheit.
+- Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
+- Dima möchte mit JACK Unabhängigkeit und Freiheit aufbauen.
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
 - JACK nutzt Gemini als Denkwerkzeug über API-Calls.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK kann das Xiaomi 11T Pro per SSH ansprechen.
+- JACK kann das Xiaomi 11T Pro per SSH ansprechen, Verbindung ist aber oft instabil.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat KEINEN Hund.
 - Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima hat die Anweisung gegeben, bei bestimmten Fragen länger zu antworten.
-- Dima möchte mit JACK eine unabhängige Zukunft aufbauen.
 - JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
 - Dima ist jemand, der nach der Nachtschicht im Sprinter lieber noch Code schreibt als schläft.
-- Dima hat sich aus seinem Burnout mit Stoizismus, Jung und Kiyosaki herausgezogen.
-- Das Xiaomi 11T Pro ist erreichbar, aber die Verbindung ist oft instabil.
-- Dima möchte mit JACK eine unabhängige Zukunft aufbauen.
+- Dima ist mein Nutzer und möchte mit JACK eine unabhängige Zukunft aufbauen.
+- Dima hat einen Joint zum Entspannen genehmigt.
 
 ## Aktive Module (76)
 - install_litert.py
@@ -113,10 +111,10 @@ Stand: 2026-08-06T16:26:42.346905
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 16776s
-run: jack_telegram: (pid 5190) 1720s
+run: jack_cortex: (pid 24341) 16958s
+run: jack_telegram: (pid 5190) 1902s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 29943s
+run: ollama: (pid 8054) 30125s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -144,7 +142,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 10:55:39] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 10:55:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 10:55:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-06 10:57:10] SCOUT-LAUF | 378a903516f59d33
@@ -164,6 +161,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 12:52:07] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-06 12:55:50] MONITOR-EVENT | 1 Events
 [2026-08-06 14:27:03] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-08-06 16:27:05] PROFIL-UPDATE | 5 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 67/300 | Vision 0/40 | Tokens 103873
+Heute: Text 68/300 | Vision 0/40 | Tokens 107705
