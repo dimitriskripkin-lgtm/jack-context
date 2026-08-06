@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T09:23:17.325080)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T09:26:18.933683)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T09:23:17.320012
+Stand: 2026-08-06T09:26:18.924957
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -107,12 +107,13 @@ Stand: 2026-08-06T09:23:17.320012
 - Offene Fehler: 0
 - Erinnerungen: 171
 - Dienste:
-run: jack_cortex: (pid 10434) 1110542s
-run: jack_telegram: (pid 22987) 144389s
+run: jack_cortex: (pid 10434) 1110723s
+run: jack_telegram: (pid 22987) 144570s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 4538s
+run: ollama: (pid 8054) 4719s
 
 ## Letzte Aenderungen
+8c08356 publisher: push() statt nur build() im waechter-loop, thermal: negative sensor-werte rausfiltern
 b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf Alltagsfragen
 81d3f6e Cleanup: Muell-Datei entfernt
 951762d Ollama: Vulkan-Env in runit run-Datei, Thermal-Monitor filtert Schwellwerte
@@ -127,7 +128,6 @@ adfd702 jack_hey: Stille-Erkennung - Aufnahme stoppt automatisch nach 2s Ruhe
 add6692 feat: Router-Logging für Transparenz
 9ee8d53 feat: Aufnahmezeit 5s -> 10s
 29d4556 fix: mpv überlebt Prozess-Exit (kein Audio-Abriss)
-30a6a23 fix: Streaming-Buffer erhöht (0.1s -> 0.15s)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -138,7 +138,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-05 20:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-05 22:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-06 00:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-06 02:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
@@ -158,6 +157,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 08:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-06 09:23:17] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 09:23:17] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 09:24:43] SCOUT-LAUF | 20083632b0872eff
 
 ## Budget heute
 Heute: Text 7/300 | Vision 0/40 | Tokens 0
