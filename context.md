@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T00:25:50.736007)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T00:28:52.833528)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T00:25:50.724919
+Stand: 2026-08-07T00:28:52.820989
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -19,7 +19,7 @@ Stand: 2026-08-07T00:25:50.724919
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
 - JACK nutzt Gemini als Denkwerkzeug über API-Calls.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK kann das Xiaomi 11T Pro per SSH ansprechen, Verbindung ist aber oft instabil.
+- JACK kann das Xiaomi 11T Pro per SSH ansprechen.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat KEINEN Hund.
 - Dima ist KEIN Fernfahrer.
@@ -112,10 +112,10 @@ Stand: 2026-08-07T00:25:50.724919
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 45524s
-run: jack_telegram: (pid 5190) 30468s
+run: jack_cortex: (pid 24341) 45706s
+run: jack_telegram: (pid 5190) 30650s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 58691s
+run: ollama: (pid 8054) 58873s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -143,7 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 10:55:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-06 10:57:10] SCOUT-LAUF | 378a903516f59d33
 [2026-08-06 10:57:48] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 10:59:50] MONITOR-VOLLSCAN | ok
@@ -163,6 +162,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 14:27:03] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-08-06 16:27:05] PROFIL-UPDATE | 5 neue Eintraege in kortex_profile.json
 [2026-08-06 18:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-07 00:27:13] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 0/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 3820
