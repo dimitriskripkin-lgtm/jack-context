@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:28:16.381061)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:31:17.870711)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:28:16.374645
+Stand: 2026-08-06T11:31:17.864321
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-06T11:28:16.374645
 - Offene Fehler: 0
 - Erinnerungen: 185
 - Dienste:
-run: jack_cortex: (pid 13264) 2455s
-run: jack_telegram: (pid 8681) 365s
+run: jack_cortex: (pid 14887) 4s
+run: jack_telegram: (pid 8681) 546s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 12037s
+run: ollama: (pid 8054) 12218s
 
 ## Letzte Aenderungen
 b2cea51 intent: xiaomi_status als alias, /level ohne space
@@ -143,8 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-13. Talk: fname NameError in auto_save_to_memory gefixt
-14. Talk: math_signals bereinigt (lkw/uhrzeit/datum raus)
 15. Memory: save() Spaltenanzahl-Bug (7 statt 5)
 16. VecDB: vec0.so absoluter Pfad - RAG war seit Monaten blind
 17. Thermal: Negative Werte (mmw3 -273000) rausfiltern
@@ -163,6 +161,8 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:16:11] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
 [2026-08-06 11:17:31] SCOUT-LAUF | a77d073fbbb0fdfc
 [2026-08-06 11:18:10] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-06 11:31:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-06 11:31:10] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
 Heute: Text 45/300 | Vision 0/40 | Tokens 66996
