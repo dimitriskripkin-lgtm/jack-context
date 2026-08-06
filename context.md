@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:38:21.699864)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:41:23.402359)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:38:21.689545
+Stand: 2026-08-06T10:41:23.395559
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -108,12 +108,13 @@ Stand: 2026-08-06T10:38:21.689545
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 10434) 1115046s
-run: jack_telegram: (pid 31368) 532s
+run: jack_cortex: (pid 7057) 150s
+down: jack_telegram: 0s, normally up, want up
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 9042s
+run: ollama: (pid 8054) 9224s
 
 ## Letzte Aenderungen
+53ea18f telegram: oracle newlines, voice thread, doppel-callback weg | cortex: scan-range fix, find_xiaomi nur bei fail
 ef0f434 oracle: direkte subprocess-ausfuehrung statt git-roundtrip, sofortiges ergebnis
 13219bf telegram: shebang-fix, kortex sicherer import, voice in thread, hardcode-pfade weg
 adbca2b bridge+talk: expanduser statt hardcode, xiaomi-ip fix, fname-nameerror, math-signals bereinigt, doppel-import weg
@@ -128,7 +129,6 @@ b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf A
 81d3f6e Cleanup: Muell-Datei entfernt
 951762d Ollama: Vulkan-Env in runit run-Datei, Thermal-Monitor filtert Schwellwerte
 8d1dc8b feat: jack_ui.py - schöne Konsolen-Ausgabe mit Farben + Boxen
-130c329 feat: Stack B mit Vulkan GPU-Beschleunigung (6.6s statt 35-85s)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -139,8 +139,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 04:26:16] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
-[2026-08-06 04:26:16] MONITOR-EVENT | 1 Events
 [2026-08-06 04:50:32] MONITOR-EVENT | 1 Events
 [2026-08-06 04:54:34] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-06 04:54:34] MONITOR-EVENT | 1 Events
@@ -159,6 +157,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 10:23:12] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-06 10:24:33] SCOUT-LAUF | 591827d2a3613065
 [2026-08-06 10:30:08] ORACLE-EINGANG | btn-1786: sv status jack_cortex jack_telegram jack_waechter ollama
+[2026-08-06 10:39:49] MONITOR-DIENST-TOT | jack_telegram
+[2026-08-06 10:39:50] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 12/300 | Vision 0/40 | Tokens 0
