@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:10:56.896053)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:13:58.473630)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:10:56.887294
+Stand: 2026-08-06T11:13:58.466056
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -111,12 +111,13 @@ Stand: 2026-08-06T11:10:56.887294
 - Offene Fehler: 0
 - Erinnerungen: 179
 - Dienste:
-run: jack_cortex: (pid 13264) 1415s
-run: jack_telegram: (pid 30010) 125s
+run: jack_cortex: (pid 13264) 1597s
+run: jack_telegram: (pid 32179) 103s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 10997s
+run: ollama: (pid 8054) 11179s
 
 ## Letzte Aenderungen
+1e815d7 talk: few-shot beispiel + mindestlaenge persoenliche fragen | telegram: merke-dir handler
 081dbf8 talk: context persoenlicher, nicht ausweichen, kumpel-ton
 54df78d bridge: system-prompt reste entfernt, sauber
 dfc28fd bridge: system-prompt persoenlicher kumpel-ton, dima-kontext tief
@@ -131,7 +132,6 @@ af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory
 ef0f434 oracle: direkte subprocess-ausfuehrung statt git-roundtrip, sofortiges ergebnis
 13219bf telegram: shebang-fix, kortex sicherer import, voice in thread, hardcode-pfade weg
 adbca2b bridge+talk: expanduser statt hardcode, xiaomi-ip fix, fname-nameerror, math-signals bereinigt, doppel-import weg
-71ee032 autonomous: xiaomi-ip aus config statt hardcoded, skill-builder nach scout-erfolg nicht im except
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
