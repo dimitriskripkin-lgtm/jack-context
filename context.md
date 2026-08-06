@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:49:31.305941)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:52:33.031682)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:49:31.296866
+Stand: 2026-08-06T11:52:33.023720
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-06T11:49:31.296866
 - Dima hat die Anweisung gegeben, in Zukunft bei bestimmten Fragen länger zu antworten.
 - Dima ist Autodidakt im Programmieren.
 
-## Aktive Module (75)
+## Aktive Module (76)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -41,6 +41,7 @@ Stand: 2026-08-06T11:49:31.296866
 - jack_briefing.py
 - jack_budget.py
 - jack_bug_fixer.py
+- jack_chains.py
 - jack_claude.py
 - jack_code_writer.py
 - jack_coder.py
@@ -112,10 +113,10 @@ Stand: 2026-08-06T11:49:31.296866
 - Offene Fehler: 1
 - Erinnerungen: 189
 - Dienste:
-run: jack_cortex: (pid 24341) 145s
-run: jack_telegram: (pid 21341) 473s
+run: jack_cortex: (pid 24341) 327s
+run: jack_telegram: (pid 21341) 655s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 13312s
+run: ollama: (pid 8054) 13494s
 
 ## Letzte Aenderungen
 dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
