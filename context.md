@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:44:25.125066)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:47:26.896263)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:44:25.118150
+Stand: 2026-08-06T10:47:26.887509
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -108,12 +108,13 @@ Stand: 2026-08-06T10:44:25.118150
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 7057) 332s
-run: jack_telegram: (pid 9439) 150s
+run: jack_cortex: (pid 13264) 5s
+run: jack_telegram: (pid 9439) 331s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 9406s
+run: ollama: (pid 8054) 9587s
 
 ## Letzte Aenderungen
+af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory: save() spalten fix | vecdb: expanduser
 303fa37 telegram: oracle-block komplett neu ohne kaputte f-strings
 53ea18f telegram: oracle newlines, voice thread, doppel-callback weg | cortex: scan-range fix, find_xiaomi nur bei fail
 ef0f434 oracle: direkte subprocess-ausfuehrung statt git-roundtrip, sofortiges ergebnis
@@ -128,7 +129,6 @@ bc6974f publisher: push() loop-fix, thermal: negative sensor filter
 8c08356 publisher: push() statt nur build() im waechter-loop, thermal: negative sensor-werte rausfiltern
 b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf Alltagsfragen
 81d3f6e Cleanup: Muell-Datei entfernt
-951762d Ollama: Vulkan-Env in runit run-Datei, Thermal-Monitor filtert Schwellwerte
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -161,4 +161,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 10:43:52] MONITOR-EVENT | 1 Events
 
 ## Budget heute
-Heute: Text 12/300 | Vision 0/40 | Tokens 0
+Heute: Text 13/300 | Vision 0/40 | Tokens 2515
