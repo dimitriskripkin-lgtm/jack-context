@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:35:20.032284)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:38:21.699864)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:35:20.023646
+Stand: 2026-08-06T10:38:21.689545
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -108,10 +108,10 @@ Stand: 2026-08-06T10:35:20.023646
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 10434) 1114865s
-run: jack_telegram: (pid 31368) 351s
+run: jack_cortex: (pid 10434) 1115046s
+run: jack_telegram: (pid 31368) 532s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 8861s
+run: ollama: (pid 8054) 9042s
 
 ## Letzte Aenderungen
 ef0f434 oracle: direkte subprocess-ausfuehrung statt git-roundtrip, sofortiges ergebnis
