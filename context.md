@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T12:54:16.115672)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T12:57:17.935469)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T12:54:16.102151
+Stand: 2026-08-06T12:57:17.926653
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -109,10 +109,10 @@ Stand: 2026-08-06T12:54:16.102151
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 4030s
-run: jack_telegram: (pid 19071) 1561s
+run: jack_cortex: (pid 24341) 4211s
+run: jack_telegram: (pid 19071) 1742s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 17197s
+run: ollama: (pid 8054) 17378s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -140,7 +140,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 10:53:39] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 10:55:01] SCOUT-LAUF | 021e2908c65a8686
 [2026-08-06 10:55:39] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 10:55:48] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -160,6 +159,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 12:28:21] SCOUT-LAUF | 3170291340c90743
 [2026-08-06 12:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 12:52:07] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-06 12:55:50] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 60/300 | Vision 0/40 | Tokens 92429
