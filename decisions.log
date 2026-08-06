@@ -153,3 +153,444 @@ OK: Fix
 [2026-07-24 03:36:54] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
 [2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_autolearn
 [2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_publisher
+[2026-07-24 03:38:09] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 03:38:09] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:38:09] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 03:41:09] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:44:09] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:44:44] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 03:44:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:44:44] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 03:47:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:49:08] ORACLE-EINGANG | tg-17848: free -h
+[2026-07-24 03:50:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:53:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:56:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 03:59:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:02:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:05:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:06:42] ORACLE-EINGANG | btn-1784: ollama list
+[2026-07-24 04:08:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:11:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:14:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:17:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:20:37] ORACLE-EINGANG | btn-1784: ollama list
+[2026-07-24 04:20:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:23:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:26:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:29:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:32:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:35:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:38:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:41:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:44:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:47:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:50:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:53:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:56:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 04:59:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:02:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:05:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:08:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:11:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:14:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:17:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:20:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:23:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:26:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:29:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:32:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:35:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:38:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:41:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:44:44] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 05:44:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:47:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:50:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:53:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:56:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 05:59:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:00:00] MEMORY-MAINTENANCE | 5 Eintraege als 'stale' markiert | Gesamt: 69 Eintraege | Stale: 17
+[2026-07-24 06:02:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:05:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:08:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:11:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:14:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:17:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:20:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:23:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:26:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:29:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:32:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:35:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:38:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:41:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:44:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:47:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:50:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:53:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:56:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 06:59:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:02:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:05:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:05:54] ORACLE-EINGANG | btn-1784: free -h
+[2026-07-24 07:08:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:11:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:14:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:17:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:18:53] ORACLE-EINGANG | btn-1784: free -h
+[2026-07-24 07:20:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:23:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:26:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:29:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:32:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:35:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:38:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:41:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:44:44] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 07:44:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:47:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:50:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:53:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:56:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 07:59:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:01:28] ORACLE-EINGANG | btn-1784: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
+[2026-07-24 08:02:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:05:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:08:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:11:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:14:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:17:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:20:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:23:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:26:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:29:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:32:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:35:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:38:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:41:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:44:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:47:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:50:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:53:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:56:44] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
+[2026-07-24 08:57:38] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 08:57:38] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 09:39:14] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 09:39:14] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 10:45:39] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-24 10:45:39] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-24 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-24 11:39:14] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 11:49:08] HALIZA-START | /data/data/com.termux/files/home/jack/test.py: Trivial
+[2026-07-24 11:49:08] HALIZA-START | /data/data/com.termux/files/home/jack/test.py: Kaputt
+[2026-07-24 11:49:08] HALIZA-SYNTAX-STOP | File "/data/data/com.termux/files/home/jack/.haliza_check.py", line 1
+    def add(a, b:
+           ^
+SyntaxError: '(' wa
+[2026-07-24 11:49:08] HALIZA-START | /system/boot.py: Ausbruch
+[2026-07-24 11:49:08] HALIZA-SANDBOX-STOP | Forbidden: /system/
+[2026-07-24 11:49:08] HALIZA-START | /data/data/com.termux/files/home/jack/test.py: Scope-Bug
+[2026-07-24 11:49:59] HALIZA-START | /data/data/com.termux/files/home/jack/test.py: Variable vor Zuweisung gelesen
+[2026-07-24 11:50:01] HALIZA-SEMANTIK-STOP | UnboundLocalError: Variable 'cmd' wurde vor Zuweisung verwendet.
+[2026-07-24 11:50:01] HALIZA-START | /data/data/com.termux/files/home/jack/test.py: Kommentar ergaenzt
+[2026-07-24 11:50:02] HALIZA-BEREIT | Risiko niedrig
+[2026-07-24 11:58:36] HALIZA-START | /data/data/com.termux/files/home/jack/haliza_testmodul.py: Selbstverbesserung haliza_testmodul.py
+[2026-07-24 11:58:37] HALIZA-SEMANTIK-STOP | UnboundLocalError: Variable 'cmd' wird vor der Zuweisung verwendet.
+[2026-07-24 12:02:11] HALIZA-START | /data/data/com.termux/files/home/jack/t.py: Test
+[2026-07-24 12:02:11] HALIZA-START | /system/x.py: Test
+[2026-07-24 12:02:11] HALIZA-SANDBOX-STOP | Forbidden: /system/
+[2026-07-24 12:02:11] HALIZA-START | /data/data/com.termux/files/home/jackfoo/x.py: Test
+[2026-07-24 12:02:11] HALIZA-SANDBOX-STOP | Forbidden: /data/data/
+[2026-07-24 12:03:52] MISSION-NEU | #1 befehl: free -h
+[2026-07-24 12:03:52] MISSION-STATUS | #1 -> laeuft
+[2026-07-24 12:03:52] MISSION-STATUS | #1 -> fertig
+[2026-07-24 12:03:52] MISSION-NEU | #2 befehl: dauerlaeufer
+[2026-07-24 12:03:52] MISSION-STATUS | #2 -> laeuft
+[2026-07-24 12:03:52] MISSION-STATUS | #2 -> offen
+[2026-07-24 12:03:52] MISSION-STATUS | #2 -> laeuft
+[2026-07-24 12:03:52] MISSION-STATUS | #2 -> offen
+[2026-07-24 12:03:52] MISSION-STATUS | #2 -> laeuft
+[2026-07-24 12:03:52] MISSION-STATUS | #2 -> offen
+[2026-07-24 12:06:22] MISSION-NEU | #3 befehl: ram
+[2026-07-24 12:06:22] MISSION-STATUS | #3 -> laeuft
+[2026-07-24 12:06:22] MISSION-STATUS | #3 -> fertig
+[2026-07-24 12:06:22] MISSION-NEU | #4 befehl: rm -rf /
+[2026-07-24 12:06:22] MISSION-STATUS | #4 -> laeuft
+[2026-07-24 12:06:22] MISSION-STATUS | #4 -> blockiert
+[2026-07-24 12:06:22] MISSION-NEU | #5 notiz: Merke: Xiaomi Wake-Lock pruefen
+[2026-07-24 12:06:22] MISSION-STATUS | #5 -> laeuft
+[2026-07-24 12:06:22] MISSION-STATUS | #5 -> fertig
+[2026-07-24 12:06:22] MISSION-NEU | #6 code: Funktion die eine Liste sortiert. Nur die Funktion.
+[2026-07-24 12:06:22] MISSION-STATUS | #6 -> laeuft
+[2026-07-24 12:06:23] MISSION-STATUS | #6 -> wartet_freigabe
+[2026-07-24 12:06:23] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 12:06:23] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 12:11:04] MISSION-NEU | #7 befehl: ram
+[2026-07-24 12:11:04] MISSION-STATUS | #7 -> laeuft
+[2026-07-24 12:11:04] MISSION-STATUS | #7 -> fertig
+[2026-07-24 12:11:04] MISSION-NEU | #8 befehl: rm -rf /
+[2026-07-24 12:11:04] MISSION-STATUS | #8 -> laeuft
+[2026-07-24 12:11:04] MISSION-STATUS | #8 -> blockiert
+[2026-07-24 12:11:04] MISSION-NEU | #9 notiz: Wake-Lock pruefen
+[2026-07-24 12:11:04] MISSION-STATUS | #9 -> laeuft
+[2026-07-24 12:11:04] MISSION-STATUS | #9 -> fertig
+[2026-07-24 12:33:16] ORACLE-EINGANG | btn-1784: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
+[2026-07-24 12:55:22] MISSION-NEU | #10 befehl: ram
+[2026-07-24 12:56:23] MISSION-STATUS | #10 -> laeuft
+[2026-07-24 12:56:23] MISSION-STATUS | #10 -> fertig
+[2026-07-24 12:59:50] MISSION-NEU | #11 code: Eine Funktion die eine Liste von Zahlen sortiert und die dre
+[2026-07-24 13:01:23] MISSION-STATUS | #11 -> laeuft
+[2026-07-24 13:01:25] MISSION-STATUS | #11 -> wartet_freigabe
+[2026-07-24 13:06:58] ORACLE-EINGANG | btn-1784: date
+[2026-07-24 13:08:04] HALIZA-MEM-STOP | UnboundLocalError bekannt
+[2026-07-24 13:33:36] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-07-24 13:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 15:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 17:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 19:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 21:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-24 23:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 01:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 03:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 05:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | Gesamt: 70 Eintraege | Stale: 18
+[2026-07-25 07:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 09:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 10:48:57] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-25 10:48:57] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-25 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-25 11:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 13:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 15:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 17:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 19:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 21:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-25 23:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 01:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 03:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 05:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 06:00:00] MEMORY-MAINTENANCE | 4 Eintraege als 'stale' markiert | Gesamt: 71 Eintraege | Stale: 22
+[2026-07-26 07:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 09:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 10:52:38] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-26 10:52:38] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-26 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-26 11:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 13:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 15:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 17:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 19:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 21:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-26 23:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 01:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 03:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 05:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 06:00:00] MEMORY-MAINTENANCE | 4 Eintraege als 'stale' markiert | Gesamt: 72 Eintraege | Stale: 26
+[2026-07-27 07:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 09:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 10:56:18] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-27 10:56:18] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-27 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-27 11:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 13:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 15:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 17:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 19:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 21:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-27 23:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 01:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 03:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 05:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 06:00:00] MEMORY-MAINTENANCE | Gesamt: 73 Eintraege | Stale: 26
+[2026-07-28 07:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 09:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 10:59:40] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-28 10:59:40] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-28 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-28 11:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 13:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 15:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 17:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 19:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 21:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-28 23:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 01:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 03:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 04:30:33] WAECHTER-AUDIT | woechentlich verschickt
+[2026-07-29 05:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 06:00:00] MEMORY-MAINTENANCE | 4 Eintraege als 'stale' markiert | Gesamt: 74 Eintraege | Stale: 30
+[2026-07-29 07:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 09:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-29 11:03:19] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-29 11:03:19] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-29 11:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 13:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 15:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 17:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 19:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 21:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-29 23:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 01:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 03:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 05:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 06:00:00] MEMORY-MAINTENANCE | 17 Eintraege als 'stale' markiert | Gesamt: 75 Eintraege | Stale: 47
+[2026-07-30 07:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 09:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 11:00:01] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-30 11:06:54] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-30 11:06:54] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-30 11:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 13:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 15:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 17:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 19:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 21:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-30 23:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 01:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 03:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 05:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 06:00:00] MEMORY-MAINTENANCE | 11 Eintraege als 'stale' markiert | Gesamt: 76 Eintraege | Stale: 58
+[2026-07-31 07:33:36] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 09:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-07-31 11:10:42] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-07-31 11:10:42] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-07-31 11:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 13:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 15:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 17:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 19:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 21:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-07-31 23:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 01:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 03:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 05:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | Gesamt: 77 Eintraege | Stale: 59
+[2026-08-01 07:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 09:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-08-01 11:14:30] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-01 11:14:30] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-01 11:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 13:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 15:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 17:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 19:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 21:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-01 23:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 01:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 03:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 05:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | Gesamt: 78 Eintraege | Stale: 60
+[2026-08-02 07:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 09:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-08-02 11:18:08] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-02 11:18:08] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-02 11:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 13:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 15:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 17:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 19:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 21:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-02 23:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 01:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 03:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 05:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | Gesamt: 79 Eintraege | Stale: 61
+[2026-08-03 07:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 09:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-08-03 11:21:51] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-03 11:21:51] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-03 11:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 13:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 15:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 17:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 19:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 21:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-03 23:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 01:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 03:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 05:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | Gesamt: 80 Eintraege | Stale: 62
+[2026-08-04 07:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 09:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-08-04 11:25:26] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-04 11:25:26] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-04 11:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 12:42:24] ORACLE-EINGANG | btn-1785: free -h
+[2026-08-04 13:33:37] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
+[2026-08-04 14:29:16] SKILL-DB-AUSGEFUEHRT | system_ram_diagnose (16ms)
+[2026-08-04 14:32:16] SKILL-DB-AUSGEFUEHRT | system_ram_diagnose (20ms)
+[2026-08-04 14:35:57] SKILL-DB-AUSGEFUEHRT | system_ram_diagnose (20ms)
+[2026-08-04 14:42:22] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-04 14:42:24] PROFIL-UPDATE | 4 neue Eintraege in kortex_profile.json
+[2026-08-04 14:43:03] SKILL-DB-AUSGEFUEHRT | wifi_status (389ms)
+[2026-08-04 14:43:04] SKILL-DB-AUSGEFUEHRT | geraet_info (441ms)
+[2026-08-04 14:43:19] SKILL-DB-FEHLER | standort: Command '['termux-location', '-p', 'network', '-r', 'once']' timed out after 15
+[2026-08-04 14:43:19] SKILL-DB-AUSGEFUEHRT | sensoren_liste (14ms)
+[2026-08-04 14:43:57] SCOUT-LAUF | 17ae84721d4cf6e2
+[2026-08-04 14:44:25] SKILL-DB-AUSGEFUEHRT | wifi_status (451ms)
+[2026-08-04 14:44:26] SKILL-DB-AUSGEFUEHRT | geraet_info (458ms)
+[2026-08-04 14:44:26] SKILL-DB-AUSGEFUEHRT | standort (437ms)
+[2026-08-04 14:44:26] SKILL-DB-AUSGEFUEHRT | sensoren_liste (10ms)
+[2026-08-04 14:46:44] SKILL-DB-FEHLER | sensoren_liste: Command '['termux-sensor', '-a', '-n', '1']' timed out after 10 seconds
+[2026-08-04 14:47:48] SKILL-DB-FEHLER | sensoren_liste: Command '['termux-sensor', '-l']' timed out after 8 seconds
+[2026-08-04 14:51:15] SKILL-DB-AUSGEFUEHRT | sensoren_liste (436ms)
+[2026-08-04 14:53:27] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-04 14:54:36] SCOUT-LAUF | c7451147463f85de
+[2026-08-04 14:57:41] MONITOR-VOLLSCAN | ok
+[2026-08-04 14:57:42] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-04 14:58:46] MONITOR-VOLLSCAN | ok
+[2026-08-04 14:58:50] SCOUT-LAUF | b81b999e8e80d7d7
+[2026-08-04 15:00:43] MONITOR-VOLLSCAN | ok
+[2026-08-04 15:13:11] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-04 15:14:19] SCOUT-LAUF | 814350a76686ea63
+[2026-08-04 15:27:19] SKILL-DB-AUSGEFUEHRT | fehler_zusammenfassung (0ms)
+[2026-08-04 15:27:19] SKILL-DB-AUSGEFUEHRT | memory_statistik (2ms)
+[2026-08-04 15:27:19] SKILL-DB-AUSGEFUEHRT | api_budget_check (0ms)
+[2026-08-04 15:39:51] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 63 Stale-Eintraege geloescht | Verbleibend: 22 Eintraege
+[2026-08-04 16:07:16] MONITOR-VOLLSCAN | ok
+[2026-08-04 16:15:40] ORACLE-EINGANG | btn-1785: python3 -c "import sqlite3,os; con=sqlite3.connect(os.path.expanduser('~/jack/ja
+[2026-08-04 17:13:15] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-08-04 17:26:35] ORACLE-EINGANG | btn-1785: ollama list
+[2026-08-04 18:14:33] MONITOR-EVENT | 1 Events
+[2026-08-05 04:34:05] WAECHTER-AUDIT | woechentlich verschickt
+[2026-08-05 05:13:26] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-05 06:00:00] MEMORY-MAINTENANCE | Verbleibend: 26 Eintraege
+[2026-08-05 07:55:01] MONITOR-VOLLSCAN | ok
+[2026-08-05 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-08-05 11:13:32] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-05 11:27:13] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-05 11:27:13] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-05 12:12:27] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-05 12:12:27] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 12:13:53] SCOUT-LAUF | ec5f279cf51ecac6
+[2026-08-05 12:16:16] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-05 12:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 12:17:42] SCOUT-LAUF | 8b7f6fb44196ea35
+[2026-08-05 14:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 16:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 18:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 20:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 22:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 00:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 02:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 04:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 04:26:16] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-06 04:26:16] MONITOR-EVENT | 1 Events
+[2026-08-06 04:50:32] MONITOR-EVENT | 1 Events
+[2026-08-06 04:54:34] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-06 04:54:34] MONITOR-EVENT | 1 Events
+[2026-08-06 05:04:39] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-06 05:04:39] MONITOR-EVENT | 1 Events
+[2026-08-06 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 27 Eintraege
+[2026-08-06 06:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 06:53:29] MONITOR-EVENT | 1 Events
+[2026-08-06 07:09:39] MONITOR-EVENT | 1 Events
+[2026-08-06 07:55:04] MONITOR-VOLLSCAN | ok
+[2026-08-06 08:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'

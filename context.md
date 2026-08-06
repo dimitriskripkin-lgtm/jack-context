@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-07-24T03:37:00.440429)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T09:23:15.351086)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-07-24T03:37:00.431564
+Stand: 2026-08-06T09:23:15.344269
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -18,19 +18,18 @@ Stand: 2026-07-24T03:37:00.431564
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
 - JACK nutzt Gemini als Gehirn (API-Calls).
 - JACK hat ein lokales Gedächtnis in SQLite.
+- JACK soll sich selbst lernen und verbessern.
+- JACK steht unter Dimas voller Kontrolle.
 - JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
-- JACK erinnert sich an vergangene Gespräche mit Zeitstempel.
-- Dima hat auf Xiaomi in Termux sshd eingegeben.
-- Dima hat JACK das Ziel gegeben, sich selbst zu lernen und zu verbessern.
-- Dima hat JACK das Ziel gegeben, unter seiner Kontrolle zu stehen.
 - Dima hat KEINEN Hund (Rex war nur ein Test).
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
-- JACK hat KEINEN direkten Shell- oder Dateizugriff ueber den Chat.
-- Dima ist nicht daran interessiert, Befehle wie `/cost`, `/cc`, `/oracle`, `/oracle_result` auszuführen oder zu verstehen.
-- Dima hat eine kleine Autobiographie über sich hochgeladen.
-- JACK kann auf Basis von Dimas Eingaben über sich selbst lernen.
+- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
+- Dima testet das Gedächtnis.
+- Dima hat auf Xiaomi in Termux sshd eingegeben.
+- Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
+- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 
-## Aktive Module (55)
+## Aktive Module (73)
+- install_litert.py
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
@@ -46,35 +45,52 @@ Stand: 2026-07-24T03:37:00.431564
 - jack_consolidate.py
 - jack_cortex.py
 - jack_gemini_bridge.py
+- jack_haliza.py
 - jack_handshake_gen.py
 - jack_hey.py
 - jack_improve.py
+- jack_install.py
 - jack_learn.py
 - jack_log.py
 - jack_math.py
 - jack_memory.py
 - jack_memory_engine.py
 - jack_memory_maintenance.py
+- jack_missions.py
+- jack_monitor.py
 - jack_node_alpha.py
 - jack_operator.py
 - jack_oracle.py
 - jack_patch.py
+- jack_patch_memory.py
 - jack_personality.py
 - jack_publish.py
 - jack_radar.py
+- jack_sanity.py
+- jack_scout.py
 - jack_screen_tracker.py
 - jack_self_improve.py
 - jack_sensors.py
+- jack_skill_builder.py
 - jack_skills.py
+- jack_skills_db.py
 - jack_snapshot.py
 - jack_talk.py
 - jack_telegram.py
+- jack_thermal.py
+- jack_ui.py
 - jack_v2.py
 - jack_vecdb.py
 - jack_vinted_radar.py
 - jack_voice.py
-- jack_voice_el.py
+- jack_voice_ab_test.py
+- jack_voice_chat_live.py
+- jack_voice_live.py
+- jack_voice_live_test.py
+- jack_voice_ping.py
 - jack_voice_processor.py
+- jack_voice_router.py
+- jack_voice_stability.py
 - jack_write.py
 - jack_xiaomi.py
 - jack_xiaomi_cmd.py
@@ -83,35 +99,35 @@ Stand: 2026-07-24T03:37:00.431564
 - kortex_profile_updater.py
 - kortex_profiler.py
 - kortex_sensor_daemon.py
+- litert_watchdog.py
 - quick_bridge.py
 - test_jack_approval.py
-- voice_service_v2.py
 
 ## System-Status
-- Offene Fehler: 1
-- Erinnerungen: 157
+- Offene Fehler: 0
+- Erinnerungen: 171
 - Dienste:
-run: jack_cortex: (pid 12726) 54938s
-run: jack_telegram: (pid 28301) 335s
-run: jack_autolearn: (pid 32539) 0s
-run: ollama: (pid 7342) 234072s
+run: jack_cortex: (pid 10434) 1110540s
+run: jack_telegram: (pid 22987) 144387s
+fail: jack_autolearn: unable to change to service directory: file does not exist
+run: ollama: (pid 8054) 4536s
 
 ## Letzte Aenderungen
-6908297 Konsolidierung: autolearn+publisher Threads in autonomous, 7->5 Services
-6c2508d Security: HMAC-Signatur + Rate-Limit (10/h) fuer Oracle-Kanal
-9660995 Security: Shell-Injection-Schutz (Pipes/Chaining geblockt) + alias in Telegram
-37b56f6 Oracle: chr(10) statt Newline-Literal + Audit 7/7 Nenner fix
-139042b Oracle: Ergebnis automatisch per Telegram nach Ausfuehrung + Audit 7/7
-3957896 Audit: 7 Dienste + Oracle UUID auf Millisekunden fuer einzigartige Button-Klicks
-fefc1f1 Telegram: Oracle-Dispatcher an Anfang von handle() - Gemini wird nie mehr fuer /oracle aufgerufen
-0ed4d1c Telegram: Start-Offset fix wiederhergestellt
-72ba9fd Telegram: oracle Callback-Handler in handle_callback
-e22d3f9 Telegram: buttons Format fix fuer send_keyboard
-58392b1 Telegram: send_buttons -> send_keyboard fix
-eba34ba Telegram: oracle+befehle Dispatcher vor Gemini-Fallback eingefuegt
-4542529 Telegram: /oracle und /oracle_result Dispatcher wiederhergestellt
-76119de Telegram: doppelte handle_callback entfernt, Oracle in Haupt-Handler integriert
-cd3655e Cleanup: kritische bare excepts durch logging ersetzt
+b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf Alltagsfragen
+81d3f6e Cleanup: Muell-Datei entfernt
+951762d Ollama: Vulkan-Env in runit run-Datei, Thermal-Monitor filtert Schwellwerte
+8d1dc8b feat: jack_ui.py - schöne Konsolen-Ausgabe mit Farben + Boxen
+130c329 feat: Stack B mit Vulkan GPU-Beschleunigung (6.6s statt 35-85s)
+67c6321 fix: Watchdog zeigt echtes Limit an (95°C)
+5f65efc feat: litert_watchdog.py - Temperatur-sicherer LLM-Runner (85°C Limit)
+e7fba45 jack_hey: Loop-Overhead weg, Stille-Pruefung schaltet sich bei lauter Umgebung ab
+807a1c3 jack_hey: Standardzeit 5s, Stille-Schwelle -45dB (fahrendes Auto hat -18dB Grundrauschen)
+adfd702 jack_hey: Stille-Erkennung - Aufnahme stoppt automatisch nach 2s Ruhe
+211513e Voice-Aufraeumen: jack_hey Argument-Bug gefixt, 3 tote Module archiviert, Shortcuts beschriftet
+add6692 feat: Router-Logging für Transparenz
+9ee8d53 feat: Aufnahmezeit 5s -> 10s
+29d4556 fix: mpv überlebt Prozess-Exit (kein Audio-Abriss)
+30a6a23 fix: Streaming-Buffer erhöht (0.1s -> 0.15s)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -122,26 +138,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-07-23 06:00:00] MEMORY-MAINTENANCE | 2 Eintraege als 'stale' markiert | Gesamt: 58 Eintraege | Stale: 12
-[2026-07-23 07:20:05] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
-[2026-07-23 10:42:22] WAECHTER-NEUSTART | jack_telegram
-[2026-07-23 10:42:22] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
-[2026-07-23 10:42:22] SELF-IMPROVE | Tagescheck abgeschlossen
-[2026-07-23 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
-[2026-07-23 11:01:07] ORACLE-EINGANG | btn-1784: ollama list
-[2026-07-23 11:20:10] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
-[2026-07-23 11:21:11] ORACLE-EINGANG | btn-1784: tail -10 /data/data/com.termux/files/home/jack/jack_decisions.log
-[2026-07-23 11:31:13] ORACLE-EINGANG | btn-1784: free -h
-[2026-07-23 11:38:43] ORACLE-EINGANG | btn-1784: sv status jack_cortex jack_telegram jack_autolearn jack_publisher jack_waechter
-[2026-07-23 11:43:52] ORACLE-EINGANG | btn-1784: python3 -c "import sys,os; sys.path.insert(0,os.path.expanduser('~/jack')); impo
-[2026-07-23 13:20:12] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
-[2026-07-23 19:20:31] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
-[2026-07-23 23:20:37] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
-[2026-07-24 03:36:54] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-07-24 03:36:54] PUBLISHER-ERR | module 'jack_publish' has no attribute 'push_context'
-[2026-07-24 03:36:54] AUTOLEARN-ERR | module 'jack_learn' has no attribute 'run_once'
-[2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_autolearn
-[2026-07-24 03:37:00] WAECHTER-NEUSTART | jack_publisher
+[2026-08-05 16:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 18:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 20:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-05 22:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 00:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 02:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 04:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 04:26:16] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-06 04:26:16] MONITOR-EVENT | 1 Events
+[2026-08-06 04:50:32] MONITOR-EVENT | 1 Events
+[2026-08-06 04:54:34] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-06 04:54:34] MONITOR-EVENT | 1 Events
+[2026-08-06 05:04:39] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-06 05:04:39] MONITOR-EVENT | 1 Events
+[2026-08-06 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 27 Eintraege
+[2026-08-06 06:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 06:53:29] MONITOR-EVENT | 1 Events
+[2026-08-06 07:09:39] MONITOR-EVENT | 1 Events
+[2026-08-06 07:55:04] MONITOR-VOLLSCAN | ok
+[2026-08-06 08:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 7162
+Heute: Text 6/300 | Vision 0/40 | Tokens 0
