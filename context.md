@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T11:16:10.080917)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T11:19:11.570320)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T11:16:10.073539
+Stand: 2026-08-06T11:19:11.560619
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,25 +11,25 @@ Stand: 2026-08-06T11:16:10.073539
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), kein Fernfahrer.
 - Dima ist Hobby-Programmierer.
-- Dima ist aus Russland nach Deutschland migriert, Baujahr ca. 1996.
-- Dima ist Einzelkind.
+- Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen.
+- Dima sucht mit JACK Unabhängigkeit und Freiheit.
+- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
-- JACK nutzt Gemini als Gehirn (API-Calls).
+- JACK nutzt Gemini als Denkwerkzeug über API-Calls.
 - JACK hat ein lokales Gedächtnis in SQLite.
 - JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK speichert alle Fragen und Antworten mit Zeitstempel im Gedächtnis.
-- JACK kann das Xiaomi per SSH ansprechen.
-- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
-- Dima hat KEINEN Hund (Rex war nur ein Test).
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima testet das Gedächtnis.
+- JACK kann das Xiaomi 11T Pro per SSH ansprechen.
+- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
+- Dima ist kein Fernfahrer.
+- Dima hat KEINEN Hund.
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
-- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
+- Dima hat die Anweisung gegeben, in Zukunft bei bestimmten Fragen länger zu antworten.
+- Dima ist Autodidakt im Programmieren.
 
 ## Aktive Module (75)
 - install_litert.py
@@ -110,12 +110,12 @@ Stand: 2026-08-06T11:16:10.073539
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 179
+- Erinnerungen: 180
 - Dienste:
-run: jack_cortex: (pid 13264) 1729s
-run: jack_telegram: (pid 1669) 1s
+run: jack_cortex: (pid 13264) 1910s
+run: jack_telegram: (pid 1669) 182s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 11311s
+run: ollama: (pid 8054) 11492s
 
 ## Letzte Aenderungen
 1e815d7 talk: few-shot beispiel + mindestlaenge persoenliche fragen | telegram: merke-dir handler
@@ -143,9 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-10. Cortex: u0_a400 -> root als SSH-User
-11. Bridge: collect_status() rief find_xiaomi() auf -> direkter SSH-Check
-12. Bridge: Alle hardcoded Pfade -> expanduser
 13. Talk: fname NameError in auto_save_to_memory gefixt
 14. Talk: math_signals bereinigt (lkw/uhrzeit/datum raus)
 15. Memory: save() Spaltenanzahl-Bug (7 statt 5)
@@ -163,6 +160,9 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:59:50] MONITOR-VOLLSCAN | ok
 [2026-08-06 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-08-06 11:16:10] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 11:16:11] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
+[2026-08-06 11:17:31] SCOUT-LAUF | a77d073fbbb0fdfc
+[2026-08-06 11:18:10] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 32/300 | Vision 0/40 | Tokens 37192
+Heute: Text 34/300 | Vision 0/40 | Tokens 43529
