@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T12:25:52.136763)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T12:26:59.991825)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T12:25:52.124303
+Stand: 2026-08-06T12:26:59.983508
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -111,12 +111,12 @@ Stand: 2026-08-06T12:25:52.124303
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 189
+- Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 2326s
-run: jack_telegram: (pid 21341) 2654s
+run: jack_cortex: (pid 24341) 2393s
+run: jack_telegram: (pid 17882) 0s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 15493s
+run: ollama: (pid 8054) 15560s
 
 ## Letzte Aenderungen
 dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
@@ -144,7 +144,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-15. Memory: save() Spaltenanzahl-Bug (7 statt 5)
 16. VecDB: vec0.so absoluter Pfad - RAG war seit Monaten blind
 17. Thermal: Negative Werte (mmw3 -273000) rausfiltern
 18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
@@ -164,6 +163,7 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:18:10] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 11:31:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-06 11:31:10] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-06 12:26:59] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 57/300 | Vision 0/40 | Tokens 84889
+Heute: Text 60/300 | Vision 0/40 | Tokens 88676
