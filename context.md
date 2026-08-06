@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T14:46:37.415126)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T14:49:39.604740)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T14:46:37.404939
+Stand: 2026-08-06T14:49:39.597728
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -113,10 +113,10 @@ Stand: 2026-08-06T14:46:37.404939
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 10771s
-run: jack_telegram: (pid 19071) 8302s
+run: jack_cortex: (pid 24341) 10953s
+run: jack_telegram: (pid 19071) 8484s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 23938s
+run: ollama: (pid 8054) 24120s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -166,4 +166,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 14:27:03] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 64/300 | Vision 0/40 | Tokens 100001
+Heute: Text 67/300 | Vision 0/40 | Tokens 103873
