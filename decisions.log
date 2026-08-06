@@ -606,3 +606,25 @@ SyntaxError: '(' wa
 [2026-08-06 10:43:10] MONITOR-VOLLSCAN | ok
 [2026-08-06 10:43:52] MONITOR-EVENT | 1 Events
 [2026-08-06 10:49:33] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 10:49:35] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
+[2026-08-06 10:50:54] SCOUT-LAUF | 85a56d485eac01b1
+[2026-08-06 10:51:15] SESSION-SUMMARY | Heute gefixt (Claude+Dima):
+1. Publisher: push() statt nur build() - context.md wieder live alle 3min
+2. Telegram: get_updates(-1) Bug - erster Befehl nach Restart nicht mehr verschluckt
+3. Telegram: Voice in Thread - kein Loop-Block mehr bei Sprachnachrichten
+4. Telegram: Oracle-Buttons direkt ohne Git-Roundtrip - sofortiger Output
+5. Telegram: Shebang-Fix, kortex sicherer Import, threading oben
+6. Autonomous: Xiaomi-IP hardcoded 10.244.147.131 -> config.ini (Spam-Quelle gefixt)
+7. Autonomous: Skill-Builder nach Scout-Erfolg, nicht im except-Block
+8. Cortex: find_xiaomi() nur bei SSH-Fail, nicht jede Runde - spart Akku+RAM
+9. Cortex: Scan-Range 10.234.166.x -> 10.58.220.x (richtige Range)
+10. Cortex: u0_a400 -> root als SSH-User
+11. Bridge: collect_status() rief find_xiaomi() auf -> direkter SSH-Check
+12. Bridge: Alle hardcoded Pfade -> expanduser
+13. Talk: fname NameError in auto_save_to_memory gefixt
+14. Talk: math_signals bereinigt (lkw/uhrzeit/datum raus)
+15. Memory: save() Spaltenanzahl-Bug (7 statt 5)
+16. VecDB: vec0.so absoluter Pfad - RAG war seit Monaten blind
+17. Thermal: Negative Werte (mmw3 -273000) rausfiltern
+18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
+STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.

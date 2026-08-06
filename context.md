@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:49:33.120790)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:51:15.786533)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:49:33.112157
+Stand: 2026-08-06T10:51:15.777139
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -27,6 +27,9 @@ Stand: 2026-08-06T10:49:33.112157
 - Dima hat auf Xiaomi in Termux sshd eingegeben.
 - Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
 - Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
+- JACK kann das Xiaomi per SSH ansprechen.
+- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
+- JACK kennt Befehle wie `/skill save <name>`.
 
 ## Aktive Module (74)
 - install_litert.py
@@ -108,10 +111,10 @@ Stand: 2026-08-06T10:49:33.112157
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 13264) 132s
-run: jack_telegram: (pid 9439) 458s
+run: jack_cortex: (pid 13264) 234s
+run: jack_telegram: (pid 9439) 560s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 9714s
+run: ollama: (pid 8054) 9816s
 
 ## Letzte Aenderungen
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
@@ -139,26 +142,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 05:04:39] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
-[2026-08-06 05:04:39] MONITOR-EVENT | 1 Events
-[2026-08-06 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 27 Eintraege
-[2026-08-06 06:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
-[2026-08-06 06:53:29] MONITOR-EVENT | 1 Events
-[2026-08-06 07:09:39] MONITOR-EVENT | 1 Events
-[2026-08-06 07:55:04] MONITOR-VOLLSCAN | ok
-[2026-08-06 08:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
-[2026-08-06 09:23:17] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-08-06 09:23:17] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
-[2026-08-06 09:24:43] SCOUT-LAUF | 20083632b0872eff
-[2026-08-06 10:23:12] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-08-06 10:23:12] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
-[2026-08-06 10:24:33] SCOUT-LAUF | 591827d2a3613065
-[2026-08-06 10:30:08] ORACLE-EINGANG | btn-1786: sv status jack_cortex jack_telegram jack_waechter ollama
-[2026-08-06 10:39:49] MONITOR-DIENST-TOT | jack_telegram
-[2026-08-06 10:39:50] MONITOR-EVENT | 1 Events
-[2026-08-06 10:43:10] MONITOR-VOLLSCAN | ok
-[2026-08-06 10:43:52] MONITOR-EVENT | 1 Events
-[2026-08-06 10:49:33] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 10:51:15] SESSION-SUMMARY | Heute gefixt (Claude+Dima):
+1. Publisher: push() statt nur build() - context.md wieder live alle 3min
+2. Telegram: get_updates(-1) Bug - erster Befehl nach Restart nicht mehr verschluckt
+3. Telegram: Voice in Thread - kein Loop-Block mehr bei Sprachnachrichten
+4. Telegram: Oracle-Buttons direkt ohne Git-Roundtrip - sofortiger Output
+5. Telegram: Shebang-Fix, kortex sicherer Import, threading oben
+6. Autonomous: Xiaomi-IP hardcoded 10.244.147.131 -> config.ini (Spam-Quelle gefixt)
+7. Autonomous: Skill-Builder nach Scout-Erfolg, nicht im except-Block
+8. Cortex: find_xiaomi() nur bei SSH-Fail, nicht jede Runde - spart Akku+RAM
+9. Cortex: Scan-Range 10.234.166.x -> 10.58.220.x (richtige Range)
+10. Cortex: u0_a400 -> root als SSH-User
+11. Bridge: collect_status() rief find_xiaomi() auf -> direkter SSH-Check
+12. Bridge: Alle hardcoded Pfade -> expanduser
+13. Talk: fname NameError in auto_save_to_memory gefixt
+14. Talk: math_signals bereinigt (lkw/uhrzeit/datum raus)
+15. Memory: save() Spaltenanzahl-Bug (7 statt 5)
+16. VecDB: vec0.so absoluter Pfad - RAG war seit Monaten blind
+17. Thermal: Negative Werte (mmw3 -273000) rausfiltern
+18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
+STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 
 ## Budget heute
-Heute: Text 14/300 | Vision 0/40 | Tokens 2515
+Heute: Text 14/300 | Vision 0/40 | Tokens 5434
