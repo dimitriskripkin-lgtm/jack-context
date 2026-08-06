@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T20:26:18.517209)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T20:29:20.684578)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T20:26:18.502559
+Stand: 2026-08-06T20:29:20.667448
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -15,6 +15,7 @@ Stand: 2026-08-06T20:26:18.502559
 - Dima ist Hobby-Programmierer und Autodidakt.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
 - Dima möchte mit JACK Unabhängigkeit und Freiheit aufbauen.
+- JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
 - JACK nutzt Gemini als Denkwerkzeug über API-Calls.
 - JACK steht unter Dimas voller Kontrolle.
@@ -24,7 +25,6 @@ Stand: 2026-08-06T20:26:18.502559
 - Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - Dima hat die Anweisung gegeben, bei bestimmten Fragen länger zu antworten.
-- JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
 - Dima ist jemand, der nach der Nachtschicht im Sprinter lieber noch Code schreibt als schläft.
 - Dima hat einen Joint zum Entspannen genehmigt.
 
@@ -110,10 +110,10 @@ Stand: 2026-08-06T20:26:18.502559
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 31152s
-run: jack_telegram: (pid 5190) 16096s
+run: jack_cortex: (pid 24341) 31334s
+run: jack_telegram: (pid 5190) 16278s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 44319s
+run: ollama: (pid 8054) 44501s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -163,4 +163,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 18:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 69/300 | Vision 0/40 | Tokens 111499
+Heute: Text 70/300 | Vision 0/40 | Tokens 115276
