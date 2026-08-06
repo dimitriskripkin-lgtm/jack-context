@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T18:24:56.820436)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T18:27:58.869897)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T18:24:56.809568
+Stand: 2026-08-06T18:27:58.855604
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,7 +26,6 @@ Stand: 2026-08-06T18:24:56.809568
 - Dima hat die Anweisung gegeben, bei bestimmten Fragen länger zu antworten.
 - JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
 - Dima ist jemand, der nach der Nachtschicht im Sprinter lieber noch Code schreibt als schläft.
-- Dima ist mein Nutzer und möchte mit JACK eine unabhängige Zukunft aufbauen.
 - Dima hat einen Joint zum Entspannen genehmigt.
 
 ## Aktive Module (76)
@@ -111,10 +110,10 @@ Stand: 2026-08-06T18:24:56.809568
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 23870s
-run: jack_telegram: (pid 5190) 8814s
+run: jack_cortex: (pid 24341) 24052s
+run: jack_telegram: (pid 5190) 8996s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 37037s
+run: ollama: (pid 8054) 37219s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -164,4 +163,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 16:27:05] PROFIL-UPDATE | 5 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 68/300 | Vision 0/40 | Tokens 107705
+Heute: Text 69/300 | Vision 0/40 | Tokens 111499
