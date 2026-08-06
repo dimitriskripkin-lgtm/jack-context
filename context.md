@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T12:26:59.991825)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T12:30:01.500966)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T12:26:59.983508
+Stand: 2026-08-06T12:30:01.494348
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,25 +11,21 @@ Stand: 2026-08-06T12:26:59.983508
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), kein Fernfahrer.
-- Dima ist Hobby-Programmierer.
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
+- Dima ist Hobby-Programmierer und Autodidakt.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen.
 - Dima sucht mit JACK Unabhängigkeit und Freiheit.
-- Dima hat den Befehl gegeben, ins Verzeichnis `~/jack/titan_legacy` zu wechseln und eine Datei von GitHub zu laden.
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
 - JACK nutzt Gemini als Denkwerkzeug über API-Calls.
-- JACK hat ein lokales Gedächtnis in SQLite.
-- JACK soll sich selbst lernen und verbessern.
 - JACK steht unter Dimas voller Kontrolle.
-- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK kann das Xiaomi 11T Pro per SSH ansprechen.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
-- Dima ist kein Fernfahrer.
 - Dima hat KEINEN Hund.
-- Dima hat auf Xiaomi in Termux sshd eingegeben.
-- Dima hat eine autobiographische Information hochgeladen, die JACK durchsuchen soll.
-- Dima hat die Anweisung gegeben, in Zukunft bei bestimmten Fragen länger zu antworten.
-- Dima ist Autodidakt im Programmieren.
+- Dima ist KEIN Fernfahrer.
+- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
+- Dima hat die Anweisung gegeben, bei bestimmten Fragen länger zu antworten.
+- Dima möchte mit JACK eine unabhängige Zukunft aufbauen.
+- JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
 
 ## Aktive Module (76)
 - install_litert.py
@@ -113,12 +109,13 @@ Stand: 2026-08-06T12:26:59.983508
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 2393s
-run: jack_telegram: (pid 17882) 0s
+run: jack_cortex: (pid 24341) 2575s
+run: jack_telegram: (pid 19071) 106s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 15560s
+run: ollama: (pid 8054) 15742s
 
 ## Letzte Aenderungen
+7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
 dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
 6d6439d talk: intent vor gemini, ergebnis fliesst in antwort statt raten
 3977c63 intent-engine v2: hybrid keyword+gemini, bestaetigungs-buttons, historie mit mustererkennung, 11 aktionen
@@ -133,7 +130,6 @@ dfc28fd bridge: system-prompt persoenlicher kumpel-ton, dima-kontext tief
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
 66eb8c3 memory: save() alle 7 spalten inkl timestamp+source
 af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory: save() spalten fix | vecdb: expanduser
-303fa37 telegram: oracle-block komplett neu ohne kaputte f-strings
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -144,9 +140,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-16. VecDB: vec0.so absoluter Pfad - RAG war seit Monaten blind
-17. Thermal: Negative Werte (mmw3 -273000) rausfiltern
-18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
 STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:53:39] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 10:55:01] SCOUT-LAUF | 021e2908c65a8686
@@ -164,6 +157,9 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 11:31:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-06 11:31:10] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-06 12:26:59] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 12:27:01] PROFIL-UPDATE | 6 neue Eintraege in kortex_profile.json
+[2026-08-06 12:28:21] SCOUT-LAUF | 3170291340c90743
+[2026-08-06 12:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 60/300 | Vision 0/40 | Tokens 88676
+Heute: Text 60/300 | Vision 0/40 | Tokens 92429
