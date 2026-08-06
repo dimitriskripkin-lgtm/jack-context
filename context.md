@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:08:46.636330)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:11:48.498447)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:08:46.629285
+Stand: 2026-08-06T10:11:48.490549
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -108,12 +108,13 @@ Stand: 2026-08-06T10:08:46.629285
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 10434) 1113271s
-run: jack_telegram: (pid 13562) 659s
+run: jack_cortex: (pid 10434) 1113453s
+run: jack_telegram: (pid 22002) 98s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 7267s
+run: ollama: (pid 8054) 7449s
 
 ## Letzte Aenderungen
+aa1099a telegram: erster befehl nach restart nicht mehr verschluckt - start-ts filter statt get_updates(-1)
 2b5b89d jack_selftest: ein befehl gruen/rot fuer alle kern-checks
 bc6974f publisher: push() loop-fix, thermal: negative sensor filter
 8c08356 publisher: push() statt nur build() im waechter-loop, thermal: negative sensor-werte rausfiltern
@@ -128,7 +129,6 @@ e7fba45 jack_hey: Loop-Overhead weg, Stille-Pruefung schaltet sich bei lauter Um
 807a1c3 jack_hey: Standardzeit 5s, Stille-Schwelle -45dB (fahrendes Auto hat -18dB Grundrauschen)
 adfd702 jack_hey: Stille-Erkennung - Aufnahme stoppt automatisch nach 2s Ruhe
 211513e Voice-Aufraeumen: jack_hey Argument-Bug gefixt, 3 tote Module archiviert, Shortcuts beschriftet
-add6692 feat: Router-Logging für Transparenz
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
