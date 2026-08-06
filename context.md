@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T10:53:40.003348)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T10:55:48.947484)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T10:53:39.996355
+Stand: 2026-08-06T10:55:48.938992
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -111,12 +111,14 @@ Stand: 2026-08-06T10:53:39.996355
 - Offene Fehler: 0
 - Erinnerungen: 173
 - Dienste:
-run: jack_cortex: (pid 13264) 378s
-run: jack_telegram: (pid 9439) 704s
+run: jack_cortex: (pid 13264) 507s
+run: jack_telegram: (pid 20085) 0s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 9960s
+run: ollama: (pid 8054) 10089s
 
 ## Letzte Aenderungen
+1fcafcc session 2026-08-06: 19 bugs gefixt, rag aktiv, oracle instant, voice thread, publisher live
+9cb6fe1 autonomous: sanity-thread alle 6h | selftest: temp-schwelle 43->50C
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
 66eb8c3 memory: save() alle 7 spalten inkl timestamp+source
 af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory: save() spalten fix | vecdb: expanduser
@@ -130,8 +132,6 @@ adbca2b bridge+talk: expanduser statt hardcode, xiaomi-ip fix, fname-nameerror, 
 194642d telegram: threading fuer langsame calls, sofortige quittung, fast_cmds direkt
 aa1099a telegram: erster befehl nach restart nicht mehr verschluckt - start-ts filter statt get_updates(-1)
 2b5b89d jack_selftest: ein befehl gruen/rot fuer alle kern-checks
-bc6974f publisher: push() loop-fix, thermal: negative sensor filter
-8c08356 publisher: push() statt nur build() im waechter-loop, thermal: negative sensor-werte rausfiltern
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -142,9 +142,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-1. Publisher: push() statt nur build() - context.md wieder live alle 3min
-2. Telegram: get_updates(-1) Bug - erster Befehl nach Restart nicht mehr verschluckt
-3. Telegram: Voice in Thread - kein Loop-Block mehr bei Sprachnachrichten
 4. Telegram: Oracle-Buttons direkt ohne Git-Roundtrip - sofortiger Output
 5. Telegram: Shebang-Fix, kortex sicherer Import, threading oben
 6. Autonomous: Xiaomi-IP hardcoded 10.244.147.131 -> config.ini (Spam-Quelle gefixt)
@@ -162,6 +159,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
 STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:53:39] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 10:55:01] SCOUT-LAUF | 021e2908c65a8686
+[2026-08-06 10:55:39] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-06 10:55:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 16/300 | Vision 0/40 | Tokens 8394
+Heute: Text 17/300 | Vision 0/40 | Tokens 11354

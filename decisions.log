@@ -629,3 +629,6 @@ SyntaxError: '(' wa
 18. Selftest: jack_selftest.py gebaut - ein Befehl, alles gruen/rot
 STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-06 10:53:39] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 10:55:01] SCOUT-LAUF | 021e2908c65a8686
+[2026-08-06 10:55:39] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-06 10:55:48] WAECHTER-START | Nacht-Ueberwachung laeuft
