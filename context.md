@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T09:23:15.351086)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T09:23:17.325080)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T09:23:15.344269
+Stand: 2026-08-06T09:23:17.320012
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -107,10 +107,10 @@ Stand: 2026-08-06T09:23:15.344269
 - Offene Fehler: 0
 - Erinnerungen: 171
 - Dienste:
-run: jack_cortex: (pid 10434) 1110540s
-run: jack_telegram: (pid 22987) 144387s
+run: jack_cortex: (pid 10434) 1110542s
+run: jack_telegram: (pid 22987) 144389s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 4536s
+run: ollama: (pid 8054) 4538s
 
 ## Letzte Aenderungen
 b4ecf05 jack_talk: check aus math_signals entfernt - verhinderte Antworten auf Alltagsfragen
@@ -138,8 +138,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-05 16:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
-[2026-08-05 18:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-05 20:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-05 22:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 [2026-08-06 00:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
@@ -158,6 +156,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 07:09:39] MONITOR-EVENT | 1 Events
 [2026-08-06 07:55:04] MONITOR-VOLLSCAN | ok
 [2026-08-06 08:16:16] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
+[2026-08-06 09:23:17] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-06 09:23:17] AUTOLEARN-ERR | module 'jack_config' has no attribute 'get_val'
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 0
+Heute: Text 7/300 | Vision 0/40 | Tokens 0
