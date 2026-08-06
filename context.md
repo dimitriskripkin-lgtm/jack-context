@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T09:44:30.762779)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T09:47:32.956877)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T09:44:30.750256
+Stand: 2026-08-06T09:47:32.944586
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -107,10 +107,10 @@ Stand: 2026-08-06T09:44:30.750256
 - Offene Fehler: 0
 - Erinnerungen: 171
 - Dienste:
-run: jack_cortex: (pid 10434) 1111815s
-run: jack_telegram: (pid 22987) 145662s
+run: jack_cortex: (pid 10434) 1111997s
+run: jack_telegram: (pid 22987) 145844s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 5811s
+run: ollama: (pid 8054) 5993s
 
 ## Letzte Aenderungen
 bc6974f publisher: push() loop-fix, thermal: negative sensor filter
