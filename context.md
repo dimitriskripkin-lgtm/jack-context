@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T14:25:22.924821)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T14:28:25.985160)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T14:25:22.907220
+Stand: 2026-08-06T14:28:25.973343
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -26,6 +26,10 @@ Stand: 2026-08-06T14:25:22.907220
 - Dima hat die Anweisung gegeben, bei bestimmten Fragen länger zu antworten.
 - Dima möchte mit JACK eine unabhängige Zukunft aufbauen.
 - JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
+- Dima ist jemand, der nach der Nachtschicht im Sprinter lieber noch Code schreibt als schläft.
+- Dima hat sich aus seinem Burnout mit Stoizismus, Jung und Kiyosaki herausgezogen.
+- Das Xiaomi 11T Pro ist erreichbar, aber die Verbindung ist oft instabil.
+- Dima möchte mit JACK eine unabhängige Zukunft aufbauen.
 
 ## Aktive Module (76)
 - install_litert.py
@@ -109,10 +113,10 @@ Stand: 2026-08-06T14:25:22.907220
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 9496s
-run: jack_telegram: (pid 19071) 7027s
+run: jack_cortex: (pid 24341) 9679s
+run: jack_telegram: (pid 19071) 7210s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 22663s
+run: ollama: (pid 8054) 22846s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -140,7 +144,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 10:55:01] SCOUT-LAUF | 021e2908c65a8686
 [2026-08-06 10:55:39] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 10:55:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 10:55:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
@@ -160,6 +163,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 12:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 12:52:07] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-06 12:55:50] MONITOR-EVENT | 1 Events
+[2026-08-06 14:27:03] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 60/300 | Vision 0/40 | Tokens 92429
+Heute: Text 61/300 | Vision 0/40 | Tokens 96203
