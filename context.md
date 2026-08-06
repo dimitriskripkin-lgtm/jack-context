@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-06T22:24:33.673584)
+# JACK LIVE-KONTEXT (auto, 2026-08-06T22:27:35.473304)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-06T22:24:33.661911
+Stand: 2026-08-06T22:27:35.458612
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -27,6 +27,8 @@ Stand: 2026-08-06T22:24:33.661911
 - Dima hat die Anweisung gegeben, bei bestimmten Fragen länger zu antworten.
 - Dima ist jemand, der nach der Nachtschicht im Sprinter lieber noch Code schreibt als schläft.
 - Dima hat einen Joint zum Entspannen genehmigt.
+- Das Xiaomi ist oft nicht erreichbar.
+- Die SSH-Verbindung zum Xiaomi ist häufig instabil.
 
 ## Aktive Module (76)
 - install_litert.py
@@ -110,10 +112,10 @@ Stand: 2026-08-06T22:24:33.661911
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 38247s
-run: jack_telegram: (pid 5190) 23191s
+run: jack_cortex: (pid 24341) 38429s
+run: jack_telegram: (pid 5190) 23373s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 51414s
+run: ollama: (pid 8054) 51596s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -163,4 +165,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-06 18:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 70/300 | Vision 0/40 | Tokens 115276
+Heute: Text 71/300 | Vision 0/40 | Tokens 119080
