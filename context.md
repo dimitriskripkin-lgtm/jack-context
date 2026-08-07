@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T11:54:25.257044)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T11:57:27.187291)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T11:54:25.248519
+Stand: 2026-08-07T11:57:27.180155
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,14 +112,15 @@ Stand: 2026-08-07T11:54:25.248519
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 190
+- Erinnerungen: 191
 - Dienste:
-run: jack_cortex: (pid 31748) 16378s
-run: jack_telegram: (pid 957) 16212s
+run: jack_cortex: (pid 31748) 16560s
+run: jack_telegram: (pid 957) 16394s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 18162s
+run: ollama: (pid 11415) 18344s
 
 ## Letzte Aenderungen
+e2be96d memory: schema fix 5->7 spalten, monkey-patch weg, schreibt via db_queue
 c51e96d memory_tree: schreibt via db_queue (thread-safe) | offene aenderungen synchronisiert
 9457fb2 db_queue: thread-safe write-queue | gemini: bare except geloggt | logging in kernmodulen
 bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
@@ -134,7 +135,6 @@ dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen meld
 3977c63 intent-engine v2: hybrid keyword+gemini, bestaetigungs-buttons, historie mit mustererkennung, 11 aktionen
 b2cea51 intent: xiaomi_status als alias, /level ohne space
 1e815d7 talk: few-shot beispiel + mindestlaenge persoenliche fragen | telegram: merke-dir handler
-081dbf8 talk: context persoenlicher, nicht ausweichen, kumpel-ton
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
