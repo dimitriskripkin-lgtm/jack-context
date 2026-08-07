@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T05:01:41.453988)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T05:04:43.521545)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T05:01:41.441723
+Stand: 2026-08-07T05:04:43.509197
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-07T05:01:41.441723
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 62075s
-run: jack_telegram: (pid 5190) 47019s
+run: jack_cortex: (pid 24341) 62257s
+run: jack_telegram: (pid 5190) 47201s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 75242s
+run: ollama: (pid 8054) 75424s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
