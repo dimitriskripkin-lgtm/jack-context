@@ -673,3 +673,5 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-07 15:10:33] MONITOR-EVENT | 1 Events
 [2026-08-07 15:40:53] MONITOR-EVENT | 1 Events
 [2026-08-07 17:21:40] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-07 19:21:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-07 19:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'

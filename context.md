@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T19:20:34.571361)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T19:23:36.868301)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T19:20:34.560295
+Stand: 2026-08-07T19:23:36.860268
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-08-07T19:20:34.560295
 - Das Xiaomi ist oft nicht erreichbar.
 - Die SSH-Verbindung zum Xiaomi ist häufig instabil.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
-- Dima hat Dima als Nutzer undJACK als KI-OS identifiziert.
+- Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
 ## Aktive Module (78)
 - install_litert.py
@@ -115,10 +115,10 @@ Stand: 2026-08-07T19:20:34.560295
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 43147s
-run: jack_telegram: (pid 957) 42981s
+run: jack_cortex: (pid 31748) 43329s
+run: jack_telegram: (pid 957) 43163s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 44931s
+run: ollama: (pid 11415) 45113s
 
 ## Letzte Aenderungen
 25be220 tests: duplikat-test raeumt vor testlauf auf
@@ -146,8 +146,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 00:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
-[2026-08-07 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 57 Eintraege
 [2026-08-07 06:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 06:51:54] VULKAN-BENCHMARK | Fairer Test mit identischem Prompt: MIT Vulkan 5.04 Woerter/s (42.8s), OHNE Vulkan 8.36 Woerter/s (22.6s). Vulkan ist 66 Prozent LANGSAMER. Temperatur identisch 76C. freedreno-Treiber + experimentelles ollama-vulkan-backend sind langsamer als optimierte ARM-CPU-Pfade. Vulkan deaktiviert. Die 6.6s-Messung vom 06.08. war ungueltig (2-Token-Antwort).
 [2026-08-07 07:03:56] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -166,6 +164,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 15:10:33] MONITOR-EVENT | 1 Events
 [2026-08-07 15:40:53] MONITOR-EVENT | 1 Events
 [2026-08-07 17:21:40] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-07 19:21:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-07 19:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 25/300 | Vision 1/40 | Tokens 64375
+Heute: Text 26/300 | Vision 1/40 | Tokens 67885
