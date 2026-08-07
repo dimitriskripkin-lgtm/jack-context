@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T07:08:15.969590)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T07:11:17.582828)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T07:08:15.963489
+Stand: 2026-08-07T07:11:17.572480
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-07T07:08:15.963489
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 21685) 181s
-run: jack_telegram: (pid 5190) 54613s
+run: jack_cortex: (pid 21685) 363s
+run: jack_telegram: (pid 5190) 54795s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 992s
+run: ollama: (pid 11415) 1174s
 
 ## Letzte Aenderungen
 8a090d0 logging: jack_logging.py gebaut, blinde excepts in cortex/autonomous/intent geloggt, budget fname-fix, code_writer sys_prompt
