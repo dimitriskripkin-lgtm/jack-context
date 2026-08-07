@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T19:32:43.540497)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T19:35:45.789398)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T19:32:43.530807
+Stand: 2026-08-07T19:35:45.781994
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,12 +115,13 @@ Stand: 2026-08-07T19:32:43.530807
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 43876s
-run: jack_telegram: (pid 21690) 354s
+run: jack_cortex: (pid 31748) 44058s
+run: jack_telegram: (pid 27719) 176s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 45660s
+run: ollama: (pid 11415) 45842s
 
 ## Letzte Aenderungen
+c65b048 telegram: foto-analyse immer auf deutsch
 171ddfd ci: github actions - pytest bei jedem push auf master
 bf51ca0 telegram: foto-analyse mit ffmpeg-komprimierung, async thread
 25be220 tests: duplikat-test raeumt vor testlauf auf
@@ -135,7 +136,6 @@ bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
 5409af4 memory-tree: baumstruktur mit parent_id, auto-chaining in sessions, /baum befehl
 9397b65 logging: blinde excepts in 5 kernmodulen geloggt | memory: parent_id baumstruktur
 8a090d0 logging: jack_logging.py gebaut, blinde excepts in cortex/autonomous/intent geloggt, budget fname-fix, code_writer sys_prompt
-44f1655 ruff: 48 autofixes, fname-nameerror in jack_budget gefixt, sys_prompt in code_writer verdrahtet, jack_node_alpha archiviert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
