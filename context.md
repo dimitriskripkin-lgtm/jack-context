@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T20:15:04.172455)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T20:18:06.737945)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T20:15:04.156733
+Stand: 2026-08-07T20:18:06.731974
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,12 +115,13 @@ Stand: 2026-08-07T20:15:04.156733
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 46417s
-run: jack_telegram: (pid 27719) 2535s
+run: jack_cortex: (pid 31748) 46599s
+run: jack_telegram: (pid 27719) 2717s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 48201s
+run: ollama: (pid 11415) 48383s
 
 ## Letzte Aenderungen
+030eb0e db_queue: import als fallback in cortex/missions/memory_engine
 c65b048 telegram: foto-analyse immer auf deutsch
 171ddfd ci: github actions - pytest bei jedem push auf master
 bf51ca0 telegram: foto-analyse mit ffmpeg-komprimierung, async thread
@@ -135,7 +136,6 @@ c51e96d memory_tree: schreibt via db_queue (thread-safe) | offene aenderungen sy
 bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
 5409af4 memory-tree: baumstruktur mit parent_id, auto-chaining in sessions, /baum befehl
 9397b65 logging: blinde excepts in 5 kernmodulen geloggt | memory: parent_id baumstruktur
-8a090d0 logging: jack_logging.py gebaut, blinde excepts in cortex/autonomous/intent geloggt, budget fname-fix, code_writer sys_prompt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
