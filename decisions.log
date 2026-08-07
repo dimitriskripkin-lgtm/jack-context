@@ -670,3 +670,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-07 11:31:30] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-07 12:06:23] MONITOR-VOLLSCAN | ok
 [2026-08-07 13:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-07 15:10:33] MONITOR-EVENT | 1 Events
