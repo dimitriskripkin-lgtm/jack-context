@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T06:56:49.783261)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T06:59:51.819470)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T06:56:49.770222
+Stand: 2026-08-07T06:59:51.813808
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-07T06:56:49.770222
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 68983s
-run: jack_telegram: (pid 5190) 53927s
+run: jack_cortex: (pid 24341) 69165s
+run: jack_telegram: (pid 5190) 54109s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 306s
+run: ollama: (pid 11415) 488s
 
 ## Letzte Aenderungen
 477c233 vulkan: nach fairem benchmark deaktiviert - 66 prozent langsamer als CPU
