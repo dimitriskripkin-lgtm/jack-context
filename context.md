@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T06:59:51.819470)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T07:02:53.418889)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T06:59:51.813808
+Stand: 2026-08-07T07:02:53.412326
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -30,7 +30,7 @@ Stand: 2026-08-07T06:59:51.813808
 - Die SSH-Verbindung zum Xiaomi ist häufig instabil.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 
-## Aktive Module (76)
+## Aktive Module (75)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -62,7 +62,6 @@ Stand: 2026-08-07T06:59:51.813808
 - jack_memory_maintenance.py
 - jack_missions.py
 - jack_monitor.py
-- jack_node_alpha.py
 - jack_operator.py
 - jack_oracle.py
 - jack_patch.py
@@ -112,12 +111,13 @@ Stand: 2026-08-07T06:59:51.813808
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 69165s
-run: jack_telegram: (pid 5190) 54109s
+run: jack_cortex: (pid 24341) 69347s
+run: jack_telegram: (pid 5190) 54291s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 488s
+run: ollama: (pid 11415) 670s
 
 ## Letzte Aenderungen
+44f1655 ruff: 48 autofixes, fname-nameerror in jack_budget gefixt, sys_prompt in code_writer verdrahtet, jack_node_alpha archiviert
 477c233 vulkan: nach fairem benchmark deaktiviert - 66 prozent langsamer als CPU
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
 dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
@@ -132,7 +132,6 @@ dfc28fd bridge: system-prompt persoenlicher kumpel-ton, dima-kontext tief
 1fcafcc session 2026-08-06: 19 bugs gefixt, rag aktiv, oracle instant, voice thread, publisher live
 9cb6fe1 autonomous: sanity-thread alle 6h | selftest: temp-schwelle 43->50C
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
-66eb8c3 memory: save() alle 7 spalten inkl timestamp+source
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
