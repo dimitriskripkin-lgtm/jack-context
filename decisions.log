@@ -656,3 +656,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-07 00:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 57 Eintraege
 [2026-08-07 06:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-07 06:51:54] VULKAN-BENCHMARK | Fairer Test mit identischem Prompt: MIT Vulkan 5.04 Woerter/s (42.8s), OHNE Vulkan 8.36 Woerter/s (22.6s). Vulkan ist 66 Prozent LANGSAMER. Temperatur identisch 76C. freedreno-Treiber + experimentelles ollama-vulkan-backend sind langsamer als optimierte ARM-CPU-Pfade. Vulkan deaktiviert. Die 6.6s-Messung vom 06.08. war ungueltig (2-Token-Antwort).

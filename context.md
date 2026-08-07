@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T06:50:46.473660)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T06:53:48.129494)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T06:50:46.465115
+Stand: 2026-08-07T06:53:48.122495
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,12 +112,13 @@ Stand: 2026-08-07T06:50:46.465115
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 68620s
-run: jack_telegram: (pid 5190) 53564s
+run: jack_cortex: (pid 24341) 68802s
+run: jack_telegram: (pid 5190) 53746s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 9446) 155s
+run: ollama: (pid 11415) 125s
 
 ## Letzte Aenderungen
+477c233 vulkan: nach fairem benchmark deaktiviert - 66 prozent langsamer als CPU
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
 dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
 6d6439d talk: intent vor gemini, ergebnis fliesst in antwort statt raten
@@ -132,7 +133,6 @@ dfc28fd bridge: system-prompt persoenlicher kumpel-ton, dima-kontext tief
 9cb6fe1 autonomous: sanity-thread alle 6h | selftest: temp-schwelle 43->50C
 a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
 66eb8c3 memory: save() alle 7 spalten inkl timestamp+source
-af861c5 cortex: ssh statt ping, find_xiaomi nur bei fail, root-user fix | memory: save() spalten fix | vecdb: expanduser
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -143,7 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-08-06 11:16:10] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 11:16:11] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
 [2026-08-06 11:17:31] SCOUT-LAUF | a77d073fbbb0fdfc
@@ -163,6 +162,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 00:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 57 Eintraege
 [2026-08-07 06:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-07 06:51:54] VULKAN-BENCHMARK | Fairer Test mit identischem Prompt: MIT Vulkan 5.04 Woerter/s (42.8s), OHNE Vulkan 8.36 Woerter/s (22.6s). Vulkan ist 66 Prozent LANGSAMER. Temperatur identisch 76C. freedreno-Treiber + experimentelles ollama-vulkan-backend sind langsamer als optimierte ARM-CPU-Pfade. Vulkan deaktiviert. Die 6.6s-Messung vom 06.08. war ungueltig (2-Token-Antwort).
 
 ## Budget heute
 Heute: Text 4/300 | Vision 0/40 | Tokens 15259
