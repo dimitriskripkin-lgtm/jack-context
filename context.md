@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T20:09:01.950358)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T20:12:02.159125)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T20:09:01.944645
+Stand: 2026-08-07T20:12:02.149863
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,10 +115,10 @@ Stand: 2026-08-07T20:09:01.944645
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 46054s
-run: jack_telegram: (pid 27719) 2172s
+run: jack_cortex: (pid 31748) 46235s
+run: jack_telegram: (pid 27719) 2353s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 47838s
+run: ollama: (pid 11415) 48019s
 
 ## Letzte Aenderungen
 c65b048 telegram: foto-analyse immer auf deutsch
@@ -146,7 +146,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 06:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 06:51:54] VULKAN-BENCHMARK | Fairer Test mit identischem Prompt: MIT Vulkan 5.04 Woerter/s (42.8s), OHNE Vulkan 8.36 Woerter/s (22.6s). Vulkan ist 66 Prozent LANGSAMER. Temperatur identisch 76C. freedreno-Treiber + experimentelles ollama-vulkan-backend sind langsamer als optimierte ARM-CPU-Pfade. Vulkan deaktiviert. Die 6.6s-Messung vom 06.08. war ungueltig (2-Token-Antwort).
 [2026-08-07 07:03:56] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-07 07:05:14] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -166,6 +165,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 17:21:40] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-07 19:21:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-07 19:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-07 20:11:44] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 26/300 | Vision 1/40 | Tokens 67885
