@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T19:26:38.903165)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T19:29:41.022354)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T19:26:38.897139
+Stand: 2026-08-07T19:29:41.015989
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,12 +115,14 @@ Stand: 2026-08-07T19:26:38.897139
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 43511s
-run: jack_telegram: (pid 21044) 53s
+run: jack_cortex: (pid 31748) 43694s
+run: jack_telegram: (pid 21690) 172s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 45295s
+run: ollama: (pid 11415) 45478s
 
 ## Letzte Aenderungen
+171ddfd ci: github actions - pytest bei jedem push auf master
+bf51ca0 telegram: foto-analyse mit ffmpeg-komprimierung, async thread
 25be220 tests: duplikat-test raeumt vor testlauf auf
 943ee8a selftest: cpu-die 91C, akku 50C - zwei separate sensoren
 f827ff1 selftest: cpu-die 91C, akku 50C - zwei separate sensoren
@@ -134,8 +136,6 @@ bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
 9397b65 logging: blinde excepts in 5 kernmodulen geloggt | memory: parent_id baumstruktur
 8a090d0 logging: jack_logging.py gebaut, blinde excepts in cortex/autonomous/intent geloggt, budget fname-fix, code_writer sys_prompt
 44f1655 ruff: 48 autofixes, fname-nameerror in jack_budget gefixt, sys_prompt in code_writer verdrahtet, jack_node_alpha archiviert
-477c233 vulkan: nach fairem benchmark deaktiviert - 66 prozent langsamer als CPU
-7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
