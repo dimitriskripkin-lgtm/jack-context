@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T17:18:57.083277)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T17:21:59.394336)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T17:18:57.065055
+Stand: 2026-08-07T17:21:59.380915
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-08-07T17:18:57.065055
 - Das Xiaomi ist oft nicht erreichbar.
 - Die SSH-Verbindung zum Xiaomi ist häufig instabil.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
-- Der Xiaomi ist oft offline oder nicht erreichbar.
+- Dima hat Dima als Nutzer undJACK als KI-OS identifiziert.
 
 ## Aktive Module (78)
 - install_litert.py
@@ -115,10 +115,10 @@ Stand: 2026-08-07T17:18:57.065055
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 35850s
-run: jack_telegram: (pid 957) 35684s
+run: jack_cortex: (pid 31748) 36032s
+run: jack_telegram: (pid 957) 35866s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 37634s
+run: ollama: (pid 11415) 37816s
 
 ## Letzte Aenderungen
 25be220 tests: duplikat-test raeumt vor testlauf auf
@@ -146,7 +146,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 00:27:13] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-07 00:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 57 Eintraege
 [2026-08-07 06:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
@@ -166,6 +165,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 13:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 15:10:33] MONITOR-EVENT | 1 Events
 [2026-08-07 15:40:53] MONITOR-EVENT | 1 Events
+[2026-08-07 17:21:40] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 24/300 | Vision 1/40 | Tokens 60870
+Heute: Text 25/300 | Vision 1/40 | Tokens 64375
