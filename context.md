@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T07:24:28.769787)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T07:27:30.653820)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T07:24:28.763129
+Stand: 2026-08-07T07:27:30.644950
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -30,7 +30,7 @@ Stand: 2026-08-07T07:24:28.763129
 - Die SSH-Verbindung zum Xiaomi ist häufig instabil.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 
-## Aktive Module (77)
+## Aktive Module (78)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -47,6 +47,7 @@ Stand: 2026-08-07T07:24:28.763129
 - jack_config.py
 - jack_consolidate.py
 - jack_cortex.py
+- jack_db_queue.py
 - jack_gemini_bridge.py
 - jack_haliza.py
 - jack_handshake_gen.py
@@ -113,12 +114,13 @@ Stand: 2026-08-07T07:24:28.763129
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 31748) 181s
-run: jack_telegram: (pid 957) 15s
+run: jack_cortex: (pid 31748) 363s
+run: jack_telegram: (pid 957) 197s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 1965s
+run: ollama: (pid 11415) 2147s
 
 ## Letzte Aenderungen
+bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
 5409af4 memory-tree: baumstruktur mit parent_id, auto-chaining in sessions, /baum befehl
 9397b65 logging: blinde excepts in 5 kernmodulen geloggt | memory: parent_id baumstruktur
 8a090d0 logging: jack_logging.py gebaut, blinde excepts in cortex/autonomous/intent geloggt, budget fname-fix, code_writer sys_prompt
@@ -133,7 +135,6 @@ b2cea51 intent: xiaomi_status als alias, /level ohne space
 081dbf8 talk: context persoenlicher, nicht ausweichen, kumpel-ton
 54df78d bridge: system-prompt reste entfernt, sauber
 dfc28fd bridge: system-prompt persoenlicher kumpel-ton, dima-kontext tief
-32f837e config: get_val als alias | telegram: /trace zeigt live-zustand jack
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
