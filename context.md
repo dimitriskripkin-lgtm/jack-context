@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T07:03:56.315786)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T07:05:14.267098)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T07:03:56.305201
+Stand: 2026-08-07T07:05:14.259221
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-07T07:03:56.305201
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 69410s
-run: jack_telegram: (pid 5190) 54354s
+run: jack_cortex: (pid 20669) 78s
+run: jack_telegram: (pid 5190) 54432s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 733s
+run: ollama: (pid 11415) 811s
 
 ## Letzte Aenderungen
 44f1655 ruff: 48 autofixes, fname-nameerror in jack_budget gefixt, sys_prompt in code_writer verdrahtet, jack_node_alpha archiviert
@@ -143,7 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 11:16:11] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
 [2026-08-06 11:17:31] SCOUT-LAUF | a77d073fbbb0fdfc
 [2026-08-06 11:18:10] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 11:31:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -163,6 +162,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 06:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 06:51:54] VULKAN-BENCHMARK | Fairer Test mit identischem Prompt: MIT Vulkan 5.04 Woerter/s (42.8s), OHNE Vulkan 8.36 Woerter/s (22.6s). Vulkan ist 66 Prozent LANGSAMER. Temperatur identisch 76C. freedreno-Treiber + experimentelles ollama-vulkan-backend sind langsamer als optimierte ARM-CPU-Pfade. Vulkan deaktiviert. Die 6.6s-Messung vom 06.08. war ungueltig (2-Token-Antwort).
 [2026-08-07 07:03:56] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-07 07:05:14] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 15259
+Heute: Text 6/300 | Vision 0/40 | Tokens 19072
