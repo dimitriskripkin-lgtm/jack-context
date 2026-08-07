@@ -13,7 +13,7 @@
 -rw-------. 1 u0_a400 u0_a400  3414 Jul 24 11:53 /data/data/com.termux/files/home/jack/jack_coder.py
 -rw-------. 1 u0_a400 u0_a400   870 Aug  6 10:55 /data/data/com.termux/files/home/jack/jack_config.py
 -rw-------. 1 u0_a400 u0_a400  2225 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_consolidate.py
--rwx------. 1 u0_a400 u0_a400  7703 Aug  7 20:17 /data/data/com.termux/files/home/jack/jack_cortex.py
+-rwx------. 1 u0_a400 u0_a400  7703 Aug  7 22:26 /data/data/com.termux/files/home/jack/jack_cortex.py
 -rw-------. 1 u0_a400 u0_a400  1837 Aug  7 07:27 /data/data/com.termux/files/home/jack/jack_db_queue.py
 -rw-------. 1 u0_a400 u0_a400  5471 Aug  7 07:28 /data/data/com.termux/files/home/jack/jack_gemini_bridge.py
 -rw-------. 1 u0_a400 u0_a400  6580 Jul 24 13:08 /data/data/com.termux/files/home/jack/jack_haliza.py
@@ -27,10 +27,10 @@
 -rw-------. 1 u0_a400 u0_a400  2066 Aug  7 07:03 /data/data/com.termux/files/home/jack/jack_logging.py
 -rw-------. 1 u0_a400 u0_a400  3005 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_math.py
 -rw-------. 1 u0_a400 u0_a400  1970 Aug  7 11:57 /data/data/com.termux/files/home/jack/jack_memory.py
--rwx------. 1 u0_a400 u0_a400  3529 Aug  7 20:17 /data/data/com.termux/files/home/jack/jack_memory_engine.py
+-rwx------. 1 u0_a400 u0_a400  3529 Aug  7 22:26 /data/data/com.termux/files/home/jack/jack_memory_engine.py
 -rw-------. 1 u0_a400 u0_a400  1534 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_memory_maintenance.py
 -rw-------. 1 u0_a400 u0_a400  6601 Aug  7 11:41 /data/data/com.termux/files/home/jack/jack_memory_tree.py
--rw-------. 1 u0_a400 u0_a400  7921 Aug  7 20:17 /data/data/com.termux/files/home/jack/jack_missions.py
+-rw-------. 1 u0_a400 u0_a400  7921 Aug  7 22:26 /data/data/com.termux/files/home/jack/jack_missions.py
 -rw-------. 1 u0_a400 u0_a400  8066 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_monitor.py
 -rw-------. 1 u0_a400 u0_a400  7799 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_operator.py
 -rw-------. 1 u0_a400 u0_a400  6493 Jul 24 12:54 /data/data/com.termux/files/home/jack/jack_oracle.py
