@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T02:27:09.159921)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T02:30:11.016440)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T02:27:09.148578
+Stand: 2026-08-07T02:30:11.005963
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-07T02:27:09.148578
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 52803s
-run: jack_telegram: (pid 5190) 37747s
+run: jack_cortex: (pid 24341) 52985s
+run: jack_telegram: (pid 5190) 37929s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 65970s
+run: ollama: (pid 8054) 66152s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -165,4 +165,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 00:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 3820
+Heute: Text 2/300 | Vision 0/40 | Tokens 7633
