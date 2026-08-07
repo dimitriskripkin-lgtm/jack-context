@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T20:00:01.236338)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T20:03:01.434094)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T20:00:01.225384
+Stand: 2026-08-07T20:03:01.426963
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,10 +115,10 @@ Stand: 2026-08-07T20:00:01.225384
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 45514s
-run: jack_telegram: (pid 27719) 1632s
+run: jack_cortex: (pid 31748) 45694s
+run: jack_telegram: (pid 27719) 1812s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 47298s
+run: ollama: (pid 11415) 47478s
 
 ## Letzte Aenderungen
 c65b048 telegram: foto-analyse immer auf deutsch
