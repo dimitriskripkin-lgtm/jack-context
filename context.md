@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T07:05:14.267098)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T07:08:15.969590)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T07:05:14.259221
+Stand: 2026-08-07T07:08:15.963489
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,12 +112,13 @@ Stand: 2026-08-07T07:05:14.259221
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 20669) 78s
-run: jack_telegram: (pid 5190) 54432s
+run: jack_cortex: (pid 21685) 181s
+run: jack_telegram: (pid 5190) 54613s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 811s
+run: ollama: (pid 11415) 992s
 
 ## Letzte Aenderungen
+8a090d0 logging: jack_logging.py gebaut, blinde excepts in cortex/autonomous/intent geloggt, budget fname-fix, code_writer sys_prompt
 44f1655 ruff: 48 autofixes, fname-nameerror in jack_budget gefixt, sys_prompt in code_writer verdrahtet, jack_node_alpha archiviert
 477c233 vulkan: nach fairem benchmark deaktiviert - 66 prozent langsamer als CPU
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -132,7 +133,6 @@ dfc28fd bridge: system-prompt persoenlicher kumpel-ton, dima-kontext tief
 32f837e config: get_val als alias | telegram: /trace zeigt live-zustand jack
 1fcafcc session 2026-08-06: 19 bugs gefixt, rag aktiv, oracle instant, voice thread, publisher live
 9cb6fe1 autonomous: sanity-thread alle 6h | selftest: temp-schwelle 43->50C
-a6e20e4 vecdb: vec0.so absoluter pfad mit expanduser
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -143,8 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 11:17:31] SCOUT-LAUF | a77d073fbbb0fdfc
-[2026-08-06 11:18:10] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-06 11:31:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-06 11:31:10] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-06 12:26:59] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -163,6 +161,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 06:51:54] VULKAN-BENCHMARK | Fairer Test mit identischem Prompt: MIT Vulkan 5.04 Woerter/s (42.8s), OHNE Vulkan 8.36 Woerter/s (22.6s). Vulkan ist 66 Prozent LANGSAMER. Temperatur identisch 76C. freedreno-Treiber + experimentelles ollama-vulkan-backend sind langsamer als optimierte ARM-CPU-Pfade. Vulkan deaktiviert. Die 6.6s-Messung vom 06.08. war ungueltig (2-Token-Antwort).
 [2026-08-07 07:03:56] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-07 07:05:14] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-07 07:06:40] SCOUT-LAUF | a763631f057de640
+[2026-08-07 07:07:14] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 19072
+Heute: Text 6/300 | Vision 0/40 | Tokens 22885
