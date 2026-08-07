@@ -677,3 +677,5 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-07 19:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 20:11:44] MONITOR-EVENT | 1 Events
 [2026-08-07 20:13:53] MONITOR-VOLLSCAN | ok
+[2026-08-07 21:40:39] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-07 21:40:39] MONITOR-EVENT | 1 Events
