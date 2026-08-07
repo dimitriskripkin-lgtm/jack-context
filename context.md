@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T07:20:23.078530)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T07:21:26.836830)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T07:20:23.070887
+Stand: 2026-08-07T07:21:26.829721
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -112,10 +112,10 @@ Stand: 2026-08-07T07:20:23.070887
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 21685) 909s
-run: jack_telegram: (pid 5190) 55341s
+run: jack_cortex: (pid 21685) 972s
+run: jack_telegram: (pid 5190) 55404s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 1720s
+run: ollama: (pid 11415) 1783s
 
 ## Letzte Aenderungen
 8a090d0 logging: jack_logging.py gebaut, blinde excepts in cortex/autonomous/intent geloggt, budget fname-fix, code_writer sys_prompt
@@ -143,7 +143,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-06 11:31:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-06 11:31:10] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-06 12:26:59] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-06 12:27:01] PROFIL-UPDATE | 6 neue Eintraege in kortex_profile.json
@@ -163,6 +162,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 07:05:14] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-07 07:06:40] SCOUT-LAUF | a763631f057de640
 [2026-08-07 07:07:14] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-07 07:21:26] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 22885
+Heute: Text 7/300 | Vision 0/40 | Tokens 22885

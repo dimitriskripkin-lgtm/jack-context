@@ -661,3 +661,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-07 07:05:14] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-07 07:06:40] SCOUT-LAUF | a763631f057de640
 [2026-08-07 07:07:14] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
+[2026-08-07 07:21:26] WAECHTER-START | Nacht-Ueberwachung laeuft
