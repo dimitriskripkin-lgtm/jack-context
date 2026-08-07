@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T11:39:15.307205)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T11:42:17.438343)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T11:39:15.290368
+Stand: 2026-08-07T11:42:17.429917
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -114,12 +114,13 @@ Stand: 2026-08-07T11:39:15.290368
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 31748) 15468s
-run: jack_telegram: (pid 957) 15302s
+run: jack_cortex: (pid 31748) 15650s
+run: jack_telegram: (pid 957) 15484s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 17252s
+run: ollama: (pid 11415) 17434s
 
 ## Letzte Aenderungen
+c51e96d memory_tree: schreibt via db_queue (thread-safe) | offene aenderungen synchronisiert
 9457fb2 db_queue: thread-safe write-queue | gemini: bare except geloggt | logging in kernmodulen
 bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
 5409af4 memory-tree: baumstruktur mit parent_id, auto-chaining in sessions, /baum befehl
@@ -134,7 +135,6 @@ dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen meld
 b2cea51 intent: xiaomi_status als alias, /level ohne space
 1e815d7 talk: few-shot beispiel + mindestlaenge persoenliche fragen | telegram: merke-dir handler
 081dbf8 talk: context persoenlicher, nicht ausweichen, kumpel-ton
-54df78d bridge: system-prompt reste entfernt, sauber
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).

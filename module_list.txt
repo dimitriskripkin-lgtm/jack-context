@@ -29,7 +29,7 @@
 -rw-------. 1 u0_a400 u0_a400  1957 Aug  6 10:48 /data/data/com.termux/files/home/jack/jack_memory.py
 -rwx------. 1 u0_a400 u0_a400  3457 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_memory_engine.py
 -rw-------. 1 u0_a400 u0_a400  1534 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_memory_maintenance.py
--rw-------. 1 u0_a400 u0_a400  6647 Aug  7 07:24 /data/data/com.termux/files/home/jack/jack_memory_tree.py
+-rw-------. 1 u0_a400 u0_a400  6601 Aug  7 11:41 /data/data/com.termux/files/home/jack/jack_memory_tree.py
 -rw-------. 1 u0_a400 u0_a400  7921 Jul 24 13:33 /data/data/com.termux/files/home/jack/jack_missions.py
 -rw-------. 1 u0_a400 u0_a400  8066 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_monitor.py
 -rw-------. 1 u0_a400 u0_a400  7799 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_operator.py
