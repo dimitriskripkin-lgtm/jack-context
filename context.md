@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T12:27:45.073585)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T12:30:46.807096)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T12:27:45.066679
+Stand: 2026-08-07T12:30:46.798755
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -114,12 +114,13 @@ Stand: 2026-08-07T12:27:45.066679
 - Offene Fehler: 1
 - Erinnerungen: 197
 - Dienste:
-run: jack_cortex: (pid 31748) 18378s
-run: jack_telegram: (pid 957) 18212s
+run: jack_cortex: (pid 31748) 18559s
+run: jack_telegram: (pid 957) 18393s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 20162s
+run: ollama: (pid 11415) 20343s
 
 ## Letzte Aenderungen
+f827ff1 selftest: cpu-die 91C, akku 50C - zwei separate sensoren
 cca6d62 tests: 5 kern-tests fuer memory, intent, selftest, chains
 8dbcf19 memory: fts duplikate-fix, rebuild fts index
 e2be96d memory: schema fix 5->7 spalten, monkey-patch weg, schreibt via db_queue
@@ -134,7 +135,6 @@ bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
 dc40620 cortex: xiaomi-statuswechsel entprellt, erst nach 3 stabilen zyklen melden
 6d6439d talk: intent vor gemini, ergebnis fliesst in antwort statt raten
-3977c63 intent-engine v2: hybrid keyword+gemini, bestaetigungs-buttons, historie mit mustererkennung, 11 aktionen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
