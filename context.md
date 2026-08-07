@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T01:21:26.330034)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T01:24:28.199077)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T01:21:26.317386
+Stand: 2026-08-08T01:24:28.187490
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,10 +115,10 @@ Stand: 2026-08-08T01:21:26.317386
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 64799s
-run: jack_telegram: (pid 27719) 20917s
+run: jack_cortex: (pid 31748) 64981s
+run: jack_telegram: (pid 27719) 21099s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 66583s
+run: ollama: (pid 11415) 66765s
 
 ## Letzte Aenderungen
 030eb0e db_queue: import als fallback in cortex/missions/memory_engine
@@ -146,7 +146,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 07:07:14] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 07:21:26] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-07 07:22:52] SCOUT-LAUF | ed2368d2cfce9100
 [2026-08-07 07:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
@@ -166,6 +165,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 21:40:39] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-07 21:40:39] MONITOR-EVENT | 1 Events
 [2026-08-07 21:44:42] MONITOR-EVENT | 1 Events
+[2026-08-08 01:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 0/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 3510
