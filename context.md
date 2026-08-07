@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T04:25:19.530520)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T04:28:21.386616)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T04:25:19.522792
+Stand: 2026-08-07T04:28:21.378934
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -20,7 +20,6 @@ Stand: 2026-08-07T04:25:19.522792
 - JACK nutzt Gemini als Denkwerkzeug über API-Calls.
 - JACK steht unter Dimas voller Kontrolle.
 - JACK kann das Xiaomi 11T Pro per SSH ansprechen.
-- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat KEINEN Hund.
 - Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
@@ -29,6 +28,7 @@ Stand: 2026-08-07T04:25:19.522792
 - Dima hat einen Joint zum Entspannen genehmigt.
 - Das Xiaomi ist oft nicht erreichbar.
 - Die SSH-Verbindung zum Xiaomi ist häufig instabil.
+- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 
 ## Aktive Module (76)
 - install_litert.py
@@ -112,10 +112,10 @@ Stand: 2026-08-07T04:25:19.522792
 - Offene Fehler: 1
 - Erinnerungen: 190
 - Dienste:
-run: jack_cortex: (pid 24341) 59893s
-run: jack_telegram: (pid 5190) 44837s
+run: jack_cortex: (pid 24341) 60075s
+run: jack_telegram: (pid 5190) 45019s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 8054) 73060s
+run: ollama: (pid 8054) 73242s
 
 ## Letzte Aenderungen
 7f9ecbf chains: multi-step aktionsketten mit bedingungen, /kette befehl, morgen-briefing als kette
@@ -165,4 +165,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 00:28:59] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 7633
+Heute: Text 3/300 | Vision 0/40 | Tokens 11446
