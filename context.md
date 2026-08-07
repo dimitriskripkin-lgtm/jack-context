@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-07T15:20:34.226748)
+# JACK LIVE-KONTEXT (auto, 2026-08-07T15:23:36.310158)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-07T15:20:34.215802
+Stand: 2026-08-07T15:23:36.300990
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,6 +29,7 @@ Stand: 2026-08-07T15:20:34.215802
 - Das Xiaomi ist oft nicht erreichbar.
 - Die SSH-Verbindung zum Xiaomi ist häufig instabil.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
+- Der Xiaomi ist oft offline oder nicht erreichbar.
 
 ## Aktive Module (78)
 - install_litert.py
@@ -114,10 +115,10 @@ Stand: 2026-08-07T15:20:34.215802
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 28747s
-run: jack_telegram: (pid 957) 28581s
+run: jack_cortex: (pid 31748) 28929s
+run: jack_telegram: (pid 957) 28763s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 30531s
+run: ollama: (pid 11415) 30713s
 
 ## Letzte Aenderungen
 25be220 tests: duplikat-test raeumt vor testlauf auf
@@ -167,4 +168,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-07 15:10:33] MONITOR-EVENT | 1 Events
 
 ## Budget heute
-Heute: Text 23/300 | Vision 1/40 | Tokens 57338
+Heute: Text 24/300 | Vision 1/40 | Tokens 60870
