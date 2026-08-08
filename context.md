@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:24:33.225654)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:27:34.771296)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:24:33.218901
+Stand: 2026-08-08T10:27:34.762618
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,10 +115,10 @@ Stand: 2026-08-08T10:24:33.218901
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 97386s
-run: jack_telegram: (pid 27719) 53504s
+run: jack_cortex: (pid 31748) 97567s
+run: jack_telegram: (pid 27719) 53685s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 99170s
+run: ollama: (pid 11415) 99351s
 
 ## Letzte Aenderungen
 8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
@@ -146,12 +146,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 19:21:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
-[2026-08-07 19:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
-[2026-08-07 20:11:44] MONITOR-EVENT | 1 Events
-[2026-08-07 20:13:53] MONITOR-VOLLSCAN | ok
-[2026-08-07 21:40:39] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
-[2026-08-07 21:40:39] MONITOR-EVENT | 1 Events
 [2026-08-07 21:44:42] MONITOR-EVENT | 1 Events
 [2026-08-08 01:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-08 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 60 Eintraege
@@ -166,6 +160,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
     def hallo(
              ^
 SyntaxError: '(' was
+[2026-08-08 10:25:22] HALIZA-START | test.py: test
+[2026-08-08 10:26:14] HALIZA-START | test.py: Test-Funktion
+[2026-08-08 10:26:14] HALIZA-MEM-STOP | File "/data/data/com.termux/files/home/jack/.haliza_check.py", line 1
+    def hallo(
+             ^
 
 ## Budget heute
 Heute: Text 5/300 | Vision 0/40 | Tokens 17550

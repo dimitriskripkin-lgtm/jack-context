@@ -693,3 +693,9 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
     def hallo(
              ^
 SyntaxError: '(' was
+[2026-08-08 10:25:22] HALIZA-START | test.py: test
+[2026-08-08 10:26:14] HALIZA-START | test.py: Test-Funktion
+[2026-08-08 10:26:14] HALIZA-MEM-STOP | File "/data/data/com.termux/files/home/jack/.haliza_check.py", line 1
+    def hallo(
+             ^
+
