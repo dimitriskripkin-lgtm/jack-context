@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:54:16.771754)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:57:18.436681)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:54:16.762532
+Stand: 2026-08-08T10:57:18.426729
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -116,10 +116,10 @@ Stand: 2026-08-08T10:54:16.762532
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 99169s
-run: jack_telegram: (pid 28089) 375s
+run: jack_cortex: (pid 31748) 99351s
+run: jack_telegram: (pid 28089) 557s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 100953s
+run: ollama: (pid 11415) 101135s
 
 ## Letzte Aenderungen
 ebb1b09 Telegram: Timestamp am Ende jeder Nachricht
