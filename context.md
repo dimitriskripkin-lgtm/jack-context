@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T16:30:30.528535)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T16:33:32.058372)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T16:30:30.522840
+Stand: 2026-08-08T16:33:32.049564
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,10 +117,10 @@ Stand: 2026-08-08T16:30:30.522840
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 119343s
-run: jack_telegram: (pid 414) 19623s
+run: jack_cortex: (pid 31748) 119525s
+run: jack_telegram: (pid 414) 19805s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 121127s
+run: ollama: (pid 11415) 121309s
 
 ## Letzte Aenderungen
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -148,8 +148,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-SyntaxError: '(' was
-[2026-08-08 10:25:22] HALIZA-START | test.py: test
 [2026-08-08 10:26:14] HALIZA-START | test.py: Test-Funktion
 [2026-08-08 10:26:14] HALIZA-MEM-STOP | File "/data/data/com.termux/files/home/jack/.haliza_check.py", line 1
     def hallo(
@@ -168,6 +166,8 @@ SyntaxError: '(' was
 [2026-08-08 14:06:44] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-08 14:06:44] MONITOR-EVENT | 1 Events
 [2026-08-08 15:31:57] MONITOR-EVENT | 1 Events
+[2026-08-08 16:32:35] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-08 16:32:35] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 9/300 | Vision 0/40 | Tokens 31590
