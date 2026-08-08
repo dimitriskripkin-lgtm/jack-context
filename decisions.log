@@ -709,3 +709,5 @@ SyntaxError: '(' was
 [2026-08-08 11:36:22] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-08 11:36:22] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-08 13:22:18] MONITOR-EVENT | 1 Events
+[2026-08-08 14:06:44] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
+[2026-08-08 14:06:44] MONITOR-EVENT | 1 Events
