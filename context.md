@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T05:12:11.651657)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T05:15:13.549700)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T05:12:11.637377
+Stand: 2026-08-08T05:15:13.535542
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,10 +115,10 @@ Stand: 2026-08-08T05:12:11.637377
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 78644s
-run: jack_telegram: (pid 27719) 34762s
+run: jack_cortex: (pid 31748) 78826s
+run: jack_telegram: (pid 27719) 34944s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 80428s
+run: ollama: (pid 11415) 80610s
 
 ## Letzte Aenderungen
 030eb0e db_queue: import als fallback in cortex/missions/memory_engine
