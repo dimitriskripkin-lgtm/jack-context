@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-09T00:26:09.174989)
+# JACK LIVE-KONTEXT (auto, 2026-08-09T00:29:11.175271)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-09T00:26:09.163616
+Stand: 2026-08-09T00:29:11.168076
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,10 +117,10 @@ Stand: 2026-08-09T00:26:09.163616
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 147882s
-run: jack_telegram: (pid 414) 48162s
+run: jack_cortex: (pid 31748) 148064s
+run: jack_telegram: (pid 414) 48344s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 149666s
+run: ollama: (pid 11415) 149848s
 
 ## Letzte Aenderungen
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -148,8 +148,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-def hallo(
-             ^
+^
 
 [2026-08-08 10:30:03] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-08 10:31:19] SCOUT-LAUF | b138de15975dc9f6
@@ -168,6 +167,7 @@ def hallo(
 [2026-08-08 16:32:35] MONITOR-EVENT | 1 Events
 [2026-08-08 16:40:42] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-08 16:40:42] MONITOR-EVENT | 1 Events
+[2026-08-09 00:28:15] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 0/300 | Vision 0/40 | Tokens 0
