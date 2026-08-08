@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T11:03:21.946242)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T11:06:23.800386)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T11:03:21.937243
+Stand: 2026-08-08T11:06:23.794014
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-08T11:03:21.937243
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (79)
+## Aktive Module (80)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -41,6 +41,7 @@ Stand: 2026-08-08T11:03:21.937243
 - jack_briefing.py
 - jack_budget.py
 - jack_bug_fixer.py
+- jack_calltest.py
 - jack_chains.py
 - jack_claude.py
 - jack_code_writer.py
@@ -116,12 +117,14 @@ Stand: 2026-08-08T11:03:21.937243
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 99714s
-run: jack_telegram: (pid 28089) 920s
+run: jack_cortex: (pid 31748) 99896s
+run: jack_telegram: (pid 414) 176s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 101498s
+run: ollama: (pid 11415) 101680s
 
 ## Letzte Aenderungen
+2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
+01c4105 Telegram: Offset persistent + sofortige Bestaetigung + Absturz-Log (behebt Replay-Loop)
 ebb1b09 Telegram: Timestamp am Ende jeder Nachricht
 c766375 jack_reflexion: Aktions-IDs + Nacht-Reflexions-Loop -> Langzeitgedaechtnis
 8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
@@ -135,8 +138,6 @@ f827ff1 selftest: cpu-die 91C, akku 50C - zwei separate sensoren
 cca6d62 tests: 5 kern-tests fuer memory, intent, selftest, chains
 8dbcf19 memory: fts duplikate-fix, rebuild fts index
 e2be96d memory: schema fix 5->7 spalten, monkey-patch weg, schreibt via db_queue
-c51e96d memory_tree: schreibt via db_queue (thread-safe) | offene aenderungen synchronisiert
-9457fb2 db_queue: thread-safe write-queue | gemini: bare except geloggt | logging in kernmodulen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
