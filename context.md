@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:21:31.460227)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:24:33.225654)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:21:31.451108
+Stand: 2026-08-08T10:24:33.218901
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,10 +115,10 @@ Stand: 2026-08-08T10:21:31.451108
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 97204s
-run: jack_telegram: (pid 27719) 53322s
+run: jack_cortex: (pid 31748) 97386s
+run: jack_telegram: (pid 27719) 53504s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 98988s
+run: ollama: (pid 11415) 99170s
 
 ## Letzte Aenderungen
 8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
@@ -146,12 +146,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 11:31:30] SELF-IMPROVE | Tagescheck abgeschlossen
-[2026-08-07 12:06:23] MONITOR-VOLLSCAN | ok
-[2026-08-07 13:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
-[2026-08-07 15:10:33] MONITOR-EVENT | 1 Events
-[2026-08-07 15:40:53] MONITOR-EVENT | 1 Events
-[2026-08-07 17:21:40] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-07 19:21:43] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-07 19:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-07 20:11:44] MONITOR-EVENT | 1 Events
@@ -166,6 +160,12 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-08 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-08 10:11:57] MONITOR-EVENT | 1 Events
 [2026-08-08 10:13:59] MONITOR-EVENT | 1 Events
+[2026-08-08 10:23:36] HALIZA-START | test.py: Test-Funktion
+[2026-08-08 10:23:36] HALIZA-START | test.py: Kaputter Code
+[2026-08-08 10:23:36] HALIZA-SYNTAX-STOP | File "/data/data/com.termux/files/home/jack/.haliza_check.py", line 1
+    def hallo(
+             ^
+SyntaxError: '(' was
 
 ## Budget heute
 Heute: Text 5/300 | Vision 0/40 | Tokens 17550

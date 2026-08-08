@@ -687,3 +687,9 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-08 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-08 10:11:57] MONITOR-EVENT | 1 Events
 [2026-08-08 10:13:59] MONITOR-EVENT | 1 Events
+[2026-08-08 10:23:36] HALIZA-START | test.py: Test-Funktion
+[2026-08-08 10:23:36] HALIZA-START | test.py: Kaputter Code
+[2026-08-08 10:23:36] HALIZA-SYNTAX-STOP | File "/data/data/com.termux/files/home/jack/.haliza_check.py", line 1
+    def hallo(
+             ^
+SyntaxError: '(' was
