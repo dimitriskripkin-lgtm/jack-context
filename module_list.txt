@@ -3,7 +3,7 @@
 -rw-------. 1 u0_a400 u0_a400 16791 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_android.py
 -rw-------. 1 u0_a400 u0_a400  3226 Jul 24 12:02 /data/data/com.termux/files/home/jack/jack_approval.py
 -rwx------. 1 u0_a400 u0_a400  4212 Aug  4 15:23 /data/data/com.termux/files/home/jack/jack_audit.py
--rw-------. 1 u0_a400 u0_a400 10950 Aug  7 07:21 /data/data/com.termux/files/home/jack/jack_autonomous.py
+-rw-------. 1 u0_a400 u0_a400 11779 Aug  8 10:30 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  4769 Aug  4 15:12 /data/data/com.termux/files/home/jack/jack_briefing.py
 -rw-------. 1 u0_a400 u0_a400  1250 Aug  7 07:00 /data/data/com.termux/files/home/jack/jack_budget.py
 -rw-------. 1 u0_a400 u0_a400  9489 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_bug_fixer.py
@@ -39,6 +39,7 @@
 -rw-------. 1 u0_a400 u0_a400 11092 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_personality.py
 -rw-------. 1 u0_a400 u0_a400  2447 Aug  6 09:23 /data/data/com.termux/files/home/jack/jack_publish.py
 -rw-------. 1 u0_a400 u0_a400  5464 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_radar.py
+-rw-------. 1 u0_a400 u0_a400  6095 Aug  8 10:30 /data/data/com.termux/files/home/jack/jack_reflexion.py
 -rw-------. 1 u0_a400 u0_a400  2524 Aug  8 10:21 /data/data/com.termux/files/home/jack/jack_sanity.py
 -rw-------. 1 u0_a400 u0_a400  9556 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_scout.py
 -rw-------. 1 u0_a400 u0_a400  3495 Jul 17 10:03 /data/data/com.termux/files/home/jack/jack_screen_tracker.py

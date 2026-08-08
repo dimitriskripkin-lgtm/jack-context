@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:27:34.771296)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:30:03.477889)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:27:34.762618
+Stand: 2026-08-08T10:30:03.469190
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-08T10:27:34.762618
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (78)
+## Aktive Module (79)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -73,6 +73,7 @@ Stand: 2026-08-08T10:27:34.762618
 - jack_personality.py
 - jack_publish.py
 - jack_radar.py
+- jack_reflexion.py
 - jack_sanity.py
 - jack_scout.py
 - jack_screen_tracker.py
@@ -115,10 +116,10 @@ Stand: 2026-08-08T10:27:34.762618
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 97567s
-run: jack_telegram: (pid 27719) 53685s
+run: jack_cortex: (pid 31748) 97716s
+run: jack_telegram: (pid 27719) 53834s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 99351s
+run: ollama: (pid 11415) 99500s
 
 ## Letzte Aenderungen
 8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
@@ -146,7 +147,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 21:44:42] MONITOR-EVENT | 1 Events
 [2026-08-08 01:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-08 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 60 Eintraege
 [2026-08-08 07:23:19] SCOUT-LAUF | f643bc89191fc1cc
@@ -166,5 +166,7 @@ SyntaxError: '(' was
     def hallo(
              ^
 
+[2026-08-08 10:30:03] WAECHTER-START | Nacht-Ueberwachung laeuft
+
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 17550
+Heute: Text 6/300 | Vision 0/40 | Tokens 17550
