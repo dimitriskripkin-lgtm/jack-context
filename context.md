@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T11:33:38.982034)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T11:36:40.620895)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T11:33:38.974587
+Stand: 2026-08-08T11:36:40.615325
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,10 +117,10 @@ Stand: 2026-08-08T11:33:38.974587
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 101531s
-run: jack_telegram: (pid 414) 1811s
+run: jack_cortex: (pid 31748) 101713s
+run: jack_telegram: (pid 414) 1993s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 103315s
+run: ollama: (pid 11415) 103497s
 
 ## Letzte Aenderungen
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -148,8 +148,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 10:13:59] MONITOR-EVENT | 1 Events
-[2026-08-08 10:23:36] HALIZA-START | test.py: Test-Funktion
 [2026-08-08 10:23:36] HALIZA-START | test.py: Kaputter Code
 [2026-08-08 10:23:36] HALIZA-SYNTAX-STOP | File "/data/data/com.termux/files/home/jack/.haliza_check.py", line 1
     def hallo(
@@ -168,6 +166,8 @@ SyntaxError: '(' was
 [2026-08-08 10:34:36] MONITOR-EVENT | 1 Events
 [2026-08-08 11:00:00] CONSOLIDATE | Session gespeichert: 9 Logs, 0 Zugriffe
 [2026-08-08 11:13:01] MONITOR-EVENT | 1 Events
+[2026-08-08 11:36:22] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-08 11:36:22] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 21060
