@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T11:12:27.170569)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T11:15:28.783275)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T11:12:27.163475
+Stand: 2026-08-08T11:15:28.774298
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,10 +117,10 @@ Stand: 2026-08-08T11:12:27.163475
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 100260s
-run: jack_telegram: (pid 414) 540s
+run: jack_cortex: (pid 31748) 100441s
+run: jack_telegram: (pid 414) 721s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 102044s
+run: ollama: (pid 11415) 102225s
 
 ## Letzte Aenderungen
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -148,7 +148,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 10:11:57] MONITOR-EVENT | 1 Events
 [2026-08-08 10:13:59] MONITOR-EVENT | 1 Events
 [2026-08-08 10:23:36] HALIZA-START | test.py: Test-Funktion
 [2026-08-08 10:23:36] HALIZA-START | test.py: Kaputter Code
@@ -168,6 +167,7 @@ SyntaxError: '(' was
 [2026-08-08 10:32:35] MONITOR-EVENT | 1 Events
 [2026-08-08 10:34:36] MONITOR-EVENT | 1 Events
 [2026-08-08 11:00:00] CONSOLIDATE | Session gespeichert: 9 Logs, 0 Zugriffe
+[2026-08-08 11:13:01] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 21060
