@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T15:29:52.752582)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T15:32:54.550958)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T15:29:52.741211
+Stand: 2026-08-08T15:32:54.536112
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,10 +117,10 @@ Stand: 2026-08-08T15:29:52.741211
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 115705s
-run: jack_telegram: (pid 414) 15985s
+run: jack_cortex: (pid 31748) 115887s
+run: jack_telegram: (pid 414) 16167s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 117489s
+run: ollama: (pid 11415) 117671s
 
 ## Letzte Aenderungen
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -148,7 +148,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-^
 SyntaxError: '(' was
 [2026-08-08 10:25:22] HALIZA-START | test.py: test
 [2026-08-08 10:26:14] HALIZA-START | test.py: Test-Funktion
@@ -168,6 +167,7 @@ SyntaxError: '(' was
 [2026-08-08 13:22:18] MONITOR-EVENT | 1 Events
 [2026-08-08 14:06:44] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-08 14:06:44] MONITOR-EVENT | 1 Events
+[2026-08-08 15:31:57] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 8/300 | Vision 0/40 | Tokens 28080
