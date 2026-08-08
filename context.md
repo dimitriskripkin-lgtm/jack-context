@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:18:29.901805)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:21:31.460227)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:18:29.891943
+Stand: 2026-08-08T10:21:31.451108
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,12 +115,13 @@ Stand: 2026-08-08T10:18:29.891943
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 97022s
-run: jack_telegram: (pid 27719) 53140s
+run: jack_cortex: (pid 31748) 97204s
+run: jack_telegram: (pid 27719) 53322s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 98806s
+run: ollama: (pid 11415) 98988s
 
 ## Letzte Aenderungen
+8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
 030eb0e db_queue: import als fallback in cortex/missions/memory_engine
 c65b048 telegram: foto-analyse immer auf deutsch
 171ddfd ci: github actions - pytest bei jedem push auf master
@@ -135,7 +136,6 @@ c51e96d memory_tree: schreibt via db_queue (thread-safe) | offene aenderungen sy
 9457fb2 db_queue: thread-safe write-queue | gemini: bare except geloggt | logging in kernmodulen
 bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
 5409af4 memory-tree: baumstruktur mit parent_id, auto-chaining in sessions, /baum befehl
-9397b65 logging: blinde excepts in 5 kernmodulen geloggt | memory: parent_id baumstruktur
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
