@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:30:03.477889)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:33:04.986222)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:30:03.469190
+Stand: 2026-08-08T10:33:04.979857
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -116,12 +116,14 @@ Stand: 2026-08-08T10:30:03.469190
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 97716s
-run: jack_telegram: (pid 27719) 53834s
+run: jack_cortex: (pid 31748) 97897s
+run: jack_telegram: (pid 23171) 29s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 99500s
+run: ollama: (pid 11415) 99681s
 
 ## Letzte Aenderungen
+ebb1b09 Telegram: Timestamp am Ende jeder Nachricht
+c766375 jack_reflexion: Aktions-IDs + Nacht-Reflexions-Loop -> Langzeitgedaechtnis
 8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
 030eb0e db_queue: import als fallback in cortex/missions/memory_engine
 c65b048 telegram: foto-analyse immer auf deutsch
@@ -135,8 +137,6 @@ cca6d62 tests: 5 kern-tests fuer memory, intent, selftest, chains
 e2be96d memory: schema fix 5->7 spalten, monkey-patch weg, schreibt via db_queue
 c51e96d memory_tree: schreibt via db_queue (thread-safe) | offene aenderungen synchronisiert
 9457fb2 db_queue: thread-safe write-queue | gemini: bare except geloggt | logging in kernmodulen
-bae4bcf db_queue: thread-safe sqlite write-queue, ein writer pro db
-5409af4 memory-tree: baumstruktur mit parent_id, auto-chaining in sessions, /baum befehl
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -147,9 +147,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 01:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
-[2026-08-08 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 60 Eintraege
-[2026-08-08 07:23:19] SCOUT-LAUF | f643bc89191fc1cc
 [2026-08-08 07:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-08 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-08 10:11:57] MONITOR-EVENT | 1 Events
@@ -167,6 +164,9 @@ SyntaxError: '(' was
              ^
 
 [2026-08-08 10:30:03] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-08 10:31:19] SCOUT-LAUF | b138de15975dc9f6
+[2026-08-08 10:32:34] MONITOR-DIENST-TOT | jack_telegram
+[2026-08-08 10:32:35] MONITOR-EVENT | 1 Events
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 17550
+Heute: Text 6/300 | Vision 0/40 | Tokens 21060
