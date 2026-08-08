@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:57:18.436681)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T11:00:20.205767)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:57:18.426729
+Stand: 2026-08-08T11:00:20.198345
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -116,10 +116,10 @@ Stand: 2026-08-08T10:57:18.426729
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 99351s
-run: jack_telegram: (pid 28089) 557s
+run: jack_cortex: (pid 31748) 99533s
+run: jack_telegram: (pid 28089) 739s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 101135s
+run: ollama: (pid 11415) 101317s
 
 ## Letzte Aenderungen
 ebb1b09 Telegram: Timestamp am Ende jeder Nachricht
@@ -147,7 +147,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-08 10:11:57] MONITOR-EVENT | 1 Events
 [2026-08-08 10:13:59] MONITOR-EVENT | 1 Events
 [2026-08-08 10:23:36] HALIZA-START | test.py: Test-Funktion
@@ -167,6 +166,7 @@ SyntaxError: '(' was
 [2026-08-08 10:32:34] MONITOR-DIENST-TOT | jack_telegram
 [2026-08-08 10:32:35] MONITOR-EVENT | 1 Events
 [2026-08-08 10:34:36] MONITOR-EVENT | 1 Events
+[2026-08-08 11:00:00] CONSOLIDATE | Session gespeichert: 9 Logs, 0 Zugriffe
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 21060
