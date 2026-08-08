@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T12:28:09.004874)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T12:31:11.080919)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T12:28:08.997483
+Stand: 2026-08-08T12:31:11.070863
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,10 +117,10 @@ Stand: 2026-08-08T12:28:08.997483
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 104801s
-run: jack_telegram: (pid 414) 5081s
+run: jack_cortex: (pid 31748) 104984s
+run: jack_telegram: (pid 414) 5264s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 106585s
+run: ollama: (pid 11415) 106768s
 
 ## Letzte Aenderungen
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -170,4 +170,4 @@ SyntaxError: '(' was
 [2026-08-08 11:36:22] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 21060
+Heute: Text 7/300 | Vision 0/40 | Tokens 24570
