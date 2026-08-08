@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:33:04.986222)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:36:06.454616)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:33:04.979857
+Stand: 2026-08-08T10:36:06.447595
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -116,10 +116,10 @@ Stand: 2026-08-08T10:33:04.979857
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 97897s
-run: jack_telegram: (pid 23171) 29s
+run: jack_cortex: (pid 31748) 98079s
+run: jack_telegram: (pid 25332) 9s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 99681s
+run: ollama: (pid 11415) 99863s
 
 ## Letzte Aenderungen
 ebb1b09 Telegram: Timestamp am Ende jeder Nachricht
@@ -147,7 +147,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 07:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-08 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-08 10:11:57] MONITOR-EVENT | 1 Events
 [2026-08-08 10:13:59] MONITOR-EVENT | 1 Events
@@ -167,6 +166,7 @@ SyntaxError: '(' was
 [2026-08-08 10:31:19] SCOUT-LAUF | b138de15975dc9f6
 [2026-08-08 10:32:34] MONITOR-DIENST-TOT | jack_telegram
 [2026-08-08 10:32:35] MONITOR-EVENT | 1 Events
+[2026-08-08 10:34:36] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 21060
