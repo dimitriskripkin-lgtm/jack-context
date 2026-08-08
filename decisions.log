@@ -685,3 +685,4 @@ STATUS: 4/4 Dienste gruen. vec0 laedt, 172 Embeddings verfuegbar.
 [2026-08-08 07:23:19] SCOUT-LAUF | f643bc89191fc1cc
 [2026-08-08 07:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-08 07:55:02] MONITOR-VOLLSCAN | ok
+[2026-08-08 10:11:57] MONITOR-EVENT | 1 Events

@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-08T10:09:24.762473)
+# JACK LIVE-KONTEXT (auto, 2026-08-08T10:12:26.433159)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-08T10:09:24.753489
+Stand: 2026-08-08T10:12:26.423681
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,10 +115,10 @@ Stand: 2026-08-08T10:09:24.753489
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 96477s
-run: jack_telegram: (pid 27719) 52595s
+run: jack_cortex: (pid 31748) 96659s
+run: jack_telegram: (pid 27719) 52777s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 98261s
+run: ollama: (pid 11415) 98443s
 
 ## Letzte Aenderungen
 030eb0e db_queue: import als fallback in cortex/missions/memory_engine
@@ -146,7 +146,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-07 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-08-07 11:31:30] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-07 11:31:30] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-07 12:06:23] MONITOR-VOLLSCAN | ok
@@ -166,6 +165,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-08 07:23:19] SCOUT-LAUF | f643bc89191fc1cc
 [2026-08-08 07:23:26] SANITY-ERR | module 'jack_sanity' has no attribute 'check'
 [2026-08-08 07:55:02] MONITOR-VOLLSCAN | ok
+[2026-08-08 10:11:57] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 5/300 | Vision 0/40 | Tokens 17550
