@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T11:30:54.776206)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T11:33:56.541970)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T11:30:54.767217
+Stand: 2026-08-12T11:33:56.535917
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -116,14 +116,15 @@ Stand: 2026-08-12T11:30:54.767217
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 199
+- Erinnerungen: 201
 - Dienste:
-run: jack_cortex: (pid 24878) 546s
-run: jack_telegram: (pid 30490) 170s
+run: jack_cortex: (pid 24878) 728s
+run: jack_telegram: (pid 2634) 90s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 546s
+run: ollama: (pid 24888) 728s
 
 ## Letzte Aenderungen
+019dcf8 telegram: alter menu-handler entfernt, neues kategorie-menue aktiv
 243dd6c telegram: komplettes menue-system mit kategorien, beschreibungen und beispielen
 be27b3c traceback-parser: fehleranalyse mit loesungshinweisen, /tb befehl in telegram
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -138,7 +139,6 @@ bf51ca0 telegram: foto-analyse mit ffmpeg-komprimierung, async thread
 25be220 tests: duplikat-test raeumt vor testlauf auf
 943ee8a selftest: cpu-die 91C, akku 50C - zwei separate sensoren
 f827ff1 selftest: cpu-die 91C, akku 50C - zwei separate sensoren
-cca6d62 tests: 5 kern-tests fuer memory, intent, selftest, chains
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -171,4 +171,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 11:23:15] SCOUT-LAUF | daa902fe3c99168d
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 3510
+Heute: Text 5/300 | Vision 0/40 | Tokens 9317
