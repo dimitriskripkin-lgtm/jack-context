@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T01:10:30.504336)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T01:13:32.406476)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T01:10:30.494743
+Stand: 2026-08-13T01:13:32.388442
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-13T01:10:30.494743
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (82)
+## Aktive Module (83)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -51,6 +51,7 @@ Stand: 2026-08-13T01:10:30.494743
 - jack_consolidate.py
 - jack_cortex.py
 - jack_db_queue.py
+- jack_episoden.py
 - jack_gemini_bridge.py
 - jack_haliza.py
 - jack_handshake_gen.py
@@ -119,10 +120,10 @@ Stand: 2026-08-13T01:10:30.494743
 - Offene Fehler: 1
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 49722s
-run: jack_telegram: (pid 30519) 115s
+run: jack_cortex: (pid 24878) 49904s
+run: jack_telegram: (pid 30519) 297s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 49722s
+run: ollama: (pid 24888) 49904s
 
 ## Letzte Aenderungen
 654712b gemini: varianz-zwang und anti-report-stil im system-prompt
@@ -172,4 +173,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 00:38:25] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 22554
+Heute: Text 8/300 | Vision 0/40 | Tokens 23377
