@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T11:33:56.541970)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T11:36:58.635716)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T11:33:56.535917
+Stand: 2026-08-12T11:36:58.628366
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -118,12 +118,14 @@ Stand: 2026-08-12T11:33:56.535917
 - Offene Fehler: 1
 - Erinnerungen: 201
 - Dienste:
-run: jack_cortex: (pid 24878) 728s
-run: jack_telegram: (pid 2634) 90s
+run: jack_cortex: (pid 24878) 910s
+run: jack_telegram: (pid 8750) 16s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 728s
+run: ollama: (pid 24888) 910s
 
 ## Letzte Aenderungen
+9bd701d telegram: menu-callback ganz oben, OK-popup zeigt letzten jack-gedanken
+f8647f6 telegram: /menu ganz oben in handle() vor allem anderen
 019dcf8 telegram: alter menu-handler entfernt, neues kategorie-menue aktiv
 243dd6c telegram: komplettes menue-system mit kategorien, beschreibungen und beispielen
 be27b3c traceback-parser: fehleranalyse mit loesungshinweisen, /tb befehl in telegram
@@ -137,8 +139,6 @@ c65b048 telegram: foto-analyse immer auf deutsch
 171ddfd ci: github actions - pytest bei jedem push auf master
 bf51ca0 telegram: foto-analyse mit ffmpeg-komprimierung, async thread
 25be220 tests: duplikat-test raeumt vor testlauf auf
-943ee8a selftest: cpu-die 91C, akku 50C - zwei separate sensoren
-f827ff1 selftest: cpu-die 91C, akku 50C - zwei separate sensoren
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
