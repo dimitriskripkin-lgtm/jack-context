@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:19:24.170187)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:22:25.762898)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:19:24.164006
+Stand: 2026-08-12T12:22:25.753920
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -116,13 +116,13 @@ Stand: 2026-08-12T12:19:24.164006
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 1
-- Erinnerungen: 209
+- Offene Fehler: 0
+- Erinnerungen: 210
 - Dienste:
-run: jack_cortex: (pid 24878) 3456s
-run: jack_telegram: (pid 5675) 50s
+run: jack_cortex: (pid 24878) 3637s
+run: jack_telegram: (pid 5675) 231s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 3456s
+run: ollama: (pid 24888) 3637s
 
 ## Letzte Aenderungen
 6c758d4 bugfix-loop: autonomer bug-fix mit freigabe-button, /bugfix befehl
@@ -150,7 +150,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 14:06:44] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-08 14:06:44] MONITOR-EVENT | 1 Events
 [2026-08-08 15:31:57] MONITOR-EVENT | 1 Events
 [2026-08-08 16:32:35] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
@@ -170,6 +169,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 11:23:15] SCOUT-LAUF | daa902fe3c99168d
 [2026-08-12 11:37:06] MONITOR-VOLLSCAN | ok
 [2026-08-12 12:02:23] WAECHTER-NEUSTART | jack_telegram
+[2026-08-12 12:21:54] BUGFIX-DEPLOYED | Bug #2934 gefixt und freigegeben
 
 ## Budget heute
-Heute: Text 31/300 | Vision 0/40 | Tokens 37594
+Heute: Text 36/300 | Vision 0/40 | Tokens 42805
