@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T00:55:21.074444)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T00:58:22.891727)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T00:55:21.061293
+Stand: 2026-08-13T00:58:22.877570
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -119,10 +119,10 @@ Stand: 2026-08-13T00:55:21.061293
 - Offene Fehler: 1
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 48813s
-run: jack_telegram: (pid 21250) 42089s
+run: jack_cortex: (pid 24878) 48994s
+run: jack_telegram: (pid 21250) 42270s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 48813s
+run: ollama: (pid 24888) 48994s
 
 ## Letzte Aenderungen
 80d15ea adb: aktive app und cpu-last im live-context, apps in identity gespeichert
@@ -172,4 +172,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 00:38:25] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
-Heute: Text 4/300 | Vision 0/40 | Tokens 11940
+Heute: Text 6/300 | Vision 0/40 | Tokens 22554
