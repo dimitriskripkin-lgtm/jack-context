@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:31:31.101166)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:34:32.974173)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:31:31.091688
+Stand: 2026-08-12T12:34:32.965060
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,14 +117,15 @@ Stand: 2026-08-12T12:31:31.091688
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 211
+- Erinnerungen: 213
 - Dienste:
-run: jack_cortex: (pid 24878) 4183s
-run: jack_telegram: (pid 5675) 777s
+run: jack_cortex: (pid 24878) 4364s
+run: jack_telegram: (pid 5675) 958s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 4183s
+run: ollama: (pid 24888) 4364s
 
 ## Letzte Aenderungen
+7510d02 logging: alle restlichen blinden excepts geloggt
 fc6e8ef logging: blinde excepts in autonomous/publish/handshake/selftest geloggt
 acc2585 menue: /bugfix eingetragen | logging: 5 weitere module geloggt
 bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
@@ -139,7 +140,6 @@ f8647f6 telegram: /menu ganz oben in handle() vor allem anderen
 019dcf8 telegram: alter menu-handler entfernt, neues kategorie-menue aktiv
 243dd6c telegram: komplettes menue-system mit kategorien, beschreibungen und beispielen
 be27b3c traceback-parser: fehleranalyse mit loesungshinweisen, /tb befehl in telegram
-2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
