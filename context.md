@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:58:48.101329)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T13:01:50.049174)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:58:48.091283
+Stand: 2026-08-12T13:01:50.036592
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -119,10 +119,10 @@ Stand: 2026-08-12T12:58:48.091283
 - Offene Fehler: 0
 - Erinnerungen: 223
 - Dienste:
-run: jack_cortex: (pid 24878) 5820s
-run: jack_telegram: (pid 1331) 416s
+run: jack_cortex: (pid 24878) 6002s
+run: jack_telegram: (pid 1331) 598s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 5820s
+run: ollama: (pid 24888) 6002s
 
 ## Letzte Aenderungen
 d0c1deb talk: syntaxwarning fix, antwort-laenge praeferenz in identity
