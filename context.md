@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:40:36.906395)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:43:38.669869)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:40:36.892756
+Stand: 2026-08-12T12:43:38.660146
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,14 +117,15 @@ Stand: 2026-08-12T12:40:36.892756
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 217
+- Erinnerungen: 218
 - Dienste:
-run: jack_cortex: (pid 24878) 4728s
-run: jack_telegram: (pid 23010) 35s
+run: jack_cortex: (pid 24878) 4910s
+run: jack_telegram: (pid 24434) 121s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 4728s
+run: ollama: (pid 24888) 4910s
 
 ## Letzte Aenderungen
+b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
 cd3c71e gemini: collect_status ohne xiaomi-ssh fuer schnellen kontext, live-daten klar im prompt
 7510d02 logging: alle restlichen blinden excepts geloggt
 fc6e8ef logging: blinde excepts in autonomous/publish/handshake/selftest geloggt
@@ -139,7 +140,6 @@ a7c5d3c sensors: xiaomi-ip aus config statt hardcoded
 9bd701d telegram: menu-callback ganz oben, OK-popup zeigt letzten jack-gedanken
 f8647f6 telegram: /menu ganz oben in handle() vor allem anderen
 019dcf8 telegram: alter menu-handler entfernt, neues kategorie-menue aktiv
-243dd6c telegram: komplettes menue-system mit kategorien, beschreibungen und beispielen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -172,4 +172,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 12:21:54] BUGFIX-DEPLOYED | Bug #2934 gefixt und freigegeben
 
 ## Budget heute
-Heute: Text 48/300 | Vision 0/40 | Tokens 57470
+Heute: Text 52/300 | Vision 0/40 | Tokens 61885
