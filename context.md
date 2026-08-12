@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:07:16.870435)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:10:18.654206)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:07:16.863454
+Stand: 2026-08-12T12:10:18.645029
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -116,14 +116,15 @@ Stand: 2026-08-12T12:07:16.863454
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 204
+- Erinnerungen: 209
 - Dienste:
-run: jack_cortex: (pid 24878) 2728s
-run: jack_telegram: (pid 27267) 117s
+run: jack_cortex: (pid 24878) 2910s
+run: jack_telegram: (pid 29141) 149s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 2728s
+run: ollama: (pid 24888) 2910s
 
 ## Letzte Aenderungen
+04ea02f telegram: lokalen threading import in main() entfernt - UnboundLocalError fix
 ac156a9 logging: blinde excepts in telegram/oracle/publish/intent/config geloggt
 a7c5d3c sensors: xiaomi-ip aus config statt hardcoded
 9bd701d telegram: menu-callback ganz oben, OK-popup zeigt letzten jack-gedanken
@@ -138,7 +139,6 @@ c766375 jack_reflexion: Aktions-IDs + Nacht-Reflexions-Loop -> Langzeitgedaechtn
 8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
 030eb0e db_queue: import als fallback in cortex/missions/memory_engine
 c65b048 telegram: foto-analyse immer auf deutsch
-171ddfd ci: github actions - pytest bei jedem push auf master
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -171,4 +171,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 12:02:23] WAECHTER-NEUSTART | jack_telegram
 
 ## Budget heute
-Heute: Text 12/300 | Vision 0/40 | Tokens 16917
+Heute: Text 30/300 | Vision 0/40 | Tokens 37002
