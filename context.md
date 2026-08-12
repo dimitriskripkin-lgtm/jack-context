@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:10:18.654206)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:13:20.425005)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:10:18.645029
+Stand: 2026-08-12T12:13:20.418398
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -118,10 +118,10 @@ Stand: 2026-08-12T12:10:18.645029
 - Offene Fehler: 1
 - Erinnerungen: 209
 - Dienste:
-run: jack_cortex: (pid 24878) 2910s
-run: jack_telegram: (pid 29141) 149s
+run: jack_cortex: (pid 24878) 3092s
+run: jack_telegram: (pid 29141) 331s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 2910s
+run: ollama: (pid 24888) 3092s
 
 ## Letzte Aenderungen
 04ea02f telegram: lokalen threading import in main() entfernt - UnboundLocalError fix
