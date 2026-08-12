@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T11:27:52.820724)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T11:30:54.776206)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T11:27:52.812271
+Stand: 2026-08-12T11:30:54.767217
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -118,10 +118,10 @@ Stand: 2026-08-12T11:27:52.812271
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 24878) 364s
-run: jack_telegram: (pid 28146) 162s
+run: jack_cortex: (pid 24878) 546s
+run: jack_telegram: (pid 30490) 170s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 364s
+run: ollama: (pid 24888) 546s
 
 ## Letzte Aenderungen
 243dd6c telegram: komplettes menue-system mit kategorien, beschreibungen und beispielen
