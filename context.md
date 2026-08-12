@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:16:22.234794)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:19:24.170187)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:16:22.226630
+Stand: 2026-08-12T12:19:24.164006
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-12T12:16:22.226630
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (81)
+## Aktive Module (82)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -41,6 +41,7 @@ Stand: 2026-08-12T12:16:22.226630
 - jack_briefing.py
 - jack_budget.py
 - jack_bug_fixer.py
+- jack_bugfix_loop.py
 - jack_calltest.py
 - jack_chains.py
 - jack_claude.py
@@ -118,12 +119,13 @@ Stand: 2026-08-12T12:16:22.226630
 - Offene Fehler: 1
 - Erinnerungen: 209
 - Dienste:
-run: jack_cortex: (pid 24878) 3274s
-run: jack_telegram: (pid 1542) 69s
+run: jack_cortex: (pid 24878) 3456s
+run: jack_telegram: (pid 5675) 50s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 3274s
+run: ollama: (pid 24888) 3456s
 
 ## Letzte Aenderungen
+6c758d4 bugfix-loop: autonomer bug-fix mit freigabe-button, /bugfix befehl
 03ab41d intent: confidence-schwellen angepasst, bestaetigungsfragen erhoehen confidence
 0513e89 sync: context und identity aktualisiert
 04ea02f telegram: lokalen threading import in main() entfernt - UnboundLocalError fix
@@ -138,7 +140,6 @@ be27b3c traceback-parser: fehleranalyse mit loesungshinweisen, /tb befehl in tel
 01c4105 Telegram: Offset persistent + sofortige Bestaetigung + Absturz-Log (behebt Replay-Loop)
 ebb1b09 Telegram: Timestamp am Ende jeder Nachricht
 c766375 jack_reflexion: Aktions-IDs + Nacht-Reflexions-Loop -> Langzeitgedaechtnis
-8fab8e0 jack_sanity: check()-Alias fuer Waechter-Thread (behebt SANITY-ERR)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
