@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:46:40.446105)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:49:42.509882)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:46:40.433206
+Stand: 2026-08-12T12:49:42.498544
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,14 +117,16 @@ Stand: 2026-08-12T12:46:40.433206
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 218
+- Erinnerungen: 219
 - Dienste:
-run: jack_cortex: (pid 24878) 5092s
-run: jack_telegram: (pid 24434) 303s
+run: jack_cortex: (pid 24878) 5274s
+run: jack_telegram: (pid 31415) 48s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 5092s
+run: ollama: (pid 24888) 5274s
 
 ## Letzte Aenderungen
+3bfc28c talk: _live immer via _status_als_text(), keine keyword-bedingung
+8670f03 talk: live-status als natuerliche sprache fuer gemini, muster aus intent-db
 b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
 cd3c71e gemini: collect_status ohne xiaomi-ssh fuer schnellen kontext, live-daten klar im prompt
 7510d02 logging: alle restlichen blinden excepts geloggt
@@ -138,8 +140,6 @@ bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
 ac156a9 logging: blinde excepts in telegram/oracle/publish/intent/config geloggt
 a7c5d3c sensors: xiaomi-ip aus config statt hardcoded
 9bd701d telegram: menu-callback ganz oben, OK-popup zeigt letzten jack-gedanken
-f8647f6 telegram: /menu ganz oben in handle() vor allem anderen
-019dcf8 telegram: alter menu-handler entfernt, neues kategorie-menue aktiv
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -172,4 +172,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 12:21:54] BUGFIX-DEPLOYED | Bug #2934 gefixt und freigegeben
 
 ## Budget heute
-Heute: Text 52/300 | Vision 0/40 | Tokens 61885
+Heute: Text 56/300 | Vision 0/40 | Tokens 66606
