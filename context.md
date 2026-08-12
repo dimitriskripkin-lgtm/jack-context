@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:52:44.464083)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:55:46.498932)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:52:44.441091
+Stand: 2026-08-12T12:55:46.484837
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,14 +117,15 @@ Stand: 2026-08-12T12:52:44.441091
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 222
+- Erinnerungen: 223
 - Dienste:
-run: jack_cortex: (pid 24878) 5456s
-run: jack_telegram: (pid 1331) 52s
+run: jack_cortex: (pid 24878) 5638s
+run: jack_telegram: (pid 1331) 234s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 5456s
+run: ollama: (pid 24888) 5638s
 
 ## Letzte Aenderungen
+d0c1deb talk: syntaxwarning fix, antwort-laenge praeferenz in identity
 a1ddac0 talk: situationsbewusstsein - akku, laufzeiten, fehler-historie, muster, memory-stats, anti-wiederholung
 3bfc28c talk: _live immer via _status_als_text(), keine keyword-bedingung
 8670f03 talk: live-status als natuerliche sprache fuer gemini, muster aus intent-db
@@ -139,7 +140,6 @@ bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
 0513e89 sync: context und identity aktualisiert
 04ea02f telegram: lokalen threading import in main() entfernt - UnboundLocalError fix
 ac156a9 logging: blinde excepts in telegram/oracle/publish/intent/config geloggt
-a7c5d3c sensors: xiaomi-ip aus config statt hardcoded
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -172,4 +172,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 12:21:54] BUGFIX-DEPLOYED | Bug #2934 gefixt und freigegeben
 
 ## Budget heute
-Heute: Text 68/300 | Vision 0/40 | Tokens 81134
+Heute: Text 72/300 | Vision 0/40 | Tokens 86295
