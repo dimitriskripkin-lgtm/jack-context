@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:43:38.669869)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:46:40.446105)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:43:38.660146
+Stand: 2026-08-12T12:46:40.433206
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -119,10 +119,10 @@ Stand: 2026-08-12T12:43:38.660146
 - Offene Fehler: 0
 - Erinnerungen: 218
 - Dienste:
-run: jack_cortex: (pid 24878) 4910s
-run: jack_telegram: (pid 24434) 121s
+run: jack_cortex: (pid 24878) 5092s
+run: jack_telegram: (pid 24434) 303s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 4910s
+run: ollama: (pid 24888) 5092s
 
 ## Letzte Aenderungen
 b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
