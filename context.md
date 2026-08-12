@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:01:13.158447)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:04:14.696318)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:01:13.150514
+Stand: 2026-08-12T12:04:14.689194
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -118,10 +118,10 @@ Stand: 2026-08-12T12:01:13.150514
 - Offene Fehler: 1
 - Erinnerungen: 204
 - Dienste:
-run: jack_cortex: (pid 24878) 2365s
-down: jack_telegram: 16s, normally up
+run: jack_cortex: (pid 24878) 2546s
+run: jack_telegram: (pid 25889) 111s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 2365s
+run: ollama: (pid 24888) 2546s
 
 ## Letzte Aenderungen
 ac156a9 logging: blinde excepts in telegram/oracle/publish/intent/config geloggt
@@ -149,7 +149,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 13:22:18] MONITOR-EVENT | 1 Events
 [2026-08-08 14:06:44] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
 [2026-08-08 14:06:44] MONITOR-EVENT | 1 Events
 [2026-08-08 15:31:57] MONITOR-EVENT | 1 Events
@@ -169,6 +168,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 11:22:20] MONITOR-EVENT | 1 Events
 [2026-08-12 11:23:15] SCOUT-LAUF | daa902fe3c99168d
 [2026-08-12 11:37:06] MONITOR-VOLLSCAN | ok
+[2026-08-12 12:02:23] WAECHTER-NEUSTART | jack_telegram
 
 ## Budget heute
 Heute: Text 12/300 | Vision 0/40 | Tokens 16917
