@@ -22,7 +22,7 @@
 -rwx------. 1 u0_a400 u0_a400  4937 Aug  6 06:25 /data/data/com.termux/files/home/jack/jack_hey.py
 -rw-------. 1 u0_a400 u0_a400  2810 Jul 24 11:53 /data/data/com.termux/files/home/jack/jack_improve.py
 -rw-------. 1 u0_a400 u0_a400  4770 Aug  7 07:01 /data/data/com.termux/files/home/jack/jack_install.py
--rw-------. 1 u0_a400 u0_a400 12571 Aug 12 11:53 /data/data/com.termux/files/home/jack/jack_intent.py
+-rw-------. 1 u0_a400 u0_a400 12782 Aug 12 12:15 /data/data/com.termux/files/home/jack/jack_intent.py
 -rw-------. 1 u0_a400 u0_a400  3667 Aug  4 08:34 /data/data/com.termux/files/home/jack/jack_learn.py
 -rw-------. 1 u0_a400 u0_a400   725 Jul 16 08:46 /data/data/com.termux/files/home/jack/jack_log.py
 -rw-------. 1 u0_a400 u0_a400  2066 Aug  7 07:03 /data/data/com.termux/files/home/jack/jack_logging.py
