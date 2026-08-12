@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T11:49:06.036379)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T11:52:07.678150)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T11:49:06.027318
+Stand: 2026-08-12T11:52:07.670101
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,15 +115,16 @@ Stand: 2026-08-12T11:49:06.027318
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 1
-- Erinnerungen: 201
+- Offene Fehler: 2
+- Erinnerungen: 202
 - Dienste:
-run: jack_cortex: (pid 24878) 1638s
-run: jack_telegram: (pid 8750) 744s
+run: jack_cortex: (pid 24878) 1819s
+run: jack_telegram: (pid 19020) 9s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 1638s
+run: ollama: (pid 24888) 1819s
 
 ## Letzte Aenderungen
+a7c5d3c sensors: xiaomi-ip aus config statt hardcoded
 9bd701d telegram: menu-callback ganz oben, OK-popup zeigt letzten jack-gedanken
 f8647f6 telegram: /menu ganz oben in handle() vor allem anderen
 019dcf8 telegram: alter menu-handler entfernt, neues kategorie-menue aktiv
@@ -138,7 +139,6 @@ c766375 jack_reflexion: Aktions-IDs + Nacht-Reflexions-Loop -> Langzeitgedaechtn
 c65b048 telegram: foto-analyse immer auf deutsch
 171ddfd ci: github actions - pytest bei jedem push auf master
 bf51ca0 telegram: foto-analyse mit ffmpeg-komprimierung, async thread
-25be220 tests: duplikat-test raeumt vor testlauf auf
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
