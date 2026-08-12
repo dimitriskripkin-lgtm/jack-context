@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T21:59:20.419817)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T22:02:24.797409)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T21:59:20.407341
+Stand: 2026-08-12T22:02:24.784422
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -119,10 +119,10 @@ Stand: 2026-08-12T21:59:20.407341
 - Offene Fehler: 0
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 38252s
-run: jack_telegram: (pid 21250) 31528s
+run: jack_cortex: (pid 24878) 38436s
+run: jack_telegram: (pid 21250) 31712s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 38252s
+run: ollama: (pid 24888) 38436s
 
 ## Letzte Aenderungen
 80d15ea adb: aktive app und cpu-last im live-context, apps in identity gespeichert
