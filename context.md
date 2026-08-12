@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:49:42.509882)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:52:44.464083)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:49:42.498544
+Stand: 2026-08-12T12:52:44.441091
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,14 +117,15 @@ Stand: 2026-08-12T12:49:42.498544
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 219
+- Erinnerungen: 222
 - Dienste:
-run: jack_cortex: (pid 24878) 5274s
-run: jack_telegram: (pid 31415) 48s
+run: jack_cortex: (pid 24878) 5456s
+run: jack_telegram: (pid 1331) 52s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 5274s
+run: ollama: (pid 24888) 5456s
 
 ## Letzte Aenderungen
+a1ddac0 talk: situationsbewusstsein - akku, laufzeiten, fehler-historie, muster, memory-stats, anti-wiederholung
 3bfc28c talk: _live immer via _status_als_text(), keine keyword-bedingung
 8670f03 talk: live-status als natuerliche sprache fuer gemini, muster aus intent-db
 b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
@@ -139,7 +140,6 @@ bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
 04ea02f telegram: lokalen threading import in main() entfernt - UnboundLocalError fix
 ac156a9 logging: blinde excepts in telegram/oracle/publish/intent/config geloggt
 a7c5d3c sensors: xiaomi-ip aus config statt hardcoded
-9bd701d telegram: menu-callback ganz oben, OK-popup zeigt letzten jack-gedanken
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -172,4 +172,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 12:21:54] BUGFIX-DEPLOYED | Bug #2934 gefixt und freigegeben
 
 ## Budget heute
-Heute: Text 56/300 | Vision 0/40 | Tokens 66606
+Heute: Text 68/300 | Vision 0/40 | Tokens 81134
