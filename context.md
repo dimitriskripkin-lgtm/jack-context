@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T11:21:49.011829)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T11:24:50.888988)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T11:21:49.002338
+Stand: 2026-08-12T11:24:50.882475
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-12T11:21:49.002338
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (80)
+## Aktive Module (81)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -88,6 +88,7 @@ Stand: 2026-08-12T11:21:49.002338
 - jack_talk.py
 - jack_telegram.py
 - jack_thermal.py
+- jack_traceback.py
 - jack_ui.py
 - jack_v2.py
 - jack_vecdb.py
@@ -117,12 +118,13 @@ Stand: 2026-08-12T11:21:49.002338
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 24878) 1s
-run: jack_telegram: (pid 24879) 1s
+run: jack_cortex: (pid 24878) 182s
+run: jack_telegram: (pid 25296) 173s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 1s
+run: ollama: (pid 24888) 182s
 
 ## Letzte Aenderungen
+be27b3c traceback-parser: fehleranalyse mit loesungshinweisen, /tb befehl in telegram
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
 01c4105 Telegram: Offset persistent + sofortige Bestaetigung + Absturz-Log (behebt Replay-Loop)
 ebb1b09 Telegram: Timestamp am Ende jeder Nachricht
@@ -137,7 +139,6 @@ bf51ca0 telegram: foto-analyse mit ffmpeg-komprimierung, async thread
 f827ff1 selftest: cpu-die 91C, akku 50C - zwei separate sensoren
 cca6d62 tests: 5 kern-tests fuer memory, intent, selftest, chains
 8dbcf19 memory: fts duplikate-fix, rebuild fts index
-e2be96d memory: schema fix 5->7 spalten, monkey-patch weg, schreibt via db_queue
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -148,11 +149,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 10:32:35] MONITOR-EVENT | 1 Events
-[2026-08-08 10:34:36] MONITOR-EVENT | 1 Events
-[2026-08-08 11:00:00] CONSOLIDATE | Session gespeichert: 9 Logs, 0 Zugriffe
-[2026-08-08 11:13:01] MONITOR-EVENT | 1 Events
-[2026-08-08 11:36:22] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-08 11:36:22] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-08 13:22:18] MONITOR-EVENT | 1 Events
 [2026-08-08 14:06:44] MONITOR-NOTIFY-ERR | <urlopen error [Errno 7] No address associated with hostname>
@@ -168,6 +164,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-09 01:32:57] MONITOR-EVENT | 1 Events
 [2026-08-09 02:03:14] MONITOR-EVENT | 1 Events
 [2026-08-12 11:21:48] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-12 11:21:58] WAECHTER-AUDIT | woechentlich verschickt
+[2026-08-12 11:21:58] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-12 11:21:58] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-12 11:22:20] MONITOR-EVENT | 1 Events
+[2026-08-12 11:23:15] SCOUT-LAUF | daa902fe3c99168d
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 3510
