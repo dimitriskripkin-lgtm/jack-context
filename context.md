@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T01:13:32.406476)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T01:14:37.898603)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T01:13:32.388442
+Stand: 2026-08-13T01:14:37.886686
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-13T01:13:32.388442
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (83)
+## Aktive Module (84)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -52,6 +52,7 @@ Stand: 2026-08-13T01:13:32.388442
 - jack_cortex.py
 - jack_db_queue.py
 - jack_episoden.py
+- jack_gedanken.py
 - jack_gemini_bridge.py
 - jack_haliza.py
 - jack_handshake_gen.py
@@ -120,10 +121,10 @@ Stand: 2026-08-13T01:13:32.388442
 - Offene Fehler: 1
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 49904s
-run: jack_telegram: (pid 30519) 297s
+run: jack_cortex: (pid 24878) 49969s
+run: jack_telegram: (pid 3549) 0s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 49904s
+run: ollama: (pid 24888) 49969s
 
 ## Letzte Aenderungen
 654712b gemini: varianz-zwang und anti-report-stil im system-prompt
@@ -151,7 +152,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-09 00:28:15] MONITOR-EVENT | 1 Events
 [2026-08-09 00:30:17] MONITOR-EVENT | 1 Events
 [2026-08-09 01:26:54] MONITOR-EVENT | 1 Events
 [2026-08-09 01:32:57] MONITOR-EVENT | 1 Events
@@ -171,6 +171,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 23:22:52] MONITOR-EVENT | 1 Events
 [2026-08-12 23:31:01] MONITOR-EVENT | 1 Events
 [2026-08-13 00:38:25] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-13 01:14:37] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 8/300 | Vision 0/40 | Tokens 23377
+Heute: Text 11/300 | Vision 0/40 | Tokens 26581
