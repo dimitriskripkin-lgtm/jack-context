@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T12:04:14.696318)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T12:07:16.870435)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T12:04:14.689194
+Stand: 2026-08-12T12:07:16.863454
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -118,10 +118,10 @@ Stand: 2026-08-12T12:04:14.689194
 - Offene Fehler: 1
 - Erinnerungen: 204
 - Dienste:
-run: jack_cortex: (pid 24878) 2546s
-run: jack_telegram: (pid 25889) 111s
+run: jack_cortex: (pid 24878) 2728s
+run: jack_telegram: (pid 27267) 117s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 2546s
+run: ollama: (pid 24888) 2728s
 
 ## Letzte Aenderungen
 ac156a9 logging: blinde excepts in telegram/oracle/publish/intent/config geloggt
