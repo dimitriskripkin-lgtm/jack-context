@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-12T11:55:09.308207)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T11:58:11.446644)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-12T11:55:09.299549
+Stand: 2026-08-12T11:58:11.431452
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -115,13 +115,13 @@ Stand: 2026-08-12T11:55:09.299549
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 2
+- Offene Fehler: 1
 - Erinnerungen: 202
 - Dienste:
-run: jack_cortex: (pid 24878) 2001s
-run: jack_telegram: (pid 19020) 191s
+run: jack_cortex: (pid 24878) 2183s
+run: jack_telegram: (pid 23278) 43s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 2001s
+run: ollama: (pid 24888) 2183s
 
 ## Letzte Aenderungen
 ac156a9 logging: blinde excepts in telegram/oracle/publish/intent/config geloggt
@@ -171,4 +171,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 11:37:06] MONITOR-VOLLSCAN | ok
 
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 9317
+Heute: Text 8/300 | Vision 0/40 | Tokens 12829
