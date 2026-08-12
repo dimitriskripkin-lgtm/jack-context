@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T01:20:41.464039)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T01:23:43.226712)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T01:20:41.452950
+Stand: 2026-08-13T01:23:43.214337
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -121,12 +121,13 @@ Stand: 2026-08-13T01:20:41.452950
 - Offene Fehler: 1
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 50333s
-run: jack_telegram: (pid 3549) 364s
+run: jack_cortex: (pid 24878) 50515s
+run: jack_telegram: (pid 10235) 92s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 50333s
+run: ollama: (pid 24888) 50515s
 
 ## Letzte Aenderungen
+65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
 f21b5a3 episoden + gedanken + reflexion: momente statt datenpunkte, echte proaktivitaet, sichtbare gedankenkette
 654712b gemini: varianz-zwang und anti-report-stil im system-prompt
 6cf5abf gemini: varianz-zwang, anti-wiederholung, report-stil verboten
@@ -141,7 +142,6 @@ cd3c71e gemini: collect_status ohne xiaomi-ssh fuer schnellen kontext, live-date
 fc6e8ef logging: blinde excepts in autonomous/publish/handshake/selftest geloggt
 acc2585 menue: /bugfix eingetragen | logging: 5 weitere module geloggt
 bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
-6c758d4 bugfix-loop: autonomer bug-fix mit freigabe-button, /bugfix befehl
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
