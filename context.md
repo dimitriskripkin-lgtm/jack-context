@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-09T03:12:42.332992)
+# JACK LIVE-KONTEXT (auto, 2026-08-12T11:21:49.011829)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-09T03:12:42.322002
+Stand: 2026-08-12T11:21:49.002338
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -117,10 +117,10 @@ Stand: 2026-08-09T03:12:42.322002
 - Offene Fehler: 1
 - Erinnerungen: 199
 - Dienste:
-run: jack_cortex: (pid 31748) 157875s
-run: jack_telegram: (pid 414) 58155s
+run: jack_cortex: (pid 24878) 1s
+run: jack_telegram: (pid 24879) 1s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 11415) 159659s
+run: ollama: (pid 24888) 1s
 
 ## Letzte Aenderungen
 2688e1d jack_calltest: prueft alle modulaebergreifenden Aufrufe + tote Waechter-Threads
@@ -148,7 +148,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-08 10:32:34] MONITOR-DIENST-TOT | jack_telegram
 [2026-08-08 10:32:35] MONITOR-EVENT | 1 Events
 [2026-08-08 10:34:36] MONITOR-EVENT | 1 Events
 [2026-08-08 11:00:00] CONSOLIDATE | Session gespeichert: 9 Logs, 0 Zugriffe
@@ -168,6 +167,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-09 01:26:54] MONITOR-EVENT | 1 Events
 [2026-08-09 01:32:57] MONITOR-EVENT | 1 Events
 [2026-08-09 02:03:14] MONITOR-EVENT | 1 Events
+[2026-08-12 11:21:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 7020
+Heute: Text 1/300 | Vision 0/40 | Tokens 0
