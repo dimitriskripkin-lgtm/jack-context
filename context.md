@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T01:14:37.898603)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T01:17:39.521763)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T01:14:37.886686
+Stand: 2026-08-13T01:17:39.510230
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -121,12 +121,13 @@ Stand: 2026-08-13T01:14:37.886686
 - Offene Fehler: 1
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 49969s
-run: jack_telegram: (pid 3549) 0s
+run: jack_cortex: (pid 24878) 50151s
+run: jack_telegram: (pid 3549) 182s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 49969s
+run: ollama: (pid 24888) 50151s
 
 ## Letzte Aenderungen
+f21b5a3 episoden + gedanken + reflexion: momente statt datenpunkte, echte proaktivitaet, sichtbare gedankenkette
 654712b gemini: varianz-zwang und anti-report-stil im system-prompt
 6cf5abf gemini: varianz-zwang, anti-wiederholung, report-stil verboten
 80d15ea adb: aktive app und cpu-last im live-context, apps in identity gespeichert
@@ -141,7 +142,6 @@ fc6e8ef logging: blinde excepts in autonomous/publish/handshake/selftest geloggt
 acc2585 menue: /bugfix eingetragen | logging: 5 weitere module geloggt
 bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
 6c758d4 bugfix-loop: autonomer bug-fix mit freigabe-button, /bugfix befehl
-03ab41d intent: confidence-schwellen angepasst, bestaetigungsfragen erhoehen confidence
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -152,7 +152,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-09 00:30:17] MONITOR-EVENT | 1 Events
 [2026-08-09 01:26:54] MONITOR-EVENT | 1 Events
 [2026-08-09 01:32:57] MONITOR-EVENT | 1 Events
 [2026-08-09 02:03:14] MONITOR-EVENT | 1 Events
@@ -172,6 +171,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-12 23:31:01] MONITOR-EVENT | 1 Events
 [2026-08-13 00:38:25] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 01:14:37] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-13 01:15:59] SCOUT-LAUF | 9e097c0f797c27d3
 
 ## Budget heute
-Heute: Text 11/300 | Vision 0/40 | Tokens 26581
+Heute: Text 11/300 | Vision 0/40 | Tokens 29864
