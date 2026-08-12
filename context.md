@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T01:07:28.419346)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T01:10:30.504336)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T01:07:28.405235
+Stand: 2026-08-13T01:10:30.494743
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -119,12 +119,13 @@ Stand: 2026-08-13T01:07:28.405235
 - Offene Fehler: 1
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 49540s
-run: jack_telegram: (pid 26105) 510s
+run: jack_cortex: (pid 24878) 49722s
+run: jack_telegram: (pid 30519) 115s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 49540s
+run: ollama: (pid 24888) 49722s
 
 ## Letzte Aenderungen
+654712b gemini: varianz-zwang und anti-report-stil im system-prompt
 6cf5abf gemini: varianz-zwang, anti-wiederholung, report-stil verboten
 80d15ea adb: aktive app und cpu-last im live-context, apps in identity gespeichert
 d0c1deb talk: syntaxwarning fix, antwort-laenge praeferenz in identity
@@ -139,7 +140,6 @@ acc2585 menue: /bugfix eingetragen | logging: 5 weitere module geloggt
 bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
 6c758d4 bugfix-loop: autonomer bug-fix mit freigabe-button, /bugfix befehl
 03ab41d intent: confidence-schwellen angepasst, bestaetigungsfragen erhoehen confidence
-0513e89 sync: context und identity aktualisiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
