@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T08:01:07.744541)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T08:04:09.573047)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T08:01:07.730277
+Stand: 2026-08-13T08:04:09.562472
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-13T08:01:07.730277
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (85)
+## Aktive Module (86)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -51,6 +51,7 @@ Stand: 2026-08-13T08:01:07.730277
 - jack_consolidate.py
 - jack_cortex.py
 - jack_db_queue.py
+- jack_delta.py
 - jack_episoden.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
@@ -122,12 +123,13 @@ Stand: 2026-08-13T08:01:07.730277
 - Offene Fehler: 1
 - Erinnerungen: 228
 - Dienste:
-run: jack_cortex: (pid 24878) 74359s
-run: jack_telegram: (pid 10235) 23936s
+run: jack_cortex: (pid 25683) 65s
+run: jack_telegram: (pid 25665) 65s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 74359s
+run: ollama: (pid 24888) 74541s
 
 ## Letzte Aenderungen
+d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
 65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
 f21b5a3 episoden + gedanken + reflexion: momente statt datenpunkte, echte proaktivitaet, sichtbare gedankenkette
 654712b gemini: varianz-zwang und anti-report-stil im system-prompt
@@ -142,7 +144,6 @@ cd3c71e gemini: collect_status ohne xiaomi-ssh fuer schnellen kontext, live-date
 7510d02 logging: alle restlichen blinden excepts geloggt
 fc6e8ef logging: blinde excepts in autonomous/publish/handshake/selftest geloggt
 acc2585 menue: /bugfix eingetragen | logging: 5 weitere module geloggt
-bef1a9d meilenstein: erster autonomer bugfix deployed - bug 2934 jack_cortex
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
