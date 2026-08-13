@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T11:30:25.096781)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T11:33:27.382247)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T11:30:25.082622
+Stand: 2026-08-13T11:33:27.360421
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -123,10 +123,10 @@ Stand: 2026-08-13T11:30:25.082622
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 4113s
-run: jack_telegram: (pid 19314) 5422s
+run: jack_cortex: (pid 631) 4295s
+run: jack_telegram: (pid 19314) 5604s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 86917s
+run: ollama: (pid 24888) 87099s
 
 ## Letzte Aenderungen
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
@@ -154,7 +154,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-12 12:02:23] WAECHTER-NEUSTART | jack_telegram
 [2026-08-12 12:21:54] BUGFIX-DEPLOYED | Bug #2934 gefixt und freigegeben
 [2026-08-12 22:16:02] MONITOR-AKKU-WARN | 20%
 [2026-08-12 22:16:02] MONITOR-EVENT | 1 Events
@@ -174,6 +173,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 11:05:41] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 11:25:44] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-13 11:25:44] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-13 11:30:47] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
 Heute: Text 49/300 | Vision 0/40 | Tokens 147228
