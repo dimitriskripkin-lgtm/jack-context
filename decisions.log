@@ -742,3 +742,5 @@ SyntaxError: '(' was
 [2026-08-13 06:00:00] MEMORY-MAINTENANCE | 14 Eintraege als 'stale' markiert | 14 Stale-Eintraege geloescht | Verbleibend: 47 Eintraege
 [2026-08-13 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-13 09:15:47] MONITOR-VOLLSCAN | ok
+[2026-08-13 10:10:27] ORACLE-EINGANG | test1: echo test
+[2026-08-13 10:10:31] ORACLE-EINGANG | test3: sv status jack_cortex jack_telegram jack_waechter ollama

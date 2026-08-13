@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T10:08:28.980438)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T10:11:30.868155)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T10:08:28.971342
+Stand: 2026-08-13T10:11:30.842016
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -123,10 +123,10 @@ Stand: 2026-08-13T10:08:28.971342
 - Offene Fehler: 1
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 25683) 7524s
-run: jack_telegram: (pid 19314) 505s
+run: jack_cortex: (pid 25683) 7706s
+run: jack_telegram: (pid 19314) 687s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 82000s
+run: ollama: (pid 24888) 82182s
 
 ## Letzte Aenderungen
 d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
@@ -154,8 +154,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-12 11:21:58] WAECHTER-AUDIT | woechentlich verschickt
-[2026-08-12 11:21:58] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-12 11:21:58] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-12 11:22:20] MONITOR-EVENT | 1 Events
 [2026-08-12 11:23:15] SCOUT-LAUF | daa902fe3c99168d
@@ -174,6 +172,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 06:00:00] MEMORY-MAINTENANCE | 14 Eintraege als 'stale' markiert | 14 Stale-Eintraege geloescht | Verbleibend: 47 Eintraege
 [2026-08-13 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-13 09:15:47] MONITOR-VOLLSCAN | ok
+[2026-08-13 10:10:27] ORACLE-EINGANG | test1: echo test
+[2026-08-13 10:10:31] ORACLE-EINGANG | test3: sv status jack_cortex jack_telegram jack_waechter ollama
 
 ## Budget heute
 Heute: Text 45/300 | Vision 0/40 | Tokens 135924
