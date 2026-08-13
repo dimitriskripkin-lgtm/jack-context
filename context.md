@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T01:13:36.306367)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T01:16:38.336229)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T01:13:36.292742
+Stand: 2026-08-14T01:16:38.321139
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -25,11 +25,11 @@ Stand: 2026-08-14T01:13:36.292742
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK hat die Fähigkeit, Fehler autonom zu fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
-- JACK hat über 100 Module und einen strukturierten Bugfix-Prozess.
 - JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber häufig instabil.
-- JACK hat die Fähigkeit, das System live zu sehen und zu analysieren.
+- JACK kann das System live sehen und analysieren.
 - JACK kann die Umgebung via Termux-Verzeichnissen analysieren.
 - JACK identifiziert sich als KI-OS und Dima als Nutzer.
+- JACK hat Zugang zu Verzeichnissen, die Termux auf dem Honor erlaubt (hauptsächlich unter `/data/data/com.termux/files/home`).
 
 ## Aktive Module (88)
 - install_litert.py
@@ -125,10 +125,10 @@ Stand: 2026-08-14T01:13:36.292742
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 53504s
-run: jack_telegram: (pid 29531) 42583s
+run: jack_cortex: (pid 631) 53686s
+run: jack_telegram: (pid 29531) 42765s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 136308s
+run: ollama: (pid 24888) 136490s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -156,8 +156,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-12 23:22:52] MONITOR-EVENT | 1 Events
-[2026-08-12 23:31:01] MONITOR-EVENT | 1 Events
 [2026-08-13 00:38:25] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 01:14:37] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-13 01:15:59] SCOUT-LAUF | 9e097c0f797c27d3
@@ -176,6 +174,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 15:14:52] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-13 21:14:57] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
 [2026-08-14 00:12:11] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-14 01:15:00] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
+[2026-08-14 01:16:26] SCOUT-LAUF | 06a5e8af25a1235c
 
 ## Budget heute
-Heute: Text 0/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 4816
