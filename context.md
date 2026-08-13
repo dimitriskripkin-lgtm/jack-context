@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T07:58:05.937666)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T08:01:07.744541)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T07:58:05.925816
+Stand: 2026-08-13T08:01:07.730277
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-13T07:58:05.925816
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (84)
+## Aktive Module (85)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -105,6 +105,7 @@ Stand: 2026-08-13T07:58:05.925816
 - jack_voice_processor.py
 - jack_voice_router.py
 - jack_voice_stability.py
+- jack_voraussetzung.py
 - jack_write.py
 - jack_xiaomi.py
 - jack_xiaomi_cmd.py
@@ -121,10 +122,10 @@ Stand: 2026-08-13T07:58:05.925816
 - Offene Fehler: 1
 - Erinnerungen: 228
 - Dienste:
-run: jack_cortex: (pid 24878) 74177s
-run: jack_telegram: (pid 10235) 23754s
+run: jack_cortex: (pid 24878) 74359s
+run: jack_telegram: (pid 10235) 23936s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 74177s
+run: ollama: (pid 24888) 74359s
 
 ## Letzte Aenderungen
 65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
