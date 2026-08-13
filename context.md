@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T07:52:02.088622)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T07:55:04.172972)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T07:52:02.077948
+Stand: 2026-08-13T07:55:04.157495
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -121,10 +121,10 @@ Stand: 2026-08-13T07:52:02.077948
 - Offene Fehler: 1
 - Erinnerungen: 228
 - Dienste:
-run: jack_cortex: (pid 24878) 73814s
-run: jack_telegram: (pid 10235) 23391s
+run: jack_cortex: (pid 24878) 73996s
+run: jack_telegram: (pid 10235) 23573s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 73814s
+run: ollama: (pid 24888) 73996s
 
 ## Letzte Aenderungen
 65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
@@ -152,7 +152,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-09 02:03:14] MONITOR-EVENT | 1 Events
 [2026-08-12 11:21:48] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-12 11:21:58] WAECHTER-AUDIT | woechentlich verschickt
 [2026-08-12 11:21:58] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -172,6 +171,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 01:15:59] SCOUT-LAUF | 9e097c0f797c27d3
 [2026-08-13 05:00:01] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 06:00:00] MEMORY-MAINTENANCE | 14 Eintraege als 'stale' markiert | 14 Stale-Eintraege geloescht | Verbleibend: 47 Eintraege
+[2026-08-13 07:55:02] MONITOR-VOLLSCAN | ok
 
 ## Budget heute
 Heute: Text 8/300 | Vision 0/40 | Tokens 37266

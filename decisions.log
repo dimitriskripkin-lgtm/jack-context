@@ -740,3 +740,4 @@ SyntaxError: '(' was
 [2026-08-13 01:15:59] SCOUT-LAUF | 9e097c0f797c27d3
 [2026-08-13 05:00:01] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 06:00:00] MEMORY-MAINTENANCE | 14 Eintraege als 'stale' markiert | 14 Stale-Eintraege geloescht | Verbleibend: 47 Eintraege
+[2026-08-13 07:55:02] MONITOR-VOLLSCAN | ok
