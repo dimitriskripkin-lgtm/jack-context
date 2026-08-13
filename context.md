@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T05:20:24.510953)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T05:23:26.145634)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T05:20:24.500365
+Stand: 2026-08-13T05:23:26.135662
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -121,10 +121,10 @@ Stand: 2026-08-13T05:20:24.500365
 - Offene Fehler: 1
 - Erinnerungen: 226
 - Dienste:
-run: jack_cortex: (pid 24878) 64716s
-run: jack_telegram: (pid 10235) 14293s
+run: jack_cortex: (pid 24878) 64898s
+run: jack_telegram: (pid 10235) 14475s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 64716s
+run: ollama: (pid 24888) 64898s
 
 ## Letzte Aenderungen
 65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
