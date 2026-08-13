@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T10:11:30.868155)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T10:14:32.813322)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T10:11:30.842016
+Stand: 2026-08-13T10:14:32.799092
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -123,12 +123,13 @@ Stand: 2026-08-13T10:11:30.842016
 - Offene Fehler: 1
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 25683) 7706s
-run: jack_telegram: (pid 19314) 687s
+run: jack_cortex: (pid 25683) 7888s
+run: jack_telegram: (pid 19314) 869s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 82182s
+run: ollama: (pid 24888) 82364s
 
 ## Letzte Aenderungen
+f3c433f telegram: timeout=0 gegen carrier-nat-kill auf 5g, send-else-zweig wiederhergestellt, /scan aus fast_cmds
 d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
 65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
 f21b5a3 episoden + gedanken + reflexion: momente statt datenpunkte, echte proaktivitaet, sichtbare gedankenkette
@@ -143,7 +144,6 @@ b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
 cd3c71e gemini: collect_status ohne xiaomi-ssh fuer schnellen kontext, live-daten klar im prompt
 7510d02 logging: alle restlichen blinden excepts geloggt
 fc6e8ef logging: blinde excepts in autonomous/publish/handshake/selftest geloggt
-acc2585 menue: /bugfix eingetragen | logging: 5 weitere module geloggt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -176,4 +176,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 10:10:31] ORACLE-EINGANG | test3: sv status jack_cortex jack_telegram jack_waechter ollama
 
 ## Budget heute
-Heute: Text 45/300 | Vision 0/40 | Tokens 135924
+Heute: Text 48/300 | Vision 0/40 | Tokens 142441
