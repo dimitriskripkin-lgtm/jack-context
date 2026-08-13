@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T06:39:14.088491)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T06:42:15.952935)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T06:39:14.074560
+Stand: 2026-08-13T06:42:15.940746
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -119,12 +119,12 @@ Stand: 2026-08-13T06:39:14.074560
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 226
+- Erinnerungen: 228
 - Dienste:
-run: jack_cortex: (pid 24878) 69446s
-run: jack_telegram: (pid 10235) 19023s
+run: jack_cortex: (pid 24878) 69627s
+run: jack_telegram: (pid 10235) 19204s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 69446s
+run: ollama: (pid 24888) 69627s
 
 ## Letzte Aenderungen
 65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
@@ -174,4 +174,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 06:00:00] MEMORY-MAINTENANCE | 14 Eintraege als 'stale' markiert | 14 Stale-Eintraege geloescht | Verbleibend: 47 Eintraege
 
 ## Budget heute
-Heute: Text 23/300 | Vision 0/40 | Tokens 65295
+Heute: Text 4/300 | Vision 0/40 | Tokens 23984
