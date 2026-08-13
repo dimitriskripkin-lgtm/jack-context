@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T15:11:54.755574)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T15:14:56.654448)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T15:11:54.740858
+Stand: 2026-08-13T15:14:56.639526
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-08-13T15:11:54.740858
 - Das Xiaomi ist oft nicht erreichbar.
 - Die SSH-Verbindung zum Xiaomi ist häufig instabil.
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
-- Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
+- Dima identifiziert sich als Nutzer und JACK als KI-OS.
 
 ## Aktive Module (88)
 - install_litert.py
@@ -125,10 +125,10 @@ Stand: 2026-08-13T15:11:54.740858
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 17402s
-run: jack_telegram: (pid 29531) 6481s
+run: jack_cortex: (pid 631) 17584s
+run: jack_telegram: (pid 29531) 6663s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 100206s
+run: ollama: (pid 24888) 100388s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -156,7 +156,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-12 22:16:02] MONITOR-AKKU-WARN | 20%
 [2026-08-12 22:16:02] MONITOR-EVENT | 1 Events
 [2026-08-12 23:08:40] MONITOR-EVENT | 1 Events
 [2026-08-12 23:22:52] MONITOR-EVENT | 1 Events
@@ -176,6 +175,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 11:25:44] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-13 11:30:47] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 14:21:14] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-13 15:14:52] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 50/300 | Vision 0/40 | Tokens 152015
+Heute: Text 51/300 | Vision 0/40 | Tokens 156864
