@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T09:26:02.365574)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T09:29:04.178830)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T09:26:02.355796
+Stand: 2026-08-13T09:29:04.167867
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -123,10 +123,10 @@ Stand: 2026-08-13T09:26:02.355796
 - Offene Fehler: 1
 - Erinnerungen: 230
 - Dienste:
-run: jack_cortex: (pid 25683) 4978s
-run: jack_telegram: (pid 25766) 706s
+run: jack_cortex: (pid 25683) 5160s
+run: jack_telegram: (pid 25766) 888s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 79454s
+run: ollama: (pid 24888) 79636s
 
 ## Letzte Aenderungen
 d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
