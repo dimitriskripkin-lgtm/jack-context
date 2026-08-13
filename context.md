@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T10:20:36.578125)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T10:23:38.925707)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T10:20:36.567911
+Stand: 2026-08-13T10:23:38.917738
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -120,15 +120,16 @@ Stand: 2026-08-13T10:20:36.567911
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 1
+- Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 25683) 8252s
-run: jack_telegram: (pid 19314) 1233s
+run: jack_cortex: (pid 631) 106s
+run: jack_telegram: (pid 19314) 1415s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 82728s
+run: ollama: (pid 24888) 82910s
 
 ## Letzte Aenderungen
+e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
 f3c433f telegram: timeout=0 gegen carrier-nat-kill auf 5g, send-else-zweig wiederhergestellt, /scan aus fast_cmds
 d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
 65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
@@ -143,7 +144,6 @@ a1ddac0 talk: situationsbewusstsein - akku, laufzeiten, fehler-historie, muster,
 b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
 cd3c71e gemini: collect_status ohne xiaomi-ssh fuer schnellen kontext, live-daten klar im prompt
 7510d02 logging: alle restlichen blinden excepts geloggt
-fc6e8ef logging: blinde excepts in autonomous/publish/handshake/selftest geloggt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
