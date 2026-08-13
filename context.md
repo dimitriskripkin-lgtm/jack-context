@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T15:36:11.185589)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T15:39:12.874984)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T15:36:11.175398
+Stand: 2026-08-13T15:39:12.862360
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -125,10 +125,10 @@ Stand: 2026-08-13T15:36:11.175398
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 18859s
-run: jack_telegram: (pid 29531) 7938s
+run: jack_cortex: (pid 631) 19040s
+run: jack_telegram: (pid 29531) 8119s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 101663s
+run: ollama: (pid 24888) 101844s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
