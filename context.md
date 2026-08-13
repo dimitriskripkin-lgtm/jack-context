@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T11:03:06.258648)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T11:06:08.529563)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T11:03:06.237656
+Stand: 2026-08-13T11:06:08.511325
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -123,10 +123,10 @@ Stand: 2026-08-13T11:03:06.237656
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 2474s
-run: jack_telegram: (pid 19314) 3783s
+run: jack_cortex: (pid 631) 2656s
+run: jack_telegram: (pid 19314) 3965s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 85278s
+run: ollama: (pid 24888) 85460s
 
 ## Letzte Aenderungen
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
@@ -154,7 +154,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-12 11:22:20] MONITOR-EVENT | 1 Events
 [2026-08-12 11:23:15] SCOUT-LAUF | daa902fe3c99168d
 [2026-08-12 11:37:06] MONITOR-VOLLSCAN | ok
 [2026-08-12 12:02:23] WAECHTER-NEUSTART | jack_telegram
@@ -174,6 +173,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 10:10:27] ORACLE-EINGANG | test1: echo test
 [2026-08-13 10:10:31] ORACLE-EINGANG | test3: sv status jack_cortex jack_telegram jack_waechter ollama
 [2026-08-13 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
+[2026-08-13 11:05:41] WAECHTER-MELDUNG | Xiaomi weg
 
 ## Budget heute
 Heute: Text 48/300 | Vision 0/40 | Tokens 142441
