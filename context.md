@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T21:13:43.038228)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T21:16:45.172198)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T21:13:43.016805
+Stand: 2026-08-13T21:16:45.148722
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -23,13 +23,13 @@ Stand: 2026-08-13T21:13:43.016805
 - Dima hat KEINEN Hund.
 - Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- Dima hat die Anweisung gegeben, bei bestimmten Fragen länger zu antworten.
-- Dima ist jemand, der nach der Nachtschicht im Sprinter lieber noch Code schreibt als schläft.
-- Dima hat einen Joint zum Entspannen genehmigt.
-- Das Xiaomi ist oft nicht erreichbar.
-- Die SSH-Verbindung zum Xiaomi ist häufig instabil.
-- JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
-- Dima identifiziert sich als Nutzer und JACK als KI-OS.
+- JACK hat die Fähigkeit, Fehler autonom zu fixen.
+- JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
+- JACK hat über 100 Module und einen strukturierten Bugfix-Prozess.
+- JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber häufig instabil.
+- JACK hat die Fähigkeit, das System live zu sehen und zu analysieren.
+- JACK kann die Umgebung via Termux-Verzeichnissen analysieren.
+- JACK identifiziert sich als KI-OS und Dima als Nutzer.
 
 ## Aktive Module (88)
 - install_litert.py
@@ -125,10 +125,10 @@ Stand: 2026-08-13T21:13:43.016805
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 39111s
-run: jack_telegram: (pid 29531) 28190s
+run: jack_cortex: (pid 631) 39293s
+run: jack_telegram: (pid 29531) 28372s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 121915s
+run: ollama: (pid 24888) 122097s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -156,7 +156,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-12 22:16:02] MONITOR-EVENT | 1 Events
 [2026-08-12 23:08:40] MONITOR-EVENT | 1 Events
 [2026-08-12 23:22:52] MONITOR-EVENT | 1 Events
 [2026-08-12 23:31:01] MONITOR-EVENT | 1 Events
@@ -176,6 +175,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-13 11:30:47] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 14:21:14] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 15:14:52] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-13 21:14:57] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 53/300 | Vision 0/40 | Tokens 166481
+Heute: Text 54/300 | Vision 0/40 | Tokens 171276
