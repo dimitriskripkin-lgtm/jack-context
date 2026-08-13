@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T13:22:39.871431)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T13:25:41.653694)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T13:22:39.858705
+Stand: 2026-08-13T13:25:41.643352
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-13T13:22:39.858705
 - JACK verfügt über Fähigkeiten wie Speichermanagement, Sicherheit und Automatisierung.
 - Dima hat Dima als Nutzer und JACK als KI-OS identifiziert.
 
-## Aktive Module (86)
+## Aktive Module (88)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -64,6 +64,7 @@ Stand: 2026-08-13T13:22:39.858705
 - jack_learn.py
 - jack_log.py
 - jack_logging.py
+- jack_lokal.py
 - jack_math.py
 - jack_memory.py
 - jack_memory_engine.py
@@ -79,6 +80,7 @@ Stand: 2026-08-13T13:22:39.858705
 - jack_publish.py
 - jack_radar.py
 - jack_reflexion.py
+- jack_router.py
 - jack_sanity.py
 - jack_scout.py
 - jack_screen_tracker.py
@@ -123,12 +125,13 @@ Stand: 2026-08-13T13:22:39.858705
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 10847s
-run: jack_telegram: (pid 19314) 12156s
+run: jack_cortex: (pid 631) 11029s
+run: jack_telegram: (pid 29531) 108s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 93651s
+run: ollama: (pid 24888) 93833s
 
 ## Letzte Aenderungen
+c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
 f3c433f telegram: timeout=0 gegen carrier-nat-kill auf 5g, send-else-zweig wiederhergestellt, /scan aus fast_cmds
 d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
@@ -143,7 +146,6 @@ a1ddac0 talk: situationsbewusstsein - akku, laufzeiten, fehler-historie, muster,
 8670f03 talk: live-status als natuerliche sprache fuer gemini, muster aus intent-db
 b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
 cd3c71e gemini: collect_status ohne xiaomi-ssh fuer schnellen kontext, live-daten klar im prompt
-7510d02 logging: alle restlichen blinden excepts geloggt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
