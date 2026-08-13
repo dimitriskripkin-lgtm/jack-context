@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T11:27:23.162616)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T11:30:25.096781)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T11:27:23.150528
+Stand: 2026-08-13T11:30:25.082622
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -123,10 +123,10 @@ Stand: 2026-08-13T11:27:23.150528
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 3931s
-run: jack_telegram: (pid 19314) 5240s
+run: jack_cortex: (pid 631) 4113s
+run: jack_telegram: (pid 19314) 5422s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 86735s
+run: ollama: (pid 24888) 86917s
 
 ## Letzte Aenderungen
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
