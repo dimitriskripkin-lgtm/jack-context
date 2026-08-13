@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-13T10:14:32.813322)
+# JACK LIVE-KONTEXT (auto, 2026-08-13T10:17:34.640050)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-13T10:14:32.799092
+Stand: 2026-08-13T10:17:34.627231
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -123,10 +123,10 @@ Stand: 2026-08-13T10:14:32.799092
 - Offene Fehler: 1
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 25683) 7888s
-run: jack_telegram: (pid 19314) 869s
+run: jack_cortex: (pid 25683) 8070s
+run: jack_telegram: (pid 19314) 1051s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 82364s
+run: ollama: (pid 24888) 82546s
 
 ## Letzte Aenderungen
 f3c433f telegram: timeout=0 gegen carrier-nat-kill auf 5g, send-else-zweig wiederhergestellt, /scan aus fast_cmds
