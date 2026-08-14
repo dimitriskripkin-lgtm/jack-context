@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T12:53:49.096191)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T12:56:51.275053)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T12:53:49.078498
+Stand: 2026-08-14T12:56:51.242214
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -128,10 +128,10 @@ Stand: 2026-08-14T12:53:49.078498
 - Offene Fehler: 0
 - Erinnerungen: 240
 - Dienste:
-run: jack_cortex: (pid 7269) 8020s
-run: jack_telegram: (pid 27219) 4090s
+run: jack_cortex: (pid 7269) 8202s
+run: jack_telegram: (pid 27219) 4272s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 8020s
+run: ollama: (pid 7266) 8202s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -159,7 +159,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 11:30:47] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 14:21:14] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 15:14:52] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-13 21:14:57] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
@@ -179,6 +178,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 12:28:10] MONITOR-EVENT | 1 Events
 [2026-08-14 12:34:15] MONITOR-EVENT | 1 Events
 [2026-08-14 12:46:23] MONITOR-EVENT | 1 Events
+[2026-08-14 12:56:32] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 7/300 | Vision 0/40 | Tokens 21802
