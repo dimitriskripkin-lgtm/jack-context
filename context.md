@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T13:57:27.981567)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T14:00:29.761585)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T13:57:27.968014
+Stand: 2026-08-14T14:00:29.750477
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -128,12 +128,13 @@ Stand: 2026-08-14T13:57:27.968014
 - Offene Fehler: 0
 - Erinnerungen: 247
 - Dienste:
-run: jack_cortex: (pid 7269) 11838s
-run: jack_telegram: (pid 27084) 106s
+run: jack_cortex: (pid 7269) 12020s
+run: jack_telegram: (pid 30055) 91s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 11838s
+run: ollama: (pid 7266) 12020s
 
 ## Letzte Aenderungen
+9f563c3 feat(persona): deep persona DNA, natural memory trigger, foto-persona fix
 7856045 feat(core): harden resilience, inject dima-state machine, and upgrade context ingest cleaner
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
@@ -148,7 +149,6 @@ d0c1deb talk: syntaxwarning fix, antwort-laenge praeferenz in identity
 a1ddac0 talk: situationsbewusstsein - akku, laufzeiten, fehler-historie, muster, memory-stats, anti-wiederholung
 3bfc28c talk: _live immer via _status_als_text(), keine keyword-bedingung
 8670f03 talk: live-status als natuerliche sprache fuer gemini, muster aus intent-db
-b90d0a9 gemini: collect_status schnell ohne xiaomi-ssh, ram+temp+dienste lokal
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
