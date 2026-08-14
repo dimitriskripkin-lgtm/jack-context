@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:47:53.045168)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:50:55.044419)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:47:53.019775
+Stand: 2026-08-14T17:50:55.030338
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T17:47:53.019775
 - Offene Fehler: 0
 - Erinnerungen: 258
 - Dienste:
-run: jack_cortex: (pid 7269) 25664s
-run: jack_telegram: (pid 18635) 354s
+run: jack_cortex: (pid 7269) 25846s
+run: jack_telegram: (pid 18635) 536s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 25664s
+run: ollama: (pid 7266) 25846s
 
 ## Letzte Aenderungen
 1503a4b fix: persona Datei-Faehigkeit + Temperatur-Guard 58C Schwelle
