@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:21:51.040271)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:24:52.754102)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:21:51.024449
+Stand: 2026-08-14T19:24:52.742437
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,14 +139,15 @@ Stand: 2026-08-14T19:21:51.024449
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 267
+- Erinnerungen: 271
 - Dienste:
-run: jack_cortex: (pid 7269) 31302s
-run: jack_telegram: (pid 24193) 30s
+run: jack_cortex: (pid 7269) 31483s
+run: jack_telegram: (pid 27237) 23s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 31302s
+run: ollama: (pid 7266) 31483s
 
 ## Letzte Aenderungen
+4b0396b fix: Groq-Keywords erweitert inkl Umlaute
 e94f4cb feat: Groq llama3.3-70b fuer persoenliche Gespraeche, Gemini fuer System-Calls
 835e862 fix: JACK kann Dateien schreiben - Falschaussage korrigiert
 d178737 fix: voice fast-lane vor shebang entfernt, korrekt nach imports platziert
@@ -161,7 +162,6 @@ f04370e fix: Handlungs-Regel - reden vs handeln
 c9ae8d6 fix: anti-repetitions-regel in persona
 1503a4b fix: persona Datei-Faehigkeit + Temperatur-Guard 58C Schwelle
 b3f71b7 feat: confirm_write/cancel_write Callback verdrahtet
-6a1fd6a fix: send_keyboard tuple format fuer Schreibvorschlag-Buttons
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -172,7 +172,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 17:39:55] GUARD-OK | whisper gestartet, 2387MB frei
 [2026-08-14 17:42:31] DATEI-SCHREIBEN | 20260814_1742_hallobro.txt | 8 Zeichen
 [2026-08-14 17:43:15] DATEI-SCHREIBEN | thermox_commands_20260814.log | 38 Zeichen
 [2026-08-14 17:43:34] GUARD-OK | whisper gestartet, 2522MB frei
@@ -192,6 +191,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 18:44:53] GUARD-OK | whisper gestartet, 2821MB frei
 [2026-08-14 19:01:24] GUARD-OK | whisper gestartet, 2629MB frei
 [2026-08-14 19:07:27] GUARD-OK | whisper gestartet, 2806MB frei
+[2026-08-14 19:22:17] GUARD-OK | whisper gestartet, 2347MB frei
 
 ## Budget heute
-Heute: Text 149/300 | Vision 0/40 | Tokens 415233
+Heute: Text 157/300 | Vision 0/40 | Tokens 432556
