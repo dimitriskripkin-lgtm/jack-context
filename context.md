@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:32:57.830251)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:35:59.549545)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:32:57.815930
+Stand: 2026-08-14T22:35:59.529949
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,10 +143,10 @@ Stand: 2026-08-14T22:32:57.815930
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 42768s
-run: jack_telegram: (pid 30926) 10939s
+run: jack_cortex: (pid 7269) 42950s
+down: jack_telegram: 1s, normally up, want up
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 42768s
+run: ollama: (pid 7266) 42950s
 
 ## Letzte Aenderungen
 6282c15 feat(xiaomi): add real ssh system inspector module and fix telegram handler syntax
@@ -174,9 +174,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 18:15:05] GUARD-OK | whisper gestartet, 2879MB frei
-[2026-08-14 18:34:43] GUARD-OK | whisper gestartet, 2804MB frei
-[2026-08-14 18:44:53] GUARD-OK | whisper gestartet, 2821MB frei
 [2026-08-14 19:01:24] GUARD-OK | whisper gestartet, 2629MB frei
 [2026-08-14 19:07:27] GUARD-OK | whisper gestartet, 2806MB frei
 [2026-08-14 19:22:17] GUARD-OK | whisper gestartet, 2347MB frei
@@ -194,6 +191,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 22:24:31] GUARD-OK | whisper gestartet, 2844MB frei
 [2026-08-14 22:25:19] GUARD-OK | whisper gestartet, 3100MB frei
 [2026-08-14 22:26:01] GUARD-OK | whisper gestartet, 2963MB frei
+[2026-08-14 22:33:58] WAECHTER-NEUSTART | jack_telegram
+[2026-08-14 22:35:06] MONITOR-DIENST-TOT | jack_telegram
+[2026-08-14 22:35:07] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 205/300 | Vision 0/40 | Tokens 557545
