@@ -79,7 +79,7 @@
 -rw-------. 1 u0_a400 u0_a400  3450 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_stability.py
 -rw-------. 1 u0_a400 u0_a400  4673 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_voraussetzung.py
 -rw-------. 1 u0_a400 u0_a400  3197 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_write.py
--rw-------. 1 u0_a400 u0_a400  3800 Aug 14 14:06 /data/data/com.termux/files/home/jack/jack_xiaomi.py
+-rw-------. 1 u0_a400 u0_a400  5637 Aug 14 14:20 /data/data/com.termux/files/home/jack/jack_xiaomi.py
 -rw-------. 1 u0_a400 u0_a400  1952 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_xiaomi_cmd.py
 -rw-------. 1 u0_a400 u0_a400  8446 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_controller.py
 -rw-------. 1 u0_a400 u0_a400  3119 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_memory.py

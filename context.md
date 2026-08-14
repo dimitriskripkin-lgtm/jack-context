@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T14:18:40.372293)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T14:21:42.731998)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T14:18:40.358591
+Stand: 2026-08-14T14:21:42.717322
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -126,14 +126,15 @@ Stand: 2026-08-14T14:18:40.358591
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 247
+- Erinnerungen: 248
 - Dienste:
-run: jack_cortex: (pid 7269) 13111s
-run: jack_telegram: (pid 8686) 450s
+run: jack_cortex: (pid 7269) 13293s
+run: jack_telegram: (pid 8686) 632s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 13111s
+run: ollama: (pid 7266) 13293s
 
 ## Letzte Aenderungen
+0aeb8f0 feat(xiaomi): ControlMaster + explore_next() autonome Idle-Exploration
 209b5ab sec: harden gitignore - exclude state files, secrets, locks, SSH keys
 e99e4e9 fix: persona inject syntax warning in jack_talk context builder
 66d8580 fix: replace ping with urllib, persona injected into talk, keyboard sig fix
@@ -148,7 +149,6 @@ d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher 
 f21b5a3 episoden + gedanken + reflexion: momente statt datenpunkte, echte proaktivitaet, sichtbare gedankenkette
 654712b gemini: varianz-zwang und anti-report-stil im system-prompt
 6cf5abf gemini: varianz-zwang, anti-wiederholung, report-stil verboten
-80d15ea adb: aktive app und cpu-last im live-context, apps in identity gespeichert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
