@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T23:18:30.142129)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T23:21:32.276586)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T23:18:30.102458
+Stand: 2026-08-14T23:21:32.271415
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-14T23:18:30.102458
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 45501s
-run: jack_telegram: (pid 17892) 30s
+run: jack_cortex: (pid 7269) 45683s
+run: jack_telegram: (pid 20612) 86s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 45501s
+run: ollama: (pid 7266) 45683s
 
 ## Letzte Aenderungen
+f7289d5 fix(telegram): return early on xiaomi inspect and fix tuple unpacking for fetch_and_process_url
 99c8a99 fix(telegram): use updated fetch_and_ingest_url method
 0741870 fix(web_ingest): add browser headers and fallback chunking for quiet sites
 3f169c1 feat(research): fix function call in curator module and test knowledge distillation
@@ -164,7 +165,6 @@ e94f4cb feat: Groq llama3.3-70b fuer persoenliche Gespraeche, Gemini fuer System
 835e862 fix: JACK kann Dateien schreiben - Falschaussage korrigiert
 d178737 fix: voice fast-lane vor shebang entfernt, korrekt nach imports platziert
 a604bdd feat(voice): wire live voice bridge fast-lane into telegram bot
-4de7c2e feat(voice): add ultra-low latency live voice bridge module prototype
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -175,26 +175,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 23:18:08] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:09] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:10] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:11] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:12] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:13] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:14] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:15] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:17] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:18] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:19] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:21] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:23] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:24] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:25] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:26] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:27] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:28] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:18:30] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:10] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:11] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:12] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:13] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:14] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:16] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:17] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:18] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:19] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:21] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:22] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:24] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:25] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:26] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:27] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:28] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:29] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:30] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:21:31] WAECHTER-START | Nacht-Ueberwachung mit Queue
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 0
+Heute: Text 3/300 | Vision 0/40 | Tokens 0
