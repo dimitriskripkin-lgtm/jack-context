@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T15:34:28.957975)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T15:37:30.693417)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T15:34:28.945737
+Stand: 2026-08-14T15:37:30.677679
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -132,10 +132,10 @@ Stand: 2026-08-14T15:34:28.945737
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 17659s
-run: jack_telegram: (pid 8686) 4998s
+run: jack_cortex: (pid 7269) 17841s
+run: jack_telegram: (pid 8686) 5180s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 17659s
+run: ollama: (pid 7266) 17841s
 
 ## Letzte Aenderungen
 d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
