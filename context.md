@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T11:28:44.859725)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T11:31:47.090608)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T11:28:44.848381
+Stand: 2026-08-14T11:31:47.072051
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T11:28:44.848381
 - JACK identifiziert sich als KI-OS und Dima als Nutzer.
 - JACK hat Zugriff auf Verzeichnisse, die Termux auf dem Honor erlaubt (hauptsächlich unter `/data/data/com.termux/files/home`).
 
-## Aktive Module (89)
+## Aktive Module (91)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -49,6 +49,7 @@ Stand: 2026-08-14T11:28:44.848381
 - jack_coder.py
 - jack_config.py
 - jack_consolidate.py
+- jack_context_ingest.py
 - jack_cortex.py
 - jack_db_queue.py
 - jack_delta.py
@@ -92,6 +93,7 @@ Stand: 2026-08-14T11:28:44.848381
 - jack_skills.py
 - jack_skills_db.py
 - jack_snapshot.py
+- jack_state.py
 - jack_talk.py
 - jack_telegram.py
 - jack_thermal.py
@@ -126,10 +128,10 @@ Stand: 2026-08-14T11:28:44.848381
 - Offene Fehler: 0
 - Erinnerungen: 240
 - Dienste:
-run: jack_cortex: (pid 7269) 2915s
-run: jack_telegram: (pid 12884) 2349s
+run: jack_cortex: (pid 7269) 3098s
+run: jack_telegram: (pid 12884) 2532s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 2915s
+run: ollama: (pid 7266) 3098s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk

@@ -15,6 +15,7 @@
 -rw-------. 1 u0_a400 u0_a400  3487 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_coder.py
 -rw-------. 1 u0_a400 u0_a400  1144 Aug 14 11:11 /data/data/com.termux/files/home/jack/jack_config.py
 -rw-------. 1 u0_a400 u0_a400  2298 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_consolidate.py
+-rw-------. 1 u0_a400 u0_a400  4475 Aug 14 11:30 /data/data/com.termux/files/home/jack/jack_context_ingest.py
 -rwx------. 1 u0_a400 u0_a400  8042 Aug 13 10:21 /data/data/com.termux/files/home/jack/jack_cortex.py
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
 -rw-------. 1 u0_a400 u0_a400  5131 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_delta.py
@@ -58,6 +59,7 @@
 -rw-------. 1 u0_a400 u0_a400  3768 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_skills.py
 -rw-------. 1 u0_a400 u0_a400  6325 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_skills_db.py
 -rw-------. 1 u0_a400 u0_a400  1864 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_snapshot.py
+-rw-------. 1 u0_a400 u0_a400  1677 Aug 14 11:30 /data/data/com.termux/files/home/jack/jack_state.py
 -rw-------. 1 u0_a400 u0_a400 12579 Aug 14 11:00 /data/data/com.termux/files/home/jack/jack_talk.py
 -rw-------. 1 u0_a400 u0_a400 47149 Aug 13 13:23 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  5133 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_thermal.py
@@ -72,7 +74,7 @@
 -rwx------. 1 u0_a400 u0_a400  6974 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_live.py
 -rw-------. 1 u0_a400 u0_a400  2960 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_live_test.py
 -rw-------. 1 u0_a400 u0_a400  3186 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_ping.py
--rw-------. 1 u0_a400 u0_a400  4728 Aug 14 11:09 /data/data/com.termux/files/home/jack/jack_voice_processor.py
+-rw-------. 1 u0_a400 u0_a400  5067 Aug 14 11:30 /data/data/com.termux/files/home/jack/jack_voice_processor.py
 -rwx------. 1 u0_a400 u0_a400 10589 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_router.py
 -rw-------. 1 u0_a400 u0_a400  3450 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_stability.py
 -rw-------. 1 u0_a400 u0_a400  4673 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_voraussetzung.py
