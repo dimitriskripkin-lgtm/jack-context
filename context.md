@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:36:23.170932)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:39:24.875087)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:36:23.157617
+Stand: 2026-08-14T18:39:24.864286
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T18:36:23.157617
 - Offene Fehler: 0
 - Erinnerungen: 265
 - Dienste:
-run: jack_cortex: (pid 7269) 28574s
-run: jack_telegram: (pid 22788) 142s
+run: jack_cortex: (pid 7269) 28755s
+run: jack_telegram: (pid 22788) 323s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 28574s
+run: ollama: (pid 7266) 28755s
 
 ## Letzte Aenderungen
 4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
