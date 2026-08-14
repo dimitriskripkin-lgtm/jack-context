@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:04:47.188410)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:07:48.817569)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:04:47.172147
+Stand: 2026-08-14T16:07:48.806230
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -133,12 +133,13 @@ Stand: 2026-08-14T16:04:47.172147
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 19478s
-run: jack_telegram: (pid 8686) 6817s
+run: jack_cortex: (pid 7269) 19659s
+run: jack_telegram: (pid 8686) 6998s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 19478s
+run: ollama: (pid 7266) 19659s
 
 ## Letzte Aenderungen
+e511931 docs: authentic CTO-grade README based on live system state
 084d9b9 feat(rag): implement working context ingest pipeline with md5 dedup and html cleaner
 d2e2087 Revert "docs: professional CTO-outreach portfolio README"
 4da6bd1 docs: professional CTO-outreach portfolio README
@@ -153,7 +154,6 @@ c4f1428 fix(xiaomi): explore_next() Befehle fuer Android korrigiert
 209b5ab sec: harden gitignore - exclude state files, secrets, locks, SSH keys
 e99e4e9 fix: persona inject syntax warning in jack_talk context builder
 66d8580 fix: replace ping with urllib, persona injected into talk, keyboard sig fix
-4bf9469 feat(persona): memory trigger in poll-loop + proactive 30min pulse
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
