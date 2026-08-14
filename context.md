@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:46:05.513073)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:49:07.102457)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:46:05.500982
+Stand: 2026-08-14T19:49:07.090582
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -141,11 +141,10 @@ Stand: 2026-08-14T19:46:05.500982
 - Offene Fehler: 0
 - Erinnerungen: 275
 - Dienste:
-run: jack_cortex: (pid 7269) 32756s
-run: jack_telegram: (pid 30926) 927s
-down: jack_autolearn: 0s, normally up, want up; warning: jack_autolearn/log: unable to open supervise/ok: file does not exist
-down: log: 0s, normally up, want up
-run: ollama: (pid 7266) 32756s
+run: jack_cortex: (pid 7269) 32938s
+run: jack_telegram: (pid 30926) 1109s
+fail: jack_autolearn: unable to change to service directory: file does not exist
+run: ollama: (pid 7266) 32938s
 
 ## Letzte Aenderungen
 6560a7b feat: Groq bekommt RAG-Memories + Identity-Kontext
