@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:15:10.294944)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:18:12.468946)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:15:10.272920
+Stand: 2026-08-14T18:18:12.454422
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T18:15:10.272920
 - Offene Fehler: 0
 - Erinnerungen: 265
 - Dienste:
-run: jack_cortex: (pid 7269) 27301s
-run: jack_telegram: (pid 6690) 436s
+run: jack_cortex: (pid 7269) 27483s
+run: jack_telegram: (pid 6690) 618s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 27301s
+run: ollama: (pid 7266) 27483s
 
 ## Letzte Aenderungen
 a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
@@ -192,4 +192,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 18:15:05] GUARD-OK | whisper gestartet, 2879MB frei
 
 ## Budget heute
-Heute: Text 127/300 | Vision 0/40 | Tokens 348183
+Heute: Text 128/300 | Vision 0/40 | Tokens 355892
