@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:54:34.451561)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:57:36.725628)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:54:34.432949
+Stand: 2026-08-14T18:57:36.712530
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T18:54:34.432949
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (102)
+## Aktive Module (103)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -69,6 +69,7 @@ Stand: 2026-08-14T18:54:34.432949
 - jack_install.py
 - jack_intent.py
 - jack_learn.py
+- jack_live_bridge.py
 - jack_log.py
 - jack_logging.py
 - jack_lokal.py
@@ -139,12 +140,14 @@ Stand: 2026-08-14T18:54:34.432949
 - Offene Fehler: 0
 - Erinnerungen: 266
 - Dienste:
-run: jack_cortex: (pid 7269) 29665s
-run: jack_telegram: (pid 28942) 633s
+run: jack_cortex: (pid 7269) 29847s
+run: jack_telegram: (pid 5773) 112s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 29665s
+run: ollama: (pid 7266) 29847s
 
 ## Letzte Aenderungen
+4de7c2e feat(voice): add ultra-low latency live voice bridge module prototype
+8bf30b7 refactor(talk): move system constraints to bottom of prompt with strict XML tags
 f0a4853 fix: hardcoded Beispiel-Text aus Gemini-Prompt entfernt - nur noch jack_persona.md
 4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
 a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
@@ -158,8 +161,6 @@ b312e40 fix: Schreibvorschlag -> Inline-Button statt Text
 a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
 8536a2c feat(core): add tiered memory consolidation and multi-file shadow execution engine
 a144af1 feat(cron): add 06:00 AM daily briefing cronjob script and crontab integration
-62deb53 feat(core): add non-blocking whisper, procedural rhythm engine and stale memory marking
-e511931 docs: authentic CTO-grade README based on live system state
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
