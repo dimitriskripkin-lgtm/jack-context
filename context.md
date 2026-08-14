@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:11:44.905848)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:14:46.919529)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:11:44.892717
+Stand: 2026-08-14T22:14:46.903311
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,10 +142,10 @@ Stand: 2026-08-14T22:11:44.892717
 - Offene Fehler: 0
 - Erinnerungen: 277
 - Dienste:
-run: jack_cortex: (pid 7269) 41495s
-run: jack_telegram: (pid 30926) 9666s
+run: jack_cortex: (pid 7269) 41677s
+run: jack_telegram: (pid 30926) 9848s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 41495s
+run: ollama: (pid 7266) 41677s
 
 ## Letzte Aenderungen
 e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
