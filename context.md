@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T11:25:42.599444)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T11:28:44.859725)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T11:25:42.579592
+Stand: 2026-08-14T11:28:44.848381
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -126,10 +126,10 @@ Stand: 2026-08-14T11:25:42.579592
 - Offene Fehler: 0
 - Erinnerungen: 240
 - Dienste:
-run: jack_cortex: (pid 7269) 2733s
-run: jack_telegram: (pid 12884) 2167s
+run: jack_cortex: (pid 7269) 2915s
+run: jack_telegram: (pid 12884) 2349s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 2733s
+run: ollama: (pid 7266) 2915s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -157,8 +157,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 09:15:47] MONITOR-VOLLSCAN | ok
-[2026-08-13 10:10:27] ORACLE-EINGANG | test1: echo test
 [2026-08-13 10:10:31] ORACLE-EINGANG | test3: sv status jack_cortex jack_telegram jack_waechter ollama
 [2026-08-13 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-08-13 11:05:41] WAECHTER-MELDUNG | Xiaomi weg
@@ -177,6 +175,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 10:41:36] SCOUT-LAUF | 3678bf4ddf4c402d
 [2026-08-14 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-08-14 11:11:45] SAGA-CLEANUP | 18 temp-Dateien geloescht: voice_AwACAgIAAxkBAAICQWpXPxFKWbW-dcnUJ3vFpDy9floZAAK9lgACitO4Sk5lylWlJd0_PQQ.ogg,voice_AwACAgIAAxkBAAICQ2pXPySCB38WkXm6NcpVEyVgqqDYAALAlgACitO4Sj1Q1aLix4UzPQQ.ogg,voice_AwACAgIAAxkBAAICmGpaJYeCf1ZQWeBToCAzRFjCwbSlAAInogAChEDRSs9v2VDojJk-PQQ.ogg,voice_AwACAgIAAxkBAAICoWpbtAvZdhpiCUjKFcpuWv5osLmQAAI3oQAChEDZStdBF0bWlF8RPQQ.ogg,voice_AwACAgIAAxkBAAICo2pbtEFADfv7yGBQXoTjMEcKb95PAAI7oQAChEDZSqrk1fHrKW3fPQQ.ogg
+[2026-08-14 11:26:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-14 11:26:10] SELF-IMPROVE | Tagescheck abgeschlossen
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 16895
