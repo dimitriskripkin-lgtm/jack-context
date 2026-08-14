@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T15:46:36.181322)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T15:49:37.879894)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T15:46:36.171611
+Stand: 2026-08-14T15:49:37.864691
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T15:46:36.171611
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (95)
+## Aktive Module (96)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -53,6 +53,7 @@ Stand: 2026-08-14T15:46:36.171611
 - jack_context_compress.py
 - jack_context_ingest.py
 - jack_cortex.py
+- jack_db_optimizer.py
 - jack_db_queue.py
 - jack_delta.py
 - jack_episoden.py
@@ -132,10 +133,10 @@ Stand: 2026-08-14T15:46:36.171611
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 18387s
-run: jack_telegram: (pid 8686) 5726s
+run: jack_cortex: (pid 7269) 18568s
+run: jack_telegram: (pid 8686) 5907s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 18387s
+run: ollama: (pid 7266) 18568s
 
 ## Letzte Aenderungen
 d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
