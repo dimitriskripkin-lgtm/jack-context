@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:12:45.508624)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:15:47.618650)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:12:45.499262
+Stand: 2026-08-14T19:15:47.602369
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T19:12:45.499262
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (103)
+## Aktive Module (104)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -61,6 +61,7 @@ Stand: 2026-08-14T19:12:45.499262
 - jack_episoden.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
+- jack_groq_bridge.py
 - jack_guard.py
 - jack_haliza.py
 - jack_handshake_gen.py
@@ -140,10 +141,10 @@ Stand: 2026-08-14T19:12:45.499262
 - Offene Fehler: 0
 - Erinnerungen: 267
 - Dienste:
-run: jack_cortex: (pid 7269) 30756s
-run: jack_telegram: (pid 11319) 492s
+run: jack_cortex: (pid 7269) 30938s
+run: jack_telegram: (pid 11319) 674s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 30756s
+run: ollama: (pid 7266) 30938s
 
 ## Letzte Aenderungen
 835e862 fix: JACK kann Dateien schreiben - Falschaussage korrigiert
