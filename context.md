@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:35:46.127731)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:38:47.876434)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:35:46.115198
+Stand: 2026-08-14T17:38:47.863322
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -137,14 +137,15 @@ Stand: 2026-08-14T17:35:46.115198
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 257
+- Erinnerungen: 258
 - Dienste:
-run: jack_cortex: (pid 7269) 24937s
-run: jack_telegram: (pid 8436) 356s
+run: jack_cortex: (pid 7269) 25118s
+run: jack_telegram: (pid 14378) 113s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 24937s
+run: ollama: (pid 7266) 25118s
 
 ## Letzte Aenderungen
+6a1fd6a fix: send_keyboard tuple format fuer Schreibvorschlag-Buttons
 b312e40 fix: Schreibvorschlag -> Inline-Button statt Text
 a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
 8536a2c feat(core): add tiered memory consolidation and multi-file shadow execution engine
@@ -159,7 +160,6 @@ d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
 5fc4cf9 feat(autonomy): jack_autofixer_shadow.py - Ollama Bug-Fixer mit Shadow-Execution
 08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
 36a62fc fix(xiaomi): explore_next() CPU+active_app via Root
-ca0b393 fix(xiaomi): explore_next() Output sauber parsen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -192,4 +192,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 17:34:25] MERKE-DIR | für die Zukunft immer mit das als Copy und Paste für mein Termux geben
 
 ## Budget heute
-Heute: Text 68/300 | Vision 0/40 | Tokens 152147
+Heute: Text 71/300 | Vision 0/40 | Tokens 159743
