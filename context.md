@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:53:56.801883)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:56:58.593481)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:53:56.790640
+Stand: 2026-08-14T17:56:58.582378
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -137,14 +137,16 @@ Stand: 2026-08-14T17:53:56.790640
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 261
+- Erinnerungen: 263
 - Dienste:
-run: jack_cortex: (pid 7269) 26027s
-run: jack_telegram: (pid 26949) 45s
+run: jack_cortex: (pid 7269) 26209s
+run: jack_telegram: (pid 28951) 51s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 26027s
+run: ollama: (pid 7266) 26209s
 
 ## Letzte Aenderungen
+3ec30b6 fix: persona anti-repeat - zeigen statt nacherzaehlen
+c9ae8d6 fix: anti-repetitions-regel in persona
 1503a4b fix: persona Datei-Faehigkeit + Temperatur-Guard 58C Schwelle
 b3f71b7 feat: confirm_write/cancel_write Callback verdrahtet
 6a1fd6a fix: send_keyboard tuple format fuer Schreibvorschlag-Buttons
@@ -158,8 +160,6 @@ e511931 docs: authentic CTO-grade README based on live system state
 d2e2087 Revert "docs: professional CTO-outreach portfolio README"
 4da6bd1 docs: professional CTO-outreach portfolio README
 d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
-8936fce feat(autonomous): jack_autofixer_shadow in Waechter-Loop alle 300s
-5fc4cf9 feat(autonomy): jack_autofixer_shadow.py - Ollama Bug-Fixer mit Shadow-Execution
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -192,4 +192,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 17:47:15] GUARD-OK | whisper gestartet, 2827MB frei
 
 ## Budget heute
-Heute: Text 93/300 | Vision 0/40 | Tokens 229579
+Heute: Text 97/300 | Vision 0/40 | Tokens 248019
