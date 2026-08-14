@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:09:06.409543)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:12:08.386152)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:09:06.397765
+Stand: 2026-08-14T18:12:08.372734
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -137,12 +137,12 @@ Stand: 2026-08-14T18:09:06.397765
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 263
+- Erinnerungen: 264
 - Dienste:
-run: jack_cortex: (pid 7269) 26937s
-run: jack_telegram: (pid 6690) 72s
+run: jack_cortex: (pid 7269) 27119s
+run: jack_telegram: (pid 6690) 254s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 26937s
+run: ollama: (pid 7266) 27119s
 
 ## Letzte Aenderungen
 f04370e fix: Handlungs-Regel - reden vs handeln
@@ -192,4 +192,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 18:08:23] GUARD-OK | whisper gestartet, 2807MB frei
 
 ## Budget heute
-Heute: Text 113/300 | Vision 0/40 | Tokens 306549
+Heute: Text 117/300 | Vision 0/40 | Tokens 318115
