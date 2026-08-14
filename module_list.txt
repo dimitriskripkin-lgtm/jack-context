@@ -72,7 +72,7 @@
 -rwx------. 1 u0_a400 u0_a400  6974 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_live.py
 -rw-------. 1 u0_a400 u0_a400  2960 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_live_test.py
 -rw-------. 1 u0_a400 u0_a400  3186 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_ping.py
--rw-------. 1 u0_a400 u0_a400  4672 Aug 14 10:40 /data/data/com.termux/files/home/jack/jack_voice_processor.py
+-rw-------. 1 u0_a400 u0_a400  4634 Aug 14 10:45 /data/data/com.termux/files/home/jack/jack_voice_processor.py
 -rwx------. 1 u0_a400 u0_a400 10589 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_router.py
 -rw-------. 1 u0_a400 u0_a400  3450 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_stability.py
 -rw-------. 1 u0_a400 u0_a400  4673 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_voraussetzung.py
