@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T15:19:19.526853)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T15:22:21.251878)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T15:19:19.516734
+Stand: 2026-08-14T15:22:21.239942
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,12 +31,13 @@ Stand: 2026-08-14T15:19:19.516734
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (91)
+## Aktive Module (92)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
 - jack_audit.py
+- jack_autofixer_shadow.py
 - jack_autonomous.py
 - jack_briefing.py
 - jack_budget.py
@@ -128,12 +129,13 @@ Stand: 2026-08-14T15:19:19.516734
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 16750s
-run: jack_telegram: (pid 8686) 4089s
+run: jack_cortex: (pid 7269) 16932s
+run: jack_telegram: (pid 8686) 4271s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 16750s
+run: ollama: (pid 7266) 16932s
 
 ## Letzte Aenderungen
+5fc4cf9 feat(autonomy): jack_autofixer_shadow.py - Ollama Bug-Fixer mit Shadow-Execution
 08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
 36a62fc fix(xiaomi): explore_next() CPU+active_app via Root
 ca0b393 fix(xiaomi): explore_next() Output sauber parsen
@@ -148,7 +150,6 @@ e99e4e9 fix: persona inject syntax warning in jack_talk context builder
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
 f3c433f telegram: timeout=0 gegen carrier-nat-kill auf 5g, send-else-zweig wiederhergestellt, /scan aus fast_cmds
-d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -159,7 +160,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 00:12:11] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-14 01:15:00] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-08-14 01:16:26] SCOUT-LAUF | 06a5e8af25a1235c
 [2026-08-14 10:40:09] WAECHTER-START | Nacht-Ueberwachung laeuft
@@ -179,6 +179,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 13:26:03] GUARD-OK | whisper gestartet, 2376MB frei
 [2026-08-14 14:40:15] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-14 14:49:48] MONITOR-EVENT | 1 Events
+[2026-08-14 15:22:16] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 35/300 | Vision 0/40 | Tokens 82698
