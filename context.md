@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T15:31:27.076330)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T15:34:28.957975)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T15:31:27.062730
+Stand: 2026-08-14T15:34:28.945737
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T15:31:27.062730
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (92)
+## Aktive Module (95)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -50,6 +50,7 @@ Stand: 2026-08-14T15:31:27.062730
 - jack_coder.py
 - jack_config.py
 - jack_consolidate.py
+- jack_context_compress.py
 - jack_context_ingest.py
 - jack_cortex.py
 - jack_db_queue.py
@@ -85,8 +86,10 @@ Stand: 2026-08-14T15:31:27.062730
 - jack_reflexion.py
 - jack_router.py
 - jack_sanity.py
+- jack_scheduler.py
 - jack_scout.py
 - jack_screen_tracker.py
+- jack_self_audit.py
 - jack_self_improve.py
 - jack_selftest.py
 - jack_sensors.py
@@ -129,12 +132,13 @@ Stand: 2026-08-14T15:31:27.062730
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 17478s
-run: jack_telegram: (pid 8686) 4817s
+run: jack_cortex: (pid 7269) 17659s
+run: jack_telegram: (pid 8686) 4998s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 17478s
+run: ollama: (pid 7266) 17659s
 
 ## Letzte Aenderungen
+d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
 8936fce feat(autonomous): jack_autofixer_shadow in Waechter-Loop alle 300s
 5fc4cf9 feat(autonomy): jack_autofixer_shadow.py - Ollama Bug-Fixer mit Shadow-Execution
 08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
@@ -149,7 +153,6 @@ e99e4e9 fix: persona inject syntax warning in jack_talk context builder
 9f563c3 feat(persona): deep persona DNA, natural memory trigger, foto-persona fix
 7856045 feat(core): harden resilience, inject dima-state machine, and upgrade context ingest cleaner
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
-e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -160,7 +163,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 01:15:00] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-08-14 01:16:26] SCOUT-LAUF | 06a5e8af25a1235c
 [2026-08-14 10:40:09] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-14 10:40:11] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
@@ -180,6 +182,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 14:40:15] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-14 14:49:48] MONITOR-EVENT | 1 Events
 [2026-08-14 15:22:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-14 15:31:53] SELF-AUDIT | SYSTEM_STATE.md generiert
 
 ## Budget heute
 Heute: Text 35/300 | Vision 0/40 | Tokens 82698
