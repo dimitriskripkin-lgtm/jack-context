@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:21:14.309791)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:24:16.107022)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:21:14.299575
+Stand: 2026-08-14T18:24:16.093715
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T18:21:14.299575
 - Offene Fehler: 0
 - Erinnerungen: 265
 - Dienste:
-run: jack_cortex: (pid 7269) 27665s
-run: jack_telegram: (pid 6690) 800s
+run: jack_cortex: (pid 7269) 27847s
+run: jack_telegram: (pid 6690) 982s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 27665s
+run: ollama: (pid 7266) 27847s
 
 ## Letzte Aenderungen
 a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
