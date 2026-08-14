@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T00:07:49.086690)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T00:08:17.699901)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T00:07:49.076530
+Stand: 2026-08-15T00:08:17.687334
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -27,9 +27,9 @@ Stand: 2026-08-15T00:07:49.076530
 - JACK kann das System live sehen und analysieren.
 - JACK kann die Umgebung via Termux-Verzeichnissen analysieren.
 - JACK identifiziert sich als KI-OS und Dima als Nutzer.
-- JACK hat Zugriff auf Verzeichnisse, die Termux auf dem Honor erlaubt (hauptsächlich unter `/data/data/com.termux/files/home`).
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
+- JACK ist "Just Autonomous Command Kit" und soll offline-first agieren.
 
 ## Aktive Module (109)
 - install_litert.py
@@ -144,14 +144,15 @@ Stand: 2026-08-15T00:07:49.076530
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 283
+- Erinnerungen: 284
 - Dienste:
-run: jack_cortex: (pid 7269) 48460s
-run: jack_telegram: (pid 5400) 1148s
+run: jack_cortex: (pid 7269) 48488s
+run: jack_telegram: (pid 5400) 1176s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 48460s
+run: ollama: (pid 7266) 48488s
 
 ## Letzte Aenderungen
+2690fd5 fix: TaskQueue.execute() implementiert
 51d4754 fix: jack_queue.py erstellt - ModuleNotFoundError behoben
 2d2e037 fix: handle() ruft jack_talk auf statt text zu echoen
 e42282a fix: Intent-Ergebnis direkt returnen, Gemini ueberspringen
@@ -166,7 +167,6 @@ f7289d5 fix(telegram): return early on xiaomi inspect and fix tuple unpacking fo
 0741870 fix(web_ingest): add browser headers and fallback chunking for quiet sites
 3f169c1 feat(research): fix function call in curator module and test knowledge distillation
 35035f0 feat(telegram): fix syntax and integrate xiaomi inspector + web ingest
-e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -177,10 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-15 00:07:27] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-15 00:07:28] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-15 00:07:30] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-15 00:07:31] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:32] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:33] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:34] WAECHTER-START | Nacht-Ueberwachung mit Queue
@@ -197,6 +193,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 00:07:46] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:47] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:49] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-15 00:07:50] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-15 00:07:51] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=1736MB frei Akku=100% Temp=31.2C
+[2026-08-15 00:07:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 00:08:17] WAECHTER-START | Nacht-Ueberwachung mit Queue
 
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 0
+Heute: Text 6/300 | Vision 0/40 | Tokens 6195
