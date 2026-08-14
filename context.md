@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T23:15:28.146252)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T23:18:30.142129)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T23:15:28.127799
+Stand: 2026-08-14T23:18:30.102458
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-14T23:15:28.127799
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 45319s
-run: jack_telegram: (pid 14151) 71s
+run: jack_cortex: (pid 7269) 45501s
+run: jack_telegram: (pid 17892) 30s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 45319s
+run: ollama: (pid 7266) 45501s
 
 ## Letzte Aenderungen
 99c8a99 fix(telegram): use updated fetch_and_ingest_url method
@@ -175,26 +175,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 19:07:27] GUARD-OK | whisper gestartet, 2806MB frei
-[2026-08-14 19:22:17] GUARD-OK | whisper gestartet, 2347MB frei
-[2026-08-14 19:55:53] GUARD-OK | whisper gestartet, 2606MB frei
-[2026-08-14 20:43:09] WAECHTER-MELDUNG | Xiaomi weg
-[2026-08-14 21:38:37] WAECHTER-MELDUNG | Xiaomi weg
-[2026-08-14 22:16:07] GUARD-OK | whisper gestartet, 2494MB frei
-[2026-08-14 22:17:23] GUARD-OK | whisper gestartet, 2527MB frei
-[2026-08-14 22:19:06] GUARD-OK | whisper gestartet, 2563MB frei
-[2026-08-14 22:19:55] GUARD-OK | whisper gestartet, 3104MB frei
-[2026-08-14 22:20:29] GUARD-OK | whisper gestartet, 3286MB frei
-[2026-08-14 22:21:15] GUARD-OK | whisper gestartet, 2929MB frei
-[2026-08-14 22:22:08] GUARD-OK | whisper gestartet, 3334MB frei
-[2026-08-14 22:22:40] GUARD-OK | whisper gestartet, 3112MB frei
-[2026-08-14 22:24:31] GUARD-OK | whisper gestartet, 2844MB frei
-[2026-08-14 22:25:19] GUARD-OK | whisper gestartet, 3100MB frei
-[2026-08-14 22:26:01] GUARD-OK | whisper gestartet, 2963MB frei
-[2026-08-14 22:33:58] WAECHTER-NEUSTART | jack_telegram
-[2026-08-14 22:35:06] MONITOR-DIENST-TOT | jack_telegram
-[2026-08-14 22:35:07] MONITOR-EVENT | 1 Events
-[2026-08-14 22:39:11] MONITOR-EVENT | 1 Events
+[2026-08-14 23:18:08] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:09] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:10] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:11] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:12] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:13] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:14] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:15] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:17] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:18] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:19] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:21] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:23] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:24] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:25] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:26] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:27] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:28] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:18:30] WAECHTER-START | Nacht-Ueberwachung mit Queue
 
 ## Budget heute
-Heute: Text 206/300 | Vision 0/40 | Tokens 563837
+Heute: Text 1/300 | Vision 0/40 | Tokens 0
