@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T00:08:17.699901)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T00:11:19.352357)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T00:08:17.687334
+Stand: 2026-08-15T00:11:19.341716
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -24,12 +24,12 @@ Stand: 2026-08-15T00:08:17.687334
 - Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
 - JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber häufig instabil.
-- JACK kann das System live sehen und analysieren.
-- JACK kann die Umgebung via Termux-Verzeichnissen analysieren.
-- JACK identifiziert sich als KI-OS und Dima als Nutzer.
-- JACK kann Fehler autonom fixen.
-- JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 - JACK ist "Just Autonomous Command Kit" und soll offline-first agieren.
+- Dima entwickelt hauptsächlich auf dem Smartphone.
+- Dima hat eine Investmentwohnung in Essen.
+- Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
+- JACK nutzt ollama llama3.2:3b als Offline-Fallback für Gemini.
+- JACK verwendet sqlite-vec als Vektordatenbank.
 
 ## Aktive Module (109)
 - install_litert.py
@@ -144,12 +144,12 @@ Stand: 2026-08-15T00:08:17.687334
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 284
+- Erinnerungen: 285
 - Dienste:
-run: jack_cortex: (pid 7269) 48488s
-run: jack_telegram: (pid 5400) 1176s
+run: jack_cortex: (pid 7269) 48670s
+run: jack_telegram: (pid 5400) 1358s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 48488s
+run: ollama: (pid 7266) 48670s
 
 ## Letzte Aenderungen
 2690fd5 fix: TaskQueue.execute() implementiert
@@ -177,10 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-15 00:07:32] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-15 00:07:33] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-15 00:07:34] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-15 00:07:35] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:36] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:37] WAECHTER-START | Nacht-Ueberwachung mit Queue
 [2026-08-15 00:07:39] WAECHTER-START | Nacht-Ueberwachung mit Queue
@@ -197,6 +193,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 00:07:51] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=1736MB frei Akku=100% Temp=31.2C
 [2026-08-15 00:07:51] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 00:08:17] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-15 00:08:19] PROFIL-UPDATE | 3 neue Eintraege in kortex_profile.json
+[2026-08-15 00:08:20] EXPLORE | Xiaomi: CPU=Load: 4.28 RAM=1739MB frei Akku=100% Temp=31.2C
+[2026-08-15 00:08:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 00:09:40] SCOUT-LAUF | 05f2dbab2755fe2c
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 6195
+Heute: Text 7/300 | Vision 0/40 | Tokens 18701
