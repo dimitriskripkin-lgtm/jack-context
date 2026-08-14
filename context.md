@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:03:40.205043)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:06:41.880122)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:03:40.196370
+Stand: 2026-08-14T19:06:41.866434
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -140,12 +140,13 @@ Stand: 2026-08-14T19:03:40.196370
 - Offene Fehler: 0
 - Erinnerungen: 267
 - Dienste:
-run: jack_cortex: (pid 7269) 30211s
-run: jack_telegram: (pid 9296) 195s
+run: jack_cortex: (pid 7269) 30392s
+run: jack_telegram: (pid 11319) 128s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 30211s
+run: ollama: (pid 7266) 30392s
 
 ## Letzte Aenderungen
+835e862 fix: JACK kann Dateien schreiben - Falschaussage korrigiert
 d178737 fix: voice fast-lane vor shebang entfernt, korrekt nach imports platziert
 a604bdd feat(voice): wire live voice bridge fast-lane into telegram bot
 4de7c2e feat(voice): add ultra-low latency live voice bridge module prototype
@@ -160,7 +161,6 @@ c9ae8d6 fix: anti-repetitions-regel in persona
 b3f71b7 feat: confirm_write/cancel_write Callback verdrahtet
 6a1fd6a fix: send_keyboard tuple format fuer Schreibvorschlag-Buttons
 b312e40 fix: Schreibvorschlag -> Inline-Button statt Text
-a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
