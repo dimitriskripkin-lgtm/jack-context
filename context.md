@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:56:21.999627)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:59:24.499796)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:56:21.964798
+Stand: 2026-08-14T16:59:24.484310
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T16:56:21.964798
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 22572s
-run: jack_telegram: (pid 8686) 9911s
+run: jack_cortex: (pid 7269) 22755s
+run: jack_telegram: (pid 8686) 10094s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 22572s
+run: ollama: (pid 7266) 22755s
 
 ## Letzte Aenderungen
 a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
