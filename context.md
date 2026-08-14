@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:13:53.009513)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:16:54.901551)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:13:52.995423
+Stand: 2026-08-14T16:16:54.887181
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T16:13:52.995423
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (96)
+## Aktive Module (99)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -74,6 +74,7 @@ Stand: 2026-08-14T16:13:52.995423
 - jack_memory.py
 - jack_memory_engine.py
 - jack_memory_maintenance.py
+- jack_memory_stale.py
 - jack_memory_tree.py
 - jack_missions.py
 - jack_monitor.py
@@ -85,6 +86,7 @@ Stand: 2026-08-14T16:13:52.995423
 - jack_publish.py
 - jack_radar.py
 - jack_reflexion.py
+- jack_rhythm.py
 - jack_router.py
 - jack_sanity.py
 - jack_scheduler.py
@@ -117,6 +119,7 @@ Stand: 2026-08-14T16:13:52.995423
 - jack_voice_router.py
 - jack_voice_stability.py
 - jack_voraussetzung.py
+- jack_whisper_async.py
 - jack_write.py
 - jack_xiaomi.py
 - jack_xiaomi_cmd.py
@@ -133,12 +136,13 @@ Stand: 2026-08-14T16:13:52.995423
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 20023s
-run: jack_telegram: (pid 8686) 7362s
+run: jack_cortex: (pid 7269) 20205s
+run: jack_telegram: (pid 8686) 7544s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 20023s
+run: ollama: (pid 7266) 20205s
 
 ## Letzte Aenderungen
+62deb53 feat(core): add non-blocking whisper, procedural rhythm engine and stale memory marking
 e511931 docs: authentic CTO-grade README based on live system state
 084d9b9 feat(rag): implement working context ingest pipeline with md5 dedup and html cleaner
 d2e2087 Revert "docs: professional CTO-outreach portfolio README"
@@ -153,7 +157,6 @@ c4f1428 fix(xiaomi): explore_next() Befehle fuer Android korrigiert
 0aeb8f0 feat(xiaomi): ControlMaster + explore_next() autonome Idle-Exploration
 209b5ab sec: harden gitignore - exclude state files, secrets, locks, SSH keys
 e99e4e9 fix: persona inject syntax warning in jack_talk context builder
-66d8580 fix: replace ping with urllib, persona injected into talk, keyboard sig fix
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
