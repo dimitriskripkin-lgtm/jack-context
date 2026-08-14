@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T23:12:26.377088)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T23:15:28.146252)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T23:12:26.367905
+Stand: 2026-08-14T23:15:28.127799
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-14T23:12:26.367905
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 45137s
-run: jack_telegram: (pid 28079) 2047s
+run: jack_cortex: (pid 7269) 45319s
+run: jack_telegram: (pid 14151) 71s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 45137s
+run: ollama: (pid 7266) 45319s
 
 ## Letzte Aenderungen
+99c8a99 fix(telegram): use updated fetch_and_ingest_url method
 0741870 fix(web_ingest): add browser headers and fallback chunking for quiet sites
 3f169c1 feat(research): fix function call in curator module and test knowledge distillation
 35035f0 feat(telegram): fix syntax and integrate xiaomi inspector + web ingest
@@ -164,7 +165,6 @@ e94f4cb feat: Groq llama3.3-70b fuer persoenliche Gespraeche, Gemini fuer System
 d178737 fix: voice fast-lane vor shebang entfernt, korrekt nach imports platziert
 a604bdd feat(voice): wire live voice bridge fast-lane into telegram bot
 4de7c2e feat(voice): add ultra-low latency live voice bridge module prototype
-8bf30b7 refactor(talk): move system constraints to bottom of prompt with strict XML tags
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
