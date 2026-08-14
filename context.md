@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:01:45.429371)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:04:47.188410)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:01:45.414117
+Stand: 2026-08-14T16:04:47.172147
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -133,10 +133,10 @@ Stand: 2026-08-14T16:01:45.414117
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 19296s
-run: jack_telegram: (pid 8686) 6635s
+run: jack_cortex: (pid 7269) 19478s
+run: jack_telegram: (pid 8686) 6817s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 19296s
+run: ollama: (pid 7266) 19478s
 
 ## Letzte Aenderungen
 084d9b9 feat(rag): implement working context ingest pipeline with md5 dedup and html cleaner
