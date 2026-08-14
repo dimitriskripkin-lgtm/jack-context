@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:39:01.305534)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:42:03.974995)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:39:01.294233
+Stand: 2026-08-14T22:42:03.958232
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,10 +143,10 @@ Stand: 2026-08-14T22:39:01.294233
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 43132s
-run: jack_telegram: (pid 28079) 42s
+run: jack_cortex: (pid 7269) 43314s
+run: jack_telegram: (pid 28079) 224s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 43132s
+run: ollama: (pid 7266) 43314s
 
 ## Letzte Aenderungen
 35035f0 feat(telegram): fix syntax and integrate xiaomi inspector + web ingest
@@ -174,7 +174,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 19:01:24] GUARD-OK | whisper gestartet, 2629MB frei
 [2026-08-14 19:07:27] GUARD-OK | whisper gestartet, 2806MB frei
 [2026-08-14 19:22:17] GUARD-OK | whisper gestartet, 2347MB frei
 [2026-08-14 19:55:53] GUARD-OK | whisper gestartet, 2606MB frei
@@ -194,6 +193,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 22:33:58] WAECHTER-NEUSTART | jack_telegram
 [2026-08-14 22:35:06] MONITOR-DIENST-TOT | jack_telegram
 [2026-08-14 22:35:07] MONITOR-EVENT | 1 Events
+[2026-08-14 22:39:11] MONITOR-EVENT | 1 Events
 
 ## Budget heute
-Heute: Text 205/300 | Vision 0/40 | Tokens 557545
+Heute: Text 206/300 | Vision 0/40 | Tokens 563837
