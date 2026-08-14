@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T12:02:09.948535)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T12:05:12.050016)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T12:02:09.917750
+Stand: 2026-08-14T12:05:12.039422
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -128,10 +128,10 @@ Stand: 2026-08-14T12:02:09.917750
 - Offene Fehler: 0
 - Erinnerungen: 240
 - Dienste:
-run: jack_cortex: (pid 7269) 4920s
-run: jack_telegram: (pid 27219) 990s
+run: jack_cortex: (pid 7269) 5103s
+run: jack_telegram: (pid 27219) 1173s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 4920s
+run: ollama: (pid 7266) 5103s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -159,7 +159,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 10:10:31] ORACLE-EINGANG | test3: sv status jack_cortex jack_telegram jack_waechter ollama
 [2026-08-13 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-08-13 11:05:41] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 11:25:44] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -179,6 +178,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 11:11:45] SAGA-CLEANUP | 18 temp-Dateien geloescht: voice_AwACAgIAAxkBAAICQWpXPxFKWbW-dcnUJ3vFpDy9floZAAK9lgACitO4Sk5lylWlJd0_PQQ.ogg,voice_AwACAgIAAxkBAAICQ2pXPySCB38WkXm6NcpVEyVgqqDYAALAlgACitO4Sj1Q1aLix4UzPQQ.ogg,voice_AwACAgIAAxkBAAICmGpaJYeCf1ZQWeBToCAzRFjCwbSlAAInogAChEDRSs9v2VDojJk-PQQ.ogg,voice_AwACAgIAAxkBAAICoWpbtAvZdhpiCUjKFcpuWv5osLmQAAI3oQAChEDZStdBF0bWlF8RPQQ.ogg,voice_AwACAgIAAxkBAAICo2pbtEFADfv7yGBQXoTjMEcKb95PAAI7oQAChEDZSqrk1fHrKW3fPQQ.ogg
 [2026-08-14 11:26:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-14 11:26:10] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-14 12:03:39] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 16895
