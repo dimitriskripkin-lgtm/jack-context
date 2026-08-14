@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:52:08.998921)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:55:11.195780)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:52:08.966738
+Stand: 2026-08-14T19:55:11.182408
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -141,10 +141,10 @@ Stand: 2026-08-14T19:52:08.966738
 - Offene Fehler: 0
 - Erinnerungen: 275
 - Dienste:
-run: jack_cortex: (pid 7269) 33119s
-run: jack_telegram: (pid 30926) 1290s
+run: jack_cortex: (pid 7269) 33302s
+run: jack_telegram: (pid 30926) 1473s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 33119s
+run: ollama: (pid 7266) 33302s
 
 ## Letzte Aenderungen
 f805527 docs: restore full CTO portfolio README via clean python writer
