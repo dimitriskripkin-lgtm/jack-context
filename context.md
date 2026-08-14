@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T14:03:31.553090)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T14:06:33.317401)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T14:03:31.544943
+Stand: 2026-08-14T14:06:33.298190
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -128,12 +128,13 @@ Stand: 2026-08-14T14:03:31.544943
 - Offene Fehler: 0
 - Erinnerungen: 247
 - Dienste:
-run: jack_cortex: (pid 7269) 12202s
-run: jack_telegram: (pid 374) 77s
+run: jack_cortex: (pid 7269) 12384s
+run: jack_telegram: (pid 4397) 32s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 12202s
+run: ollama: (pid 7266) 12384s
 
 ## Letzte Aenderungen
+66d8580 fix: replace ping with urllib, persona injected into talk, keyboard sig fix
 4bf9469 feat(persona): memory trigger in poll-loop + proactive 30min pulse
 9f563c3 feat(persona): deep persona DNA, natural memory trigger, foto-persona fix
 7856045 feat(core): harden resilience, inject dima-state machine, and upgrade context ingest cleaner
@@ -148,7 +149,6 @@ f21b5a3 episoden + gedanken + reflexion: momente statt datenpunkte, echte proakt
 80d15ea adb: aktive app und cpu-last im live-context, apps in identity gespeichert
 d0c1deb talk: syntaxwarning fix, antwort-laenge praeferenz in identity
 a1ddac0 talk: situationsbewusstsein - akku, laufzeiten, fehler-historie, muster, memory-stats, anti-wiederholung
-3bfc28c talk: _live immer via _status_als_text(), keine keyword-bedingung
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
