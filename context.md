@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:27:54.478364)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:30:56.234331)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:27:54.467954
+Stand: 2026-08-14T19:30:56.224695
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -141,12 +141,13 @@ Stand: 2026-08-14T19:27:54.467954
 - Offene Fehler: 0
 - Erinnerungen: 275
 - Dienste:
-run: jack_cortex: (pid 7269) 31665s
-run: jack_telegram: (pid 28324) 137s
+run: jack_cortex: (pid 7269) 31847s
+run: jack_telegram: (pid 30926) 18s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 31665s
+run: ollama: (pid 7266) 31847s
 
 ## Letzte Aenderungen
+6560a7b feat: Groq bekommt RAG-Memories + Identity-Kontext
 1c43d1e fix: /status KeyError cortex behoben
 4b0396b fix: Groq-Keywords erweitert inkl Umlaute
 e94f4cb feat: Groq llama3.3-70b fuer persoenliche Gespraeche, Gemini fuer System-Calls
@@ -161,7 +162,6 @@ a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
 f04370e fix: Handlungs-Regel - reden vs handeln
 3ec30b6 fix: persona anti-repeat - zeigen statt nacherzaehlen
 c9ae8d6 fix: anti-repetitions-regel in persona
-1503a4b fix: persona Datei-Faehigkeit + Temperatur-Guard 58C Schwelle
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
