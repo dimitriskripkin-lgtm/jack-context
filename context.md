@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:39:24.875087)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:42:26.523928)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:39:24.864286
+Stand: 2026-08-14T18:42:26.513944
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T18:39:24.864286
 - Offene Fehler: 0
 - Erinnerungen: 265
 - Dienste:
-run: jack_cortex: (pid 7269) 28755s
-run: jack_telegram: (pid 22788) 323s
+run: jack_cortex: (pid 7269) 28937s
+run: jack_telegram: (pid 22788) 505s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 28755s
+run: ollama: (pid 7266) 28937s
 
 ## Letzte Aenderungen
 4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
@@ -192,4 +192,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 18:34:43] GUARD-OK | whisper gestartet, 2804MB frei
 
 ## Budget heute
-Heute: Text 131/300 | Vision 0/40 | Tokens 365374
+Heute: Text 132/300 | Vision 0/40 | Tokens 371958
