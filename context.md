@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:35:59.549545)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:39:01.305534)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:35:59.529949
+Stand: 2026-08-14T22:39:01.294233
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,13 +143,13 @@ Stand: 2026-08-14T22:35:59.529949
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 42950s
-down: jack_telegram: 1s, normally up, want up
+run: jack_cortex: (pid 7269) 43132s
+run: jack_telegram: (pid 28079) 42s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 42950s
+run: ollama: (pid 7266) 43132s
 
 ## Letzte Aenderungen
-6282c15 feat(xiaomi): add real ssh system inspector module and fix telegram handler syntax
+35035f0 feat(telegram): fix syntax and integrate xiaomi inspector + web ingest
 e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
 f805527 docs: restore full CTO portfolio README via clean python writer
 b9679da docs: add CTO portfolio README via base64 stream
