@@ -764,3 +764,5 @@ SyntaxError: '(' was
 [2026-08-14 11:26:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
 [2026-08-14 11:26:10] SELF-IMPROVE | Tagescheck abgeschlossen
 [2026-08-14 12:03:39] MONITOR-EVENT | 1 Events
+[2026-08-14 12:28:08] MONITOR-AKKU-WARN | 20%
+[2026-08-14 12:28:10] MONITOR-EVENT | 1 Events
