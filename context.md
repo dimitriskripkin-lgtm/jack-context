@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T23:03:20.014268)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T23:06:22.009739)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T23:03:20.000689
+Stand: 2026-08-14T23:06:21.996793
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-14T23:03:20.000689
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 44591s
-run: jack_telegram: (pid 28079) 1501s
+run: jack_cortex: (pid 7269) 44772s
+run: jack_telegram: (pid 28079) 1682s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 44591s
+run: ollama: (pid 7266) 44772s
 
 ## Letzte Aenderungen
 0741870 fix(web_ingest): add browser headers and fallback chunking for quiet sites
