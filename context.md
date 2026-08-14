@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:23:52.474003)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:26:54.178492)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:23:52.460696
+Stand: 2026-08-14T22:26:54.161747
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -140,12 +140,12 @@ Stand: 2026-08-14T22:23:52.460696
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 278
+- Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 42223s
-run: jack_telegram: (pid 30926) 10394s
+run: jack_cortex: (pid 7269) 42405s
+run: jack_telegram: (pid 30926) 10576s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 42223s
+run: ollama: (pid 7266) 42405s
 
 ## Letzte Aenderungen
 e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
@@ -173,9 +173,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 18:08:23] GUARD-OK | whisper gestartet, 2807MB frei
-[2026-08-14 18:13:37] GUARD-OK | whisper gestartet, 2348MB frei
-[2026-08-14 18:14:28] GUARD-OK | whisper gestartet, 2574MB frei
 [2026-08-14 18:15:05] GUARD-OK | whisper gestartet, 2879MB frei
 [2026-08-14 18:34:43] GUARD-OK | whisper gestartet, 2804MB frei
 [2026-08-14 18:44:53] GUARD-OK | whisper gestartet, 2821MB frei
@@ -193,6 +190,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 22:21:15] GUARD-OK | whisper gestartet, 2929MB frei
 [2026-08-14 22:22:08] GUARD-OK | whisper gestartet, 3334MB frei
 [2026-08-14 22:22:40] GUARD-OK | whisper gestartet, 3112MB frei
+[2026-08-14 22:24:31] GUARD-OK | whisper gestartet, 2844MB frei
+[2026-08-14 22:25:19] GUARD-OK | whisper gestartet, 3100MB frei
+[2026-08-14 22:26:01] GUARD-OK | whisper gestartet, 2963MB frei
 
 ## Budget heute
-Heute: Text 192/300 | Vision 0/40 | Tokens 521595
+Heute: Text 205/300 | Vision 0/40 | Tokens 557545

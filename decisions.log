@@ -810,3 +810,6 @@ SyntaxError: '(' was
 [2026-08-14 22:21:15] GUARD-OK | whisper gestartet, 2929MB frei
 [2026-08-14 22:22:08] GUARD-OK | whisper gestartet, 3334MB frei
 [2026-08-14 22:22:40] GUARD-OK | whisper gestartet, 3112MB frei
+[2026-08-14 22:24:31] GUARD-OK | whisper gestartet, 2844MB frei
+[2026-08-14 22:25:19] GUARD-OK | whisper gestartet, 3100MB frei
+[2026-08-14 22:26:01] GUARD-OK | whisper gestartet, 2963MB frei
