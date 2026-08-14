@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T23:21:32.276586)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T23:24:33.748391)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T23:21:32.271415
+Stand: 2026-08-14T23:24:33.742908
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T23:21:32.271415
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (107)
+## Aktive Module (108)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -84,6 +84,7 @@ Stand: 2026-08-14T23:21:32.271415
 - jack_monitor.py
 - jack_operator.py
 - jack_oracle.py
+- jack_orchestrator.py
 - jack_patch.py
 - jack_patch_memory.py
 - jack_personality.py
@@ -144,12 +145,13 @@ Stand: 2026-08-14T23:21:32.271415
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 45683s
-run: jack_telegram: (pid 20612) 86s
+run: jack_cortex: (pid 7269) 45864s
+run: jack_telegram: (pid 20612) 267s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 45683s
+run: ollama: (pid 7266) 45864s
 
 ## Letzte Aenderungen
+c4bf10b feat(autonomy): add orchestrator for xiaomi auto-healing and morning briefing
 f7289d5 fix(telegram): return early on xiaomi inspect and fix tuple unpacking for fetch_and_process_url
 99c8a99 fix(telegram): use updated fetch_and_ingest_url method
 0741870 fix(web_ingest): add browser headers and fallback chunking for quiet sites
@@ -164,7 +166,6 @@ b9679da docs: add CTO portfolio README via base64 stream
 e94f4cb feat: Groq llama3.3-70b fuer persoenliche Gespraeche, Gemini fuer System-Calls
 835e862 fix: JACK kann Dateien schreiben - Falschaussage korrigiert
 d178737 fix: voice fast-lane vor shebang entfernt, korrekt nach imports platziert
-a604bdd feat(voice): wire live voice bridge fast-lane into telegram bot
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -175,26 +176,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 23:21:10] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:11] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:12] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:13] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:14] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:16] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:17] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:18] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:19] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:21] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:22] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:24] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:25] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:26] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:27] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:28] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:29] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:30] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-14 23:21:31] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:11] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:13] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:14] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:15] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:16] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:17] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:18] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:19] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:21] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:22] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:24] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:25] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:26] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:27] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:28] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:29] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:30] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:31] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-14 23:24:33] WAECHTER-START | Nacht-Ueberwachung mit Queue
 
 ## Budget heute
-Heute: Text 3/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 0
