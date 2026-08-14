@@ -72,7 +72,7 @@
 -rw-------. 1 u0_a400 u0_a400  1864 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_snapshot.py
 -rw-------. 1 u0_a400 u0_a400  1677 Aug 14 11:30 /data/data/com.termux/files/home/jack/jack_state.py
 -rw-------. 1 u0_a400 u0_a400 14891 Aug 14 19:30 /data/data/com.termux/files/home/jack/jack_talk.py
--rw-------. 1 u0_a400 u0_a400 51097 Aug 14 20:17 /data/data/com.termux/files/home/jack/jack_telegram.py
+-rw-------. 1 u0_a400 u0_a400 20342 Aug 14 22:32 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  5133 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_thermal.py
 -rw-------. 1 u0_a400 u0_a400  3155 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_traceback.py
 -rw-------. 1 u0_a400 u0_a400  2594 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_ui.py
@@ -95,6 +95,7 @@
 -rw-------. 1 u0_a400 u0_a400  3197 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_write.py
 -rw-------. 1 u0_a400 u0_a400  5844 Aug 14 14:23 /data/data/com.termux/files/home/jack/jack_xiaomi.py
 -rw-------. 1 u0_a400 u0_a400  1952 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_xiaomi_cmd.py
+-rw-------. 1 u0_a400 u0_a400  1182 Aug 14 22:31 /data/data/com.termux/files/home/jack/jack_xiaomi_inspector.py
 -rw-------. 1 u0_a400 u0_a400  8446 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_controller.py
 -rw-------. 1 u0_a400 u0_a400  3119 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_memory.py
 -rw-------. 1 u0_a400 u0_a400  3321 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_profile_updater.py

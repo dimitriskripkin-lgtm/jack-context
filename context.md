@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:29:56.002724)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:32:57.830251)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:29:55.988755
+Stand: 2026-08-14T22:32:57.815930
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T22:29:55.988755
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (105)
+## Aktive Module (106)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -129,6 +129,7 @@ Stand: 2026-08-14T22:29:55.988755
 - jack_write.py
 - jack_xiaomi.py
 - jack_xiaomi_cmd.py
+- jack_xiaomi_inspector.py
 - kortex_controller.py
 - kortex_memory.py
 - kortex_profile_updater.py
@@ -142,12 +143,13 @@ Stand: 2026-08-14T22:29:55.988755
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 42586s
-run: jack_telegram: (pid 30926) 10757s
+run: jack_cortex: (pid 7269) 42768s
+run: jack_telegram: (pid 30926) 10939s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 42586s
+run: ollama: (pid 7266) 42768s
 
 ## Letzte Aenderungen
+6282c15 feat(xiaomi): add real ssh system inspector module and fix telegram handler syntax
 e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
 f805527 docs: restore full CTO portfolio README via clean python writer
 b9679da docs: add CTO portfolio README via base64 stream
@@ -162,7 +164,6 @@ a604bdd feat(voice): wire live voice bridge fast-lane into telegram bot
 8bf30b7 refactor(talk): move system constraints to bottom of prompt with strict XML tags
 f0a4853 fix: hardcoded Beispiel-Text aus Gemini-Prompt entfernt - nur noch jack_persona.md
 4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
-a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
