@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T10:40:09.856626)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T10:43:12.318685)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T10:40:09.842963
+Stand: 2026-08-14T10:43:12.299508
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,9 +29,9 @@ Stand: 2026-08-14T10:40:09.842963
 - JACK kann das System live sehen und analysieren.
 - JACK kann die Umgebung via Termux-Verzeichnissen analysieren.
 - JACK identifiziert sich als KI-OS und Dima als Nutzer.
-- JACK hat Zugang zu Verzeichnissen, die Termux auf dem Honor erlaubt (hauptsächlich unter `/data/data/com.termux/files/home`).
+- JACK hat Zugriff auf Verzeichnisse, die Termux auf dem Honor erlaubt (hauptsächlich unter `/data/data/com.termux/files/home`).
 
-## Aktive Module (88)
+## Aktive Module (89)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -55,6 +55,7 @@ Stand: 2026-08-14T10:40:09.842963
 - jack_episoden.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
+- jack_guard.py
 - jack_haliza.py
 - jack_handshake_gen.py
 - jack_hey.py
@@ -123,12 +124,12 @@ Stand: 2026-08-14T10:40:09.842963
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 239
+- Erinnerungen: 240
 - Dienste:
-run: jack_cortex: (pid 7269) 0s
-run: jack_telegram: (pid 7268) 0s
+run: jack_cortex: (pid 7269) 183s
+run: jack_telegram: (pid 7268) 183s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 0s
+run: ollama: (pid 7266) 183s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -156,9 +157,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 01:14:37] WAECHTER-START | Nacht-Ueberwachung laeuft
-[2026-08-13 01:15:59] SCOUT-LAUF | 9e097c0f797c27d3
-[2026-08-13 05:00:01] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 06:00:00] MEMORY-MAINTENANCE | 14 Eintraege als 'stale' markiert | 14 Stale-Eintraege geloescht | Verbleibend: 47 Eintraege
 [2026-08-13 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-13 09:15:47] MONITOR-VOLLSCAN | ok
@@ -176,6 +174,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 01:15:00] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-08-14 01:16:26] SCOUT-LAUF | 06a5e8af25a1235c
 [2026-08-14 10:40:09] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-14 10:40:11] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-14 10:40:39] GUARD-OK | selftest gestartet, 3473MB frei
+[2026-08-14 10:41:36] SCOUT-LAUF | 3678bf4ddf4c402d
 
 ## Budget heute
-Heute: Text 2/300 | Vision 0/40 | Tokens 4816
+Heute: Text 6/300 | Vision 0/40 | Tokens 16895

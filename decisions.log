@@ -756,3 +756,6 @@ SyntaxError: '(' was
 [2026-08-14 01:15:00] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-08-14 01:16:26] SCOUT-LAUF | 06a5e8af25a1235c
 [2026-08-14 10:40:09] WAECHTER-START | Nacht-Ueberwachung laeuft
+[2026-08-14 10:40:11] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-14 10:40:39] GUARD-OK | selftest gestartet, 3473MB frei
+[2026-08-14 10:41:36] SCOUT-LAUF | 3678bf4ddf4c402d
