@@ -802,3 +802,5 @@ SyntaxError: '(' was
 [2026-08-14 19:55:53] GUARD-OK | whisper gestartet, 2606MB frei
 [2026-08-14 20:43:09] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-14 21:38:37] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-14 22:16:07] GUARD-OK | whisper gestartet, 2494MB frei
+[2026-08-14 22:17:23] GUARD-OK | whisper gestartet, 2527MB frei

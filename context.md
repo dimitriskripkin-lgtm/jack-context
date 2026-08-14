@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:14:46.919529)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:17:48.907028)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:14:46.903311
+Stand: 2026-08-14T22:17:48.894877
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,10 +142,10 @@ Stand: 2026-08-14T22:14:46.903311
 - Offene Fehler: 0
 - Erinnerungen: 277
 - Dienste:
-run: jack_cortex: (pid 7269) 41677s
-run: jack_telegram: (pid 30926) 9848s
+run: jack_cortex: (pid 7269) 41859s
+run: jack_telegram: (pid 30926) 10030s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 41677s
+run: ollama: (pid 7266) 41859s
 
 ## Letzte Aenderungen
 e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
@@ -173,8 +173,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 17:44:59] GUARD-OK | whisper gestartet, 2659MB frei
-[2026-08-14 17:45:56] GUARD-OK | whisper gestartet, 3023MB frei
 [2026-08-14 17:47:15] GUARD-OK | whisper gestartet, 2827MB frei
 [2026-08-14 17:57:20] GUARD-OK | whisper gestartet, 2432MB frei
 [2026-08-14 17:58:20] GUARD-OK | whisper gestartet, 2517MB frei
@@ -193,6 +191,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 19:55:53] GUARD-OK | whisper gestartet, 2606MB frei
 [2026-08-14 20:43:09] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-14 21:38:37] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-14 22:16:07] GUARD-OK | whisper gestartet, 2494MB frei
+[2026-08-14 22:17:23] GUARD-OK | whisper gestartet, 2527MB frei
 
 ## Budget heute
-Heute: Text 171/300 | Vision 0/40 | Tokens 463991
+Heute: Text 177/300 | Vision 0/40 | Tokens 479070
