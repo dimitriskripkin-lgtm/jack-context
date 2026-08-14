@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:26:00.740064)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:29:02.871170)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:26:00.706651
+Stand: 2026-08-14T16:29:02.856629
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -137,10 +137,10 @@ Stand: 2026-08-14T16:26:00.706651
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 20751s
-run: jack_telegram: (pid 8686) 8090s
+run: jack_cortex: (pid 7269) 20933s
+run: jack_telegram: (pid 8686) 8272s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 20751s
+run: ollama: (pid 7266) 20933s
 
 ## Letzte Aenderungen
 a144af1 feat(cron): add 06:00 AM daily briefing cronjob script and crontab integration
