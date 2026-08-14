@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T22:42:03.974995)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T22:45:05.914997)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T22:42:03.958232
+Stand: 2026-08-14T22:45:05.880326
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,7 +31,7 @@ Stand: 2026-08-14T22:42:03.958232
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (106)
+## Aktive Module (107)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -90,6 +90,7 @@ Stand: 2026-08-14T22:42:03.958232
 - jack_publish.py
 - jack_radar.py
 - jack_reflexion.py
+- jack_research_curator.py
 - jack_rhythm.py
 - jack_router.py
 - jack_sanity.py
@@ -143,12 +144,14 @@ Stand: 2026-08-14T22:42:03.958232
 - Offene Fehler: 0
 - Erinnerungen: 280
 - Dienste:
-run: jack_cortex: (pid 7269) 43314s
-run: jack_telegram: (pid 28079) 224s
+run: jack_cortex: (pid 7269) 43496s
+run: jack_telegram: (pid 28079) 406s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 43314s
+run: ollama: (pid 7266) 43496s
 
 ## Letzte Aenderungen
+0741870 fix(web_ingest): add browser headers and fallback chunking for quiet sites
+3f169c1 feat(research): fix function call in curator module and test knowledge distillation
 35035f0 feat(telegram): fix syntax and integrate xiaomi inspector + web ingest
 e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
 f805527 docs: restore full CTO portfolio README via clean python writer
@@ -162,8 +165,6 @@ d178737 fix: voice fast-lane vor shebang entfernt, korrekt nach imports platzier
 a604bdd feat(voice): wire live voice bridge fast-lane into telegram bot
 4de7c2e feat(voice): add ultra-low latency live voice bridge module prototype
 8bf30b7 refactor(talk): move system constraints to bottom of prompt with strict XML tags
-f0a4853 fix: hardcoded Beispiel-Text aus Gemini-Prompt entfernt - nur noch jack_persona.md
-4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
