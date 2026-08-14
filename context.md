@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:09:43.686448)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:12:45.508624)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:09:43.671098
+Stand: 2026-08-14T19:12:45.499262
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -140,10 +140,10 @@ Stand: 2026-08-14T19:09:43.671098
 - Offene Fehler: 0
 - Erinnerungen: 267
 - Dienste:
-run: jack_cortex: (pid 7269) 30574s
-run: jack_telegram: (pid 11319) 310s
+run: jack_cortex: (pid 7269) 30756s
+run: jack_telegram: (pid 11319) 492s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 30574s
+run: ollama: (pid 7266) 30756s
 
 ## Letzte Aenderungen
 835e862 fix: JACK kann Dateien schreiben - Falschaussage korrigiert
