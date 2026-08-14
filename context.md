@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:00:38.503645)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:03:40.205043)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:00:38.485703
+Stand: 2026-08-14T19:03:40.196370
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -138,12 +138,12 @@ Stand: 2026-08-14T19:00:38.485703
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 266
+- Erinnerungen: 267
 - Dienste:
-run: jack_cortex: (pid 7269) 30029s
-run: jack_telegram: (pid 9296) 13s
+run: jack_cortex: (pid 7269) 30211s
+run: jack_telegram: (pid 9296) 195s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 30029s
+run: ollama: (pid 7266) 30211s
 
 ## Letzte Aenderungen
 d178737 fix: voice fast-lane vor shebang entfernt, korrekt nach imports platziert
@@ -171,7 +171,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 17:34:25] MERKE-DIR | für die Zukunft immer mit das als Copy und Paste für mein Termux geben
 [2026-08-14 17:39:42] DATEI-SCHREIBEN | hallobro_20260814_1739.txt | 8 Zeichen
 [2026-08-14 17:39:55] GUARD-OK | whisper gestartet, 2387MB frei
 [2026-08-14 17:42:31] DATEI-SCHREIBEN | 20260814_1742_hallobro.txt | 8 Zeichen
@@ -191,6 +190,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 18:15:05] GUARD-OK | whisper gestartet, 2879MB frei
 [2026-08-14 18:34:43] GUARD-OK | whisper gestartet, 2804MB frei
 [2026-08-14 18:44:53] GUARD-OK | whisper gestartet, 2821MB frei
+[2026-08-14 19:01:24] GUARD-OK | whisper gestartet, 2629MB frei
 
 ## Budget heute
-Heute: Text 139/300 | Vision 0/40 | Tokens 389543
+Heute: Text 146/300 | Vision 0/40 | Tokens 407061
