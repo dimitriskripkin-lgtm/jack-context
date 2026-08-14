@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T14:39:53.719188)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T14:42:55.701275)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T14:39:53.703948
+Stand: 2026-08-14T14:42:55.688800
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -23,13 +23,13 @@ Stand: 2026-08-14T14:39:53.703948
 - Dima hat KEINEN Hund.
 - Dima ist KEIN Fernfahrer.
 - JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- JACK hat die Fähigkeit, Fehler autonom zu fixen.
-- JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 - JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber häufig instabil.
 - JACK kann das System live sehen und analysieren.
 - JACK kann die Umgebung via Termux-Verzeichnissen analysieren.
 - JACK identifiziert sich als KI-OS und Dima als Nutzer.
 - JACK hat Zugriff auf Verzeichnisse, die Termux auf dem Honor erlaubt (hauptsächlich unter `/data/data/com.termux/files/home`).
+- JACK kann Fehler autonom fixen.
+- JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
 ## Aktive Module (91)
 - install_litert.py
@@ -128,10 +128,10 @@ Stand: 2026-08-14T14:39:53.703948
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 14384s
-run: jack_telegram: (pid 8686) 1723s
+run: jack_cortex: (pid 7269) 14566s
+run: jack_telegram: (pid 8686) 1905s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 14384s
+run: ollama: (pid 7266) 14566s
 
 ## Letzte Aenderungen
 08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
@@ -159,7 +159,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 15:14:52] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-13 21:14:57] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
 [2026-08-14 00:12:11] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-14 01:15:00] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
@@ -179,6 +178,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 12:46:23] MONITOR-EVENT | 1 Events
 [2026-08-14 12:56:32] MONITOR-EVENT | 1 Events
 [2026-08-14 13:26:03] GUARD-OK | whisper gestartet, 2376MB frei
+[2026-08-14 14:40:15] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 34/300 | Vision 0/40 | Tokens 77397
+Heute: Text 35/300 | Vision 0/40 | Tokens 82698
