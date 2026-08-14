@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T14:21:42.731998)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T14:24:44.344986)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T14:21:42.717322
+Stand: 2026-08-14T14:24:44.335450
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -126,14 +126,18 @@ Stand: 2026-08-14T14:21:42.717322
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 248
+- Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 13293s
-run: jack_telegram: (pid 8686) 632s
+run: jack_cortex: (pid 7269) 13475s
+run: jack_telegram: (pid 8686) 814s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 13293s
+run: ollama: (pid 7266) 13475s
 
 ## Letzte Aenderungen
+08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
+36a62fc fix(xiaomi): explore_next() CPU+active_app via Root
+ca0b393 fix(xiaomi): explore_next() Output sauber parsen
+c4f1428 fix(xiaomi): explore_next() Befehle fuer Android korrigiert
 0aeb8f0 feat(xiaomi): ControlMaster + explore_next() autonome Idle-Exploration
 209b5ab sec: harden gitignore - exclude state files, secrets, locks, SSH keys
 e99e4e9 fix: persona inject syntax warning in jack_talk context builder
@@ -145,10 +149,6 @@ c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbas
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
 f3c433f telegram: timeout=0 gegen carrier-nat-kill auf 5g, send-else-zweig wiederhergestellt, /scan aus fast_cmds
 d12a288 delta-kontext statt dauerbericht, voraussetzungs-pruefung mit ehrlicher fehlermeldung, xiaomi 15min entprellt max 2/tag, voice text vor sprache, laengere antworten
-65ae2f5 telegram: lange nachrichten aufteilen, episoden nicht abgehackt
-f21b5a3 episoden + gedanken + reflexion: momente statt datenpunkte, echte proaktivitaet, sichtbare gedankenkette
-654712b gemini: varianz-zwang und anti-report-stil im system-prompt
-6cf5abf gemini: varianz-zwang, anti-wiederholung, report-stil verboten
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
