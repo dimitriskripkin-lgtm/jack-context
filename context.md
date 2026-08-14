@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:42:26.523928)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:45:28.347094)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:42:26.513944
+Stand: 2026-08-14T18:45:28.334128
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -137,14 +137,15 @@ Stand: 2026-08-14T18:42:26.513944
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 265
+- Erinnerungen: 266
 - Dienste:
-run: jack_cortex: (pid 7269) 28937s
-run: jack_telegram: (pid 22788) 505s
+run: jack_cortex: (pid 7269) 29119s
+run: jack_telegram: (pid 28942) 87s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 28937s
+run: ollama: (pid 7266) 29119s
 
 ## Letzte Aenderungen
+f0a4853 fix: hardcoded Beispiel-Text aus Gemini-Prompt entfernt - nur noch jack_persona.md
 4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
 a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
 f04370e fix: Handlungs-Regel - reden vs handeln
@@ -159,7 +160,6 @@ a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
 a144af1 feat(cron): add 06:00 AM daily briefing cronjob script and crontab integration
 62deb53 feat(core): add non-blocking whisper, procedural rhythm engine and stale memory marking
 e511931 docs: authentic CTO-grade README based on live system state
-084d9b9 feat(rag): implement working context ingest pipeline with md5 dedup and html cleaner
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -170,7 +170,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 17:08:57] GUARD-OK | whisper gestartet, 2518MB frei
 [2026-08-14 17:34:25] MERKE-DIR | für die Zukunft immer mit das als Copy und Paste für mein Termux geben
 [2026-08-14 17:39:42] DATEI-SCHREIBEN | hallobro_20260814_1739.txt | 8 Zeichen
 [2026-08-14 17:39:55] GUARD-OK | whisper gestartet, 2387MB frei
@@ -190,6 +189,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 18:14:28] GUARD-OK | whisper gestartet, 2574MB frei
 [2026-08-14 18:15:05] GUARD-OK | whisper gestartet, 2879MB frei
 [2026-08-14 18:34:43] GUARD-OK | whisper gestartet, 2804MB frei
+[2026-08-14 18:44:53] GUARD-OK | whisper gestartet, 2821MB frei
 
 ## Budget heute
-Heute: Text 132/300 | Vision 0/40 | Tokens 371958
+Heute: Text 139/300 | Vision 0/40 | Tokens 389543
