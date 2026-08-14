@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T10:58:22.483661)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T11:01:24.567699)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T10:58:22.471771
+Stand: 2026-08-14T11:01:24.555844
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -126,10 +126,10 @@ Stand: 2026-08-14T10:58:22.471771
 - Offene Fehler: 0
 - Erinnerungen: 240
 - Dienste:
-run: jack_cortex: (pid 7269) 1093s
-run: jack_telegram: (pid 12884) 527s
+run: jack_cortex: (pid 7269) 1275s
+run: jack_telegram: (pid 12884) 709s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 1093s
+run: ollama: (pid 7266) 1275s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -157,7 +157,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 06:00:00] MEMORY-MAINTENANCE | 14 Eintraege als 'stale' markiert | 14 Stale-Eintraege geloescht | Verbleibend: 47 Eintraege
 [2026-08-13 07:55:02] MONITOR-VOLLSCAN | ok
 [2026-08-13 09:15:47] MONITOR-VOLLSCAN | ok
 [2026-08-13 10:10:27] ORACLE-EINGANG | test1: echo test
@@ -177,6 +176,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 10:40:11] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-14 10:40:39] GUARD-OK | selftest gestartet, 3473MB frei
 [2026-08-14 10:41:36] SCOUT-LAUF | 3678bf4ddf4c402d
+[2026-08-14 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 16895
