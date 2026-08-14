@@ -4,7 +4,7 @@
 -rw-------. 1 u0_a400 u0_a400  3299 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_approval.py
 -rwx------. 1 u0_a400 u0_a400  4285 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_audit.py
 -rw-------. 1 u0_a400 u0_a400  5489 Aug 14 15:22 /data/data/com.termux/files/home/jack/jack_autofixer_shadow.py
--rw-------. 1 u0_a400 u0_a400 12291 Aug 14 14:24 /data/data/com.termux/files/home/jack/jack_autonomous.py
+-rw-------. 1 u0_a400 u0_a400 12543 Aug 14 15:22 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  4900 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_briefing.py
 -rw-------. 1 u0_a400 u0_a400  1323 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_budget.py
 -rw-------. 1 u0_a400 u0_a400  9621 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_bug_fixer.py

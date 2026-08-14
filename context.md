@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T15:22:21.251878)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T15:25:23.181100)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T15:22:21.239942
+Stand: 2026-08-14T15:25:23.159348
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -129,12 +129,13 @@ Stand: 2026-08-14T15:22:21.239942
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 16932s
-run: jack_telegram: (pid 8686) 4271s
+run: jack_cortex: (pid 7269) 17114s
+run: jack_telegram: (pid 8686) 4453s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 16932s
+run: ollama: (pid 7266) 17114s
 
 ## Letzte Aenderungen
+8936fce feat(autonomous): jack_autofixer_shadow in Waechter-Loop alle 300s
 5fc4cf9 feat(autonomy): jack_autofixer_shadow.py - Ollama Bug-Fixer mit Shadow-Execution
 08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
 36a62fc fix(xiaomi): explore_next() CPU+active_app via Root
@@ -149,7 +150,6 @@ e99e4e9 fix: persona inject syntax warning in jack_talk context builder
 7856045 feat(core): harden resilience, inject dima-state machine, and upgrade context ingest cleaner
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
 e301b88 cortex: Xiaomi-erreichbar-wieder als status statt error loggen
-f3c433f telegram: timeout=0 gegen carrier-nat-kill auf 5g, send-else-zweig wiederhergestellt, /scan aus fast_cmds
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
