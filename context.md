@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:29:02.871170)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:32:04.753259)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:29:02.856629
+Stand: 2026-08-14T16:32:04.720731
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -31,12 +31,13 @@ Stand: 2026-08-14T16:29:02.856629
 - JACK kann Fehler autonom fixen.
 - JACK hat eine Baumstruktur für sein Gedächtnis und kann Momente erinnern.
 
-## Aktive Module (100)
+## Aktive Module (101)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
 - jack_audit.py
+- jack_autofixer_multi.py
 - jack_autofixer_shadow.py
 - jack_autonomous.py
 - jack_briefing.py
@@ -137,12 +138,13 @@ Stand: 2026-08-14T16:29:02.856629
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 20933s
-run: jack_telegram: (pid 8686) 8272s
+run: jack_cortex: (pid 7269) 21115s
+run: jack_telegram: (pid 8686) 8454s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 20933s
+run: ollama: (pid 7266) 21115s
 
 ## Letzte Aenderungen
+8536a2c feat(core): add tiered memory consolidation and multi-file shadow execution engine
 a144af1 feat(cron): add 06:00 AM daily briefing cronjob script and crontab integration
 62deb53 feat(core): add non-blocking whisper, procedural rhythm engine and stale memory marking
 e511931 docs: authentic CTO-grade README based on live system state
@@ -157,7 +159,6 @@ d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
 ca0b393 fix(xiaomi): explore_next() Output sauber parsen
 c4f1428 fix(xiaomi): explore_next() Befehle fuer Android korrigiert
 0aeb8f0 feat(xiaomi): ControlMaster + explore_next() autonome Idle-Exploration
-209b5ab sec: harden gitignore - exclude state files, secrets, locks, SSH keys
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
