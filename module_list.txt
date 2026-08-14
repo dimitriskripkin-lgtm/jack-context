@@ -90,7 +90,7 @@
 -rw-------. 1 u0_a400 u0_a400  3450 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_voice_stability.py
 -rw-------. 1 u0_a400 u0_a400  4673 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_voraussetzung.py
 -rw-------. 1 u0_a400 u0_a400  2871 Aug 14 16:43 /data/data/com.termux/files/home/jack/jack_web_agent.py
--rw-------. 1 u0_a400 u0_a400  3211 Aug 14 20:13 /data/data/com.termux/files/home/jack/jack_web_ingest.py
+-rw-------. 1 u0_a400 u0_a400  3141 Aug 14 20:13 /data/data/com.termux/files/home/jack/jack_web_ingest.py
 -rw-------. 1 u0_a400 u0_a400   796 Aug 14 16:14 /data/data/com.termux/files/home/jack/jack_whisper_async.py
 -rw-------. 1 u0_a400 u0_a400  3197 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_write.py
 -rw-------. 1 u0_a400 u0_a400  5844 Aug 14 14:23 /data/data/com.termux/files/home/jack/jack_xiaomi.py

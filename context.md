@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T20:13:21.222999)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T20:16:22.791886)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T20:13:21.217060
+Stand: 2026-08-14T20:16:22.776892
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,12 +142,13 @@ Stand: 2026-08-14T20:13:21.217060
 - Offene Fehler: 0
 - Erinnerungen: 276
 - Dienste:
-run: jack_cortex: (pid 7269) 34392s
-run: jack_telegram: (pid 30926) 2563s
+run: jack_cortex: (pid 7269) 34573s
+run: jack_telegram: (pid 30926) 2744s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 34392s
+run: ollama: (pid 7266) 34573s
 
 ## Letzte Aenderungen
+e071cac feat(ingest): add jack_web_ingest module with html cleaning and rag chunking
 f805527 docs: restore full CTO portfolio README via clean python writer
 b9679da docs: add CTO portfolio README via base64 stream
 6560a7b feat: Groq bekommt RAG-Memories + Identity-Kontext
@@ -162,7 +163,6 @@ a604bdd feat(voice): wire live voice bridge fast-lane into telegram bot
 f0a4853 fix: hardcoded Beispiel-Text aus Gemini-Prompt entfernt - nur noch jack_persona.md
 4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
 a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
-f04370e fix: Handlungs-Regel - reden vs handeln
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
