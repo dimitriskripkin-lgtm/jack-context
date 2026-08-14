@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T14:15:38.573752)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T14:18:40.372293)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T14:15:38.558956
+Stand: 2026-08-14T14:18:40.358591
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -128,10 +128,10 @@ Stand: 2026-08-14T14:15:38.558956
 - Offene Fehler: 0
 - Erinnerungen: 247
 - Dienste:
-run: jack_cortex: (pid 7269) 12929s
-run: jack_telegram: (pid 8686) 268s
+run: jack_cortex: (pid 7269) 13111s
+run: jack_telegram: (pid 8686) 450s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 12929s
+run: ollama: (pid 7266) 13111s
 
 ## Letzte Aenderungen
 209b5ab sec: harden gitignore - exclude state files, secrets, locks, SSH keys
