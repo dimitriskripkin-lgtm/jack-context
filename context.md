@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T15:55:41.438680)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T15:58:43.554678)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T15:55:41.425656
+Stand: 2026-08-14T15:58:43.539052
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -133,10 +133,10 @@ Stand: 2026-08-14T15:55:41.425656
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 18932s
-run: jack_telegram: (pid 8686) 6271s
+run: jack_cortex: (pid 7269) 19114s
+run: jack_telegram: (pid 8686) 6453s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 18932s
+run: ollama: (pid 7266) 19114s
 
 ## Letzte Aenderungen
 d2e2087 Revert "docs: professional CTO-outreach portfolio README"
