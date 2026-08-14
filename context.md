@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:55:11.195780)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:58:12.812895)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:55:11.182408
+Stand: 2026-08-14T19:58:12.800794
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,12 +139,12 @@ Stand: 2026-08-14T19:55:11.182408
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 275
+- Erinnerungen: 276
 - Dienste:
-run: jack_cortex: (pid 7269) 33302s
-run: jack_telegram: (pid 30926) 1473s
+run: jack_cortex: (pid 7269) 33483s
+run: jack_telegram: (pid 30926) 1654s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 33302s
+run: ollama: (pid 7266) 33483s
 
 ## Letzte Aenderungen
 f805527 docs: restore full CTO portfolio README via clean python writer
@@ -172,7 +172,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 17:42:31] DATEI-SCHREIBEN | 20260814_1742_hallobro.txt | 8 Zeichen
 [2026-08-14 17:43:15] DATEI-SCHREIBEN | thermox_commands_20260814.log | 38 Zeichen
 [2026-08-14 17:43:34] GUARD-OK | whisper gestartet, 2522MB frei
 [2026-08-14 17:44:59] GUARD-OK | whisper gestartet, 2659MB frei
@@ -192,6 +191,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 19:01:24] GUARD-OK | whisper gestartet, 2629MB frei
 [2026-08-14 19:07:27] GUARD-OK | whisper gestartet, 2806MB frei
 [2026-08-14 19:22:17] GUARD-OK | whisper gestartet, 2347MB frei
+[2026-08-14 19:55:53] GUARD-OK | whisper gestartet, 2606MB frei
 
 ## Budget heute
-Heute: Text 161/300 | Vision 0/40 | Tokens 435345
+Heute: Text 166/300 | Vision 0/40 | Tokens 449316
