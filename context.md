@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:19:56.783063)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:22:58.726114)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:19:56.764094
+Stand: 2026-08-14T16:22:58.709610
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -136,10 +136,10 @@ Stand: 2026-08-14T16:19:56.764094
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 20387s
-run: jack_telegram: (pid 8686) 7726s
+run: jack_cortex: (pid 7269) 20569s
+run: jack_telegram: (pid 8686) 7908s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 20387s
+run: ollama: (pid 7266) 20569s
 
 ## Letzte Aenderungen
 62deb53 feat(core): add non-blocking whisper, procedural rhythm engine and stale memory marking
