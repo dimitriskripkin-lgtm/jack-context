@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:49:07.102457)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:52:08.998921)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:49:07.090582
+Stand: 2026-08-14T19:52:08.966738
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -141,12 +141,14 @@ Stand: 2026-08-14T19:49:07.090582
 - Offene Fehler: 0
 - Erinnerungen: 275
 - Dienste:
-run: jack_cortex: (pid 7269) 32938s
-run: jack_telegram: (pid 30926) 1109s
+run: jack_cortex: (pid 7269) 33119s
+run: jack_telegram: (pid 30926) 1290s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 32938s
+run: ollama: (pid 7266) 33119s
 
 ## Letzte Aenderungen
+f805527 docs: restore full CTO portfolio README via clean python writer
+b9679da docs: add CTO portfolio README via base64 stream
 6560a7b feat: Groq bekommt RAG-Memories + Identity-Kontext
 1c43d1e fix: /status KeyError cortex behoben
 4b0396b fix: Groq-Keywords erweitert inkl Umlaute
@@ -160,8 +162,6 @@ f0a4853 fix: hardcoded Beispiel-Text aus Gemini-Prompt entfernt - nur noch jack_
 4f208ed feat(persona): komplette Neufassung - Titan-Geschichte + Levelsystem + Anti-Repetition
 a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
 f04370e fix: Handlungs-Regel - reden vs handeln
-3ec30b6 fix: persona anti-repeat - zeigen statt nacherzaehlen
-c9ae8d6 fix: anti-repetitions-regel in persona
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
