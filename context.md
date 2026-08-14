@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:08:30.283331)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:11:32.165860)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:08:30.271887
+Stand: 2026-08-14T17:11:32.150917
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T17:08:30.271887
 - Offene Fehler: 0
 - Erinnerungen: 253
 - Dienste:
-run: jack_cortex: (pid 7269) 23301s
-run: jack_telegram: (pid 8686) 10640s
+run: jack_cortex: (pid 7269) 23483s
+run: jack_telegram: (pid 8686) 10822s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 23301s
+run: ollama: (pid 7266) 23483s
 
 ## Letzte Aenderungen
 a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
@@ -170,7 +170,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 10:40:09] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-14 10:40:11] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-14 10:40:39] GUARD-OK | selftest gestartet, 3473MB frei
 [2026-08-14 10:41:36] SCOUT-LAUF | 3678bf4ddf4c402d
@@ -190,6 +189,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 15:22:16] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-14 15:31:53] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-14 16:53:13] MONITOR-EVENT | 1 Events
+[2026-08-14 17:08:57] GUARD-OK | whisper gestartet, 2518MB frei
 
 ## Budget heute
-Heute: Text 40/300 | Vision 0/40 | Tokens 103443
+Heute: Text 43/300 | Vision 0/40 | Tokens 111104
