@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:38:47.876434)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:41:49.570325)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:38:47.863322
+Stand: 2026-08-14T17:41:49.557661
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,12 +139,13 @@ Stand: 2026-08-14T17:38:47.863322
 - Offene Fehler: 0
 - Erinnerungen: 258
 - Dienste:
-run: jack_cortex: (pid 7269) 25118s
-run: jack_telegram: (pid 14378) 113s
+run: jack_cortex: (pid 7269) 25300s
+run: jack_telegram: (pid 16125) 155s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 25118s
+run: ollama: (pid 7266) 25300s
 
 ## Letzte Aenderungen
+b3f71b7 feat: confirm_write/cancel_write Callback verdrahtet
 6a1fd6a fix: send_keyboard tuple format fuer Schreibvorschlag-Buttons
 b312e40 fix: Schreibvorschlag -> Inline-Button statt Text
 a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
@@ -159,7 +160,6 @@ d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
 8936fce feat(autonomous): jack_autofixer_shadow in Waechter-Loop alle 300s
 5fc4cf9 feat(autonomy): jack_autofixer_shadow.py - Ollama Bug-Fixer mit Shadow-Execution
 08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
-36a62fc fix(xiaomi): explore_next() CPU+active_app via Root
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -170,8 +170,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 10:40:39] GUARD-OK | selftest gestartet, 3473MB frei
-[2026-08-14 10:41:36] SCOUT-LAUF | 3678bf4ddf4c402d
 [2026-08-14 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
 [2026-08-14 11:11:45] SAGA-CLEANUP | 18 temp-Dateien geloescht: voice_AwACAgIAAxkBAAICQWpXPxFKWbW-dcnUJ3vFpDy9floZAAK9lgACitO4Sk5lylWlJd0_PQQ.ogg,voice_AwACAgIAAxkBAAICQ2pXPySCB38WkXm6NcpVEyVgqqDYAALAlgACitO4Sj1Q1aLix4UzPQQ.ogg,voice_AwACAgIAAxkBAAICmGpaJYeCf1ZQWeBToCAzRFjCwbSlAAInogAChEDRSs9v2VDojJk-PQQ.ogg,voice_AwACAgIAAxkBAAICoWpbtAvZdhpiCUjKFcpuWv5osLmQAAI3oQAChEDZStdBF0bWlF8RPQQ.ogg,voice_AwACAgIAAxkBAAICo2pbtEFADfv7yGBQXoTjMEcKb95PAAI7oQAChEDZSqrk1fHrKW3fPQQ.ogg
 [2026-08-14 11:26:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
@@ -190,6 +188,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 16:53:13] MONITOR-EVENT | 1 Events
 [2026-08-14 17:08:57] GUARD-OK | whisper gestartet, 2518MB frei
 [2026-08-14 17:34:25] MERKE-DIR | für die Zukunft immer mit das als Copy und Paste für mein Termux geben
+[2026-08-14 17:39:42] DATEI-SCHREIBEN | hallobro_20260814_1739.txt | 8 Zeichen
+[2026-08-14 17:39:55] GUARD-OK | whisper gestartet, 2387MB frei
 
 ## Budget heute
-Heute: Text 71/300 | Vision 0/40 | Tokens 159743
+Heute: Text 75/300 | Vision 0/40 | Tokens 168135
