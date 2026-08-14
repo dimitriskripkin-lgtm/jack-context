@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:29:42.787644)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:32:44.456259)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:29:42.775123
+Stand: 2026-08-14T17:32:44.439409
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,12 +139,13 @@ Stand: 2026-08-14T17:29:42.775123
 - Offene Fehler: 0
 - Erinnerungen: 256
 - Dienste:
-run: jack_cortex: (pid 7269) 24573s
-run: jack_telegram: (pid 6625) 101s
+run: jack_cortex: (pid 7269) 24755s
+run: jack_telegram: (pid 8436) 174s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 24573s
+run: ollama: (pid 7266) 24755s
 
 ## Letzte Aenderungen
+b312e40 fix: Schreibvorschlag -> Inline-Button statt Text
 a6a3990 feat(agent): add lightweight web agent engine with domain recipe storage
 8536a2c feat(core): add tiered memory consolidation and multi-file shadow execution engine
 a144af1 feat(cron): add 06:00 AM daily briefing cronjob script and crontab integration
@@ -159,7 +160,6 @@ d6de535 feat(autonomy): self-audit, context-compress, predictive scheduler
 08228da feat(autonomous): explore_next() in Waechter-Loop alle 300s
 36a62fc fix(xiaomi): explore_next() CPU+active_app via Root
 ca0b393 fix(xiaomi): explore_next() Output sauber parsen
-c4f1428 fix(xiaomi): explore_next() Befehle fuer Android korrigiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -192,4 +192,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 17:08:57] GUARD-OK | whisper gestartet, 2518MB frei
 
 ## Budget heute
-Heute: Text 59/300 | Vision 0/40 | Tokens 139330
+Heute: Text 61/300 | Vision 0/40 | Tokens 141144
