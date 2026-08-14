@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T01:19:40.459614)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T10:40:09.856626)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T01:19:40.446677
+Stand: 2026-08-14T10:40:09.842963
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -125,10 +125,10 @@ Stand: 2026-08-14T01:19:40.446677
 - Offene Fehler: 0
 - Erinnerungen: 239
 - Dienste:
-run: jack_cortex: (pid 631) 53868s
-run: jack_telegram: (pid 29531) 42947s
+run: jack_cortex: (pid 7269) 0s
+run: jack_telegram: (pid 7268) 0s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 24888) 136672s
+run: ollama: (pid 7266) 0s
 
 ## Letzte Aenderungen
 c43cc8b lokale reasoning-engine: modell-agnostisch mit ram/temp-guards, regelbasierter router, offline-fallback in talk
@@ -156,7 +156,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 00:38:25] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 01:14:37] WAECHTER-START | Nacht-Ueberwachung laeuft
 [2026-08-13 01:15:59] SCOUT-LAUF | 9e097c0f797c27d3
 [2026-08-13 05:00:01] WAECHTER-MELDUNG | Xiaomi weg
@@ -176,6 +175,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 00:12:11] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-14 01:15:00] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 [2026-08-14 01:16:26] SCOUT-LAUF | 06a5e8af25a1235c
+[2026-08-14 10:40:09] WAECHTER-START | Nacht-Ueberwachung laeuft
 
 ## Budget heute
-Heute: Text 1/300 | Vision 0/40 | Tokens 4816
+Heute: Text 2/300 | Vision 0/40 | Tokens 4816
