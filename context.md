@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T19:24:52.754102)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T19:27:54.478364)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T19:24:52.742437
+Stand: 2026-08-14T19:27:54.467954
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,14 +139,15 @@ Stand: 2026-08-14T19:24:52.742437
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 271
+- Erinnerungen: 275
 - Dienste:
-run: jack_cortex: (pid 7269) 31483s
-run: jack_telegram: (pid 27237) 23s
+run: jack_cortex: (pid 7269) 31665s
+run: jack_telegram: (pid 28324) 137s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 31483s
+run: ollama: (pid 7266) 31665s
 
 ## Letzte Aenderungen
+1c43d1e fix: /status KeyError cortex behoben
 4b0396b fix: Groq-Keywords erweitert inkl Umlaute
 e94f4cb feat: Groq llama3.3-70b fuer persoenliche Gespraeche, Gemini fuer System-Calls
 835e862 fix: JACK kann Dateien schreiben - Falschaussage korrigiert
@@ -161,7 +162,6 @@ f04370e fix: Handlungs-Regel - reden vs handeln
 3ec30b6 fix: persona anti-repeat - zeigen statt nacherzaehlen
 c9ae8d6 fix: anti-repetitions-regel in persona
 1503a4b fix: persona Datei-Faehigkeit + Temperatur-Guard 58C Schwelle
-b3f71b7 feat: confirm_write/cancel_write Callback verdrahtet
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -194,4 +194,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 19:22:17] GUARD-OK | whisper gestartet, 2347MB frei
 
 ## Budget heute
-Heute: Text 157/300 | Vision 0/40 | Tokens 432556
+Heute: Text 161/300 | Vision 0/40 | Tokens 435345
