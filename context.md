@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:12:08.386152)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:15:10.294944)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:12:08.372734
+Stand: 2026-08-14T18:15:10.272920
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -137,14 +137,15 @@ Stand: 2026-08-14T18:12:08.372734
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 264
+- Erinnerungen: 265
 - Dienste:
-run: jack_cortex: (pid 7269) 27119s
-run: jack_telegram: (pid 6690) 254s
+run: jack_cortex: (pid 7269) 27301s
+run: jack_telegram: (pid 6690) 436s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 27119s
+run: ollama: (pid 7266) 27301s
 
 ## Letzte Aenderungen
+a4829a5 feat: jack_db_optimizer.py + SYSTEM_STATE.md (Qwen build)
 f04370e fix: Handlungs-Regel - reden vs handeln
 3ec30b6 fix: persona anti-repeat - zeigen statt nacherzaehlen
 c9ae8d6 fix: anti-repetitions-regel in persona
@@ -159,7 +160,6 @@ a144af1 feat(cron): add 06:00 AM daily briefing cronjob script and crontab integ
 e511931 docs: authentic CTO-grade README based on live system state
 084d9b9 feat(rag): implement working context ingest pipeline with md5 dedup and html cleaner
 d2e2087 Revert "docs: professional CTO-outreach portfolio README"
-4da6bd1 docs: professional CTO-outreach portfolio README
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -170,9 +170,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 14:49:48] MONITOR-EVENT | 1 Events
-[2026-08-14 15:22:16] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-14 15:31:53] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-14 16:53:13] MONITOR-EVENT | 1 Events
 [2026-08-14 17:08:57] GUARD-OK | whisper gestartet, 2518MB frei
 [2026-08-14 17:34:25] MERKE-DIR | für die Zukunft immer mit das als Copy und Paste für mein Termux geben
@@ -190,6 +187,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 18:03:45] GUARD-OK | whisper gestartet, 2862MB frei
 [2026-08-14 18:06:10] GUARD-OK | whisper gestartet, 3019MB frei
 [2026-08-14 18:08:23] GUARD-OK | whisper gestartet, 2807MB frei
+[2026-08-14 18:13:37] GUARD-OK | whisper gestartet, 2348MB frei
+[2026-08-14 18:14:28] GUARD-OK | whisper gestartet, 2574MB frei
+[2026-08-14 18:15:05] GUARD-OK | whisper gestartet, 2879MB frei
 
 ## Budget heute
-Heute: Text 117/300 | Vision 0/40 | Tokens 318115
+Heute: Text 127/300 | Vision 0/40 | Tokens 348183
