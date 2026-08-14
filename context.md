@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:51:32.388324)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:54:34.451561)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:51:32.352586
+Stand: 2026-08-14T18:54:34.432949
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T18:51:32.352586
 - Offene Fehler: 0
 - Erinnerungen: 266
 - Dienste:
-run: jack_cortex: (pid 7269) 29483s
-run: jack_telegram: (pid 28942) 451s
+run: jack_cortex: (pid 7269) 29665s
+run: jack_telegram: (pid 28942) 633s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 29483s
+run: ollama: (pid 7266) 29665s
 
 ## Letzte Aenderungen
 f0a4853 fix: hardcoded Beispiel-Text aus Gemini-Prompt entfernt - nur noch jack_persona.md
