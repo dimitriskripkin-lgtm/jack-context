@@ -769,3 +769,4 @@ SyntaxError: '(' was
 [2026-08-14 12:34:15] MONITOR-EVENT | 1 Events
 [2026-08-14 12:46:23] MONITOR-EVENT | 1 Events
 [2026-08-14 12:56:32] MONITOR-EVENT | 1 Events
+[2026-08-14 13:26:03] GUARD-OK | whisper gestartet, 2376MB frei

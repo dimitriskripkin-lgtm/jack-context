@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T13:24:08.419665)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T13:27:10.186331)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T13:24:08.409357
+Stand: 2026-08-14T13:27:10.166893
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -126,12 +126,12 @@ Stand: 2026-08-14T13:24:08.409357
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 241
+- Erinnerungen: 243
 - Dienste:
-run: jack_cortex: (pid 7269) 9839s
-run: jack_telegram: (pid 25307) 648s
+run: jack_cortex: (pid 7269) 10021s
+run: jack_telegram: (pid 25307) 830s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 9839s
+run: ollama: (pid 7266) 10021s
 
 ## Letzte Aenderungen
 7856045 feat(core): harden resilience, inject dima-state machine, and upgrade context ingest cleaner
@@ -159,7 +159,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-13 14:21:14] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-13 15:14:52] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-13 21:14:57] PROFIL-UPDATE | 7 neue Eintraege in kortex_profile.json
 [2026-08-14 00:12:11] WAECHTER-MELDUNG | Xiaomi weg
@@ -179,6 +178,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 12:34:15] MONITOR-EVENT | 1 Events
 [2026-08-14 12:46:23] MONITOR-EVENT | 1 Events
 [2026-08-14 12:56:32] MONITOR-EVENT | 1 Events
+[2026-08-14 13:26:03] GUARD-OK | whisper gestartet, 2376MB frei
 
 ## Budget heute
-Heute: Text 11/300 | Vision 0/40 | Tokens 29197
+Heute: Text 20/300 | Vision 0/40 | Tokens 49399
