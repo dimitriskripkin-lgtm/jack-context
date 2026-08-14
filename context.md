@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:32:44.456259)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:35:46.127731)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:32:44.439409
+Stand: 2026-08-14T17:35:46.115198
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -137,12 +137,12 @@ Stand: 2026-08-14T17:32:44.439409
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 256
+- Erinnerungen: 257
 - Dienste:
-run: jack_cortex: (pid 7269) 24755s
-run: jack_telegram: (pid 8436) 174s
+run: jack_cortex: (pid 7269) 24937s
+run: jack_telegram: (pid 8436) 356s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 24755s
+run: ollama: (pid 7266) 24937s
 
 ## Letzte Aenderungen
 b312e40 fix: Schreibvorschlag -> Inline-Button statt Text
@@ -170,7 +170,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 10:40:11] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-14 10:40:39] GUARD-OK | selftest gestartet, 3473MB frei
 [2026-08-14 10:41:36] SCOUT-LAUF | 3678bf4ddf4c402d
 [2026-08-14 11:00:00] CONSOLIDATE | Session gespeichert: 10 Logs, 0 Zugriffe
@@ -190,6 +189,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 15:31:53] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-14 16:53:13] MONITOR-EVENT | 1 Events
 [2026-08-14 17:08:57] GUARD-OK | whisper gestartet, 2518MB frei
+[2026-08-14 17:34:25] MERKE-DIR | für die Zukunft immer mit das als Copy und Paste für mein Termux geben
 
 ## Budget heute
-Heute: Text 61/300 | Vision 0/40 | Tokens 141144
+Heute: Text 68/300 | Vision 0/40 | Tokens 152147
