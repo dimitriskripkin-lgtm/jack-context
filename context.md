@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T17:44:51.261709)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T17:47:53.045168)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T17:44:51.249291
+Stand: 2026-08-14T17:47:53.019775
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T17:44:51.249291
 - Offene Fehler: 0
 - Erinnerungen: 258
 - Dienste:
-run: jack_cortex: (pid 7269) 25482s
-run: jack_telegram: (pid 18635) 172s
+run: jack_cortex: (pid 7269) 25664s
+run: jack_telegram: (pid 18635) 354s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 25482s
+run: ollama: (pid 7266) 25664s
 
 ## Letzte Aenderungen
 1503a4b fix: persona Datei-Faehigkeit + Temperatur-Guard 58C Schwelle
@@ -170,9 +170,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 11:26:10] SELF-IMPROVE | Tagescheck abgeschlossen
-[2026-08-14 12:03:39] MONITOR-EVENT | 1 Events
-[2026-08-14 12:28:08] MONITOR-AKKU-WARN | 20%
 [2026-08-14 12:28:10] MONITOR-EVENT | 1 Events
 [2026-08-14 12:34:15] MONITOR-EVENT | 1 Events
 [2026-08-14 12:46:23] MONITOR-EVENT | 1 Events
@@ -190,6 +187,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 17:42:31] DATEI-SCHREIBEN | 20260814_1742_hallobro.txt | 8 Zeichen
 [2026-08-14 17:43:15] DATEI-SCHREIBEN | thermox_commands_20260814.log | 38 Zeichen
 [2026-08-14 17:43:34] GUARD-OK | whisper gestartet, 2522MB frei
+[2026-08-14 17:44:59] GUARD-OK | whisper gestartet, 2659MB frei
+[2026-08-14 17:45:56] GUARD-OK | whisper gestartet, 3023MB frei
+[2026-08-14 17:47:15] GUARD-OK | whisper gestartet, 2827MB frei
 
 ## Budget heute
-Heute: Text 80/300 | Vision 0/40 | Tokens 177684
+Heute: Text 87/300 | Vision 0/40 | Tokens 200137
