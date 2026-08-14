@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T18:03:02.576205)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T18:06:04.330358)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T18:03:02.562977
+Stand: 2026-08-14T18:06:04.317267
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -139,10 +139,10 @@ Stand: 2026-08-14T18:03:02.562977
 - Offene Fehler: 0
 - Erinnerungen: 263
 - Dienste:
-run: jack_cortex: (pid 7269) 26573s
-run: jack_telegram: (pid 28951) 415s
+run: jack_cortex: (pid 7269) 26755s
+run: jack_telegram: (pid 28951) 597s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 26573s
+run: ollama: (pid 7266) 26755s
 
 ## Letzte Aenderungen
 3ec30b6 fix: persona anti-repeat - zeigen statt nacherzaehlen
@@ -170,7 +170,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-14 12:56:32] MONITOR-EVENT | 1 Events
 [2026-08-14 13:26:03] GUARD-OK | whisper gestartet, 2376MB frei
 [2026-08-14 14:40:15] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 [2026-08-14 14:49:48] MONITOR-EVENT | 1 Events
@@ -190,6 +189,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-14 17:57:20] GUARD-OK | whisper gestartet, 2432MB frei
 [2026-08-14 17:58:20] GUARD-OK | whisper gestartet, 2517MB frei
 [2026-08-14 18:00:40] GUARD-OK | whisper gestartet, 2826MB frei
+[2026-08-14 18:03:45] GUARD-OK | whisper gestartet, 2862MB frei
 
 ## Budget heute
-Heute: Text 106/300 | Vision 0/40 | Tokens 278231
+Heute: Text 109/300 | Vision 0/40 | Tokens 288152
