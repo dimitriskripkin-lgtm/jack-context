@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-14T16:35:07.027513)
+# JACK LIVE-KONTEXT (auto, 2026-08-14T16:38:09.015865)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-14T16:35:07.012753
+Stand: 2026-08-14T16:38:08.984170
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -138,10 +138,10 @@ Stand: 2026-08-14T16:35:07.012753
 - Offene Fehler: 0
 - Erinnerungen: 251
 - Dienste:
-run: jack_cortex: (pid 7269) 21298s
-run: jack_telegram: (pid 8686) 8637s
+run: jack_cortex: (pid 7269) 21479s
+run: jack_telegram: (pid 8686) 8818s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 21298s
+run: ollama: (pid 7266) 21479s
 
 ## Letzte Aenderungen
 8536a2c feat(core): add tiered memory consolidation and multi-file shadow execution engine
