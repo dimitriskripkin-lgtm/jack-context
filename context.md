@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T23:57:44.515738)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T00:00:46.352327)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T23:57:44.501674
+Stand: 2026-08-16T00:00:46.341103
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-15T23:57:44.501674
 - Offene Fehler: 0
 - Erinnerungen: 571
 - Dienste:
-run: jack_cortex: (pid 7269) 134255s
-run: jack_telegram: (pid 15280) 368s
+run: jack_cortex: (pid 7269) 134437s
+run: jack_telegram: (pid 23806) 73s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 134255s
+run: ollama: (pid 7266) 134437s
 
 ## Letzte Aenderungen
+2d0afbd fix: schreib und proaktiv Intent auch bei langen Saetzen
 960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
 1727af6 fix: voice Handler im Poll-Loop wiederhergestellt
 0d7429d fix: /selftest direkt in handle() verankert
@@ -164,7 +165,6 @@ c4d488a feat: /befehle Xiaomi Akku Button + Honor Akku getrennt
 623ef5a fix: xiaomi_akku via su -c statt dumpsys
 9ae43fd fix: xiaomi_akku Keywords Prioritaet vor ssh_check
 cc71719 feat: Haptik-Feedback via termux-vibrate bei Startup, Button, Nachricht
-6b5d942 feat: xiaomi_akku Intent + xiaomi_wake via ControlMaster
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -197,4 +197,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 23:56:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 62/300 | Vision 0/40 | Tokens 242040
+Heute: Text 3/300 | Vision 0/40 | Tokens 8656
