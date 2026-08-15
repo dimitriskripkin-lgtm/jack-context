@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T13:50:51.797216)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T13:53:53.619249)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T13:50:51.783148
+Stand: 2026-08-15T13:53:53.608093
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-15T13:50:51.783148
 - Offene Fehler: 0
 - Erinnerungen: 447
 - Dienste:
-run: jack_cortex: (pid 7269) 97842s
-run: jack_telegram: (pid 13941) 5995s
+run: jack_cortex: (pid 7269) 98024s
+run: jack_telegram: (pid 13941) 6177s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 97842s
+run: ollama: (pid 7266) 98024s
 
 ## Letzte Aenderungen
 5890033 fix: proaktiv_check Keywords praeziser - kein Fliesstext-Match
