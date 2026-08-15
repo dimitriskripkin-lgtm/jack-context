@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T10:51:42.027309)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T10:54:44.185350)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T10:51:42.002877
+Stand: 2026-08-15T10:54:44.160059
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,12 +142,12 @@ Stand: 2026-08-15T10:51:42.002877
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 409
+- Erinnerungen: 410
 - Dienste:
-run: jack_cortex: (pid 7269) 87093s
-run: jack_telegram: (pid 32165) 243s
+run: jack_cortex: (pid 7269) 87275s
+run: jack_telegram: (pid 32165) 425s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 87093s
+run: ollama: (pid 7266) 87275s
 
 ## Letzte Aenderungen
 f911e83 fix: intent Callback Einzug + Startup-Nachricht bei Neustart
@@ -175,10 +175,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-15 10:27:53] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-15 10:27:55] EXPLORE | Xiaomi: CPU=Load: 3.78 RAM=2188MB frei Akku=100% Temp=32.6C
-[2026-08-15 10:27:55] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-15 10:32:56] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-15 10:32:56] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-15 10:32:58] EXPLORE | Xiaomi: CPU=Load: 4.37 RAM=2323MB frei Akku=100% Temp=32.9C
 [2026-08-15 10:32:58] SHADOW-FIXER | Keine offenen Fehler
@@ -195,6 +191,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 10:48:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-15 10:48:06] EXPLORE | Xiaomi: CPU=Load: 4.18 RAM=2133MB frei Akku=100% Temp=32.8C
 [2026-08-15 10:48:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 10:53:06] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-15 10:53:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-15 10:53:09] EXPLORE | Xiaomi: CPU=Load: 4.13 RAM=2191MB frei Akku=100% Temp=32.7C
+[2026-08-15 10:53:09] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 17/300 | Vision 0/40 | Tokens 76515
