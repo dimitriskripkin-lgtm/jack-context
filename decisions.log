@@ -3777,3 +3777,6 @@ SyntaxError: '(' was
 [2026-08-15 08:54:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-15 08:54:09] EXPLORE | Xiaomi: CPU=Load: 4.25 RAM=2198MB frei Akku=100% Temp=32.5C
 [2026-08-15 08:54:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 08:59:12] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-15 08:59:13] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-15 08:59:13] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
