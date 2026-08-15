@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T11:55:25.425078)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T11:58:26.968444)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T11:55:25.413828
+Stand: 2026-08-15T11:58:26.956749
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-15T11:55:25.413828
 - Offene Fehler: 0
 - Erinnerungen: 423
 - Dienste:
-run: jack_cortex: (pid 7269) 90916s
-run: jack_telegram: (pid 27304) 271s
+run: jack_cortex: (pid 7269) 91097s
+run: jack_telegram: (pid 30514) 132s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 90916s
+run: ollama: (pid 7266) 91097s
 
 ## Letzte Aenderungen
+cc71719 feat: Haptik-Feedback via termux-vibrate bei Startup, Button, Nachricht
 6b5d942 feat: xiaomi_akku Intent + xiaomi_wake via ControlMaster
 2558c28 fix: callback_query im Poll-Loop verarbeiten - Buttons funktionieren jetzt
 f911e83 fix: intent Callback Einzug + Startup-Nachricht bei Neustart
@@ -164,7 +165,6 @@ e42282a fix: Intent-Ergebnis direkt returnen, Gemini ueberspringen
 da535b4 fix: proaktiv_check Level 3 in AKTIONEN-Dict
 a0a1025 feat: proaktiv_check Handler in jack_intent.execute()
 d48bd86 feat: proaktiv_check Intent - sei proaktiv triggert echten System+Xiaomi Check
-c4bf10b feat(autonomy): add orchestrator for xiaomi auto-healing and morning briefing
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -197,4 +197,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 11:53:52] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 17/300 | Vision 0/40 | Tokens 76515
+Heute: Text 18/300 | Vision 0/40 | Tokens 82886
