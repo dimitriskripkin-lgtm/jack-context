@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T06:06:34.367712)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T06:09:36.454138)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T06:06:34.350206
+Stand: 2026-08-15T06:09:36.433603
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -12,24 +12,22 @@ Stand: 2026-08-15T06:06:34.350206
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
-- Dima ist Hobby-Programmierer und Autodidakt.
+- Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
+- Dima hat eine Investmentwohnung in Essen.
+- Dima hat KEINEN Hund.
+- Dima ist KEIN Fernfahrer.
 - Dima möchte mit JACK Unabhängigkeit und Freiheit aufbauen.
 - JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
 - JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
 - JACK nutzt Gemini als Denkwerkzeug über API-Calls.
-- JACK steht unter Dimas voller Kontrolle.
-- JACK kann das Xiaomi 11T Pro per SSH ansprechen.
-- Dima hat KEINEN Hund.
-- Dima ist KEIN Fernfahrer.
-- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber häufig instabil.
-- JACK ist "Just Autonomous Command Kit" und soll offline-first agieren.
-- Dima entwickelt hauptsächlich auf dem Smartphone.
-- Dima hat eine Investmentwohnung in Essen.
-- Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - JACK nutzt ollama llama3.2:3b als Offline-Fallback für Gemini.
 - JACK verwendet sqlite-vec als Vektordatenbank.
+- JACK steht unter Dimas voller Kontrolle.
+- JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber häufig instabil.
+- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
+- JACK ist "Just Autonomous Command Kit" und soll offline-first agieren.
+- Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 
 ## Aktive Module (109)
 - install_litert.py
@@ -144,12 +142,12 @@ Stand: 2026-08-15T06:06:34.350206
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 355
+- Erinnerungen: 356
 - Dienste:
-run: jack_cortex: (pid 7269) 69985s
-run: jack_telegram: (pid 5400) 22673s
+run: jack_cortex: (pid 7269) 70167s
+run: jack_telegram: (pid 5400) 22855s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 69985s
+run: ollama: (pid 7266) 70167s
 
 ## Letzte Aenderungen
 2690fd5 fix: TaskQueue.execute() implementiert
@@ -177,9 +175,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-15 05:16:49] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-15 05:21:53] EXPLORE | Xiaomi: CPU=Load: 4.00 RAM=2267MB frei Akku=100% Temp=30.3C
-[2026-08-15 05:21:53] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 05:26:57] EXPLORE | Xiaomi: CPU=Load: 4.28 RAM=2295MB frei Akku=100% Temp=30.2C
 [2026-08-15 05:26:57] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 05:32:00] EXPLORE | Xiaomi: CPU=Load: 3.77 RAM=2340MB frei Akku=100% Temp=30.0C
@@ -197,6 +192,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 06:00:00] MEMORY-MAINTENANCE | 34 Eintraege als 'stale' markiert | 34 Stale-Eintraege geloescht | Verbleibend: 33 Eintraege
 [2026-08-15 06:02:19] EXPLORE | Xiaomi: CPU=Load: 4.08 RAM=2317MB frei Akku=100% Temp=29.9C
 [2026-08-15 06:02:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 06:07:22] EXPLORE | Xiaomi: CPU=Load: 3.84 RAM=2268MB frei Akku=100% Temp=29.8C
+[2026-08-15 06:07:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 06:08:23] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 29038
+Heute: Text 10/300 | Vision 0/40 | Tokens 34240
