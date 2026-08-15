@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T14:06:01.320694)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T14:09:03.056994)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T14:06:01.302339
+Stand: 2026-08-15T14:09:03.039932
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-15T14:06:01.302339
 - Offene Fehler: 0
 - Erinnerungen: 450
 - Dienste:
-run: jack_cortex: (pid 7269) 98752s
-run: jack_telegram: (pid 31597) 78s
+run: jack_cortex: (pid 7269) 98934s
+run: jack_telegram: (pid 5033) 36s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 98752s
+run: ollama: (pid 7266) 98934s
 
 ## Letzte Aenderungen
 b7afff2 fix: Intent nur bei kurzen Texten <60 Zeichen ausfuehren
@@ -197,4 +197,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 14:05:22] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 22/300 | Vision 0/40 | Tokens 110064
+Heute: Text 26/300 | Vision 0/40 | Tokens 123055
