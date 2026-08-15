@@ -3683,3 +3683,5 @@ SyntaxError: '(' was
 [2026-08-15 05:57:16] EXPLORE | Xiaomi: CPU=Load: 4.06 RAM=2305MB frei Akku=100% Temp=29.8C
 [2026-08-15 05:57:16] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 06:00:00] MEMORY-MAINTENANCE | 34 Eintraege als 'stale' markiert | 34 Stale-Eintraege geloescht | Verbleibend: 33 Eintraege
+[2026-08-15 06:02:19] EXPLORE | Xiaomi: CPU=Load: 4.08 RAM=2317MB frei Akku=100% Temp=29.9C
+[2026-08-15 06:02:19] SHADOW-FIXER | Keine offenen Fehler
