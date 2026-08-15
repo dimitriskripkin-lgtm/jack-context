@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T16:07:21.524068)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T16:10:23.636436)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T16:07:21.506976
+Stand: 2026-08-15T16:10:23.621084
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-15T16:07:21.506976
 - Offene Fehler: 0
 - Erinnerungen: 477
 - Dienste:
-run: jack_cortex: (pid 7269) 106032s
-run: jack_telegram: (pid 26098) 5431s
+run: jack_cortex: (pid 7269) 106214s
+run: jack_telegram: (pid 26098) 5613s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 106032s
+run: ollama: (pid 7266) 106214s
 
 ## Letzte Aenderungen
 960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
@@ -197,4 +197,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 16:06:41] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 45/300 | Vision 0/40 | Tokens 188531
+Heute: Text 46/300 | Vision 0/40 | Tokens 193714
