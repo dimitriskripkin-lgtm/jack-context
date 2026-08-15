@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T08:23:06.857497)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T08:26:08.640422)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T08:23:06.846306
+Stand: 2026-08-15T08:26:08.629678
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,12 +142,12 @@ Stand: 2026-08-15T08:23:06.846306
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 382
+- Erinnerungen: 383
 - Dienste:
-run: jack_cortex: (pid 7269) 78177s
-run: jack_telegram: (pid 5400) 30865s
+run: jack_cortex: (pid 7269) 78359s
+run: jack_telegram: (pid 5400) 31047s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 78177s
+run: ollama: (pid 7266) 78359s
 
 ## Letzte Aenderungen
 2690fd5 fix: TaskQueue.execute() implementiert
@@ -175,10 +175,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-15 07:53:32] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-15 07:55:03] MONITOR-VOLLSCAN | ok
-[2026-08-15 07:58:35] EXPLORE | Xiaomi: CPU=Load: 3.87 RAM=2332MB frei Akku=100% Temp=32.2C
-[2026-08-15 07:58:35] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 08:03:35] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-15 08:03:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-15 08:03:38] EXPLORE | Xiaomi: CPU=Load: 3.37 RAM=2673MB frei Akku=100% Temp=32.1C
@@ -195,6 +191,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 08:18:45] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-15 08:18:47] EXPLORE | Xiaomi: CPU=Load: 3.87 RAM=2350MB frei Akku=100% Temp=32.3C
 [2026-08-15 08:18:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 08:23:47] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-15 08:23:47] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-15 08:23:50] EXPLORE | Xiaomi: CPU=Load: 4.18 RAM=2361MB frei Akku=100% Temp=32.3C
+[2026-08-15 08:23:50] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 11/300 | Vision 0/40 | Tokens 39423
