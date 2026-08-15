@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T13:56:55.813452)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T13:59:57.576308)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T13:56:55.801551
+Stand: 2026-08-15T13:59:57.565141
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-15T13:56:55.801551
 - Offene Fehler: 0
 - Erinnerungen: 448
 - Dienste:
-run: jack_cortex: (pid 7269) 98206s
-run: jack_telegram: (pid 25100) 86s
+run: jack_cortex: (pid 7269) 98388s
+run: jack_telegram: (pid 27947) 15s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 98206s
+run: ollama: (pid 7266) 98388s
 
 ## Letzte Aenderungen
+f16399f fix: ssh_check kein einzelnes 'xiaomi' mehr als Keyword
 958d945 fix: nachfragen deaktiviert - kein Intent-Prompt bei Fliesstext
 5890033 fix: proaktiv_check Keywords praeziser - kein Fliesstext-Match
 28bed1b fix: xiaomi_akku Keywords praeziser - kein Substring-Match mehr
@@ -164,7 +165,6 @@ f911e83 fix: intent Callback Einzug + Startup-Nachricht bei Neustart
 839329b feat: /befehle und /menu direkt in handle() als Buttons
 d5bb993 docs: README.md CTO-Portfolio + jack_queue fix
 2690fd5 fix: TaskQueue.execute() implementiert
-51d4754 fix: jack_queue.py erstellt - ModuleNotFoundError behoben
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
