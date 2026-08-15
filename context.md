@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T10:45:37.725507)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T10:48:39.910042)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T10:45:37.712605
+Stand: 2026-08-15T10:48:39.898540
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,14 +142,15 @@ Stand: 2026-08-15T10:45:37.712605
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 408
+- Erinnerungen: 409
 - Dienste:
-run: jack_cortex: (pid 7269) 86728s
-run: jack_telegram: (pid 29662) 73s
+run: jack_cortex: (pid 7269) 86910s
+run: jack_telegram: (pid 32165) 60s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 86728s
+run: ollama: (pid 7266) 86910s
 
 ## Letzte Aenderungen
+f911e83 fix: intent Callback Einzug + Startup-Nachricht bei Neustart
 839329b feat: /befehle und /menu direkt in handle() als Buttons
 d5bb993 docs: README.md CTO-Portfolio + jack_queue fix
 2690fd5 fix: TaskQueue.execute() implementiert
@@ -164,7 +165,6 @@ d48bd86 feat: proaktiv_check Intent - sei proaktiv triggert echten System+Xiaomi
 c4bf10b feat(autonomy): add orchestrator for xiaomi auto-healing and morning briefing
 f7289d5 fix(telegram): return early on xiaomi inspect and fix tuple unpacking for fetch_and_process_url
 99c8a99 fix(telegram): use updated fetch_and_ingest_url method
-0741870 fix(web_ingest): add browser headers and fallback chunking for quiet sites
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -175,10 +175,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-15 10:22:50] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-15 10:22:52] EXPLORE | Xiaomi: CPU=Load: 4.32 RAM=2230MB frei Akku=100% Temp=32.6C
-[2026-08-15 10:22:52] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-15 10:27:53] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-15 10:27:53] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-15 10:27:55] EXPLORE | Xiaomi: CPU=Load: 3.78 RAM=2188MB frei Akku=100% Temp=32.6C
 [2026-08-15 10:27:55] SHADOW-FIXER | Keine offenen Fehler
@@ -195,6 +191,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 10:43:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-15 10:43:03] EXPLORE | Xiaomi: CPU=Load: 3.69 RAM=2224MB frei Akku=100% Temp=32.8C
 [2026-08-15 10:43:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 10:48:03] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-15 10:48:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-15 10:48:06] EXPLORE | Xiaomi: CPU=Load: 4.18 RAM=2133MB frei Akku=100% Temp=32.8C
+[2026-08-15 10:48:06] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 17/300 | Vision 0/40 | Tokens 76515
