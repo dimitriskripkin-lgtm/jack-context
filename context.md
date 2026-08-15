@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T02:36:56.789163)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T02:39:58.925122)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T02:36:56.775883
+Stand: 2026-08-15T02:39:58.910032
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,10 +146,10 @@ Stand: 2026-08-15T02:36:56.775883
 - Offene Fehler: 0
 - Erinnerungen: 314
 - Dienste:
-run: jack_cortex: (pid 7269) 57407s
-run: jack_telegram: (pid 5400) 10095s
+run: jack_cortex: (pid 7269) 57589s
+run: jack_telegram: (pid 5400) 10277s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 57407s
+run: ollama: (pid 7266) 57589s
 
 ## Letzte Aenderungen
 2690fd5 fix: TaskQueue.execute() implementiert
