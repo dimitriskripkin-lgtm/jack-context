@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T17:59:40.864683)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T18:02:43.147246)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T17:59:40.848440
+Stand: 2026-08-15T18:02:43.121933
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-15T17:59:40.848440
 - Offene Fehler: 0
 - Erinnerungen: 499
 - Dienste:
-run: jack_cortex: (pid 7269) 112771s
-run: jack_telegram: (pid 26098) 12170s
+run: jack_cortex: (pid 7269) 112954s
+run: jack_telegram: (pid 26098) 12353s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 112771s
+run: ollama: (pid 7266) 112954s
 
 ## Letzte Aenderungen
 960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
