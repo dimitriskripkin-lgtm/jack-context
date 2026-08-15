@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T14:12:04.854182)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T14:15:06.741701)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T14:12:04.846634
+Stand: 2026-08-15T14:15:06.728079
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,12 +142,12 @@ Stand: 2026-08-15T14:12:04.846634
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 452
+- Erinnerungen: 453
 - Dienste:
-run: jack_cortex: (pid 7269) 99115s
-run: jack_telegram: (pid 6113) 177s
+run: jack_cortex: (pid 7269) 99297s
+run: jack_telegram: (pid 6113) 359s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 99115s
+run: ollama: (pid 7266) 99297s
 
 ## Letzte Aenderungen
 f5ee770 fix: Level 3 Handlungs-Direktive in Persona
@@ -197,4 +197,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 14:10:26] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 29/300 | Vision 0/40 | Tokens 130831
+Heute: Text 37/300 | Vision 0/40 | Tokens 159707
