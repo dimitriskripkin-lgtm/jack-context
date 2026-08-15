@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T02:18:44.421660)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T02:21:46.404865)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T02:18:44.408491
+Stand: 2026-08-15T02:21:46.378023
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,12 @@ Stand: 2026-08-15T02:18:44.408491
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 310
+- Erinnerungen: 311
 - Dienste:
-run: jack_cortex: (pid 7269) 56315s
-run: jack_telegram: (pid 5400) 9003s
+run: jack_cortex: (pid 7269) 56497s
+run: jack_telegram: (pid 5400) 9185s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 56315s
+run: ollama: (pid 7266) 56497s
 
 ## Letzte Aenderungen
 2690fd5 fix: TaskQueue.execute() implementiert
@@ -177,8 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-15 01:29:13] EXPLORE | Xiaomi: CPU=Load: 4.48 RAM=2097MB frei Akku=100% Temp=30.6C
-[2026-08-15 01:29:13] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 01:34:16] EXPLORE | Xiaomi: CPU=Load: 3.96 RAM=1995MB frei Akku=100% Temp=30.5C
 [2026-08-15 01:34:16] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 01:39:19] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=1900MB frei Akku=100% Temp=30.7C
@@ -197,6 +195,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-15 02:09:40] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-15 02:14:43] EXPLORE | Xiaomi: CPU=Load: 3.89 RAM=2299MB frei Akku=100% Temp=30.4C
 [2026-08-15 02:14:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-15 02:19:47] EXPLORE | Xiaomi: CPU=Load: 5.01 RAM=2302MB frei Akku=100% Temp=32.2C
+[2026-08-15 02:19:47] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 8/300 | Vision 0/40 | Tokens 23813
