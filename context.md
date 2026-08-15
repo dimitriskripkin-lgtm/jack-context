@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T10:54:44.185350)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T10:57:46.409085)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T10:54:44.160059
+Stand: 2026-08-15T10:57:46.393660
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-15T10:54:44.160059
 - Offene Fehler: 0
 - Erinnerungen: 410
 - Dienste:
-run: jack_cortex: (pid 7269) 87275s
-run: jack_telegram: (pid 32165) 425s
+run: jack_cortex: (pid 7269) 87457s
+run: jack_telegram: (pid 32165) 607s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 87275s
+run: ollama: (pid 7266) 87457s
 
 ## Letzte Aenderungen
 f911e83 fix: intent Callback Einzug + Startup-Nachricht bei Neustart
