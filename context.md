@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T12:10:33.911514)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T12:13:36.221725)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T12:10:33.896530
+Stand: 2026-08-15T12:13:36.202300
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-15T12:10:33.896530
 - Offene Fehler: 0
 - Erinnerungen: 427
 - Dienste:
-run: jack_cortex: (pid 7269) 91824s
-run: jack_telegram: (pid 12649) 65s
+run: jack_cortex: (pid 7269) 92007s
+run: jack_telegram: (pid 13941) 160s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 91824s
+run: ollama: (pid 7266) 92007s
 
 ## Letzte Aenderungen
+5890033 fix: proaktiv_check Keywords praeziser - kein Fliesstext-Match
 28bed1b fix: xiaomi_akku Keywords praeziser - kein Substring-Match mehr
 8cd6357 fix: xiaomi inspector trigger eingeschraenkt - nur bei explizitem Befehl
 c4d488a feat: /befehle Xiaomi Akku Button + Honor Akku getrennt
@@ -164,7 +165,6 @@ d5bb993 docs: README.md CTO-Portfolio + jack_queue fix
 2690fd5 fix: TaskQueue.execute() implementiert
 51d4754 fix: jack_queue.py erstellt - ModuleNotFoundError behoben
 2d2e037 fix: handle() ruft jack_talk auf statt text zu echoen
-e42282a fix: Intent-Ergebnis direkt returnen, Gemini ueberspringen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
