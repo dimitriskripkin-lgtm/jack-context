@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T12:04:30.527790)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T12:07:32.277390)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T12:04:30.512610
+Stand: 2026-08-15T12:07:32.262770
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-15T12:04:30.512610
 - Offene Fehler: 0
 - Erinnerungen: 425
 - Dienste:
-run: jack_cortex: (pid 7269) 91461s
-run: jack_telegram: (pid 7568) 67s
+run: jack_cortex: (pid 7269) 91643s
+run: jack_telegram: (pid 7568) 249s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 91461s
+run: ollama: (pid 7266) 91643s
 
 ## Letzte Aenderungen
 c4d488a feat: /befehle Xiaomi Akku Button + Honor Akku getrennt
