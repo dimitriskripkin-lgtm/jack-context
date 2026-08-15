@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-15T14:36:19.912846)
+# JACK LIVE-KONTEXT (auto, 2026-08-15T14:39:21.823651)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-15T14:36:19.904954
+Stand: 2026-08-15T14:39:21.813876
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-15T14:36:19.904954
 - Offene Fehler: 0
 - Erinnerungen: 459
 - Dienste:
-run: jack_cortex: (pid 7269) 100570s
-run: jack_telegram: (pid 20600) 364s
+run: jack_cortex: (pid 7269) 100752s
+run: jack_telegram: (pid 26098) 151s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 100570s
+run: ollama: (pid 7266) 100752s
 
 ## Letzte Aenderungen
+960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
 1727af6 fix: voice Handler im Poll-Loop wiederhergestellt
 0d7429d fix: /selftest direkt in handle() verankert
 f5ee770 fix: Level 3 Handlungs-Direktive in Persona
@@ -164,7 +165,6 @@ c4d488a feat: /befehle Xiaomi Akku Button + Honor Akku getrennt
 9ae43fd fix: xiaomi_akku Keywords Prioritaet vor ssh_check
 cc71719 feat: Haptik-Feedback via termux-vibrate bei Startup, Button, Nachricht
 6b5d942 feat: xiaomi_akku Intent + xiaomi_wake via ControlMaster
-2558c28 fix: callback_query im Poll-Loop verarbeiten - Buttons funktionieren jetzt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
