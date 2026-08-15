@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T01:07:29.265758)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T01:10:32.759077)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T01:07:29.256750
+Stand: 2026-08-16T01:10:32.749002
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,13 @@ Stand: 2026-08-16T01:07:29.256750
 - Offene Fehler: 0
 - Erinnerungen: 585
 - Dienste:
-run: jack_cortex: (pid 7269) 138440s
-run: jack_telegram: (pid 23806) 4076s
+run: jack_cortex: (pid 7269) 138623s
+run: jack_telegram: (pid 2787) 22s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 138440s
+run: ollama: (pid 7266) 138623s
 
 ## Letzte Aenderungen
+d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
 2d0afbd fix: schreib und proaktiv Intent auch bei langen Saetzen
 960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
 1727af6 fix: voice Handler im Poll-Loop wiederhergestellt
@@ -164,7 +165,6 @@ f16399f fix: ssh_check kein einzelnes 'xiaomi' mehr als Keyword
 c4d488a feat: /befehle Xiaomi Akku Button + Honor Akku getrennt
 623ef5a fix: xiaomi_akku via su -c statt dumpsys
 9ae43fd fix: xiaomi_akku Keywords Prioritaet vor ssh_check
-cc71719 feat: Haptik-Feedback via termux-vibrate bei Startup, Button, Nachricht
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
