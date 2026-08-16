@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:42:38.679127)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:45:40.534428)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:42:38.669081
+Stand: 2026-08-16T13:45:40.500529
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T13:42:38.669081
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 738
+- Erinnerungen: 739
 - Dienste:
-run: jack_cortex: (pid 7269) 183749s
-run: jack_telegram: (pid 30594) 1842s
+run: jack_cortex: (pid 7269) 183931s
+run: jack_telegram: (pid 30594) 2024s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 183749s
+run: ollama: (pid 7266) 183931s
 
 ## Letzte Aenderungen
 cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistiert
@@ -181,10 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 13:30:17] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 13:30:17] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:30:19] EXPLORE | Xiaomi: CPU=Load: 4.70 RAM=1281MB frei Akku=100% Temp=35.9C
 [2026-08-16 13:30:19] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 13:31:03] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
@@ -201,6 +197,10 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 13:40:22] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:40:24] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=1474MB frei Akku=100% Temp=35.5C
 [2026-08-16 13:40:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:45:25] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:45:25] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:45:27] EXPLORE | Xiaomi: CPU=Load: 5.66 RAM=1367MB frei Akku=100% Temp=35.5C
+[2026-08-16 13:45:27] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 89/300 | Vision 0/40 | Tokens 342030
