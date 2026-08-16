@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T10:43:48.287294)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T10:46:50.416298)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T10:43:48.268122
+Stand: 2026-08-16T10:46:50.403509
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -145,12 +145,13 @@ Stand: 2026-08-16T10:43:48.268122
 - Offene Fehler: 0
 - Erinnerungen: 701
 - Dienste:
-run: jack_cortex: (pid 7269) 173019s
-run: jack_telegram: (pid 3931) 156s
+run: jack_cortex: (pid 7269) 173201s
+run: jack_telegram: (pid 9861) 75s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 173019s
+run: ollama: (pid 7266) 173201s
 
 ## Letzte Aenderungen
+02e464c feat: WRITE-Marker - Gemini kann Dateien direkt vorschlagen mit Auto-Button
 536d602 fix: Persona - nie behaupten etwas getan zu haben ohne Ausfuehrung
 ae6d02c fix: Persona klargestellt - JACK kann Dateien schreiben
 af70869 fix: datei_schreiben mit Inline-Button in handle() verdrahtet
@@ -165,7 +166,6 @@ d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
 2d0afbd fix: schreib und proaktiv Intent auch bei langen Saetzen
 960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
 1727af6 fix: voice Handler im Poll-Loop wiederhergestellt
-0d7429d fix: /selftest direkt in handle() verankert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
