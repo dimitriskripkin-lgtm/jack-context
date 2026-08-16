@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T14:12:41.724223)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T14:15:43.415463)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T14:12:41.711223
+Stand: 2026-08-16T14:15:43.403018
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T14:12:41.711223
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 744
+- Erinnerungen: 745
 - Dienste:
-run: jack_cortex: (pid 18564) 182s
-run: jack_telegram: (pid 18562) 182s
+run: jack_cortex: (pid 18564) 364s
+run: jack_telegram: (pid 18562) 364s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 182s
+run: ollama: (pid 18563) 364s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,12 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:05:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 14:05:06] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
-[2026-08-16 14:05:07] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
-[2026-08-16 14:05:07] EXPLORE | Xiaomi: CPU=Load: 4.02 RAM=898MB frei Akku=100% Temp=34.6C
-[2026-08-16 14:05:07] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 14:05:07] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
 [2026-08-16 14:05:19] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
 [2026-08-16 14:06:27] SCOUT-LAUF | 56d01a86a01a35ba
 [2026-08-16 14:08:38] LOKAL-INFERENZ | llama3.2:3b | allgemein | 8.5s | 67.1C
@@ -201,6 +195,12 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 14:09:42] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
 [2026-08-16 14:09:50] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
 [2026-08-16 14:11:02] SCOUT-LAUF | ebaf7efad8dbe779
+[2026-08-16 14:12:58] EXEC | echo "=== SETZE WAKELOCK ===" && termux-wake-lock && echo "Wakelock ist jetzt ak | rc=0
+[2026-08-16 14:14:42] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:14:42] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 14:14:44] EXPLORE | Xiaomi: CPU=Load: 3.95 RAM=1209MB frei Akku=100% Temp=34.3C
+[2026-08-16 14:14:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:15:33] EXEC | grep -q "termux-wake-lock" ~/.bashrc || echo "termux-wake-lock" >> ~/.bashrc &&  | rc=0
 
 ## Budget heute
 Heute: Text 97/300 | Vision 0/40 | Tokens 377524

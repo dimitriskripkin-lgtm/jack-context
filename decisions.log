@@ -5086,3 +5086,9 @@ echo "=== | rc=0
 [2026-08-16 14:09:42] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
 [2026-08-16 14:09:50] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
 [2026-08-16 14:11:02] SCOUT-LAUF | ebaf7efad8dbe779
+[2026-08-16 14:12:58] EXEC | echo "=== SETZE WAKELOCK ===" && termux-wake-lock && echo "Wakelock ist jetzt ak | rc=0
+[2026-08-16 14:14:42] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:14:42] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 14:14:44] EXPLORE | Xiaomi: CPU=Load: 3.95 RAM=1209MB frei Akku=100% Temp=34.3C
+[2026-08-16 14:14:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:15:33] EXEC | grep -q "termux-wake-lock" ~/.bashrc || echo "termux-wake-lock" >> ~/.bashrc &&  | rc=0
