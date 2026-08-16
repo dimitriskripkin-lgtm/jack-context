@@ -223,3 +223,6 @@ p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
 [2026-08-16 17:34:06] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:34:31] LOKAL-INFERENZ | llama3.2:3b | allgemein | 25.1s | 85.3C
 [2026-08-16 17:38:17] MONITOR-EVENT | 1 Events
+[2026-08-16 17:39:09] EXPLORE | Xiaomi: CPU=Load: 4.16 RAM=2146MB frei Akku=100% Temp=38.9C
+[2026-08-16 17:39:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:40:18] MONITOR-EVENT | 1 Events
