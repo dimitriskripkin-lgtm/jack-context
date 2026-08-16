@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:18:25.448171)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:21:27.216188)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:18:25.433637
+Stand: 2026-08-16T13:21:27.201525
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,14 +148,15 @@ Stand: 2026-08-16T13:18:25.433637
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 733
+- Erinnerungen: 734
 - Dienste:
-run: jack_cortex: (pid 7269) 182296s
-run: jack_telegram: (pid 30594) 389s
+run: jack_cortex: (pid 7269) 182478s
+run: jack_telegram: (pid 30594) 571s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 182296s
+run: ollama: (pid 7266) 182478s
 
 ## Letzte Aenderungen
+636951c feat: chrome_search in STEPS-Dict registriert
 965afa4 feat: step_chrome_search - direkt Google via am start
 d0bd542 fix: input_text+ui_text in STEPS-Dict
 e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
@@ -170,7 +171,6 @@ e498cd2 feat: jack_critic - Schadcode-Pruefung vor jedem Datei-Write
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
 02e464c feat: WRITE-Marker - Gemini kann Dateien direkt vorschlagen mit Auto-Button
 536d602 fix: Persona - nie behaupten etwas getan zu haben ohne Ausfuehrung
-ae6d02c fix: Persona klargestellt - JACK kann Dateien schreiben
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -181,15 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:14:24] EXEC | python3 - << 'PEOF'
-import sys, subprocess, time
-sys.path.insert(0,'/data/data/c | rc=0
-[2026-08-16 13:15:05] EXEC | python3 - << 'PEOF'
-import sys, subprocess, time
-sys.path.insert(0,'/data/data/c | rc=0
-[2026-08-16 13:15:08] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 13:15:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 13:15:11] EXPLORE | Xiaomi: CPU=Load: 4.73 RAM=1489MB frei Akku=100% Temp=36.1C
 [2026-08-16 13:15:11] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 13:16:07] EXEC | python3 - << 'PEOF'
 import sys, subprocess, time
@@ -201,6 +192,15 @@ sys.path.insert(0,'/data/data/c | rc=0
 import os
 p=os.path.expanduser('~/jack/jack_planner.py')
 s=o | rc=0
+[2026-08-16 13:19:18] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 13:20:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:20:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:20:13] EXPLORE | Xiaomi: CPU=Load: 4.28 RAM=1483MB frei Akku=100% Temp=35.8C
+[2026-08-16 13:20:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:20:26] EXEC | cd ~/jack && git add -A && git commit -m "feat: chrome_search in STEPS-Dict regi | rc=1
 
 ## Budget heute
-Heute: Text 88/300 | Vision 0/40 | Tokens 341253
+Heute: Text 89/300 | Vision 0/40 | Tokens 342030
