@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:36:35.456126)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:39:37.092969)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:36:35.442839
+Stand: 2026-08-16T13:39:37.083266
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T13:36:35.442839
 - Offene Fehler: 0
 - Erinnerungen: 737
 - Dienste:
-run: jack_cortex: (pid 7269) 183386s
-run: jack_telegram: (pid 30594) 1479s
+run: jack_cortex: (pid 7269) 183568s
+run: jack_telegram: (pid 30594) 1661s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 183386s
+run: ollama: (pid 7266) 183568s
 
 ## Letzte Aenderungen
 cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistiert
