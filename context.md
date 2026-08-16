@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:07:52.548437)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:10:54.438575)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:07:52.538394
+Stand: 2026-08-16T16:10:54.426039
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,10 +154,10 @@ Stand: 2026-08-16T16:07:52.538394
 - Offene Fehler: 0
 - Erinnerungen: 766
 - Dienste:
-run: jack_cortex: (pid 18564) 7093s
-run: jack_telegram: (pid 11709) 42s
+run: jack_cortex: (pid 18564) 7275s
+run: jack_telegram: (pid 11709) 224s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 7093s
+run: ollama: (pid 18563) 7275s
 
 ## Letzte Aenderungen
 c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
@@ -185,8 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 15:56:37] EXEC | echo jacklaeuft | rc=0
-[2026-08-16 15:56:42] EXEC | echo jacklaeuft | rc=0
 [2026-08-16 15:57:48] EXEC | cd ~/jack && git add -A && git commit -m "feat: Skill-Lifecycle verifiziert - CA | rc=0
 [2026-08-16 15:59:40] EXEC | python3 - << 'PEOF'
 import sys
@@ -205,6 +203,8 @@ code=(
 import os
 p=os.path.expanduser('~/jack/jack_explorer.py')
 s= | rc=0
+[2026-08-16 16:08:56] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
+[2026-08-16 16:10:11] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
 
 ## Budget heute
-Heute: Text 104/300 | Vision 0/40 | Tokens 385793
+Heute: Text 105/300 | Vision 0/40 | Tokens 390962
