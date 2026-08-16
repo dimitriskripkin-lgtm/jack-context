@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T14:33:54.935562)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T14:36:56.962107)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T14:33:54.922734
+Stand: 2026-08-16T14:36:56.942114
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T14:33:54.922734
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 748
+- Erinnerungen: 749
 - Dienste:
-run: jack_cortex: (pid 18564) 1455s
-run: jack_telegram: (pid 18562) 1455s
+run: jack_cortex: (pid 18564) 1637s
+run: jack_telegram: (pid 18562) 1637s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 1455s
+run: ollama: (pid 18563) 1637s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,10 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:11:02] SCOUT-LAUF | ebaf7efad8dbe779
-[2026-08-16 14:12:58] EXEC | echo "=== SETZE WAKELOCK ===" && termux-wake-lock && echo "Wakelock ist jetzt ak | rc=0
-[2026-08-16 14:14:42] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 14:14:42] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 14:14:44] EXPLORE | Xiaomi: CPU=Load: 3.95 RAM=1209MB frei Akku=100% Temp=34.3C
 [2026-08-16 14:14:44] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 14:15:33] EXEC | grep -q "termux-wake-lock" ~/.bashrc || echo "termux-wake-lock" >> ~/.bashrc &&  | rc=0
@@ -201,6 +197,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 14:29:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 14:29:54] EXPLORE | Xiaomi: CPU=Load: 3.58 RAM=1585MB frei Akku=100% Temp=36.9C
 [2026-08-16 14:29:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:34:54] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:34:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 14:34:57] EXPLORE | Xiaomi: CPU=Load: 5.29 RAM=1347MB frei Akku=100% Temp=38.1C
+[2026-08-16 14:34:57] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 97/300 | Vision 0/40 | Tokens 377524
