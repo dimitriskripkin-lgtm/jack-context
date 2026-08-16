@@ -1,0 +1,35 @@
+I built an autonomous AI operating system on two smartphones. No PC. No cloud. No budget.
+
+For the past 3 months I've been working night shifts driving refrigerated trucks. Between deliveries, I've been building something.
+
+JACK - Just Autonomous Command Kit.
+
+Two Android phones connected via SSH. One thinks. One acts.
+
+The brain (Honor Magic8 Pro) runs Python, three LLMs with dynamic routing, a RAG memory system, and a Telegram bot as the control interface.
+
+The executor (Xiaomi 11T Pro, rooted) gets commanded via Ghost-Touch. JACK dumps the Android UI via uiautomator over SSH, parses XML, calculates tap coordinates, fires input commands. No API needed. Any app, full control.
+
+What it can do today:
+
+- Zero-Touch execution: push a JSON plan from anywhere, JACK fetches and executes within 60 seconds
+
+- Ghost-Touch UI automation: open apps, tap elements, search Google, navigate any Android screen
+
+- Self-healing ReAct loop: shell failures trigger automatic error analysis and fix proposals
+
+- Critic security layer: blocks dangerous patterns before any file gets written
+
+- Mission Outcome Engine: distinguishes between steps completed and goal actually achieved
+
+470+ commits. 116 Python modules. Built entirely on a smartphone.
+
+Tech stack: Python, SQLite, sqlite-vec, Groq, Gemini, Ollama, whisper-cli, SSH ControlMaster, uiautomator, runit.
+
+No framework. No tutorial. No PC. Just two phones and a lot of night shifts.
+
+github com/dimitriskripkin-lgtm/jack-core
+
+If you are building something at the edge of AI and hardware - lets talk.
+
+hashtag AI hashtag EdgeComputing hashtag Android hashtag Python hashtag Automation hashtag OpenSource hashtag BuildInPublic

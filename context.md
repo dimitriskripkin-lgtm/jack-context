@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:49:41.949391)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:52:43.788114)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:49:41.932714
+Stand: 2026-08-16T15:52:43.777887
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,12 +150,12 @@ Stand: 2026-08-16T15:49:41.932714
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 763
+- Erinnerungen: 764
 - Dienste:
-run: jack_cortex: (pid 18564) 6002s
-run: jack_telegram: (pid 17920) 309s
+run: jack_cortex: (pid 18564) 6184s
+run: jack_telegram: (pid 17920) 491s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 6002s
+run: ollama: (pid 18563) 6184s
 
 ## Letzte Aenderungen
 65d6c40 feat: Schema-Validator aktiv - unbekannte Step-Typen blockiert
@@ -183,11 +183,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
-[2026-08-16 15:40:36] EXPLORE | Xiaomi: CPU=Load: 4.02 RAM=1519MB frei Akku=100% Temp=30.6C
-[2026-08-16 15:40:36] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:41:11] EXEC | python3 - << 'PEOF'
 import sys, time
 sys.path.insert(0,'/data/data/com.termux/fi | rc=0
 [2026-08-16 15:41:46] EXEC | echo hallo welt | rc=0
@@ -203,6 +198,11 @@ s=open(os.path.expanduser('~/jack/jack_telegram.py | rc=0
 [2026-08-16 15:45:39] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:46:06] EXEC | cd ~/jack && git add -A && git stash && git pull origin master --rebase && git s | rc=0
 [2026-08-16 15:49:35] LOKAL-INFERENZ | llama3.2:3b | allgemein | 58.7s | 103.1C
+[2026-08-16 15:50:42] EXPLORE | Xiaomi: CPU=Load: 3.83 RAM=1657MB frei Akku=100% Temp=30.2C
+[2026-08-16 15:50:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:51:04] EXEC | python3 - << 'PEOF'
+txt="""I built an autonomous AI operating system on two smar | rc=0
+[2026-08-16 15:51:14] EXEC | cat ~/jack_werkstatt/linkedin_post.txt | rc=0
 
 ## Budget heute
 Heute: Text 103/300 | Vision 0/40 | Tokens 383728
