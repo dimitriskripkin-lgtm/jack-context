@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:44:27.629828)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:47:29.827901)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:44:27.590507
+Stand: 2026-08-16T11:47:29.793657
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,10 +148,10 @@ Stand: 2026-08-16T11:44:27.590507
 - Offene Fehler: 0
 - Erinnerungen: 715
 - Dienste:
-run: jack_cortex: (pid 7269) 176658s
-run: jack_telegram: (pid 17685) 438s
+run: jack_cortex: (pid 7269) 176840s
+run: jack_telegram: (pid 17685) 620s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 176658s
+run: ollama: (pid 7266) 176840s
 
 ## Letzte Aenderungen
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
