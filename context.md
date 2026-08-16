@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:47:29.827901)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:50:31.803354)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:47:29.793657
+Stand: 2026-08-16T11:50:31.768565
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,12 +146,12 @@ Stand: 2026-08-16T11:47:29.793657
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 715
+- Erinnerungen: 716
 - Dienste:
-run: jack_cortex: (pid 7269) 176840s
-run: jack_telegram: (pid 17685) 620s
+run: jack_cortex: (pid 7269) 177022s
+run: jack_telegram: (pid 17685) 802s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 176840s
+run: ollama: (pid 7266) 177022s
 
 ## Letzte Aenderungen
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
@@ -180,10 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 ## Letzte 20 Aktionen (Logbuch)
 
 import os
-p=os.path.expanduser('~/jack/jack_subagent.py')
-s= | rc=0
-[2026-08-16 11:35:46] EXEC | python3 - << 'PEOF'
-import os
 p=os.path.expanduser('~/jack/jack_intent.py')
 s=op | rc=0
 [2026-08-16 11:36:59] EXEC | python3 - << 'PEOF'
@@ -199,6 +195,10 @@ s=op | rc=0
 [2026-08-16 11:44:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:44:20] EXPLORE | Xiaomi: CPU=Load: 5.96 RAM=1888MB frei Akku=100% Temp=33.4C
 [2026-08-16 11:44:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:49:21] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:49:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:49:23] EXPLORE | Xiaomi: CPU=Load: 4.09 RAM=2041MB frei Akku=100% Temp=32.3C
+[2026-08-16 11:49:23] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 69/300 | Vision 0/40 | Tokens 237954
