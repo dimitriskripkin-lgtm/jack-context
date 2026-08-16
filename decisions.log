@@ -5101,3 +5101,7 @@ echo "=== | rc=0
 [2026-08-16 14:24:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 14:24:51] EXPLORE | Xiaomi: CPU=Load: 5.17 RAM=1444MB frei Akku=100% Temp=37.5C
 [2026-08-16 14:24:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:29:51] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:29:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 14:29:54] EXPLORE | Xiaomi: CPU=Load: 3.58 RAM=1585MB frei Akku=100% Temp=36.9C
+[2026-08-16 14:29:54] SHADOW-FIXER | Keine offenen Fehler
