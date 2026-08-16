@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:38:23.956300)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:41:25.578836)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:38:23.942632
+Stand: 2026-08-16T11:41:25.563838
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,12 +146,12 @@ Stand: 2026-08-16T11:38:23.942632
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 713
+- Erinnerungen: 714
 - Dienste:
-run: jack_cortex: (pid 7269) 176294s
-run: jack_telegram: (pid 17685) 74s
+run: jack_cortex: (pid 7269) 176476s
+run: jack_telegram: (pid 17685) 256s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 176294s
+run: ollama: (pid 7266) 176476s
 
 ## Letzte Aenderungen
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
@@ -179,10 +179,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 11:34:15] EXPLORE | Xiaomi: CPU=Load: 4.38 RAM=2243MB frei Akku=100% Temp=32.2C
-[2026-08-16 11:34:15] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:34:21] EXEC | python3 - << 'PEOF'
-import os
 p=os.path.expanduser('~/jack/jack_intent.py')
 s=op | rc=0
 [2026-08-16 11:34:52] EXEC | cd ~/jack && git add -A && git commit -m "feat: Subagent in proaktiv_check - 4 A | rc=0
@@ -199,6 +195,10 @@ import os
 p=os.path.expanduser('~/jack/jack_intent.py')
 s=op | rc=0
 [2026-08-16 11:37:30] EXEC | cd ~/jack && git add -A && git commit -m "fix: Subagent Akku-Format, Log-Zeile g | rc=0
+[2026-08-16 11:39:15] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:39:15] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:39:17] EXPLORE | Xiaomi: CPU=Load: 4.12 RAM=2105MB frei Akku=100% Temp=31.6C
+[2026-08-16 11:39:17] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 69/300 | Vision 0/40 | Tokens 237954
