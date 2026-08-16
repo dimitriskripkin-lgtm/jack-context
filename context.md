@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T10:46:50.416298)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T10:49:52.128836)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T10:46:50.403509
+Stand: 2026-08-16T10:49:52.118772
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-08-16T10:46:50.403509
 - Dima hat KEINEN Hund.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (110)
+## Aktive Module (111)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -57,6 +57,7 @@ Stand: 2026-08-16T10:46:50.403509
 - jack_db_queue.py
 - jack_delta.py
 - jack_episoden.py
+- jack_exec.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
 - jack_groq_bridge.py
@@ -143,12 +144,12 @@ Stand: 2026-08-16T10:46:50.403509
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 701
+- Erinnerungen: 703
 - Dienste:
-run: jack_cortex: (pid 7269) 173201s
-run: jack_telegram: (pid 9861) 75s
+run: jack_cortex: (pid 7269) 173383s
+run: jack_telegram: (pid 9861) 257s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 173201s
+run: ollama: (pid 7266) 173383s
 
 ## Letzte Aenderungen
 02e464c feat: WRITE-Marker - Gemini kann Dateien direkt vorschlagen mit Auto-Button
@@ -176,13 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 10:33:37] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 10:33:39] EXPLORE | Xiaomi: CPU=Load: 5.79 RAM=2412MB frei Akku=100% Temp=31.6C
-[2026-08-16 10:33:39] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 10:34:43] DATEI-SCHREIBEN | test.txt | 10 Zeichen
-[2026-08-16 10:34:48] GUARD-OK | whisper gestartet, 2811MB frei
-[2026-08-16 10:35:24] GUARD-OK | whisper gestartet, 2966MB frei
-[2026-08-16 10:35:54] GUARD-OK | whisper gestartet, 2852MB frei
 [2026-08-16 10:38:00] GUARD-OK | whisper gestartet, 2727MB frei
 [2026-08-16 10:38:40] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 10:38:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
@@ -196,6 +190,13 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 10:43:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 10:43:45] EXPLORE | Xiaomi: CPU=Load: 3.46 RAM=2280MB frei Akku=100% Temp=31.5C
 [2026-08-16 10:43:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 10:47:04] DATEI-SCHREIBEN | surprise_me.txt | 28 Zeichen
+[2026-08-16 10:47:30] DATEI-SCHREIBEN | jack_gedanken_2026-08-16.txt | 529 Zeichen
+[2026-08-16 10:48:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 10:48:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 10:48:48] EXPLORE | Xiaomi: CPU=Load: 4.46 RAM=2234MB frei Akku=100% Temp=31.4C
+[2026-08-16 10:48:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 10:49:23] EXEC | echo TEST123 && pwd | rc=0
 
 ## Budget heute
-Heute: Text 43/300 | Vision 0/40 | Tokens 145305
+Heute: Text 46/300 | Vision 0/40 | Tokens 159347
