@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:23:51.835180)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:26:53.631359)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:23:51.821316
+Stand: 2026-08-16T12:26:53.616048
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-08-16T12:23:51.821316
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
 
-## Aktive Module (115)
+## Aktive Module (116)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -67,6 +67,7 @@ Stand: 2026-08-16T12:23:51.821316
 - jack_handshake_gen.py
 - jack_hey.py
 - jack_improve.py
+- jack_inbox.py
 - jack_install.py
 - jack_intent.py
 - jack_learn.py
@@ -147,12 +148,12 @@ Stand: 2026-08-16T12:23:51.821316
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 722
+- Erinnerungen: 723
 - Dienste:
-run: jack_cortex: (pid 7269) 179022s
-run: jack_telegram: (pid 22208) 22s
+run: jack_cortex: (pid 7269) 179204s
+run: jack_telegram: (pid 24530) 17s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 179022s
+run: ollama: (pid 7266) 179204s
 
 ## Letzte Aenderungen
 e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
@@ -180,19 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 12:16:57] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_planner.py + PLAN-Marker -  | rc=0
-[2026-08-16 12:19:28] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
-[2026-08-16 12:19:38] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 12:19:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:19:39] EXEC | cd ~/jack && git add jack_planner.py && git commit -m "fix: D-Bug in step_open_a | rc=1
-[2026-08-16 12:19:40] EXPLORE | Xiaomi: CPU=Load: 5.46 RAM=1415MB frei Akku=100% Temp=37.2C
-[2026-08-16 12:19:40] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:20:29] EXEC | grep -n "open_app\|monkey\|subprocess\|paket" ~/jack/jack_planner.py | rc=0
-[2026-08-16 12:21:01] EXEC | cat -n ~/jack/jack_planner.py | rc=0
-[2026-08-16 12:21:28] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_planner.py')
 s=o | rc=0
@@ -200,6 +188,19 @@ s=o | rc=0
 import os
 p=os.path.expanduser('~/jack/jack_telegram.py')
 s= | rc=0
+[2026-08-16 12:24:40] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 12:24:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 12:24:42] EXPLORE | Xiaomi: CPU=Load: 4.75 RAM=1367MB frei Akku=100% Temp=36.8C
+[2026-08-16 12:24:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:26:10] EXEC | python3 - << 'PEOF'
+import os, json
+L=chr(10)
+code=(
+"import urllib.request,json | rc=0
+[2026-08-16 12:26:23] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_telegram.py')
+s= | rc=0
 
 ## Budget heute
-Heute: Text 83/300 | Vision 0/40 | Tokens 308179
+Heute: Text 84/300 | Vision 0/40 | Tokens 314767
