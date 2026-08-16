@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:16:21.936992)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:19:24.342615)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:16:21.906681
+Stand: 2026-08-16T15:19:24.307956
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T15:16:21.906681
 - Offene Fehler: 0
 - Erinnerungen: 757
 - Dienste:
-run: jack_cortex: (pid 18564) 4002s
-run: jack_telegram: (pid 18562) 4002s
+run: jack_cortex: (pid 18564) 4185s
+run: jack_telegram: (pid 18562) 4185s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 4002s
+run: ollama: (pid 18563) 4185s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,26 +181,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:55:08] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:00:11] EXPLORE | Xiaomi: CPU=Load: 4.50 RAM=1312MB frei Akku=100% Temp=33.1C
-[2026-08-16 15:00:11] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:00:54] EXEC | echo "=== STORAGE CHECK ===" && ls -ld ~/storage/downloads 2>/dev/null || echo " | rc=0
-[2026-08-16 15:02:13] EXEC | echo "=== INSTALLIERE FFMPEG (FALLS FEHLT) ===" && \
-pkg install -y ffmpeg && \
- | rc=100
-[2026-08-16 15:03:39] EXEC | echo "=== FIX MISSING DEPENDENCY ===" && \
-pkg install -y libbluray && \
-apt-get | rc=100
-[2026-08-16 15:05:15] EXPLORE | Xiaomi: CPU=Load: 4.63 RAM=1306MB frei Akku=100% Temp=32.3C
-[2026-08-16 15:05:15] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:10:18] EXPLORE | Xiaomi: CPU=Load: 5.43 RAM=1200MB frei Akku=100% Temp=32.1C
-[2026-08-16 15:10:18] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:13:13] EXEC | cd ~/jack && zip -r ~/storage/downloads/jack_core_full.zip . -x "*.git*" "*pycac | rc=127
-[2026-08-16 15:13:53] EXEC | pkg install -y zip && cd ~/jack && zip -r ~/storage/downloads/jack_core_full.zip | rc=100
-[2026-08-16 15:14:45] EXEC | dpkg --remove --force-remove-reinstreq ffmpeg 2>/dev/null
-cd ~/jack && zip -r ~/ | rc=0
-[2026-08-16 15:15:21] EXPLORE | Xiaomi: CPU=Load: 4.25 RAM=1464MB frei Akku=100% Temp=31.7C
-[2026-08-16 15:15:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:18:00] EXEC | cd ~/jack && \
+mkdir -p archiv_cleanup backups_old && \
+mv *.bak* archiv_cleanup | rc=0
 
 ## Budget heute
 Heute: Text 101/300 | Vision 0/40 | Tokens 382270
