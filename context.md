@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:23:12.961938)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:26:14.573045)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:23:12.948650
+Stand: 2026-08-16T11:26:14.557910
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-08-16T11:23:12.948650
 - Dima hat KEINEN Hund.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (111)
+## Aktive Module (112)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -90,6 +90,7 @@ Stand: 2026-08-16T11:23:12.948650
 - jack_publish.py
 - jack_queue.py
 - jack_radar.py
+- jack_react.py
 - jack_reflexion.py
 - jack_research_curator.py
 - jack_rhythm.py
@@ -144,14 +145,15 @@ Stand: 2026-08-16T11:23:12.948650
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 710
+- Erinnerungen: 711
 - Dienste:
-run: jack_cortex: (pid 7269) 175383s
-run: jack_telegram: (pid 13757) 1995s
+run: jack_cortex: (pid 7269) 175565s
+run: jack_telegram: (pid 6272) 4s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 175383s
+run: ollama: (pid 7266) 175565s
 
 ## Letzte Aenderungen
+5cf5569 fix: Persona LLM-Architektur, Datei-Fallback entfernt, EXEC-Kanal live
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
 02e464c feat: WRITE-Marker - Gemini kann Dateien direkt vorschlagen mit Auto-Button
 536d602 fix: Persona - nie behaupten etwas getan zu haben ohne Ausfuehrung
@@ -166,7 +168,6 @@ d8a9411 fix: Live-Fakten als unveraenderliche Zone - kein Halluzinieren mehr
 0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
 d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
 2d0afbd fix: schreib und proaktiv Intent auch bei langen Saetzen
-960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -177,26 +178,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-## 14. MEINE ECHTE LLM-ARCHITEKTUR
-JACK | rc=0
-[2026-08-16 11:20:36] EXEC | cd ~/jack && python3 - << 'PEOF'
+p=os.path.expanduser('~/jack/jack_telegram.py')
+s= | rc=0
+[2026-08-16 11:23:18] EXEC | sed -n '483,498p' ~/jack/jack_telegram.py | rc=0
+[2026-08-16 11:23:48] DATEI-SCHREIBEN | zufallstext_jack.txt | 41 Zeichen
+[2026-08-16 11:24:07] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:24:07] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:24:09] EXPLORE | Xiaomi: CPU=Load: 5.41 RAM=2168MB frei Akku=100% Temp=31.7C
+[2026-08-16 11:24:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:24:53] EXEC | cd ~/jack && git add -A && git commit -m "fix: Persona LLM-Architektur, Datei-Fa | rc=0
+[2026-08-16 11:25:12] EXEC | python3 - << 'PEOF'
 import os
-p=os.path.expanduser('~/jack/jack_int | rc=0
-[2026-08-16 11:20:48] EXEC | cat >> ~/jack/jack_persona.md << 'PEOF'
-
-## 15. NIE WERTE ERFINDEN
-Wenn JACK ein | rc=0
-[2026-08-16 11:21:50] EXEC | tail -12 ~/jack/jack_persona.md | rc=0
-[2026-08-16 11:22:00] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_persona.md')
-s=o | rc=0
-[2026-08-16 11:22:11] EXEC | grep -n "persona" ~/jack/jack_talk.py | head -10 | rc=0
-[2026-08-16 11:22:21] EXEC | grep -n "schreib eine datei\|schreib datei\|erstell eine datei" ~/jack/jack_tele | rc=0
-[2026-08-16 11:23:03] EXEC | python3 - << 'PEOF'
+p=os.path.expanduser('~/jack/jack_exec.py')
+s=open | rc=1
+[2026-08-16 11:25:26] EXEC | cat > ~/jack/jack_react.py << 'PEOF'
+import os, sys
+sys.path.insert(0, os.path.e | rc=0
+[2026-08-16 11:26:00] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_telegram.py')
 s= | rc=0
 
 ## Budget heute
-Heute: Text 60/300 | Vision 0/40 | Tokens 213037
+Heute: Text 66/300 | Vision 0/40 | Tokens 229590
