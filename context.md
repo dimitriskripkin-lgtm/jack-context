@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:13:19.832001)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:16:21.936992)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:13:19.820096
+Stand: 2026-08-16T15:16:21.906681
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T15:13:19.820096
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 756
+- Erinnerungen: 757
 - Dienste:
-run: jack_cortex: (pid 18564) 3820s
-run: jack_telegram: (pid 18562) 3820s
+run: jack_cortex: (pid 18564) 4002s
+run: jack_telegram: (pid 18562) 4002s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 3820s
+run: ollama: (pid 18563) 4002s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,11 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:50:05] EXPLORE | Xiaomi: CPU=Load: 5.40 RAM=1435MB frei Akku=100% Temp=34.4C
-[2026-08-16 14:50:05] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 14:55:06] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 14:55:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 14:55:08] EXPLORE | Xiaomi: CPU=Load: 4.16 RAM=1414MB frei Akku=100% Temp=33.1C
 [2026-08-16 14:55:08] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:00:11] EXPLORE | Xiaomi: CPU=Load: 4.50 RAM=1312MB frei Akku=100% Temp=33.1C
 [2026-08-16 15:00:11] SHADOW-FIXER | Keine offenen Fehler
@@ -201,6 +196,11 @@ apt-get | rc=100
 [2026-08-16 15:10:18] EXPLORE | Xiaomi: CPU=Load: 5.43 RAM=1200MB frei Akku=100% Temp=32.1C
 [2026-08-16 15:10:18] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:13:13] EXEC | cd ~/jack && zip -r ~/storage/downloads/jack_core_full.zip . -x "*.git*" "*pycac | rc=127
+[2026-08-16 15:13:53] EXEC | pkg install -y zip && cd ~/jack && zip -r ~/storage/downloads/jack_core_full.zip | rc=100
+[2026-08-16 15:14:45] EXEC | dpkg --remove --force-remove-reinstreq ffmpeg 2>/dev/null
+cd ~/jack && zip -r ~/ | rc=0
+[2026-08-16 15:15:21] EXPLORE | Xiaomi: CPU=Load: 4.25 RAM=1464MB frei Akku=100% Temp=31.7C
+[2026-08-16 15:15:21] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 100/300 | Vision 0/40 | Tokens 381089
+Heute: Text 101/300 | Vision 0/40 | Tokens 382270
