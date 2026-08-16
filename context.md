@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:10:54.438575)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:13:56.142024)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:10:54.426039
+Stand: 2026-08-16T16:13:56.124954
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,12 +154,13 @@ Stand: 2026-08-16T16:10:54.426039
 - Offene Fehler: 0
 - Erinnerungen: 766
 - Dienste:
-run: jack_cortex: (pid 18564) 7275s
-run: jack_telegram: (pid 11709) 224s
+run: jack_cortex: (pid 18564) 7457s
+run: jack_telegram: (pid 15658) 177s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 7275s
+run: ollama: (pid 18563) 7457s
 
 ## Letzte Aenderungen
+59dceef fix: explore pm list mit su -c, max_apps auf 50 erhoeht
 c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
 65d6c40 feat: Schema-Validator aktiv - unbekannte Step-Typen blockiert
 e151f34 inbox: RESET
@@ -174,7 +175,6 @@ fc527e9 inbox: Mission 8 - Zero Touch von Claude
 d0bd542 fix: input_text+ui_text in STEPS-Dict
 e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
 d47eba4 feat: jack_planner.py + PLAN-Marker - Level 4 autonome Plaene live
-9ca00e9 feat: jack_ghost.py - Ghost Touch live, erster Tap verifiziert (4P.de)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -185,7 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 15:57:48] EXEC | cd ~/jack && git add -A && git commit -m "feat: Skill-Lifecycle verifiziert - CA | rc=0
 [2026-08-16 15:59:40] EXEC | python3 - << 'PEOF'
 import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
@@ -205,6 +204,7 @@ p=os.path.expanduser('~/jack/jack_explorer.py')
 s= | rc=0
 [2026-08-16 16:08:56] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
 [2026-08-16 16:10:11] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
+[2026-08-16 16:12:09] LOKAL-INFERENZ | llama3.2:3b | allgemein | 12.1s | 86.8C
 
 ## Budget heute
 Heute: Text 105/300 | Vision 0/40 | Tokens 390962
