@@ -37,3 +37,8 @@ p=os.path.expanduser('~/jack/jack_planner.py')
 s=o | rc=0
 [2026-08-16 15:40:36] EXPLORE | Xiaomi: CPU=Load: 4.02 RAM=1519MB frei Akku=100% Temp=30.6C
 [2026-08-16 15:40:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:41:11] EXEC | python3 - << 'PEOF'
+import sys, time
+sys.path.insert(0,'/data/data/com.termux/fi | rc=0
+[2026-08-16 15:41:46] EXEC | echo hallo welt | rc=0
+[2026-08-16 15:42:53] EXEC | echo hallo welt | rc=0

@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:40:36.985439)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:43:38.557238)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:40:36.969684
+Stand: 2026-08-16T15:43:38.546260
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-08-16T15:40:36.969684
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
 
-## Aktive Module (117)
+## Aktive Module (118)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -101,6 +101,7 @@ Stand: 2026-08-16T15:40:36.969684
 - jack_router.py
 - jack_sanity.py
 - jack_scheduler.py
+- jack_schema.py
 - jack_scout.py
 - jack_screen_tracker.py
 - jack_self_audit.py
@@ -151,10 +152,10 @@ Stand: 2026-08-16T15:40:36.969684
 - Offene Fehler: 0
 - Erinnerungen: 762
 - Dienste:
-run: jack_cortex: (pid 18564) 5457s
-run: jack_telegram: (pid 14078) 30s
+run: jack_cortex: (pid 18564) 5639s
+run: jack_telegram: (pid 16185) 67s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 5457s
+run: ollama: (pid 18563) 5639s
 
 ## Letzte Aenderungen
 f03c40d feat: Evidence Records - jeder Step mit Timestamp
@@ -182,11 +183,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 15:38:19] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
-[2026-08-16 15:38:34] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
 [2026-08-16 15:38:35] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
 [2026-08-16 15:38:36] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
 [2026-08-16 15:38:46] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
@@ -202,6 +198,11 @@ p=os.path.expanduser('~/jack/jack_planner.py')
 s=o | rc=0
 [2026-08-16 15:40:36] EXPLORE | Xiaomi: CPU=Load: 4.02 RAM=1519MB frei Akku=100% Temp=30.6C
 [2026-08-16 15:40:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:41:11] EXEC | python3 - << 'PEOF'
+import sys, time
+sys.path.insert(0,'/data/data/com.termux/fi | rc=0
+[2026-08-16 15:41:46] EXEC | echo hallo welt | rc=0
+[2026-08-16 15:42:53] EXEC | echo hallo welt | rc=0
 
 ## Budget heute
 Heute: Text 102/300 | Vision 0/40 | Tokens 382999

@@ -70,6 +70,7 @@
 -rw-------. 1 u0_a400 u0_a400  2361 Aug 13 13:23 /data/data/com.termux/files/home/jack/jack_router.py
 -rw-------. 1 u0_a400 u0_a400  2597 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_sanity.py
 -rw-------. 1 u0_a400 u0_a400  1225 Aug 14 15:31 /data/data/com.termux/files/home/jack/jack_scheduler.py
+-rw-------. 1 u0_a400 u0_a400  1018 Aug 16 15:41 /data/data/com.termux/files/home/jack/jack_schema.py
 -rw-------. 1 u0_a400 u0_a400  9629 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_scout.py
 -rw-------. 1 u0_a400 u0_a400  3568 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_screen_tracker.py
 -rw-------. 1 u0_a400 u0_a400  3436 Aug 14 15:31 /data/data/com.termux/files/home/jack/jack_self_audit.py
