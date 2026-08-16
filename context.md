@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:20:11.236314)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:23:12.961938)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:20:11.223910
+Stand: 2026-08-16T11:23:12.948650
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,10 +146,10 @@ Stand: 2026-08-16T11:20:11.223910
 - Offene Fehler: 0
 - Erinnerungen: 710
 - Dienste:
-run: jack_cortex: (pid 7269) 175202s
-run: jack_telegram: (pid 13757) 1814s
+run: jack_cortex: (pid 7269) 175383s
+run: jack_telegram: (pid 13757) 1995s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 175202s
+run: ollama: (pid 7266) 175383s
 
 ## Letzte Aenderungen
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
@@ -177,26 +177,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 11:03:55] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:03:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 11:03:57] EXPLORE | Xiaomi: CPU=Load: 3.60 RAM=2457MB frei Akku=100% Temp=31.5C
-[2026-08-16 11:03:57] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:08:58] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:08:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 11:09:00] EXPLORE | Xiaomi: CPU=Load: 4.52 RAM=2619MB frei Akku=100% Temp=31.5C
-[2026-08-16 11:09:00] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:14:01] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:14:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 11:14:03] EXPLORE | Xiaomi: CPU=Load: 3.70 RAM=2570MB frei Akku=100% Temp=31.3C
-[2026-08-16 11:14:03] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:16:42] EXEC | termux-screenshot -f ~/jack/ctx_test.png 2>&1; ls -la ~/jack/ctx_test.png 2>&1 | rc=2
-[2026-08-16 11:16:53] EXEC | grep -c "" ~/jack/jack_persona.md && tail -20 ~/jack/jack_persona.md | rc=0
-[2026-08-16 11:17:03] EXEC | python3 -c "import jack_talk; print(jack_talk.get_window_ctx()[:500])" | rc=0
-[2026-08-16 11:17:16] EXEC | cd ~/jack && git log --oneline | head -15 | rc=0
-[2026-08-16 11:19:04] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:19:04] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 11:19:06] EXPLORE | Xiaomi: CPU=Load: 4.47 RAM=2583MB frei Akku=100% Temp=31.2C
-[2026-08-16 11:19:06] SHADOW-FIXER | Keine offenen Fehler
+## 14. MEINE ECHTE LLM-ARCHITEKTUR
+JACK | rc=0
+[2026-08-16 11:20:36] EXEC | cd ~/jack && python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_int | rc=0
+[2026-08-16 11:20:48] EXEC | cat >> ~/jack/jack_persona.md << 'PEOF'
+
+## 15. NIE WERTE ERFINDEN
+Wenn JACK ein | rc=0
+[2026-08-16 11:21:50] EXEC | tail -12 ~/jack/jack_persona.md | rc=0
+[2026-08-16 11:22:00] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_persona.md')
+s=o | rc=0
+[2026-08-16 11:22:11] EXEC | grep -n "persona" ~/jack/jack_talk.py | head -10 | rc=0
+[2026-08-16 11:22:21] EXEC | grep -n "schreib eine datei\|schreib datei\|erstell eine datei" ~/jack/jack_tele | rc=0
+[2026-08-16 11:23:03] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_telegram.py')
+s= | rc=0
 
 ## Budget heute
-Heute: Text 55/300 | Vision 0/40 | Tokens 196587
+Heute: Text 60/300 | Vision 0/40 | Tokens 213037
