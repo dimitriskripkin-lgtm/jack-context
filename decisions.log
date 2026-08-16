@@ -5064,3 +5064,13 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 echo "=== | rc=0
 [2026-08-16 14:03:44] SCOUT-LAUF | 43fff65e7c5a60f9
 [2026-08-16 14:05:04] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-16 14:05:05] GRACEFUL-DEGRADE | Temperatur 67.8C, schalte auf llama3.2:3b
+[2026-08-16 14:05:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:05:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 14:05:06] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
+[2026-08-16 14:05:07] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
+[2026-08-16 14:05:07] EXPLORE | Xiaomi: CPU=Load: 4.02 RAM=898MB frei Akku=100% Temp=34.6C
+[2026-08-16 14:05:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:05:07] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 14:05:19] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
+[2026-08-16 14:06:27] SCOUT-LAUF | 56d01a86a01a35ba

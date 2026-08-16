@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T14:05:05.019844)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T14:08:06.648042)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T14:05:05.011903
+Stand: 2026-08-16T14:08:06.627425
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T14:05:05.011903
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 742
+- Erinnerungen: 743
 - Dienste:
-run: jack_cortex: (pid 13470) 1s
-run: jack_telegram: (pid 13469) 1s
+run: jack_cortex: (pid 13470) 182s
+run: jack_telegram: (pid 13469) 182s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 13471) 1s
+run: ollama: (pid 13471) 182s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,16 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:53:01] EXEC | wc -l ~/jack/*.py | sort -nr | head -5 | rc=0
-[2026-08-16 13:53:02] EXEC | git status | rc=0
-[2026-08-16 13:55:30] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 13:55:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 13:55:32] EXPLORE | Xiaomi: CPU=Load: 4.86 RAM=1126MB frei Akku=100% Temp=35.1C
-[2026-08-16 13:55:32] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 14:02:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
-[2026-08-16 14:02:21] GRACEFUL-DEGRADE | Temperatur 65.1C, schalte auf llama3.2:3b
-[2026-08-16 14:02:21] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 14:02:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 14:02:22] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
 [2026-08-16 14:02:23] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
 [2026-08-16 14:02:23] EXPLORE | Xiaomi: CPU=Load: 4.77 RAM=972MB frei Akku=100% Temp=34.5C
@@ -201,6 +191,16 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 echo "=== | rc=0
 [2026-08-16 14:03:44] SCOUT-LAUF | 43fff65e7c5a60f9
 [2026-08-16 14:05:04] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-16 14:05:05] GRACEFUL-DEGRADE | Temperatur 67.8C, schalte auf llama3.2:3b
+[2026-08-16 14:05:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:05:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 14:05:06] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
+[2026-08-16 14:05:07] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
+[2026-08-16 14:05:07] EXPLORE | Xiaomi: CPU=Load: 4.02 RAM=898MB frei Akku=100% Temp=34.6C
+[2026-08-16 14:05:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:05:07] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 14:05:19] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
+[2026-08-16 14:06:27] SCOUT-LAUF | 56d01a86a01a35ba
 
 ## Budget heute
-Heute: Text 93/300 | Vision 0/40 | Tokens 359132
+Heute: Text 93/300 | Vision 0/40 | Tokens 364302
