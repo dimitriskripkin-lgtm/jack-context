@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:56:35.749615)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:59:37.524263)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:56:35.740159
+Stand: 2026-08-16T11:59:37.514175
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -147,12 +147,12 @@ Stand: 2026-08-16T11:56:35.740159
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 717
+- Erinnerungen: 718
 - Dienste:
-run: jack_cortex: (pid 7269) 177386s
-run: jack_telegram: (pid 17685) 1166s
+run: jack_cortex: (pid 7269) 177568s
+run: jack_telegram: (pid 17685) 1348s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 177386s
+run: ollama: (pid 7266) 177568s
 
 ## Letzte Aenderungen
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
@@ -180,14 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 11:49:23] EXPLORE | Xiaomi: CPU=Load: 4.09 RAM=2041MB frei Akku=100% Temp=32.3C
-[2026-08-16 11:49:23] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:51:21] EXEC | python3 - << 'PEOF'
-import os
-p = os.path.expanduser('~/jack/jack_ghost.py')
-L = | rc=0
-[2026-08-16 11:51:33] EXEC | python3 ~/jack/jack_ghost.py | rc=1
-[2026-08-16 11:52:32] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_ghost.py')
 s=ope | rc=0
@@ -200,6 +192,14 @@ import os
 p=os.path.expanduser('~/jack/jack_ghost.py')
 s=ope | rc=0
 [2026-08-16 11:55:06] EXEC | python3 ~/jack/jack_ghost.py | rc=0
+[2026-08-16 11:58:19] GUARD-OK | whisper gestartet, 2476MB frei
+[2026-08-16 11:59:12] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 11:59:26] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:59:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:59:28] EXPLORE | Xiaomi: CPU=Load: 6.23 RAM=1264MB frei Akku=100% Temp=36.1C
+[2026-08-16 11:59:28] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 73/300 | Vision 0/40 | Tokens 258726
+Heute: Text 76/300 | Vision 0/40 | Tokens 279599
