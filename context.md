@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:58:47.170917)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:01:48.933198)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:58:47.159997
+Stand: 2026-08-16T16:01:48.922506
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-08-16T15:58:47.159997
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
 
-## Aktive Module (119)
+## Aktive Module (120)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -58,6 +58,7 @@ Stand: 2026-08-16T15:58:47.159997
 - jack_delta.py
 - jack_episoden.py
 - jack_exec.py
+- jack_explorer.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
 - jack_ghost.py
@@ -151,12 +152,12 @@ Stand: 2026-08-16T15:58:47.159997
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 765
+- Erinnerungen: 766
 - Dienste:
-run: jack_cortex: (pid 18564) 6548s
-run: jack_telegram: (pid 30910) 226s
+run: jack_cortex: (pid 18564) 6729s
+run: jack_telegram: (pid 7099) 35s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 6548s
+run: ollama: (pid 18563) 6729s
 
 ## Letzte Aenderungen
 c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
@@ -184,16 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 15:51:14] EXEC | cat ~/jack_werkstatt/linkedin_post.txt | rc=0
-[2026-08-16 15:53:34] EXEC | python3 - << 'PEOF'
-import os, sqlite3, json, time
-L=chr(10)
-code=(
-"import sqli | rc=1
-[2026-08-16 15:54:10] EXEC | rm ~/jack/jack_skills.db 2>/dev/null; python3 -c "
-import sys; sys.path.insert(0 | rc=0
-[2026-08-16 15:54:46] EXEC | python3 - << 'PEOF'
-import os
 p=os.path.expanduser('~/jack/jack_planner.py')
 s=o | rc=0
 [2026-08-16 15:55:11] EXEC | echo jacklaeuft | rc=0
@@ -204,6 +195,16 @@ s=o | rc=0
 [2026-08-16 15:56:37] EXEC | echo jacklaeuft | rc=0
 [2026-08-16 15:56:42] EXEC | echo jacklaeuft | rc=0
 [2026-08-16 15:57:48] EXEC | cd ~/jack && git add -A && git commit -m "feat: Skill-Lifecycle verifiziert - CA | rc=0
+[2026-08-16 15:59:40] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 16:00:48] EXPLORE | Xiaomi: CPU=Load: 4.60 RAM=1264MB frei Akku=100% Temp=31.2C
+[2026-08-16 16:00:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:01:02] EXEC | python3 - << 'PEOF'
+import os, json, time
+L=chr(10)
+code=(
+"import subprocess, o | rc=0
 
 ## Budget heute
 Heute: Text 104/300 | Vision 0/40 | Tokens 385793
