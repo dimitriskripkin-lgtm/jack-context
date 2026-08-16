@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T09:37:06.404091)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T09:40:08.070122)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T09:37:06.388998
+Stand: 2026-08-16T09:40:08.038966
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,12 +143,12 @@ Stand: 2026-08-16T09:37:06.388998
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 686
+- Erinnerungen: 687
 - Dienste:
-run: jack_cortex: (pid 7269) 169017s
-run: jack_telegram: (pid 17154) 478s
+run: jack_cortex: (pid 7269) 169199s
+run: jack_telegram: (pid 17154) 660s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 169017s
+run: ollama: (pid 7266) 169199s
 
 ## Letzte Aenderungen
 0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
@@ -176,10 +176,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 09:17:45] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 09:17:45] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 09:17:48] EXPLORE | Xiaomi: CPU=Load: 4.24 RAM=2792MB frei Akku=100% Temp=30.4C
-[2026-08-16 09:17:48] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 09:22:48] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 09:22:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:22:51] EXPLORE | Xiaomi: CPU=Load: 4.45 RAM=2628MB frei Akku=100% Temp=30.8C
@@ -196,6 +192,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 09:32:57] EXPLORE | Xiaomi: CPU=Load: 3.93 RAM=2690MB frei Akku=100% Temp=30.6C
 [2026-08-16 09:32:57] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 09:33:15] MONITOR-EVENT | 1 Events
+[2026-08-16 09:37:58] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 09:37:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 09:38:00] EXPLORE | Xiaomi: CPU=Load: 3.73 RAM=2559MB frei Akku=100% Temp=30.5C
+[2026-08-16 09:38:00] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 15/300 | Vision 0/40 | Tokens 55699
