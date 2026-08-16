@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T10:37:44.869357)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T10:40:46.550768)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T10:37:44.855883
+Stand: 2026-08-16T10:40:46.538147
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,12 +143,12 @@ Stand: 2026-08-16T10:37:44.855883
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 699
+- Erinnerungen: 700
 - Dienste:
-run: jack_cortex: (pid 7269) 172655s
-run: jack_telegram: (pid 30224) 36s
+run: jack_cortex: (pid 7269) 172837s
+run: jack_telegram: (pid 30224) 218s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 172655s
+run: ollama: (pid 7266) 172837s
 
 ## Letzte Aenderungen
 ae6d02c fix: Persona klargestellt - JACK kann Dateien schreiben
@@ -176,12 +176,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 10:18:29] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 10:18:29] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 10:18:31] EXPLORE | Xiaomi: CPU=Load: 3.59 RAM=2185MB frei Akku=100% Temp=31.6C
-[2026-08-16 10:18:31] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 10:23:32] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 10:23:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 10:23:34] EXPLORE | Xiaomi: CPU=Load: 4.86 RAM=2696MB frei Akku=100% Temp=31.8C
 [2026-08-16 10:23:34] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 10:28:34] SELF-AUDIT | SYSTEM_STATE.md generiert
@@ -196,6 +190,12 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 10:34:48] GUARD-OK | whisper gestartet, 2811MB frei
 [2026-08-16 10:35:24] GUARD-OK | whisper gestartet, 2966MB frei
 [2026-08-16 10:35:54] GUARD-OK | whisper gestartet, 2852MB frei
+[2026-08-16 10:38:00] GUARD-OK | whisper gestartet, 2727MB frei
+[2026-08-16 10:38:40] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 10:38:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 10:38:42] EXPLORE | Xiaomi: CPU=Load: 4.29 RAM=2286MB frei Akku=100% Temp=31.7C
+[2026-08-16 10:38:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 10:38:43] GUARD-OK | whisper gestartet, 3253MB frei
 
 ## Budget heute
-Heute: Text 31/300 | Vision 0/40 | Tokens 108370
+Heute: Text 36/300 | Vision 0/40 | Tokens 122742
