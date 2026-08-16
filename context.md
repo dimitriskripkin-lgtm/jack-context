@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T14:36:56.962107)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T14:39:59.159020)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T14:36:56.942114
+Stand: 2026-08-16T14:39:59.143376
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T14:36:56.942114
 - Offene Fehler: 0
 - Erinnerungen: 749
 - Dienste:
-run: jack_cortex: (pid 18564) 1637s
-run: jack_telegram: (pid 18562) 1637s
+run: jack_cortex: (pid 18564) 1820s
+run: jack_telegram: (pid 18562) 1820s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 1637s
+run: ollama: (pid 18563) 1820s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,8 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:14:44] EXPLORE | Xiaomi: CPU=Load: 3.95 RAM=1209MB frei Akku=100% Temp=34.3C
-[2026-08-16 14:14:44] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 14:15:33] EXEC | grep -q "termux-wake-lock" ~/.bashrc || echo "termux-wake-lock" >> ~/.bashrc &&  | rc=0
 [2026-08-16 14:18:15] MONITOR-EVENT | 1 Events
 [2026-08-16 14:19:45] SELF-AUDIT | SYSTEM_STATE.md generiert
@@ -201,6 +199,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 14:34:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 14:34:57] EXPLORE | Xiaomi: CPU=Load: 5.29 RAM=1347MB frei Akku=100% Temp=38.1C
 [2026-08-16 14:34:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:39:57] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:39:57] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 
 ## Budget heute
 Heute: Text 97/300 | Vision 0/40 | Tokens 377524
