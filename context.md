@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T00:06:55.849694)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T00:09:57.628142)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T00:06:55.837603
+Stand: 2026-08-17T00:09:57.617885
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,8 @@ Stand: 2026-08-17T00:06:55.837603
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima arbeitet als LKW-Fahrer im Nachtdienst bei Dalhoff Feinkost in Achim und fährt einen Sprinter Kühlkoffer.
+- Dima ist LKW-Fahrer im Nachtdienst bei Dalhoff Feinkost in Achim und fährt einen Sprinter Kühlkoffer.
+- Dima hat KEINEN Hund.
 - Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
 - Dima besitzt eine Investmentwohnung in Essen.
@@ -24,8 +25,6 @@ Stand: 2026-08-17T00:06:55.837603
 - JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber oft instabil.
 - JACK ist "Just Autonomous Command Kit" und legt Wert auf Offline-Fähigkeit.
 - Dimas Interface zu JACK ist ein Telegram Bot namens @jackdimachat_bot.
-- Dima hat keinen Hund.
-- Dima ist kein Fernfahrer.
 
 ## Aktive Module (122)
 - install_litert.py
@@ -153,12 +152,12 @@ Stand: 2026-08-17T00:06:55.837603
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 858
+- Erinnerungen: 859
 - Dienste:
-run: jack_cortex: (pid 18928) 21716s
-run: jack_telegram: (pid 11952) 22391s
+run: jack_cortex: (pid 18928) 21898s
+run: jack_telegram: (pid 11952) 22573s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 35836s
+run: ollama: (pid 18563) 36018s
 
 ## Letzte Aenderungen
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
@@ -186,9 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 23:17:33] EXPLORE | Xiaomi: CPU=Load: 4.09 RAM=1932MB frei Akku=100% Temp=32.5C
-[2026-08-16 23:17:33] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 23:22:36] EXPLORE | Xiaomi: CPU=Load: 4.00 RAM=2246MB frei Akku=100% Temp=32.3C
 [2026-08-16 23:22:36] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 23:27:39] EXPLORE | Xiaomi: CPU=Load: 3.98 RAM=2186MB frei Akku=100% Temp=32.4C
 [2026-08-16 23:27:39] SHADOW-FIXER | Keine offenen Fehler
@@ -206,6 +202,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 23:57:59] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 00:03:02] EXPLORE | Xiaomi: CPU=Load: 3.97 RAM=1932MB frei Akku=100% Temp=32.9C
 [2026-08-17 00:03:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 00:08:05] EXPLORE | Xiaomi: CPU=Load: 4.64 RAM=1865MB frei Akku=100% Temp=33.1C
+[2026-08-17 00:08:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 00:09:48] PROFIL-UPDATE | 2 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 0/300 | Vision 0/40 | Tokens 0
+Heute: Text 1/300 | Vision 0/40 | Tokens 5117
