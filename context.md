@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:30:31.991353)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:33:33.736463)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:30:31.981708
+Stand: 2026-08-16T13:33:33.721634
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,12 +150,14 @@ Stand: 2026-08-16T13:30:31.981708
 - Offene Fehler: 0
 - Erinnerungen: 736
 - Dienste:
-run: jack_cortex: (pid 7269) 183022s
-run: jack_telegram: (pid 30594) 1115s
+run: jack_cortex: (pid 7269) 183204s
+run: jack_telegram: (pid 30594) 1297s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 183022s
+run: ollama: (pid 7266) 183204s
 
 ## Letzte Aenderungen
+cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistiert
+fc527e9 inbox: Mission 8 - Zero Touch von Claude
 15e0710 feat: chrome_search in STEPS-Dict registriert
 64b89b1 feat: step_chrome_search - direkt Google via am start
 808f3e8 inbox: Claude Inbox Test
@@ -169,8 +171,6 @@ e498cd2 feat: jack_critic - Schadcode-Pruefung vor jedem Datei-Write
 4c4c50d auto-backup vor write
 7055c53 feat: ReAct-Loop bei EXEC-Fehler, EXEC-Parser gehaertet
 5cf5569 fix: Persona LLM-Architektur, Datei-Fallback entfernt, EXEC-Kanal live
-d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
-02e464c feat: WRITE-Marker - Gemini kann Dateien direkt vorschlagen mit Auto-Button
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -181,12 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:26:52] EXEC | ls ~/jack/*.py | wc -l | rc=0
-[2026-08-16 13:26:52] EXEC | wc -l ~/jack/jack_telegram.py ~/jack/jack_planner.py ~/jack/jack_ghost.py | rc=0
-[2026-08-16 13:26:53] EXEC | cd ~/jack && git log --oneline | wc -l | rc=0
-[2026-08-16 13:26:54] EXEC | cd ~/jack && git log --oneline | head -5 | rc=0
-[2026-08-16 13:27:14] EXEC | echo "$(date): JACK hat heute gelernt: Ghost-Touch, Chrome-Suche, Plan-Execution | rc=0
-[2026-08-16 13:28:13] EXEC | ssh xiaomi-jack "su -c 'pm list packages -3 | head -10'" | rc=0
 [2026-08-16 13:28:15] EXEC | ssh xiaomi-jack "su -c 'dumpsys battery | grep -E \"level|temp|status\"'" | rc=0
 [2026-08-16 13:28:16] EXEC | ssh xiaomi-jack "su -c 'ps aux | grep -v grep | grep -E \"jack|python\"'" | rc=1
 [2026-08-16 13:28:17] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
@@ -201,6 +195,12 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 13:30:17] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:30:19] EXPLORE | Xiaomi: CPU=Load: 4.70 RAM=1281MB frei Akku=100% Temp=35.9C
 [2026-08-16 13:30:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:31:03] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
+[2026-08-16 13:31:04] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
+[2026-08-16 13:31:05] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 13:31:15] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
+[2026-08-16 13:32:12] EXEC | cd ~/jack && git add -A && git commit -m "feat: Mission 1-8 abgeschlossen, Zero- | rc=0
+[2026-08-16 13:33:07] EXEC | cd ~/jack && git pull origin master --rebase && git push origin master 2>&1 | ta | rc=0
 
 ## Budget heute
 Heute: Text 89/300 | Vision 0/40 | Tokens 342030
