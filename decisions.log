@@ -5050,3 +5050,4 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 13:55:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:55:32] EXPLORE | Xiaomi: CPU=Load: 4.86 RAM=1126MB frei Akku=100% Temp=35.1C
 [2026-08-16 13:55:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:02:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
