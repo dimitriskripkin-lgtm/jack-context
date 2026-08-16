@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:26:37.641172)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T17:29:39.204823)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:26:37.629293
+Stand: 2026-08-16T17:29:39.189360
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,14 +154,15 @@ Stand: 2026-08-16T17:26:37.629293
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 780
+- Erinnerungen: 781
 - Dienste:
-run: jack_cortex: (pid 22069) 1856s
-run: jack_telegram: (pid 11183) 444s
+run: jack_cortex: (pid 22069) 2038s
+run: jack_telegram: (pid 20405) 105s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 11818s
+run: ollama: (pid 18563) 12000s
 
 ## Letzte Aenderungen
+e72bbc4 feat: /agent - ReAct UI-Agent mit Gemini live auf Xiaomi
 4a83395 feat: jack_explorer_deep
 59dceef fix: explore pm list mit su -c, max_apps auf 50 erhoeht
 c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
@@ -176,7 +177,6 @@ fc527e9 inbox: Mission 8 - Zero Touch von Claude
 64b89b1 feat: step_chrome_search - direkt Google via am start
 808f3e8 inbox: Claude Inbox Test
 d0bd542 fix: input_text+ui_text in STEPS-Dict
-e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -186,10 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 
 ## Letzte 20 Aktionen (Logbuch)
-
-[2026-08-16 17:18:44] EXEC | python3 - << 'PEOF'
-import os
-L=chr(10)
 
 # Dialog-Keywords die JACK erkennen und | rc=0
 [2026-08-16 17:18:54] EXEC | python3 - << 'PEOF'
@@ -207,6 +203,9 @@ p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
 [2026-08-16 17:24:00] EXPLORE | Xiaomi: CPU=Load: 4.31 RAM=2303MB frei Akku=100% Temp=36.1C
 [2026-08-16 17:24:00] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:26:10] MONITOR-EVENT | 1 Events
+[2026-08-16 17:28:11] MONITOR-EVENT | 1 Events
+[2026-08-16 17:29:03] EXPLORE | Xiaomi: CPU=Load: 5.43 RAM=2247MB frei Akku=100% Temp=38.3C
+[2026-08-16 17:29:03] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 113/300 | Vision 0/40 | Tokens 449208
+Heute: Text 119/300 | Vision 0/40 | Tokens 454111
