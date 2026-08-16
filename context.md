@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T05:58:38.282885)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T06:01:40.212205)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T05:58:38.271554
+Stand: 2026-08-16T06:01:40.194155
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,12 +142,12 @@ Stand: 2026-08-16T05:58:38.271554
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 642
+- Erinnerungen: 643
 - Dienste:
-run: jack_cortex: (pid 7269) 155909s
-run: jack_telegram: (pid 2787) 17308s
+run: jack_cortex: (pid 7269) 156091s
+run: jack_telegram: (pid 2787) 17490s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 155909s
+run: ollama: (pid 7266) 156091s
 
 ## Letzte Aenderungen
 d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
@@ -175,9 +175,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 05:09:59] EXPLORE | Xiaomi: CPU=Load: 4.37 RAM=2416MB frei Akku=100% Temp=30.5C
-[2026-08-16 05:09:59] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 05:15:02] EXPLORE | Xiaomi: CPU=Load: 3.94 RAM=2511MB frei Akku=100% Temp=30.5C
 [2026-08-16 05:15:02] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 05:20:06] EXPLORE | Xiaomi: CPU=Load: 4.21 RAM=2666MB frei Akku=100% Temp=30.4C
 [2026-08-16 05:20:06] SHADOW-FIXER | Keine offenen Fehler
@@ -195,6 +192,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 05:50:27] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 05:55:30] EXPLORE | Xiaomi: CPU=Load: 3.97 RAM=2209MB frei Akku=100% Temp=30.3C
 [2026-08-16 05:55:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 33 Eintraege
+[2026-08-16 06:00:33] EXPLORE | Xiaomi: CPU=Load: 4.78 RAM=1987MB frei Akku=100% Temp=31.3C
+[2026-08-16 06:00:33] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 9/300 | Vision 0/40 | Tokens 31427

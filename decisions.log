@@ -4421,3 +4421,6 @@ SyntaxError: '(' was
 [2026-08-16 05:50:27] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 05:55:30] EXPLORE | Xiaomi: CPU=Load: 3.97 RAM=2209MB frei Akku=100% Temp=30.3C
 [2026-08-16 05:55:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 06:00:00] MEMORY-MAINTENANCE | 1 Eintraege als 'stale' markiert | 1 Stale-Eintraege geloescht | Verbleibend: 33 Eintraege
+[2026-08-16 06:00:33] EXPLORE | Xiaomi: CPU=Load: 4.78 RAM=1987MB frei Akku=100% Temp=31.3C
+[2026-08-16 06:00:33] SHADOW-FIXER | Keine offenen Fehler
