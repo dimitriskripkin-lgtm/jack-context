@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T22:48:02.319753)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T22:51:04.497782)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T22:48:02.298470
+Stand: 2026-08-16T22:51:04.475881
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -155,10 +155,10 @@ Stand: 2026-08-16T22:48:02.298470
 - Offene Fehler: 0
 - Erinnerungen: 843
 - Dienste:
-run: jack_cortex: (pid 18928) 16983s
-run: jack_telegram: (pid 11952) 17658s
+run: jack_cortex: (pid 18928) 17165s
+run: jack_telegram: (pid 11952) 17840s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 31103s
+run: ollama: (pid 18563) 31285s
 
 ## Letzte Aenderungen
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
