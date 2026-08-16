@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T22:08:35.299568)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T22:11:37.459331)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T22:08:35.277874
+Stand: 2026-08-16T22:11:37.439431
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,23 +11,21 @@ Stand: 2026-08-16T22:08:35.277874
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
+- Dima arbeitet als LKW-Fahrer im Nachtdienst bei Dalhoff Feinkost in Achim und fährt einen Sprinter Kühlkoffer.
 - Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
-- Dima hat eine Investmentwohnung in Essen.
-- Dima möchte mit JACK Unabhängigkeit und Freiheit aufbauen.
-- JACK ist das Exit-Vehicle für Dimas Freiheit und Unabhängigkeit.
-- JACK ist ein autonomes, lokales AI-OS auf Dimas Honor Magic8 Pro.
-- JACK nutzt Gemini als Denkwerkzeug über API-Calls.
-- JACK nutzt ollama llama3.2:3b als Offline-Fallback für Gemini.
+- Dima besitzt eine Investmentwohnung in Essen.
+- Mit JACK baut Dima an seiner Freiheit und Unabhängigkeit.
+- JACK ist ein autonomes, lokales AI-OS, das auf Dimas Honor Magic8 Pro läuft.
+- JACK nutzt Gemini per API-Calls als Haupt-Denkwerkzeug.
+- JACK hat ollama llama3.2:3b als Offline-Fallback.
 - JACK verwendet sqlite-vec als Vektordatenbank.
-- JACK steht unter Dimas voller Kontrolle.
-- JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber häufig instabil.
-- JACK hat KEINEN direkten Shell- oder Dateizugriff über den Chat.
-- JACK ist "Just Autonomous Command Kit" und soll offline-first agieren.
-- Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
-- Dima hat KEINEN Hund.
-- Dima ist LKW-Fahrer mit Sprinter Kuehlkoffer, KEIN Fernfahrer.
+- Dima behält die volle Kontrolle über JACK.
+- JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber oft instabil.
+- JACK ist "Just Autonomous Command Kit" und legt Wert auf Offline-Fähigkeit.
+- Dimas Interface zu JACK ist ein Telegram Bot namens @jackdimachat_bot.
+- Dima hat keinen Hund.
+- Dima ist kein Fernfahrer.
 
 ## Aktive Module (122)
 - install_litert.py
@@ -157,10 +155,10 @@ Stand: 2026-08-16T22:08:35.277874
 - Offene Fehler: 0
 - Erinnerungen: 835
 - Dienste:
-run: jack_cortex: (pid 18928) 14616s
-run: jack_telegram: (pid 11952) 15291s
+run: jack_cortex: (pid 18928) 14798s
+run: jack_telegram: (pid 11952) 15473s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 28736s
+run: ollama: (pid 18563) 28918s
 
 ## Letzte Aenderungen
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
@@ -188,7 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 21:21:20] EXPLORE | Xiaomi: CPU=Load: 4.64 RAM=2298MB frei Akku=100% Temp=33.7C
 [2026-08-16 21:21:20] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 21:26:23] EXPLORE | Xiaomi: CPU=Load: 4.11 RAM=2415MB frei Akku=100% Temp=33.5C
 [2026-08-16 21:26:23] SHADOW-FIXER | Keine offenen Fehler
@@ -208,6 +205,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 22:01:44] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 22:06:47] EXPLORE | Xiaomi: CPU=Load: 3.70 RAM=2074MB frei Akku=100% Temp=32.4C
 [2026-08-16 22:06:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 22:09:47] PROFIL-UPDATE | 11 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 158/300 | Vision 0/40 | Tokens 525407
+Heute: Text 159/300 | Vision 0/40 | Tokens 530573
