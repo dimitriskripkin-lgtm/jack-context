@@ -28,6 +28,7 @@
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  1411 Aug 16 13:23 /data/data/com.termux/files/home/jack/jack_exec.py
 -rw-------. 1 u0_a400 u0_a400  3298 Aug 16 16:17 /data/data/com.termux/files/home/jack/jack_explorer.py
+-rw-------. 1 u0_a400 u0_a400    14 Aug 16 16:22 /data/data/com.termux/files/home/jack/jack_explorer_deep.py
 -rw-------. 1 u0_a400 u0_a400  3174 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_gedanken.py
 -rw-------. 1 u0_a400 u0_a400  8476 Aug 14 14:06 /data/data/com.termux/files/home/jack/jack_gemini_bridge.py
 -rw-------. 1 u0_a400 u0_a400  2033 Aug 16 12:01 /data/data/com.termux/files/home/jack/jack_ghost.py

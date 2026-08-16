@@ -104,3 +104,5 @@ p=os.path.expanduser('~/jack/jack_explorer.py')
 s= | rc=0
 [2026-08-16 16:18:24] EXPLORE | Xiaomi: CPU=Load: 5.18 RAM=2613MB frei Akku=100% Temp=36.7C
 [2026-08-16 16:18:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:20:01] EXEC | ls -la ~/jack/jack_explorer_deep.py && python3 -m py_compile ~/jack/jack_explore | rc=2
+[2026-08-16 16:21:27] LOKAL-INFERENZ | llama3.2:3b | allgemein | 37.4s | 84.5C

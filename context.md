@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:19:59.742621)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:23:01.494903)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:19:59.731045
+Stand: 2026-08-16T16:23:01.484273
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-08-16T16:19:59.731045
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
 
-## Aktive Module (120)
+## Aktive Module (121)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -59,6 +59,7 @@ Stand: 2026-08-16T16:19:59.731045
 - jack_episoden.py
 - jack_exec.py
 - jack_explorer.py
+- jack_explorer_deep.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
 - jack_ghost.py
@@ -154,10 +155,10 @@ Stand: 2026-08-16T16:19:59.731045
 - Offene Fehler: 0
 - Erinnerungen: 767
 - Dienste:
-run: jack_cortex: (pid 18564) 7820s
-run: jack_telegram: (pid 23696) 35s
+run: jack_cortex: (pid 18564) 8002s
+run: jack_telegram: (pid 23696) 217s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 7820s
+run: ollama: (pid 18563) 8002s
 
 ## Letzte Aenderungen
 59dceef fix: explore pm list mit su -c, max_apps auf 50 erhoeht
@@ -185,8 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-L=chr(10)
-code=(
 "import subprocess, o | rc=0
 [2026-08-16 16:05:48] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-16 16:06:30] LOKAL-INFERENZ | llama3.2:3b | allgemein | 6.8s | 65.6C
@@ -205,6 +204,8 @@ p=os.path.expanduser('~/jack/jack_explorer.py')
 s= | rc=0
 [2026-08-16 16:18:24] EXPLORE | Xiaomi: CPU=Load: 5.18 RAM=2613MB frei Akku=100% Temp=36.7C
 [2026-08-16 16:18:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:20:01] EXEC | ls -la ~/jack/jack_explorer_deep.py && python3 -m py_compile ~/jack/jack_explore | rc=2
+[2026-08-16 16:21:27] LOKAL-INFERENZ | llama3.2:3b | allgemein | 37.4s | 84.5C
 
 ## Budget heute
-Heute: Text 107/300 | Vision 0/40 | Tokens 415048
+Heute: Text 109/300 | Vision 0/40 | Tokens 426426
