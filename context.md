@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:59:55.992130)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T18:02:57.592216)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:59:55.982354
+Stand: 2026-08-16T18:02:57.574335
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,12 +154,12 @@ Stand: 2026-08-16T17:59:55.982354
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 787
+- Erinnerungen: 786
 - Dienste:
-run: jack_cortex: (pid 22069) 3854s
-run: jack_telegram: (pid 11952) 371s
+run: jack_cortex: (pid 22069) 4036s
+run: jack_telegram: (pid 11952) 553s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 13816s
+run: ollama: (pid 18563) 13998s
 
 ## Letzte Aenderungen
 647cbd8 fix: _termux_cmd definiert, /ssh funktioniert mit echtem Output
@@ -187,7 +187,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 17:30:13] MONITOR-EVENT | 1 Events
 [2026-08-16 17:32:13] MONITOR-EVENT | 1 Events
 [2026-08-16 17:34:06] EXPLORE | Xiaomi: CPU=Load: 4.78 RAM=2246MB frei Akku=100% Temp=39.2C
 [2026-08-16 17:34:06] SHADOW-FIXER | Keine offenen Fehler
@@ -207,6 +206,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 17:58:26] MONITOR-EVENT | 1 Events
 [2026-08-16 17:59:20] EXPLORE | Xiaomi: CPU=Load: 4.21 RAM=2471MB frei Akku=100% Temp=37.8C
 [2026-08-16 17:59:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 18:00:27] MONITOR-EVENT | 1 Events
 
 ## Budget heute
-Heute: Text 154/300 | Vision 0/40 | Tokens 502379
+Heute: Text 155/300 | Vision 0/40 | Tokens 513758
