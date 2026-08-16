@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:31:31.529715)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:34:33.247236)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:31:31.509276
+Stand: 2026-08-16T15:34:33.239371
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T15:31:31.509276
 - Offene Fehler: 0
 - Erinnerungen: 760
 - Dienste:
-run: jack_cortex: (pid 18564) 4912s
-run: jack_telegram: (pid 18562) 4912s
+run: jack_cortex: (pid 18564) 5094s
+run: jack_telegram: (pid 18562) 5094s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 4912s
+run: ollama: (pid 18563) 5094s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
