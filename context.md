@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:57:12.260864)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:00:13.913659)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:57:12.243578
+Stand: 2026-08-16T13:00:13.903227
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T12:57:12.243578
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 729
+- Erinnerungen: 730
 - Dienste:
-run: jack_cortex: (pid 7269) 181023s
-run: jack_telegram: (pid 29925) 1399s
+run: jack_cortex: (pid 7269) 181204s
+run: jack_telegram: (pid 20258) 0s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 181023s
+run: ollama: (pid 7266) 181204s
 
 ## Letzte Aenderungen
 d0bd542 fix: input_text+ui_text in STEPS-Dict
@@ -181,11 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 12:34:46] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 12:34:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:34:48] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=1501MB frei Akku=100% Temp=36.5C
-[2026-08-16 12:34:48] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:39:48] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 12:39:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:39:51] EXPLORE | Xiaomi: CPU=Load: 4.20 RAM=1499MB frei Akku=100% Temp=36.0C
 [2026-08-16 12:39:51] SHADOW-FIXER | Keine offenen Fehler
@@ -201,6 +196,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 12:54:57] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:54:59] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=1361MB frei Akku=100% Temp=35.8C
 [2026-08-16 12:54:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:00:00] WAECHTER-NEUSTART | jack_telegram
+[2026-08-16 13:00:00] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:00:00] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:00:02] EXPLORE | Xiaomi: CPU=Load: 4.05 RAM=1416MB frei Akku=100% Temp=35.4C
+[2026-08-16 13:00:02] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 86/300 | Vision 0/40 | Tokens 328198
