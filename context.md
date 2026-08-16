@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T09:40:08.070122)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T09:43:10.361400)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T09:40:08.038966
+Stand: 2026-08-16T09:43:10.349202
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,12 +143,12 @@ Stand: 2026-08-16T09:40:08.038966
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 687
+- Erinnerungen: 688
 - Dienste:
-run: jack_cortex: (pid 7269) 169199s
-run: jack_telegram: (pid 17154) 660s
+run: jack_cortex: (pid 7269) 169381s
+run: jack_telegram: (pid 17154) 842s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 169199s
+run: ollama: (pid 7266) 169381s
 
 ## Letzte Aenderungen
 0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
@@ -176,10 +176,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 09:22:48] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 09:22:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 09:22:51] EXPLORE | Xiaomi: CPU=Load: 4.45 RAM=2628MB frei Akku=100% Temp=30.8C
-[2026-08-16 09:22:51] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 09:27:51] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 09:27:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:27:54] EXPLORE | Xiaomi: CPU=Load: 3.51 RAM=2815MB frei Akku=100% Temp=30.6C
@@ -196,6 +192,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 09:37:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:38:00] EXPLORE | Xiaomi: CPU=Load: 3.73 RAM=2559MB frei Akku=100% Temp=30.5C
 [2026-08-16 09:38:00] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 09:43:01] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 09:43:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 09:43:04] EXPLORE | Xiaomi: CPU=Load: 4.49 RAM=2497MB frei Akku=100% Temp=30.6C
+[2026-08-16 09:43:04] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 15/300 | Vision 0/40 | Tokens 55699
