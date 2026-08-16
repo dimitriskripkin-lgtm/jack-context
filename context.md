@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:37:35.091268)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:40:36.985439)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:37:35.077650
+Stand: 2026-08-16T15:40:36.969684
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-08-16T15:37:35.077650
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
 
-## Aktive Module (116)
+## Aktive Module (117)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -86,6 +86,7 @@ Stand: 2026-08-16T15:37:35.077650
 - jack_operator.py
 - jack_oracle.py
 - jack_orchestrator.py
+- jack_outcome.py
 - jack_patch.py
 - jack_patch_memory.py
 - jack_personality.py
@@ -148,14 +149,16 @@ Stand: 2026-08-16T15:37:35.077650
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 761
+- Erinnerungen: 762
 - Dienste:
-run: jack_cortex: (pid 18564) 5276s
-run: jack_telegram: (pid 18562) 5276s
+run: jack_cortex: (pid 18564) 5457s
+run: jack_telegram: (pid 14078) 30s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 5276s
+run: ollama: (pid 18563) 5457s
 
 ## Letzte Aenderungen
+f03c40d feat: Evidence Records - jeder Step mit Timestamp
+71051ae chore: sync + unstaged changes
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
 cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistiert
 fc527e9 inbox: Mission 8 - Zero Touch von Claude
@@ -169,8 +172,6 @@ d47eba4 feat: jack_planner.py + PLAN-Marker - Level 4 autonome Plaene live
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
 9860142 feat: Subagent in proaktiv_check - 4 Agenten parallel
 e498cd2 feat: jack_critic - Schadcode-Pruefung vor jedem Datei-Write
-4c4c50d auto-backup vor write
-7055c53 feat: ReAct-Loop bei EXEC-Fehler, EXEC-Parser gehaertet
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -181,18 +182,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 15:18:00] EXEC | cd ~/jack && \
-mkdir -p archiv_cleanup backups_old && \
-mv *.bak* archiv_cleanup | rc=0
-[2026-08-16 15:20:24] EXPLORE | Xiaomi: CPU=Load: 3.65 RAM=1501MB frei Akku=100% Temp=31.2C
-[2026-08-16 15:20:24] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:25:27] EXPLORE | Xiaomi: CPU=Load: 4.71 RAM=1610MB frei Akku=100% Temp=31.0C
-[2026-08-16 15:25:27] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:30:30] EXPLORE | Xiaomi: CPU=Load: 4.00 RAM=1658MB frei Akku=100% Temp=30.6C
-[2026-08-16 15:30:30] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:35:33] EXPLORE | Xiaomi: CPU=Load: 4.40 RAM=1647MB frei Akku=100% Temp=30.4C
-[2026-08-16 15:35:33] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:36:35] EXEC | cd ~/jack && git pull origin master --rebase && git push origin master 2>&1 | ta | rc=128
+[2026-08-16 15:38:19] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 15:38:34] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
+[2026-08-16 15:38:35] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
+[2026-08-16 15:38:36] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 15:38:46] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
+[2026-08-16 15:39:01] EXEC | free -m | awk 'NR==2{print $7"MB"}' | rc=0
+[2026-08-16 15:39:02] EXEC | cat ~/jack/gibtesnicht123.txt | rc=1
+[2026-08-16 15:40:07] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
+[2026-08-16 15:40:08] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
+[2026-08-16 15:40:09] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 15:40:20] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
+[2026-08-16 15:40:31] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 15:40:36] EXPLORE | Xiaomi: CPU=Load: 4.02 RAM=1519MB frei Akku=100% Temp=30.6C
+[2026-08-16 15:40:36] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 102/300 | Vision 0/40 | Tokens 382999
