@@ -133,3 +133,16 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 16:43:38] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 16:48:40] EXPLORE | Xiaomi: CPU=Load: 4.46 RAM=1313MB frei Akku=100% Temp=40.7C
 [2026-08-16 16:48:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:52:31] EXEC | python3 - << 'PEOF'
+import sys, time
+sys.path.insert(0,'/data/data/com.termux/fi | rc=0
+[2026-08-16 16:52:34] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 16:52:35] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
+[2026-08-16 16:52:36] EXEC | echo $(date): Retest OK >> ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 16:52:45] EXEC | grep -n "def selftest\|def self_test\|5/5\|ALLES OK" ~/jack/jack_cortex.py | hea | rc=0
+[2026-08-16 16:52:56] EXEC | grep -n "def selftest\|def self_test\|5/5\|ALLES OK" ~/jack/jack_telegram.py | h | rc=0
+[2026-08-16 16:53:06] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_outcome.py')
+s=o | rc=0
+[2026-08-16 16:53:16] EXEC | grep -n "def main\|while True\|sleep\|explore" ~/jack/jack_cortex.py | head -10 | rc=0
