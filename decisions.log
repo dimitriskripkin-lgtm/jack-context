@@ -4658,3 +4658,8 @@ SyntaxError: '(' was
 [2026-08-16 11:16:42] EXEC | termux-screenshot -f ~/jack/ctx_test.png 2>&1; ls -la ~/jack/ctx_test.png 2>&1 | rc=2
 [2026-08-16 11:16:53] EXEC | grep -c "" ~/jack/jack_persona.md && tail -20 ~/jack/jack_persona.md | rc=0
 [2026-08-16 11:17:03] EXEC | python3 -c "import jack_talk; print(jack_talk.get_window_ctx()[:500])" | rc=0
+[2026-08-16 11:17:16] EXEC | cd ~/jack && git log --oneline | head -15 | rc=0
+[2026-08-16 11:19:04] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:19:04] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:19:06] EXPLORE | Xiaomi: CPU=Load: 4.47 RAM=2583MB frei Akku=100% Temp=31.2C
+[2026-08-16 11:19:06] SHADOW-FIXER | Keine offenen Fehler
