@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:23:01.494903)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:26:03.245432)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:23:01.484273
+Stand: 2026-08-16T16:26:03.234822
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,14 +153,15 @@ Stand: 2026-08-16T16:23:01.484273
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 767
+- Erinnerungen: 768
 - Dienste:
-run: jack_cortex: (pid 18564) 8002s
-run: jack_telegram: (pid 23696) 217s
+run: jack_cortex: (pid 18564) 8184s
+run: jack_telegram: (pid 23696) 399s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 8002s
+run: ollama: (pid 18563) 8184s
 
 ## Letzte Aenderungen
+4a83395 feat: jack_explorer_deep
 59dceef fix: explore pm list mit su -c, max_apps auf 50 erhoeht
 c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
 65d6c40 feat: Schema-Validator aktiv - unbekannte Step-Typen blockiert
@@ -175,7 +176,6 @@ fc527e9 inbox: Mission 8 - Zero Touch von Claude
 808f3e8 inbox: Claude Inbox Test
 d0bd542 fix: input_text+ui_text in STEPS-Dict
 e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
-d47eba4 feat: jack_planner.py + PLAN-Marker - Level 4 autonome Plaene live
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -186,8 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-"import subprocess, o | rc=0
-[2026-08-16 16:05:48] WAECHTER-MELDUNG | Xiaomi weg
 [2026-08-16 16:06:30] LOKAL-INFERENZ | llama3.2:3b | allgemein | 6.8s | 65.6C
 [2026-08-16 16:06:50] EXEC | ssh xiaomi-jack "echo SSH_OK" && echo "SSH lebt" || echo "SSH tot - reconnect no | rc=0
 [2026-08-16 16:07:01] EXEC | python3 - << 'PEOF'
@@ -206,6 +204,8 @@ s= | rc=0
 [2026-08-16 16:18:24] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 16:20:01] EXEC | ls -la ~/jack/jack_explorer_deep.py && python3 -m py_compile ~/jack/jack_explore | rc=2
 [2026-08-16 16:21:27] LOKAL-INFERENZ | llama3.2:3b | allgemein | 37.4s | 84.5C
+[2026-08-16 16:23:27] EXPLORE | Xiaomi: CPU=Load: 4.39 RAM=2437MB frei Akku=100% Temp=34.5C
+[2026-08-16 16:23:27] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426
