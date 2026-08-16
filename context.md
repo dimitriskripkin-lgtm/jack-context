@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:08:27.123299)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T17:11:28.823767)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:08:27.113893
+Stand: 2026-08-16T17:11:28.810513
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-16T17:08:27.113893
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 776
+- Erinnerungen: 777
 - Dienste:
-run: jack_cortex: (pid 22069) 766s
-run: jack_telegram: (pid 22068) 766s
+run: jack_cortex: (pid 22069) 947s
+run: jack_telegram: (pid 22068) 947s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 10728s
+run: ollama: (pid 18563) 10909s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,15 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-s=op | rc=0
-[2026-08-16 16:55:32] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_cortex.py')
-s=op | rc=0
-[2026-08-16 16:56:00] EXEC | python3 - << 'PEOF'
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 16:56:43] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
 [2026-08-16 16:56:44] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
 [2026-08-16 16:57:39] LOKAL-INFERENZ | llama3.2:3b | allgemein | 33.5s | 86.5C
 [2026-08-16 16:58:45] EXPLORE | Xiaomi: CPU=Load: 4.24 RAM=1184MB frei Akku=100% Temp=37.4C
@@ -206,6 +197,15 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 17:06:15] EXEC | sqlite3 ~/jack/jack_skills.db "SELECT COUNT(*) FROM skills;" | rc=0
 [2026-08-16 17:06:55] EXEC | sv status ~/jack/run/* 2>/dev/null | grep -c "run:" || echo 0 | rc=0
 [2026-08-16 17:07:31] EXEC | ls ~/.termux/services/ 2>/dev/null | grep -c jack || echo 0 | rc=0
+[2026-08-16 17:08:51] EXPLORE | Xiaomi: CPU=Load: 4.92 RAM=1227MB frei Akku=100% Temp=35.9C
+[2026-08-16 17:08:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:09:24] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama && echo "---" && ls $PR | rc=0
+[2026-08-16 17:09:51] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 17:10:47] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 17:10:48] EXEC | free -m | awk 'NR==2{print $7}' | rc=0
+[2026-08-16 17:10:49] EXEC | ssh xiaomi-jack 'echo OK' | rc=0
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426

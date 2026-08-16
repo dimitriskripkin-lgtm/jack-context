@@ -173,3 +173,12 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 17:06:15] EXEC | sqlite3 ~/jack/jack_skills.db "SELECT COUNT(*) FROM skills;" | rc=0
 [2026-08-16 17:06:55] EXEC | sv status ~/jack/run/* 2>/dev/null | grep -c "run:" || echo 0 | rc=0
 [2026-08-16 17:07:31] EXEC | ls ~/.termux/services/ 2>/dev/null | grep -c jack || echo 0 | rc=0
+[2026-08-16 17:08:51] EXPLORE | Xiaomi: CPU=Load: 4.92 RAM=1227MB frei Akku=100% Temp=35.9C
+[2026-08-16 17:08:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:09:24] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama && echo "---" && ls $PR | rc=0
+[2026-08-16 17:09:51] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 17:10:47] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 17:10:48] EXEC | free -m | awk 'NR==2{print $7}' | rc=0
+[2026-08-16 17:10:49] EXEC | ssh xiaomi-jack 'echo OK' | rc=0
