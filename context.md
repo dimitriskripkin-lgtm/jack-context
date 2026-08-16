@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:50:31.803354)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:53:33.971436)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:50:31.768565
+Stand: 2026-08-16T11:53:33.960378
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-08-16T11:50:31.768565
 - Dima hat KEINEN Hund.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (113)
+## Aktive Module (114)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -61,6 +61,7 @@ Stand: 2026-08-16T11:50:31.768565
 - jack_exec.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
+- jack_ghost.py
 - jack_groq_bridge.py
 - jack_guard.py
 - jack_haliza.py
@@ -148,10 +149,10 @@ Stand: 2026-08-16T11:50:31.768565
 - Offene Fehler: 0
 - Erinnerungen: 716
 - Dienste:
-run: jack_cortex: (pid 7269) 177022s
-run: jack_telegram: (pid 17685) 802s
+run: jack_cortex: (pid 7269) 177204s
+run: jack_telegram: (pid 17685) 984s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 177022s
+run: ollama: (pid 7266) 177204s
 
 ## Letzte Aenderungen
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
@@ -179,15 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import os
-p=os.path.expanduser('~/jack/jack_intent.py')
-s=op | rc=0
-[2026-08-16 11:36:59] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_intent.py')
-s=op | rc=0
-[2026-08-16 11:37:30] EXEC | cd ~/jack && git add -A && git commit -m "fix: Subagent Akku-Format, Log-Zeile g | rc=0
-[2026-08-16 11:39:15] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 11:39:15] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:39:17] EXPLORE | Xiaomi: CPU=Load: 4.12 RAM=2105MB frei Akku=100% Temp=31.6C
 [2026-08-16 11:39:17] SHADOW-FIXER | Keine offenen Fehler
@@ -199,6 +191,15 @@ s=op | rc=0
 [2026-08-16 11:49:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:49:23] EXPLORE | Xiaomi: CPU=Load: 4.09 RAM=2041MB frei Akku=100% Temp=32.3C
 [2026-08-16 11:49:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:51:21] EXEC | python3 - << 'PEOF'
+import os
+p = os.path.expanduser('~/jack/jack_ghost.py')
+L = | rc=0
+[2026-08-16 11:51:33] EXEC | python3 ~/jack/jack_ghost.py | rc=1
+[2026-08-16 11:52:32] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_ghost.py')
+s=ope | rc=0
 
 ## Budget heute
-Heute: Text 69/300 | Vision 0/40 | Tokens 237954
+Heute: Text 73/300 | Vision 0/40 | Tokens 258726

@@ -4773,3 +4773,12 @@ s=op | rc=0
 [2026-08-16 11:49:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:49:23] EXPLORE | Xiaomi: CPU=Load: 4.09 RAM=2041MB frei Akku=100% Temp=32.3C
 [2026-08-16 11:49:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:51:21] EXEC | python3 - << 'PEOF'
+import os
+p = os.path.expanduser('~/jack/jack_ghost.py')
+L = | rc=0
+[2026-08-16 11:51:33] EXEC | python3 ~/jack/jack_ghost.py | rc=1
+[2026-08-16 11:52:32] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_ghost.py')
+s=ope | rc=0
