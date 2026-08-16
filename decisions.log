@@ -234,3 +234,6 @@ p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
 [2026-08-16 17:49:14] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:54:17] EXPLORE | Xiaomi: CPU=Load: 3.96 RAM=2245MB frei Akku=100% Temp=38.4C
 [2026-08-16 17:54:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:58:26] MONITOR-EVENT | 1 Events
+[2026-08-16 17:59:20] EXPLORE | Xiaomi: CPU=Load: 4.21 RAM=2471MB frei Akku=100% Temp=37.8C
+[2026-08-16 17:59:20] SHADOW-FIXER | Keine offenen Fehler
