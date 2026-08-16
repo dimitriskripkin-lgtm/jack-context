@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T02:14:13.207380)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T02:17:14.945958)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T02:14:13.202242
+Stand: 2026-08-16T02:17:14.931708
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-16T02:14:13.202242
 - Offene Fehler: 0
 - Erinnerungen: 598
 - Dienste:
-run: jack_cortex: (pid 7269) 142444s
-run: jack_telegram: (pid 2787) 3843s
+run: jack_cortex: (pid 7269) 142625s
+run: jack_telegram: (pid 2787) 4024s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 142444s
+run: ollama: (pid 7266) 142625s
 
 ## Letzte Aenderungen
 d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
@@ -197,4 +197,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 02:13:54] MONITOR-EVENT | 1 Events
 
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 19014
+Heute: Text 8/300 | Vision 0/40 | Tokens 26244
