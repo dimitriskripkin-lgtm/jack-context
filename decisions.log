@@ -4965,3 +4965,13 @@ sys.path.insert(0,'/data/data/c | rc=0
 [2026-08-16 13:15:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:15:11] EXPLORE | Xiaomi: CPU=Load: 4.73 RAM=1489MB frei Akku=100% Temp=36.1C
 [2026-08-16 13:15:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:16:07] EXEC | python3 - << 'PEOF'
+import sys, subprocess, time
+sys.path.insert(0,'/data/data/c | rc=0
+[2026-08-16 13:17:33] EXEC | python3 - << 'PEOF'
+import sys, subprocess, time
+sys.path.insert(0,'/data/data/c | rc=0
+[2026-08-16 13:18:25] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
