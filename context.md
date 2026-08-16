@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:20:49.682901)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:23:51.835180)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:20:49.671161
+Stand: 2026-08-16T12:23:51.821316
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -149,12 +149,13 @@ Stand: 2026-08-16T12:20:49.671161
 - Offene Fehler: 0
 - Erinnerungen: 722
 - Dienste:
-run: jack_cortex: (pid 7269) 178840s
-run: jack_telegram: (pid 15550) 332s
+run: jack_cortex: (pid 7269) 179022s
+run: jack_telegram: (pid 22208) 22s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 178840s
+run: ollama: (pid 7266) 179022s
 
 ## Letzte Aenderungen
+e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
 d47eba4 feat: jack_planner.py + PLAN-Marker - Level 4 autonome Plaene live
 9ca00e9 feat: jack_ghost.py - Ghost Touch live, erster Tap verifiziert (4P.de)
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
@@ -169,7 +170,6 @@ d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
 ae6d02c fix: Persona klargestellt - JACK kann Dateien schreiben
 af70869 fix: datei_schreiben mit Inline-Button in handle() verdrahtet
 b700c5e fix: datei_schreiben korrekt in elif-Kette - kein unbekannt mehr
-7580954 fix: propose_write -> propose in datei_schreiben
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -180,15 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-"import jso | rc=0
-[2026-08-16 12:15:07] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_telegram.py')
-s= | rc=0
-[2026-08-16 12:16:44] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
 [2026-08-16 12:16:57] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_planner.py + PLAN-Marker -  | rc=0
 [2026-08-16 12:19:28] EXEC | python3 - << 'PEOF'
 import os
@@ -200,6 +191,15 @@ s=o | rc=0
 [2026-08-16 12:19:40] EXPLORE | Xiaomi: CPU=Load: 5.46 RAM=1415MB frei Akku=100% Temp=37.2C
 [2026-08-16 12:19:40] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 12:20:29] EXEC | grep -n "open_app\|monkey\|subprocess\|paket" ~/jack/jack_planner.py | rc=0
+[2026-08-16 12:21:01] EXEC | cat -n ~/jack/jack_planner.py | rc=0
+[2026-08-16 12:21:28] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 12:23:19] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_telegram.py')
+s= | rc=0
 
 ## Budget heute
 Heute: Text 83/300 | Vision 0/40 | Tokens 308179
