@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:51:08.730389)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:54:10.495349)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:51:08.716974
+Stand: 2026-08-16T12:54:10.485422
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T12:51:08.716974
 - Offene Fehler: 0
 - Erinnerungen: 728
 - Dienste:
-run: jack_cortex: (pid 7269) 180659s
-run: jack_telegram: (pid 29925) 1035s
+run: jack_cortex: (pid 7269) 180841s
+run: jack_telegram: (pid 29925) 1217s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 180659s
+run: ollama: (pid 7266) 180841s
 
 ## Letzte Aenderungen
 d0bd542 fix: input_text+ui_text in STEPS-Dict
@@ -203,4 +203,4 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 12:49:56] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 85/300 | Vision 0/40 | Tokens 321295
+Heute: Text 86/300 | Vision 0/40 | Tokens 328198
