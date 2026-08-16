@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:33:33.736463)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:36:35.456126)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:33:33.721634
+Stand: 2026-08-16T13:36:35.442839
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T13:33:33.721634
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 736
+- Erinnerungen: 737
 - Dienste:
-run: jack_cortex: (pid 7269) 183204s
-run: jack_telegram: (pid 30594) 1297s
+run: jack_cortex: (pid 7269) 183386s
+run: jack_telegram: (pid 30594) 1479s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 183204s
+run: ollama: (pid 7266) 183386s
 
 ## Letzte Aenderungen
 cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistiert
@@ -181,10 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:28:15] EXEC | ssh xiaomi-jack "su -c 'dumpsys battery | grep -E \"level|temp|status\"'" | rc=0
-[2026-08-16 13:28:16] EXEC | ssh xiaomi-jack "su -c 'ps aux | grep -v grep | grep -E \"jack|python\"'" | rc=1
-[2026-08-16 13:28:17] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
-[2026-08-16 13:29:03] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E jack|python | head -5'" | rc=0
 [2026-08-16 13:29:04] EXEC | free -m | awk 'NR==2{print "RAM frei: " $7 "MB"}' | rc=0
 [2026-08-16 13:29:05] EXEC | cat /sys/class/thermal/thermal_zone0/temp | rc=0
 [2026-08-16 13:29:16] EXEC | echo "$(date): Mission 7 - JACK vergleicht LLMs: Groq llama-3.3-70b vs Gemini 2. | rc=0
@@ -201,6 +197,10 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 13:31:15] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
 [2026-08-16 13:32:12] EXEC | cd ~/jack && git add -A && git commit -m "feat: Mission 1-8 abgeschlossen, Zero- | rc=0
 [2026-08-16 13:33:07] EXEC | cd ~/jack && git pull origin master --rebase && git push origin master 2>&1 | ta | rc=0
+[2026-08-16 13:35:19] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:35:19] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:35:21] EXPLORE | Xiaomi: CPU=Load: 4.20 RAM=1484MB frei Akku=100% Temp=35.5C
+[2026-08-16 13:35:21] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 89/300 | Vision 0/40 | Tokens 342030
