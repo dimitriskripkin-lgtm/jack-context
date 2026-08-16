@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:05:25.341841)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T17:08:27.123299)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:05:25.327272
+Stand: 2026-08-16T17:08:27.113893
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -155,10 +155,10 @@ Stand: 2026-08-16T17:05:25.327272
 - Offene Fehler: 0
 - Erinnerungen: 776
 - Dienste:
-run: jack_cortex: (pid 22069) 584s
-run: jack_telegram: (pid 22068) 584s
+run: jack_cortex: (pid 22069) 766s
+run: jack_telegram: (pid 22068) 766s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 10546s
+run: ollama: (pid 18563) 10728s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,11 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 16:53:42] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 16:54:35] LOKAL-INFERENZ | llama3.2:3b | allgemein | 9.6s | 56.6C
-[2026-08-16 16:54:50] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_cortex.py')
 s=op | rc=0
 [2026-08-16 16:55:32] EXEC | python3 - << 'PEOF'
 import os
@@ -206,6 +201,11 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 16:58:45] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:03:48] EXPLORE | Xiaomi: CPU=Load: 4.43 RAM=1268MB frei Akku=100% Temp=36.4C
 [2026-08-16 17:03:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:06:13] EXEC | free -m | grep Mem | awk '{print $7}' | rc=0
+[2026-08-16 17:06:14] EXEC | sv status ~/jack/run/* 2>/dev/null | grep -c '^run:' || echo 0 | rc=0
+[2026-08-16 17:06:15] EXEC | sqlite3 ~/jack/jack_skills.db "SELECT COUNT(*) FROM skills;" | rc=0
+[2026-08-16 17:06:55] EXEC | sv status ~/jack/run/* 2>/dev/null | grep -c "run:" || echo 0 | rc=0
+[2026-08-16 17:07:31] EXEC | ls ~/.termux/services/ 2>/dev/null | grep -c jack || echo 0 | rc=0
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426
