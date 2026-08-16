@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:24:28.909321)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:27:30.412991)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:24:28.897057
+Stand: 2026-08-16T13:27:30.397809
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T13:24:28.897057
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 734
+- Erinnerungen: 735
 - Dienste:
-run: jack_cortex: (pid 7269) 182659s
-run: jack_telegram: (pid 30594) 752s
+run: jack_cortex: (pid 7269) 182841s
+run: jack_telegram: (pid 30594) 934s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 182659s
+run: ollama: (pid 7266) 182841s
 
 ## Letzte Aenderungen
 15e0710 feat: chrome_search in STEPS-Dict registriert
@@ -181,26 +181,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:15:11] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 13:16:07] EXEC | python3 - << 'PEOF'
-import sys, subprocess, time
-sys.path.insert(0,'/data/data/c | rc=0
-[2026-08-16 13:17:33] EXEC | python3 - << 'PEOF'
-import sys, subprocess, time
-sys.path.insert(0,'/data/data/c | rc=0
-[2026-08-16 13:18:25] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
-[2026-08-16 13:19:18] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
-[2026-08-16 13:20:11] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 13:20:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:20:13] EXPLORE | Xiaomi: CPU=Load: 4.28 RAM=1483MB frei Akku=100% Temp=35.8C
 [2026-08-16 13:20:13] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 13:20:26] EXEC | cd ~/jack && git add -A && git commit -m "feat: chrome_search in STEPS-Dict regi | rc=1
+[2026-08-16 13:25:14] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:25:14] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:25:16] EXPLORE | Xiaomi: CPU=Load: 3.95 RAM=1478MB frei Akku=100% Temp=35.1C
+[2026-08-16 13:25:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:25:56] EXEC | ssh xiaomi-jack "pm list packages -3 | head -20" | rc=0
+[2026-08-16 13:25:57] EXEC | ssh xiaomi-jack "pm list packages | wc -l" | rc=0
+[2026-08-16 13:25:58] EXEC | ssh xiaomi-jack "df -h /data | tail -1" | rc=0
+[2026-08-16 13:26:39] EXEC | ssh xiaomi-jack "su -c 'cat /proc/cpuinfo | grep Hardware | head -1'" | rc=0
+[2026-08-16 13:26:40] EXEC | ssh xiaomi-jack "su -c 'dumpsys battery | grep -E level|temp|status'" | rc=127
+[2026-08-16 13:26:41] EXEC | ssh xiaomi-jack "su -c 'wm size && wm density'" | rc=0
+[2026-08-16 13:26:43] EXEC | ssh xiaomi-jack "uptime" | rc=0
+[2026-08-16 13:26:52] EXEC | ls ~/jack/*.py | wc -l | rc=0
+[2026-08-16 13:26:52] EXEC | wc -l ~/jack/jack_telegram.py ~/jack/jack_planner.py ~/jack/jack_ghost.py | rc=0
+[2026-08-16 13:26:53] EXEC | cd ~/jack && git log --oneline | wc -l | rc=0
+[2026-08-16 13:26:54] EXEC | cd ~/jack && git log --oneline | head -5 | rc=0
+[2026-08-16 13:27:14] EXEC | echo "$(date): JACK hat heute gelernt: Ghost-Touch, Chrome-Suche, Plan-Execution | rc=0
 
 ## Budget heute
 Heute: Text 89/300 | Vision 0/40 | Tokens 342030
