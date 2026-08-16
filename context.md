@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:01:11.663375)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:04:13.441441)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:01:11.647559
+Stand: 2026-08-16T15:04:13.425994
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T15:01:11.647559
 - Offene Fehler: 0
 - Erinnerungen: 754
 - Dienste:
-run: jack_cortex: (pid 18564) 3092s
-run: jack_telegram: (pid 18562) 3092s
+run: jack_cortex: (pid 18564) 3274s
+run: jack_telegram: (pid 18562) 3274s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 3092s
+run: ollama: (pid 18563) 3274s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,12 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:39:57] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 14:40:00] EXPLORE | Xiaomi: CPU=Load: 8.64 RAM=1530MB frei Akku=100% Temp=40.5C
-[2026-08-16 14:40:00] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 14:40:31] MONITOR-EVENT | 1 Events
-[2026-08-16 14:43:06] EXEC | ssh -p 8022 xiaomi-jack 'su -c dumpsys battery | grep level' | rc=0
-[2026-08-16 14:45:01] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 14:45:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 14:45:03] EXPLORE | Xiaomi: CPU=Load: 6.60 RAM=1581MB frei Akku=100% Temp=36.7C
 [2026-08-16 14:45:03] SHADOW-FIXER | Keine offenen Fehler
@@ -201,6 +195,12 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 15:00:11] EXPLORE | Xiaomi: CPU=Load: 4.50 RAM=1312MB frei Akku=100% Temp=33.1C
 [2026-08-16 15:00:11] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:00:54] EXEC | echo "=== STORAGE CHECK ===" && ls -ld ~/storage/downloads 2>/dev/null || echo " | rc=0
+[2026-08-16 15:02:13] EXEC | echo "=== INSTALLIERE FFMPEG (FALLS FEHLT) ===" && \
+pkg install -y ffmpeg && \
+ | rc=100
+[2026-08-16 15:03:39] EXEC | echo "=== FIX MISSING DEPENDENCY ===" && \
+pkg install -y libbluray && \
+apt-get | rc=100
 
 ## Budget heute
-Heute: Text 97/300 | Vision 0/40 | Tokens 377524
+Heute: Text 99/300 | Vision 0/40 | Tokens 380286

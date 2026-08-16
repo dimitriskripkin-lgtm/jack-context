@@ -5130,3 +5130,9 @@ echo "=== | rc=0
 [2026-08-16 15:00:11] EXPLORE | Xiaomi: CPU=Load: 4.50 RAM=1312MB frei Akku=100% Temp=33.1C
 [2026-08-16 15:00:11] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:00:54] EXEC | echo "=== STORAGE CHECK ===" && ls -ld ~/storage/downloads 2>/dev/null || echo " | rc=0
+[2026-08-16 15:02:13] EXEC | echo "=== INSTALLIERE FFMPEG (FALLS FEHLT) ===" && \
+pkg install -y ffmpeg && \
+ | rc=100
+[2026-08-16 15:03:39] EXEC | echo "=== FIX MISSING DEPENDENCY ===" && \
+pkg install -y libbluray && \
+apt-get | rc=100
