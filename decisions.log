@@ -4717,3 +4717,21 @@ s=open | rc=0
 [2026-08-16 11:29:10] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:29:12] EXPLORE | Xiaomi: CPU=Load: 4.13 RAM=2291MB frei Akku=100% Temp=31.5C
 [2026-08-16 11:29:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:29:21] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_write.py')
+s=ope | rc=0
+[2026-08-16 11:29:48] DATEI-SCHREIBEN | jack_neue_faehigkeiten.txt | 1147 Zeichen
+[2026-08-16 11:29:59] EXEC | cd ~/jack && git log --oneline | head -5 | rc=0
+[2026-08-16 11:31:54] EXEC | python3 - << 'PEOF'
+import os
+p = os.path.expanduser('~/jack/jack_critic.py')
+K  | rc=0
+[2026-08-16 11:32:06] EXEC | cd ~/jack && python3 -c "
+import jack_critic as c
+print(c.pruefe('x=1'))
+print(c | rc=0
+[2026-08-16 11:32:18] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_write.py')
+s=ope | rc=0

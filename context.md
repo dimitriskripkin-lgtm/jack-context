@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:29:18.548767)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:32:20.260886)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:29:18.534971
+Stand: 2026-08-16T11:32:20.248163
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -29,7 +29,7 @@ Stand: 2026-08-16T11:29:18.534971
 - Dima hat KEINEN Hund.
 - Dima ist LKW-Fahrer mit Sprinter Kühlkoffer, KEIN Fernfahrer.
 
-## Aktive Module (112)
+## Aktive Module (113)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -53,6 +53,7 @@ Stand: 2026-08-16T11:29:18.534971
 - jack_context_compress.py
 - jack_context_ingest.py
 - jack_cortex.py
+- jack_critic.py
 - jack_db_optimizer.py
 - jack_db_queue.py
 - jack_delta.py
@@ -147,12 +148,13 @@ Stand: 2026-08-16T11:29:18.534971
 - Offene Fehler: 0
 - Erinnerungen: 712
 - Dienste:
-run: jack_cortex: (pid 7269) 175749s
-run: jack_telegram: (pid 8023) 80s
+run: jack_cortex: (pid 7269) 175931s
+run: jack_telegram: (pid 10419) 166s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 175749s
+run: ollama: (pid 7266) 175931s
 
 ## Letzte Aenderungen
+4c4c50d auto-backup vor write
 7055c53 feat: ReAct-Loop bei EXEC-Fehler, EXEC-Parser gehaertet
 5cf5569 fix: Persona LLM-Architektur, Datei-Fallback entfernt, EXEC-Kanal live
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
@@ -167,7 +169,6 @@ cd293bb fix: _pre -> d in datei_schreiben handler
 d8a9411 fix: Live-Fakten als unveraenderliche Zone - kein Halluzinieren mehr
 5586887 fix: ssh_check Keywords fuer Erreichbarkeit erweitert
 0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
-d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -178,26 +179,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import os, sys
-sys.path.insert(0, os.path.e | rc=0
-[2026-08-16 11:26:00] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_telegram.py')
-s= | rc=0
-[2026-08-16 11:26:20] EXEC | cat ~/jack/gibtesnicht.txt | rc=1
-[2026-08-16 11:27:46] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_exec.py')
-s=open | rc=0
-[2026-08-16 11:28:08] EXEC | ls /tmp/jackdaten | rc=2
-[2026-08-16 11:28:23] EXEC | python3 -c "import jack_exec; print(jack_exec.extrahiere('test'))" | rc=0
-[2026-08-16 11:29:07] EXEC | cd ~/jack && git add -A && git commit -m "feat: ReAct-Loop bei EXEC-Fehler, EXEC | rc=0
-[2026-08-16 11:29:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
-[2026-08-16 11:29:10] SELF-IMPROVE | Tagescheck abgeschlossen
-[2026-08-16 11:29:10] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:29:10] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:29:12] EXPLORE | Xiaomi: CPU=Load: 4.13 RAM=2291MB frei Akku=100% Temp=31.5C
 [2026-08-16 11:29:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:29:21] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_write.py')
+s=ope | rc=0
+[2026-08-16 11:29:48] DATEI-SCHREIBEN | jack_neue_faehigkeiten.txt | 1147 Zeichen
+[2026-08-16 11:29:59] EXEC | cd ~/jack && git log --oneline | head -5 | rc=0
+[2026-08-16 11:31:54] EXEC | python3 - << 'PEOF'
+import os
+p = os.path.expanduser('~/jack/jack_critic.py')
+K  | rc=0
+[2026-08-16 11:32:06] EXEC | cd ~/jack && python3 -c "
+import jack_critic as c
+print(c.pruefe('x=1'))
+print(c | rc=0
+[2026-08-16 11:32:18] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_write.py')
+s=ope | rc=0
 
 ## Budget heute
-Heute: Text 68/300 | Vision 0/40 | Tokens 230983
+Heute: Text 69/300 | Vision 0/40 | Tokens 237954

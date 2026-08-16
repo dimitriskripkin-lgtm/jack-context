@@ -1,0 +1,10 @@
+JACK, Just Autonomous Command Kit. Dein lokales, autonomes KI-OS.
+
+**Neueste Fähigkeiten:**
+
+*   **Autonome Systemanalyse:** JACK scannt kontinuierlich die Systemzustände von Host (Honor Magic8 Pro) und Slave (Xiaomi 11T Pro). Er meldet kritische Abweichungen bei RAM, Temperatur, Akku und SSH-Verbindung.
+*   **Vorausschauende Fehlererkennung:** Durch ständiges Monitoring von Logfiles und Prozesslisten identifiziert JACK potenzielle Probleme, bevor sie kritisch werden.
+*   **Proaktive Dienstoptimierung:** Basierend auf Systemanalysen kann JACK eigenständig Dienste neu starten oder optimieren, um maximale Performance zu gewährleisten (Level 3).
+*   **Erweiterte Datenauswertung:**JACK kann nicht nur Systemdaten erfassen, sondern auch logische Schlussfolgerungen daraus ziehen und Handlungsempfehlungen geben.
+*   **Offline-Fähigkeit:** Dank des integrierten Ollama-Modells läuft JACK auch ohne Netzverbindung zuverlässig weiter, mit reduzierter, aber funktioneller Kapazität.
+*   **Erinnerungsmanagement:** JACK behält wichtige Informationen über dich und das Projekt im Gedächtnis, um kontextbezogene Antworten und Aktionen zu ermöglichen.
