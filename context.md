@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:38:10.204757)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:41:12.001290)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:38:10.191635
+Stand: 2026-08-16T16:41:11.981545
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-16T16:38:10.191635
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 770
+- Erinnerungen: 771
 - Dienste:
-run: jack_cortex: (pid 18564) 8911s
-run: jack_telegram: (pid 23696) 1126s
+run: jack_cortex: (pid 18564) 9092s
+run: jack_telegram: (pid 23696) 1307s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 8911s
+run: ollama: (pid 18563) 9092s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,26 +186,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-s= | rc=0
-[2026-08-16 16:08:56] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
-[2026-08-16 16:10:11] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
-[2026-08-16 16:12:09] LOKAL-INFERENZ | llama3.2:3b | allgemein | 12.1s | 86.8C
-[2026-08-16 16:17:30] LOKAL-INFERENZ | llama3.2:3b | allgemein | 6.9s | 68.2C
-[2026-08-16 16:17:36] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_explorer.py')
-s= | rc=0
-[2026-08-16 16:18:24] EXPLORE | Xiaomi: CPU=Load: 5.18 RAM=2613MB frei Akku=100% Temp=36.7C
-[2026-08-16 16:18:24] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 16:20:01] EXEC | ls -la ~/jack/jack_explorer_deep.py && python3 -m py_compile ~/jack/jack_explore | rc=2
-[2026-08-16 16:21:27] LOKAL-INFERENZ | llama3.2:3b | allgemein | 37.4s | 84.5C
-[2026-08-16 16:23:27] EXPLORE | Xiaomi: CPU=Load: 4.39 RAM=2437MB frei Akku=100% Temp=34.5C
-[2026-08-16 16:23:27] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 16:28:29] EXPLORE | Xiaomi: CPU=Load: 6.14 RAM=1682MB frei Akku=100% Temp=39.5C
 [2026-08-16 16:28:29] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 16:33:32] EXPLORE | Xiaomi: CPU=Load: 5.33 RAM=1645MB frei Akku=99% Temp=40.6C
 [2026-08-16 16:33:32] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 16:35:50] LOKAL-INFERENZ | llama3.2:3b | allgemein | 10.2s | 58.5C
+[2026-08-16 16:38:26] LOKAL-INFERENZ | llama3.2:3b | allgemein | 7.9s | 55.0C
+[2026-08-16 16:38:35] EXEC | echo "4" > ~/jack/.autonomie_level && cat ~/jack/.autonomie_level && echo "Level | rc=0
+[2026-08-16 16:38:35] EXPLORE | Xiaomi: CPU=Load: 4.55 RAM=1671MB frei Akku=99% Temp=37.7C
+[2026-08-16 16:38:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:38:47] EXEC | python3 - << 'PEOF'
+import sys, time
+sys.path.insert(0,'/data/data/com.termux/fi | rc=0
+[2026-08-16 16:39:30] EXEC | free -m | awk 'NR==2{print "RAM:", $7"MB frei"}' | rc=0
+[2026-08-16 16:39:31] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 16:39:32] EXEC | echo $(date): Level4 Mission 1 OK >> ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 16:40:18] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 16:40:31] EXEC | grep Level4 ~/jack/jack_lernlog.txt | wc -l | rc=0
+[2026-08-16 16:40:32] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
+[2026-08-16 16:40:33] EXEC | echo $(date): Level4 Mission 3 abgeschlossen >> ~/jack/jack_lernlog.txt | rc=0
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426

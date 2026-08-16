@@ -113,3 +113,19 @@ s= | rc=0
 [2026-08-16 16:33:32] EXPLORE | Xiaomi: CPU=Load: 5.33 RAM=1645MB frei Akku=99% Temp=40.6C
 [2026-08-16 16:33:32] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 16:35:50] LOKAL-INFERENZ | llama3.2:3b | allgemein | 10.2s | 58.5C
+[2026-08-16 16:38:26] LOKAL-INFERENZ | llama3.2:3b | allgemein | 7.9s | 55.0C
+[2026-08-16 16:38:35] EXEC | echo "4" > ~/jack/.autonomie_level && cat ~/jack/.autonomie_level && echo "Level | rc=0
+[2026-08-16 16:38:35] EXPLORE | Xiaomi: CPU=Load: 4.55 RAM=1671MB frei Akku=99% Temp=37.7C
+[2026-08-16 16:38:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:38:47] EXEC | python3 - << 'PEOF'
+import sys, time
+sys.path.insert(0,'/data/data/com.termux/fi | rc=0
+[2026-08-16 16:39:30] EXEC | free -m | awk 'NR==2{print "RAM:", $7"MB frei"}' | rc=0
+[2026-08-16 16:39:31] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 16:39:32] EXEC | echo $(date): Level4 Mission 1 OK >> ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 16:40:18] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 16:40:31] EXEC | grep Level4 ~/jack/jack_lernlog.txt | wc -l | rc=0
+[2026-08-16 16:40:32] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
+[2026-08-16 16:40:33] EXEC | echo $(date): Level4 Mission 3 abgeschlossen >> ~/jack/jack_lernlog.txt | rc=0
