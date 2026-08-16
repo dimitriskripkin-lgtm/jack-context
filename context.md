@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:55:45.543203)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:58:47.170917)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:55:45.529265
+Stand: 2026-08-16T15:58:47.159997
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -151,14 +151,15 @@ Stand: 2026-08-16T15:55:45.529265
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 764
+- Erinnerungen: 765
 - Dienste:
-run: jack_cortex: (pid 18564) 6366s
-run: jack_telegram: (pid 30910) 44s
+run: jack_cortex: (pid 18564) 6548s
+run: jack_telegram: (pid 30910) 226s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 6366s
+run: ollama: (pid 18563) 6548s
 
 ## Letzte Aenderungen
+c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
 65d6c40 feat: Schema-Validator aktiv - unbekannte Step-Typen blockiert
 e151f34 inbox: RESET
 f03c40d feat: Evidence Records - jeder Step mit Timestamp
@@ -173,7 +174,6 @@ d0bd542 fix: input_text+ui_text in STEPS-Dict
 e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
 d47eba4 feat: jack_planner.py + PLAN-Marker - Level 4 autonome Plaene live
 9ca00e9 feat: jack_ghost.py - Ghost Touch live, erster Tap verifiziert (4P.de)
-c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -184,13 +184,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 15:45:39] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:46:06] EXEC | cd ~/jack && git add -A && git stash && git pull origin master --rebase && git s | rc=0
-[2026-08-16 15:49:35] LOKAL-INFERENZ | llama3.2:3b | allgemein | 58.7s | 103.1C
-[2026-08-16 15:50:42] EXPLORE | Xiaomi: CPU=Load: 3.83 RAM=1657MB frei Akku=100% Temp=30.2C
-[2026-08-16 15:50:42] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:51:04] EXEC | python3 - << 'PEOF'
-txt="""I built an autonomous AI operating system on two smar | rc=0
 [2026-08-16 15:51:14] EXEC | cat ~/jack_werkstatt/linkedin_post.txt | rc=0
 [2026-08-16 15:53:34] EXEC | python3 - << 'PEOF'
 import os, sqlite3, json, time
@@ -204,6 +197,13 @@ import os
 p=os.path.expanduser('~/jack/jack_planner.py')
 s=o | rc=0
 [2026-08-16 15:55:11] EXEC | echo jacklaeuft | rc=0
+[2026-08-16 15:55:45] EXPLORE | Xiaomi: CPU=Load: 3.66 RAM=1662MB frei Akku=100% Temp=30.0C
+[2026-08-16 15:55:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:56:23] LOKAL-INFERENZ | llama3.2:3b | allgemein | 7.7s | 63.7C
+[2026-08-16 15:56:29] EXEC | echo jacklaeuft | rc=0
+[2026-08-16 15:56:37] EXEC | echo jacklaeuft | rc=0
+[2026-08-16 15:56:42] EXEC | echo jacklaeuft | rc=0
+[2026-08-16 15:57:48] EXEC | cd ~/jack && git add -A && git commit -m "feat: Skill-Lifecycle verifiziert - CA | rc=0
 
 ## Budget heute
 Heute: Text 104/300 | Vision 0/40 | Tokens 385793
