@@ -4799,3 +4799,13 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 11:59:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:59:28] EXPLORE | Xiaomi: CPU=Load: 6.23 RAM=1264MB frei Akku=100% Temp=36.1C
 [2026-08-16 11:59:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:01:16] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_ghost.py')
+s=ope | rc=0
+[2026-08-16 12:02:02] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 12:02:19] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0

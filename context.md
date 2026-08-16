@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:59:37.524263)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:02:39.260622)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:59:37.514175
+Stand: 2026-08-16T12:02:39.245163
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -149,10 +149,10 @@ Stand: 2026-08-16T11:59:37.514175
 - Offene Fehler: 0
 - Erinnerungen: 718
 - Dienste:
-run: jack_cortex: (pid 7269) 177568s
-run: jack_telegram: (pid 17685) 1348s
+run: jack_cortex: (pid 7269) 177750s
+run: jack_telegram: (pid 17685) 1530s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 177568s
+run: ollama: (pid 7266) 177750s
 
 ## Letzte Aenderungen
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
@@ -180,16 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import os
-p=os.path.expanduser('~/jack/jack_ghost.py')
-s=ope | rc=0
-[2026-08-16 11:54:23] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:54:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 11:54:26] EXPLORE | Xiaomi: CPU=Load: 4.36 RAM=2094MB frei Akku=100% Temp=32.2C
-[2026-08-16 11:54:26] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:54:53] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_ghost.py')
 s=ope | rc=0
 [2026-08-16 11:55:06] EXEC | python3 ~/jack/jack_ghost.py | rc=0
 [2026-08-16 11:58:19] GUARD-OK | whisper gestartet, 2476MB frei
@@ -200,6 +190,16 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 11:59:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:59:28] EXPLORE | Xiaomi: CPU=Load: 6.23 RAM=1264MB frei Akku=100% Temp=36.1C
 [2026-08-16 11:59:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:01:16] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_ghost.py')
+s=ope | rc=0
+[2026-08-16 12:02:02] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 12:02:19] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 
 ## Budget heute
 Heute: Text 76/300 | Vision 0/40 | Tokens 279599
