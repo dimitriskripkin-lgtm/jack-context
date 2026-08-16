@@ -267,3 +267,6 @@ s=op | rc=-9
 [2026-08-16 18:54:52] EXPLORE | Xiaomi: CPU=Load: 3.71 RAM=2178MB frei Akku=100% Temp=35.2C
 [2026-08-16 18:54:52] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 18:57:02] MONITOR-EVENT | 1 Events
+[2026-08-16 18:59:03] MONITOR-EVENT | 1 Events
+[2026-08-16 18:59:55] EXPLORE | Xiaomi: CPU=Load: 4.58 RAM=1937MB frei Akku=100% Temp=35.3C
+[2026-08-16 18:59:55] SHADOW-FIXER | Keine offenen Fehler
