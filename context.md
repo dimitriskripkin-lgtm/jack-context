@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:04:13.441441)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:07:15.441786)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:04:13.425994
+Stand: 2026-08-16T15:07:15.405057
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T15:04:13.425994
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 754
+- Erinnerungen: 755
 - Dienste:
-run: jack_cortex: (pid 18564) 3274s
-run: jack_telegram: (pid 18562) 3274s
+run: jack_cortex: (pid 18564) 3456s
+run: jack_telegram: (pid 18562) 3456s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 3274s
+run: ollama: (pid 18563) 3456s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,8 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:45:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 14:45:03] EXPLORE | Xiaomi: CPU=Load: 6.60 RAM=1581MB frei Akku=100% Temp=36.7C
 [2026-08-16 14:45:03] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 14:50:03] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 14:50:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
@@ -201,6 +199,8 @@ pkg install -y ffmpeg && \
 [2026-08-16 15:03:39] EXEC | echo "=== FIX MISSING DEPENDENCY ===" && \
 pkg install -y libbluray && \
 apt-get | rc=100
+[2026-08-16 15:05:15] EXPLORE | Xiaomi: CPU=Load: 4.63 RAM=1306MB frei Akku=100% Temp=32.3C
+[2026-08-16 15:05:15] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 99/300 | Vision 0/40 | Tokens 380286
