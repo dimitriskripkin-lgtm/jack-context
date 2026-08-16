@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:41:45.615148)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T17:44:47.426993)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:41:45.606241
+Stand: 2026-08-16T17:44:47.409120
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,12 +154,12 @@ Stand: 2026-08-16T17:41:45.606241
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 783
+- Erinnerungen: 784
 - Dienste:
-run: jack_cortex: (pid 22069) 2764s
-run: jack_telegram: (pid 28956) 309s
+run: jack_cortex: (pid 22069) 2946s
+run: jack_telegram: (pid 28956) 491s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 12726s
+run: ollama: (pid 18563) 12908s
 
 ## Letzte Aenderungen
 e72bbc4 feat: /agent - ReAct UI-Agent mit Gemini live auf Xiaomi
@@ -188,9 +188,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 ## Letzte 20 Aktionen (Logbuch)
 
 p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
-[2026-08-16 17:21:04] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
 [2026-08-16 17:23:42] LOKAL-INFERENZ | llama3.2:3b | allgemein | 38.3s | 84.9C
 [2026-08-16 17:24:00] EXPLORE | Xiaomi: CPU=Load: 4.31 RAM=2303MB frei Akku=100% Temp=36.1C
 [2026-08-16 17:24:00] SHADOW-FIXER | Keine offenen Fehler
@@ -207,6 +204,9 @@ p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
 [2026-08-16 17:39:09] EXPLORE | Xiaomi: CPU=Load: 4.16 RAM=2146MB frei Akku=100% Temp=38.9C
 [2026-08-16 17:39:09] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:40:18] MONITOR-EVENT | 1 Events
+[2026-08-16 17:44:11] EXPLORE | Xiaomi: CPU=Load: 4.51 RAM=2243MB frei Akku=100% Temp=38.5C
+[2026-08-16 17:44:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:44:20] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 139/300 | Vision 0/40 | Tokens 473586
