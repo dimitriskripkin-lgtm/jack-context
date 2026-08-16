@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:05:01.677809)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:08:03.741051)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:05:01.661967
+Stand: 2026-08-16T11:08:03.707278
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,10 +146,10 @@ Stand: 2026-08-16T11:05:01.661967
 - Offene Fehler: 0
 - Erinnerungen: 707
 - Dienste:
-run: jack_cortex: (pid 7269) 174292s
-run: jack_telegram: (pid 13757) 904s
+run: jack_cortex: (pid 7269) 174474s
+run: jack_telegram: (pid 13757) 1086s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 174292s
+run: ollama: (pid 7266) 174474s
 
 ## Letzte Aenderungen
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
