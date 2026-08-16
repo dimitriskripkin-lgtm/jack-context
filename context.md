@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:39:37.092969)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:42:38.679127)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:39:37.083266
+Stand: 2026-08-16T13:42:38.669081
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T13:39:37.083266
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 737
+- Erinnerungen: 738
 - Dienste:
-run: jack_cortex: (pid 7269) 183568s
-run: jack_telegram: (pid 30594) 1661s
+run: jack_cortex: (pid 7269) 183749s
+run: jack_telegram: (pid 30594) 1842s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 183568s
+run: ollama: (pid 7266) 183749s
 
 ## Letzte Aenderungen
 cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistiert
@@ -181,10 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:29:04] EXEC | free -m | awk 'NR==2{print "RAM frei: " $7 "MB"}' | rc=0
-[2026-08-16 13:29:05] EXEC | cat /sys/class/thermal/thermal_zone0/temp | rc=0
-[2026-08-16 13:29:16] EXEC | echo "$(date): Mission 7 - JACK vergleicht LLMs: Groq llama-3.3-70b vs Gemini 2. | rc=0
-[2026-08-16 13:30:02] EXEC | python3 - << 'PEOF'
 import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 13:30:17] SELF-AUDIT | SYSTEM_STATE.md generiert
@@ -201,6 +197,10 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 13:35:19] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:35:21] EXPLORE | Xiaomi: CPU=Load: 4.20 RAM=1484MB frei Akku=100% Temp=35.5C
 [2026-08-16 13:35:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:40:22] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:40:22] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:40:24] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=1474MB frei Akku=100% Temp=35.5C
+[2026-08-16 13:40:24] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 89/300 | Vision 0/40 | Tokens 342030
