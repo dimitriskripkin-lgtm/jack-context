@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T18:09:01.137044)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T18:12:02.804627)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T18:09:01.117846
+Stand: 2026-08-16T18:12:02.788431
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-08-16T18:09:01.117846
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), KEIN Fernfahrer.
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
 - Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
 - Dima hat eine Investmentwohnung in Essen.
@@ -154,12 +154,12 @@ Stand: 2026-08-16T18:09:01.117846
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 787
+- Erinnerungen: 788
 - Dienste:
-run: jack_cortex: (pid 18928) 242s
-run: jack_telegram: (pid 11952) 917s
+run: jack_cortex: (pid 18928) 423s
+run: jack_telegram: (pid 11952) 1098s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 14362s
+run: ollama: (pid 18563) 14543s
 
 ## Letzte Aenderungen
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
@@ -187,9 +187,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 17:40:18] MONITOR-EVENT | 1 Events
-[2026-08-16 17:44:11] EXPLORE | Xiaomi: CPU=Load: 4.51 RAM=2243MB frei Akku=100% Temp=38.5C
-[2026-08-16 17:44:11] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:44:20] MONITOR-EVENT | 1 Events
 [2026-08-16 17:46:21] MONITOR-EVENT | 1 Events
 [2026-08-16 17:49:14] EXPLORE | Xiaomi: CPU=Load: 4.19 RAM=2172MB frei Akku=100% Temp=38.3C
@@ -207,6 +204,9 @@ import os
 p=os.path.expanduser('~/jack/jack_cortex.py')
 s=op | rc=-9
 [2026-08-16 18:05:57] EXEC | grep -n "explore_deep\|run_deep_loop\|Auto-Explore" ~/jack/jack_cortex.py | rc=0
+[2026-08-16 18:09:25] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=2080MB frei Akku=100% Temp=37.5C
+[2026-08-16 18:09:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 18:09:44] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 156/300 | Vision 0/40 | Tokens 515055
+Heute: Text 157/300 | Vision 0/40 | Tokens 520220
