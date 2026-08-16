@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:10:17.693525)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:13:19.832001)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:10:17.660425
+Stand: 2026-08-16T15:13:19.820096
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T15:10:17.660425
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 755
+- Erinnerungen: 756
 - Dienste:
-run: jack_cortex: (pid 18564) 3638s
-run: jack_telegram: (pid 18562) 3638s
+run: jack_cortex: (pid 18564) 3820s
+run: jack_telegram: (pid 18562) 3820s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 3638s
+run: ollama: (pid 18563) 3820s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,9 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:45:03] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 14:50:03] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 14:50:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 14:50:05] EXPLORE | Xiaomi: CPU=Load: 5.40 RAM=1435MB frei Akku=100% Temp=34.4C
 [2026-08-16 14:50:05] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 14:55:06] SELF-AUDIT | SYSTEM_STATE.md generiert
@@ -201,6 +198,9 @@ pkg install -y libbluray && \
 apt-get | rc=100
 [2026-08-16 15:05:15] EXPLORE | Xiaomi: CPU=Load: 4.63 RAM=1306MB frei Akku=100% Temp=32.3C
 [2026-08-16 15:05:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:10:18] EXPLORE | Xiaomi: CPU=Load: 5.43 RAM=1200MB frei Akku=100% Temp=32.1C
+[2026-08-16 15:10:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:13:13] EXEC | cd ~/jack && zip -r ~/storage/downloads/jack_core_full.zip . -x "*.git*" "*pycac | rc=127
 
 ## Budget heute
-Heute: Text 99/300 | Vision 0/40 | Tokens 380286
+Heute: Text 100/300 | Vision 0/40 | Tokens 381089
