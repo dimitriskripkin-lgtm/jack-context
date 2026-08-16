@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:17:47.830040)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:20:49.682901)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:17:47.812711
+Stand: 2026-08-16T12:20:49.671161
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -147,12 +147,12 @@ Stand: 2026-08-16T12:17:47.812711
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 721
+- Erinnerungen: 722
 - Dienste:
-run: jack_cortex: (pid 7269) 178658s
-run: jack_telegram: (pid 15550) 150s
+run: jack_cortex: (pid 7269) 178840s
+run: jack_telegram: (pid 15550) 332s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 178658s
+run: ollama: (pid 7266) 178840s
 
 ## Letzte Aenderungen
 d47eba4 feat: jack_planner.py + PLAN-Marker - Level 4 autonome Plaene live
@@ -180,16 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import sys, time, subprocess
-sys.path.insert(0,'/data/data/c | rc=0
-[2026-08-16 12:14:35] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 12:14:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:14:37] EXPLORE | Xiaomi: CPU=Load: 4.30 RAM=1506MB frei Akku=100% Temp=36.9C
-[2026-08-16 12:14:37] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:14:56] EXEC | python3 - << 'PEOF'
-import os
-L=chr(10); Q=chr(39); D=chr(34)
-code=(
 "import jso | rc=0
 [2026-08-16 12:15:07] EXEC | python3 - << 'PEOF'
 import os
@@ -200,6 +190,16 @@ import os
 p=os.path.expanduser('~/jack/jack_planner.py')
 s=o | rc=0
 [2026-08-16 12:16:57] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_planner.py + PLAN-Marker -  | rc=0
+[2026-08-16 12:19:28] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 12:19:38] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 12:19:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 12:19:39] EXEC | cd ~/jack && git add jack_planner.py && git commit -m "fix: D-Bug in step_open_a | rc=1
+[2026-08-16 12:19:40] EXPLORE | Xiaomi: CPU=Load: 5.46 RAM=1415MB frei Akku=100% Temp=37.2C
+[2026-08-16 12:19:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:20:29] EXEC | grep -n "open_app\|monkey\|subprocess\|paket" ~/jack/jack_planner.py | rc=0
 
 ## Budget heute
-Heute: Text 81/300 | Vision 0/40 | Tokens 300788
+Heute: Text 83/300 | Vision 0/40 | Tokens 308179
