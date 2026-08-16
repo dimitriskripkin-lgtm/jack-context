@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:54:46.892086)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:57:49.186998)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:54:46.859463
+Stand: 2026-08-16T13:57:49.150439
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T13:54:46.859463
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 740
+- Erinnerungen: 741
 - Dienste:
-run: jack_cortex: (pid 7269) 184477s
-run: jack_telegram: (pid 30594) 2570s
+run: jack_cortex: (pid 7269) 184660s
+run: jack_telegram: (pid 30594) 2753s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 184477s
+run: ollama: (pid 7266) 184660s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,10 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:40:22] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 13:40:24] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=1474MB frei Akku=100% Temp=35.5C
-[2026-08-16 13:40:24] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 13:45:25] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 13:45:25] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:45:27] EXPLORE | Xiaomi: CPU=Load: 5.66 RAM=1367MB frei Akku=100% Temp=35.5C
 [2026-08-16 13:45:27] SHADOW-FIXER | Keine offenen Fehler
@@ -201,6 +197,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 13:53:00] EXEC | cd ~/jack && python3 -m py_compile *.py | rc=0
 [2026-08-16 13:53:01] EXEC | wc -l ~/jack/*.py | sort -nr | head -5 | rc=0
 [2026-08-16 13:53:02] EXEC | git status | rc=0
+[2026-08-16 13:55:30] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:55:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:55:32] EXPLORE | Xiaomi: CPU=Load: 4.86 RAM=1126MB frei Akku=100% Temp=35.1C
+[2026-08-16 13:55:32] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 91/300 | Vision 0/40 | Tokens 353961
