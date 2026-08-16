@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:54:10.495349)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:57:12.260864)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:54:10.485422
+Stand: 2026-08-16T12:57:12.243578
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T12:54:10.485422
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 728
+- Erinnerungen: 729
 - Dienste:
-run: jack_cortex: (pid 7269) 180841s
-run: jack_telegram: (pid 29925) 1217s
+run: jack_cortex: (pid 7269) 181023s
+run: jack_telegram: (pid 29925) 1399s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 180841s
+run: ollama: (pid 7266) 181023s
 
 ## Letzte Aenderungen
 d0bd542 fix: input_text+ui_text in STEPS-Dict
@@ -181,10 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 12:32:27] EXEC | cd ~/jack && git add -A && git commit -m "fix: input_text+ui_text in STEPS-Dict" | rc=0
-[2026-08-16 12:33:42] EXEC | python3 - << 'PEOF'
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 12:34:46] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 12:34:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:34:48] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=1501MB frei Akku=100% Temp=36.5C
@@ -201,6 +197,10 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 12:49:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:49:56] EXPLORE | Xiaomi: CPU=Load: 4.78 RAM=1627MB frei Akku=100% Temp=35.4C
 [2026-08-16 12:49:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:54:57] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 12:54:57] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 12:54:59] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=1361MB frei Akku=100% Temp=35.8C
+[2026-08-16 12:54:59] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 86/300 | Vision 0/40 | Tokens 328198
