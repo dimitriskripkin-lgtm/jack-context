@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:14:07.612428)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:17:09.470767)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:14:07.594810
+Stand: 2026-08-16T11:17:09.456752
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,10 +146,10 @@ Stand: 2026-08-16T11:14:07.594810
 - Offene Fehler: 0
 - Erinnerungen: 709
 - Dienste:
-run: jack_cortex: (pid 7269) 174838s
-run: jack_telegram: (pid 13757) 1450s
+run: jack_cortex: (pid 7269) 175020s
+run: jack_telegram: (pid 13757) 1632s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 174838s
+run: ollama: (pid 7266) 175020s
 
 ## Letzte Aenderungen
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
@@ -177,9 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 10:53:49] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 10:53:49] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 10:53:51] EXPLORE | Xiaomi: CPU=Load: 4.25 RAM=2342MB frei Akku=100% Temp=31.7C
 [2026-08-16 10:53:51] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 10:58:51] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 10:58:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
@@ -197,6 +194,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 11:14:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:14:03] EXPLORE | Xiaomi: CPU=Load: 3.70 RAM=2570MB frei Akku=100% Temp=31.3C
 [2026-08-16 11:14:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:16:42] EXEC | termux-screenshot -f ~/jack/ctx_test.png 2>&1; ls -la ~/jack/ctx_test.png 2>&1 | rc=2
+[2026-08-16 11:16:53] EXEC | grep -c "" ~/jack/jack_persona.md && tail -20 ~/jack/jack_persona.md | rc=0
+[2026-08-16 11:17:03] EXEC | python3 -c "import jack_talk; print(jack_talk.get_window_ctx()[:500])" | rc=0
 
 ## Budget heute
 Heute: Text 50/300 | Vision 0/40 | Tokens 174554
