@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:17:32.399174)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T17:20:33.956169)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:17:32.385756
+Stand: 2026-08-16T17:20:33.945011
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-16T17:17:32.385756
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 778
+- Erinnerungen: 779
 - Dienste:
-run: jack_cortex: (pid 22069) 1311s
-run: jack_telegram: (pid 7025) 282s
+run: jack_cortex: (pid 22069) 1492s
+run: jack_telegram: (pid 11183) 80s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 11273s
+run: ollama: (pid 18563) 11454s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,26 +186,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 17:08:51] EXPLORE | Xiaomi: CPU=Load: 4.92 RAM=1227MB frei Akku=100% Temp=35.9C
-[2026-08-16 17:08:51] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 17:09:24] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama && echo "---" && ls $PR | rc=0
-[2026-08-16 17:09:51] EXEC | python3 - << 'PEOF'
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 17:10:47] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
-[2026-08-16 17:10:48] EXEC | free -m | awk 'NR==2{print $7}' | rc=0
-[2026-08-16 17:10:49] EXEC | ssh xiaomi-jack 'echo OK' | rc=0
-[2026-08-16 17:12:19] EXEC | python3 - << 'PEOF'
-import sys, re
-sys.path.insert(0,'/data/data/com.termux/file | rc=0
-[2026-08-16 17:13:03] EXEC | python3 - << 'PEOF'
-import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 17:13:52] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
 [2026-08-16 17:13:53] EXEC | free -m | awk 'NR==2{print $7}' | rc=0
 [2026-08-16 17:13:54] EXEC | ssh xiaomi-jack 'echo OK' | rc=0
 [2026-08-16 17:13:54] EXPLORE | Xiaomi: CPU=Load: 4.33 RAM=1223MB frei Akku=100% Temp=36.0C
 [2026-08-16 17:13:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:18:33] LOKAL-INFERENZ | llama3.2:3b | allgemein | 8.3s | 55.4C
+[2026-08-16 17:18:44] EXEC | python3 - << 'PEOF'
+import os
+L=chr(10)
+
+# Dialog-Keywords die JACK erkennen und | rc=0
+[2026-08-16 17:18:54] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
+[2026-08-16 17:18:57] EXPLORE | Xiaomi: CPU=Load: 4.82 RAM=1580MB frei Akku=100% Temp=35.9C
+[2026-08-16 17:18:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:19:03] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426

@@ -193,3 +193,17 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 17:13:54] EXEC | ssh xiaomi-jack 'echo OK' | rc=0
 [2026-08-16 17:13:54] EXPLORE | Xiaomi: CPU=Load: 4.33 RAM=1223MB frei Akku=100% Temp=36.0C
 [2026-08-16 17:13:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:18:33] LOKAL-INFERENZ | llama3.2:3b | allgemein | 8.3s | 55.4C
+[2026-08-16 17:18:44] EXEC | python3 - << 'PEOF'
+import os
+L=chr(10)
+
+# Dialog-Keywords die JACK erkennen und | rc=0
+[2026-08-16 17:18:54] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
+[2026-08-16 17:18:57] EXPLORE | Xiaomi: CPU=Load: 4.82 RAM=1580MB frei Akku=100% Temp=35.9C
+[2026-08-16 17:18:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 17:19:03] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
