@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:06:17.914202)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:09:19.600796)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:06:17.902819
+Stand: 2026-08-16T13:09:19.585517
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T13:06:17.902819
 - Offene Fehler: 0
 - Erinnerungen: 731
 - Dienste:
-run: jack_cortex: (pid 7269) 181568s
-run: jack_telegram: (pid 25695) 69s
+run: jack_cortex: (pid 7269) 181750s
+run: jack_telegram: (pid 25695) 251s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 181568s
+run: ollama: (pid 7266) 181750s
 
 ## Letzte Aenderungen
 d0bd542 fix: input_text+ui_text in STEPS-Dict
@@ -181,15 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 12:49:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:49:56] EXPLORE | Xiaomi: CPU=Load: 4.78 RAM=1627MB frei Akku=100% Temp=35.4C
-[2026-08-16 12:49:56] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:54:57] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 12:54:57] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:54:59] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=1361MB frei Akku=100% Temp=35.8C
-[2026-08-16 12:54:59] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 13:00:00] WAECHTER-NEUSTART | jack_telegram
-[2026-08-16 13:00:00] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 13:00:00] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:00:02] EXPLORE | Xiaomi: CPU=Load: 4.05 RAM=1416MB frei Akku=100% Temp=35.4C
 [2026-08-16 13:00:02] SHADOW-FIXER | Keine offenen Fehler
@@ -201,6 +192,15 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 13:05:05] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 13:05:35] GUARD-OK | whisper gestartet, 2611MB frei
 [2026-08-16 13:05:42] MONITOR-EVENT | 1 Events
+[2026-08-16 13:06:38] EXEC | python3 - << 'PEOF'
+import sys, json, time
+sys.path.insert(0,'/data/data/com.ter | rc=0
+[2026-08-16 13:08:46] EXEC | python3 - << 'PEOF'
+import sys, time
+sys.path.insert(0,'/data/data/com.termux/fi | rc=0
+[2026-08-16 13:09:08] EXEC | python3 - << 'PEOF'
+import sys, urllib.request, json, time
+sys.path.insert(0,'/d | rc=0
 
 ## Budget heute
 Heute: Text 87/300 | Vision 0/40 | Tokens 334715
