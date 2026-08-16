@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:26:03.245432)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:29:04.921500)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:26:03.234822
+Stand: 2026-08-16T16:29:04.907928
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-16T16:26:03.234822
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 768
+- Erinnerungen: 769
 - Dienste:
-run: jack_cortex: (pid 18564) 8184s
-run: jack_telegram: (pid 23696) 399s
+run: jack_cortex: (pid 18564) 8365s
+run: jack_telegram: (pid 23696) 580s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 8184s
+run: ollama: (pid 18563) 8365s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,8 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 16:06:30] LOKAL-INFERENZ | llama3.2:3b | allgemein | 6.8s | 65.6C
-[2026-08-16 16:06:50] EXEC | ssh xiaomi-jack "echo SSH_OK" && echo "SSH lebt" || echo "SSH tot - reconnect no | rc=0
 [2026-08-16 16:07:01] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_explorer.py')
@@ -206,6 +204,8 @@ s= | rc=0
 [2026-08-16 16:21:27] LOKAL-INFERENZ | llama3.2:3b | allgemein | 37.4s | 84.5C
 [2026-08-16 16:23:27] EXPLORE | Xiaomi: CPU=Load: 4.39 RAM=2437MB frei Akku=100% Temp=34.5C
 [2026-08-16 16:23:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:28:29] EXPLORE | Xiaomi: CPU=Load: 6.14 RAM=1682MB frei Akku=100% Temp=39.5C
+[2026-08-16 16:28:29] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426
