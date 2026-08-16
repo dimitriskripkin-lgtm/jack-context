@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:16:57.960589)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:19:59.742621)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:16:57.950789
+Stand: 2026-08-16T16:19:59.731045
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -152,12 +152,12 @@ Stand: 2026-08-16T16:16:57.950789
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 766
+- Erinnerungen: 767
 - Dienste:
-run: jack_cortex: (pid 18564) 7638s
-run: jack_telegram: (pid 15658) 358s
+run: jack_cortex: (pid 18564) 7820s
+run: jack_telegram: (pid 23696) 35s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 7638s
+run: ollama: (pid 18563) 7820s
 
 ## Letzte Aenderungen
 59dceef fix: explore pm list mit su -c, max_apps auf 50 erhoeht
@@ -185,13 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 15:59:40] EXEC | python3 - << 'PEOF'
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 16:00:48] EXPLORE | Xiaomi: CPU=Load: 4.60 RAM=1264MB frei Akku=100% Temp=31.2C
-[2026-08-16 16:00:48] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 16:01:02] EXEC | python3 - << 'PEOF'
-import os, json, time
 L=chr(10)
 code=(
 "import subprocess, o | rc=0
@@ -205,6 +198,13 @@ s= | rc=0
 [2026-08-16 16:08:56] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
 [2026-08-16 16:10:11] EXEC | cat ~/jack/.adb_port 2>/dev/null && echo "---" && nmap -p 8022,8023,22 10.58.220 | rc=0
 [2026-08-16 16:12:09] LOKAL-INFERENZ | llama3.2:3b | allgemein | 12.1s | 86.8C
+[2026-08-16 16:17:30] LOKAL-INFERENZ | llama3.2:3b | allgemein | 6.9s | 68.2C
+[2026-08-16 16:17:36] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer.py')
+s= | rc=0
+[2026-08-16 16:18:24] EXPLORE | Xiaomi: CPU=Load: 5.18 RAM=2613MB frei Akku=100% Temp=36.7C
+[2026-08-16 16:18:24] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 105/300 | Vision 0/40 | Tokens 390962
+Heute: Text 107/300 | Vision 0/40 | Tokens 415048
