@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:47:49.221880)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T17:50:50.891887)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:47:49.207442
+Stand: 2026-08-16T17:50:50.880490
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,14 +154,15 @@ Stand: 2026-08-16T17:47:49.207442
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 784
+- Erinnerungen: 785
 - Dienste:
-run: jack_cortex: (pid 22069) 3128s
-run: jack_telegram: (pid 6565) 64s
+run: jack_cortex: (pid 22069) 3309s
+run: jack_telegram: (pid 8176) 130s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 13090s
+run: ollama: (pid 18563) 13271s
 
 ## Letzte Aenderungen
+5c44716 feat: /ssh Befehl - direkter SSH-Output ohne Gemini-Umweg
 0c37194 fix: netz_da multi-URL, agent immer Dollar-Prefix fuer SSH
 e72bbc4 feat: /agent - ReAct UI-Agent mit Gemini live auf Xiaomi
 4a83395 feat: jack_explorer_deep
@@ -176,7 +177,6 @@ cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistie
 fc527e9 inbox: Mission 8 - Zero Touch von Claude
 15e0710 feat: chrome_search in STEPS-Dict registriert
 64b89b1 feat: step_chrome_search - direkt Google via am start
-808f3e8 inbox: Claude Inbox Test
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -187,8 +187,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 17:23:42] LOKAL-INFERENZ | llama3.2:3b | allgemein | 38.3s | 84.9C
-[2026-08-16 17:24:00] EXPLORE | Xiaomi: CPU=Load: 4.31 RAM=2303MB frei Akku=100% Temp=36.1C
 [2026-08-16 17:24:00] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:26:10] MONITOR-EVENT | 1 Events
 [2026-08-16 17:28:11] MONITOR-EVENT | 1 Events
@@ -207,6 +205,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 17:44:11] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:44:20] MONITOR-EVENT | 1 Events
 [2026-08-16 17:46:21] MONITOR-EVENT | 1 Events
+[2026-08-16 17:49:14] EXPLORE | Xiaomi: CPU=Load: 4.19 RAM=2172MB frei Akku=100% Temp=38.3C
+[2026-08-16 17:49:14] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 146/300 | Vision 0/40 | Tokens 481784
