@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T14:02:20.879645)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T14:05:05.019844)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T14:02:20.870000
+Stand: 2026-08-16T14:05:05.011903
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T14:02:20.870000
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 741
+- Erinnerungen: 742
 - Dienste:
-run: jack_cortex: (pid 9485) 0s
-run: jack_telegram: (pid 9488) 0s
+run: jack_cortex: (pid 13470) 1s
+run: jack_telegram: (pid 13469) 1s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 9486) 0s
+run: ollama: (pid 13471) 1s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,19 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 13:45:27] EXPLORE | Xiaomi: CPU=Load: 5.66 RAM=1367MB frei Akku=100% Temp=35.5C
-[2026-08-16 13:45:27] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 13:50:27] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 13:50:27] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 13:50:29] EXPLORE | Xiaomi: CPU=Load: 4.51 RAM=1189MB frei Akku=100% Temp=36.0C
-[2026-08-16 13:50:29] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 13:50:46] EXEC | git pull origin master --rebase && git push origin master && sv status jack_tele | rc=128
-[2026-08-16 13:51:55] EXEC | git add -A && git commit -m "chore: README.md aktualisiert und Portfolio-Polish" | rc=0
-[2026-08-16 13:52:13] EXEC | cat /sys/class/thermal/thermal_zone*/temp | rc=0
-[2026-08-16 13:52:15] EXEC | ssh -p 8022 xiaomi-jack 'su -c cat /sys/class/thermal/thermal_zone*/temp' | rc=1
-[2026-08-16 13:52:25] EXEC | python3 ~/jack/jack_subagent.py | rc=0
-[2026-08-16 13:52:43] EXEC | ssh -p 8022 xiaomi-jack 'su -c uiautomator dump /sdcard/jack_ui.xml && cat /sdca | rc=0
-[2026-08-16 13:53:00] EXEC | cd ~/jack && python3 -m py_compile *.py | rc=0
 [2026-08-16 13:53:01] EXEC | wc -l ~/jack/*.py | sort -nr | head -5 | rc=0
 [2026-08-16 13:53:02] EXEC | git status | rc=0
 [2026-08-16 13:55:30] SELF-AUDIT | SYSTEM_STATE.md generiert
@@ -201,6 +188,19 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 13:55:32] EXPLORE | Xiaomi: CPU=Load: 4.86 RAM=1126MB frei Akku=100% Temp=35.1C
 [2026-08-16 13:55:32] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 14:02:20] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-16 14:02:21] GRACEFUL-DEGRADE | Temperatur 65.1C, schalte auf llama3.2:3b
+[2026-08-16 14:02:21] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 14:02:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 14:02:22] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
+[2026-08-16 14:02:23] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
+[2026-08-16 14:02:23] EXPLORE | Xiaomi: CPU=Load: 4.77 RAM=972MB frei Akku=100% Temp=34.5C
+[2026-08-16 14:02:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 14:02:23] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 14:02:35] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
+[2026-08-16 14:02:50] EXEC | echo "=== HOST SYSTEM & RAM ===" && free -m && uname -a && uptime && \
+echo "=== | rc=0
+[2026-08-16 14:03:44] SCOUT-LAUF | 43fff65e7c5a60f9
+[2026-08-16 14:05:04] WAECHTER-START | Nacht-Ueberwachung mit Queue
 
 ## Budget heute
-Heute: Text 92/300 | Vision 0/40 | Tokens 353961
+Heute: Text 93/300 | Vision 0/40 | Tokens 359132
