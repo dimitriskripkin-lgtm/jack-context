@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:08:03.741051)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:11:05.758091)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:08:03.707278
+Stand: 2026-08-16T11:11:05.742484
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,12 @@ Stand: 2026-08-16T11:08:03.707278
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 707
+- Erinnerungen: 708
 - Dienste:
-run: jack_cortex: (pid 7269) 174474s
-run: jack_telegram: (pid 13757) 1086s
+run: jack_cortex: (pid 7269) 174656s
+run: jack_telegram: (pid 13757) 1268s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 174474s
+run: ollama: (pid 7266) 174656s
 
 ## Letzte Aenderungen
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
@@ -177,10 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 10:49:23] EXEC | echo TEST123 && pwd | rc=0
-[2026-08-16 10:50:12] EXEC | echo "Kanal steht" && date && free -m | head -2 | rc=0
-[2026-08-16 10:50:55] EXEC | echo "Kanal steht" && date && free -m | head -2 | rc=0
-[2026-08-16 10:51:04] EXEC | ls -la ~/jack_werkstatt | tail -5 && echo "---" && sv status jack_telegram jack_ | rc=0
 [2026-08-16 10:51:28] DATEI-SCHREIBEN | jack_architektur.txt | 1307 Zeichen
 [2026-08-16 10:52:55] EXEC | python3 ~/jack/jack_subagent.py | rc=0
 [2026-08-16 10:53:03] EXEC | grep -n "groq\|Groq" ~/jack/jack_persona.md | head -5 | rc=0
@@ -197,6 +193,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 11:03:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:03:57] EXPLORE | Xiaomi: CPU=Load: 3.60 RAM=2457MB frei Akku=100% Temp=31.5C
 [2026-08-16 11:03:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:08:58] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:08:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:09:00] EXPLORE | Xiaomi: CPU=Load: 4.52 RAM=2619MB frei Akku=100% Temp=31.5C
+[2026-08-16 11:09:00] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 50/300 | Vision 0/40 | Tokens 174554
