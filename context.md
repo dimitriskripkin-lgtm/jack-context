@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T10:49:52.128836)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T10:52:53.907804)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T10:49:52.118772
+Stand: 2026-08-16T10:52:53.895618
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,14 +144,15 @@ Stand: 2026-08-16T10:49:52.118772
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 703
+- Erinnerungen: 704
 - Dienste:
-run: jack_cortex: (pid 7269) 173383s
-run: jack_telegram: (pid 9861) 257s
+run: jack_cortex: (pid 7269) 173564s
+run: jack_telegram: (pid 13757) 176s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 173383s
+run: ollama: (pid 7266) 173564s
 
 ## Letzte Aenderungen
+d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
 02e464c feat: WRITE-Marker - Gemini kann Dateien direkt vorschlagen mit Auto-Button
 536d602 fix: Persona - nie behaupten etwas getan zu haben ohne Ausfuehrung
 ae6d02c fix: Persona klargestellt - JACK kann Dateien schreiben
@@ -166,7 +167,6 @@ d8a9411 fix: Live-Fakten als unveraenderliche Zone - kein Halluzinieren mehr
 d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
 2d0afbd fix: schreib und proaktiv Intent auch bei langen Saetzen
 960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
-1727af6 fix: voice Handler im Poll-Loop wiederhergestellt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -177,10 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 10:38:00] GUARD-OK | whisper gestartet, 2727MB frei
-[2026-08-16 10:38:40] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 10:38:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 10:38:42] EXPLORE | Xiaomi: CPU=Load: 4.29 RAM=2286MB frei Akku=100% Temp=31.7C
 [2026-08-16 10:38:42] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 10:38:43] GUARD-OK | whisper gestartet, 3253MB frei
 [2026-08-16 10:41:40] GUARD-OK | whisper gestartet, 2989MB frei
@@ -197,6 +193,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 10:48:48] EXPLORE | Xiaomi: CPU=Load: 4.46 RAM=2234MB frei Akku=100% Temp=31.4C
 [2026-08-16 10:48:48] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 10:49:23] EXEC | echo TEST123 && pwd | rc=0
+[2026-08-16 10:50:12] EXEC | echo "Kanal steht" && date && free -m | head -2 | rc=0
+[2026-08-16 10:50:55] EXEC | echo "Kanal steht" && date && free -m | head -2 | rc=0
+[2026-08-16 10:51:04] EXEC | ls -la ~/jack_werkstatt | tail -5 && echo "---" && sv status jack_telegram jack_ | rc=0
+[2026-08-16 10:51:28] DATEI-SCHREIBEN | jack_architektur.txt | 1307 Zeichen
 
 ## Budget heute
-Heute: Text 46/300 | Vision 0/40 | Tokens 159347
+Heute: Text 50/300 | Vision 0/40 | Tokens 174554

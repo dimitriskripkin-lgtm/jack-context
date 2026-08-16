@@ -1,0 +1,27 @@
+## JACK Architektur - Stand 16.08.2026
+
+**Kernkomponenten:**
+
+*   **Honor Magic8 Pro (Master/Gehirn):**
+    *   Betriebssystem: Android (mit Termux nativ)
+    *   LLM-Zugriff: Gemini API (primär) / Ollama Llama3.2:3b (Offline-Fallback)
+    *   Datenbank: sqlite-vec (lokal)
+    *   Kernlogik: Python-Skripte, gestartet über Termux
+    *   Kommunikation: SSH ControlMaster zum Slave (Xiaomi 11T Pro)
+
+*   **Xiaomi 11T Pro (Slave/Executor):**
+    *   Betriebssystem: Android (gerootet)
+    *   Kommunikation: SSH Server auf Port 8022
+    *   Funktion: Ausführung von Befehlen, Datenerfassung (Sensoren etc.)
+
+**Interaktion & Kontrolle:**
+
+*   **Benutzerschnittstelle:** Telegram Bot (@jackdimachat_bot) – Nachrichten werden von JACK verarbeitet.
+*   **Autonomie-Level:** Stufen 1-4, gesteuert über `/level`-Befehl durch Dima. Bei Level 3+ agiert JACK autonomer, meldet aber Ergebnisse.
+*   **Dateiverwaltung:** Erstellung von Dateien über den `[[WRITE:...]]`-Marker nach Bestätigung durch Dima. Speicherung in `~/jack_werkstatt`.
+
+**Philosophie:**
+
+*   **Offline-First:** Maximale Funktionalität lokal, keine Cloud-Abhängigkeit.
+*   **Kontrolle:** Dima hat immer die letzte Kontrolle und bestätigt Aktionen.
+*   **Lernfähigkeit:** Eigene Erfahrungen und Systemdaten werden genutzt, um Verhalten zu optimieren.
