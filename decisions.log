@@ -207,3 +207,6 @@ p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
 [2026-08-16 17:19:03] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
+[2026-08-16 17:21:04] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer_deep.py | rc=0
