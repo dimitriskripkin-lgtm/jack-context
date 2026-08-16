@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T18:02:57.592216)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T18:05:59.193935)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T18:02:57.574335
+Stand: 2026-08-16T18:05:59.180992
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,14 +154,15 @@ Stand: 2026-08-16T18:02:57.574335
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 786
+- Erinnerungen: 787
 - Dienste:
-run: jack_cortex: (pid 22069) 4036s
-run: jack_telegram: (pid 11952) 553s
+run: jack_cortex: (pid 18928) 60s
+run: jack_telegram: (pid 11952) 735s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 13998s
+run: ollama: (pid 18563) 14180s
 
 ## Letzte Aenderungen
+e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
 647cbd8 fix: _termux_cmd definiert, /ssh funktioniert mit echtem Output
 fc25048 feat: /ssh Befehl - direkter SSH-Output ohne Gemini-Umweg
 c551a46 fix: netz_da multi-URL, agent immer Dollar-Prefix fuer SSH
@@ -176,7 +177,6 @@ f9d8024 inbox: Level4 Mission 1 - Systemstatus
 4a83395 feat: jack_explorer_deep
 59dceef fix: explore pm list mit su -c, max_apps auf 50 erhoeht
 c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
-65d6c40 feat: Schema-Validator aktiv - unbekannte Step-Typen blockiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -187,13 +187,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 17:32:13] MONITOR-EVENT | 1 Events
-[2026-08-16 17:34:06] EXPLORE | Xiaomi: CPU=Load: 4.78 RAM=2246MB frei Akku=100% Temp=39.2C
-[2026-08-16 17:34:06] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 17:34:31] LOKAL-INFERENZ | llama3.2:3b | allgemein | 25.1s | 85.3C
-[2026-08-16 17:38:17] MONITOR-EVENT | 1 Events
-[2026-08-16 17:39:09] EXPLORE | Xiaomi: CPU=Load: 4.16 RAM=2146MB frei Akku=100% Temp=38.9C
-[2026-08-16 17:39:09] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 17:40:18] MONITOR-EVENT | 1 Events
 [2026-08-16 17:44:11] EXPLORE | Xiaomi: CPU=Load: 4.51 RAM=2243MB frei Akku=100% Temp=38.5C
 [2026-08-16 17:44:11] SHADOW-FIXER | Keine offenen Fehler
@@ -207,6 +200,13 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 17:59:20] EXPLORE | Xiaomi: CPU=Load: 4.21 RAM=2471MB frei Akku=100% Temp=37.8C
 [2026-08-16 17:59:20] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 18:00:27] MONITOR-EVENT | 1 Events
+[2026-08-16 18:04:22] EXPLORE | Xiaomi: CPU=Load: 5.30 RAM=2128MB frei Akku=100% Temp=39.9C
+[2026-08-16 18:04:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 18:04:59] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_cortex.py')
+s=op | rc=-9
+[2026-08-16 18:05:57] EXEC | grep -n "explore_deep\|run_deep_loop\|Auto-Explore" ~/jack/jack_cortex.py | rc=0
 
 ## Budget heute
-Heute: Text 155/300 | Vision 0/40 | Tokens 513758
+Heute: Text 156/300 | Vision 0/40 | Tokens 515055
