@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:34:33.247236)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:37:35.091268)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:34:33.239371
+Stand: 2026-08-16T15:37:35.077650
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T15:34:33.239371
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 760
+- Erinnerungen: 761
 - Dienste:
-run: jack_cortex: (pid 18564) 5094s
-run: jack_telegram: (pid 18562) 5094s
+run: jack_cortex: (pid 18564) 5276s
+run: jack_telegram: (pid 18562) 5276s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 5094s
+run: ollama: (pid 18563) 5276s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -190,6 +190,9 @@ mv *.bak* archiv_cleanup | rc=0
 [2026-08-16 15:25:27] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:30:30] EXPLORE | Xiaomi: CPU=Load: 4.00 RAM=1658MB frei Akku=100% Temp=30.6C
 [2026-08-16 15:30:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:35:33] EXPLORE | Xiaomi: CPU=Load: 4.40 RAM=1647MB frei Akku=100% Temp=30.4C
+[2026-08-16 15:35:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:36:35] EXEC | cd ~/jack && git pull origin master --rebase && git push origin master 2>&1 | ta | rc=128
 
 ## Budget heute
-Heute: Text 101/300 | Vision 0/40 | Tokens 382270
+Heute: Text 102/300 | Vision 0/40 | Tokens 382999
