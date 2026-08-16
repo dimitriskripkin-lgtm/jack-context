@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:41:12.001290)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:44:13.790527)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:41:11.981545
+Stand: 2026-08-16T16:44:13.779325
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-16T16:41:11.981545
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 771
+- Erinnerungen: 772
 - Dienste:
-run: jack_cortex: (pid 18564) 9092s
-run: jack_telegram: (pid 23696) 1307s
+run: jack_cortex: (pid 18564) 9274s
+run: jack_telegram: (pid 23696) 1489s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 9092s
+run: ollama: (pid 18563) 9274s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,8 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 16:28:29] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 16:33:32] EXPLORE | Xiaomi: CPU=Load: 5.33 RAM=1645MB frei Akku=99% Temp=40.6C
 [2026-08-16 16:33:32] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 16:35:50] LOKAL-INFERENZ | llama3.2:3b | allgemein | 10.2s | 58.5C
 [2026-08-16 16:38:26] LOKAL-INFERENZ | llama3.2:3b | allgemein | 7.9s | 55.0C
@@ -206,6 +204,8 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 16:40:31] EXEC | grep Level4 ~/jack/jack_lernlog.txt | wc -l | rc=0
 [2026-08-16 16:40:32] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
 [2026-08-16 16:40:33] EXEC | echo $(date): Level4 Mission 3 abgeschlossen >> ~/jack/jack_lernlog.txt | rc=0
+[2026-08-16 16:43:38] EXPLORE | Xiaomi: CPU=Load: 3.86 RAM=1712MB frei Akku=100% Temp=41.0C
+[2026-08-16 16:43:38] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426
