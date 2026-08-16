@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T08:12:08.425112)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T08:15:10.405555)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T08:12:08.408563
+Stand: 2026-08-16T08:15:10.392564
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,10 +144,10 @@ Stand: 2026-08-16T08:12:08.408563
 - Offene Fehler: 0
 - Erinnerungen: 669
 - Dienste:
-run: jack_cortex: (pid 7269) 163919s
-run: jack_telegram: (pid 2787) 25318s
+run: jack_cortex: (pid 7269) 164101s
+run: jack_telegram: (pid 2787) 25500s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 163919s
+run: ollama: (pid 7266) 164101s
 
 ## Letzte Aenderungen
 d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
