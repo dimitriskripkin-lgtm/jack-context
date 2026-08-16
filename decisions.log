@@ -182,3 +182,14 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 17:10:47] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
 [2026-08-16 17:10:48] EXEC | free -m | awk 'NR==2{print $7}' | rc=0
 [2026-08-16 17:10:49] EXEC | ssh xiaomi-jack 'echo OK' | rc=0
+[2026-08-16 17:12:19] EXEC | python3 - << 'PEOF'
+import sys, re
+sys.path.insert(0,'/data/data/com.termux/file | rc=0
+[2026-08-16 17:13:03] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 17:13:52] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 17:13:53] EXEC | free -m | awk 'NR==2{print $7}' | rc=0
+[2026-08-16 17:13:54] EXEC | ssh xiaomi-jack 'echo OK' | rc=0
+[2026-08-16 17:13:54] EXPLORE | Xiaomi: CPU=Load: 4.33 RAM=1223MB frei Akku=100% Temp=36.0C
+[2026-08-16 17:13:54] SHADOW-FIXER | Keine offenen Fehler
