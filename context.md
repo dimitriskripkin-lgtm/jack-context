@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:02:39.260622)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:05:40.903861)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:02:39.245163
+Stand: 2026-08-16T12:05:40.890429
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -147,14 +147,15 @@ Stand: 2026-08-16T12:02:39.245163
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 718
+- Erinnerungen: 719
 - Dienste:
-run: jack_cortex: (pid 7269) 177750s
-run: jack_telegram: (pid 17685) 1530s
+run: jack_cortex: (pid 7269) 177931s
+run: jack_telegram: (pid 17685) 1711s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 177750s
+run: ollama: (pid 7266) 177931s
 
 ## Letzte Aenderungen
+9ca00e9 feat: jack_ghost.py - Ghost Touch live, erster Tap verifiziert (4P.de)
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
 9860142 feat: Subagent in proaktiv_check - 4 Agenten parallel
 e498cd2 feat: jack_critic - Schadcode-Pruefung vor jedem Datei-Write
@@ -169,7 +170,6 @@ af70869 fix: datei_schreiben mit Inline-Button in handle() verdrahtet
 b700c5e fix: datei_schreiben korrekt in elif-Kette - kein unbekannt mehr
 7580954 fix: propose_write -> propose in datei_schreiben
 cd293bb fix: _pre -> d in datei_schreiben handler
-4bb67cd feat: datei_schreiben Intent eingebaut
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -180,14 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-s=ope | rc=0
-[2026-08-16 11:55:06] EXEC | python3 ~/jack/jack_ghost.py | rc=0
-[2026-08-16 11:58:19] GUARD-OK | whisper gestartet, 2476MB frei
-[2026-08-16 11:59:12] EXEC | python3 - << 'PEOF'
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 11:59:26] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:59:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 11:59:28] EXPLORE | Xiaomi: CPU=Load: 6.23 RAM=1264MB frei Akku=100% Temp=36.1C
 [2026-08-16 11:59:28] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 12:01:16] EXEC | python3 - << 'PEOF'
@@ -200,6 +192,14 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 12:02:19] EXEC | python3 - << 'PEOF'
 import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 12:04:29] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 12:04:29] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 12:04:32] EXPLORE | Xiaomi: CPU=Load: 5.14 RAM=1066MB frei Akku=100% Temp=36.3C
+[2026-08-16 12:04:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:04:48] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_ghost.py - Ghost Touch live | rc=0
+[2026-08-16 12:05:10] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 
 ## Budget heute
-Heute: Text 76/300 | Vision 0/40 | Tokens 279599
+Heute: Text 80/300 | Vision 0/40 | Tokens 295599
