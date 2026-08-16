@@ -58,3 +58,15 @@ s=open(os.path.expanduser('~/jack/jack_telegram.py | rc=0
 [2026-08-16 15:51:04] EXEC | python3 - << 'PEOF'
 txt="""I built an autonomous AI operating system on two smar | rc=0
 [2026-08-16 15:51:14] EXEC | cat ~/jack_werkstatt/linkedin_post.txt | rc=0
+[2026-08-16 15:53:34] EXEC | python3 - << 'PEOF'
+import os, sqlite3, json, time
+L=chr(10)
+code=(
+"import sqli | rc=1
+[2026-08-16 15:54:10] EXEC | rm ~/jack/jack_skills.db 2>/dev/null; python3 -c "
+import sys; sys.path.insert(0 | rc=0
+[2026-08-16 15:54:46] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 15:55:11] EXEC | echo jacklaeuft | rc=0

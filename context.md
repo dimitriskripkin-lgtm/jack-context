@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:52:43.788114)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:55:45.543203)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:52:43.777887
+Stand: 2026-08-16T15:55:45.529265
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-08-16T15:52:43.777887
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
 
-## Aktive Module (118)
+## Aktive Module (119)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -109,6 +109,7 @@ Stand: 2026-08-16T15:52:43.777887
 - jack_selftest.py
 - jack_sensors.py
 - jack_skill_builder.py
+- jack_skill_lib.py
 - jack_skills.py
 - jack_skills_db.py
 - jack_snapshot.py
@@ -152,10 +153,10 @@ Stand: 2026-08-16T15:52:43.777887
 - Offene Fehler: 0
 - Erinnerungen: 764
 - Dienste:
-run: jack_cortex: (pid 18564) 6184s
-run: jack_telegram: (pid 17920) 491s
+run: jack_cortex: (pid 18564) 6366s
+run: jack_telegram: (pid 30910) 44s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 6184s
+run: ollama: (pid 18563) 6366s
 
 ## Letzte Aenderungen
 65d6c40 feat: Schema-Validator aktiv - unbekannte Step-Typen blockiert
@@ -183,18 +184,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import sys, time
-sys.path.insert(0,'/data/data/com.termux/fi | rc=0
-[2026-08-16 15:41:46] EXEC | echo hallo welt | rc=0
-[2026-08-16 15:42:53] EXEC | echo hallo welt | rc=0
-[2026-08-16 15:43:51] EXEC | grep -n "jack_schema\|validate\|PLAN UNGUELTIG" ~/jack/jack_telegram.py | head - | rc=0
-[2026-08-16 15:44:08] EXEC | python3 - << 'PEOF'
-import os
-s=open(os.path.expanduser('~/jack/jack_telegram.py | rc=0
-[2026-08-16 15:45:04] EXEC | cd ~/jack && git add -A && git commit -m "feat: Schema-Validator aktiv - unbekan | rc=0
-[2026-08-16 15:45:14] EXEC | echo hallo welt | rc=0
-[2026-08-16 15:45:39] EXEC | cd ~/jack && git pull origin master --rebase && git push origin master 2>&1 | ta | rc=128
-[2026-08-16 15:45:39] EXPLORE | Xiaomi: CPU=Load: 3.92 RAM=1564MB frei Akku=100% Temp=30.3C
 [2026-08-16 15:45:39] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:46:06] EXEC | cd ~/jack && git add -A && git stash && git pull origin master --rebase && git s | rc=0
 [2026-08-16 15:49:35] LOKAL-INFERENZ | llama3.2:3b | allgemein | 58.7s | 103.1C
@@ -203,6 +192,18 @@ s=open(os.path.expanduser('~/jack/jack_telegram.py | rc=0
 [2026-08-16 15:51:04] EXEC | python3 - << 'PEOF'
 txt="""I built an autonomous AI operating system on two smar | rc=0
 [2026-08-16 15:51:14] EXEC | cat ~/jack_werkstatt/linkedin_post.txt | rc=0
+[2026-08-16 15:53:34] EXEC | python3 - << 'PEOF'
+import os, sqlite3, json, time
+L=chr(10)
+code=(
+"import sqli | rc=1
+[2026-08-16 15:54:10] EXEC | rm ~/jack/jack_skills.db 2>/dev/null; python3 -c "
+import sys; sys.path.insert(0 | rc=0
+[2026-08-16 15:54:46] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 15:55:11] EXEC | echo jacklaeuft | rc=0
 
 ## Budget heute
-Heute: Text 103/300 | Vision 0/40 | Tokens 383728
+Heute: Text 104/300 | Vision 0/40 | Tokens 385793
