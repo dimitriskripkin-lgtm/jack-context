@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:42:03.484555)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:45:05.330857)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:42:03.470566
+Stand: 2026-08-16T12:45:05.304995
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T12:42:03.470566
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 726
+- Erinnerungen: 727
 - Dienste:
-run: jack_cortex: (pid 7269) 180114s
-run: jack_telegram: (pid 29925) 490s
+run: jack_cortex: (pid 7269) 180296s
+run: jack_telegram: (pid 29925) 672s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 180114s
+run: ollama: (pid 7266) 180296s
 
 ## Letzte Aenderungen
 d0bd542 fix: input_text+ui_text in STEPS-Dict
@@ -181,10 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 12:31:03] EXEC | python3 - << 'PEOF'
-import sys, subprocess, time
-sys.path.insert(0,'/data/data/c | rc=0
 [2026-08-16 12:32:15] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_planner.py')
@@ -201,6 +197,10 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 12:39:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:39:51] EXPLORE | Xiaomi: CPU=Load: 4.20 RAM=1499MB frei Akku=100% Temp=36.0C
 [2026-08-16 12:39:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:44:51] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 12:44:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 12:44:54] EXPLORE | Xiaomi: CPU=Load: 3.94 RAM=1437MB frei Akku=100% Temp=35.6C
+[2026-08-16 12:44:54] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 85/300 | Vision 0/40 | Tokens 321295
