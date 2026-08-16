@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:13:56.142024)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:16:57.960589)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:13:56.124954
+Stand: 2026-08-16T16:16:57.950789
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,10 +154,10 @@ Stand: 2026-08-16T16:13:56.124954
 - Offene Fehler: 0
 - Erinnerungen: 766
 - Dienste:
-run: jack_cortex: (pid 18564) 7457s
-run: jack_telegram: (pid 15658) 177s
+run: jack_cortex: (pid 18564) 7638s
+run: jack_telegram: (pid 15658) 358s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 7457s
+run: ollama: (pid 18563) 7638s
 
 ## Letzte Aenderungen
 59dceef fix: explore pm list mit su -c, max_apps auf 50 erhoeht
