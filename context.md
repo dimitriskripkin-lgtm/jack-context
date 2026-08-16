@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T09:52:16.812571)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T09:55:18.697495)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T09:52:16.787178
+Stand: 2026-08-16T09:55:18.681522
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,12 +143,12 @@ Stand: 2026-08-16T09:52:16.787178
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 689
+- Erinnerungen: 690
 - Dienste:
-run: jack_cortex: (pid 7269) 169927s
-run: jack_telegram: (pid 17154) 1388s
+run: jack_cortex: (pid 7269) 170109s
+run: jack_telegram: (pid 17154) 1570s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 169927s
+run: ollama: (pid 7266) 170109s
 
 ## Letzte Aenderungen
 0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
@@ -176,11 +176,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 09:30:23] GUARD-OK | whisper gestartet, 2130MB frei
-[2026-08-16 09:31:14] MONITOR-AKKU-WARN | 20%
-[2026-08-16 09:31:15] MONITOR-EVENT | 1 Events
-[2026-08-16 09:32:55] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 09:32:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:32:57] EXPLORE | Xiaomi: CPU=Load: 3.93 RAM=2690MB frei Akku=100% Temp=30.6C
 [2026-08-16 09:32:57] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 09:33:15] MONITOR-EVENT | 1 Events
@@ -196,6 +191,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 09:48:04] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:48:08] EXPLORE | Xiaomi: CPU=Load: 4.26 RAM=2593MB frei Akku=100% Temp=30.4C
 [2026-08-16 09:48:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 09:53:09] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 09:53:09] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 09:53:12] EXPLORE | Xiaomi: CPU=Load: 4.60 RAM=2960MB frei Akku=100% Temp=30.5C
+[2026-08-16 09:53:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 09:53:29] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 15/300 | Vision 0/40 | Tokens 55699
