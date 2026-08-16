@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T10:10:29.174966)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T10:13:31.510489)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T10:10:29.145239
+Stand: 2026-08-16T10:13:31.487239
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -143,12 +143,12 @@ Stand: 2026-08-16T10:10:29.145239
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 693
+- Erinnerungen: 694
 - Dienste:
-run: jack_cortex: (pid 7269) 171020s
-run: jack_telegram: (pid 17154) 2481s
+run: jack_cortex: (pid 7269) 171202s
+run: jack_telegram: (pid 17154) 2663s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 171020s
+run: ollama: (pid 7266) 171202s
 
 ## Letzte Aenderungen
 0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
@@ -176,10 +176,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 09:48:08] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 09:53:09] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 09:53:09] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 09:53:12] EXPLORE | Xiaomi: CPU=Load: 4.60 RAM=2960MB frei Akku=100% Temp=30.5C
 [2026-08-16 09:53:12] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 09:53:29] MONITOR-EVENT | 1 Events
 [2026-08-16 09:58:12] SELF-AUDIT | SYSTEM_STATE.md generiert
@@ -196,6 +192,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 10:08:25] EXPLORE | Xiaomi: CPU=Load: 3.94 RAM=2391MB frei Akku=100% Temp=31.7C
 [2026-08-16 10:08:25] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 10:08:45] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-16 10:13:26] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 10:13:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 10:13:28] EXPLORE | Xiaomi: CPU=Load: 3.85 RAM=2218MB frei Akku=100% Temp=31.8C
+[2026-08-16 10:13:28] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 16/300 | Vision 0/40 | Tokens 60895
