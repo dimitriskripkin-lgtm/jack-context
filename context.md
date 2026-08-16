@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:53:18.656198)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:56:20.262373)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:53:18.643339
+Stand: 2026-08-16T16:56:20.246551
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-16T16:53:18.643339
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 773
+- Erinnerungen: 774
 - Dienste:
-run: jack_cortex: (pid 18564) 9819s
-run: jack_telegram: (pid 23696) 2034s
+run: jack_cortex: (pid 22069) 39s
+run: jack_telegram: (pid 22068) 39s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 9819s
+run: ollama: (pid 18563) 10001s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,26 +186,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 16:40:31] EXEC | grep Level4 ~/jack/jack_lernlog.txt | wc -l | rc=0
-[2026-08-16 16:40:32] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
-[2026-08-16 16:40:33] EXEC | echo $(date): Level4 Mission 3 abgeschlossen >> ~/jack/jack_lernlog.txt | rc=0
-[2026-08-16 16:43:38] EXPLORE | Xiaomi: CPU=Load: 3.86 RAM=1712MB frei Akku=100% Temp=41.0C
-[2026-08-16 16:43:38] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 16:48:40] EXPLORE | Xiaomi: CPU=Load: 4.46 RAM=1313MB frei Akku=100% Temp=40.7C
-[2026-08-16 16:48:40] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 16:52:31] EXEC | python3 - << 'PEOF'
-import sys, time
-sys.path.insert(0,'/data/data/com.termux/fi | rc=0
-[2026-08-16 16:52:34] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
-[2026-08-16 16:52:35] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
-[2026-08-16 16:52:36] EXEC | echo $(date): Retest OK >> ~/jack/jack_lernlog.txt | rc=0
-[2026-08-16 16:52:45] EXEC | grep -n "def selftest\|def self_test\|5/5\|ALLES OK" ~/jack/jack_cortex.py | hea | rc=0
-[2026-08-16 16:52:56] EXEC | grep -n "def selftest\|def self_test\|5/5\|ALLES OK" ~/jack/jack_telegram.py | h | rc=0
 [2026-08-16 16:53:06] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_outcome.py')
 s=o | rc=0
 [2026-08-16 16:53:16] EXEC | grep -n "def main\|while True\|sleep\|explore" ~/jack/jack_cortex.py | head -10 | rc=0
+[2026-08-16 16:53:24] EXEC | ls -la ~/jack_werkstatt/linkedin_post.txt && head -5 ~/jack_werkstatt/linkedin_p | rc=0
+[2026-08-16 16:53:42] EXPLORE | Xiaomi: CPU=Load: 4.43 RAM=1220MB frei Akku=100% Temp=37.8C
+[2026-08-16 16:53:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 16:54:35] LOKAL-INFERENZ | llama3.2:3b | allgemein | 9.6s | 56.6C
+[2026-08-16 16:54:50] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_cortex.py')
+s=op | rc=0
+[2026-08-16 16:55:32] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_cortex.py')
+s=op | rc=0
+[2026-08-16 16:56:00] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426
