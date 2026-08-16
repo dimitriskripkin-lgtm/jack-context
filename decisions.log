@@ -347,3 +347,5 @@ s=op | rc=-9
 [2026-08-16 22:06:47] EXPLORE | Xiaomi: CPU=Load: 3.70 RAM=2074MB frei Akku=100% Temp=32.4C
 [2026-08-16 22:06:47] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 22:09:47] PROFIL-UPDATE | 11 neue Eintraege in kortex_profile.json
+[2026-08-16 22:11:50] EXPLORE | Xiaomi: CPU=Load: 4.13 RAM=2265MB frei Akku=100% Temp=32.4C
+[2026-08-16 22:11:50] SHADOW-FIXER | Keine offenen Fehler
