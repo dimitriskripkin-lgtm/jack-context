@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T10:28:40.100800)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T10:31:41.649640)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T10:28:40.094023
+Stand: 2026-08-16T10:31:41.636832
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -145,12 +145,14 @@ Stand: 2026-08-16T10:28:40.094023
 - Offene Fehler: 0
 - Erinnerungen: 698
 - Dienste:
-run: jack_cortex: (pid 7269) 172111s
-run: jack_telegram: (pid 22748) 2s
+run: jack_cortex: (pid 7269) 172292s
+run: jack_telegram: (pid 24417) 46s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 172111s
+run: ollama: (pid 7266) 172292s
 
 ## Letzte Aenderungen
+b700c5e fix: datei_schreiben korrekt in elif-Kette - kein unbekannt mehr
+7580954 fix: propose_write -> propose in datei_schreiben
 cd293bb fix: _pre -> d in datei_schreiben handler
 4bb67cd feat: datei_schreiben Intent eingebaut
 d8a9411 fix: Live-Fakten als unveraenderliche Zone - kein Halluzinieren mehr
@@ -164,8 +166,6 @@ d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
 f5ee770 fix: Level 3 Handlungs-Direktive in Persona
 b7afff2 fix: Intent nur bei kurzen Texten <60 Zeichen ausfuehren
 f16399f fix: ssh_check kein einzelnes 'xiaomi' mehr als Keyword
-958d945 fix: nachfragen deaktiviert - kein Intent-Prompt bei Fliesstext
-5890033 fix: proaktiv_check Keywords praeziser - kein Fliesstext-Match
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
