@@ -4543,3 +4543,4 @@ SyntaxError: '(' was
 [2026-08-16 09:27:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:27:54] EXPLORE | Xiaomi: CPU=Load: 3.51 RAM=2815MB frei Akku=100% Temp=30.6C
 [2026-08-16 09:27:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 09:30:23] GUARD-OK | whisper gestartet, 2130MB frei

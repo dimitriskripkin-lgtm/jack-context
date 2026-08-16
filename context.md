@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T09:28:00.088007)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T09:31:01.915632)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T09:28:00.075033
+Stand: 2026-08-16T09:31:01.901701
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -142,14 +142,15 @@ Stand: 2026-08-16T09:28:00.075033
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 684
+- Erinnerungen: 685
 - Dienste:
-run: jack_cortex: (pid 7269) 168471s
-run: jack_telegram: (pid 2787) 29870s
+run: jack_cortex: (pid 7269) 168652s
+run: jack_telegram: (pid 17154) 113s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 168471s
+run: ollama: (pid 7266) 168652s
 
 ## Letzte Aenderungen
+0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
 d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
 2d0afbd fix: schreib und proaktiv Intent auch bei langen Saetzen
 960515b fix: Foto-Handler im Poll-Loop wiederhergestellt
@@ -164,7 +165,6 @@ f16399f fix: ssh_check kein einzelnes 'xiaomi' mehr als Keyword
 8cd6357 fix: xiaomi inspector trigger eingeschraenkt - nur bei explizitem Befehl
 c4d488a feat: /befehle Xiaomi Akku Button + Honor Akku getrennt
 623ef5a fix: xiaomi_akku via su -c statt dumpsys
-9ae43fd fix: xiaomi_akku Keywords Prioritaet vor ssh_check
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -175,7 +175,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 09:07:37] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 09:07:37] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:07:40] EXPLORE | Xiaomi: CPU=Load: 4.11 RAM=2545MB frei Akku=100% Temp=30.4C
 [2026-08-16 09:07:40] SHADOW-FIXER | Keine offenen Fehler
@@ -195,6 +194,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 09:27:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 09:27:54] EXPLORE | Xiaomi: CPU=Load: 3.51 RAM=2815MB frei Akku=100% Temp=30.6C
 [2026-08-16 09:27:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 09:30:23] GUARD-OK | whisper gestartet, 2130MB frei
 
 ## Budget heute
-Heute: Text 11/300 | Vision 0/40 | Tokens 41793
+Heute: Text 15/300 | Vision 0/40 | Tokens 55699
