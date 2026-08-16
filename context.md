@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T13:03:15.892147)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T13:06:17.914202)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T13:03:15.877626
+Stand: 2026-08-16T13:06:17.902819
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T13:03:15.877626
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 730
+- Erinnerungen: 731
 - Dienste:
-run: jack_cortex: (pid 7269) 181386s
-down: jack_telegram: 79s, normally up
+run: jack_cortex: (pid 7269) 181568s
+run: jack_telegram: (pid 25695) 69s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 181386s
+run: ollama: (pid 7266) 181568s
 
 ## Letzte Aenderungen
 d0bd542 fix: input_text+ui_text in STEPS-Dict
@@ -181,14 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 12:39:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:39:51] EXPLORE | Xiaomi: CPU=Load: 4.20 RAM=1499MB frei Akku=100% Temp=36.0C
-[2026-08-16 12:39:51] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:44:51] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 12:44:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:44:54] EXPLORE | Xiaomi: CPU=Load: 3.94 RAM=1437MB frei Akku=100% Temp=35.6C
-[2026-08-16 12:44:54] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:49:54] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 12:49:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:49:56] EXPLORE | Xiaomi: CPU=Load: 4.78 RAM=1627MB frei Akku=100% Temp=35.4C
 [2026-08-16 12:49:56] SHADOW-FIXER | Keine offenen Fehler
@@ -201,6 +193,14 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 13:00:00] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 13:00:02] EXPLORE | Xiaomi: CPU=Load: 4.05 RAM=1416MB frei Akku=100% Temp=35.4C
 [2026-08-16 13:00:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:03:39] MONITOR-DIENST-TOT | jack_telegram
+[2026-08-16 13:03:40] MONITOR-EVENT | 1 Events
+[2026-08-16 13:05:02] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 13:05:02] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 13:05:05] EXPLORE | Xiaomi: CPU=Load: 4.83 RAM=1141MB frei Akku=100% Temp=35.8C
+[2026-08-16 13:05:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 13:05:35] GUARD-OK | whisper gestartet, 2611MB frei
+[2026-08-16 13:05:42] MONITOR-EVENT | 1 Events
 
 ## Budget heute
-Heute: Text 86/300 | Vision 0/40 | Tokens 328198
+Heute: Text 87/300 | Vision 0/40 | Tokens 334715
