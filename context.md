@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T14:08:06.648042)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T14:09:39.959803)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T14:08:06.627425
+Stand: 2026-08-16T14:09:39.950052
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T14:08:06.627425
 - Offene Fehler: 0
 - Erinnerungen: 743
 - Dienste:
-run: jack_cortex: (pid 13470) 182s
-run: jack_telegram: (pid 13469) 182s
+run: jack_cortex: (pid 18564) 0s
+run: jack_telegram: (pid 18562) 0s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 13471) 182s
+run: ollama: (pid 18563) 0s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,8 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:02:22] EXEC | ssh xiaomi-jack "su -c 'ps -A | grep -E \"jack|python\"| head -5'" | rc=0
-[2026-08-16 14:02:23] EXEC | python3 -c "print(43800//1000,'Grad')" | rc=0
 [2026-08-16 14:02:23] EXPLORE | Xiaomi: CPU=Load: 4.77 RAM=972MB frei Akku=100% Temp=34.5C
 [2026-08-16 14:02:23] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 14:02:23] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
@@ -201,6 +199,8 @@ echo "=== | rc=0
 [2026-08-16 14:05:07] EXEC | cat ~/jack/jack_lernlog.txt | rc=0
 [2026-08-16 14:05:19] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
 [2026-08-16 14:06:27] SCOUT-LAUF | 56d01a86a01a35ba
+[2026-08-16 14:08:38] LOKAL-INFERENZ | llama3.2:3b | allgemein | 8.5s | 67.1C
+[2026-08-16 14:09:39] WAECHTER-START | Nacht-Ueberwachung mit Queue
 
 ## Budget heute
-Heute: Text 93/300 | Vision 0/40 | Tokens 364302
+Heute: Text 97/300 | Vision 0/40 | Tokens 372355
