@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:26:53.631359)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:29:55.389677)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:26:53.616048
+Stand: 2026-08-16T12:29:55.375257
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T12:26:53.616048
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 723
+- Erinnerungen: 724
 - Dienste:
-run: jack_cortex: (pid 7269) 179204s
-run: jack_telegram: (pid 24530) 17s
+run: jack_cortex: (pid 7269) 179386s
+run: jack_telegram: (pid 24530) 199s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 179204s
+run: ollama: (pid 7266) 179386s
 
 ## Letzte Aenderungen
 e542540 fix: importlib.reload jack_planner bei jedem Plan-Run
@@ -181,14 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import os
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
-[2026-08-16 12:23:19] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_telegram.py')
-s= | rc=0
-[2026-08-16 12:24:40] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 12:24:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:24:42] EXPLORE | Xiaomi: CPU=Load: 4.75 RAM=1367MB frei Akku=100% Temp=36.8C
 [2026-08-16 12:24:42] SHADOW-FIXER | Keine offenen Fehler
@@ -201,6 +193,14 @@ code=(
 import os
 p=os.path.expanduser('~/jack/jack_telegram.py')
 s= | rc=0
+[2026-08-16 12:28:29] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 12:29:43] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 12:29:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 12:29:45] EXPLORE | Xiaomi: CPU=Load: 7.01 RAM=1287MB frei Akku=100% Temp=37.9C
+[2026-08-16 12:29:45] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 84/300 | Vision 0/40 | Tokens 314767
+Heute: Text 85/300 | Vision 0/40 | Tokens 321295
