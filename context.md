@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T14:15:43.415463)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T14:18:45.607084)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T14:15:43.403018
+Stand: 2026-08-16T14:18:45.573806
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T14:15:43.403018
 - Offene Fehler: 0
 - Erinnerungen: 745
 - Dienste:
-run: jack_cortex: (pid 18564) 364s
-run: jack_telegram: (pid 18562) 364s
+run: jack_cortex: (pid 18564) 546s
+run: jack_telegram: (pid 18562) 546s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 364s
+run: ollama: (pid 18563) 546s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -181,7 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 14:05:19] EXEC | echo "$(date): Mission 8 - Zero-Touch via Claude push_plan bestaetigt" >> ~/jack | rc=0
 [2026-08-16 14:06:27] SCOUT-LAUF | 56d01a86a01a35ba
 [2026-08-16 14:08:38] LOKAL-INFERENZ | llama3.2:3b | allgemein | 8.5s | 67.1C
 [2026-08-16 14:09:39] WAECHTER-START | Nacht-Ueberwachung mit Queue
@@ -201,6 +200,7 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 14:14:44] EXPLORE | Xiaomi: CPU=Load: 3.95 RAM=1209MB frei Akku=100% Temp=34.3C
 [2026-08-16 14:14:44] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 14:15:33] EXEC | grep -q "termux-wake-lock" ~/.bashrc || echo "termux-wake-lock" >> ~/.bashrc &&  | rc=0
+[2026-08-16 14:18:15] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 97/300 | Vision 0/40 | Tokens 377524
