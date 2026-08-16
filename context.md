@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:05:40.903861)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:08:42.515261)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:05:40.890429
+Stand: 2026-08-16T12:08:42.505630
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -149,10 +149,10 @@ Stand: 2026-08-16T12:05:40.890429
 - Offene Fehler: 0
 - Erinnerungen: 719
 - Dienste:
-run: jack_cortex: (pid 7269) 177931s
-run: jack_telegram: (pid 17685) 1711s
+run: jack_cortex: (pid 7269) 178113s
+run: jack_telegram: (pid 17685) 1893s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 177931s
+run: ollama: (pid 7266) 178113s
 
 ## Letzte Aenderungen
 9ca00e9 feat: jack_ghost.py - Ghost Touch live, erster Tap verifiziert (4P.de)
@@ -180,12 +180,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 11:59:28] EXPLORE | Xiaomi: CPU=Load: 6.23 RAM=1264MB frei Akku=100% Temp=36.1C
-[2026-08-16 11:59:28] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:01:16] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_ghost.py')
-s=ope | rc=0
 [2026-08-16 12:02:02] EXEC | python3 - << 'PEOF'
 import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
@@ -200,6 +194,12 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 12:05:10] EXEC | python3 - << 'PEOF'
 import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 12:05:59] EXEC | python3 - << 'PEOF'
+import sys
+sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 12:07:02] EXEC | python3 - << 'PEOF'
+import sys, time
+sys.path.insert(0,'/data/data/com.termux/fi | rc=0
 
 ## Budget heute
 Heute: Text 80/300 | Vision 0/40 | Tokens 295599
