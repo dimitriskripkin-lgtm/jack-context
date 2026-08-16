@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T15:28:29.856523)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T15:31:31.529715)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T15:28:29.842094
+Stand: 2026-08-16T15:31:31.509276
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,12 +148,12 @@ Stand: 2026-08-16T15:28:29.842094
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 759
+- Erinnerungen: 760
 - Dienste:
-run: jack_cortex: (pid 18564) 4730s
-run: jack_telegram: (pid 18562) 4730s
+run: jack_cortex: (pid 18564) 4912s
+run: jack_telegram: (pid 18562) 4912s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 4730s
+run: ollama: (pid 18563) 4912s
 
 ## Letzte Aenderungen
 a99b932 chore: README.md aktualisiert und Portfolio-Polish
@@ -188,6 +188,8 @@ mv *.bak* archiv_cleanup | rc=0
 [2026-08-16 15:20:24] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 15:25:27] EXPLORE | Xiaomi: CPU=Load: 4.71 RAM=1610MB frei Akku=100% Temp=31.0C
 [2026-08-16 15:25:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 15:30:30] EXPLORE | Xiaomi: CPU=Load: 4.00 RAM=1658MB frei Akku=100% Temp=30.6C
+[2026-08-16 15:30:30] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 101/300 | Vision 0/40 | Tokens 382270
