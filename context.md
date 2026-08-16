@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T10:52:53.907804)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T10:55:55.636859)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T10:52:53.895618
+Stand: 2026-08-16T10:55:55.612114
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -144,12 +144,12 @@ Stand: 2026-08-16T10:52:53.895618
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 704
+- Erinnerungen: 705
 - Dienste:
-run: jack_cortex: (pid 7269) 173564s
-run: jack_telegram: (pid 13757) 176s
+run: jack_cortex: (pid 7269) 173746s
+run: jack_telegram: (pid 13757) 358s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 173564s
+run: ollama: (pid 7266) 173746s
 
 ## Letzte Aenderungen
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
@@ -177,13 +177,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 10:38:42] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 10:38:43] GUARD-OK | whisper gestartet, 3253MB frei
-[2026-08-16 10:41:40] GUARD-OK | whisper gestartet, 2989MB frei
-[2026-08-16 10:42:49] GUARD-OK | whisper gestartet, 3012MB frei
-[2026-08-16 10:43:24] GUARD-OK | whisper gestartet, 2971MB frei
-[2026-08-16 10:43:43] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 10:43:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 10:43:45] EXPLORE | Xiaomi: CPU=Load: 3.46 RAM=2280MB frei Akku=100% Temp=31.5C
 [2026-08-16 10:43:45] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 10:47:04] DATEI-SCHREIBEN | surprise_me.txt | 28 Zeichen
@@ -197,6 +190,13 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 10:50:55] EXEC | echo "Kanal steht" && date && free -m | head -2 | rc=0
 [2026-08-16 10:51:04] EXEC | ls -la ~/jack_werkstatt | tail -5 && echo "---" && sv status jack_telegram jack_ | rc=0
 [2026-08-16 10:51:28] DATEI-SCHREIBEN | jack_architektur.txt | 1307 Zeichen
+[2026-08-16 10:52:55] EXEC | python3 ~/jack/jack_subagent.py | rc=0
+[2026-08-16 10:53:03] EXEC | grep -n "groq\|Groq" ~/jack/jack_persona.md | head -5 | rc=0
+[2026-08-16 10:53:13] EXEC | cat ~/jack_werkstatt/jack_architektur.txt | rc=0
+[2026-08-16 10:53:49] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 10:53:49] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 10:53:51] EXPLORE | Xiaomi: CPU=Load: 4.25 RAM=2342MB frei Akku=100% Temp=31.7C
+[2026-08-16 10:53:51] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 50/300 | Vision 0/40 | Tokens 174554
