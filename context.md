@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:32:20.260886)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:35:22.067715)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:32:20.248163
+Stand: 2026-08-16T11:35:22.056262
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,14 +146,16 @@ Stand: 2026-08-16T11:32:20.248163
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 712
+- Erinnerungen: 713
 - Dienste:
-run: jack_cortex: (pid 7269) 175931s
-run: jack_telegram: (pid 10419) 166s
+run: jack_cortex: (pid 7269) 176113s
+run: jack_telegram: (pid 14902) 51s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 175931s
+run: ollama: (pid 7266) 176113s
 
 ## Letzte Aenderungen
+9860142 feat: Subagent in proaktiv_check - 4 Agenten parallel
+e498cd2 feat: jack_critic - Schadcode-Pruefung vor jedem Datei-Write
 4c4c50d auto-backup vor write
 7055c53 feat: ReAct-Loop bei EXEC-Fehler, EXEC-Parser gehaertet
 5cf5569 fix: Persona LLM-Architektur, Datei-Fallback entfernt, EXEC-Kanal live
@@ -167,8 +169,6 @@ b700c5e fix: datei_schreiben korrekt in elif-Kette - kein unbekannt mehr
 cd293bb fix: _pre -> d in datei_schreiben handler
 4bb67cd feat: datei_schreiben Intent eingebaut
 d8a9411 fix: Live-Fakten als unveraenderliche Zone - kein Halluzinieren mehr
-5586887 fix: ssh_check Keywords fuer Erreichbarkeit erweitert
-0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -179,19 +179,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 11:29:12] EXPLORE | Xiaomi: CPU=Load: 4.13 RAM=2291MB frei Akku=100% Temp=31.5C
-[2026-08-16 11:29:12] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:29:21] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_write.py')
-s=ope | rc=0
-[2026-08-16 11:29:48] DATEI-SCHREIBEN | jack_neue_faehigkeiten.txt | 1147 Zeichen
-[2026-08-16 11:29:59] EXEC | cd ~/jack && git log --oneline | head -5 | rc=0
-[2026-08-16 11:31:54] EXEC | python3 - << 'PEOF'
-import os
-p = os.path.expanduser('~/jack/jack_critic.py')
-K  | rc=0
-[2026-08-16 11:32:06] EXEC | cd ~/jack && python3 -c "
 import jack_critic as c
 print(c.pruefe('x=1'))
 print(c | rc=0
@@ -199,6 +186,19 @@ print(c | rc=0
 import os
 p=os.path.expanduser('~/jack/jack_write.py')
 s=ope | rc=0
+[2026-08-16 11:33:18] EXEC | cd ~/jack && python3 -c "
+import jack_critic as c
+p = chr(47)+'tmp'+chr(47)+'boe | rc=0
+[2026-08-16 11:33:39] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_critic - Schadcode-Pruefung | rc=0
+[2026-08-16 11:34:12] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:34:12] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:34:15] EXPLORE | Xiaomi: CPU=Load: 4.38 RAM=2243MB frei Akku=100% Temp=32.2C
+[2026-08-16 11:34:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 11:34:21] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_intent.py')
+s=op | rc=0
+[2026-08-16 11:34:52] EXEC | cd ~/jack && git add -A && git commit -m "feat: Subagent in proaktiv_check - 4 A | rc=0
 
 ## Budget heute
 Heute: Text 69/300 | Vision 0/40 | Tokens 237954
