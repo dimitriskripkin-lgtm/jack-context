@@ -161,3 +161,8 @@ s=op | rc=0
 [2026-08-16 16:56:00] EXEC | python3 - << 'PEOF'
 import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 16:56:43] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 16:56:44] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
+[2026-08-16 16:57:39] LOKAL-INFERENZ | llama3.2:3b | allgemein | 33.5s | 86.5C
+[2026-08-16 16:58:45] EXPLORE | Xiaomi: CPU=Load: 4.24 RAM=1184MB frei Akku=100% Temp=37.4C
+[2026-08-16 16:58:45] SHADOW-FIXER | Keine offenen Fehler

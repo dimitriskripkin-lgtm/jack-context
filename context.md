@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:56:20.262373)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:59:22.022265)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:56:20.246551
+Stand: 2026-08-16T16:59:22.007663
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-16T16:56:20.246551
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 774
+- Erinnerungen: 775
 - Dienste:
-run: jack_cortex: (pid 22069) 39s
-run: jack_telegram: (pid 22068) 39s
+run: jack_cortex: (pid 22069) 221s
+run: jack_telegram: (pid 22068) 221s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 10001s
+run: ollama: (pid 18563) 10183s
 
 ## Letzte Aenderungen
 4a83395 feat: jack_explorer_deep
@@ -186,11 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 16:53:06] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_outcome.py')
-s=o | rc=0
-[2026-08-16 16:53:16] EXEC | grep -n "def main\|while True\|sleep\|explore" ~/jack/jack_cortex.py | head -10 | rc=0
 [2026-08-16 16:53:24] EXEC | ls -la ~/jack_werkstatt/linkedin_post.txt && head -5 ~/jack_werkstatt/linkedin_p | rc=0
 [2026-08-16 16:53:42] EXPLORE | Xiaomi: CPU=Load: 4.43 RAM=1220MB frei Akku=100% Temp=37.8C
 [2026-08-16 16:53:42] SHADOW-FIXER | Keine offenen Fehler
@@ -206,6 +201,11 @@ s=op | rc=0
 [2026-08-16 16:56:00] EXEC | python3 - << 'PEOF'
 import sys
 sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
+[2026-08-16 16:56:43] EXEC | sv status jack_telegram jack_cortex jack_waechter ollama | grep -c run | rc=0
+[2026-08-16 16:56:44] EXEC | python3 -c "import sys;sys.path.insert(0,'/data/data/com.termux/files/home/jack' | rc=0
+[2026-08-16 16:57:39] LOKAL-INFERENZ | llama3.2:3b | allgemein | 33.5s | 86.5C
+[2026-08-16 16:58:45] EXPLORE | Xiaomi: CPU=Load: 4.24 RAM=1184MB frei Akku=100% Temp=37.4C
+[2026-08-16 16:58:45] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 109/300 | Vision 0/40 | Tokens 426426
