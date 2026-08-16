@@ -4838,3 +4838,17 @@ sys.path.insert(0,'/data/data/c | rc=0
 [2026-08-16 12:14:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:14:37] EXPLORE | Xiaomi: CPU=Load: 4.30 RAM=1506MB frei Akku=100% Temp=36.9C
 [2026-08-16 12:14:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:14:56] EXEC | python3 - << 'PEOF'
+import os
+L=chr(10); Q=chr(39); D=chr(34)
+code=(
+"import jso | rc=0
+[2026-08-16 12:15:07] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_telegram.py')
+s= | rc=0
+[2026-08-16 12:16:44] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 12:16:57] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_planner.py + PLAN-Marker -  | rc=0

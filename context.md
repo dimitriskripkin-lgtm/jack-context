@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:14:46.038211)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:17:47.830040)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:14:46.023353
+Stand: 2026-08-16T12:17:47.812711
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -28,7 +28,7 @@ Stand: 2026-08-16T12:14:46.023353
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
 
-## Aktive Module (114)
+## Aktive Module (115)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -88,6 +88,7 @@ Stand: 2026-08-16T12:14:46.023353
 - jack_patch.py
 - jack_patch_memory.py
 - jack_personality.py
+- jack_planner.py
 - jack_publish.py
 - jack_queue.py
 - jack_radar.py
@@ -148,12 +149,13 @@ Stand: 2026-08-16T12:14:46.023353
 - Offene Fehler: 0
 - Erinnerungen: 721
 - Dienste:
-run: jack_cortex: (pid 7269) 178477s
-run: jack_telegram: (pid 17685) 2257s
+run: jack_cortex: (pid 7269) 178658s
+run: jack_telegram: (pid 15550) 150s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 178477s
+run: ollama: (pid 7266) 178658s
 
 ## Letzte Aenderungen
+d47eba4 feat: jack_planner.py + PLAN-Marker - Level 4 autonome Plaene live
 9ca00e9 feat: jack_ghost.py - Ghost Touch live, erster Tap verifiziert (4P.de)
 c019895 fix: Subagent Akku-Format, Log-Zeile gefiltert
 9860142 feat: Subagent in proaktiv_check - 4 Agenten parallel
@@ -168,7 +170,6 @@ ae6d02c fix: Persona klargestellt - JACK kann Dateien schreiben
 af70869 fix: datei_schreiben mit Inline-Button in handle() verdrahtet
 b700c5e fix: datei_schreiben korrekt in elif-Kette - kein unbekannt mehr
 7580954 fix: propose_write -> propose in datei_schreiben
-cd293bb fix: _pre -> d in datei_schreiben handler
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -179,26 +180,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 12:07:02] EXEC | python3 - << 'PEOF'
-import sys, time
-sys.path.insert(0,'/data/data/com.termux/fi | rc=0
-[2026-08-16 12:08:46] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
-[2026-08-16 12:09:32] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 12:09:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 12:09:34] EXPLORE | Xiaomi: CPU=Load: 16.80 RAM=1247MB frei Akku=100% Temp=45.0C
-[2026-08-16 12:09:34] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 12:10:42] EXEC | python3 - << 'PEOF'
-import sys, time, subprocess
-sys.path.insert(0,'/data/data/c | rc=0
-[2026-08-16 12:11:53] EXEC | python3 - << 'PEOF'
 import sys, time, subprocess
 sys.path.insert(0,'/data/data/c | rc=0
 [2026-08-16 12:14:35] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-16 12:14:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:14:37] EXPLORE | Xiaomi: CPU=Load: 4.30 RAM=1506MB frei Akku=100% Temp=36.9C
 [2026-08-16 12:14:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:14:56] EXEC | python3 - << 'PEOF'
+import os
+L=chr(10); Q=chr(39); D=chr(34)
+code=(
+"import jso | rc=0
+[2026-08-16 12:15:07] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_telegram.py')
+s= | rc=0
+[2026-08-16 12:16:44] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_planner.py')
+s=o | rc=0
+[2026-08-16 12:16:57] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_planner.py + PLAN-Marker -  | rc=0
 
 ## Budget heute
 Heute: Text 81/300 | Vision 0/40 | Tokens 300788
