@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T16:04:50.713046)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T16:07:52.548437)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T16:04:50.700484
+Stand: 2026-08-16T16:07:52.538394
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,10 +154,10 @@ Stand: 2026-08-16T16:04:50.700484
 - Offene Fehler: 0
 - Erinnerungen: 766
 - Dienste:
-run: jack_cortex: (pid 18564) 6911s
-run: jack_telegram: (pid 7099) 217s
+run: jack_cortex: (pid 18564) 7093s
+run: jack_telegram: (pid 11709) 42s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 6911s
+run: ollama: (pid 18563) 7093s
 
 ## Letzte Aenderungen
 c46791f feat: Skill-Lifecycle verifiziert - CANDIDATE/TESTING/VERIFIED live
@@ -185,13 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-p=os.path.expanduser('~/jack/jack_planner.py')
-s=o | rc=0
-[2026-08-16 15:55:11] EXEC | echo jacklaeuft | rc=0
-[2026-08-16 15:55:45] EXPLORE | Xiaomi: CPU=Load: 3.66 RAM=1662MB frei Akku=100% Temp=30.0C
-[2026-08-16 15:55:45] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 15:56:23] LOKAL-INFERENZ | llama3.2:3b | allgemein | 7.7s | 63.7C
-[2026-08-16 15:56:29] EXEC | echo jacklaeuft | rc=0
 [2026-08-16 15:56:37] EXEC | echo jacklaeuft | rc=0
 [2026-08-16 15:56:42] EXEC | echo jacklaeuft | rc=0
 [2026-08-16 15:57:48] EXEC | cd ~/jack && git add -A && git commit -m "feat: Skill-Lifecycle verifiziert - CA | rc=0
@@ -205,6 +198,13 @@ import os, json, time
 L=chr(10)
 code=(
 "import subprocess, o | rc=0
+[2026-08-16 16:05:48] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-16 16:06:30] LOKAL-INFERENZ | llama3.2:3b | allgemein | 6.8s | 65.6C
+[2026-08-16 16:06:50] EXEC | ssh xiaomi-jack "echo SSH_OK" && echo "SSH lebt" || echo "SSH tot - reconnect no | rc=0
+[2026-08-16 16:07:01] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer.py')
+s= | rc=0
 
 ## Budget heute
 Heute: Text 104/300 | Vision 0/40 | Tokens 385793

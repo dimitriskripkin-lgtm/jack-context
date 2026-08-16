@@ -87,3 +87,10 @@ import os, json, time
 L=chr(10)
 code=(
 "import subprocess, o | rc=0
+[2026-08-16 16:05:48] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-16 16:06:30] LOKAL-INFERENZ | llama3.2:3b | allgemein | 6.8s | 65.6C
+[2026-08-16 16:06:50] EXEC | ssh xiaomi-jack "echo SSH_OK" && echo "SSH lebt" || echo "SSH tot - reconnect no | rc=0
+[2026-08-16 16:07:01] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_explorer.py')
+s= | rc=0
