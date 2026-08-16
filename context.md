@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T11:26:14.573045)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T11:29:18.548767)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T11:26:14.557910
+Stand: 2026-08-16T11:29:18.534971
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -145,14 +145,15 @@ Stand: 2026-08-16T11:26:14.557910
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 711
+- Erinnerungen: 712
 - Dienste:
-run: jack_cortex: (pid 7269) 175565s
-run: jack_telegram: (pid 6272) 4s
+run: jack_cortex: (pid 7269) 175749s
+run: jack_telegram: (pid 8023) 80s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 175565s
+run: ollama: (pid 7266) 175749s
 
 ## Letzte Aenderungen
+7055c53 feat: ReAct-Loop bei EXEC-Fehler, EXEC-Parser gehaertet
 5cf5569 fix: Persona LLM-Architektur, Datei-Fallback entfernt, EXEC-Kanal live
 d82ce76 feat: EXEC-Marker mit Bestaetigungs-Button - Befehle direkt aus Telegram
 02e464c feat: WRITE-Marker - Gemini kann Dateien direkt vorschlagen mit Auto-Button
@@ -167,7 +168,6 @@ d8a9411 fix: Live-Fakten als unveraenderliche Zone - kein Halluzinieren mehr
 5586887 fix: ssh_check Keywords fuer Erreichbarkeit erweitert
 0191092 fix: Intent nur bei echten Befehlen - Start-Wort oder kurze Nachricht
 d18fc63 feat: Rolling Window - letzte 10 Nachrichten im RAM fuer Gemini-Kontext
-2d0afbd fix: schreib und proaktiv Intent auch bei langen Saetzen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -178,26 +178,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-p=os.path.expanduser('~/jack/jack_telegram.py')
-s= | rc=0
-[2026-08-16 11:23:18] EXEC | sed -n '483,498p' ~/jack/jack_telegram.py | rc=0
-[2026-08-16 11:23:48] DATEI-SCHREIBEN | zufallstext_jack.txt | 41 Zeichen
-[2026-08-16 11:24:07] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 11:24:07] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-16 11:24:09] EXPLORE | Xiaomi: CPU=Load: 5.41 RAM=2168MB frei Akku=100% Temp=31.7C
-[2026-08-16 11:24:09] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-16 11:24:53] EXEC | cd ~/jack && git add -A && git commit -m "fix: Persona LLM-Architektur, Datei-Fa | rc=0
-[2026-08-16 11:25:12] EXEC | python3 - << 'PEOF'
-import os
-p=os.path.expanduser('~/jack/jack_exec.py')
-s=open | rc=1
-[2026-08-16 11:25:26] EXEC | cat > ~/jack/jack_react.py << 'PEOF'
 import os, sys
 sys.path.insert(0, os.path.e | rc=0
 [2026-08-16 11:26:00] EXEC | python3 - << 'PEOF'
 import os
 p=os.path.expanduser('~/jack/jack_telegram.py')
 s= | rc=0
+[2026-08-16 11:26:20] EXEC | cat ~/jack/gibtesnicht.txt | rc=1
+[2026-08-16 11:27:46] EXEC | python3 - << 'PEOF'
+import os
+p=os.path.expanduser('~/jack/jack_exec.py')
+s=open | rc=0
+[2026-08-16 11:28:08] EXEC | ls /tmp/jackdaten | rc=2
+[2026-08-16 11:28:23] EXEC | python3 -c "import jack_exec; print(jack_exec.extrahiere('test'))" | rc=0
+[2026-08-16 11:29:07] EXEC | cd ~/jack && git add -A && git commit -m "feat: ReAct-Loop bei EXEC-Fehler, EXEC | rc=0
+[2026-08-16 11:29:10] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-16 11:29:10] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-16 11:29:10] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 11:29:10] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 11:29:12] EXPLORE | Xiaomi: CPU=Load: 4.13 RAM=2291MB frei Akku=100% Temp=31.5C
+[2026-08-16 11:29:12] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 66/300 | Vision 0/40 | Tokens 229590
+Heute: Text 68/300 | Vision 0/40 | Tokens 230983
