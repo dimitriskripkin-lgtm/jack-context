@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:35:59.211436)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:39:01.275199)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:35:59.197106
+Stand: 2026-08-16T12:39:01.263035
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-16T12:35:59.197106
 - Offene Fehler: 0
 - Erinnerungen: 725
 - Dienste:
-run: jack_cortex: (pid 7269) 179750s
-run: jack_telegram: (pid 29925) 126s
+run: jack_cortex: (pid 7269) 179932s
+run: jack_telegram: (pid 29925) 308s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 179750s
+run: ollama: (pid 7266) 179932s
 
 ## Letzte Aenderungen
 d0bd542 fix: input_text+ui_text in STEPS-Dict
