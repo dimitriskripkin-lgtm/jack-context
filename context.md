@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T12:08:42.515261)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T12:11:44.369373)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T12:08:42.505630
+Stand: 2026-08-16T12:11:44.352944
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-08-16T12:08:42.505630
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht).
+- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer bei Dalhoff Feinkost in Achim (Nachtschicht), KEIN Fernfahrer.
 - Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
 - Dima hat eine Investmentwohnung in Essen.
@@ -27,7 +27,6 @@ Stand: 2026-08-16T12:08:42.505630
 - JACK ist "Just Autonomous Command Kit" und soll offline-first agieren.
 - Dima hat einen Telegram Bot @jackdimachat_bot als Interface.
 - Dima hat KEINEN Hund.
-- Dima ist LKW-Fahrer mit Sprinter Kühlkoffer, KEIN Fernfahrer.
 
 ## Aktive Module (114)
 - install_litert.py
@@ -147,12 +146,12 @@ Stand: 2026-08-16T12:08:42.505630
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 719
+- Erinnerungen: 720
 - Dienste:
-run: jack_cortex: (pid 7269) 178113s
-run: jack_telegram: (pid 17685) 1893s
+run: jack_cortex: (pid 7269) 178295s
+run: jack_telegram: (pid 17685) 2075s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 7266) 178113s
+run: ollama: (pid 7266) 178295s
 
 ## Letzte Aenderungen
 9ca00e9 feat: jack_ghost.py - Ghost Touch live, erster Tap verifiziert (4P.de)
@@ -180,14 +179,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-16 12:02:02] EXEC | python3 - << 'PEOF'
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 12:02:19] EXEC | python3 - << 'PEOF'
-import sys
-sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
-[2026-08-16 12:04:29] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-16 12:04:29] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-16 12:04:32] EXPLORE | Xiaomi: CPU=Load: 5.14 RAM=1066MB frei Akku=100% Temp=36.3C
 [2026-08-16 12:04:32] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-16 12:04:48] EXEC | cd ~/jack && git add -A && git commit -m "feat: jack_ghost.py - Ghost Touch live | rc=0
@@ -200,6 +191,14 @@ sys.path.insert(0,'/data/data/com.termux/files/ho | rc=0
 [2026-08-16 12:07:02] EXEC | python3 - << 'PEOF'
 import sys, time
 sys.path.insert(0,'/data/data/com.termux/fi | rc=0
+[2026-08-16 12:08:46] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-16 12:09:32] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-16 12:09:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-16 12:09:34] EXPLORE | Xiaomi: CPU=Load: 16.80 RAM=1247MB frei Akku=100% Temp=45.0C
+[2026-08-16 12:09:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-16 12:10:42] EXEC | python3 - << 'PEOF'
+import sys, time, subprocess
+sys.path.insert(0,'/data/data/c | rc=0
 
 ## Budget heute
-Heute: Text 80/300 | Vision 0/40 | Tokens 295599
+Heute: Text 81/300 | Vision 0/40 | Tokens 300788
