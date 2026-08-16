@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-16T17:50:50.891887)
+# JACK LIVE-KONTEXT (auto, 2026-08-16T17:53:52.557569)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-16T17:50:50.880490
+Stand: 2026-08-16T17:53:52.540869
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -156,12 +156,13 @@ Stand: 2026-08-16T17:50:50.880490
 - Offene Fehler: 0
 - Erinnerungen: 785
 - Dienste:
-run: jack_cortex: (pid 22069) 3309s
-run: jack_telegram: (pid 8176) 130s
+run: jack_cortex: (pid 22069) 3491s
+run: jack_telegram: (pid 11952) 8s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 13271s
+run: ollama: (pid 18563) 13453s
 
 ## Letzte Aenderungen
+3d5a69e fix: _termux_cmd definiert, /ssh funktioniert mit echtem Output
 5c44716 feat: /ssh Befehl - direkter SSH-Output ohne Gemini-Umweg
 0c37194 fix: netz_da multi-URL, agent immer Dollar-Prefix fuer SSH
 e72bbc4 feat: /agent - ReAct UI-Agent mit Gemini live auf Xiaomi
@@ -176,7 +177,6 @@ a99b932 chore: README.md aktualisiert und Portfolio-Polish
 cbaf12c feat: Mission 1-8 abgeschlossen, Zero-Touch live, jack_lernlog persistiert
 fc527e9 inbox: Mission 8 - Zero Touch von Claude
 15e0710 feat: chrome_search in STEPS-Dict registriert
-64b89b1 feat: step_chrome_search - direkt Google via am start
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -209,4 +209,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-16 17:49:14] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 146/300 | Vision 0/40 | Tokens 481784
+Heute: Text 147/300 | Vision 0/40 | Tokens 482785
