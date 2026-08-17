@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T20:15:21.797610)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T20:18:23.593707)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T20:15:21.783964
+Stand: 2026-08-17T20:18:23.583381
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,14 +153,16 @@ Stand: 2026-08-17T20:15:21.783964
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1095
+- Erinnerungen: 1096
 - Dienste:
-run: jack_cortex: (pid 25040) 29946s
-run: jack_telegram: (pid 9120) 336s
+run: jack_cortex: (pid 25040) 30128s
+run: jack_telegram: (pid 9120) 518s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 108342s
+run: ollama: (pid 18563) 108524s
 
 ## Letzte Aenderungen
+c225406 Genesis: Multi-Log-Quellen + Traceback-Detection
+c5ebea5 Genesis: echte Fix-Logik statt Dummy-echo
 14992a1 P0 Fix: rag/autolearn_status/ingest_status in handle(), tote Handler entfernt
 c471d83 feat: Vision-REST ohne genai, Chat-Harvester (read+swipe only, tap-frei), Lern-Destillierer, Telegram /vision /harvest /fakten
 1c06a5c fix: TUEV3 Signaturen korrigiert (exec String, critic Tupel)
@@ -174,8 +176,6 @@ ea638f5 fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, d
 50744e9 fix: [:3800]-Kuerzer korrekt entfernt via Python-Replace (sed hat auf Android versagt)
 d75239e fix: send()-Splitter aktiv - [:3800]-Kuerzer aus Router entfernt, push()->build() im Waechter, Privat-Filter fuer context.md
 e7f8e87 security: CLAUDE.md + Alt-Handshakes + Verhaltensprofil untracked, TUEV-Pruefstand aufgenommen, Regex praezisiert
-287a92a feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Konsistenz + Marker-Verbot, Skill-Builder auf Trainer-Schema via Mantel
-4f00f31 feat: Voll-Button-Bedienung - cmd:-Callback routet Buttons durch handle(), Kategorie-Menues als Tap-Grids, Ketten-Schnellwahl
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -186,8 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 19:27:46] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 19:32:49] EXPLORE | Xiaomi: CPU=Load: 6.09 RAM=2099MB frei Akku=100% Temp=33.0C
 [2026-08-17 19:32:49] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 19:37:52] EXPLORE | Xiaomi: CPU=Load: 4.30 RAM=2038MB frei Akku=100% Temp=31.9C
 [2026-08-17 19:37:52] SHADOW-FIXER | Keine offenen Fehler
@@ -206,6 +204,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 20:08:10] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 20:13:12] EXPLORE | Xiaomi: CPU=Load: 4.41 RAM=1727MB frei Akku=100% Temp=34.7C
 [2026-08-17 20:13:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 20:18:15] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=1612MB frei Akku=100% Temp=34.7C
+[2026-08-17 20:18:15] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 74/300 | Vision 37/40 | Tokens 394493
