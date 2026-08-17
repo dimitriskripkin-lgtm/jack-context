@@ -535,3 +535,6 @@ s=op | rc=-9
 [2026-08-17 05:51:40] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 05:56:43] EXPLORE | Xiaomi: CPU=Load: 4.92 RAM=2188MB frei Akku=100% Temp=33.2C
 [2026-08-17 05:56:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 06:00:01] MEMORY-MAINTENANCE | Verbleibend: 52 Eintraege
+[2026-08-17 06:01:47] EXPLORE | Xiaomi: CPU=Load: 4.36 RAM=1967MB frei Akku=100% Temp=32.5C
+[2026-08-17 06:01:47] SHADOW-FIXER | Keine offenen Fehler
