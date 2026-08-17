@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T08:09:21.106348)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T08:12:23.274268)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T08:09:21.086824
+Stand: 2026-08-17T08:12:23.254898
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-08-17T08:09:21.086824
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer im Nachtdienst bei Dalhoff Feinkost in Achim und fährt einen Sprinter Kühlkoffer.
+- Dima arbeitet als LKW-Fahrer im Nachtdienst bei Dalhoff Feinkost in Achim und fährt einen Sprinter Kühlkoffer.
 - Dima hat KEINEN Hund.
 - Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
@@ -154,10 +154,10 @@ Stand: 2026-08-17T08:09:21.086824
 - Offene Fehler: 0
 - Erinnerungen: 954
 - Dienste:
-run: jack_cortex: (pid 18928) 50662s
-run: jack_telegram: (pid 11952) 51337s
+run: jack_cortex: (pid 18928) 50844s
+run: jack_telegram: (pid 11952) 51519s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 64782s
+run: ollama: (pid 18563) 64964s
 
 ## Letzte Aenderungen
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
@@ -207,4 +207,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 08:08:08] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 4/300 | Vision 0/40 | Tokens 20464
+Heute: Text 5/300 | Vision 0/40 | Tokens 25574
