@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T11:32:35.103974)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T15:10:25.591008)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T11:32:35.092630
+Stand: 2026-08-17T15:10:25.579473
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,22 +11,8 @@ Stand: 2026-08-17T11:32:35.092630
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima ist LKW-Fahrer bei Dalhoff Feinkost in Achim und fährt Sprinter Kühlkoffer im Nachtdienst.
-- Dima hat KEINEN Hund.
-- Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
-- Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
-- Dima besitzt eine Investmentwohnung in Essen.
-- Mit JACK baut Dima an seiner Freiheit und Unabhängigkeit.
-- JACK ist ein autonomes, lokales AI-OS, das auf Dimas Honor Magic8 Pro läuft.
-- JACK nutzt Gemini per API-Calls als Haupt-Denkwerkzeug.
-- JACK hat ollama llama3.2:3b als Offline-Fallback.
-- JACK verwendet sqlite-vec als Vektordatenbank.
-- Dima behält die volle Kontrolle über JACK.
-- JACK kann das Xiaomi 11T Pro per SSH ansprechen, die Verbindung ist aber oft instabil.
-- JACK ist "Just Autonomous Command Kit" und legt Wert auf Offline-Fähigkeit.
-- Dimas Interface zu JACK ist ein Telegram Bot namens @jackdimachat_bot.
-
-## Aktive Module (122)
+[PRIVAT GEFILTERT]
+## Aktive Module (124)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -110,6 +96,7 @@ Stand: 2026-08-17T11:32:35.092630
 - jack_sensors.py
 - jack_skill_builder.py
 - jack_skill_lib.py
+- jack_skill_trainer.py
 - jack_skills.py
 - jack_skills_db.py
 - jack_snapshot.py
@@ -119,6 +106,7 @@ Stand: 2026-08-17T11:32:35.092630
 - jack_telegram.py
 - jack_thermal.py
 - jack_traceback.py
+- jack_tuev.py
 - jack_ui.py
 - jack_ui_agent.py
 - jack_v2.py
@@ -151,30 +139,30 @@ Stand: 2026-08-17T11:32:35.092630
 - test_jack_approval.py
 
 ## System-Status
-- Offene Fehler: 0
-- Erinnerungen: 994
+- Offene Fehler: 1
+- Erinnerungen: 1034
 - Dienste:
-run: jack_cortex: (pid 18928) 62856s
-run: jack_telegram: (pid 25962) 1488s
+run: jack_cortex: (pid 25040) 11650s
+run: jack_telegram: (pid 12021) 10140s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 76976s
+run: ollama: (pid 18563) 90046s
 
 ## Letzte Aenderungen
+1c8234a security: CLAUDE.md + Alt-Handshakes + Verhaltensprofil untracked, TUEV-Pruefstand aufgenommen, Regex praezisiert
+a4eca6d feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Konsistenz + Marker-Verbot, Skill-Builder auf Trainer-Schema via Mantel
+9d13c5a feat: Voll-Button-Bedienung - cmd:-Callback routet Buttons durch handle(), Kategorie-Menues als Tap-Grids, Ketten-Schnellwahl
+539bcc2 fix: /kette und /bugfix Handler verdrahtet - Menue war Attrappe, jetzt feuern jack_chains und jack_bugfix_loop
+6a0a734 security: DBs untracked, Anti-Halluzinations-Regel, Test-Eintrag resolved
+cc185a7 fix: ehrliches Quellen-Label in talk, private JSONs geprueft
+6b2a9e7 feat: Einheits-Fehlerkanal via jack_log-Mantel, SSH-Multiplexing global, WAL auf allen DBs, ehrlicher Ollama-Fallback, Skill-Trainer mit Sicherheits-Gate
+a37fbcf security: persona+context endgueltig untracked
+b57b627 security: Persona/Context/Export aus Tracking, Talk-Regel neutralisiert, Cortex ARP-Discovery statt Subnetz-Blindscan
+7e4f7ee refactor: errors.db korrekt verdrahtet, ARP-Discovery, set_level config.ini, Persona lokal, Waechter geheilt, private Dateien untracked
 3a3a094 fix: intent liest config.ini statt .autonomie_level, Cortex IP-Find auf log_status
 1c2301e fix: Schema-Queries auf state/VERIFIED, Briefing-Fehler geloggt, Circuit-Breaker Cooldown+Reset
 eb59bdb Circuit Breaker gefixt: Reset nach 300s Cooldown, cb_fail nur bei finalem Fehlschlag, UnboundLocalError behoben
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
 647cbd8 fix: _termux_cmd definiert, /ssh funktioniert mit echtem Output
-fc25048 feat: /ssh Befehl - direkter SSH-Output ohne Gemini-Umweg
-c551a46 fix: netz_da multi-URL, agent immer Dollar-Prefix fuer SSH
-569eb34 feat: /agent - ReAct UI-Agent mit Gemini live auf Xiaomi
-33fd615 inbox: System Health Check v3
-ce68d65 inbox: System Health Check v2
-79401fc inbox: Outcome Types Test
-d412483 inbox: Retest
-7a4c36c inbox: Level4 Mission 3 - Lernlog
-bc1e4bb inbox: Level4 Mission 2 - Xiaomi Kontrolle
-f9d8024 inbox: Level4 Mission 1 - Systemstatus
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -185,26 +173,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 11:10:00] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 11:15:01] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-17 11:15:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 11:15:03] EXPLORE | Xiaomi: CPU=Load: 4.09 RAM=2158MB frei Akku=100% Temp=31.8C
-[2026-08-17 11:15:03] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 11:20:03] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-17 11:20:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 11:20:05] EXPLORE | Xiaomi: CPU=Load: 4.20 RAM=2034MB frei Akku=100% Temp=32.0C
-[2026-08-17 11:20:05] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 11:21:38] MONITOR-VOLLSCAN | ok
-[2026-08-17 11:25:06] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-17 11:25:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 11:25:08] EXPLORE | Xiaomi: CPU=Load: 4.91 RAM=1760MB frei Akku=100% Temp=32.4C
-[2026-08-17 11:25:08] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 11:30:08] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
-[2026-08-17 11:30:08] SELF-IMPROVE | Tagescheck abgeschlossen
-[2026-08-17 11:30:08] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-17 11:30:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 11:30:11] EXPLORE | Xiaomi: CPU=Load: 4.96 RAM=1758MB frei Akku=100% Temp=32.4C
-[2026-08-17 11:30:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 14:40:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 14:40:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 14:40:08] EXPLORE | Xiaomi: CPU=Load: 4.39 RAM=1812MB frei Akku=100% Temp=32.3C
+[2026-08-17 14:40:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 14:45:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 14:45:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 14:45:11] EXPLORE | Xiaomi: CPU=Load: 4.89 RAM=1916MB frei Akku=100% Temp=34.4C
+[2026-08-17 14:45:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 14:50:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 14:50:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 14:50:14] EXPLORE | Xiaomi: CPU=Load: 3.79 RAM=1911MB frei Akku=100% Temp=32.2C
+[2026-08-17 14:50:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 14:55:14] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 14:55:14] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 14:55:17] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=2366MB frei Akku=100% Temp=31.9C
+[2026-08-17 14:55:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:00:26] EXPLORE | Xiaomi: CPU=Load: 4.18 RAM=2377MB frei Akku=100% Temp=31.8C
+[2026-08-17 15:00:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:05:30] EXPLORE | Xiaomi: CPU=Load: 4.03 RAM=2604MB frei Akku=100% Temp=32.0C
+[2026-08-17 15:05:30] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 30683
+Heute: Text 45/300 | Vision 0/40 | Tokens 262040
