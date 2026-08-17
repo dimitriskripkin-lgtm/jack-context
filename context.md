@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T20:18:23.593707)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T20:21:25.282355)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T20:18:23.583381
+Stand: 2026-08-17T20:21:25.275849
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -155,12 +155,13 @@ Stand: 2026-08-17T20:18:23.583381
 - Offene Fehler: 0
 - Erinnerungen: 1096
 - Dienste:
-run: jack_cortex: (pid 25040) 30128s
-run: jack_telegram: (pid 9120) 518s
+run: jack_cortex: (pid 25040) 30310s
+run: jack_telegram: (pid 9120) 700s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 108524s
+run: ollama: (pid 18563) 108706s
 
 ## Letzte Aenderungen
+8432665 Genesis: Threshold auf 1 für Testing
 c225406 Genesis: Multi-Log-Quellen + Traceback-Detection
 c5ebea5 Genesis: echte Fix-Logik statt Dummy-echo
 14992a1 P0 Fix: rag/autolearn_status/ingest_status in handle(), tote Handler entfernt
@@ -175,7 +176,6 @@ ea638f5 fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, d
 9dc752b fix: jack_voice_el.py Stub - verhindert crash in Voice-Loop, Groq-Quelle ermitteln
 50744e9 fix: [:3800]-Kuerzer korrekt entfernt via Python-Replace (sed hat auf Android versagt)
 d75239e fix: send()-Splitter aktiv - [:3800]-Kuerzer aus Router entfernt, push()->build() im Waechter, Privat-Filter fuer context.md
-e7f8e87 security: CLAUDE.md + Alt-Handshakes + Verhaltensprofil untracked, TUEV-Pruefstand aufgenommen, Regex praezisiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
