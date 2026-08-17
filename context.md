@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T20:39:37.067331)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T20:42:38.959818)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T20:39:37.053065
+Stand: 2026-08-17T20:42:38.946299
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -14,7 +14,7 @@ Stand: 2026-08-17T20:39:37.053065
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (135)
+## Aktive Module (136)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -77,6 +77,7 @@ Stand: 2026-08-17T20:39:37.053065
 - jack_memory_tree.py
 - jack_missions.py
 - jack_monitor.py
+- jack_observer.py
 - jack_operator.py
 - jack_oracle.py
 - jack_orchestrator.py
@@ -155,12 +156,13 @@ Stand: 2026-08-17T20:39:37.053065
 - Offene Fehler: 0
 - Erinnerungen: 1100
 - Dienste:
-run: jack_cortex: (pid 23373) 245s
-down: jack_telegram: 1s, normally up, want up
+run: jack_cortex: (pid 23373) 426s
+run: jack_telegram: (pid 25026) 165s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 109798s
+run: ollama: (pid 18563) 109979s
 
 ## Letzte Aenderungen
+263394f P1-P4 complete: Timeout-Fix, Deep-TB Parser, /find Grid-Vision, SSH Log-Fix
 765ede6 Genesis: Threshold zurück auf 2
 8432665 Genesis: Threshold auf 1 für Testing
 c225406 Genesis: Multi-Log-Quellen + Traceback-Detection
@@ -175,7 +177,6 @@ a27ba0f fix: errors/akku/log/level im Router, TUEV3 Signaturen korrigiert
 e23f258 fix: TUEV-Regex jack_publish.py ausgenommen (Filter-Regeln sind keine Leaks), NOTIFY-Fehler resolved
 ea638f5 fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, duplikaten Callback-Handler entfernt
 9dc752b fix: jack_voice_el.py Stub - verhindert crash in Voice-Loop, Groq-Quelle ermitteln
-50744e9 fix: [:3800]-Kuerzer korrekt entfernt via Python-Replace (sed hat auf Android versagt)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -186,9 +187,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 19:53:01] EXPLORE | Xiaomi: CPU=Load: 4.40 RAM=2333MB frei Akku=100% Temp=31.4C
-[2026-08-17 19:53:01] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 19:58:04] EXPLORE | Xiaomi: CPU=Load: 4.34 RAM=2034MB frei Akku=100% Temp=31.6C
 [2026-08-17 19:58:04] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 20:03:07] EXPLORE | Xiaomi: CPU=Load: 10.65 RAM=1646MB frei Akku=100% Temp=32.6C
 [2026-08-17 20:03:07] SHADOW-FIXER | Keine offenen Fehler
@@ -206,6 +204,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 20:33:23] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 20:38:26] EXPLORE | Xiaomi: CPU=Load: 3.77 RAM=1927MB frei Akku=100% Temp=33.8C
 [2026-08-17 20:38:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 20:39:37] MONITOR-DIENST-TOT | jack_telegram
+[2026-08-17 20:39:38] MONITOR-EVENT | 1 Events
+[2026-08-17 20:41:39] MONITOR-EVENT | 1 Events
 
 ## Budget heute
 Heute: Text 75/300 | Vision 37/40 | Tokens 399796
