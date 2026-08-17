@@ -971,3 +971,43 @@ s=op | rc=-9
 [2026-08-17 15:35:41] TUEV2-ERR-9 | Lasttest Eintrag 9
 [2026-08-17 15:35:45] EXPLORE | Xiaomi: CPU=Load: 4.60 RAM=2332MB frei Akku=100% Temp=31.9C
 [2026-08-17 15:35:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:37:06] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:37:06] TUEV2-ERR-0 | Lasttest Eintrag 0
+[2026-08-17 15:37:06] TUEV2-ERR-1 | Lasttest Eintrag 1
+[2026-08-17 15:37:06] TUEV2-ERR-2 | Lasttest Eintrag 2
+[2026-08-17 15:37:06] TUEV2-ERR-3 | Lasttest Eintrag 3
+[2026-08-17 15:37:06] TUEV2-ERR-4 | Lasttest Eintrag 4
+[2026-08-17 15:37:06] TUEV2-ERR-5 | Lasttest Eintrag 5
+[2026-08-17 15:37:06] TUEV2-ERR-6 | Lasttest Eintrag 6
+[2026-08-17 15:37:06] TUEV2-ERR-7 | Lasttest Eintrag 7
+[2026-08-17 15:37:06] TUEV2-ERR-8 | Lasttest Eintrag 8
+[2026-08-17 15:37:06] TUEV2-ERR-9 | Lasttest Eintrag 9
+[2026-08-17 15:38:46] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:38:49] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:38:55] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:40:48] EXPLORE | Xiaomi: CPU=Load: 3.67 RAM=2317MB frei Akku=100% Temp=32.0C
+[2026-08-17 15:40:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:45:52] EXPLORE | Xiaomi: CPU=Load: 4.29 RAM=2284MB frei Akku=100% Temp=31.7C
+[2026-08-17 15:45:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:50:55] EXPLORE | Xiaomi: CPU=Load: 3.59 RAM=2259MB frei Akku=100% Temp=31.7C
+[2026-08-17 15:50:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:55:58] EXPLORE | Xiaomi: CPU=Load: 4.22 RAM=2566MB frei Akku=100% Temp=31.6C
+[2026-08-17 15:55:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:56:39] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:56:44] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:56:49] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:01:01] EXPLORE | Xiaomi: CPU=Load: 3.88 RAM=2489MB frei Akku=100% Temp=31.6C
+[2026-08-17 16:01:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:06:04] EXPLORE | Xiaomi: CPU=Load: 5.37 RAM=1693MB frei Akku=100% Temp=32.5C
+[2026-08-17 16:06:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:09:05] TUEV-ERR | Kanaltest
+[2026-08-17 16:11:06] EXPLORE | Xiaomi: CPU=Load: 4.43 RAM=1809MB frei Akku=100% Temp=32.5C
+[2026-08-17 16:11:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:16:09] EXPLORE | Xiaomi: CPU=Load: 4.50 RAM=1767MB frei Akku=100% Temp=32.6C
+[2026-08-17 16:16:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:21:12] EXPLORE | Xiaomi: CPU=Load: 4.45 RAM=1803MB frei Akku=100% Temp=32.3C
+[2026-08-17 16:21:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:21:30] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-17 16:26:15] EXPLORE | Xiaomi: CPU=Load: 3.54 RAM=1996MB frei Akku=100% Temp=32.2C
+[2026-08-17 16:26:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:31:05] WAECHTER-START | Nacht-Ueberwachung mit Queue

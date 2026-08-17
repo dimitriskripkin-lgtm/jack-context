@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T15:37:01.789651)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T16:31:05.517287)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T15:37:01.775454
+Stand: 2026-08-17T16:31:05.501419
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,8 @@ Stand: 2026-08-17T15:37:01.775454
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (126)
+[PRIVAT GEFILTERT]
+## Aktive Module (128)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -109,11 +110,13 @@ Stand: 2026-08-17T15:37:01.775454
 - jack_traceback.py
 - jack_tuev.py
 - jack_tuev2.py
+- jack_tuev3.py
 - jack_ui.py
 - jack_ui_agent.py
 - jack_v2.py
 - jack_vecdb.py
 - jack_vinted_radar.py
+- jack_vision.py
 - jack_voice.py
 - jack_voice_ab_test.py
 - jack_voice_chat_live.py
@@ -143,14 +146,17 @@ Stand: 2026-08-17T15:37:01.775454
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1040
+- Erinnerungen: 1050
 - Dienste:
-run: jack_cortex: (pid 25040) 13246s
-run: jack_telegram: (pid 18438) 775s
+run: jack_cortex: (pid 25040) 16490s
+run: jack_telegram: (pid 7018) 2045s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 91642s
+run: ollama: (pid 18563) 94886s
 
 ## Letzte Aenderungen
+aab8759 fix: Dienste-Liste korrekt (kein jack_autolearn/publisher), _xi() nutzt SSH-Alias, collect_status kein ping+alte-IP, update_identity atomic
+d59b710 fix: errors/akku/log/level im Router, TUEV3 Signaturen korrigiert
+[PRIVAT GEFILTERT]
 cc22923 fix: TUEV-Regex jack_publish.py ausgenommen (Filter-Regeln sind keine Leaks), NOTIFY-Fehler resolved
 48f22ff fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, duplikaten Callback-Handler entfernt
 aa15766 fix: jack_voice_el.py Stub - verhindert crash in Voice-Loop, Groq-Quelle ermitteln
@@ -163,9 +169,6 @@ a4eca6d feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Kons
 6a0a734 security: DBs untracked, Anti-Halluzinations-Regel, Test-Eintrag resolved
 cc185a7 fix: ehrliches Quellen-Label in talk, private JSONs geprueft
 6b2a9e7 feat: Einheits-Fehlerkanal via jack_log-Mantel, SSH-Multiplexing global, WAL auf allen DBs, ehrlicher Ollama-Fallback, Skill-Trainer mit Sicherheits-Gate
-a37fbcf security: persona+context endgueltig untracked
-b57b627 security: Persona/Context/Export aus Tracking, Talk-Regel neutralisiert, Cortex ARP-Discovery statt Subnetz-Blindscan
-7e4f7ee refactor: errors.db korrekt verdrahtet, ARP-Discovery, set_level config.ini, Persona lokal, Waechter geheilt, private Dateien untracked
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -176,26 +179,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 15:24:04] TUEV-ERR | Kanaltest
-[2026-08-17 15:24:35] TUEV-ERR | Kanaltest
-[2026-08-17 15:25:26] TUEV-ERR | Kanaltest
-[2026-08-17 15:25:40] EXPLORE | Xiaomi: CPU=Load: 4.97 RAM=2343MB frei Akku=100% Temp=32.0C
-[2026-08-17 15:25:40] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 15:30:43] EXPLORE | Xiaomi: CPU=Load: 4.27 RAM=2355MB frei Akku=100% Temp=31.9C
-[2026-08-17 15:30:43] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 15:35:41] MONITOR-VOLLSCAN | ok
-[2026-08-17 15:35:41] TUEV2-ERR-0 | Lasttest Eintrag 0
-[2026-08-17 15:35:41] TUEV2-ERR-1 | Lasttest Eintrag 1
-[2026-08-17 15:35:41] TUEV2-ERR-2 | Lasttest Eintrag 2
-[2026-08-17 15:35:41] TUEV2-ERR-3 | Lasttest Eintrag 3
-[2026-08-17 15:35:41] TUEV2-ERR-4 | Lasttest Eintrag 4
-[2026-08-17 15:35:41] TUEV2-ERR-5 | Lasttest Eintrag 5
-[2026-08-17 15:35:41] TUEV2-ERR-6 | Lasttest Eintrag 6
-[2026-08-17 15:35:41] TUEV2-ERR-7 | Lasttest Eintrag 7
-[2026-08-17 15:35:41] TUEV2-ERR-8 | Lasttest Eintrag 8
-[2026-08-17 15:35:41] TUEV2-ERR-9 | Lasttest Eintrag 9
-[2026-08-17 15:35:45] EXPLORE | Xiaomi: CPU=Load: 4.60 RAM=2332MB frei Akku=100% Temp=31.9C
-[2026-08-17 15:35:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:55:58] EXPLORE | Xiaomi: CPU=Load: 4.22 RAM=2566MB frei Akku=100% Temp=31.6C
+[2026-08-17 15:55:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 15:56:39] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:56:44] MONITOR-VOLLSCAN | ok
+[2026-08-17 15:56:49] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:01:01] EXPLORE | Xiaomi: CPU=Load: 3.88 RAM=2489MB frei Akku=100% Temp=31.6C
+[2026-08-17 16:01:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:06:04] EXPLORE | Xiaomi: CPU=Load: 5.37 RAM=1693MB frei Akku=100% Temp=32.5C
+[2026-08-17 16:06:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:09:05] TUEV-ERR | Kanaltest
+[2026-08-17 16:11:06] EXPLORE | Xiaomi: CPU=Load: 4.43 RAM=1809MB frei Akku=100% Temp=32.5C
+[2026-08-17 16:11:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:16:09] EXPLORE | Xiaomi: CPU=Load: 4.50 RAM=1767MB frei Akku=100% Temp=32.6C
+[2026-08-17 16:16:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:21:12] EXPLORE | Xiaomi: CPU=Load: 4.45 RAM=1803MB frei Akku=100% Temp=32.3C
+[2026-08-17 16:21:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:21:30] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-17 16:26:15] EXPLORE | Xiaomi: CPU=Load: 3.54 RAM=1996MB frei Akku=100% Temp=32.2C
+[2026-08-17 16:26:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:31:05] WAECHTER-START | Nacht-Ueberwachung mit Queue
 
 ## Budget heute
-Heute: Text 45/300 | Vision 0/40 | Tokens 262040
+Heute: Text 59/300 | Vision 0/40 | Tokens 300871
