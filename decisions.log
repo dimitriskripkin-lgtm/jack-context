@@ -648,3 +648,7 @@ s=op | rc=-9
 [2026-08-17 09:18:52] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-17 09:18:54] EXPLORE | Xiaomi: CPU=Load: 5.74 RAM=1930MB frei Akku=100% Temp=33.6C
 [2026-08-17 09:18:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 09:23:55] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 09:23:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 09:23:57] EXPLORE | Xiaomi: CPU=Load: 4.44 RAM=1935MB frei Akku=100% Temp=32.9C
+[2026-08-17 09:23:57] SHADOW-FIXER | Keine offenen Fehler
