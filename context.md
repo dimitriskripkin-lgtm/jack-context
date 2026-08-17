@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T17:16:32.374392)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T17:19:34.054651)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T17:16:32.363089
+Stand: 2026-08-17T17:19:34.042812
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -150,10 +150,10 @@ Stand: 2026-08-17T17:16:32.363089
 - Offene Fehler: 0
 - Erinnerungen: 1060
 - Dienste:
-run: jack_cortex: (pid 25040) 19217s
-run: jack_telegram: (pid 10395) 1731s
+run: jack_cortex: (pid 25040) 19399s
+run: jack_telegram: (pid 10395) 1913s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 97613s
+run: ollama: (pid 18563) 97795s
 
 ## Letzte Aenderungen
 c471d83 feat: Vision-REST ohne genai, Chat-Harvester (read+swipe only, tap-frei), Lern-Destillierer, Telegram /vision /harvest /fakten
