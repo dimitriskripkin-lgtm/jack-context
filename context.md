@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T16:37:08.855590)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T16:40:10.768704)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T16:37:08.840288
+Stand: 2026-08-17T16:40:10.760629
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -148,27 +148,27 @@ Stand: 2026-08-17T16:37:08.840288
 - Offene Fehler: 0
 - Erinnerungen: 1052
 - Dienste:
-run: jack_cortex: (pid 25040) 16853s
-run: jack_telegram: (pid 26547) 363s
+run: jack_cortex: (pid 25040) 17035s
+run: jack_telegram: (pid 26547) 545s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 95249s
+run: ollama: (pid 18563) 95431s
 
 ## Letzte Aenderungen
-8dfc03c fix: TUEV3 Signaturen korrigiert (exec String, critic Tupel)
-a32dee7 fix: TUEV1 schliesst auch tuev2.py aus Leak-Scan aus
-aab8759 fix: Dienste-Liste korrekt (kein jack_autolearn/publisher), _xi() nutzt SSH-Alias, collect_status kein ping+alte-IP, update_identity atomic
-d59b710 fix: errors/akku/log/level im Router, TUEV3 Signaturen korrigiert
+1c06a5c fix: TUEV3 Signaturen korrigiert (exec String, critic Tupel)
+3c11786 fix: TUEV1 schliesst auch tuev2.py aus Leak-Scan aus
+9c6f27a fix: Dienste-Liste korrekt (kein jack_autolearn/publisher), _xi() nutzt SSH-Alias, collect_status kein ping+alte-IP, update_identity atomic
+a27ba0f fix: errors/akku/log/level im Router, TUEV3 Signaturen korrigiert
 [PRIVAT GEFILTERT]
-cc22923 fix: TUEV-Regex jack_publish.py ausgenommen (Filter-Regeln sind keine Leaks), NOTIFY-Fehler resolved
-48f22ff fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, duplikaten Callback-Handler entfernt
-aa15766 fix: jack_voice_el.py Stub - verhindert crash in Voice-Loop, Groq-Quelle ermitteln
-d04325b fix: [:3800]-Kuerzer korrekt entfernt via Python-Replace (sed hat auf Android versagt)
-2a04d63 fix: send()-Splitter aktiv - [:3800]-Kuerzer aus Router entfernt, push()->build() im Waechter, Privat-Filter fuer context.md
-1c8234a security: CLAUDE.md + Alt-Handshakes + Verhaltensprofil untracked, TUEV-Pruefstand aufgenommen, Regex praezisiert
-a4eca6d feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Konsistenz + Marker-Verbot, Skill-Builder auf Trainer-Schema via Mantel
-9d13c5a feat: Voll-Button-Bedienung - cmd:-Callback routet Buttons durch handle(), Kategorie-Menues als Tap-Grids, Ketten-Schnellwahl
-539bcc2 fix: /kette und /bugfix Handler verdrahtet - Menue war Attrappe, jetzt feuern jack_chains und jack_bugfix_loop
-6a0a734 security: DBs untracked, Anti-Halluzinations-Regel, Test-Eintrag resolved
+e23f258 fix: TUEV-Regex jack_publish.py ausgenommen (Filter-Regeln sind keine Leaks), NOTIFY-Fehler resolved
+ea638f5 fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, duplikaten Callback-Handler entfernt
+9dc752b fix: jack_voice_el.py Stub - verhindert crash in Voice-Loop, Groq-Quelle ermitteln
+50744e9 fix: [:3800]-Kuerzer korrekt entfernt via Python-Replace (sed hat auf Android versagt)
+d75239e fix: send()-Splitter aktiv - [:3800]-Kuerzer aus Router entfernt, push()->build() im Waechter, Privat-Filter fuer context.md
+e7f8e87 security: CLAUDE.md + Alt-Handshakes + Verhaltensprofil untracked, TUEV-Pruefstand aufgenommen, Regex praezisiert
+287a92a feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Konsistenz + Marker-Verbot, Skill-Builder auf Trainer-Schema via Mantel
+4f00f31 feat: Voll-Button-Bedienung - cmd:-Callback routet Buttons durch handle(), Kategorie-Menues als Tap-Grids, Ketten-Schnellwahl
+70b9125 fix: /kette und /bugfix Handler verdrahtet - Menue war Attrappe, jetzt feuern jack_chains und jack_bugfix_loop
+4f37c89 security: DBs untracked, Anti-Halluzinations-Regel, Test-Eintrag resolved
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
