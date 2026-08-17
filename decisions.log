@@ -1166,3 +1166,5 @@ s=op | rc=-9
 [2026-08-17 21:40:40] MONITOR-VOLLSCAN | ok
 [2026-08-17 21:44:02] EXPLORE | Xiaomi: CPU=Load: 5.82 RAM=1696MB frei Akku=100% Temp=33.8C
 [2026-08-17 21:44:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 21:49:06] EXPLORE | Xiaomi: CPU=Load: 4.21 RAM=1431MB frei Akku=100% Temp=37.5C
+[2026-08-17 21:49:06] SHADOW-FIXER | Keine offenen Fehler
