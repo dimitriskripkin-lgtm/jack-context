@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T10:07:42.962618)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T10:10:45.041642)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T10:07:42.950683
+Stand: 2026-08-17T10:10:45.029957
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,7 @@ Stand: 2026-08-17T10:07:42.950683
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-- Dima arbeitet als LKW-Fahrer im Nachtdienst bei Dalhoff Feinkost in Achim und fährt einen Sprinter Kühlkoffer.
+- Dima ist LKW-Fahrer bei Dalhoff Feinkost in Achim und fährt Sprinter Kühlkoffer im Nachtdienst.
 - Dima hat KEINEN Hund.
 - Dima ist Hobby-Programmierer und Autodidakt, entwickelt hauptsächlich auf dem Smartphone.
 - Dima hat mit 28 einen Burnout gehabt und sich selbst daraus gezogen (Stoizismus, Jung, Kiyosaki).
@@ -152,12 +152,12 @@ Stand: 2026-08-17T10:07:42.950683
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 977
+- Erinnerungen: 978
 - Dienste:
-run: jack_cortex: (pid 18928) 57763s
-run: jack_telegram: (pid 11952) 58438s
+run: jack_cortex: (pid 18928) 57946s
+run: jack_telegram: (pid 11952) 58621s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 71883s
+run: ollama: (pid 18563) 72066s
 
 ## Letzte Aenderungen
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
@@ -185,11 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 09:44:07] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-17 09:44:07] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 09:44:10] EXPLORE | Xiaomi: CPU=Load: 3.18 RAM=2249MB frei Akku=100% Temp=31.9C
-[2026-08-17 09:44:10] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 09:49:11] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-17 09:49:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-17 09:49:13] EXPLORE | Xiaomi: CPU=Load: 3.13 RAM=2596MB frei Akku=100% Temp=31.9C
 [2026-08-17 09:49:13] SHADOW-FIXER | Keine offenen Fehler
@@ -205,6 +200,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 10:04:20] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-17 10:04:23] EXPLORE | Xiaomi: CPU=Load: 4.16 RAM=2605MB frei Akku=100% Temp=31.7C
 [2026-08-17 10:04:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 10:09:24] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 10:09:24] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 10:09:26] EXPLORE | Xiaomi: CPU=Load: 4.61 RAM=2284MB frei Akku=100% Temp=31.9C
+[2026-08-17 10:09:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 10:09:55] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
 
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 25574
+Heute: Text 6/300 | Vision 0/40 | Tokens 30683
