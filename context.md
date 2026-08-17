@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T20:09:18.239420)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T20:12:19.991331)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T20:09:18.222640
+Stand: 2026-08-17T20:12:19.977682
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -155,12 +155,13 @@ Stand: 2026-08-17T20:09:18.222640
 - Offene Fehler: 0
 - Erinnerungen: 1094
 - Dienste:
-run: jack_cortex: (pid 25040) 29583s
-run: jack_telegram: (pid 28369) 1134s
+run: jack_cortex: (pid 25040) 29764s
+run: jack_telegram: (pid 9120) 154s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 107979s
+run: ollama: (pid 18563) 108160s
 
 ## Letzte Aenderungen
+14992a1 P0 Fix: rag/autolearn_status/ingest_status in handle(), tote Handler entfernt
 c471d83 feat: Vision-REST ohne genai, Chat-Harvester (read+swipe only, tap-frei), Lern-Destillierer, Telegram /vision /harvest /fakten
 1c06a5c fix: TUEV3 Signaturen korrigiert (exec String, critic Tupel)
 3c11786 fix: TUEV1 schliesst auch tuev2.py aus Leak-Scan aus
@@ -175,7 +176,6 @@ d75239e fix: send()-Splitter aktiv - [:3800]-Kuerzer aus Router entfernt, push()
 e7f8e87 security: CLAUDE.md + Alt-Handshakes + Verhaltensprofil untracked, TUEV-Pruefstand aufgenommen, Regex praezisiert
 287a92a feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Konsistenz + Marker-Verbot, Skill-Builder auf Trainer-Schema via Mantel
 4f00f31 feat: Voll-Button-Bedienung - cmd:-Callback routet Buttons durch handle(), Kategorie-Menues als Tap-Grids, Ketten-Schnellwahl
-70b9125 fix: /kette und /bugfix Handler verdrahtet - Menue war Attrappe, jetzt feuern jack_chains und jack_bugfix_loop
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
