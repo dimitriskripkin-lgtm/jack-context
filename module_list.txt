@@ -91,7 +91,7 @@
 -rw-------. 1 u0_a400 u0_a400 41272 Aug 17 15:56 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  5133 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_thermal.py
 -rw-------. 1 u0_a400 u0_a400  3155 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_traceback.py
--rw-------. 1 u0_a400 u0_a400  8527 Aug 17 15:25 /data/data/com.termux/files/home/jack/jack_tuev.py
+-rw-------. 1 u0_a400 u0_a400  8551 Aug 17 16:32 /data/data/com.termux/files/home/jack/jack_tuev.py
 -rw-------. 1 u0_a400 u0_a400 10365 Aug 17 15:37 /data/data/com.termux/files/home/jack/jack_tuev2.py
 -rw-------. 1 u0_a400 u0_a400  7462 Aug 17 15:56 /data/data/com.termux/files/home/jack/jack_tuev3.py
 -rw-------. 1 u0_a400 u0_a400  2594 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_ui.py

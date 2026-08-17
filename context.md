@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T16:31:05.517287)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T16:34:07.126294)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T16:31:05.501419
+Stand: 2026-08-17T16:34:07.116706
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,14 +146,15 @@ Stand: 2026-08-17T16:31:05.501419
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1050
+- Erinnerungen: 1051
 - Dienste:
-run: jack_cortex: (pid 25040) 16490s
-run: jack_telegram: (pid 7018) 2045s
+run: jack_cortex: (pid 25040) 16672s
+run: jack_telegram: (pid 26547) 182s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 94886s
+run: ollama: (pid 18563) 95068s
 
 ## Letzte Aenderungen
+a32dee7 fix: TUEV1 schliesst auch tuev2.py aus Leak-Scan aus
 aab8759 fix: Dienste-Liste korrekt (kein jack_autolearn/publisher), _xi() nutzt SSH-Alias, collect_status kein ping+alte-IP, update_identity atomic
 d59b710 fix: errors/akku/log/level im Router, TUEV3 Signaturen korrigiert
 [PRIVAT GEFILTERT]
@@ -168,7 +169,6 @@ a4eca6d feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Kons
 539bcc2 fix: /kette und /bugfix Handler verdrahtet - Menue war Attrappe, jetzt feuern jack_chains und jack_bugfix_loop
 6a0a734 security: DBs untracked, Anti-Halluzinations-Regel, Test-Eintrag resolved
 cc185a7 fix: ehrliches Quellen-Label in talk, private JSONs geprueft
-6b2a9e7 feat: Einheits-Fehlerkanal via jack_log-Mantel, SSH-Multiplexing global, WAL auf allen DBs, ehrlicher Ollama-Fallback, Skill-Trainer mit Sicherheits-Gate
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -179,26 +179,26 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 15:55:58] EXPLORE | Xiaomi: CPU=Load: 4.22 RAM=2566MB frei Akku=100% Temp=31.6C
-[2026-08-17 15:55:58] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 15:56:39] MONITOR-VOLLSCAN | ok
-[2026-08-17 15:56:44] MONITOR-VOLLSCAN | ok
-[2026-08-17 15:56:49] MONITOR-VOLLSCAN | ok
-[2026-08-17 16:01:01] EXPLORE | Xiaomi: CPU=Load: 3.88 RAM=2489MB frei Akku=100% Temp=31.6C
-[2026-08-17 16:01:01] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 16:06:04] EXPLORE | Xiaomi: CPU=Load: 5.37 RAM=1693MB frei Akku=100% Temp=32.5C
-[2026-08-17 16:06:04] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 16:09:05] TUEV-ERR | Kanaltest
-[2026-08-17 16:11:06] EXPLORE | Xiaomi: CPU=Load: 4.43 RAM=1809MB frei Akku=100% Temp=32.5C
-[2026-08-17 16:11:06] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 16:16:09] EXPLORE | Xiaomi: CPU=Load: 4.50 RAM=1767MB frei Akku=100% Temp=32.6C
-[2026-08-17 16:16:09] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 16:21:12] EXPLORE | Xiaomi: CPU=Load: 4.45 RAM=1803MB frei Akku=100% Temp=32.3C
-[2026-08-17 16:21:12] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 16:21:30] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
-[2026-08-17 16:26:15] EXPLORE | Xiaomi: CPU=Load: 3.54 RAM=1996MB frei Akku=100% Temp=32.2C
-[2026-08-17 16:26:15] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 16:31:05] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-17 16:31:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:31:28] TUEV-ERR | Kanaltest
+[2026-08-17 16:32:01] TUEV-ERR | Kanaltest
+[2026-08-17 16:32:26] SCOUT-LAUF | 71169369540230f3
+[2026-08-17 16:32:31] TUEV-ERR | Kanaltest
+[2026-08-17 16:32:43] TUEV-ERR | Kanaltest
+[2026-08-17 16:32:59] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:32:59] TUEV2-ERR-0 | Lasttest Eintrag 0
+[2026-08-17 16:32:59] TUEV2-ERR-1 | Lasttest Eintrag 1
+[2026-08-17 16:32:59] TUEV2-ERR-2 | Lasttest Eintrag 2
+[2026-08-17 16:32:59] TUEV2-ERR-3 | Lasttest Eintrag 3
+[2026-08-17 16:32:59] TUEV2-ERR-4 | Lasttest Eintrag 4
+[2026-08-17 16:32:59] TUEV2-ERR-5 | Lasttest Eintrag 5
+[2026-08-17 16:32:59] TUEV2-ERR-6 | Lasttest Eintrag 6
+[2026-08-17 16:32:59] TUEV2-ERR-7 | Lasttest Eintrag 7
+[2026-08-17 16:32:59] TUEV2-ERR-8 | Lasttest Eintrag 8
+[2026-08-17 16:32:59] TUEV2-ERR-9 | Lasttest Eintrag 9
+[2026-08-17 16:33:06] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:33:12] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:33:18] MONITOR-VOLLSCAN | ok
 
 ## Budget heute
-Heute: Text 59/300 | Vision 0/40 | Tokens 300871
+Heute: Text 63/300 | Vision 0/40 | Tokens 315320
