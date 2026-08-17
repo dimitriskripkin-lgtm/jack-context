@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T19:26:49.905426)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T19:29:51.526892)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T19:26:49.892307
+Stand: 2026-08-17T19:29:51.516348
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -14,12 +14,13 @@ Stand: 2026-08-17T19:26:49.892307
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (131)
+## Aktive Module (132)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
 - jack_approval.py
 - jack_audit.py
+- jack_audit_run.py
 - jack_autofixer_multi.py
 - jack_autofixer_shadow.py
 - jack_autonomous.py
@@ -149,12 +150,12 @@ Stand: 2026-08-17T19:26:49.892307
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1085
+- Erinnerungen: 1086
 - Dienste:
-run: jack_cortex: (pid 25040) 27034s
-run: jack_telegram: (pid 24013) 2943s
+run: jack_cortex: (pid 25040) 27216s
+run: jack_telegram: (pid 24013) 3125s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 105430s
+run: ollama: (pid 18563) 105612s
 
 ## Letzte Aenderungen
 c471d83 feat: Vision-REST ohne genai, Chat-Harvester (read+swipe only, tap-frei), Lern-Destillierer, Telegram /vision /harvest /fakten
@@ -182,8 +183,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 18:37:17] EXPLORE | Xiaomi: CPU=Load: 5.84 RAM=2274MB frei Akku=100% Temp=34.5C
-[2026-08-17 18:37:17] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 18:42:20] EXPLORE | Xiaomi: CPU=Load: 6.12 RAM=1979MB frei Akku=100% Temp=36.0C
 [2026-08-17 18:42:20] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 18:47:23] EXPLORE | Xiaomi: CPU=Load: 5.81 RAM=2293MB frei Akku=100% Temp=34.9C
@@ -202,6 +201,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 19:17:40] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 19:22:42] EXPLORE | Xiaomi: CPU=Load: 4.19 RAM=2067MB frei Akku=100% Temp=31.7C
 [2026-08-17 19:22:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 19:27:46] EXPLORE | Xiaomi: CPU=Load: 6.13 RAM=2037MB frei Akku=100% Temp=32.6C
+[2026-08-17 19:27:46] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 74/300 | Vision 37/40 | Tokens 394493
