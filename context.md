@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T16:46:14.391504)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T16:49:16.040386)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T16:46:14.381382
+Stand: 2026-08-17T16:49:16.026215
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -14,7 +14,7 @@ Stand: 2026-08-17T16:46:14.381382
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (128)
+## Aktive Module (130)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -53,6 +53,8 @@ Stand: 2026-08-17T16:46:14.381382
 - jack_guard.py
 - jack_haliza.py
 - jack_handshake_gen.py
+- jack_harvest.py
+- jack_harvest_lernen.py
 - jack_hey.py
 - jack_improve.py
 - jack_inbox.py
@@ -146,14 +148,15 @@ Stand: 2026-08-17T16:46:14.381382
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1053
+- Erinnerungen: 1054
 - Dienste:
-run: jack_cortex: (pid 25040) 17399s
-run: jack_telegram: (pid 26547) 909s
+run: jack_cortex: (pid 25040) 17581s
+run: jack_telegram: (pid 10395) 95s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 95795s
+run: ollama: (pid 18563) 95977s
 
 ## Letzte Aenderungen
+c471d83 feat: Vision-REST ohne genai, Chat-Harvester (read+swipe only, tap-frei), Lern-Destillierer, Telegram /vision /harvest /fakten
 1c06a5c fix: TUEV3 Signaturen korrigiert (exec String, critic Tupel)
 3c11786 fix: TUEV1 schliesst auch tuev2.py aus Leak-Scan aus
 9c6f27a fix: Dienste-Liste korrekt (kein jack_autolearn/publisher), _xi() nutzt SSH-Alias, collect_status kein ping+alte-IP, update_identity atomic
@@ -168,7 +171,6 @@ e7f8e87 security: CLAUDE.md + Alt-Handshakes + Verhaltensprofil untracked, TUEV-
 287a92a feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Konsistenz + Marker-Verbot, Skill-Builder auf Trainer-Schema via Mantel
 4f00f31 feat: Voll-Button-Bedienung - cmd:-Callback routet Buttons durch handle(), Kategorie-Menues als Tap-Grids, Ketten-Schnellwahl
 70b9125 fix: /kette und /bugfix Handler verdrahtet - Menue war Attrappe, jetzt feuern jack_chains und jack_bugfix_loop
-4f37c89 security: DBs untracked, Anti-Halluzinations-Regel, Test-Eintrag resolved
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -179,8 +181,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 16:32:59] TUEV2-ERR-0 | Lasttest Eintrag 0
-[2026-08-17 16:32:59] TUEV2-ERR-1 | Lasttest Eintrag 1
 [2026-08-17 16:32:59] TUEV2-ERR-2 | Lasttest Eintrag 2
 [2026-08-17 16:32:59] TUEV2-ERR-3 | Lasttest Eintrag 3
 [2026-08-17 16:32:59] TUEV2-ERR-4 | Lasttest Eintrag 4
@@ -199,6 +199,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 16:36:10] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 16:41:12] EXPLORE | Xiaomi: CPU=Load: 4.30 RAM=2118MB frei Akku=100% Temp=31.9C
 [2026-08-17 16:41:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 16:46:15] EXPLORE | Xiaomi: CPU=Load: 3.79 RAM=2221MB frei Akku=100% Temp=32.5C
+[2026-08-17 16:46:15] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 67/300 | Vision 0/40 | Tokens 324514
+Heute: Text 67/300 | Vision 1/40 | Tokens 325743
