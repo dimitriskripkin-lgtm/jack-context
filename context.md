@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T22:28:54.771840)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T22:31:57.717445)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T22:28:54.759976
+Stand: 2026-08-17T22:31:57.706196
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -11,7 +11,6 @@ Stand: 2026-08-17T22:28:54.759976
 
 ## Was JACK ueber Dima gelernt hat
 - Dima ist Dimitri.
-[PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
 ## Aktive Module (136)
@@ -154,12 +153,12 @@ Stand: 2026-08-17T22:28:54.759976
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1121
+- Erinnerungen: 1122
 - Dienste:
-run: jack_cortex: (pid 30232) 6061s
-run: jack_telegram: (pid 30212) 6061s
+run: jack_cortex: (pid 30232) 6244s
+run: jack_telegram: (pid 30212) 6244s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 116355s
+run: ollama: (pid 18563) 116538s
 
 ## Letzte Aenderungen
 cac0fcd Observer-Layer aktiv: jack_exec fängt lügendes OS mit rc=99 ab + Handshake 53
@@ -187,8 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 21:38:59] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 21:40:40] MONITOR-VOLLSCAN | ok
 [2026-08-17 21:44:02] EXPLORE | Xiaomi: CPU=Load: 5.82 RAM=1696MB frei Akku=100% Temp=33.8C
 [2026-08-17 21:44:02] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 21:49:06] EXPLORE | Xiaomi: CPU=Load: 4.21 RAM=1431MB frei Akku=100% Temp=37.5C
@@ -207,6 +204,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 22:19:27] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 22:24:31] EXPLORE | Xiaomi: CPU=Load: 4.57 RAM=1244MB frei Akku=97% Temp=38.4C
 [2026-08-17 22:24:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 22:29:34] EXPLORE | Xiaomi: CPU=Load: 2.75 RAM=1992MB frei Akku=100% Temp=37.5C
+[2026-08-17 22:29:34] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 85/300 | Vision 37/40 | Tokens 439259
+Heute: Text 86/300 | Vision 37/40 | Tokens 444545
