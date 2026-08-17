@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T20:21:25.282355)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T20:24:26.831837)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T20:21:25.275849
+Stand: 2026-08-17T20:24:26.817263
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,14 +153,15 @@ Stand: 2026-08-17T20:21:25.275849
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1096
+- Erinnerungen: 1097
 - Dienste:
-run: jack_cortex: (pid 25040) 30310s
-run: jack_telegram: (pid 9120) 700s
+run: jack_cortex: (pid 25040) 30491s
+run: jack_telegram: (pid 9120) 881s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 108706s
+run: ollama: (pid 18563) 108887s
 
 ## Letzte Aenderungen
+765ede6 Genesis: Threshold zurück auf 2
 8432665 Genesis: Threshold auf 1 für Testing
 c225406 Genesis: Multi-Log-Quellen + Traceback-Detection
 c5ebea5 Genesis: echte Fix-Logik statt Dummy-echo
@@ -175,7 +176,6 @@ e23f258 fix: TUEV-Regex jack_publish.py ausgenommen (Filter-Regeln sind keine Le
 ea638f5 fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, duplikaten Callback-Handler entfernt
 9dc752b fix: jack_voice_el.py Stub - verhindert crash in Voice-Loop, Groq-Quelle ermitteln
 50744e9 fix: [:3800]-Kuerzer korrekt entfernt via Python-Replace (sed hat auf Android versagt)
-d75239e fix: send()-Splitter aktiv - [:3800]-Kuerzer aus Router entfernt, push()->build() im Waechter, Privat-Filter fuer context.md
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -186,8 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 19:32:49] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 19:37:52] EXPLORE | Xiaomi: CPU=Load: 4.30 RAM=2038MB frei Akku=100% Temp=31.9C
 [2026-08-17 19:37:52] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 19:42:55] EXPLORE | Xiaomi: CPU=Load: 4.27 RAM=1967MB frei Akku=100% Temp=31.7C
 [2026-08-17 19:42:55] SHADOW-FIXER | Keine offenen Fehler
@@ -206,6 +204,8 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 20:13:12] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 20:18:15] EXPLORE | Xiaomi: CPU=Load: 4.79 RAM=1612MB frei Akku=100% Temp=34.7C
 [2026-08-17 20:18:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 20:23:18] EXPLORE | Xiaomi: CPU=Load: 4.84 RAM=1636MB frei Akku=100% Temp=34.6C
+[2026-08-17 20:23:18] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 74/300 | Vision 37/40 | Tokens 394493
