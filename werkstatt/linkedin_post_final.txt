@@ -1,0 +1,1 @@
+Hab die Logs gecheckt. Du hast `jack_autonomous.py` gefixt, den `erstelle_fingerabdruck` Bug rausgehauen und `_reflexion_loop` zum Laufen gebracht. Sieht gut aus. Und `oracle_restore.py` in `jack_telegram.py` ist auch wieder drin, hast den Dispatcher wiederhergestellt. Läuft.
