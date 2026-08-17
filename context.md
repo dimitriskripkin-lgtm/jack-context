@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T08:06:19.037339)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T08:09:21.106348)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T08:06:19.015890
+Stand: 2026-08-17T08:09:21.086824
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -152,12 +152,12 @@ Stand: 2026-08-17T08:06:19.015890
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 953
+- Erinnerungen: 954
 - Dienste:
-run: jack_cortex: (pid 18928) 50480s
-run: jack_telegram: (pid 11952) 51155s
+run: jack_cortex: (pid 18928) 50662s
+run: jack_telegram: (pid 11952) 51337s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 64600s
+run: ollama: (pid 18563) 64782s
 
 ## Letzte Aenderungen
 e2d5ff4 fix: Auto-Explore deaktiviert - war zu aggressiv
@@ -185,10 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 07:22:38] EXPLORE | Xiaomi: CPU=Load: 3.82 RAM=1974MB frei Akku=100% Temp=32.8C
-[2026-08-17 07:22:38] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 07:27:42] EXPLORE | Xiaomi: CPU=Load: 4.21 RAM=2006MB frei Akku=100% Temp=32.6C
-[2026-08-17 07:27:42] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 07:32:45] EXPLORE | Xiaomi: CPU=Load: 4.16 RAM=2051MB frei Akku=100% Temp=32.5C
 [2026-08-17 07:32:45] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 07:37:48] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=2137MB frei Akku=100% Temp=32.4C
@@ -205,6 +201,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 08:03:02] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-17 08:03:05] EXPLORE | Xiaomi: CPU=Load: 3.97 RAM=2353MB frei Akku=100% Temp=32.4C
 [2026-08-17 08:03:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 08:08:06] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 08:08:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 08:08:08] EXPLORE | Xiaomi: CPU=Load: 3.96 RAM=2444MB frei Akku=100% Temp=32.3C
+[2026-08-17 08:08:08] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 4/300 | Vision 0/40 | Tokens 20464
