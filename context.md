@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T20:48:42.620427)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T20:51:44.412313)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T20:48:42.606621
+Stand: 2026-08-17T20:51:44.399692
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -156,12 +156,13 @@ Stand: 2026-08-17T20:48:42.606621
 - Offene Fehler: 0
 - Erinnerungen: 1102
 - Dienste:
-run: jack_cortex: (pid 30232) 49s
-run: jack_telegram: (pid 30212) 49s
+run: jack_cortex: (pid 30232) 231s
+run: jack_telegram: (pid 30212) 231s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 110343s
+run: ollama: (pid 18563) 110525s
 
 ## Letzte Aenderungen
+cac0fcd Observer-Layer aktiv: jack_exec fängt lügendes OS mit rc=99 ab + Handshake 53
 263394f P1-P4 complete: Timeout-Fix, Deep-TB Parser, /find Grid-Vision, SSH Log-Fix
 765ede6 Genesis: Threshold zurück auf 2
 8432665 Genesis: Threshold auf 1 für Testing
@@ -176,7 +177,6 @@ a27ba0f fix: errors/akku/log/level im Router, TUEV3 Signaturen korrigiert
 [PRIVAT GEFILTERT]
 e23f258 fix: TUEV-Regex jack_publish.py ausgenommen (Filter-Regeln sind keine Leaks), NOTIFY-Fehler resolved
 ea638f5 fix: threading-Import, ERRORS_DB korrekt, Gemini-Fallback [:3000] weg, duplikaten Callback-Handler entfernt
-9dc752b fix: jack_voice_el.py Stub - verhindert crash in Voice-Loop, Groq-Quelle ermitteln
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
