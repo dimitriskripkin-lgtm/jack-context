@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T11:26:31.278380)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T11:29:33.189047)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T11:26:31.268818
+Stand: 2026-08-17T11:29:33.177700
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,10 +154,10 @@ Stand: 2026-08-17T11:26:31.268818
 - Offene Fehler: 0
 - Erinnerungen: 993
 - Dienste:
-run: jack_cortex: (pid 18928) 62492s
-run: jack_telegram: (pid 25962) 1124s
+run: jack_cortex: (pid 18928) 62674s
+run: jack_telegram: (pid 25962) 1306s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 76612s
+run: ollama: (pid 18563) 76794s
 
 ## Letzte Aenderungen
 3a3a094 fix: intent liest config.ini statt .autonomie_level, Cortex IP-Find auf log_status
