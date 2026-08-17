@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T11:30:00.264469)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T11:32:35.103974)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T11:30:00.257997
+Stand: 2026-08-17T11:32:35.092630
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -152,12 +152,12 @@ Stand: 2026-08-17T11:30:00.257997
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 993
+- Erinnerungen: 994
 - Dienste:
-fail: jack_cortex: unable to change to service directory: file does not exist
-fail: jack_telegram: unable to change to service directory: file does not exist
+run: jack_cortex: (pid 18928) 62856s
+run: jack_telegram: (pid 25962) 1488s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-fail: ollama: unable to change to service directory: file does not exist
+run: ollama: (pid 18563) 76976s
 
 ## Letzte Aenderungen
 3a3a094 fix: intent liest config.ini statt .autonomie_level, Cortex IP-Find auf log_status
@@ -185,12 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 11:04:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 11:04:58] EXPLORE | Xiaomi: CPU=Load: 4.08 RAM=2263MB frei Akku=100% Temp=31.5C
-[2026-08-17 11:04:58] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 11:09:58] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-17 11:09:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 11:10:00] EXPLORE | Xiaomi: CPU=Load: 4.01 RAM=1936MB frei Akku=100% Temp=31.9C
 [2026-08-17 11:10:00] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 11:15:01] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-17 11:15:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
@@ -205,6 +199,12 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 11:25:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-17 11:25:08] EXPLORE | Xiaomi: CPU=Load: 4.91 RAM=1760MB frei Akku=100% Temp=32.4C
 [2026-08-17 11:25:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 11:30:08] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-17 11:30:08] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-17 11:30:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 11:30:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 11:30:11] EXPLORE | Xiaomi: CPU=Load: 4.96 RAM=1758MB frei Akku=100% Temp=32.4C
+[2026-08-17 11:30:11] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 30683
