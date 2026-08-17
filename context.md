@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T11:08:19.621182)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T11:11:21.442013)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T11:08:19.605448
+Stand: 2026-08-17T11:11:21.431111
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -152,12 +152,12 @@ Stand: 2026-08-17T11:08:19.605448
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 989
+- Erinnerungen: 990
 - Dienste:
-run: jack_cortex: (pid 18928) 61400s
-run: jack_telegram: (pid 25962) 32s
+run: jack_cortex: (pid 18928) 61582s
+run: jack_telegram: (pid 25962) 214s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 75520s
+run: ollama: (pid 18563) 75702s
 
 ## Letzte Aenderungen
 eb59bdb Circuit Breaker gefixt: Reset nach 300s Cooldown, cb_fail nur bei finalem Fehlschlag, UnboundLocalError behoben
@@ -185,10 +185,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 10:44:44] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-17 10:44:44] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-17 10:44:47] EXPLORE | Xiaomi: CPU=Load: 4.20 RAM=1911MB frei Akku=100% Temp=31.9C
-[2026-08-17 10:44:47] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-17 10:49:47] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-17 10:49:47] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-17 10:49:49] EXPLORE | Xiaomi: CPU=Load: 4.41 RAM=1923MB frei Akku=100% Temp=31.8C
@@ -205,6 +201,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 11:04:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-17 11:04:58] EXPLORE | Xiaomi: CPU=Load: 4.08 RAM=2263MB frei Akku=100% Temp=31.5C
 [2026-08-17 11:04:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-17 11:09:58] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-17 11:09:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-17 11:10:00] EXPLORE | Xiaomi: CPU=Load: 4.01 RAM=1936MB frei Akku=100% Temp=31.9C
+[2026-08-17 11:10:00] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 6/300 | Vision 0/40 | Tokens 30683
