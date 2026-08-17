@@ -20,7 +20,7 @@
 -rw-------. 1 u0_a400 u0_a400  1547 Aug 14 16:31 /data/data/com.termux/files/home/jack/jack_consolidate.py
 -rw-------. 1 u0_a400 u0_a400  1268 Aug 14 15:31 /data/data/com.termux/files/home/jack/jack_context_compress.py
 -rw-------. 1 u0_a400 u0_a400  3685 Aug 14 16:01 /data/data/com.termux/files/home/jack/jack_context_ingest.py
--rwx------. 1 u0_a400 u0_a400  9202 Aug 16 18:04 /data/data/com.termux/files/home/jack/jack_cortex.py
+-rwx------. 1 u0_a400 u0_a400  9203 Aug 17 11:18 /data/data/com.termux/files/home/jack/jack_cortex.py
 -rw-------. 1 u0_a400 u0_a400   724 Aug 16 11:31 /data/data/com.termux/files/home/jack/jack_critic.py
 -rw-------. 1 u0_a400 u0_a400  3586 Aug 14 15:47 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
@@ -40,7 +40,7 @@
 -rw-------. 1 u0_a400 u0_a400  2883 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_improve.py
 -rw-------. 1 u0_a400 u0_a400  2675 Aug 16 15:40 /data/data/com.termux/files/home/jack/jack_inbox.py
 -rw-------. 1 u0_a400 u0_a400  4843 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_install.py
--rw-------. 1 u0_a400 u0_a400 16424 Aug 16 11:36 /data/data/com.termux/files/home/jack/jack_intent.py
+-rw-------. 1 u0_a400 u0_a400 16538 Aug 17 11:18 /data/data/com.termux/files/home/jack/jack_intent.py
 -rw-------. 1 u0_a400 u0_a400  3740 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_learn.py
 -rw-------. 1 u0_a400 u0_a400  2628 Aug 14 19:54 /data/data/com.termux/files/home/jack/jack_live_bridge.py
 -rw-------. 1 u0_a400 u0_a400   870 Aug 14 10:53 /data/data/com.termux/files/home/jack/jack_log.py
