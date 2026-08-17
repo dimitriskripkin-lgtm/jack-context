@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T16:34:07.126294)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T16:37:08.855590)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T16:34:07.116706
+Stand: 2026-08-17T16:37:08.840288
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -146,14 +146,15 @@ Stand: 2026-08-17T16:34:07.116706
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1051
+- Erinnerungen: 1052
 - Dienste:
-run: jack_cortex: (pid 25040) 16672s
-run: jack_telegram: (pid 26547) 182s
+run: jack_cortex: (pid 25040) 16853s
+run: jack_telegram: (pid 26547) 363s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 95068s
+run: ollama: (pid 18563) 95249s
 
 ## Letzte Aenderungen
+8dfc03c fix: TUEV3 Signaturen korrigiert (exec String, critic Tupel)
 a32dee7 fix: TUEV1 schliesst auch tuev2.py aus Leak-Scan aus
 aab8759 fix: Dienste-Liste korrekt (kein jack_autolearn/publisher), _xi() nutzt SSH-Alias, collect_status kein ping+alte-IP, update_identity atomic
 d59b710 fix: errors/akku/log/level im Router, TUEV3 Signaturen korrigiert
@@ -168,7 +169,6 @@ a4eca6d feat: deterministischer Befehls-Router mit Gemini-Catch-All, Prompt-Kons
 9d13c5a feat: Voll-Button-Bedienung - cmd:-Callback routet Buttons durch handle(), Kategorie-Menues als Tap-Grids, Ketten-Schnellwahl
 539bcc2 fix: /kette und /bugfix Handler verdrahtet - Menue war Attrappe, jetzt feuern jack_chains und jack_bugfix_loop
 6a0a734 security: DBs untracked, Anti-Halluzinations-Regel, Test-Eintrag resolved
-cc185a7 fix: ehrliches Quellen-Label in talk, private JSONs geprueft
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -179,11 +179,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-17 16:31:07] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-17 16:31:28] TUEV-ERR | Kanaltest
-[2026-08-17 16:32:01] TUEV-ERR | Kanaltest
-[2026-08-17 16:32:26] SCOUT-LAUF | 71169369540230f3
-[2026-08-17 16:32:31] TUEV-ERR | Kanaltest
 [2026-08-17 16:32:43] TUEV-ERR | Kanaltest
 [2026-08-17 16:32:59] MONITOR-VOLLSCAN | ok
 [2026-08-17 16:32:59] TUEV2-ERR-0 | Lasttest Eintrag 0
@@ -199,6 +194,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-17 16:33:06] MONITOR-VOLLSCAN | ok
 [2026-08-17 16:33:12] MONITOR-VOLLSCAN | ok
 [2026-08-17 16:33:18] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:34:42] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:34:47] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:34:52] MONITOR-VOLLSCAN | ok
+[2026-08-17 16:36:10] EXPLORE | Xiaomi: CPU=Load: 4.23 RAM=2118MB frei Akku=100% Temp=32.2C
+[2026-08-17 16:36:10] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 63/300 | Vision 0/40 | Tokens 315320
+Heute: Text 67/300 | Vision 0/40 | Tokens 324514
