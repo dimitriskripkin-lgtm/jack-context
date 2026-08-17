@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T11:11:21.442013)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T11:14:23.172742)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T11:11:21.431111
+Stand: 2026-08-17T11:14:23.160145
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,10 +154,10 @@ Stand: 2026-08-17T11:11:21.431111
 - Offene Fehler: 0
 - Erinnerungen: 990
 - Dienste:
-run: jack_cortex: (pid 18928) 61582s
-run: jack_telegram: (pid 25962) 214s
+run: jack_cortex: (pid 18928) 61764s
+run: jack_telegram: (pid 25962) 396s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 75702s
+run: ollama: (pid 18563) 75884s
 
 ## Letzte Aenderungen
 eb59bdb Circuit Breaker gefixt: Reset nach 300s Cooldown, cb_fail nur bei finalem Fehlschlag, UnboundLocalError behoben
