@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-17T20:33:32.938687)
+# JACK LIVE-KONTEXT (auto, 2026-08-17T20:36:34.988653)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-17T20:33:32.907805
+Stand: 2026-08-17T20:36:34.975818
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -155,10 +155,10 @@ Stand: 2026-08-17T20:33:32.907805
 - Offene Fehler: 0
 - Erinnerungen: 1099
 - Dienste:
-run: jack_cortex: (pid 25040) 31037s
-run: jack_telegram: (pid 9120) 1427s
+run: jack_cortex: (pid 23373) 62s
+run: jack_telegram: (pid 9120) 1609s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 109433s
+run: ollama: (pid 18563) 109615s
 
 ## Letzte Aenderungen
 765ede6 Genesis: Threshold zurück auf 2
