@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-18T09:54:53.183347)
+# JACK LIVE-KONTEXT (auto, 2026-08-18T09:57:54.808668)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-18T09:54:53.170164
+Stand: 2026-08-18T09:57:54.794514
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-18T09:54:53.170164
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (138)
+## Aktive Module (139)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -48,6 +48,7 @@ Stand: 2026-08-18T09:54:53.170164
 - jack_exec.py
 - jack_explorer.py
 - jack_explorer_deep.py
+- jack_freigabe.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
 - jack_ghost.py
@@ -155,12 +156,12 @@ Stand: 2026-08-18T09:54:53.170164
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1257
+- Erinnerungen: 1258
 - Dienste:
-run: jack_cortex: (pid 30232) 47220s
-run: jack_telegram: (pid 30212) 47220s
+run: jack_cortex: (pid 30232) 47401s
+run: jack_telegram: (pid 30212) 47401s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 157514s
+run: ollama: (pid 18563) 157695s
 
 ## Letzte Aenderungen
 cac0fcd Observer-Layer aktiv: jack_exec fängt lügendes OS mit rc=99 ab + Handshake 53
@@ -188,10 +189,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-18 09:41:38] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-18 09:41:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-18 09:41:40] EXPLORE | Xiaomi: CPU=Load: 2.40 RAM=1858MB frei Akku=100% Temp=31.7C
-[2026-08-18 09:41:40] SHADOW-FIXER | Keine offenen Fehler
 [2026-08-18 09:42:19] MONITOR-VOLLSCAN | ok
 [2026-08-18 09:46:08] MISSION-STATUS | #15 -> laeuft
 [2026-08-18 09:46:08] MISSION-STATUS | #15 -> fertig
@@ -208,6 +205,10 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-18 09:53:46] SHADOW-FIXER | VORSCHLAG #99999 -> opfer.py.690eda603876 (nicht angewandt)
 [2026-08-18 09:53:46] MISSION-NEU | #19 notiz: echo stresstest_claim
 [2026-08-18 09:53:46] MISSION-STATUS | #19 -> fertig
+[2026-08-18 09:56:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 09:56:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 09:56:48] EXPLORE | Xiaomi: CPU=Load: 2.44 RAM=1842MB frei Akku=100% Temp=31.5C
+[2026-08-18 09:56:48] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 5/300 | Vision 0/40 | Tokens 26350
