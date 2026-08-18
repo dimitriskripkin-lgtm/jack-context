@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-18T09:48:49.858113)
+# JACK LIVE-KONTEXT (auto, 2026-08-18T09:51:51.549714)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-18T09:48:49.843084
+Stand: 2026-08-18T09:51:51.534968
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -154,12 +154,12 @@ Stand: 2026-08-18T09:48:49.843084
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1256
+- Erinnerungen: 1257
 - Dienste:
-run: jack_cortex: (pid 30232) 46856s
-run: jack_telegram: (pid 30212) 46856s
+run: jack_cortex: (pid 30232) 47038s
+run: jack_telegram: (pid 30212) 47038s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 157150s
+run: ollama: (pid 18563) 157332s
 
 ## Letzte Aenderungen
 cac0fcd Observer-Layer aktiv: jack_exec fängt lügendes OS mit rc=99 ab + Handshake 53
@@ -187,12 +187,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-18 09:40:20] MISSION-STATUS | #13 -> laeuft
-[2026-08-18 09:40:20] MISSION-STATUS | #13 -> offen
-[2026-08-18 09:41:02] MISSION-NEU | #14 befehl: python3 /data/data/com.termux/files/home/jack/jack_wissen_er
-[2026-08-18 09:41:02] MISSION-NEU | #15 befehl: python3 /data/data/com.termux/files/home/jack/jack_wissen_er
-[2026-08-18 09:41:02] MISSION-NEU | #16 befehl: python3 /data/data/com.termux/files/home/jack/jack_wissen_er
-[2026-08-18 09:41:02] MISSION-NEU | #17 befehl: python3 /data/data/com.termux/files/home/jack/jack_wissen_er
 [2026-08-18 09:41:02] MISSION-NEU | #18 befehl: python3 /data/data/com.termux/files/home/jack/jack_wissen_er
 [2026-08-18 09:41:06] MISSION-STATUS | #14 -> laeuft
 [2026-08-18 09:41:07] MISSION-STATUS | #14 -> fertig
@@ -207,6 +201,12 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-18 09:46:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-18 09:46:43] EXPLORE | Xiaomi: CPU=Load: 3.56 RAM=1831MB frei Akku=100% Temp=32.2C
 [2026-08-18 09:46:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 09:51:09] MISSION-STATUS | #16 -> laeuft
+[2026-08-18 09:51:10] MISSION-STATUS | #16 -> fertig
+[2026-08-18 09:51:43] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 09:51:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 09:51:45] EXPLORE | Xiaomi: CPU=Load: 2.73 RAM=1898MB frei Akku=100% Temp=31.7C
+[2026-08-18 09:51:45] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 5/300 | Vision 0/40 | Tokens 26350
