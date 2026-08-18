@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-18T09:51:51.549714)
+# JACK LIVE-KONTEXT (auto, 2026-08-18T09:54:53.183347)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-18T09:51:51.534968
+Stand: 2026-08-18T09:54:53.170164
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-18T09:51:51.534968
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (137)
+## Aktive Module (138)
 - install_litert.py
 - jack_agent.py
 - jack_android.py
@@ -110,6 +110,7 @@ Stand: 2026-08-18T09:51:51.534968
 - jack_skills_db.py
 - jack_snapshot.py
 - jack_state.py
+- jack_stress.py
 - jack_subagent.py
 - jack_talk.py
 - jack_telegram.py
@@ -156,10 +157,10 @@ Stand: 2026-08-18T09:51:51.534968
 - Offene Fehler: 0
 - Erinnerungen: 1257
 - Dienste:
-run: jack_cortex: (pid 30232) 47038s
-run: jack_telegram: (pid 30212) 47038s
+run: jack_cortex: (pid 30232) 47220s
+run: jack_telegram: (pid 30212) 47220s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 157332s
+run: ollama: (pid 18563) 157514s
 
 ## Letzte Aenderungen
 cac0fcd Observer-Layer aktiv: jack_exec fängt lügendes OS mit rc=99 ab + Handshake 53
@@ -187,9 +188,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-18 09:41:02] MISSION-NEU | #18 befehl: python3 /data/data/com.termux/files/home/jack/jack_wissen_er
-[2026-08-18 09:41:06] MISSION-STATUS | #14 -> laeuft
-[2026-08-18 09:41:07] MISSION-STATUS | #14 -> fertig
 [2026-08-18 09:41:38] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-18 09:41:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-18 09:41:40] EXPLORE | Xiaomi: CPU=Load: 2.40 RAM=1858MB frei Akku=100% Temp=31.7C
@@ -207,6 +205,9 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-18 09:51:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-18 09:51:45] EXPLORE | Xiaomi: CPU=Load: 2.73 RAM=1898MB frei Akku=100% Temp=31.7C
 [2026-08-18 09:51:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 09:53:46] SHADOW-FIXER | VORSCHLAG #99999 -> opfer.py.690eda603876 (nicht angewandt)
+[2026-08-18 09:53:46] MISSION-NEU | #19 notiz: echo stresstest_claim
+[2026-08-18 09:53:46] MISSION-STATUS | #19 -> fertig
 
 ## Budget heute
 Heute: Text 5/300 | Vision 0/40 | Tokens 26350
