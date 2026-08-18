@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-18T09:30:39.606773)
+# JACK LIVE-KONTEXT (auto, 2026-08-18T09:33:41.261493)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-18T09:30:39.590977
+Stand: 2026-08-18T09:33:41.253331
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -153,12 +153,12 @@ Stand: 2026-08-18T09:30:39.590977
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 1252
+- Erinnerungen: 1253
 - Dienste:
-run: jack_cortex: (pid 30232) 45766s
-run: jack_telegram: (pid 30212) 45766s
+run: jack_cortex: (pid 30232) 45948s
+run: jack_telegram: (pid 30212) 45948s
 fail: jack_autolearn: unable to change to service directory: file does not exist
-run: ollama: (pid 18563) 156060s
+run: ollama: (pid 18563) 156242s
 
 ## Letzte Aenderungen
 cac0fcd Observer-Layer aktiv: jack_exec fängt lügendes OS mit rc=99 ab + Handshake 53
@@ -186,11 +186,6 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 
 ## Letzte 20 Aktionen (Logbuch)
 
-[2026-08-18 09:06:18] SELF-AUDIT | SYSTEM_STATE.md generiert
-[2026-08-18 09:06:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
-[2026-08-18 09:06:21] EXPLORE | Xiaomi: CPU=Load: 2.34 RAM=1924MB frei Akku=100% Temp=31.2C
-[2026-08-18 09:06:21] SHADOW-FIXER | Keine offenen Fehler
-[2026-08-18 09:11:21] SELF-AUDIT | SYSTEM_STATE.md generiert
 [2026-08-18 09:11:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-18 09:11:23] EXPLORE | Xiaomi: CPU=Load: 4.17 RAM=1982MB frei Akku=100% Temp=32.9C
 [2026-08-18 09:11:24] SHADOW-FIXER | Keine offenen Fehler
@@ -206,6 +201,11 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-18 09:26:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-18 09:26:32] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=1866MB frei Akku=100% Temp=31.4C
 [2026-08-18 09:26:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 09:31:32] GRACEFUL-DEGRADE | Temperatur 66.7C, schalte auf llama3.2:3b
+[2026-08-18 09:31:32] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 09:31:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 09:31:34] EXPLORE | Xiaomi: CPU=Load: 1.97 RAM=1808MB frei Akku=100% Temp=31.3C
+[2026-08-18 09:31:34] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
 Heute: Text 5/300 | Vision 0/40 | Tokens 26350

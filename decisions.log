@@ -1482,3 +1482,8 @@ s=op | rc=-9
 [2026-08-18 09:26:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-18 09:26:32] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=1866MB frei Akku=100% Temp=31.4C
 [2026-08-18 09:26:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 09:31:32] GRACEFUL-DEGRADE | Temperatur 66.7C, schalte auf llama3.2:3b
+[2026-08-18 09:31:32] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 09:31:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 09:31:34] EXPLORE | Xiaomi: CPU=Load: 1.97 RAM=1808MB frei Akku=100% Temp=31.3C
+[2026-08-18 09:31:34] SHADOW-FIXER | Keine offenen Fehler
