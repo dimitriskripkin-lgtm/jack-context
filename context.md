@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-23T19:24:11.943934)
+# JACK LIVE-KONTEXT (auto, 2026-08-23T19:25:34.079034)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-23T19:24:11.928325
+Stand: 2026-08-23T19:25:34.070106
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -192,12 +192,14 @@ Stand: 2026-08-23T19:24:11.928325
 - Offene Fehler: 0
 - Erinnerungen: 2441
 - Dienste:
-run: jack_cortex: (pid 11260) 14058s
-run: jack_telegram: (pid 13010) 909s
-run: jack_autolearn: (pid 14990) 13860s
+run: jack_cortex: (pid 11260) 14141s
+run: jack_telegram: (pid 13010) 992s
+run: jack_autolearn: (pid 449) 41s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+8fcdf1c fix(autolearn): indentation for skill SSH whitelist
+5c79686 feat(autolearn): SSH skill cmds only xiaomi-jack + deny list
 95a43e8 feat(operator): whitelist before execute_actions shell
 0238240 feat(intent): UI gate via jack_exec.handle_ui_intent before keyword/gemini
 77abb72 fix(gemini): init circuit-breaker globals _CB_RESET_AT/_CB_FAILS
@@ -211,8 +213,6 @@ b8615c0 fix(ui): run_guarded understands action=open target=SETTINGS
 3da7e18 feat(ui): cortex skills via run_guarded (step_guard)
 9d7f89e feat(ui): step_guard Preflight/Overlay/Rollback + guarded settings demo
 f223361 Publisher: Push reaktiviert, Loop-Service angelegt
-106324a Haertung 2: Sandbox nur Werkstatt, Log-Rotation, SSH-Alias Sensors, Bridge-IP sauber
-744385c Haertung: TG-Heartbeat, Circuit-Breaker-Gemini, SQLite-Monkeypatch-weg, Sandbox-fix, Config-IP
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
