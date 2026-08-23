@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-23T19:09:03.000281)
+# JACK LIVE-KONTEXT (auto, 2026-08-23T19:12:04.878788)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-23T19:09:02.993187
+Stand: 2026-08-23T19:12:04.868930
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -190,14 +190,17 @@ Stand: 2026-08-23T19:09:02.993187
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2437
+- Erinnerungen: 2438
 - Dienste:
-run: jack_cortex: (pid 11260) 13149s
-run: jack_telegram: (pid 13010) 0s
-run: jack_autolearn: (pid 14990) 12951s
+run: jack_cortex: (pid 11260) 13331s
+run: jack_telegram: (pid 13010) 182s
+run: jack_autolearn: (pid 14990) 13133s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+77abb72 fix(gemini): init circuit-breaker globals _CB_RESET_AT/_CB_FAILS
+890dace fix(exec): forsche/chrome via short SSH timeout, no hang on am start
+978b0f6 feat: UI intent gate on talk_to_gemini + waechter heartbeat sv restart
 faceb0e feat(voice): UI intents before Gemini - forsche/tap/kill via jack_exec
 5c25897 feat(tg): /tap /forsche /kill via jack_exec main line
 388492c feat(exec): tap_text via vision_selector before shell/Monkey path
@@ -210,9 +213,6 @@ f223361 Publisher: Push reaktiviert, Loop-Service angelegt
 744385c Haertung: TG-Heartbeat, Circuit-Breaker-Gemini, SQLite-Monkeypatch-weg, Sandbox-fix, Config-IP
 2462759 Fix: detect_futile_skills korrekt eingefuegt, Heartbeat im Loop
 34b79da Heartbeat-System: Liveness-Monitoring + Futility-Detector fuer alle Dienste
-37e810c Fix: Sensoren+Audit IP aus config (Augen repariert), Flask-Import-Sideeffect entschaerft, Dienstlisten bereinigt
-eac822e Fix: Xiaomi-IP aus config statt hardcoded, Ollama auf Xiaomi, NameError fname
-a89a8dd NIGHT-FIX: Shadow-Fixer skippt wenn Xiaomi offline (kein Error-Loop mehr)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -245,4 +245,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 26/300 | Vision 10/40 | Tokens 130674
+Heute: Text 28/300 | Vision 10/40 | Tokens 138972
