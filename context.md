@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-23T15:41:10.431476)
+# JACK LIVE-KONTEXT (auto, 2026-08-23T19:09:03.000281)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-23T15:41:10.422289
+Stand: 2026-08-23T19:09:02.993187
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -190,14 +190,22 @@ Stand: 2026-08-23T15:41:10.422289
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2395
+- Erinnerungen: 2437
 - Dienste:
-run: jack_cortex: (pid 11260) 677s
-run: jack_telegram: (pid 17005) 363s
-run: jack_autolearn: (pid 14990) 479s
+run: jack_cortex: (pid 11260) 13149s
+run: jack_telegram: (pid 13010) 0s
+run: jack_autolearn: (pid 14990) 12951s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+faceb0e feat(voice): UI intents before Gemini - forsche/tap/kill via jack_exec
+5c25897 feat(tg): /tap /forsche /kill via jack_exec main line
+388492c feat(exec): tap_text via vision_selector before shell/Monkey path
+8521341 fix(ui): guard falls back to do_step for unknown skill actions
+b8615c0 fix(ui): run_guarded understands action=open target=SETTINGS
+3da7e18 feat(ui): cortex skills via run_guarded (step_guard)
+9d7f89e feat(ui): step_guard Preflight/Overlay/Rollback + guarded settings demo
+f223361 Publisher: Push reaktiviert, Loop-Service angelegt
 106324a Haertung 2: Sandbox nur Werkstatt, Log-Rotation, SSH-Alias Sensors, Bridge-IP sauber
 744385c Haertung: TG-Heartbeat, Circuit-Breaker-Gemini, SQLite-Monkeypatch-weg, Sandbox-fix, Config-IP
 2462759 Fix: detect_futile_skills korrekt eingefuegt, Heartbeat im Loop
@@ -205,14 +213,6 @@ fail: ollama: unable to change to service directory: file does not exist
 37e810c Fix: Sensoren+Audit IP aus config (Augen repariert), Flask-Import-Sideeffect entschaerft, Dienstlisten bereinigt
 eac822e Fix: Xiaomi-IP aus config statt hardcoded, Ollama auf Xiaomi, NameError fname
 a89a8dd NIGHT-FIX: Shadow-Fixer skippt wenn Xiaomi offline (kein Error-Loop mehr)
-6fb261c NIGHT-FIX: jack_cortex still bei Xiaomi-Offline + emergency_stop() bei >80°C
-8dd72fb NOTFALL: jack_cortex pausiert wenn Xiaomi offline (verhindert Fehler-Loop bei 103°C)
-feac0da loop: JACK result
-8d47c4d FIX: ssh_tunnel_ollama runit HOME PATH ControlMaster=no AUTOSSH_GATETIME=0
-0ccc7df FIX: autolearn log sources full path, tilde junk gone
-457c903 FIX: startup SVDIR plus autolearn genesis liest fail in startup.log
-d3868a7 Phase 2: jack_vision_selector.py - text-basierte Element-Suche (su -c fix)
-cac2d9f Phase 1 FIX: Connection-close + flush + setsid-Start (MCP-Server stabil auf Xiaomi)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -245,4 +245,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 24/300 | Vision 1/40 | Tokens 105727
+Heute: Text 26/300 | Vision 10/40 | Tokens 130674
