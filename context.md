@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-23T19:12:04.878788)
+# JACK LIVE-KONTEXT (auto, 2026-08-23T19:15:06.556903)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-23T19:12:04.868930
+Stand: 2026-08-23T19:15:06.543951
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -190,14 +190,15 @@ Stand: 2026-08-23T19:12:04.868930
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2438
+- Erinnerungen: 2439
 - Dienste:
-run: jack_cortex: (pid 11260) 13331s
-run: jack_telegram: (pid 13010) 182s
-run: jack_autolearn: (pid 14990) 13133s
+run: jack_cortex: (pid 11260) 13513s
+run: jack_telegram: (pid 13010) 364s
+run: jack_autolearn: (pid 14990) 13315s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+0238240 feat(intent): UI gate via jack_exec.handle_ui_intent before keyword/gemini
 77abb72 fix(gemini): init circuit-breaker globals _CB_RESET_AT/_CB_FAILS
 890dace fix(exec): forsche/chrome via short SSH timeout, no hang on am start
 978b0f6 feat: UI intent gate on talk_to_gemini + waechter heartbeat sv restart
@@ -212,7 +213,6 @@ f223361 Publisher: Push reaktiviert, Loop-Service angelegt
 106324a Haertung 2: Sandbox nur Werkstatt, Log-Rotation, SSH-Alias Sensors, Bridge-IP sauber
 744385c Haertung: TG-Heartbeat, Circuit-Breaker-Gemini, SQLite-Monkeypatch-weg, Sandbox-fix, Config-IP
 2462759 Fix: detect_futile_skills korrekt eingefuegt, Heartbeat im Loop
-34b79da Heartbeat-System: Liveness-Monitoring + Futility-Detector fuer alle Dienste
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -245,4 +245,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 28/300 | Vision 10/40 | Tokens 138972
+Heute: Text 29/300 | Vision 10/40 | Tokens 139816
