@@ -1532,3 +1532,2180 @@ s=op | rc=-9
 [2026-08-18 09:56:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-18 09:56:48] EXPLORE | Xiaomi: CPU=Load: 2.44 RAM=1842MB frei Akku=100% Temp=31.5C
 [2026-08-18 09:56:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 09:58:15] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-18 09:58:15] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 09:58:15] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 09:58:17] EXPLORE | Xiaomi: CPU=Load: 2.44 RAM=1885MB frei Akku=100% Temp=31.6C
+[2026-08-18 09:58:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 09:58:21] SHADOW-FIXER | VORSCHLAG #99999 -> opfer.py.79576a3488ef (nicht angewandt)
+[2026-08-18 09:58:22] MISSION-NEU | #20 notiz: echo stresstest_claim
+[2026-08-18 09:58:22] MISSION-STATUS | #20 -> fertig
+[2026-08-18 09:59:36] SCOUT-LAUF | 2960a81b75b08b25
+[2026-08-18 10:00:28] MONITOR-VOLLSCAN | ok
+[2026-08-18 10:03:18] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:03:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:03:20] EXPLORE | Xiaomi: CPU=Load: 2.84 RAM=1628MB frei Akku=100% Temp=32.8C
+[2026-08-18 10:03:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:06:32] SHADOW-FIXER | VORSCHLAG #99999 -> opfer.py.b1ea70aed564 (nicht angewandt)
+[2026-08-18 10:06:32] MISSION-NEU | #21 notiz: echo stresstest_claim
+[2026-08-18 10:06:32] MISSION-STATUS | #21 -> fertig
+[2026-08-18 10:08:20] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:08:20] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:08:23] EXPLORE | Xiaomi: CPU=Load: 1.70 RAM=1585MB frei Akku=100% Temp=32.0C
+[2026-08-18 10:08:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:13:23] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:13:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:13:25] EXPLORE | Xiaomi: CPU=Load: 2.27 RAM=1572MB frei Akku=100% Temp=31.7C
+[2026-08-18 10:13:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:14:01] TUEV-ERR | Kanaltest
+[2026-08-18 10:18:26] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:18:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:18:28] EXPLORE | Xiaomi: CPU=Load: 3.59 RAM=1362MB frei Akku=100% Temp=32.1C
+[2026-08-18 10:18:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:23:12] MISSION-RECOVER | 2 haengende Mission(en) zurueckgeholt
+[2026-08-18 10:23:12] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-18 10:23:12] MISSION-STATUS | #17 -> blockiert
+[2026-08-18 10:23:12] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:23:12] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:23:14] MISSION-STATUS | #18 -> blockiert
+[2026-08-18 10:23:14] EXPLORE | Xiaomi: CPU=Load: 2.91 RAM=1422MB frei Akku=100% Temp=32.2C
+[2026-08-18 10:23:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:23:36] MISSION-NEU | #22 befehl: uptime
+[2026-08-18 10:23:36] MISSION-NEU | #23 befehl: uptime
+[2026-08-18 10:23:36] MISSION-NEU | #24 befehl: uptime
+[2026-08-18 10:23:36] MISSION-NEU | #25 befehl: uptime
+[2026-08-18 10:23:36] MISSION-NEU | #26 befehl: uptime
+[2026-08-18 10:23:36] MISSION-NEU | #27 befehl: uptime
+[2026-08-18 10:24:33] SCOUT-LAUF | 2676895448fca4a9
+[2026-08-18 10:28:15] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:28:15] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:28:15] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-18 10:28:15] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:28:15] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:28:16] MISSION-STATUS | #17 -> fertig
+[2026-08-18 10:28:17] EXPLORE | Xiaomi: CPU=Load: 2.96 RAM=1321MB frei Akku=100% Temp=32.0C
+[2026-08-18 10:28:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:28:18] MISSION-STATUS | #18 -> fertig
+[2026-08-18 10:28:20] MISSION-STATUS | #22 -> fertig
+[2026-08-18 10:28:22] MISSION-STATUS | #23 -> fertig
+[2026-08-18 10:28:24] MISSION-STATUS | #24 -> fertig
+[2026-08-18 10:28:26] MISSION-STATUS | #25 -> fertig
+[2026-08-18 10:28:28] MISSION-STATUS | #26 -> fertig
+[2026-08-18 10:28:31] MISSION-STATUS | #27 -> fertig
+[2026-08-18 10:29:37] SCOUT-LAUF | a1818239d779c1e9
+[2026-08-18 10:33:18] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:33:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:33:20] EXPLORE | Xiaomi: CPU=Load: 2.91 RAM=1382MB frei Akku=100% Temp=32.2C
+[2026-08-18 10:33:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:38:20] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:38:20] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:38:22] EXPLORE | Xiaomi: CPU=Load: 2.96 RAM=1474MB frei Akku=100% Temp=31.8C
+[2026-08-18 10:38:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:39:24] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-18 10:39:25] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:39:25] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:39:27] EXPLORE | Xiaomi: CPU=Load: 2.76 RAM=1447MB frei Akku=100% Temp=32.0C
+[2026-08-18 10:39:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:40:46] SCOUT-LAUF | f315ae2169c1eebc
+[2026-08-18 10:44:27] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:44:27] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:44:29] EXPLORE | Xiaomi: CPU=Load: 2.11 RAM=1481MB frei Akku=100% Temp=31.6C
+[2026-08-18 10:44:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:49:30] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:49:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:49:32] EXPLORE | Xiaomi: CPU=Load: 1.48 RAM=2039MB frei Akku=100% Temp=31.4C
+[2026-08-18 10:49:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:54:32] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:54:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:54:35] EXPLORE | Xiaomi: CPU=Load: 1.92 RAM=2013MB frei Akku=100% Temp=31.3C
+[2026-08-18 10:54:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 10:59:35] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 10:59:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 10:59:37] EXPLORE | Xiaomi: CPU=Load: 1.78 RAM=1767MB frei Akku=100% Temp=31.3C
+[2026-08-18 10:59:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:04:38] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:04:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:04:40] EXPLORE | Xiaomi: CPU=Load: 2.90 RAM=1367MB frei Akku=100% Temp=32.2C
+[2026-08-18 11:04:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:09:41] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:09:41] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:09:43] EXPLORE | Xiaomi: CPU=Load: 2.69 RAM=1175MB frei Akku=100% Temp=32.3C
+[2026-08-18 11:09:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:14:12] MONITOR-EVENT | 1 Events
+[2026-08-18 11:14:43] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:14:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:14:45] EXPLORE | Xiaomi: CPU=Load: 3.25 RAM=1189MB frei Akku=100% Temp=33.5C
+[2026-08-18 11:14:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:16:13] MONITOR-EVENT | 1 Events
+[2026-08-18 11:19:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:19:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:19:49] EXPLORE | Xiaomi: CPU=Load: 2.32 RAM=1242MB frei Akku=100% Temp=32.8C
+[2026-08-18 11:19:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:23:54] GUARD-OK | whisper gestartet, 3001MB frei
+[2026-08-18 11:24:49] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:24:49] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:24:51] EXPLORE | Xiaomi: CPU=Load: 2.33 RAM=1264MB frei Akku=100% Temp=33.1C
+[2026-08-18 11:24:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:28:18] MONITOR-EVENT | 1 Events
+[2026-08-18 11:29:52] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:29:52] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:29:54] EXPLORE | Xiaomi: CPU=Load: 2.38 RAM=1348MB frei Akku=100% Temp=33.3C
+[2026-08-18 11:29:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:32:20] MONITOR-EVENT | 1 Events
+[2026-08-18 11:34:54] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-18 11:34:54] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-18 11:34:54] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:34:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:34:57] EXPLORE | Xiaomi: CPU=Load: 2.11 RAM=1298MB frei Akku=100% Temp=34.1C
+[2026-08-18 11:34:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:39:57] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:39:57] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:40:01] EXPLORE | Xiaomi: CPU=Load: 2.36 RAM=1502MB frei Akku=100% Temp=33.7C
+[2026-08-18 11:40:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:45:01] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:45:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:45:04] EXPLORE | Xiaomi: CPU=Load: 1.31 RAM=1578MB frei Akku=100% Temp=33.5C
+[2026-08-18 11:45:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:50:04] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:50:04] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:50:07] EXPLORE | Xiaomi: CPU=Load: 2.29 RAM=1238MB frei Akku=100% Temp=32.8C
+[2026-08-18 11:50:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 11:55:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 11:55:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 11:55:11] EXPLORE | Xiaomi: CPU=Load: 1.99 RAM=1855MB frei Akku=100% Temp=32.5C
+[2026-08-18 11:55:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:00:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:00:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:00:14] EXPLORE | Xiaomi: CPU=Load: 2.46 RAM=1860MB frei Akku=100% Temp=32.5C
+[2026-08-18 12:00:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:05:14] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:05:14] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:05:17] EXPLORE | Xiaomi: CPU=Load: 2.71 RAM=1966MB frei Akku=100% Temp=32.4C
+[2026-08-18 12:05:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:10:17] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:10:17] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:10:20] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=2012MB frei Akku=100% Temp=32.4C
+[2026-08-18 12:10:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:15:20] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:15:20] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:15:23] EXPLORE | Xiaomi: CPU=Load: 2.38 RAM=2280MB frei Akku=100% Temp=32.7C
+[2026-08-18 12:15:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:20:23] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:20:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:20:26] EXPLORE | Xiaomi: CPU=Load: 1.28 RAM=2320MB frei Akku=100% Temp=32.5C
+[2026-08-18 12:20:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:25:27] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:25:27] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:25:30] EXPLORE | Xiaomi: CPU=Load: 2.67 RAM=2173MB frei Akku=100% Temp=32.3C
+[2026-08-18 12:25:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:30:30] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:30:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:30:33] EXPLORE | Xiaomi: CPU=Load: 1.23 RAM=2245MB frei Akku=100% Temp=31.5C
+[2026-08-18 12:30:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:35:33] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:35:33] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:35:36] EXPLORE | Xiaomi: CPU=Load: 1.64 RAM=2069MB frei Akku=100% Temp=31.3C
+[2026-08-18 12:35:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:40:37] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:40:37] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:40:40] EXPLORE | Xiaomi: CPU=Load: 3.40 RAM=2148MB frei Akku=100% Temp=30.9C
+[2026-08-18 12:40:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:45:40] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:45:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:45:42] EXPLORE | Xiaomi: CPU=Load: 2.33 RAM=2206MB frei Akku=100% Temp=30.7C
+[2026-08-18 12:45:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:50:43] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:50:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:50:46] EXPLORE | Xiaomi: CPU=Load: 1.99 RAM=2179MB frei Akku=100% Temp=30.5C
+[2026-08-18 12:50:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 12:55:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 12:55:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 12:55:49] EXPLORE | Xiaomi: CPU=Load: 1.28 RAM=2387MB frei Akku=100% Temp=30.4C
+[2026-08-18 12:55:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:00:50] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:00:50] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:00:52] EXPLORE | Xiaomi: CPU=Load: 2.01 RAM=2294MB frei Akku=100% Temp=30.4C
+[2026-08-18 13:00:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:05:53] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:05:53] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:05:56] EXPLORE | Xiaomi: CPU=Load: 1.84 RAM=2059MB frei Akku=100% Temp=30.9C
+[2026-08-18 13:05:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:10:56] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:10:56] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:10:59] EXPLORE | Xiaomi: CPU=Load: 1.96 RAM=2007MB frei Akku=100% Temp=30.4C
+[2026-08-18 13:10:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:16:00] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:16:00] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:16:02] EXPLORE | Xiaomi: CPU=Load: 2.04 RAM=1996MB frei Akku=100% Temp=30.3C
+[2026-08-18 13:16:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:21:03] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:21:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:21:06] EXPLORE | Xiaomi: CPU=Load: 2.60 RAM=2042MB frei Akku=100% Temp=30.4C
+[2026-08-18 13:21:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:26:06] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:26:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:26:09] EXPLORE | Xiaomi: CPU=Load: 1.98 RAM=2123MB frei Akku=100% Temp=30.3C
+[2026-08-18 13:26:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:31:10] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:31:10] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:31:12] EXPLORE | Xiaomi: CPU=Load: 1.62 RAM=2236MB frei Akku=100% Temp=30.1C
+[2026-08-18 13:31:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:36:13] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:36:13] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:36:15] EXPLORE | Xiaomi: CPU=Load: 1.46 RAM=2382MB frei Akku=100% Temp=30.0C
+[2026-08-18 13:36:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:37:49] MONITOR-EVENT | 1 Events
+[2026-08-18 13:39:50] MONITOR-EVENT | 1 Events
+[2026-08-18 13:41:15] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:41:15] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:41:18] EXPLORE | Xiaomi: CPU=Load: 1.95 RAM=2369MB frei Akku=100% Temp=30.0C
+[2026-08-18 13:41:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:43:52] MONITOR-EVENT | 1 Events
+[2026-08-18 13:46:18] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:46:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:46:20] EXPLORE | Xiaomi: CPU=Load: 0.71 RAM=2350MB frei Akku=100% Temp=29.9C
+[2026-08-18 13:46:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:51:21] GRACEFUL-DEGRADE | Temperatur 60.5C, schalte auf llama3.2:3b
+[2026-08-18 13:51:21] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:51:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:51:23] EXPLORE | Xiaomi: CPU=Load: 1.38 RAM=2375MB frei Akku=100% Temp=29.9C
+[2026-08-18 13:51:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:56:23] GRACEFUL-DEGRADE | Temperatur 75.2C, schalte auf llama3.2:3b
+[2026-08-18 13:56:23] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 13:56:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 13:56:26] EXPLORE | Xiaomi: CPU=Load: 2.20 RAM=2402MB frei Akku=100% Temp=29.9C
+[2026-08-18 13:56:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 13:58:00] MONITOR-EVENT | 1 Events
+[2026-08-18 14:01:26] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:01:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:01:28] EXPLORE | Xiaomi: CPU=Load: 2.09 RAM=2351MB frei Akku=100% Temp=29.9C
+[2026-08-18 14:01:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:06:29] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:06:29] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:06:31] EXPLORE | Xiaomi: CPU=Load: 1.76 RAM=2337MB frei Akku=100% Temp=29.8C
+[2026-08-18 14:06:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:11:31] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:11:31] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:11:34] EXPLORE | Xiaomi: CPU=Load: 5.16 RAM=1461MB frei Akku=100% Temp=39.9C
+[2026-08-18 14:11:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:16:35] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:16:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:16:37] EXPLORE | Xiaomi: CPU=Load: 7.09 RAM=1620MB frei Akku=100% Temp=42.7C
+[2026-08-18 14:16:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:21:38] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:21:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:21:40] EXPLORE | Xiaomi: CPU=Load: 3.17 RAM=1275MB frei Akku=100% Temp=37.8C
+[2026-08-18 14:21:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:26:40] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:26:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:26:43] EXPLORE | Xiaomi: CPU=Load: 3.98 RAM=1188MB frei Akku=100% Temp=37.6C
+[2026-08-18 14:26:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:31:43] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:31:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:31:45] EXPLORE | Xiaomi: CPU=Load: 1.93 RAM=1256MB frei Akku=100% Temp=33.0C
+[2026-08-18 14:31:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:36:45] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:36:45] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:36:48] EXPLORE | Xiaomi: CPU=Load: 2.37 RAM=1337MB frei Akku=100% Temp=32.0C
+[2026-08-18 14:36:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:41:48] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:41:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:41:51] EXPLORE | Xiaomi: CPU=Load: 2.50 RAM=1308MB frei Akku=100% Temp=31.1C
+[2026-08-18 14:41:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:46:51] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:46:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:46:53] EXPLORE | Xiaomi: CPU=Load: 2.43 RAM=1408MB frei Akku=100% Temp=30.7C
+[2026-08-18 14:46:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:51:53] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:51:53] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:51:56] EXPLORE | Xiaomi: CPU=Load: 1.27 RAM=1640MB frei Akku=100% Temp=30.2C
+[2026-08-18 14:51:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 14:56:56] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-18 14:56:56] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-18 14:56:59] EXPLORE | Xiaomi: CPU=Load: 1.89 RAM=1733MB frei Akku=100% Temp=29.9C
+[2026-08-18 14:57:00] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:02:03] EXPLORE | Xiaomi: CPU=Load: 1.56 RAM=1686MB frei Akku=100% Temp=29.6C
+[2026-08-18 15:02:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:07:07] EXPLORE | Xiaomi: CPU=Load: 2.02 RAM=1690MB frei Akku=100% Temp=29.5C
+[2026-08-18 15:07:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:12:10] EXPLORE | Xiaomi: CPU=Load: 2.73 RAM=1621MB frei Akku=100% Temp=29.6C
+[2026-08-18 15:12:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:17:14] EXPLORE | Xiaomi: CPU=Load: 1.52 RAM=1600MB frei Akku=100% Temp=29.3C
+[2026-08-18 15:17:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:22:17] EXPLORE | Xiaomi: CPU=Load: 1.74 RAM=1774MB frei Akku=99% Temp=29.2C
+[2026-08-18 15:22:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:27:20] EXPLORE | Xiaomi: CPU=Load: 3.92 RAM=1563MB frei Akku=99% Temp=30.4C
+[2026-08-18 15:27:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:32:24] EXPLORE | Xiaomi: CPU=Load: 2.11 RAM=1592MB frei Akku=99% Temp=29.3C
+[2026-08-18 15:32:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:37:27] EXPLORE | Xiaomi: CPU=Load: 1.45 RAM=1572MB frei Akku=99% Temp=29.0C
+[2026-08-18 15:37:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:42:30] EXPLORE | Xiaomi: CPU=Load: 1.66 RAM=1525MB frei Akku=98% Temp=29.1C
+[2026-08-18 15:42:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:47:33] EXPLORE | Xiaomi: CPU=Load: 2.07 RAM=1539MB frei Akku=98% Temp=29.1C
+[2026-08-18 15:47:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:52:36] EXPLORE | Xiaomi: CPU=Load: 2.22 RAM=1493MB frei Akku=97% Temp=28.9C
+[2026-08-18 15:52:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 15:57:40] EXPLORE | Xiaomi: CPU=Load: 2.06 RAM=1629MB frei Akku=97% Temp=28.8C
+[2026-08-18 15:57:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:02:43] EXPLORE | Xiaomi: CPU=Load: 2.11 RAM=1577MB frei Akku=96% Temp=29.2C
+[2026-08-18 16:02:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:07:47] EXPLORE | Xiaomi: CPU=Load: 2.50 RAM=1632MB frei Akku=96% Temp=28.9C
+[2026-08-18 16:07:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:12:50] EXPLORE | Xiaomi: CPU=Load: 1.87 RAM=1552MB frei Akku=95% Temp=28.9C
+[2026-08-18 16:12:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:17:53] EXPLORE | Xiaomi: CPU=Load: 1.94 RAM=1627MB frei Akku=94% Temp=29.3C
+[2026-08-18 16:17:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:22:57] EXPLORE | Xiaomi: CPU=Load: 1.68 RAM=1590MB frei Akku=94% Temp=29.0C
+[2026-08-18 16:22:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:28:00] EXPLORE | Xiaomi: CPU=Load: 2.28 RAM=1700MB frei Akku=93% Temp=28.8C
+[2026-08-18 16:28:00] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:33:03] EXPLORE | Xiaomi: CPU=Load: 1.55 RAM=1700MB frei Akku=93% Temp=28.7C
+[2026-08-18 16:33:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:38:07] EXPLORE | Xiaomi: CPU=Load: 1.23 RAM=1461MB frei Akku=92% Temp=28.7C
+[2026-08-18 16:38:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:43:10] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=1678MB frei Akku=92% Temp=28.8C
+[2026-08-18 16:43:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:48:14] EXPLORE | Xiaomi: CPU=Load: 7.82 RAM=1360MB frei Akku=93% Temp=35.6C
+[2026-08-18 16:48:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:53:16] EXPLORE | Xiaomi: CPU=Load: 2.23 RAM=1320MB frei Akku=100% Temp=35.0C
+[2026-08-18 16:53:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 16:58:20] EXPLORE | Xiaomi: CPU=Load: 2.13 RAM=1252MB frei Akku=100% Temp=35.3C
+[2026-08-18 16:58:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:03:23] EXPLORE | Xiaomi: CPU=Load: 1.97 RAM=1232MB frei Akku=100% Temp=35.7C
+[2026-08-18 17:03:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:08:25] EXPLORE | Xiaomi: CPU=Load: 1.88 RAM=1174MB frei Akku=100% Temp=33.4C
+[2026-08-18 17:08:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:11:10] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-18 17:11:13] EXPLORE | Xiaomi: CPU=Load: 3.02 RAM=1119MB frei Akku=100% Temp=32.8C
+[2026-08-18 17:11:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:12:32] SCOUT-LAUF | 55b626ffa0e6ec9e
+[2026-08-18 17:16:15] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=1146MB frei Akku=100% Temp=31.3C
+[2026-08-18 17:16:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:16:41] LERNER-RUNDE | 276 Experimente
+[2026-08-18 17:21:19] EXPLORE | Xiaomi: CPU=Load: 1.94 RAM=1664MB frei Akku=100% Temp=31.2C
+[2026-08-18 17:21:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:25:48] MONITOR-EVENT | 1 Events
+[2026-08-18 17:26:22] EXPLORE | Xiaomi: CPU=Load: 2.67 RAM=1495MB frei Akku=100% Temp=33.4C
+[2026-08-18 17:26:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:31:24] EXPLORE | Xiaomi: CPU=Load: 3.21 RAM=1509MB frei Akku=100% Temp=34.9C
+[2026-08-18 17:31:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:36:27] EXPLORE | Xiaomi: CPU=Load: 2.71 RAM=1501MB frei Akku=100% Temp=35.2C
+[2026-08-18 17:36:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:41:30] EXPLORE | Xiaomi: CPU=Load: 2.62 RAM=1446MB frei Akku=100% Temp=35.0C
+[2026-08-18 17:41:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:46:33] EXPLORE | Xiaomi: CPU=Load: 2.72 RAM=1574MB frei Akku=100% Temp=36.4C
+[2026-08-18 17:46:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:51:37] EXPLORE | Xiaomi: CPU=Load: 2.61 RAM=1715MB frei Akku=100% Temp=36.2C
+[2026-08-18 17:51:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 17:56:41] EXPLORE | Xiaomi: CPU=Load: 4.15 RAM=1985MB frei Akku=100% Temp=39.5C
+[2026-08-18 17:56:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:01:45] EXPLORE | Xiaomi: CPU=Load: 1.46 RAM=1955MB frei Akku=100% Temp=37.3C
+[2026-08-18 18:01:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:06:47] EXPLORE | Xiaomi: CPU=Load: 3.96 RAM=1870MB frei Akku=100% Temp=41.0C
+[2026-08-18 18:06:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:11:50] EXPLORE | Xiaomi: CPU=Load: 6.56 RAM=1708MB frei Akku=100% Temp=44.7C
+[2026-08-18 18:11:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:16:54] EXPLORE | Xiaomi: CPU=Load: 5.29 RAM=1483MB frei Akku=100% Temp=46.0C
+[2026-08-18 18:16:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:17:11] LERNER-RUNDE | 263 Experimente
+[2026-08-18 18:21:57] EXPLORE | Xiaomi: CPU=Load: 5.47 RAM=1357MB frei Akku=100% Temp=43.2C
+[2026-08-18 18:21:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:27:00] EXPLORE | Xiaomi: CPU=Load: 3.53 RAM=1718MB frei Akku=100% Temp=41.5C
+[2026-08-18 18:27:00] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:32:03] EXPLORE | Xiaomi: CPU=Load: 2.73 RAM=1878MB frei Akku=100% Temp=38.5C
+[2026-08-18 18:32:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:37:06] EXPLORE | Xiaomi: CPU=Load: 1.70 RAM=1944MB frei Akku=100% Temp=35.7C
+[2026-08-18 18:37:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:42:09] EXPLORE | Xiaomi: CPU=Load: 2.44 RAM=1780MB frei Akku=100% Temp=34.8C
+[2026-08-18 18:42:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:47:12] EXPLORE | Xiaomi: CPU=Load: 2.60 RAM=1772MB frei Akku=100% Temp=34.0C
+[2026-08-18 18:47:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:52:14] EXPLORE | Xiaomi: CPU=Load: 2.57 RAM=1662MB frei Akku=100% Temp=33.5C
+[2026-08-18 18:52:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 18:57:18] EXPLORE | Xiaomi: CPU=Load: 2.46 RAM=1655MB frei Akku=100% Temp=33.2C
+[2026-08-18 18:57:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:02:21] EXPLORE | Xiaomi: CPU=Load: 1.98 RAM=1614MB frei Akku=100% Temp=33.1C
+[2026-08-18 19:02:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:07:24] EXPLORE | Xiaomi: CPU=Load: 2.20 RAM=1603MB frei Akku=100% Temp=32.8C
+[2026-08-18 19:07:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:12:28] EXPLORE | Xiaomi: CPU=Load: 2.07 RAM=1731MB frei Akku=100% Temp=32.5C
+[2026-08-18 19:12:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:17:30] EXPLORE | Xiaomi: CPU=Load: 4.06 RAM=2105MB frei Akku=100% Temp=36.3C
+[2026-08-18 19:17:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:17:43] LERNER-RUNDE | 230 Experimente
+[2026-08-18 19:22:33] EXPLORE | Xiaomi: CPU=Load: 1.82 RAM=1963MB frei Akku=100% Temp=32.9C
+[2026-08-18 19:22:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:27:37] EXPLORE | Xiaomi: CPU=Load: 1.68 RAM=1949MB frei Akku=100% Temp=32.2C
+[2026-08-18 19:27:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:32:40] EXPLORE | Xiaomi: CPU=Load: 2.66 RAM=1785MB frei Akku=100% Temp=32.7C
+[2026-08-18 19:32:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:37:43] EXPLORE | Xiaomi: CPU=Load: 3.47 RAM=1734MB frei Akku=100% Temp=33.2C
+[2026-08-18 19:37:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:42:46] EXPLORE | Xiaomi: CPU=Load: 2.51 RAM=1791MB frei Akku=100% Temp=32.2C
+[2026-08-18 19:42:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:45:47] LERNER | gestoppt per ~/.jack_lerner_stop
+[2026-08-18 19:45:47] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-18 19:45:50] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=1756MB frei Akku=100% Temp=32.3C
+[2026-08-18 19:45:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:47:09] SCOUT-LAUF | d20f898c78c32014
+[2026-08-18 19:48:57] SHADOW-FIXER | VORSCHLAG #99999 -> opfer.py.bdd15b573388 (nicht angewandt)
+[2026-08-18 19:48:58] MISSION-NEU | #28 notiz: echo stresstest_claim
+[2026-08-18 19:48:58] MISSION-STATUS | #28 -> fertig
+[2026-08-18 19:50:53] EXPLORE | Xiaomi: CPU=Load: 2.68 RAM=1728MB frei Akku=100% Temp=32.7C
+[2026-08-18 19:50:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:54:11] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-18 19:54:14] EXPLORE | Xiaomi: CPU=Load: 2.41 RAM=1625MB frei Akku=100% Temp=32.6C
+[2026-08-18 19:54:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 19:55:33] SCOUT-LAUF | 3f229e6e4a7dd809
+[2026-08-18 19:59:18] EXPLORE | Xiaomi: CPU=Load: 2.00 RAM=1634MB frei Akku=100% Temp=32.3C
+[2026-08-18 19:59:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:01:31] LERNER-RUNDE | RUNDE OK | 2 gelernt, 1 uebersprungen
+accelerometer_rotation: 1 -> 0 -> zurueck
+[2026-08-18 20:04:21] EXPLORE | Xiaomi: CPU=Load: 2.45 RAM=1615MB frei Akku=100% Temp=32.0C
+[2026-08-18 20:04:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:09:25] EXPLORE | Xiaomi: CPU=Load: 2.32 RAM=1752MB frei Akku=100% Temp=31.8C
+[2026-08-18 20:09:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:14:28] EXPLORE | Xiaomi: CPU=Load: 2.50 RAM=1568MB frei Akku=100% Temp=31.7C
+[2026-08-18 20:14:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:19:32] EXPLORE | Xiaomi: CPU=Load: 2.31 RAM=1827MB frei Akku=100% Temp=31.6C
+[2026-08-18 20:19:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:24:35] EXPLORE | Xiaomi: CPU=Load: 2.08 RAM=1935MB frei Akku=100% Temp=31.6C
+[2026-08-18 20:24:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:29:39] EXPLORE | Xiaomi: CPU=Load: 2.21 RAM=1850MB frei Akku=100% Temp=31.5C
+[2026-08-18 20:29:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:34:42] EXPLORE | Xiaomi: CPU=Load: 1.87 RAM=1933MB frei Akku=100% Temp=31.9C
+[2026-08-18 20:34:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:39:46] EXPLORE | Xiaomi: CPU=Load: 2.53 RAM=1772MB frei Akku=100% Temp=31.5C
+[2026-08-18 20:39:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:44:49] EXPLORE | Xiaomi: CPU=Load: 2.75 RAM=1774MB frei Akku=100% Temp=31.7C
+[2026-08-18 20:44:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:49:52] EXPLORE | Xiaomi: CPU=Load: 2.26 RAM=1629MB frei Akku=100% Temp=31.5C
+[2026-08-18 20:49:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:54:56] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=1901MB frei Akku=100% Temp=31.3C
+[2026-08-18 20:54:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 20:59:59] EXPLORE | Xiaomi: CPU=Load: 1.70 RAM=2030MB frei Akku=100% Temp=31.2C
+[2026-08-18 20:59:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:01:33] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-18 21:05:03] EXPLORE | Xiaomi: CPU=Load: 2.46 RAM=1743MB frei Akku=100% Temp=31.5C
+[2026-08-18 21:05:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:10:07] EXPLORE | Xiaomi: CPU=Load: 2.18 RAM=1939MB frei Akku=100% Temp=31.2C
+[2026-08-18 21:10:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:15:10] EXPLORE | Xiaomi: CPU=Load: 2.33 RAM=1905MB frei Akku=100% Temp=31.9C
+[2026-08-18 21:15:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:20:13] EXPLORE | Xiaomi: CPU=Load: 2.08 RAM=1973MB frei Akku=100% Temp=31.4C
+[2026-08-18 21:20:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:25:17] EXPLORE | Xiaomi: CPU=Load: 2.15 RAM=2057MB frei Akku=100% Temp=31.5C
+[2026-08-18 21:25:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:30:20] EXPLORE | Xiaomi: CPU=Load: 1.85 RAM=1949MB frei Akku=100% Temp=31.3C
+[2026-08-18 21:30:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:35:24] EXPLORE | Xiaomi: CPU=Load: 2.12 RAM=2011MB frei Akku=100% Temp=31.2C
+[2026-08-18 21:35:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:40:27] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=2041MB frei Akku=100% Temp=31.3C
+[2026-08-18 21:40:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:45:30] EXPLORE | Xiaomi: CPU=Load: 2.40 RAM=2005MB frei Akku=100% Temp=31.7C
+[2026-08-18 21:45:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:50:33] EXPLORE | Xiaomi: CPU=Load: 0.94 RAM=1968MB frei Akku=100% Temp=31.2C
+[2026-08-18 21:50:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 21:55:37] EXPLORE | Xiaomi: CPU=Load: 2.13 RAM=1839MB frei Akku=100% Temp=31.2C
+[2026-08-18 21:55:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:00:40] EXPLORE | Xiaomi: CPU=Load: 2.22 RAM=1901MB frei Akku=100% Temp=31.2C
+[2026-08-18 22:00:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:05:44] EXPLORE | Xiaomi: CPU=Load: 2.41 RAM=1917MB frei Akku=100% Temp=31.0C
+[2026-08-18 22:05:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:10:48] EXPLORE | Xiaomi: CPU=Load: 1.86 RAM=1943MB frei Akku=100% Temp=31.0C
+[2026-08-18 22:10:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:15:51] EXPLORE | Xiaomi: CPU=Load: 3.09 RAM=1915MB frei Akku=100% Temp=32.1C
+[2026-08-18 22:15:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:20:55] EXPLORE | Xiaomi: CPU=Load: 2.11 RAM=1862MB frei Akku=100% Temp=31.2C
+[2026-08-18 22:20:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:25:58] EXPLORE | Xiaomi: CPU=Load: 2.71 RAM=2111MB frei Akku=100% Temp=31.1C
+[2026-08-18 22:25:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:31:01] EXPLORE | Xiaomi: CPU=Load: 3.13 RAM=1664MB frei Akku=100% Temp=31.6C
+[2026-08-18 22:31:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:36:05] EXPLORE | Xiaomi: CPU=Load: 1.11 RAM=1673MB frei Akku=100% Temp=31.2C
+[2026-08-18 22:36:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:41:09] EXPLORE | Xiaomi: CPU=Load: 2.18 RAM=1630MB frei Akku=100% Temp=31.1C
+[2026-08-18 22:41:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:46:11] EXPLORE | Xiaomi: CPU=Load: 2.11 RAM=1840MB frei Akku=100% Temp=31.0C
+[2026-08-18 22:46:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:51:15] EXPLORE | Xiaomi: CPU=Load: 2.00 RAM=1639MB frei Akku=100% Temp=31.1C
+[2026-08-18 22:51:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 22:56:19] EXPLORE | Xiaomi: CPU=Load: 2.26 RAM=1656MB frei Akku=100% Temp=30.9C
+[2026-08-18 22:56:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:01:22] EXPLORE | Xiaomi: CPU=Load: 2.60 RAM=2141MB frei Akku=100% Temp=31.0C
+[2026-08-18 23:01:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:06:26] EXPLORE | Xiaomi: CPU=Load: 1.33 RAM=2070MB frei Akku=100% Temp=30.9C
+[2026-08-18 23:06:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:11:28] EXPLORE | Xiaomi: CPU=Load: 2.15 RAM=2112MB frei Akku=100% Temp=30.8C
+[2026-08-18 23:11:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:16:32] EXPLORE | Xiaomi: CPU=Load: 2.24 RAM=2192MB frei Akku=100% Temp=30.9C
+[2026-08-18 23:16:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:21:34] EXPLORE | Xiaomi: CPU=Load: 1.96 RAM=2295MB frei Akku=100% Temp=30.8C
+[2026-08-18 23:21:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:26:38] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=2291MB frei Akku=100% Temp=30.7C
+[2026-08-18 23:26:38] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:31:41] EXPLORE | Xiaomi: CPU=Load: 1.72 RAM=2498MB frei Akku=100% Temp=30.8C
+[2026-08-18 23:31:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:36:45] EXPLORE | Xiaomi: CPU=Load: 2.20 RAM=2351MB frei Akku=100% Temp=30.7C
+[2026-08-18 23:36:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:41:49] EXPLORE | Xiaomi: CPU=Load: 2.55 RAM=2286MB frei Akku=100% Temp=30.7C
+[2026-08-18 23:41:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:46:52] EXPLORE | Xiaomi: CPU=Load: 2.24 RAM=2135MB frei Akku=100% Temp=31.1C
+[2026-08-18 23:46:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:51:56] EXPLORE | Xiaomi: CPU=Load: 2.28 RAM=1711MB frei Akku=100% Temp=31.7C
+[2026-08-18 23:51:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-18 23:56:59] EXPLORE | Xiaomi: CPU=Load: 2.09 RAM=1760MB frei Akku=100% Temp=31.1C
+[2026-08-18 23:56:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:02:02] EXPLORE | Xiaomi: CPU=Load: 1.79 RAM=1684MB frei Akku=100% Temp=31.1C
+[2026-08-19 00:02:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:07:06] EXPLORE | Xiaomi: CPU=Load: 2.42 RAM=1574MB frei Akku=100% Temp=31.2C
+[2026-08-19 00:07:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:12:09] EXPLORE | Xiaomi: CPU=Load: 2.07 RAM=1728MB frei Akku=100% Temp=30.9C
+[2026-08-19 00:12:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:17:12] EXPLORE | Xiaomi: CPU=Load: 1.60 RAM=1698MB frei Akku=100% Temp=31.1C
+[2026-08-19 00:17:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:22:15] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=2044MB frei Akku=100% Temp=31.1C
+[2026-08-19 00:22:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:27:19] EXPLORE | Xiaomi: CPU=Load: 2.02 RAM=1945MB frei Akku=100% Temp=31.0C
+[2026-08-19 00:27:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:32:22] EXPLORE | Xiaomi: CPU=Load: 3.89 RAM=2461MB frei Akku=100% Temp=31.6C
+[2026-08-19 00:32:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:37:26] EXPLORE | Xiaomi: CPU=Load: 2.10 RAM=2355MB frei Akku=100% Temp=30.9C
+[2026-08-19 00:37:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:42:30] EXPLORE | Xiaomi: CPU=Load: 2.21 RAM=2177MB frei Akku=100% Temp=30.9C
+[2026-08-19 00:42:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:47:33] EXPLORE | Xiaomi: CPU=Load: 7.50 RAM=1902MB frei Akku=100% Temp=36.3C
+[2026-08-19 00:47:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:52:36] EXPLORE | Xiaomi: CPU=Load: 1.28 RAM=2034MB frei Akku=100% Temp=31.5C
+[2026-08-19 00:52:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 00:57:42] EXPLORE | Xiaomi: CPU=Load: 2.06 RAM=2057MB frei Akku=100% Temp=31.2C
+[2026-08-19 00:57:42] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 00:57:42] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 00:58:42] SHADOW-FIXER | Ollama-Fehler: timed out
+[2026-08-19 00:58:42] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 00:58:42] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 01:03:46] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-19 01:04:20] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:04:20] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:04:20] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:05:05] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:05:05] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 01:05:42] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 01:05:42] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 01:11:04] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:11:04] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:11:04] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:11:53] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:11:53] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 01:12:53] SHADOW-FIXER | Ollama-Fehler: timed out
+[2026-08-19 01:12:53] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 01:12:53] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 01:18:33] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:18:33] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:18:33] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:19:28] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:19:28] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 01:20:05] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:20:05] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 01:20:48] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:20:48] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 01:26:25] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:26:25] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:26:25] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:26:47] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:26:47] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 01:27:25] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:27:25] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 01:27:36] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:27:36] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 01:33:07] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:33:07] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:33:07] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:33:54] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:33:54] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 01:34:34] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:34:34] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 01:35:14] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:35:14] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 01:40:51] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:40:51] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:40:51] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:41:51] SHADOW-FIXER | Ollama-Fehler: timed out
+[2026-08-19 01:41:51] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 01:41:51] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 01:47:19] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:47:19] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:47:19] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:48:11] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 01:48:11] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 01:53:52] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 01:53:52] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 01:53:52] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 01:54:18] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:54:18] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 01:55:02] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:55:02] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 01:55:42] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 01:55:42] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 02:01:10] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:01:10] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:01:10] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:01:59] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:01:59] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 02:02:11] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:02:11] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 02:02:20] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:02:20] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 02:07:51] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:07:51] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:07:51] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:08:35] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:08:35] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 02:09:23] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:09:23] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 02:10:02] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:10:02] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 02:15:28] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:15:28] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:15:28] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:16:18] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:16:18] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 02:16:55] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:16:55] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 02:17:37] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 02:17:37] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 02:23:11] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:23:11] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:23:11] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:23:59] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:23:59] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 02:24:55] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 02:24:55] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 02:30:23] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:30:23] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:30:23] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:31:23] SHADOW-FIXER | Ollama-Fehler: timed out
+[2026-08-19 02:31:23] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 02:31:23] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 02:36:46] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:36:46] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:36:46] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:37:30] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:37:30] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 02:37:37] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:37:37] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 02:37:57] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:37:57] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 02:43:21] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:43:21] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:43:21] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:44:08] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:44:08] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 02:44:43] SHADOW-FIXER | #3283 Versuch 2 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:44:43] SHADOW-FIXER | #3283 jack_cortex Versuch 3/3
+[2026-08-19 02:45:20] SHADOW-FIXER | #3283 Versuch 3 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:45:20] SHADOW-FIXER | Fertig: 0 fixed, 1 skipped, 1 eskaliert
+[2026-08-19 02:50:54] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 02:50:54] SHADOW-FIXER | 1 Fehler gefunden
+[2026-08-19 02:50:54] SHADOW-FIXER | #3283 jack_cortex Versuch 1/3
+[2026-08-19 02:51:44] SHADOW-FIXER | #3283 Versuch 1 fehlgeschlagen: Patch fehlgeschlagen: Keine gueltigen SEARCH/REPLACE-Bloecke
+[2026-08-19 02:51:44] SHADOW-FIXER | #3283 jack_cortex Versuch 2/3
+[2026-08-19 02:52:29] SHADOW-FIXER | #3283: Ollama kann nicht fixen
+[2026-08-19 02:52:29] SHADOW-FIXER | Fertig: 0 fixed, 0 skipped, 0 eskaliert
+[2026-08-19 06:00:00] MEMORY-MAINTENANCE | Verbleibend: 59 Eintraege
+[2026-08-19 07:55:04] MONITOR-VOLLSCAN | ok
+[2026-08-19 11:24:03] WAECHTER-START | Nacht-Ueberwachung mit Queue
+[2026-08-19 11:24:04] WAECHTER-AUDIT | woechentlich verschickt
+[2026-08-19 11:24:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:24:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:24:08] EXPLORE | Xiaomi: CPU=Load: 1.97 RAM=2188MB frei Akku=100% Temp=30.5C
+[2026-08-19 11:24:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 11:25:26] SCOUT-LAUF | ad988a3f83ad7900
+[2026-08-19 11:29:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:29:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:29:11] EXPLORE | Xiaomi: CPU=Load: 2.72 RAM=2218MB frei Akku=100% Temp=30.2C
+[2026-08-19 11:29:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 11:34:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:34:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:34:14] EXPLORE | Xiaomi: CPU=Load: 2.18 RAM=2164MB frei Akku=100% Temp=30.1C
+[2026-08-19 11:34:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 11:39:14] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-19 11:39:14] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-19 11:39:14] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:39:14] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:39:17] EXPLORE | Xiaomi: CPU=Load: 2.83 RAM=1924MB frei Akku=100% Temp=30.4C
+[2026-08-19 11:39:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 11:44:17] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:44:17] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:44:20] EXPLORE | Xiaomi: CPU=Load: 3.36 RAM=1852MB frei Akku=100% Temp=30.3C
+[2026-08-19 11:44:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 11:49:20] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:49:20] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:49:23] EXPLORE | Xiaomi: CPU=Load: 2.29 RAM=1999MB frei Akku=100% Temp=30.0C
+[2026-08-19 11:49:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 11:54:23] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:54:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:54:26] EXPLORE | Xiaomi: CPU=Load: 1.57 RAM=1829MB frei Akku=100% Temp=30.2C
+[2026-08-19 11:54:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 11:59:27] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 11:59:27] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 11:59:30] EXPLORE | Xiaomi: CPU=Load: 1.59 RAM=1891MB frei Akku=100% Temp=30.0C
+[2026-08-19 11:59:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:04:30] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:04:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:04:33] EXPLORE | Xiaomi: CPU=Load: 2.24 RAM=1692MB frei Akku=100% Temp=30.1C
+[2026-08-19 12:04:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:09:33] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:09:33] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:09:36] EXPLORE | Xiaomi: CPU=Load: 1.96 RAM=1718MB frei Akku=100% Temp=29.8C
+[2026-08-19 12:09:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:12:15] MONITOR-EVENT | 1 Events
+[2026-08-19 12:14:36] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:14:36] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:14:39] EXPLORE | Xiaomi: CPU=Load: 1.96 RAM=1757MB frei Akku=100% Temp=29.7C
+[2026-08-19 12:14:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:19:39] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:19:39] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:19:42] EXPLORE | Xiaomi: CPU=Load: 1.79 RAM=1903MB frei Akku=100% Temp=29.4C
+[2026-08-19 12:19:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:24:43] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:24:43] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:24:45] EXPLORE | Xiaomi: CPU=Load: 3.10 RAM=1964MB frei Akku=100% Temp=30.9C
+[2026-08-19 12:24:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:29:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:29:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:29:48] EXPLORE | Xiaomi: CPU=Load: 4.32 RAM=2063MB frei Akku=100% Temp=32.3C
+[2026-08-19 12:29:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:34:49] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:34:49] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:34:52] EXPLORE | Xiaomi: CPU=Load: 3.14 RAM=1946MB frei Akku=100% Temp=34.6C
+[2026-08-19 12:34:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:39:52] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:39:52] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:39:55] EXPLORE | Xiaomi: CPU=Load: 2.08 RAM=2130MB frei Akku=100% Temp=32.4C
+[2026-08-19 12:39:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:44:29] MONITOR-EVENT | 1 Events
+[2026-08-19 12:45:01] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-19 12:45:01] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:45:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:45:22] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 12:45:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:50:25] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:50:25] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:50:43] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 12:50:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 12:55:47] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 12:55:47] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 12:56:05] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 12:56:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:01:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:01:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:01:30] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-19 13:01:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:04:40] MONITOR-EVENT | 1 Events
+[2026-08-19 13:06:30] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:06:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:06:33] EXPLORE | Xiaomi: CPU=Load: 5.03 RAM=1883MB frei Akku=100% Temp=32.4C
+[2026-08-19 13:06:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:11:33] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:11:33] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:11:36] EXPLORE | Xiaomi: CPU=Load: 2.00 RAM=1728MB frei Akku=100% Temp=31.8C
+[2026-08-19 13:11:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:16:36] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:16:36] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:16:39] EXPLORE | Xiaomi: CPU=Load: 2.47 RAM=1723MB frei Akku=100% Temp=31.7C
+[2026-08-19 13:16:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:21:39] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:21:39] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:21:41] EXPLORE | Xiaomi: CPU=Load: 1.88 RAM=1724MB frei Akku=100% Temp=31.6C
+[2026-08-19 13:21:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:26:41] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:26:41] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:26:44] EXPLORE | Xiaomi: CPU=Load: 3.35 RAM=1656MB frei Akku=100% Temp=31.7C
+[2026-08-19 13:26:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:31:44] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:31:44] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:31:47] EXPLORE | Xiaomi: CPU=Load: 1.88 RAM=1673MB frei Akku=100% Temp=31.4C
+[2026-08-19 13:31:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:36:47] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:36:47] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:36:50] EXPLORE | Xiaomi: CPU=Load: 2.46 RAM=1866MB frei Akku=100% Temp=31.6C
+[2026-08-19 13:36:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:41:50] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:41:50] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:41:53] EXPLORE | Xiaomi: CPU=Load: 2.35 RAM=2040MB frei Akku=100% Temp=31.6C
+[2026-08-19 13:41:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:46:53] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:46:53] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:46:55] EXPLORE | Xiaomi: CPU=Load: 2.71 RAM=1678MB frei Akku=100% Temp=33.1C
+[2026-08-19 13:46:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:51:55] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:51:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:51:58] EXPLORE | Xiaomi: CPU=Load: 1.76 RAM=1502MB frei Akku=100% Temp=32.3C
+[2026-08-19 13:51:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 13:56:59] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 13:56:59] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 13:57:01] EXPLORE | Xiaomi: CPU=Load: 2.05 RAM=1673MB frei Akku=100% Temp=32.3C
+[2026-08-19 13:57:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:02:02] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:02:02] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:02:04] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=1677MB frei Akku=100% Temp=32.3C
+[2026-08-19 14:02:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:07:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:07:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:07:07] EXPLORE | Xiaomi: CPU=Load: 2.74 RAM=1601MB frei Akku=100% Temp=32.7C
+[2026-08-19 14:07:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:12:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:12:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:12:10] EXPLORE | Xiaomi: CPU=Load: 2.57 RAM=1607MB frei Akku=100% Temp=32.8C
+[2026-08-19 14:12:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:17:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:17:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:17:13] EXPLORE | Xiaomi: CPU=Load: 2.34 RAM=2042MB frei Akku=100% Temp=32.6C
+[2026-08-19 14:17:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:22:14] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:22:14] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:22:16] EXPLORE | Xiaomi: CPU=Load: 2.71 RAM=1787MB frei Akku=100% Temp=33.0C
+[2026-08-19 14:22:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:27:16] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:27:16] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:27:19] EXPLORE | Xiaomi: CPU=Load: 1.85 RAM=1837MB frei Akku=100% Temp=32.7C
+[2026-08-19 14:27:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:32:19] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:32:19] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:32:22] EXPLORE | Xiaomi: CPU=Load: 1.83 RAM=1844MB frei Akku=100% Temp=32.6C
+[2026-08-19 14:32:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:37:22] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:37:22] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:37:25] EXPLORE | Xiaomi: CPU=Load: 2.02 RAM=1966MB frei Akku=100% Temp=32.6C
+[2026-08-19 14:37:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:42:25] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:42:25] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:42:28] EXPLORE | Xiaomi: CPU=Load: 1.86 RAM=2002MB frei Akku=100% Temp=32.5C
+[2026-08-19 14:42:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:47:28] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:47:28] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:47:31] EXPLORE | Xiaomi: CPU=Load: 2.24 RAM=2052MB frei Akku=100% Temp=32.5C
+[2026-08-19 14:47:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:52:31] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:52:31] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:52:34] EXPLORE | Xiaomi: CPU=Load: 1.53 RAM=2258MB frei Akku=100% Temp=32.4C
+[2026-08-19 14:52:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 14:57:34] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-19 14:57:34] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-19 14:57:36] EXPLORE | Xiaomi: CPU=Load: 1.50 RAM=2268MB frei Akku=100% Temp=32.4C
+[2026-08-19 14:57:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:02:40] EXPLORE | Xiaomi: CPU=Load: 2.29 RAM=2209MB frei Akku=100% Temp=32.3C
+[2026-08-19 15:02:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:07:43] EXPLORE | Xiaomi: CPU=Load: 1.76 RAM=2333MB frei Akku=100% Temp=32.2C
+[2026-08-19 15:07:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:12:46] EXPLORE | Xiaomi: CPU=Load: 1.76 RAM=2420MB frei Akku=100% Temp=32.0C
+[2026-08-19 15:12:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:17:49] EXPLORE | Xiaomi: CPU=Load: 2.30 RAM=2511MB frei Akku=100% Temp=32.0C
+[2026-08-19 15:17:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:22:52] EXPLORE | Xiaomi: CPU=Load: 2.28 RAM=2513MB frei Akku=100% Temp=31.9C
+[2026-08-19 15:22:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:27:55] EXPLORE | Xiaomi: CPU=Load: 2.00 RAM=2259MB frei Akku=100% Temp=32.1C
+[2026-08-19 15:27:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:32:59] EXPLORE | Xiaomi: CPU=Load: 2.09 RAM=2341MB frei Akku=100% Temp=32.0C
+[2026-08-19 15:32:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:38:01] EXPLORE | Xiaomi: CPU=Load: 1.94 RAM=2293MB frei Akku=100% Temp=32.1C
+[2026-08-19 15:38:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:43:04] EXPLORE | Xiaomi: CPU=Load: 2.05 RAM=2203MB frei Akku=100% Temp=32.0C
+[2026-08-19 15:43:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:48:07] EXPLORE | Xiaomi: CPU=Load: 2.39 RAM=2060MB frei Akku=100% Temp=32.3C
+[2026-08-19 15:48:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:53:10] EXPLORE | Xiaomi: CPU=Load: 2.16 RAM=2067MB frei Akku=100% Temp=32.1C
+[2026-08-19 15:53:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 15:58:13] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=2286MB frei Akku=100% Temp=32.1C
+[2026-08-19 15:58:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:03:16] EXPLORE | Xiaomi: CPU=Load: 1.40 RAM=2354MB frei Akku=100% Temp=32.0C
+[2026-08-19 16:03:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:08:19] EXPLORE | Xiaomi: CPU=Load: 2.18 RAM=2357MB frei Akku=100% Temp=32.1C
+[2026-08-19 16:08:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:13:22] EXPLORE | Xiaomi: CPU=Load: 2.24 RAM=2407MB frei Akku=100% Temp=32.3C
+[2026-08-19 16:13:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:18:25] EXPLORE | Xiaomi: CPU=Load: 1.63 RAM=1750MB frei Akku=100% Temp=32.9C
+[2026-08-19 16:18:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:23:28] EXPLORE | Xiaomi: CPU=Load: 1.49 RAM=1837MB frei Akku=100% Temp=32.7C
+[2026-08-19 16:23:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:28:30] EXPLORE | Xiaomi: CPU=Load: 2.35 RAM=1838MB frei Akku=100% Temp=32.6C
+[2026-08-19 16:28:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:29:05] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-19 16:33:34] EXPLORE | Xiaomi: CPU=Load: 2.23 RAM=1688MB frei Akku=100% Temp=33.0C
+[2026-08-19 16:33:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:38:37] EXPLORE | Xiaomi: CPU=Load: 2.51 RAM=1577MB frei Akku=100% Temp=32.9C
+[2026-08-19 16:38:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:43:38] EXPLORE | Xiaomi: CPU=Load: 1.92 RAM=1534MB frei Akku=100% Temp=32.8C
+[2026-08-19 16:43:38] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:48:40] EXPLORE | Xiaomi: CPU=Load: 2.27 RAM=1771MB frei Akku=100% Temp=33.1C
+[2026-08-19 16:48:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:53:42] EXPLORE | Xiaomi: CPU=Load: 2.68 RAM=1725MB frei Akku=100% Temp=32.9C
+[2026-08-19 16:53:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 16:58:44] EXPLORE | Xiaomi: CPU=Load: 2.87 RAM=1819MB frei Akku=100% Temp=32.9C
+[2026-08-19 16:58:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:02:30] ENTSCHEIDUNG-P5 | Web-Pipeline offiziell: jack_web_ingest + jack_consolidate (Cron 11:00). Curator bleibt archiviert. Kein Auto-Fetch-Cron.
+[2026-08-19 17:03:45] EXPLORE | Xiaomi: CPU=Load: 1.90 RAM=1822MB frei Akku=100% Temp=33.0C
+[2026-08-19 17:03:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:08:47] EXPLORE | Xiaomi: CPU=Load: 2.53 RAM=2228MB frei Akku=100% Temp=33.2C
+[2026-08-19 17:08:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:13:49] EXPLORE | Xiaomi: CPU=Load: 2.38 RAM=2242MB frei Akku=100% Temp=33.1C
+[2026-08-19 17:13:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:18:50] EXPLORE | Xiaomi: CPU=Load: 1.55 RAM=2523MB frei Akku=100% Temp=33.1C
+[2026-08-19 17:18:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:23:52] EXPLORE | Xiaomi: CPU=Load: 2.89 RAM=2230MB frei Akku=100% Temp=33.3C
+[2026-08-19 17:23:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:28:54] EXPLORE | Xiaomi: CPU=Load: 2.01 RAM=2239MB frei Akku=100% Temp=33.0C
+[2026-08-19 17:28:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:29:06] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-19 17:33:55] EXPLORE | Xiaomi: CPU=Load: 1.47 RAM=1977MB frei Akku=100% Temp=33.0C
+[2026-08-19 17:33:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:38:57] EXPLORE | Xiaomi: CPU=Load: 2.51 RAM=2091MB frei Akku=100% Temp=33.0C
+[2026-08-19 17:38:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:43:59] EXPLORE | Xiaomi: CPU=Load: 2.02 RAM=2003MB frei Akku=100% Temp=33.0C
+[2026-08-19 17:43:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:49:01] EXPLORE | Xiaomi: CPU=Load: 2.31 RAM=1768MB frei Akku=100% Temp=33.3C
+[2026-08-19 17:49:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:54:03] EXPLORE | Xiaomi: CPU=Load: 2.06 RAM=1996MB frei Akku=100% Temp=33.3C
+[2026-08-19 17:54:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 17:59:04] EXPLORE | Xiaomi: CPU=Load: 2.02 RAM=1990MB frei Akku=100% Temp=33.2C
+[2026-08-19 17:59:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:04:05] EXPLORE | Xiaomi: CPU=Load: 2.09 RAM=1956MB frei Akku=100% Temp=33.2C
+[2026-08-19 18:04:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:09:07] EXPLORE | Xiaomi: CPU=Load: 2.19 RAM=2069MB frei Akku=100% Temp=33.2C
+[2026-08-19 18:09:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:14:09] EXPLORE | Xiaomi: CPU=Load: 1.68 RAM=2168MB frei Akku=100% Temp=33.2C
+[2026-08-19 18:14:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:19:11] EXPLORE | Xiaomi: CPU=Load: 2.21 RAM=2154MB frei Akku=100% Temp=33.5C
+[2026-08-19 18:19:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:24:13] EXPLORE | Xiaomi: CPU=Load: 2.13 RAM=2182MB frei Akku=100% Temp=33.3C
+[2026-08-19 18:24:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:29:07] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-19 18:29:15] EXPLORE | Xiaomi: CPU=Load: 1.95 RAM=2039MB frei Akku=100% Temp=33.3C
+[2026-08-19 18:29:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:34:16] EXPLORE | Xiaomi: CPU=Load: 2.01 RAM=2057MB frei Akku=100% Temp=33.2C
+[2026-08-19 18:34:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:39:17] EXPLORE | Xiaomi: CPU=Load: 2.13 RAM=2129MB frei Akku=100% Temp=33.2C
+[2026-08-19 18:39:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:44:19] EXPLORE | Xiaomi: CPU=Load: 2.83 RAM=2097MB frei Akku=100% Temp=33.4C
+[2026-08-19 18:44:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:49:21] EXPLORE | Xiaomi: CPU=Load: 2.13 RAM=2123MB frei Akku=100% Temp=33.1C
+[2026-08-19 18:49:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:54:23] EXPLORE | Xiaomi: CPU=Load: 2.55 RAM=2192MB frei Akku=100% Temp=33.0C
+[2026-08-19 18:54:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 18:59:24] EXPLORE | Xiaomi: CPU=Load: 2.22 RAM=2197MB frei Akku=100% Temp=32.8C
+[2026-08-19 18:59:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:04:26] EXPLORE | Xiaomi: CPU=Load: 1.69 RAM=2336MB frei Akku=100% Temp=32.8C
+[2026-08-19 19:04:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:09:28] EXPLORE | Xiaomi: CPU=Load: 2.34 RAM=2358MB frei Akku=100% Temp=32.8C
+[2026-08-19 19:09:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:14:29] EXPLORE | Xiaomi: CPU=Load: 2.30 RAM=2354MB frei Akku=100% Temp=32.7C
+[2026-08-19 19:14:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:19:31] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=2204MB frei Akku=100% Temp=32.7C
+[2026-08-19 19:19:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:24:33] EXPLORE | Xiaomi: CPU=Load: 1.46 RAM=2350MB frei Akku=100% Temp=32.6C
+[2026-08-19 19:24:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:29:09] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-19 19:29:35] EXPLORE | Xiaomi: CPU=Load: 1.41 RAM=2314MB frei Akku=100% Temp=32.8C
+[2026-08-19 19:29:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:34:37] EXPLORE | Xiaomi: CPU=Load: 2.07 RAM=2316MB frei Akku=100% Temp=32.6C
+[2026-08-19 19:34:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:39:38] EXPLORE | Xiaomi: CPU=Load: 1.59 RAM=2284MB frei Akku=100% Temp=32.7C
+[2026-08-19 19:39:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:44:40] EXPLORE | Xiaomi: CPU=Load: 2.26 RAM=2254MB frei Akku=100% Temp=32.5C
+[2026-08-19 19:44:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:49:42] EXPLORE | Xiaomi: CPU=Load: 2.18 RAM=2429MB frei Akku=100% Temp=32.4C
+[2026-08-19 19:49:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:54:44] EXPLORE | Xiaomi: CPU=Load: 1.92 RAM=2459MB frei Akku=100% Temp=32.4C
+[2026-08-19 19:54:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 19:59:46] EXPLORE | Xiaomi: CPU=Load: 0.82 RAM=2460MB frei Akku=100% Temp=32.3C
+[2026-08-19 19:59:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:04:47] EXPLORE | Xiaomi: CPU=Load: 1.08 RAM=2431MB frei Akku=100% Temp=32.3C
+[2026-08-19 20:04:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:09:49] EXPLORE | Xiaomi: CPU=Load: 3.17 RAM=2351MB frei Akku=100% Temp=32.8C
+[2026-08-19 20:09:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:14:51] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=2271MB frei Akku=100% Temp=32.6C
+[2026-08-19 20:14:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:19:52] EXPLORE | Xiaomi: CPU=Load: 1.40 RAM=2245MB frei Akku=100% Temp=32.4C
+[2026-08-19 20:19:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:24:54] EXPLORE | Xiaomi: CPU=Load: 1.94 RAM=2341MB frei Akku=100% Temp=32.3C
+[2026-08-19 20:24:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:29:10] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-19 20:29:56] EXPLORE | Xiaomi: CPU=Load: 1.87 RAM=2305MB frei Akku=100% Temp=32.5C
+[2026-08-19 20:29:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:34:58] EXPLORE | Xiaomi: CPU=Load: 1.91 RAM=2193MB frei Akku=100% Temp=32.4C
+[2026-08-19 20:34:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:40:00] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=1963MB frei Akku=100% Temp=32.7C
+[2026-08-19 20:40:00] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:45:01] EXPLORE | Xiaomi: CPU=Load: 4.04 RAM=2076MB frei Akku=100% Temp=33.4C
+[2026-08-19 20:45:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:50:03] EXPLORE | Xiaomi: CPU=Load: 2.54 RAM=2110MB frei Akku=100% Temp=32.8C
+[2026-08-19 20:50:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 20:55:05] EXPLORE | Xiaomi: CPU=Load: 2.04 RAM=2082MB frei Akku=100% Temp=32.7C
+[2026-08-19 20:55:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:00:07] EXPLORE | Xiaomi: CPU=Load: 0.85 RAM=2048MB frei Akku=100% Temp=32.6C
+[2026-08-19 21:00:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:05:09] EXPLORE | Xiaomi: CPU=Load: 2.11 RAM=2043MB frei Akku=100% Temp=32.5C
+[2026-08-19 21:05:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:10:11] EXPLORE | Xiaomi: CPU=Load: 1.98 RAM=1977MB frei Akku=100% Temp=32.5C
+[2026-08-19 21:10:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:15:12] EXPLORE | Xiaomi: CPU=Load: 6.38 RAM=1990MB frei Akku=100% Temp=33.6C
+[2026-08-19 21:15:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:20:14] EXPLORE | Xiaomi: CPU=Load: 2.03 RAM=1987MB frei Akku=100% Temp=32.7C
+[2026-08-19 21:20:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:25:16] EXPLORE | Xiaomi: CPU=Load: 2.41 RAM=2039MB frei Akku=100% Temp=32.6C
+[2026-08-19 21:25:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:29:11] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-19 21:30:17] EXPLORE | Xiaomi: CPU=Load: 2.34 RAM=2237MB frei Akku=100% Temp=32.5C
+[2026-08-19 21:30:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:35:19] EXPLORE | Xiaomi: CPU=Load: 2.34 RAM=2254MB frei Akku=100% Temp=32.3C
+[2026-08-19 21:35:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:40:21] EXPLORE | Xiaomi: CPU=Load: 2.58 RAM=1954MB frei Akku=100% Temp=32.6C
+[2026-08-19 21:40:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:45:22] EXPLORE | Xiaomi: CPU=Load: 2.40 RAM=2011MB frei Akku=100% Temp=33.1C
+[2026-08-19 21:45:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:50:24] EXPLORE | Xiaomi: CPU=Load: 2.24 RAM=2097MB frei Akku=100% Temp=32.5C
+[2026-08-19 21:50:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 21:55:26] EXPLORE | Xiaomi: CPU=Load: 2.31 RAM=2098MB frei Akku=100% Temp=32.5C
+[2026-08-19 21:55:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:00:28] EXPLORE | Xiaomi: CPU=Load: 0.97 RAM=2059MB frei Akku=100% Temp=32.4C
+[2026-08-19 22:00:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:05:29] EXPLORE | Xiaomi: CPU=Load: 1.56 RAM=1786MB frei Akku=100% Temp=33.1C
+[2026-08-19 22:05:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:10:30] EXPLORE | Xiaomi: CPU=Load: 2.56 RAM=1989MB frei Akku=100% Temp=32.7C
+[2026-08-19 22:10:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:15:32] EXPLORE | Xiaomi: CPU=Load: 2.25 RAM=2276MB frei Akku=100% Temp=32.6C
+[2026-08-19 22:15:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:20:34] EXPLORE | Xiaomi: CPU=Load: 2.15 RAM=2259MB frei Akku=100% Temp=32.4C
+[2026-08-19 22:20:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:25:36] EXPLORE | Xiaomi: CPU=Load: 1.67 RAM=2038MB frei Akku=100% Temp=32.7C
+[2026-08-19 22:25:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:30:37] EXPLORE | Xiaomi: CPU=Load: 2.23 RAM=2025MB frei Akku=100% Temp=32.5C
+[2026-08-19 22:30:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:35:39] EXPLORE | Xiaomi: CPU=Load: 2.22 RAM=2377MB frei Akku=100% Temp=32.4C
+[2026-08-19 22:35:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:40:41] EXPLORE | Xiaomi: CPU=Load: 2.18 RAM=2157MB frei Akku=100% Temp=32.6C
+[2026-08-19 22:40:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:45:42] EXPLORE | Xiaomi: CPU=Load: 2.72 RAM=2135MB frei Akku=100% Temp=32.5C
+[2026-08-19 22:45:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:50:44] EXPLORE | Xiaomi: CPU=Load: 2.42 RAM=1790MB frei Akku=100% Temp=33.0C
+[2026-08-19 22:50:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 22:55:46] EXPLORE | Xiaomi: CPU=Load: 1.91 RAM=1838MB frei Akku=100% Temp=32.8C
+[2026-08-19 22:55:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:00:48] EXPLORE | Xiaomi: CPU=Load: 2.68 RAM=2025MB frei Akku=100% Temp=32.7C
+[2026-08-19 23:00:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:05:49] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=1965MB frei Akku=100% Temp=32.6C
+[2026-08-19 23:05:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:10:51] EXPLORE | Xiaomi: CPU=Load: 2.74 RAM=2140MB frei Akku=100% Temp=32.6C
+[2026-08-19 23:10:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:15:52] EXPLORE | Xiaomi: CPU=Load: 2.33 RAM=2228MB frei Akku=100% Temp=32.6C
+[2026-08-19 23:15:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:20:54] EXPLORE | Xiaomi: CPU=Load: 1.68 RAM=2643MB frei Akku=100% Temp=32.6C
+[2026-08-19 23:20:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:25:56] EXPLORE | Xiaomi: CPU=Load: 2.78 RAM=2482MB frei Akku=100% Temp=33.3C
+[2026-08-19 23:25:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:30:57] EXPLORE | Xiaomi: CPU=Load: 2.49 RAM=2468MB frei Akku=100% Temp=32.6C
+[2026-08-19 23:30:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:35:59] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=2431MB frei Akku=100% Temp=32.3C
+[2026-08-19 23:35:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:41:01] EXPLORE | Xiaomi: CPU=Load: 2.25 RAM=2400MB frei Akku=100% Temp=32.1C
+[2026-08-19 23:41:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:46:03] EXPLORE | Xiaomi: CPU=Load: 2.83 RAM=2270MB frei Akku=100% Temp=32.3C
+[2026-08-19 23:46:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:51:05] EXPLORE | Xiaomi: CPU=Load: 2.24 RAM=2341MB frei Akku=100% Temp=32.0C
+[2026-08-19 23:51:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-19 23:56:07] EXPLORE | Xiaomi: CPU=Load: 4.12 RAM=2532MB frei Akku=100% Temp=32.8C
+[2026-08-19 23:56:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:01:08] EXPLORE | Xiaomi: CPU=Load: 2.52 RAM=2360MB frei Akku=100% Temp=32.7C
+[2026-08-20 00:01:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:06:10] EXPLORE | Xiaomi: CPU=Load: 2.56 RAM=2245MB frei Akku=100% Temp=32.0C
+[2026-08-20 00:06:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:07:43] MONITOR-EVENT | 1 Events
+[2026-08-20 00:11:11] EXPLORE | Xiaomi: CPU=Load: 2.51 RAM=2227MB frei Akku=100% Temp=32.9C
+[2026-08-20 00:11:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:16:13] EXPLORE | Xiaomi: CPU=Load: 2.15 RAM=2074MB frei Akku=100% Temp=33.9C
+[2026-08-20 00:16:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:21:15] EXPLORE | Xiaomi: CPU=Load: 2.21 RAM=2055MB frei Akku=100% Temp=34.0C
+[2026-08-20 00:21:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:26:16] EXPLORE | Xiaomi: CPU=Load: 2.81 RAM=2052MB frei Akku=100% Temp=34.4C
+[2026-08-20 00:26:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:31:18] EXPLORE | Xiaomi: CPU=Load: 1.64 RAM=1958MB frei Akku=100% Temp=31.1C
+[2026-08-20 00:31:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:36:19] EXPLORE | Xiaomi: CPU=Load: 1.96 RAM=1957MB frei Akku=100% Temp=29.5C
+[2026-08-20 00:36:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:41:21] EXPLORE | Xiaomi: CPU=Load: 1.39 RAM=2012MB frei Akku=100% Temp=28.6C
+[2026-08-20 00:41:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:46:22] EXPLORE | Xiaomi: CPU=Load: 1.70 RAM=2155MB frei Akku=100% Temp=27.8C
+[2026-08-20 00:46:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:51:24] EXPLORE | Xiaomi: CPU=Load: 2.31 RAM=1926MB frei Akku=100% Temp=27.4C
+[2026-08-20 00:51:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 00:56:25] EXPLORE | Xiaomi: CPU=Load: 2.47 RAM=2041MB frei Akku=100% Temp=26.8C
+[2026-08-20 00:56:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:01:27] EXPLORE | Xiaomi: CPU=Load: 2.02 RAM=2068MB frei Akku=100% Temp=26.6C
+[2026-08-20 01:01:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:06:29] EXPLORE | Xiaomi: CPU=Load: 17.82 RAM=1694MB frei Akku=100% Temp=36.4C
+[2026-08-20 01:06:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:11:33] EXPLORE | Xiaomi: CPU=Load: 2.41 RAM=1884MB frei Akku=100% Temp=29.0C
+[2026-08-20 01:11:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:16:34] EXPLORE | Xiaomi: CPU=Load: 2.17 RAM=1879MB frei Akku=100% Temp=27.9C
+[2026-08-20 01:16:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:21:36] EXPLORE | Xiaomi: CPU=Load: 1.95 RAM=2038MB frei Akku=100% Temp=27.7C
+[2026-08-20 01:21:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:26:38] EXPLORE | Xiaomi: CPU=Load: 3.53 RAM=2014MB frei Akku=100% Temp=30.8C
+[2026-08-20 01:26:38] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:31:40] EXPLORE | Xiaomi: CPU=Load: 1.58 RAM=1986MB frei Akku=100% Temp=28.9C
+[2026-08-20 01:31:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:36:42] EXPLORE | Xiaomi: CPU=Load: 2.12 RAM=2031MB frei Akku=100% Temp=28.7C
+[2026-08-20 01:36:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:41:43] EXPLORE | Xiaomi: CPU=Load: 2.25 RAM=2117MB frei Akku=100% Temp=29.6C
+[2026-08-20 01:41:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:46:45] EXPLORE | Xiaomi: CPU=Load: 0.35 RAM=2160MB frei Akku=100% Temp=28.6C
+[2026-08-20 01:46:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:51:47] EXPLORE | Xiaomi: CPU=Load: 0.26 RAM=2230MB frei Akku=100% Temp=28.6C
+[2026-08-20 01:51:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 01:56:49] EXPLORE | Xiaomi: CPU=Load: 0.00 RAM=2595MB frei Akku=100% Temp=28.3C
+[2026-08-20 01:56:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:01:51] EXPLORE | Xiaomi: CPU=Load: 0.03 RAM=2505MB frei Akku=99% Temp=28.3C
+[2026-08-20 02:01:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:06:52] EXPLORE | Xiaomi: CPU=Load: 0.51 RAM=2471MB frei Akku=99% Temp=28.1C
+[2026-08-20 02:06:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:11:54] EXPLORE | Xiaomi: CPU=Load: 0.24 RAM=2619MB frei Akku=99% Temp=28.2C
+[2026-08-20 02:11:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:16:56] EXPLORE | Xiaomi: CPU=Load: 0.25 RAM=2714MB frei Akku=99% Temp=29.0C
+[2026-08-20 02:16:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:21:57] EXPLORE | Xiaomi: CPU=Load: 0.14 RAM=2659MB frei Akku=99% Temp=28.9C
+[2026-08-20 02:21:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:26:59] EXPLORE | Xiaomi: CPU=Load: 0.20 RAM=2830MB frei Akku=99% Temp=28.6C
+[2026-08-20 02:26:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:32:01] EXPLORE | Xiaomi: CPU=Load: 0.20 RAM=2786MB frei Akku=98% Temp=28.7C
+[2026-08-20 02:32:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:37:03] EXPLORE | Xiaomi: CPU=Load: 0.18 RAM=2737MB frei Akku=98% Temp=28.4C
+[2026-08-20 02:37:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:42:04] EXPLORE | Xiaomi: CPU=Load: 0.82 RAM=2240MB frei Akku=98% Temp=29.5C
+[2026-08-20 02:42:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:47:06] EXPLORE | Xiaomi: CPU=Load: 0.07 RAM=2353MB frei Akku=97% Temp=27.9C
+[2026-08-20 02:47:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:52:08] EXPLORE | Xiaomi: CPU=Load: 0.09 RAM=2352MB frei Akku=97% Temp=27.1C
+[2026-08-20 02:52:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 02:57:10] EXPLORE | Xiaomi: CPU=Load: 0.13 RAM=2313MB frei Akku=97% Temp=26.9C
+[2026-08-20 02:57:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:02:12] EXPLORE | Xiaomi: CPU=Load: 0.03 RAM=2355MB frei Akku=97% Temp=26.9C
+[2026-08-20 03:02:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:07:14] EXPLORE | Xiaomi: CPU=Load: 0.13 RAM=2377MB frei Akku=96% Temp=26.8C
+[2026-08-20 03:07:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:12:16] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=2586MB frei Akku=96% Temp=27.1C
+[2026-08-20 03:12:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:17:18] EXPLORE | Xiaomi: CPU=Load: 0.00 RAM=2538MB frei Akku=96% Temp=27.0C
+[2026-08-20 03:17:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:22:20] EXPLORE | Xiaomi: CPU=Load: 0.15 RAM=2260MB frei Akku=95% Temp=27.1C
+[2026-08-20 03:22:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:27:22] EXPLORE | Xiaomi: CPU=Load: 0.14 RAM=2329MB frei Akku=95% Temp=26.8C
+[2026-08-20 03:27:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:32:24] EXPLORE | Xiaomi: CPU=Load: 0.09 RAM=2334MB frei Akku=95% Temp=27.0C
+[2026-08-20 03:32:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:37:26] EXPLORE | Xiaomi: CPU=Load: 0.51 RAM=2312MB frei Akku=94% Temp=27.1C
+[2026-08-20 03:37:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:42:27] EXPLORE | Xiaomi: CPU=Load: 0.27 RAM=2352MB frei Akku=94% Temp=26.9C
+[2026-08-20 03:42:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:47:29] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=2392MB frei Akku=94% Temp=26.5C
+[2026-08-20 03:47:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:52:31] EXPLORE | Xiaomi: CPU=Load: 0.11 RAM=2500MB frei Akku=94% Temp=26.0C
+[2026-08-20 03:52:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 03:57:32] EXPLORE | Xiaomi: CPU=Load: 0.02 RAM=2485MB frei Akku=93% Temp=25.7C
+[2026-08-20 03:57:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:02:34] EXPLORE | Xiaomi: CPU=Load: 0.04 RAM=2490MB frei Akku=93% Temp=25.2C
+[2026-08-20 04:02:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:07:36] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=2293MB frei Akku=93% Temp=25.1C
+[2026-08-20 04:07:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:12:37] EXPLORE | Xiaomi: CPU=Load: 0.07 RAM=2315MB frei Akku=93% Temp=24.9C
+[2026-08-20 04:12:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:17:39] EXPLORE | Xiaomi: CPU=Load: 0.51 RAM=2264MB frei Akku=92% Temp=25.1C
+[2026-08-20 04:17:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:22:41] EXPLORE | Xiaomi: CPU=Load: 0.04 RAM=2302MB frei Akku=92% Temp=25.3C
+[2026-08-20 04:22:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:27:43] EXPLORE | Xiaomi: CPU=Load: 0.27 RAM=2491MB frei Akku=92% Temp=25.5C
+[2026-08-20 04:27:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:32:44] EXPLORE | Xiaomi: CPU=Load: 0.21 RAM=2216MB frei Akku=92% Temp=26.2C
+[2026-08-20 04:32:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:37:46] EXPLORE | Xiaomi: CPU=Load: 0.56 RAM=2253MB frei Akku=91% Temp=26.2C
+[2026-08-20 04:37:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:42:48] EXPLORE | Xiaomi: CPU=Load: 0.06 RAM=2187MB frei Akku=91% Temp=26.0C
+[2026-08-20 04:42:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:47:49] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=1843MB frei Akku=90% Temp=27.1C
+[2026-08-20 04:47:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:52:51] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=2016MB frei Akku=90% Temp=27.5C
+[2026-08-20 04:52:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 04:57:53] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=2040MB frei Akku=90% Temp=28.1C
+[2026-08-20 04:57:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:02:55] EXPLORE | Xiaomi: CPU=Load: 0.47 RAM=2142MB frei Akku=89% Temp=28.5C
+[2026-08-20 05:02:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:07:56] EXPLORE | Xiaomi: CPU=Load: 0.10 RAM=2245MB frei Akku=89% Temp=28.8C
+[2026-08-20 05:07:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:12:58] EXPLORE | Xiaomi: CPU=Load: 0.21 RAM=2136MB frei Akku=88% Temp=28.6C
+[2026-08-20 05:12:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:18:00] EXPLORE | Xiaomi: CPU=Load: 0.37 RAM=2237MB frei Akku=88% Temp=28.2C
+[2026-08-20 05:18:00] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:23:02] EXPLORE | Xiaomi: CPU=Load: 0.22 RAM=2352MB frei Akku=88% Temp=28.0C
+[2026-08-20 05:23:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:28:03] EXPLORE | Xiaomi: CPU=Load: 0.89 RAM=2489MB frei Akku=87% Temp=27.9C
+[2026-08-20 05:28:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:33:05] EXPLORE | Xiaomi: CPU=Load: 3.60 RAM=2215MB frei Akku=87% Temp=28.2C
+[2026-08-20 05:33:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:38:06] EXPLORE | Xiaomi: CPU=Load: 0.60 RAM=2228MB frei Akku=87% Temp=27.7C
+[2026-08-20 05:38:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:43:08] EXPLORE | Xiaomi: CPU=Load: 0.05 RAM=2354MB frei Akku=87% Temp=27.6C
+[2026-08-20 05:43:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:48:10] EXPLORE | Xiaomi: CPU=Load: 0.40 RAM=2285MB frei Akku=86% Temp=27.5C
+[2026-08-20 05:48:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:53:12] EXPLORE | Xiaomi: CPU=Load: 0.06 RAM=2195MB frei Akku=86% Temp=27.6C
+[2026-08-20 05:53:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 05:58:13] EXPLORE | Xiaomi: CPU=Load: 0.19 RAM=2137MB frei Akku=86% Temp=27.7C
+[2026-08-20 05:58:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:03:15] EXPLORE | Xiaomi: CPU=Load: 0.21 RAM=2355MB frei Akku=86% Temp=27.9C
+[2026-08-20 06:03:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:08:17] EXPLORE | Xiaomi: CPU=Load: 0.27 RAM=2291MB frei Akku=85% Temp=27.7C
+[2026-08-20 06:08:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:13:18] EXPLORE | Xiaomi: CPU=Load: 0.09 RAM=2296MB frei Akku=85% Temp=27.7C
+[2026-08-20 06:13:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:18:20] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=2369MB frei Akku=85% Temp=27.8C
+[2026-08-20 06:18:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:23:22] EXPLORE | Xiaomi: CPU=Load: 0.22 RAM=2399MB frei Akku=84% Temp=28.0C
+[2026-08-20 06:23:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:28:24] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=2412MB frei Akku=84% Temp=28.0C
+[2026-08-20 06:28:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:33:25] EXPLORE | Xiaomi: CPU=Load: 0.27 RAM=2392MB frei Akku=84% Temp=28.1C
+[2026-08-20 06:33:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:38:27] EXPLORE | Xiaomi: CPU=Load: 0.95 RAM=2277MB frei Akku=83% Temp=30.1C
+[2026-08-20 06:38:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:43:29] EXPLORE | Xiaomi: CPU=Load: 0.14 RAM=2252MB frei Akku=83% Temp=28.4C
+[2026-08-20 06:43:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:48:31] EXPLORE | Xiaomi: CPU=Load: 0.61 RAM=2206MB frei Akku=83% Temp=28.7C
+[2026-08-20 06:48:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:53:33] EXPLORE | Xiaomi: CPU=Load: 0.35 RAM=2392MB frei Akku=82% Temp=28.5C
+[2026-08-20 06:53:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 06:58:35] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=2376MB frei Akku=82% Temp=28.6C
+[2026-08-20 06:58:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:03:37] EXPLORE | Xiaomi: CPU=Load: 0.18 RAM=2362MB frei Akku=81% Temp=28.7C
+[2026-08-20 07:03:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:08:40] EXPLORE | Xiaomi: CPU=Load: 0.14 RAM=2571MB frei Akku=81% Temp=28.7C
+[2026-08-20 07:08:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:13:42] EXPLORE | Xiaomi: CPU=Load: 0.42 RAM=2157MB frei Akku=81% Temp=28.9C
+[2026-08-20 07:13:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:18:44] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=2288MB frei Akku=80% Temp=28.8C
+[2026-08-20 07:18:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:23:46] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=2315MB frei Akku=80% Temp=28.8C
+[2026-08-20 07:23:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:24:20] PROFIL-UPDATE | 1 neue Eintraege in kortex_profile.json
+[2026-08-20 07:28:48] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=1967MB frei Akku=80% Temp=29.1C
+[2026-08-20 07:28:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:33:49] EXPLORE | Xiaomi: CPU=Load: 0.76 RAM=2003MB frei Akku=79% Temp=29.4C
+[2026-08-20 07:33:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:38:51] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=2097MB frei Akku=79% Temp=29.3C
+[2026-08-20 07:38:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:43:53] EXPLORE | Xiaomi: CPU=Load: 2.14 RAM=2026MB frei Akku=79% Temp=30.4C
+[2026-08-20 07:43:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:48:55] EXPLORE | Xiaomi: CPU=Load: 0.61 RAM=1692MB frei Akku=78% Temp=31.2C
+[2026-08-20 07:48:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:53:57] EXPLORE | Xiaomi: CPU=Load: 0.22 RAM=1798MB frei Akku=79% Temp=31.5C
+[2026-08-20 07:53:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 07:58:59] EXPLORE | Xiaomi: CPU=Load: 0.13 RAM=1799MB frei Akku=80% Temp=31.5C
+[2026-08-20 07:58:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:03:59] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:03:59] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:04:01] EXPLORE | Xiaomi: CPU=Load: 0.89 RAM=1758MB frei Akku=80% Temp=31.1C
+[2026-08-20 08:04:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:09:01] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:09:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:09:02] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=2028MB frei Akku=79% Temp=30.1C
+[2026-08-20 08:09:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:14:03] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:14:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:14:05] EXPLORE | Xiaomi: CPU=Load: 0.95 RAM=2107MB frei Akku=82% Temp=34.4C
+[2026-08-20 08:14:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:19:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:19:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:19:06] EXPLORE | Xiaomi: CPU=Load: 2.57 RAM=2288MB frei Akku=89% Temp=37.3C
+[2026-08-20 08:19:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:24:07] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:24:07] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:24:08] EXPLORE | Xiaomi: CPU=Load: 1.49 RAM=1709MB frei Akku=93% Temp=35.4C
+[2026-08-20 08:24:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:29:09] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:29:09] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:29:10] EXPLORE | Xiaomi: CPU=Load: 0.96 RAM=1715MB frei Akku=92% Temp=37.3C
+[2026-08-20 08:29:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:34:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:34:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:34:12] EXPLORE | Xiaomi: CPU=Load: 1.05 RAM=1915MB frei Akku=100% Temp=36.5C
+[2026-08-20 08:34:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:39:12] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:39:12] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:39:14] EXPLORE | Xiaomi: CPU=Load: 0.65 RAM=1730MB frei Akku=100% Temp=35.6C
+[2026-08-20 08:39:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:44:14] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:44:14] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:44:16] EXPLORE | Xiaomi: CPU=Load: 0.14 RAM=1848MB frei Akku=100% Temp=34.8C
+[2026-08-20 08:44:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:49:16] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:49:16] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:49:17] EXPLORE | Xiaomi: CPU=Load: 0.18 RAM=1836MB frei Akku=100% Temp=34.5C
+[2026-08-20 08:49:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:54:18] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:54:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:54:19] EXPLORE | Xiaomi: CPU=Load: 0.82 RAM=2016MB frei Akku=100% Temp=34.3C
+[2026-08-20 08:54:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 08:59:19] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 08:59:19] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 08:59:21] EXPLORE | Xiaomi: CPU=Load: 0.43 RAM=2061MB frei Akku=100% Temp=34.0C
+[2026-08-20 08:59:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:04:22] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:04:22] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:04:23] EXPLORE | Xiaomi: CPU=Load: 0.90 RAM=2040MB frei Akku=100% Temp=33.8C
+[2026-08-20 09:04:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:09:23] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:09:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:09:25] EXPLORE | Xiaomi: CPU=Load: 1.30 RAM=2076MB frei Akku=100% Temp=33.7C
+[2026-08-20 09:09:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:14:25] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:14:25] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:14:26] EXPLORE | Xiaomi: CPU=Load: 1.68 RAM=1766MB frei Akku=100% Temp=34.5C
+[2026-08-20 09:14:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:19:27] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:19:27] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:19:28] EXPLORE | Xiaomi: CPU=Load: 0.59 RAM=1873MB frei Akku=100% Temp=34.1C
+[2026-08-20 09:19:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:24:29] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:24:29] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:24:30] EXPLORE | Xiaomi: CPU=Load: 0.69 RAM=2102MB frei Akku=100% Temp=35.0C
+[2026-08-20 09:24:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:29:30] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:29:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:29:32] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=1992MB frei Akku=100% Temp=33.3C
+[2026-08-20 09:29:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:34:32] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:34:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:34:33] EXPLORE | Xiaomi: CPU=Load: 0.46 RAM=2045MB frei Akku=100% Temp=32.9C
+[2026-08-20 09:34:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:39:34] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:39:34] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:39:35] EXPLORE | Xiaomi: CPU=Load: 1.55 RAM=1710MB frei Akku=100% Temp=34.6C
+[2026-08-20 09:39:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:44:35] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:44:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:44:37] EXPLORE | Xiaomi: CPU=Load: 1.70 RAM=1670MB frei Akku=100% Temp=35.2C
+[2026-08-20 09:44:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:49:37] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:49:37] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:49:39] EXPLORE | Xiaomi: CPU=Load: 2.46 RAM=1624MB frei Akku=100% Temp=35.4C
+[2026-08-20 09:49:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:54:39] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:54:39] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:54:40] EXPLORE | Xiaomi: CPU=Load: 3.29 RAM=1443MB frei Akku=100% Temp=36.3C
+[2026-08-20 09:54:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 09:59:40] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 09:59:40] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 09:59:42] EXPLORE | Xiaomi: CPU=Load: 2.22 RAM=1521MB frei Akku=100% Temp=35.4C
+[2026-08-20 09:59:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:04:42] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:04:42] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:04:44] EXPLORE | Xiaomi: CPU=Load: 1.69 RAM=1640MB frei Akku=100% Temp=34.9C
+[2026-08-20 10:04:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:09:44] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:09:44] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:09:45] EXPLORE | Xiaomi: CPU=Load: 2.62 RAM=1663MB frei Akku=100% Temp=34.8C
+[2026-08-20 10:09:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:14:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:14:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:14:47] EXPLORE | Xiaomi: CPU=Load: 1.34 RAM=1603MB frei Akku=100% Temp=35.2C
+[2026-08-20 10:14:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:19:47] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:19:47] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:19:49] EXPLORE | Xiaomi: CPU=Load: 1.95 RAM=1634MB frei Akku=100% Temp=35.2C
+[2026-08-20 10:19:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:24:49] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:24:49] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:24:50] EXPLORE | Xiaomi: CPU=Load: 0.79 RAM=1547MB frei Akku=100% Temp=34.1C
+[2026-08-20 10:24:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:29:51] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:29:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:29:52] EXPLORE | Xiaomi: CPU=Load: 0.80 RAM=1465MB frei Akku=100% Temp=34.1C
+[2026-08-20 10:29:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:34:53] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:34:53] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:34:54] EXPLORE | Xiaomi: CPU=Load: 0.20 RAM=1483MB frei Akku=100% Temp=33.6C
+[2026-08-20 10:34:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:39:55] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:39:55] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:39:56] EXPLORE | Xiaomi: CPU=Load: 0.53 RAM=1348MB frei Akku=100% Temp=33.9C
+[2026-08-20 10:39:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:44:56] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:44:56] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:44:58] EXPLORE | Xiaomi: CPU=Load: 1.27 RAM=1322MB frei Akku=100% Temp=33.3C
+[2026-08-20 10:44:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:49:58] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:49:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:49:59] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=1379MB frei Akku=100% Temp=33.2C
+[2026-08-20 10:49:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 10:55:00] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 10:55:00] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 10:55:01] EXPLORE | Xiaomi: CPU=Load: 0.15 RAM=1689MB frei Akku=100% Temp=34.5C
+[2026-08-20 10:55:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:00:01] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:00:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:00:03] EXPLORE | Xiaomi: CPU=Load: 0.08 RAM=1801MB frei Akku=100% Temp=35.7C
+[2026-08-20 11:00:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:05:03] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:05:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:05:05] EXPLORE | Xiaomi: CPU=Load: 0.08 RAM=1800MB frei Akku=100% Temp=36.1C
+[2026-08-20 11:05:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:10:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:10:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:10:07] EXPLORE | Xiaomi: CPU=Load: 0.08 RAM=1925MB frei Akku=100% Temp=34.1C
+[2026-08-20 11:10:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:15:07] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:15:07] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:15:09] EXPLORE | Xiaomi: CPU=Load: 0.22 RAM=2150MB frei Akku=100% Temp=34.8C
+[2026-08-20 11:15:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:20:09] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:20:09] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:20:11] EXPLORE | Xiaomi: CPU=Load: 0.51 RAM=2221MB frei Akku=100% Temp=34.4C
+[2026-08-20 11:20:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:25:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:25:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:25:13] EXPLORE | Xiaomi: CPU=Load: 0.27 RAM=2044MB frei Akku=100% Temp=34.2C
+[2026-08-20 11:25:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:25:32] SCOUT-LAUF | d6b801caacc317ae
+[2026-08-20 11:30:13] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:30:13] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:30:14] EXPLORE | Xiaomi: CPU=Load: 0.52 RAM=2037MB frei Akku=100% Temp=33.3C
+[2026-08-20 11:30:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:35:14] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:35:14] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:35:16] EXPLORE | Xiaomi: CPU=Load: 0.16 RAM=2037MB frei Akku=100% Temp=32.9C
+[2026-08-20 11:35:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:40:16] SELF-IMPROVE | Analyse abgeschlossen, keine Muster gefunden.
+[2026-08-20 11:40:16] SELF-IMPROVE | Tagescheck abgeschlossen
+[2026-08-20 11:40:16] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:40:16] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:40:17] EXPLORE | Xiaomi: CPU=Load: 0.22 RAM=1790MB frei Akku=100% Temp=33.6C
+[2026-08-20 11:40:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:40:33] MONITOR-EVENT | 1 Events
+[2026-08-20 11:45:18] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:45:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:45:19] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=1783MB frei Akku=100% Temp=34.9C
+[2026-08-20 11:45:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:50:20] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:50:20] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:50:21] EXPLORE | Xiaomi: CPU=Load: 0.78 RAM=1315MB frei Akku=100% Temp=36.5C
+[2026-08-20 11:50:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 11:55:21] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 11:55:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 11:55:23] EXPLORE | Xiaomi: CPU=Load: 0.56 RAM=1296MB frei Akku=100% Temp=36.8C
+[2026-08-20 11:55:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:00:23] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:00:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:00:25] EXPLORE | Xiaomi: CPU=Load: 0.35 RAM=1419MB frei Akku=100% Temp=36.0C
+[2026-08-20 12:00:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:05:25] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:05:25] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:05:27] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=1493MB frei Akku=100% Temp=35.6C
+[2026-08-20 12:05:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:10:27] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:10:27] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:10:28] EXPLORE | Xiaomi: CPU=Load: 0.42 RAM=1534MB frei Akku=100% Temp=35.4C
+[2026-08-20 12:10:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:15:29] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:15:29] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:15:30] EXPLORE | Xiaomi: CPU=Load: 0.19 RAM=1478MB frei Akku=100% Temp=35.0C
+[2026-08-20 12:15:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:20:30] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:20:30] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:20:31] EXPLORE | Xiaomi: CPU=Load: 1.43 RAM=1512MB frei Akku=100% Temp=35.3C
+[2026-08-20 12:20:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:25:32] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:25:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:25:33] EXPLORE | Xiaomi: CPU=Load: 1.10 RAM=1759MB frei Akku=100% Temp=35.0C
+[2026-08-20 12:25:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:30:33] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:30:33] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:30:34] EXPLORE | Xiaomi: CPU=Load: 1.81 RAM=1543MB frei Akku=100% Temp=34.6C
+[2026-08-20 12:30:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:35:35] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:35:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:35:36] EXPLORE | Xiaomi: CPU=Load: 1.43 RAM=1905MB frei Akku=100% Temp=34.8C
+[2026-08-20 12:35:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:40:36] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:40:36] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:40:37] EXPLORE | Xiaomi: CPU=Load: 1.67 RAM=1467MB frei Akku=100% Temp=34.6C
+[2026-08-20 12:40:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:45:38] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:45:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:45:39] EXPLORE | Xiaomi: CPU=Load: 0.24 RAM=1685MB frei Akku=100% Temp=34.2C
+[2026-08-20 12:45:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:50:39] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:50:39] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:50:41] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=1814MB frei Akku=100% Temp=33.9C
+[2026-08-20 12:50:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 12:55:41] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 12:55:41] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 12:55:42] EXPLORE | Xiaomi: CPU=Load: 1.19 RAM=1642MB frei Akku=100% Temp=34.6C
+[2026-08-20 12:55:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:00:42] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:00:42] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:00:44] EXPLORE | Xiaomi: CPU=Load: 0.14 RAM=1505MB frei Akku=100% Temp=33.7C
+[2026-08-20 13:00:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:05:44] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:05:44] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:05:45] EXPLORE | Xiaomi: CPU=Load: 1.86 RAM=1248MB frei Akku=100% Temp=34.0C
+[2026-08-20 13:05:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:10:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:10:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:10:47] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=1504MB frei Akku=100% Temp=33.6C
+[2026-08-20 13:10:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:15:47] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:15:47] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:15:49] EXPLORE | Xiaomi: CPU=Load: 1.15 RAM=1445MB frei Akku=100% Temp=34.1C
+[2026-08-20 13:15:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:20:49] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:20:49] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:20:51] EXPLORE | Xiaomi: CPU=Load: 0.60 RAM=1464MB frei Akku=100% Temp=33.5C
+[2026-08-20 13:20:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:25:51] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:25:51] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:25:53] EXPLORE | Xiaomi: CPU=Load: 0.80 RAM=1621MB frei Akku=100% Temp=33.8C
+[2026-08-20 13:25:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:30:53] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:30:53] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:30:54] EXPLORE | Xiaomi: CPU=Load: 0.91 RAM=1951MB frei Akku=100% Temp=33.7C
+[2026-08-20 13:30:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:35:54] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:35:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:35:56] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=2196MB frei Akku=100% Temp=33.5C
+[2026-08-20 13:35:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:40:56] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:40:56] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:40:57] EXPLORE | Xiaomi: CPU=Load: 1.00 RAM=1741MB frei Akku=100% Temp=33.9C
+[2026-08-20 13:40:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:45:58] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:45:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:45:59] EXPLORE | Xiaomi: CPU=Load: 1.16 RAM=1346MB frei Akku=100% Temp=35.4C
+[2026-08-20 13:45:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:50:59] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:50:59] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:51:01] EXPLORE | Xiaomi: CPU=Load: 0.12 RAM=1333MB frei Akku=100% Temp=33.7C
+[2026-08-20 13:51:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 13:56:01] WAECHTER-MELDUNG | Xiaomi weg
+[2026-08-20 13:56:01] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 13:56:01] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 13:56:01] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 13:56:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:01:02] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:01:02] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:01:02] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:01:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:06:02] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:06:02] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:06:03] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:06:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:11:03] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:11:03] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:11:04] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:11:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:16:04] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:16:04] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:16:05] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:16:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:21:05] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:21:05] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:21:06] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:21:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:26:06] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:26:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:26:08] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:26:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:31:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:31:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:31:09] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:31:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:36:09] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:36:09] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:36:09] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:36:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:38:15] MONITOR-EVENT | 1 Events
+[2026-08-20 14:41:10] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:41:10] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:41:10] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:41:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:46:10] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:46:10] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:46:11] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:46:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:51:11] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:51:11] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:51:11] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:51:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 14:56:12] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-20 14:56:12] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-20 14:56:12] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 14:56:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:01:13] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:01:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:06:14] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:06:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:11:15] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:11:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:16:16] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:16:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:21:17] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:21:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:26:18] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:26:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:31:20] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:31:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:36:22] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:36:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:41:23] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:41:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:46:24] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:46:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:51:25] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:51:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 15:56:26] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 15:56:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:01:26] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:01:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:06:27] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:06:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:11:27] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:11:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:16:28] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:16:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:21:28] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:21:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:26:29] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:26:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:29:12] LERNER-RUNDE | ABBRUCH vor Start: SSH tot
+[2026-08-20 16:31:29] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:31:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:36:30] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:36:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:41:30] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:41:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:46:31] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:46:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:51:32] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:51:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 16:56:32] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 16:56:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:01:33] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 17:01:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:06:33] EXPLORE | Xiaomi: CPU=unbekannt RAM=unbekannt Akku=unbekannt Temp=unbekanntC
+[2026-08-20 17:06:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:11:35] EXPLORE | Xiaomi: CPU=Load: 5.89 RAM=1830MB frei Akku=96% Temp=42.1C
+[2026-08-20 17:11:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:16:37] EXPLORE | Xiaomi: CPU=Load: 0.92 RAM=2037MB frei Akku=95% Temp=36.8C
+[2026-08-20 17:16:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:21:38] EXPLORE | Xiaomi: CPU=Load: 0.95 RAM=1930MB frei Akku=95% Temp=35.4C
+[2026-08-20 17:21:38] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:26:39] EXPLORE | Xiaomi: CPU=Load: 0.20 RAM=1855MB frei Akku=94% Temp=34.5C
+[2026-08-20 17:26:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:29:13] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-20 17:31:41] EXPLORE | Xiaomi: CPU=Load: 0.20 RAM=1837MB frei Akku=94% Temp=33.7C
+[2026-08-20 17:31:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:36:43] EXPLORE | Xiaomi: CPU=Load: 0.39 RAM=1803MB frei Akku=93% Temp=33.2C
+[2026-08-20 17:36:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:41:44] EXPLORE | Xiaomi: CPU=Load: 0.13 RAM=1890MB frei Akku=93% Temp=32.8C
+[2026-08-20 17:41:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:46:46] EXPLORE | Xiaomi: CPU=Load: 0.23 RAM=2134MB frei Akku=92% Temp=32.7C
+[2026-08-20 17:46:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:51:48] EXPLORE | Xiaomi: CPU=Load: 0.76 RAM=2339MB frei Akku=92% Temp=32.3C
+[2026-08-20 17:51:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 17:56:49] EXPLORE | Xiaomi: CPU=Load: 1.73 RAM=2068MB frei Akku=92% Temp=35.7C
+[2026-08-20 17:56:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:01:51] EXPLORE | Xiaomi: CPU=Load: 0.22 RAM=2109MB frei Akku=100% Temp=35.4C
+[2026-08-20 18:01:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:06:53] EXPLORE | Xiaomi: CPU=Load: 0.36 RAM=2084MB frei Akku=100% Temp=35.2C
+[2026-08-20 18:06:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:11:54] EXPLORE | Xiaomi: CPU=Load: 0.51 RAM=2009MB frei Akku=100% Temp=35.1C
+[2026-08-20 18:11:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:16:56] EXPLORE | Xiaomi: CPU=Load: 0.70 RAM=2065MB frei Akku=100% Temp=35.2C
+[2026-08-20 18:16:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:21:57] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=2049MB frei Akku=100% Temp=34.8C
+[2026-08-20 18:21:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:26:59] EXPLORE | Xiaomi: CPU=Load: 0.24 RAM=2220MB frei Akku=100% Temp=34.6C
+[2026-08-20 18:26:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:29:14] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-20 18:32:01] EXPLORE | Xiaomi: CPU=Load: 0.23 RAM=2194MB frei Akku=100% Temp=34.3C
+[2026-08-20 18:32:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:36:33] GUARD-OK | whisper gestartet, 2294MB frei
+[2026-08-20 18:37:02] EXPLORE | Xiaomi: CPU=Load: 0.07 RAM=2206MB frei Akku=100% Temp=34.3C
+[2026-08-20 18:37:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:37:21] GUARD-OK | whisper gestartet, 2954MB frei
+[2026-08-20 18:42:04] EXPLORE | Xiaomi: CPU=Load: 0.21 RAM=2232MB frei Akku=100% Temp=34.1C
+[2026-08-20 18:42:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:47:06] EXPLORE | Xiaomi: CPU=Load: 0.58 RAM=2313MB frei Akku=100% Temp=33.5C
+[2026-08-20 18:47:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:52:07] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=2290MB frei Akku=100% Temp=33.0C
+[2026-08-20 18:52:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 18:57:09] EXPLORE | Xiaomi: CPU=Load: 0.47 RAM=2162MB frei Akku=100% Temp=33.3C
+[2026-08-20 18:57:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:02:10] EXPLORE | Xiaomi: CPU=Load: 0.36 RAM=2102MB frei Akku=100% Temp=33.0C
+[2026-08-20 19:02:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:05:11] GUARD-OK | whisper gestartet, 2821MB frei
+[2026-08-20 19:07:12] EXPLORE | Xiaomi: CPU=Load: 1.07 RAM=2075MB frei Akku=100% Temp=33.3C
+[2026-08-20 19:07:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:12:14] EXPLORE | Xiaomi: CPU=Load: 0.63 RAM=2072MB frei Akku=100% Temp=33.0C
+[2026-08-20 19:12:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:17:15] EXPLORE | Xiaomi: CPU=Load: 0.36 RAM=2066MB frei Akku=100% Temp=33.0C
+[2026-08-20 19:17:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:22:17] EXPLORE | Xiaomi: CPU=Load: 0.68 RAM=2000MB frei Akku=100% Temp=32.9C
+[2026-08-20 19:22:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:27:19] EXPLORE | Xiaomi: CPU=Load: 0.39 RAM=2181MB frei Akku=100% Temp=32.7C
+[2026-08-20 19:27:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:29:15] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-20 19:32:21] EXPLORE | Xiaomi: CPU=Load: 0.36 RAM=2245MB frei Akku=100% Temp=32.6C
+[2026-08-20 19:32:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:37:23] EXPLORE | Xiaomi: CPU=Load: 0.23 RAM=2311MB frei Akku=100% Temp=32.5C
+[2026-08-20 19:37:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:42:25] EXPLORE | Xiaomi: CPU=Load: 0.51 RAM=2279MB frei Akku=100% Temp=32.4C
+[2026-08-20 19:42:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:47:26] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=2363MB frei Akku=100% Temp=32.3C
+[2026-08-20 19:47:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:52:28] EXPLORE | Xiaomi: CPU=Load: 0.47 RAM=2436MB frei Akku=100% Temp=32.3C
+[2026-08-20 19:52:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 19:57:30] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=2430MB frei Akku=100% Temp=32.2C
+[2026-08-20 19:57:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:02:31] EXPLORE | Xiaomi: CPU=Load: 0.36 RAM=2395MB frei Akku=100% Temp=32.1C
+[2026-08-20 20:02:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:07:33] EXPLORE | Xiaomi: CPU=Load: 0.31 RAM=2358MB frei Akku=100% Temp=32.3C
+[2026-08-20 20:07:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:12:35] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=2281MB frei Akku=100% Temp=32.3C
+[2026-08-20 20:12:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:17:36] EXPLORE | Xiaomi: CPU=Load: 0.24 RAM=2078MB frei Akku=100% Temp=32.3C
+[2026-08-20 20:17:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:22:38] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=2121MB frei Akku=100% Temp=32.2C
+[2026-08-20 20:22:38] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:27:40] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=2028MB frei Akku=100% Temp=32.3C
+[2026-08-20 20:27:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:29:16] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-20 20:32:42] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=1998MB frei Akku=100% Temp=32.2C
+[2026-08-20 20:32:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:37:43] EXPLORE | Xiaomi: CPU=Load: 0.08 RAM=2125MB frei Akku=100% Temp=32.1C
+[2026-08-20 20:37:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:42:45] EXPLORE | Xiaomi: CPU=Load: 0.25 RAM=2146MB frei Akku=100% Temp=32.1C
+[2026-08-20 20:42:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:47:47] EXPLORE | Xiaomi: CPU=Load: 0.26 RAM=2173MB frei Akku=100% Temp=32.3C
+[2026-08-20 20:47:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:52:49] EXPLORE | Xiaomi: CPU=Load: 0.18 RAM=2179MB frei Akku=100% Temp=32.3C
+[2026-08-20 20:52:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 20:57:50] EXPLORE | Xiaomi: CPU=Load: 0.75 RAM=2081MB frei Akku=100% Temp=32.7C
+[2026-08-20 20:57:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:02:52] EXPLORE | Xiaomi: CPU=Load: 0.39 RAM=2101MB frei Akku=100% Temp=32.2C
+[2026-08-20 21:02:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:07:54] EXPLORE | Xiaomi: CPU=Load: 0.80 RAM=2137MB frei Akku=100% Temp=32.2C
+[2026-08-20 21:07:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:12:56] EXPLORE | Xiaomi: CPU=Load: 0.17 RAM=2289MB frei Akku=100% Temp=32.1C
+[2026-08-20 21:12:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:17:58] EXPLORE | Xiaomi: CPU=Load: 0.40 RAM=2349MB frei Akku=100% Temp=32.1C
+[2026-08-20 21:17:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:22:59] EXPLORE | Xiaomi: CPU=Load: 0.29 RAM=2421MB frei Akku=100% Temp=32.0C
+[2026-08-20 21:22:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:28:01] EXPLORE | Xiaomi: CPU=Load: 0.46 RAM=2393MB frei Akku=100% Temp=32.0C
+[2026-08-20 21:28:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:29:17] LERNER-RUNDE | RUNDE OK | 0 gelernt, 1 uebersprungen
+
+[2026-08-20 21:33:03] EXPLORE | Xiaomi: CPU=Load: 0.17 RAM=2312MB frei Akku=100% Temp=32.3C
+[2026-08-20 21:33:03] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:38:05] EXPLORE | Xiaomi: CPU=Load: 0.53 RAM=2275MB frei Akku=100% Temp=32.1C
+[2026-08-20 21:38:05] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:43:07] EXPLORE | Xiaomi: CPU=Load: 0.21 RAM=2210MB frei Akku=100% Temp=32.1C
+[2026-08-20 21:43:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:48:08] EXPLORE | Xiaomi: CPU=Load: 0.12 RAM=2214MB frei Akku=100% Temp=32.0C
+[2026-08-20 21:48:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:53:10] EXPLORE | Xiaomi: CPU=Load: 0.20 RAM=2210MB frei Akku=100% Temp=32.0C
+[2026-08-20 21:53:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 21:58:12] EXPLORE | Xiaomi: CPU=Load: 0.29 RAM=1938MB frei Akku=100% Temp=32.6C
+[2026-08-20 21:58:12] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:03:14] EXPLORE | Xiaomi: CPU=Load: 0.18 RAM=1907MB frei Akku=100% Temp=32.3C
+[2026-08-20 22:03:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:08:16] EXPLORE | Xiaomi: CPU=Load: 0.57 RAM=1960MB frei Akku=100% Temp=32.2C
+[2026-08-20 22:08:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:13:17] EXPLORE | Xiaomi: CPU=Load: 0.21 RAM=1980MB frei Akku=100% Temp=32.2C
+[2026-08-20 22:13:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:18:19] EXPLORE | Xiaomi: CPU=Load: 0.60 RAM=2143MB frei Akku=100% Temp=32.1C
+[2026-08-20 22:18:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:23:21] EXPLORE | Xiaomi: CPU=Load: 0.18 RAM=2089MB frei Akku=100% Temp=32.1C
+[2026-08-20 22:23:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:28:23] EXPLORE | Xiaomi: CPU=Load: 0.85 RAM=2145MB frei Akku=100% Temp=32.1C
+[2026-08-20 22:28:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:33:24] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=2169MB frei Akku=100% Temp=32.0C
+[2026-08-20 22:33:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:38:26] EXPLORE | Xiaomi: CPU=Load: 1.15 RAM=2417MB frei Akku=100% Temp=32.3C
+[2026-08-20 22:38:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:43:28] EXPLORE | Xiaomi: CPU=Load: 0.48 RAM=2296MB frei Akku=100% Temp=32.4C
+[2026-08-20 22:43:28] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:48:30] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=1965MB frei Akku=100% Temp=32.8C
+[2026-08-20 22:48:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:53:32] EXPLORE | Xiaomi: CPU=Load: 0.58 RAM=1963MB frei Akku=100% Temp=32.8C
+[2026-08-20 22:53:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 22:58:33] EXPLORE | Xiaomi: CPU=Load: 0.71 RAM=1807MB frei Akku=100% Temp=32.8C
+[2026-08-20 22:58:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:03:35] EXPLORE | Xiaomi: CPU=Load: 0.46 RAM=1770MB frei Akku=100% Temp=32.7C
+[2026-08-20 23:03:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:08:37] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=1775MB frei Akku=100% Temp=32.5C
+[2026-08-20 23:08:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:13:39] EXPLORE | Xiaomi: CPU=Load: 0.62 RAM=1790MB frei Akku=100% Temp=32.3C
+[2026-08-20 23:13:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:18:40] EXPLORE | Xiaomi: CPU=Load: 0.47 RAM=2162MB frei Akku=100% Temp=32.1C
+[2026-08-20 23:18:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:23:42] EXPLORE | Xiaomi: CPU=Load: 0.35 RAM=2389MB frei Akku=100% Temp=32.0C
+[2026-08-20 23:23:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:28:44] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=2372MB frei Akku=100% Temp=31.9C
+[2026-08-20 23:28:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:33:46] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=2428MB frei Akku=100% Temp=31.8C
+[2026-08-20 23:33:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:38:47] EXPLORE | Xiaomi: CPU=Load: 0.25 RAM=2650MB frei Akku=100% Temp=31.2C
+[2026-08-20 23:38:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:43:49] EXPLORE | Xiaomi: CPU=Load: 0.63 RAM=2649MB frei Akku=100% Temp=31.0C
+[2026-08-20 23:43:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:48:51] EXPLORE | Xiaomi: CPU=Load: 0.37 RAM=2774MB frei Akku=100% Temp=31.5C
+[2026-08-20 23:48:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:53:52] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=2472MB frei Akku=100% Temp=32.1C
+[2026-08-20 23:53:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-20 23:58:54] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=2389MB frei Akku=100% Temp=32.7C
+[2026-08-20 23:58:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:03:56] EXPLORE | Xiaomi: CPU=Load: 0.45 RAM=2358MB frei Akku=100% Temp=33.4C
+[2026-08-21 00:03:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:08:57] EXPLORE | Xiaomi: CPU=Load: 0.64 RAM=2335MB frei Akku=100% Temp=36.2C
+[2026-08-21 00:08:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:13:59] EXPLORE | Xiaomi: CPU=Load: 0.54 RAM=2460MB frei Akku=100% Temp=38.1C
+[2026-08-21 00:13:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:19:01] EXPLORE | Xiaomi: CPU=Load: 0.99 RAM=2103MB frei Akku=100% Temp=37.2C
+[2026-08-21 00:19:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:24:02] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=2242MB frei Akku=100% Temp=34.4C
+[2026-08-21 00:24:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:29:04] EXPLORE | Xiaomi: CPU=Load: 0.27 RAM=2224MB frei Akku=100% Temp=32.7C
+[2026-08-21 00:29:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:34:06] EXPLORE | Xiaomi: CPU=Load: 0.02 RAM=2307MB frei Akku=100% Temp=31.3C
+[2026-08-21 00:34:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:39:08] EXPLORE | Xiaomi: CPU=Load: 0.13 RAM=2372MB frei Akku=100% Temp=30.4C
+[2026-08-21 00:39:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:44:10] EXPLORE | Xiaomi: CPU=Load: 0.59 RAM=2113MB frei Akku=100% Temp=30.1C
+[2026-08-21 00:44:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:49:11] EXPLORE | Xiaomi: CPU=Load: 4.87 RAM=2363MB frei Akku=100% Temp=29.2C
+[2026-08-21 00:49:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:54:13] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=2343MB frei Akku=100% Temp=29.0C
+[2026-08-21 00:54:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 00:59:15] EXPLORE | Xiaomi: CPU=Load: 1.09 RAM=2210MB frei Akku=100% Temp=29.1C
+[2026-08-21 00:59:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:04:17] EXPLORE | Xiaomi: CPU=Load: 0.11 RAM=2283MB frei Akku=100% Temp=28.3C
+[2026-08-21 01:04:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:09:19] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=2278MB frei Akku=100% Temp=27.9C
+[2026-08-21 01:09:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:14:20] EXPLORE | Xiaomi: CPU=Load: 0.49 RAM=2471MB frei Akku=100% Temp=27.7C
+[2026-08-21 01:14:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:19:22] EXPLORE | Xiaomi: CPU=Load: 0.16 RAM=2494MB frei Akku=100% Temp=27.0C
+[2026-08-21 01:19:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:24:24] EXPLORE | Xiaomi: CPU=Load: 1.27 RAM=2491MB frei Akku=100% Temp=27.8C
+[2026-08-21 01:24:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:29:26] EXPLORE | Xiaomi: CPU=Load: 0.29 RAM=2293MB frei Akku=100% Temp=29.4C
+[2026-08-21 01:29:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:34:27] EXPLORE | Xiaomi: CPU=Load: 0.15 RAM=2253MB frei Akku=100% Temp=27.1C
+[2026-08-21 01:34:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:39:29] EXPLORE | Xiaomi: CPU=Load: 0.36 RAM=2234MB frei Akku=100% Temp=26.1C
+[2026-08-21 01:39:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:44:31] EXPLORE | Xiaomi: CPU=Load: 0.52 RAM=2231MB frei Akku=100% Temp=25.4C
+[2026-08-21 01:44:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:49:33] EXPLORE | Xiaomi: CPU=Load: 0.63 RAM=2182MB frei Akku=100% Temp=24.9C
+[2026-08-21 01:49:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:54:35] EXPLORE | Xiaomi: CPU=Load: 0.09 RAM=2309MB frei Akku=100% Temp=24.7C
+[2026-08-21 01:54:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 01:59:37] EXPLORE | Xiaomi: CPU=Load: 0.01 RAM=2360MB frei Akku=100% Temp=24.1C
+[2026-08-21 01:59:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:04:40] EXPLORE | Xiaomi: CPU=Load: 0.04 RAM=2398MB frei Akku=100% Temp=23.5C
+[2026-08-21 02:04:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:09:41] EXPLORE | Xiaomi: CPU=Load: 0.24 RAM=2356MB frei Akku=100% Temp=22.9C
+[2026-08-21 02:09:41] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:14:43] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=2346MB frei Akku=100% Temp=23.3C
+[2026-08-21 02:14:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:19:45] EXPLORE | Xiaomi: CPU=Load: 0.40 RAM=2422MB frei Akku=100% Temp=23.4C
+[2026-08-21 02:19:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:24:47] EXPLORE | Xiaomi: CPU=Load: 1.26 RAM=2435MB frei Akku=100% Temp=24.2C
+[2026-08-21 02:24:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:29:48] EXPLORE | Xiaomi: CPU=Load: 0.40 RAM=2210MB frei Akku=100% Temp=24.3C
+[2026-08-21 02:29:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:34:50] EXPLORE | Xiaomi: CPU=Load: 0.03 RAM=2238MB frei Akku=100% Temp=24.1C
+[2026-08-21 02:34:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:36:08] GUARD-OK | whisper gestartet, 3034MB frei
+[2026-08-21 02:39:52] EXPLORE | Xiaomi: CPU=Load: 0.37 RAM=2322MB frei Akku=100% Temp=24.3C
+[2026-08-21 02:39:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:44:53] EXPLORE | Xiaomi: CPU=Load: 0.25 RAM=2248MB frei Akku=100% Temp=24.3C
+[2026-08-21 02:44:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:49:55] EXPLORE | Xiaomi: CPU=Load: 0.27 RAM=2210MB frei Akku=100% Temp=24.4C
+[2026-08-21 02:49:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:54:57] EXPLORE | Xiaomi: CPU=Load: 0.80 RAM=2343MB frei Akku=100% Temp=24.8C
+[2026-08-21 02:54:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 02:59:59] EXPLORE | Xiaomi: CPU=Load: 0.31 RAM=2129MB frei Akku=100% Temp=24.7C
+[2026-08-21 02:59:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:05:01] EXPLORE | Xiaomi: CPU=Load: 0.45 RAM=2189MB frei Akku=100% Temp=24.7C
+[2026-08-21 03:05:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:10:02] EXPLORE | Xiaomi: CPU=Load: 0.02 RAM=2325MB frei Akku=100% Temp=25.0C
+[2026-08-21 03:10:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:15:04] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=2317MB frei Akku=100% Temp=25.2C
+[2026-08-21 03:15:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:20:06] EXPLORE | Xiaomi: CPU=Load: 0.23 RAM=2076MB frei Akku=100% Temp=25.5C
+[2026-08-21 03:20:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:25:08] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=2274MB frei Akku=100% Temp=25.7C
+[2026-08-21 03:25:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:30:09] EXPLORE | Xiaomi: CPU=Load: 0.21 RAM=2219MB frei Akku=100% Temp=25.6C
+[2026-08-21 03:30:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:35:11] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=2240MB frei Akku=100% Temp=25.1C
+[2026-08-21 03:35:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:40:13] EXPLORE | Xiaomi: CPU=Load: 0.38 RAM=2220MB frei Akku=100% Temp=25.2C
+[2026-08-21 03:40:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:45:14] EXPLORE | Xiaomi: CPU=Load: 0.54 RAM=2166MB frei Akku=100% Temp=25.4C
+[2026-08-21 03:45:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:50:16] EXPLORE | Xiaomi: CPU=Load: 0.62 RAM=2238MB frei Akku=100% Temp=25.3C
+[2026-08-21 03:50:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 03:55:18] EXPLORE | Xiaomi: CPU=Load: 0.25 RAM=2343MB frei Akku=100% Temp=25.5C
+[2026-08-21 03:55:18] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:00:20] EXPLORE | Xiaomi: CPU=Load: 0.40 RAM=2327MB frei Akku=100% Temp=25.5C
+[2026-08-21 04:00:20] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:05:22] EXPLORE | Xiaomi: CPU=Load: 0.40 RAM=2411MB frei Akku=100% Temp=25.6C
+[2026-08-21 04:05:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:10:23] EXPLORE | Xiaomi: CPU=Load: 0.10 RAM=2334MB frei Akku=100% Temp=25.3C
+[2026-08-21 04:10:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:15:25] EXPLORE | Xiaomi: CPU=Load: 2.01 RAM=1999MB frei Akku=99% Temp=26.5C
+[2026-08-21 04:15:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:20:27] EXPLORE | Xiaomi: CPU=Load: 0.41 RAM=2224MB frei Akku=99% Temp=25.9C
+[2026-08-21 04:20:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:25:28] EXPLORE | Xiaomi: CPU=Load: 0.71 RAM=2242MB frei Akku=99% Temp=26.2C
+[2026-08-21 04:25:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:30:30] EXPLORE | Xiaomi: CPU=Load: 0.42 RAM=2203MB frei Akku=98% Temp=26.4C
+[2026-08-21 04:30:30] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:35:32] EXPLORE | Xiaomi: CPU=Load: 0.63 RAM=2211MB frei Akku=98% Temp=26.6C
+[2026-08-21 04:35:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:40:33] EXPLORE | Xiaomi: CPU=Load: 1.01 RAM=2254MB frei Akku=97% Temp=26.0C
+[2026-08-21 04:40:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:45:35] EXPLORE | Xiaomi: CPU=Load: 3.45 RAM=2033MB frei Akku=97% Temp=27.2C
+[2026-08-21 04:45:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:50:37] EXPLORE | Xiaomi: CPU=Load: 0.32 RAM=2114MB frei Akku=96% Temp=25.4C
+[2026-08-21 04:50:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 04:55:38] EXPLORE | Xiaomi: CPU=Load: 1.39 RAM=2011MB frei Akku=96% Temp=26.0C
+[2026-08-21 04:55:38] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:00:40] EXPLORE | Xiaomi: CPU=Load: 1.79 RAM=1857MB frei Akku=95% Temp=26.6C
+[2026-08-21 05:00:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:05:42] EXPLORE | Xiaomi: CPU=Load: 1.09 RAM=2144MB frei Akku=95% Temp=26.8C
+[2026-08-21 05:05:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:10:43] EXPLORE | Xiaomi: CPU=Load: 0.80 RAM=2048MB frei Akku=94% Temp=26.5C
+[2026-08-21 05:10:43] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:15:45] EXPLORE | Xiaomi: CPU=Load: 3.29 RAM=1650MB frei Akku=93% Temp=28.9C
+[2026-08-21 05:15:45] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:20:47] EXPLORE | Xiaomi: CPU=Load: 0.86 RAM=1686MB frei Akku=93% Temp=28.1C
+[2026-08-21 05:20:47] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:25:49] EXPLORE | Xiaomi: CPU=Load: 0.11 RAM=1617MB frei Akku=92% Temp=27.1C
+[2026-08-21 05:25:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:30:50] EXPLORE | Xiaomi: CPU=Load: 0.33 RAM=1546MB frei Akku=92% Temp=26.7C
+[2026-08-21 05:30:50] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:35:52] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=1641MB frei Akku=91% Temp=27.0C
+[2026-08-21 05:35:52] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:40:54] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=1668MB frei Akku=91% Temp=26.9C
+[2026-08-21 05:40:54] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:45:56] EXPLORE | Xiaomi: CPU=Load: 0.91 RAM=1789MB frei Akku=90% Temp=27.2C
+[2026-08-21 05:45:56] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:50:57] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=1952MB frei Akku=90% Temp=26.6C
+[2026-08-21 05:50:57] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 05:55:59] EXPLORE | Xiaomi: CPU=Load: 0.08 RAM=2076MB frei Akku=89% Temp=26.6C
+[2026-08-21 05:55:59] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:01:01] EXPLORE | Xiaomi: CPU=Load: 1.37 RAM=1835MB frei Akku=89% Temp=27.8C
+[2026-08-21 06:01:01] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:06:02] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=1937MB frei Akku=89% Temp=26.7C
+[2026-08-21 06:06:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:11:04] EXPLORE | Xiaomi: CPU=Load: 0.47 RAM=1899MB frei Akku=88% Temp=26.4C
+[2026-08-21 06:11:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:16:06] EXPLORE | Xiaomi: CPU=Load: 0.97 RAM=1717MB frei Akku=88% Temp=27.1C
+[2026-08-21 06:16:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:21:07] EXPLORE | Xiaomi: CPU=Load: 0.44 RAM=1723MB frei Akku=87% Temp=26.4C
+[2026-08-21 06:21:07] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:26:09] EXPLORE | Xiaomi: CPU=Load: 0.62 RAM=1804MB frei Akku=87% Temp=26.5C
+[2026-08-21 06:26:09] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:31:11] EXPLORE | Xiaomi: CPU=Load: 0.37 RAM=1855MB frei Akku=87% Temp=26.5C
+[2026-08-21 06:31:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:36:13] EXPLORE | Xiaomi: CPU=Load: 0.24 RAM=1883MB frei Akku=86% Temp=26.4C
+[2026-08-21 06:36:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:41:15] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=1808MB frei Akku=86% Temp=26.5C
+[2026-08-21 06:41:15] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:46:17] EXPLORE | Xiaomi: CPU=Load: 0.28 RAM=1943MB frei Akku=85% Temp=26.7C
+[2026-08-21 06:46:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:51:19] EXPLORE | Xiaomi: CPU=Load: 0.19 RAM=2021MB frei Akku=85% Temp=26.4C
+[2026-08-21 06:51:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 06:56:21] EXPLORE | Xiaomi: CPU=Load: 0.09 RAM=1883MB frei Akku=84% Temp=26.4C
+[2026-08-21 06:56:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:01:23] EXPLORE | Xiaomi: CPU=Load: 0.07 RAM=1955MB frei Akku=84% Temp=26.4C
+[2026-08-21 07:01:23] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:06:25] EXPLORE | Xiaomi: CPU=Load: 0.20 RAM=1901MB frei Akku=84% Temp=26.6C
+[2026-08-21 07:06:25] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:11:27] EXPLORE | Xiaomi: CPU=Load: 0.68 RAM=2043MB frei Akku=83% Temp=28.1C
+[2026-08-21 07:11:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:16:29] EXPLORE | Xiaomi: CPU=Load: 0.07 RAM=2051MB frei Akku=83% Temp=26.5C
+[2026-08-21 07:16:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:21:31] EXPLORE | Xiaomi: CPU=Load: 0.89 RAM=2049MB frei Akku=82% Temp=26.8C
+[2026-08-21 07:21:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:26:33] EXPLORE | Xiaomi: CPU=Load: 1.04 RAM=2028MB frei Akku=82% Temp=27.8C
+[2026-08-21 07:26:33] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:31:34] EXPLORE | Xiaomi: CPU=Load: 0.35 RAM=1886MB frei Akku=81% Temp=27.6C
+[2026-08-21 07:31:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:36:36] EXPLORE | Xiaomi: CPU=Load: 0.72 RAM=1991MB frei Akku=81% Temp=29.0C
+[2026-08-21 07:36:36] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:41:37] EXPLORE | Xiaomi: CPU=Load: 1.84 RAM=1575MB frei Akku=80% Temp=31.2C
+[2026-08-21 07:41:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:46:39] EXPLORE | Xiaomi: CPU=Load: 0.60 RAM=1919MB frei Akku=79% Temp=29.1C
+[2026-08-21 07:46:39] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:51:40] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=1892MB frei Akku=79% Temp=28.4C
+[2026-08-21 07:51:40] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 07:56:42] EXPLORE | Xiaomi: CPU=Load: 0.50 RAM=1910MB frei Akku=78% Temp=28.7C
+[2026-08-21 07:56:42] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:01:42] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:01:42] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:01:44] EXPLORE | Xiaomi: CPU=Load: 0.15 RAM=1838MB frei Akku=85% Temp=34.7C
+[2026-08-21 08:01:44] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:06:44] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:06:44] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:06:46] EXPLORE | Xiaomi: CPU=Load: 1.39 RAM=1671MB frei Akku=92% Temp=36.3C
+[2026-08-21 08:06:46] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:11:46] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:11:46] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:11:48] EXPLORE | Xiaomi: CPU=Load: 0.53 RAM=2240MB frei Akku=99% Temp=36.4C
+[2026-08-21 08:11:48] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:16:48] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:16:48] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:16:49] EXPLORE | Xiaomi: CPU=Load: 1.38 RAM=2178MB frei Akku=100% Temp=34.9C
+[2026-08-21 08:16:49] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:21:50] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:21:50] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:21:51] EXPLORE | Xiaomi: CPU=Load: 0.43 RAM=2150MB frei Akku=100% Temp=33.9C
+[2026-08-21 08:21:51] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:26:52] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:26:52] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:26:53] EXPLORE | Xiaomi: CPU=Load: 0.63 RAM=2103MB frei Akku=100% Temp=34.2C
+[2026-08-21 08:26:53] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:31:54] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:31:54] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:31:55] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=1844MB frei Akku=100% Temp=33.6C
+[2026-08-21 08:31:55] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:36:56] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:36:56] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:36:58] EXPLORE | Xiaomi: CPU=Load: 0.74 RAM=1923MB frei Akku=100% Temp=34.9C
+[2026-08-21 08:36:58] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:41:58] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:41:58] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:42:00] EXPLORE | Xiaomi: CPU=Load: 0.67 RAM=2089MB frei Akku=100% Temp=30.9C
+[2026-08-21 08:42:00] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:47:00] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:47:00] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:47:02] EXPLORE | Xiaomi: CPU=Load: 0.30 RAM=2079MB frei Akku=100% Temp=30.2C
+[2026-08-21 08:47:02] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:52:02] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:52:02] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:52:04] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=2087MB frei Akku=100% Temp=31.6C
+[2026-08-21 08:52:04] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 08:57:04] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 08:57:04] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 08:57:06] EXPLORE | Xiaomi: CPU=Load: 0.51 RAM=2082MB frei Akku=100% Temp=30.0C
+[2026-08-21 08:57:06] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:02:06] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:02:06] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:02:08] EXPLORE | Xiaomi: CPU=Load: 0.55 RAM=2224MB frei Akku=100% Temp=29.1C
+[2026-08-21 09:02:08] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:07:08] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:07:08] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:07:10] EXPLORE | Xiaomi: CPU=Load: 0.29 RAM=2204MB frei Akku=100% Temp=28.4C
+[2026-08-21 09:07:10] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:12:10] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:12:10] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:12:11] EXPLORE | Xiaomi: CPU=Load: 0.62 RAM=1923MB frei Akku=100% Temp=28.7C
+[2026-08-21 09:12:11] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:17:12] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:17:12] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:17:13] EXPLORE | Xiaomi: CPU=Load: 1.12 RAM=2190MB frei Akku=100% Temp=31.2C
+[2026-08-21 09:17:13] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:22:13] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:22:13] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:22:14] EXPLORE | Xiaomi: CPU=Load: 0.47 RAM=2135MB frei Akku=100% Temp=31.4C
+[2026-08-21 09:22:14] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:27:15] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:27:15] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:27:16] EXPLORE | Xiaomi: CPU=Load: 0.61 RAM=2087MB frei Akku=100% Temp=31.8C
+[2026-08-21 09:27:16] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:32:16] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:32:16] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:32:17] EXPLORE | Xiaomi: CPU=Load: 0.72 RAM=2103MB frei Akku=100% Temp=32.0C
+[2026-08-21 09:32:17] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:37:18] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:37:18] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:37:19] EXPLORE | Xiaomi: CPU=Load: 0.33 RAM=1811MB frei Akku=100% Temp=33.3C
+[2026-08-21 09:37:19] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:42:19] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:42:19] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:42:21] EXPLORE | Xiaomi: CPU=Load: 0.79 RAM=1789MB frei Akku=100% Temp=34.0C
+[2026-08-21 09:42:21] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:47:21] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:47:21] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:47:22] EXPLORE | Xiaomi: CPU=Load: 0.40 RAM=1924MB frei Akku=100% Temp=34.5C
+[2026-08-21 09:47:22] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:52:23] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:52:23] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:52:24] EXPLORE | Xiaomi: CPU=Load: 18.59 RAM=1900MB frei Akku=100% Temp=43.9C
+[2026-08-21 09:52:24] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 09:57:24] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 09:57:24] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 09:57:26] EXPLORE | Xiaomi: CPU=Load: 1.69 RAM=1978MB frei Akku=100% Temp=39.2C
+[2026-08-21 09:57:26] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:02:26] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:02:26] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:02:27] EXPLORE | Xiaomi: CPU=Load: 0.42 RAM=1983MB frei Akku=100% Temp=37.1C
+[2026-08-21 10:02:27] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:07:28] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:07:28] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:07:29] EXPLORE | Xiaomi: CPU=Load: 0.75 RAM=1974MB frei Akku=100% Temp=36.2C
+[2026-08-21 10:07:29] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:12:29] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:12:29] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:12:31] EXPLORE | Xiaomi: CPU=Load: 0.78 RAM=1932MB frei Akku=100% Temp=35.0C
+[2026-08-21 10:12:31] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:17:31] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:17:31] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:17:32] EXPLORE | Xiaomi: CPU=Load: 0.44 RAM=1969MB frei Akku=100% Temp=34.7C
+[2026-08-21 10:17:32] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:22:32] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:22:32] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:22:34] EXPLORE | Xiaomi: CPU=Load: 0.54 RAM=2193MB frei Akku=100% Temp=33.6C
+[2026-08-21 10:22:34] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:27:34] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:27:34] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:27:35] EXPLORE | Xiaomi: CPU=Load: 0.34 RAM=2421MB frei Akku=100% Temp=33.0C
+[2026-08-21 10:27:35] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:32:35] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:32:35] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:32:37] EXPLORE | Xiaomi: CPU=Load: 0.59 RAM=2422MB frei Akku=100% Temp=32.7C
+[2026-08-21 10:32:37] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:37:37] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:37:37] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:37:38] EXPLORE | Xiaomi: CPU=Load: 0.90 RAM=2122MB frei Akku=100% Temp=32.7C
+[2026-08-21 10:37:38] SHADOW-FIXER | Keine offenen Fehler
+[2026-08-21 10:42:38] SELF-AUDIT | SYSTEM_STATE.md generiert
+[2026-08-21 10:42:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
+[2026-08-21 10:42:40] EXPLORE | Xiaomi: CPU=Load: 0.64 RAM=1732MB frei Akku=100% Temp=32.2C
+[2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
