@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-23T19:16:28.727250)
+# JACK LIVE-KONTEXT (auto, 2026-08-23T19:18:08.246658)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-23T19:16:28.716445
+Stand: 2026-08-23T19:18:08.234219
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -192,12 +192,13 @@ Stand: 2026-08-23T19:16:28.716445
 - Offene Fehler: 0
 - Erinnerungen: 2439
 - Dienste:
-run: jack_cortex: (pid 11260) 13595s
-run: jack_telegram: (pid 13010) 446s
-run: jack_autolearn: (pid 14990) 13397s
+run: jack_cortex: (pid 11260) 13695s
+run: jack_telegram: (pid 13010) 546s
+run: jack_autolearn: (pid 14990) 13497s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+95a43e8 feat(operator): whitelist before execute_actions shell
 0238240 feat(intent): UI gate via jack_exec.handle_ui_intent before keyword/gemini
 77abb72 fix(gemini): init circuit-breaker globals _CB_RESET_AT/_CB_FAILS
 890dace fix(exec): forsche/chrome via short SSH timeout, no hang on am start
@@ -212,7 +213,6 @@ b8615c0 fix(ui): run_guarded understands action=open target=SETTINGS
 f223361 Publisher: Push reaktiviert, Loop-Service angelegt
 106324a Haertung 2: Sandbox nur Werkstatt, Log-Rotation, SSH-Alias Sensors, Bridge-IP sauber
 744385c Haertung: TG-Heartbeat, Circuit-Breaker-Gemini, SQLite-Monkeypatch-weg, Sandbox-fix, Config-IP
-2462759 Fix: detect_futile_skills korrekt eingefuegt, Heartbeat im Loop
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
