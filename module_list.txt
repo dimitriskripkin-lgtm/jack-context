@@ -2,7 +2,7 @@
 -rw-------. 1 u0_a400 u0_a400  4293 Aug 19 10:26 /data/data/com.termux/files/home/jack/diag_snapshot.py
 -rw-------. 1 u0_a400 u0_a400  1768 Aug 22 17:59 /data/data/com.termux/files/home/jack/jack_accessibility_listener.py
 -rw-------. 1 u0_a400 u0_a400  2928 Aug 21 07:45 /data/data/com.termux/files/home/jack/jack_activity_logger.py
--rw-------. 1 u0_a400 u0_a400  1459 Aug 24 13:57 /data/data/com.termux/files/home/jack/jack_adb_heal.py
+-rw-------. 1 u0_a400 u0_a400  1915 Aug 24 16:12 /data/data/com.termux/files/home/jack/jack_adb_heal.py
 -rw-------. 1 u0_a400 u0_a400  2429 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_agent.py
 -rw-------. 1 u0_a400 u0_a400 18668 Aug 18 10:41 /data/data/com.termux/files/home/jack/jack_android.py
 -rw-------. 1 u0_a400 u0_a400  2422 Aug 23 01:10 /data/data/com.termux/files/home/jack/jack_anomaly.py
