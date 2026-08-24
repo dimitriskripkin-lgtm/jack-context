@@ -3709,3 +3709,4 @@ accelerometer_rotation: 1 -> 0 -> zurueck
 [2026-08-21 10:42:38] SCHEDULER | Power-Time aktiv - schwere Jobs erlaubt
 [2026-08-21 10:42:40] EXPLORE | Xiaomi: CPU=Load: 0.64 RAM=1732MB frei Akku=100% Temp=32.2C
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
+[watchdog] jack_autolearn neugestartet
