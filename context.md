@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T07:33:09.114444)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T07:36:08.824248)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T07:33:09.103528
+Stand: 2026-08-24T07:36:08.814849
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-24T07:33:09.103528
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (174)
+## Aktive Module (176)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -111,6 +111,8 @@ Stand: 2026-08-24T07:33:09.103528
 - jack_orchestrator.py
 - jack_outcome.py
 - jack_outcome_tracker.py
+- jack_overmind_client.py
+- jack_overmind_state.py
 - jack_patch.py
 - jack_patch_memory.py
 - jack_personality.py
@@ -191,14 +193,15 @@ Stand: 2026-08-24T07:33:09.103528
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2587
+- Erinnerungen: 2588
 - Dienste:
-run: jack_cortex: (pid 11260) 57796s
-run: jack_telegram: (pid 9416) 1771s
-run: jack_autolearn: (pid 14129) 1336s
+run: jack_cortex: (pid 11260) 57975s
+run: jack_telegram: (pid 9416) 1950s
+run: jack_autolearn: (pid 14129) 1515s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+46d7f0c feat(overmind): state snapshot + mock teacher client loop
 d5e3144 fix(talk): restore + UI on raw text, env only for LLM
 b30cf4d fix(talk): UI gate on raw text; env inject only for LLM (no false /kill)
 d5fdaf0 fix(exec): UI intent only on action words; stop as whole word
@@ -213,7 +216,6 @@ d3d86ff fix: adb heal call site + inject environment_now into talk path
 8fcdf1c fix(autolearn): indentation for skill SSH whitelist
 5c79686 feat(autolearn): SSH skill cmds only xiaomi-jack + deny list
 95a43e8 feat(operator): whitelist before execute_actions shell
-0238240 feat(intent): UI gate via jack_exec.handle_ui_intent before keyword/gemini
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
