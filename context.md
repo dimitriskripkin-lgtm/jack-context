@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T05:19:46.767645)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T05:21:19.807743)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T05:19:46.754626
+Stand: 2026-08-24T05:21:19.792710
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -192,12 +192,13 @@ Stand: 2026-08-24T05:19:46.754626
 - Offene Fehler: 0
 - Erinnerungen: 2559
 - Dienste:
-run: jack_cortex: (pid 11260) 49793s
-run: jack_telegram: (pid 13010) 36644s
-run: jack_autolearn: (pid 449) 35693s
+run: jack_cortex: (pid 11260) 49886s
+run: jack_telegram: (pid 13010) 36737s
+run: jack_autolearn: (pid 449) 35786s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+0fd4410 README: 404-Badge entfernt, Reality-Zeile unter Summary, Status-Badge
 9ce269a README: SSH-Latenz korrigiert, Origin-Story, Entwickler-Abschnitt
 2d3f633 README: Entwickler-Abschnitt schaerfen, SSH-Zahl korrigiert
 8fcdf1c fix(autolearn): indentation for skill SSH whitelist
@@ -212,7 +213,6 @@ faceb0e feat(voice): UI intents before Gemini - forsche/tap/kill via jack_exec
 388492c feat(exec): tap_text via vision_selector before shell/Monkey path
 8521341 fix(ui): guard falls back to do_step for unknown skill actions
 b8615c0 fix(ui): run_guarded understands action=open target=SETTINGS
-3da7e18 feat(ui): cortex skills via run_guarded (step_guard)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
