@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T14:30:12.674705)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T14:33:12.858373)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T14:30:12.660928
+Stand: 2026-08-24T14:33:12.844054
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -194,14 +194,15 @@ Stand: 2026-08-24T14:30:12.660928
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2753
+- Erinnerungen: 2754
 - Dienste:
-run: jack_cortex: (pid 31932) 2618s
-run: jack_telegram: (pid 16528) 6725s
-run: jack_autolearn: (pid 25851) 6235s
+run: jack_cortex: (pid 31932) 2798s
+run: jack_telegram: (pid 16528) 6905s
+run: jack_autolearn: (pid 25851) 6415s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+47dd4ba security(overmind): heat overmind-level + purge auto_fix
 c397977 security(overmind): hard ALLOWED/FORBIDDEN + fail-closed
 3ba33cf chore: State-Dateien + focus_state in gitignore
 f322a49 fix: IP 10.229.239.131 + gitignore Runtime-Artefakte
@@ -216,7 +217,6 @@ de808a2 feat(mission): JACK_MISSION_v1 schema + health test mission
 faaf82b feat(overmind): skills_list action
 bb567b9 feat(overmind): skip API teacher under heat protection
 388ce19 chore: env_now overmind + waechter 120s
-08e1677 tune(waechter): HEARTBEAT 300->120 for tighter pulse
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
