@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T08:27:40.508748)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T08:30:41.518942)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T08:27:40.498773
+Stand: 2026-08-24T08:30:41.508243
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -195,12 +195,14 @@ Stand: 2026-08-24T08:27:40.498773
 - Offene Fehler: 0
 - Erinnerungen: 2598
 - Dienste:
-run: jack_cortex: (pid 11260) 61067s
-run: jack_telegram: (pid 21161) 2611s
-run: jack_autolearn: (pid 14129) 4607s
+run: jack_cortex: (pid 11260) 61248s
+run: jack_telegram: (pid 21161) 2792s
+run: jack_autolearn: (pid 14129) 4788s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+90f1a73 feat(overmind): throttle API teacher to 180s
+797f873 feat(overmind): richer status action payload
 11ea660 feat(overmind): execute sv_status action
 a3b99a2 fix(overmind): model grok-4.6 for xAI teacher
 ea014c9 feat(overmind): api_teacher grok/xAI if key present else mock
@@ -214,8 +216,6 @@ d5fdaf0 fix(exec): UI intent only on action words; stop as whole word
 f82d813 fix: restore jack_talk syntax; safe env inject; adb heal abs path
 d3d86ff fix: adb heal call site + inject environment_now into talk path
 14df3c7 feat: environment_now for JACK awareness + waechter ADB heal hook
-315eaf3 fix: skills db absolute path; adb heal requires status device
-006cb5b chore: skills DEFEKT purge, adb heal script, /skills telegram
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
