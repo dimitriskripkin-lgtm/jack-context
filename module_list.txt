@@ -85,7 +85,7 @@
 -rw-------. 1 u0_a400 u0_a400  2398 Aug 21 07:41 /data/data/com.termux/files/home/jack/jack_memory_pruning.py
 -rw-------. 1 u0_a400 u0_a400  1010 Aug 14 16:14 /data/data/com.termux/files/home/jack/jack_memory_stale.py
 -rw-------. 1 u0_a400 u0_a400  6796 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_memory_tree.py
--rw-------. 1 u0_a400 u0_a400  1478 Aug 24 08:43 /data/data/com.termux/files/home/jack/jack_mission_run.py
+-rw-------. 1 u0_a400 u0_a400  1698 Aug 24 14:27 /data/data/com.termux/files/home/jack/jack_mission_run.py
 -rw-------. 1 u0_a400 u0_a400 10017 Aug 18 10:23 /data/data/com.termux/files/home/jack/jack_missions.py
 -rw-------. 1 u0_a400 u0_a400  8680 Aug 22 17:28 /data/data/com.termux/files/home/jack/jack_monitor.py
 -rw-------. 1 u0_a400 u0_a400  3791 Aug 23 01:40 /data/data/com.termux/files/home/jack/jack_nav_learn.py
@@ -96,7 +96,7 @@
 -rwx------. 1 u0_a400 u0_a400  3294 Aug 14 23:24 /data/data/com.termux/files/home/jack/jack_orchestrator.py
 -rw-------. 1 u0_a400 u0_a400  2974 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_outcome.py
 -rw-------. 1 u0_a400 u0_a400  1931 Aug 21 06:49 /data/data/com.termux/files/home/jack/jack_outcome_tracker.py
--rw-------. 1 u0_a400 u0_a400  9219 Aug 24 14:25 /data/data/com.termux/files/home/jack/jack_overmind_client.py
+-rw-------. 1 u0_a400 u0_a400  9493 Aug 24 14:27 /data/data/com.termux/files/home/jack/jack_overmind_client.py
 -rw-------. 1 u0_a400 u0_a400  2159 Aug 24 13:57 /data/data/com.termux/files/home/jack/jack_overmind_state.py
 -rw-------. 1 u0_a400 u0_a400  3132 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_patch.py
 -rw-------. 1 u0_a400 u0_a400  4193 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_patch_memory.py
