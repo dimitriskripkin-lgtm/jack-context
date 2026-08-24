@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T07:36:10.967382)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T07:39:10.789658)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T07:36:10.956222
+Stand: 2026-08-24T07:39:10.780426
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -195,12 +195,13 @@ Stand: 2026-08-24T07:36:10.956222
 - Offene Fehler: 0
 - Erinnerungen: 2588
 - Dienste:
-run: jack_cortex: (pid 11260) 57977s
-run: jack_telegram: (pid 9416) 1952s
-run: jack_autolearn: (pid 14129) 1517s
+run: jack_cortex: (pid 11260) 58157s
+run: jack_telegram: (pid 14451) 0s
+run: jack_autolearn: (pid 14129) 1697s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+f8dd7e4 feat(overmind): file teacher plan_in + /overmind telegram
 46d7f0c feat(overmind): state snapshot + mock teacher client loop
 d5e3144 fix(talk): restore + UI on raw text, env only for LLM
 b30cf4d fix(talk): UI gate on raw text; env inject only for LLM (no false /kill)
@@ -215,7 +216,6 @@ d3d86ff fix: adb heal call site + inject environment_now into talk path
 2d3f633 README: Entwickler-Abschnitt schaerfen, SSH-Zahl korrigiert
 8fcdf1c fix(autolearn): indentation for skill SSH whitelist
 5c79686 feat(autolearn): SSH skill cmds only xiaomi-jack + deny list
-95a43e8 feat(operator): whitelist before execute_actions shell
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
