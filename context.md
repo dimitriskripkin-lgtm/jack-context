@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T08:40:15.621063)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T08:42:48.875354)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T08:40:15.608780
+Stand: 2026-08-24T08:42:48.861207
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-24T08:40:15.608780
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (176)
+## Aktive Module (177)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -101,6 +101,7 @@ Stand: 2026-08-24T08:40:15.608780
 - jack_memory_pruning.py
 - jack_memory_stale.py
 - jack_memory_tree.py
+- jack_mission_run.py
 - jack_missions.py
 - jack_monitor.py
 - jack_nav_learn.py
@@ -193,14 +194,17 @@ Stand: 2026-08-24T08:40:15.608780
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2603
+- Erinnerungen: 2604
 - Dienste:
-run: jack_cortex: (pid 11260) 61822s
-run: jack_telegram: (pid 21161) 3366s
-run: jack_autolearn: (pid 14129) 5362s
+run: jack_cortex: (pid 11260) 61975s
+run: jack_telegram: (pid 28769) 29s
+run: jack_autolearn: (pid 14129) 5515s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+2a4bb50 feat(tg): /mission runs jack_mission_run
+a9c2947 feat(mission): runner mission_active -> overmind
+de808a2 feat(mission): JACK_MISSION_v1 schema + health test mission
 faaf82b feat(overmind): skills_list action
 bb567b9 feat(overmind): skip API teacher under heat protection
 388ce19 chore: env_now overmind + waechter 120s
@@ -213,9 +217,6 @@ ea014c9 feat(overmind): api_teacher grok/xAI if key present else mock
 dd530a6 fix(tg): /overmind return-style like /skills
 9ff3703 fix(tg): restore from 46d7f0c + clean /overmind
 f8dd7e4 feat(overmind): file teacher plan_in + /overmind telegram
-46d7f0c feat(overmind): state snapshot + mock teacher client loop
-d5e3144 fix(talk): restore + UI on raw text, env only for LLM
-b30cf4d fix(talk): UI gate on raw text; env inject only for LLM (no false /kill)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
