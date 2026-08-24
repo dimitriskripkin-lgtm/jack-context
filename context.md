@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T14:54:26.340247)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T14:57:27.090223)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T14:54:26.320899
+Stand: 2026-08-24T14:57:27.069898
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-24T14:54:26.320899
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (179)
+## Aktive Module (180)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -103,6 +103,7 @@ Stand: 2026-08-24T14:54:26.320899
 - jack_memory_pruning.py
 - jack_memory_stale.py
 - jack_memory_tree.py
+- jack_mission_queue.py
 - jack_mission_run.py
 - jack_missions.py
 - jack_monitor.py
@@ -196,14 +197,15 @@ Stand: 2026-08-24T14:54:26.320899
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2762
+- Erinnerungen: 2763
 - Dienste:
-run: jack_cortex: (pid 31932) 4072s
-run: jack_telegram: (pid 13970) 913s
-run: jack_autolearn: (pid 25851) 7689s
+run: jack_cortex: (pid 31932) 4253s
+run: jack_telegram: (pid 13970) 1094s
+run: jack_autolearn: (pid 25851) 7870s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+b67f410 feat: step_guard aktiv, deadman, mission-queue, ui_agent als Experiment
 305f412 chore: env_now nach Session-Batch 24.08
 f61015e fix(mission): fail-closed + DB-Log stabil (DONE_ALL ohne Scope-Bug)
 eef9484 docs+bridge: UI Drift-Regel, optional step_guard in jack_exec
@@ -218,7 +220,6 @@ c397977 security(overmind): hard ALLOWED/FORBIDDEN + fail-closed
 f322a49 fix: IP 10.229.239.131 + gitignore Runtime-Artefakte
 c602451 feat: Xiaomi Boot-Script fuer Wireless ADB auto-start nach Reboot
 365636c Fix: Xiaomi IP 10.229.239.131 ueberall aktualisiert nach Subnetz-Wechsel
-1d0ef99 Roadmap: 50 Punkte fuer Grok/Overmind mit MISSION/SESSION Markierung
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
