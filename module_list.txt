@@ -37,11 +37,12 @@
 -rw-------. 1 u0_a400 u0_a400  2382 Aug 23 01:03 /data/data/com.termux/files/home/jack/jack_curiosity.py
 -rw-------. 1 u0_a400 u0_a400  3586 Aug 14 15:47 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
+-rwx------. 1 u0_a400 u0_a400  1210 Aug 24 14:54 /data/data/com.termux/files/home/jack/jack_deadman.py
 -rw-------. 1 u0_a400 u0_a400  5131 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_delta.py
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  4169 Aug 21 06:22 /data/data/com.termux/files/home/jack/jack_error_to_rule.py
 -rw-------. 1 u0_a400 u0_a400   808 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_errors_status.py
--rw-------. 1 u0_a400 u0_a400  7301 Aug 24 14:44 /data/data/com.termux/files/home/jack/jack_exec.py
+-rw-------. 1 u0_a400 u0_a400  7401 Aug 24 14:53 /data/data/com.termux/files/home/jack/jack_exec.py
 -rw-------. 1 u0_a400 u0_a400  1269 Aug 24 13:57 /data/data/com.termux/files/home/jack/jack_exec_parser.py
 -rw-------. 1 u0_a400 u0_a400  3298 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_explorer.py
 -rw-------. 1 u0_a400 u0_a400  5348 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_explorer_deep.py
