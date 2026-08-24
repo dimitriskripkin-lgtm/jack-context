@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T14:21:07.207625)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T14:24:07.382670)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T14:21:07.191009
+Stand: 2026-08-24T14:24:07.367737
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -194,14 +194,15 @@ Stand: 2026-08-24T14:21:07.191009
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2749
+- Erinnerungen: 2751
 - Dienste:
-run: jack_cortex: (pid 31932) 2073s
-run: jack_telegram: (pid 16528) 6180s
-run: jack_autolearn: (pid 25851) 5690s
+run: jack_cortex: (pid 31932) 2253s
+run: jack_telegram: (pid 16528) 6360s
+run: jack_autolearn: (pid 25851) 5870s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+3ba33cf chore: State-Dateien + focus_state in gitignore
 f322a49 fix: IP 10.229.239.131 + gitignore Runtime-Artefakte
 c602451 feat: Xiaomi Boot-Script fuer Wireless ADB auto-start nach Reboot
 365636c Fix: Xiaomi IP 10.229.239.131 ueberall aktualisiert nach Subnetz-Wechsel
@@ -216,7 +217,6 @@ bb567b9 feat(overmind): skip API teacher under heat protection
 388ce19 chore: env_now overmind + waechter 120s
 08e1677 tune(waechter): HEARTBEAT 300->120 for tighter pulse
 90f1a73 feat(overmind): throttle API teacher to 180s
-797f873 feat(overmind): richer status action payload
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
