@@ -107,7 +107,7 @@
 -rw-------. 1 u0_a400 u0_a400  4193 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_patch_memory.py
 -rw-------. 1 u0_a400 u0_a400 11165 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_personality.py
 -rw-------. 1 u0_a400 u0_a400  4776 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_planner.py
--rw-------. 1 u0_a400 u0_a400  4507 Aug 24 17:42 /data/data/com.termux/files/home/jack/jack_publish.py
+-rw-------. 1 u0_a400 u0_a400  4525 Aug 24 17:45 /data/data/com.termux/files/home/jack/jack_publish.py
 -rw-------. 1 u0_a400 u0_a400   408 Aug 23 15:38 /data/data/com.termux/files/home/jack/jack_publisher_loop.py
 -rw-------. 1 u0_a400 u0_a400  1367 Aug 15 00:07 /data/data/com.termux/files/home/jack/jack_queue.py
 -rw-------. 1 u0_a400 u0_a400  5592 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_radar.py
