@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T05:57:41.344753)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T05:59:10.450576)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T05:57:41.334340
+Stand: 2026-08-24T05:59:10.444139
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,11 +13,12 @@ Stand: 2026-08-24T05:57:41.334340
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (173)
+## Aktive Module (174)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
 - jack_activity_logger.py
+- jack_adb_heal.py
 - jack_agent.py
 - jack_android.py
 - jack_anomaly.py
@@ -190,14 +191,15 @@ Stand: 2026-08-24T05:57:41.334340
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2566
+- Erinnerungen: 2567
 - Dienste:
-run: jack_cortex: (pid 11260) 52068s
-run: jack_telegram: (pid 13010) 38919s
-run: jack_autolearn: (pid 449) 37968s
+run: jack_cortex: (pid 11260) 52157s
+run: jack_telegram: (pid 8626) 19s
+run: jack_autolearn: (pid 449) 38057s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+006cb5b chore: skills DEFEKT purge, adb heal script, /skills telegram
 0fd4410 README: 404-Badge entfernt, Reality-Zeile unter Summary, Status-Badge
 9ce269a README: SSH-Latenz korrigiert, Origin-Story, Entwickler-Abschnitt
 2d3f633 README: Entwickler-Abschnitt schaerfen, SSH-Zahl korrigiert
@@ -212,7 +214,6 @@ faceb0e feat(voice): UI intents before Gemini - forsche/tap/kill via jack_exec
 5c25897 feat(tg): /tap /forsche /kill via jack_exec main line
 388492c feat(exec): tap_text via vision_selector before shell/Monkey path
 8521341 fix(ui): guard falls back to do_step for unknown skill actions
-b8615c0 fix(ui): run_guarded understands action=open target=SETTINGS
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
