@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T08:33:43.546654)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T08:34:11.907530)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T08:33:43.531506
+Stand: 2026-08-24T08:34:11.895740
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -195,12 +195,13 @@ Stand: 2026-08-24T08:33:43.531506
 - Offene Fehler: 0
 - Erinnerungen: 2600
 - Dienste:
-run: jack_cortex: (pid 11260) 61430s
-run: jack_telegram: (pid 21161) 2974s
-run: jack_autolearn: (pid 14129) 4970s
+run: jack_cortex: (pid 11260) 61458s
+run: jack_telegram: (pid 21161) 3002s
+run: jack_autolearn: (pid 14129) 4998s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+bb567b9 feat(overmind): skip API teacher under heat protection
 388ce19 chore: env_now overmind + waechter 120s
 08e1677 tune(waechter): HEARTBEAT 300->120 for tighter pulse
 90f1a73 feat(overmind): throttle API teacher to 180s
@@ -215,7 +216,6 @@ f8dd7e4 feat(overmind): file teacher plan_in + /overmind telegram
 d5e3144 fix(talk): restore + UI on raw text, env only for LLM
 b30cf4d fix(talk): UI gate on raw text; env inject only for LLM (no false /kill)
 d5fdaf0 fix(exec): UI intent only on action words; stop as whole word
-f82d813 fix: restore jack_talk syntax; safe env inject; adb heal abs path
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
