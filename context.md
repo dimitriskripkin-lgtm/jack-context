@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T06:59:50.074023)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T07:02:48.276500)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T06:59:50.062248
+Stand: 2026-08-24T07:02:48.263669
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -191,14 +191,15 @@ Stand: 2026-08-24T06:59:50.062248
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2580
+- Erinnerungen: 2581
 - Dienste:
-run: jack_cortex: (pid 11260) 55797s
-run: jack_telegram: (pid 28565) 274s
-down: jack_autolearn: 340s, normally up
+run: jack_cortex: (pid 11260) 55975s
+down: jack_telegram: 1s, normally up, want up
+down: jack_autolearn: 518s, normally up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+b30cf4d fix(talk): UI gate on raw text; env inject only for LLM (no false /kill)
 d5fdaf0 fix(exec): UI intent only on action words; stop as whole word
 f82d813 fix: restore jack_talk syntax; safe env inject; adb heal abs path
 d3d86ff fix: adb heal call site + inject environment_now into talk path
@@ -213,7 +214,6 @@ d3d86ff fix: adb heal call site + inject environment_now into talk path
 95a43e8 feat(operator): whitelist before execute_actions shell
 0238240 feat(intent): UI gate via jack_exec.handle_ui_intent before keyword/gemini
 77abb72 fix(gemini): init circuit-breaker globals _CB_RESET_AT/_CB_FAILS
-890dace fix(exec): forsche/chrome via short SSH timeout, no hang on am start
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
