@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T08:43:17.352377)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T08:45:50.737794)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T08:43:17.337034
+Stand: 2026-08-24T08:45:50.729168
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -194,14 +194,16 @@ Stand: 2026-08-24T08:43:17.337034
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2604
+- Erinnerungen: 2606
 - Dienste:
-run: jack_cortex: (pid 11260) 62004s
-run: jack_telegram: (pid 28769) 58s
-run: jack_autolearn: (pid 14129) 5544s
+run: jack_cortex: (pid 11260) 62157s
+run: jack_telegram: (pid 28769) 211s
+run: jack_autolearn: (pid 14129) 5697s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+e5c3adb docs: JACK_MISSION_v1 template for Cloud/Gemini roadmaps
+7d4f1ce chore(mission): print fail ids on partial done
 2a4bb50 feat(tg): /mission runs jack_mission_run
 a9c2947 feat(mission): runner mission_active -> overmind
 de808a2 feat(mission): JACK_MISSION_v1 schema + health test mission
@@ -215,8 +217,6 @@ bb567b9 feat(overmind): skip API teacher under heat protection
 a3b99a2 fix(overmind): model grok-4.6 for xAI teacher
 ea014c9 feat(overmind): api_teacher grok/xAI if key present else mock
 dd530a6 fix(tg): /overmind return-style like /skills
-9ff3703 fix(tg): restore from 46d7f0c + clean /overmind
-f8dd7e4 feat(overmind): file teacher plan_in + /overmind telegram
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
