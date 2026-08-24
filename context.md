@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T07:45:15.974623)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T07:48:16.217534)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T07:45:15.967138
+Stand: 2026-08-24T07:48:16.200968
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -193,14 +193,16 @@ Stand: 2026-08-24T07:45:15.967138
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2589
+- Erinnerungen: 2590
 - Dienste:
-run: jack_cortex: (pid 11260) 58522s
-run: jack_telegram: (pid 21161) 66s
-run: jack_autolearn: (pid 14129) 2062s
+run: jack_cortex: (pid 11260) 58703s
+run: jack_telegram: (pid 21161) 247s
+run: jack_autolearn: (pid 14129) 2243s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+ea014c9 feat(overmind): api_teacher grok/xAI if key present else mock
+dd530a6 fix(tg): /overmind return-style like /skills
 9ff3703 fix(tg): restore from 46d7f0c + clean /overmind
 f8dd7e4 feat(overmind): file teacher plan_in + /overmind telegram
 46d7f0c feat(overmind): state snapshot + mock teacher client loop
@@ -214,8 +216,6 @@ d3d86ff fix: adb heal call site + inject environment_now into talk path
 006cb5b chore: skills DEFEKT purge, adb heal script, /skills telegram
 0fd4410 README: 404-Badge entfernt, Reality-Zeile unter Summary, Status-Badge
 9ce269a README: SSH-Latenz korrigiert, Origin-Story, Entwickler-Abschnitt
-2d3f633 README: Entwickler-Abschnitt schaerfen, SSH-Zahl korrigiert
-8fcdf1c fix(autolearn): indentation for skill SSH whitelist
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
