@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T16:19:17.859936)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T16:19:54.511349)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T16:19:17.844490
+Stand: 2026-08-24T16:19:54.488241
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -201,12 +201,13 @@ Stand: 2026-08-24T16:19:17.844490
 - Offene Fehler: 0
 - Erinnerungen: 2795
 - Dienste:
-run: jack_cortex: (pid 31932) 9163s
-run: jack_telegram: (pid 23462) 152s
-run: jack_autolearn: (pid 25851) 12780s
+run: jack_cortex: (pid 31932) 9200s
+run: jack_telegram: (pid 23462) 189s
+run: jack_autolearn: (pid 25851) 12817s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+43188d4 feat(waechter): graceful im Zyklus; docs Overmind/Mission
 7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
 1525ce8 docs: ui_agent README Experiment klar
 cdcb919 feat(adb_heal): Zähler + unauthorized Erkennung; net_discover
@@ -221,7 +222,6 @@ cfbb065 feat(mission): Ergebnis in jack_missions.db loggen
 31f3cdc feat: jack_health.py - Dienste/SSH/Heartbeats Snapshot
 0682254 fix(autolearn): auto_fix Genesis deaktiviert (BLOCK3)
 47dd4ba security(overmind): heat overmind-level + purge auto_fix
-c397977 security(overmind): hard ALLOWED/FORBIDDEN + fail-closed
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -254,4 +254,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 19/300 | Vision 0/40 | Tokens 117617
+Heute: Text 20/300 | Vision 0/40 | Tokens 117617
