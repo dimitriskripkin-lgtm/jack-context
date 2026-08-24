@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T13:56:53.285583)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T13:59:54.659241)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T13:56:53.272513
+Stand: 2026-08-24T13:59:54.648259
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -194,14 +194,15 @@ Stand: 2026-08-24T13:56:53.272513
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2740
+- Erinnerungen: 2741
 - Dienste:
-run: jack_cortex: (pid 31932) 619s
-run: jack_telegram: (pid 16528) 4726s
-run: jack_autolearn: (pid 25851) 4236s
+run: jack_cortex: (pid 31932) 800s
+run: jack_telegram: (pid 16528) 4907s
+run: jack_autolearn: (pid 25851) 4417s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+365636c Fix: Xiaomi IP 10.229.239.131 ueberall aktualisiert nach Subnetz-Wechsel
 1d0ef99 Roadmap: 50 Punkte fuer Grok/Overmind mit MISSION/SESSION Markierung
 e5c3adb docs: JACK_MISSION_v1 template for Cloud/Gemini roadmaps
 7d4f1ce chore(mission): print fail ids on partial done
@@ -216,7 +217,6 @@ bb567b9 feat(overmind): skip API teacher under heat protection
 797f873 feat(overmind): richer status action payload
 11ea660 feat(overmind): execute sv_status action
 a3b99a2 fix(overmind): model grok-4.6 for xAI teacher
-ea014c9 feat(overmind): api_teacher grok/xAI if key present else mock
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
