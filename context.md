@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T08:21:37.124396)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T08:24:38.015410)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T08:21:37.114065
+Stand: 2026-08-24T08:24:38.006696
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -195,12 +195,13 @@ Stand: 2026-08-24T08:21:37.114065
 - Offene Fehler: 0
 - Erinnerungen: 2597
 - Dienste:
-run: jack_cortex: (pid 11260) 60704s
-run: jack_telegram: (pid 21161) 2248s
-run: jack_autolearn: (pid 14129) 4244s
+run: jack_cortex: (pid 11260) 60885s
+run: jack_telegram: (pid 21161) 2429s
+run: jack_autolearn: (pid 14129) 4425s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+a3b99a2 fix(overmind): model grok-4.6 for xAI teacher
 ea014c9 feat(overmind): api_teacher grok/xAI if key present else mock
 dd530a6 fix(tg): /overmind return-style like /skills
 9ff3703 fix(tg): restore from 46d7f0c + clean /overmind
@@ -215,7 +216,6 @@ d3d86ff fix: adb heal call site + inject environment_now into talk path
 315eaf3 fix: skills db absolute path; adb heal requires status device
 006cb5b chore: skills DEFEKT purge, adb heal script, /skills telegram
 0fd4410 README: 404-Badge entfernt, Reality-Zeile unter Summary, Status-Badge
-9ce269a README: SSH-Latenz korrigiert, Origin-Story, Entwickler-Abschnitt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
