@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T16:16:16.467113)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T16:18:31.349095)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T16:16:16.451528
+Stand: 2026-08-24T16:18:31.336439
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-24T16:16:16.451528
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (181)
+## Aktive Module (182)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -68,6 +68,7 @@ Stand: 2026-08-24T16:16:16.451528
 - jack_gedanken.py
 - jack_gemini_bridge.py
 - jack_ghost.py
+- jack_graceful.py
 - jack_grid_vision.py
 - jack_groq_bridge.py
 - jack_guard.py
@@ -200,12 +201,13 @@ Stand: 2026-08-24T16:16:16.451528
 - Offene Fehler: 0
 - Erinnerungen: 2794
 - Dienste:
-run: jack_cortex: (pid 31932) 8982s
-run: jack_telegram: (pid 13970) 5823s
-run: jack_autolearn: (pid 25851) 12599s
+run: jack_cortex: (pid 31932) 9117s
+run: jack_telegram: (pid 23462) 106s
+run: jack_autolearn: (pid 25851) 12734s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
 1525ce8 docs: ui_agent README Experiment klar
 cdcb919 feat(adb_heal): Zähler + unauthorized Erkennung; net_discover
 69ebf5a feat: jack_net_discover - Xiaomi IP im Hotspot-Subnetz finden + Config updaten
@@ -220,7 +222,6 @@ cfbb065 feat(mission): Ergebnis in jack_missions.db loggen
 0682254 fix(autolearn): auto_fix Genesis deaktiviert (BLOCK3)
 47dd4ba security(overmind): heat overmind-level + purge auto_fix
 c397977 security(overmind): hard ALLOWED/FORBIDDEN + fail-closed
-3ba33cf chore: State-Dateien + focus_state in gitignore
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -253,4 +254,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 18/300 | Vision 0/40 | Tokens 112905
+Heute: Text 19/300 | Vision 0/40 | Tokens 112905
