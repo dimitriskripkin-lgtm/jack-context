@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T14:48:22.926805)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T14:51:23.513224)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T14:48:22.913672
+Stand: 2026-08-24T14:51:23.501470
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -195,14 +195,16 @@ Stand: 2026-08-24T14:48:22.913672
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2760
+- Erinnerungen: 2761
 - Dienste:
-run: jack_cortex: (pid 31932) 3708s
-run: jack_telegram: (pid 13970) 549s
-run: jack_autolearn: (pid 25851) 7325s
+run: jack_cortex: (pid 31932) 3889s
+run: jack_telegram: (pid 13970) 730s
+run: jack_autolearn: (pid 25851) 7506s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+305f412 chore: env_now nach Session-Batch 24.08
+f61015e fix(mission): fail-closed + DB-Log stabil (DONE_ALL ohne Scope-Bug)
 eef9484 docs+bridge: UI Drift-Regel, optional step_guard in jack_exec
 1ee8cd8 docs: BLOCK5 ControlMaster \~110ms, Session-Stand
 811b759 feat(tg): /overmind zeigt Health + Overmind Output
@@ -216,8 +218,6 @@ f322a49 fix: IP 10.229.239.131 + gitignore Runtime-Artefakte
 c602451 feat: Xiaomi Boot-Script fuer Wireless ADB auto-start nach Reboot
 365636c Fix: Xiaomi IP 10.229.239.131 ueberall aktualisiert nach Subnetz-Wechsel
 1d0ef99 Roadmap: 50 Punkte fuer Grok/Overmind mit MISSION/SESSION Markierung
-e5c3adb docs: JACK_MISSION_v1 template for Cloud/Gemini roadmaps
-7d4f1ce chore(mission): print fail ids on partial done
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
