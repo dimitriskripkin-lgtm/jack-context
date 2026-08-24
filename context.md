@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T06:48:42.001217)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T06:50:41.155290)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T06:48:41.986564
+Stand: 2026-08-24T06:50:41.140996
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -191,14 +191,15 @@ Stand: 2026-08-24T06:48:41.986564
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2577
+- Erinnerungen: 2578
 - Dienste:
-run: jack_cortex: (pid 11260) 55128s
-run: jack_telegram: (pid 11740) 325s
-run: jack_autolearn: (pid 449) 41028s
+run: jack_cortex: (pid 11260) 55248s
+down: jack_telegram: 1s, normally up, want up
+run: jack_autolearn: (pid 449) 41148s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+d3d86ff fix: adb heal call site + inject environment_now into talk path
 14df3c7 feat: environment_now for JACK awareness + waechter ADB heal hook
 315eaf3 fix: skills db absolute path; adb heal requires status device
 006cb5b chore: skills DEFEKT purge, adb heal script, /skills telegram
@@ -213,7 +214,6 @@ fail: ollama: unable to change to service directory: file does not exist
 890dace fix(exec): forsche/chrome via short SSH timeout, no hang on am start
 978b0f6 feat: UI intent gate on talk_to_gemini + waechter heartbeat sv restart
 faceb0e feat(voice): UI intents before Gemini - forsche/tap/kill via jack_exec
-5c25897 feat(tg): /tap /forsche /kill via jack_exec main line
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -246,4 +246,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 5/300 | Vision 0/40 | Tokens 30847
+Heute: Text 5/300 | Vision 0/40 | Tokens 36077
