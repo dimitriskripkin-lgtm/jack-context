@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T14:36:16.157222)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T14:39:16.258202)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T14:36:16.143779
+Stand: 2026-08-24T14:39:16.238808
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-24T14:36:16.143779
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (177)
+## Aktive Module (178)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -74,6 +74,7 @@ Stand: 2026-08-24T14:36:16.143779
 - jack_handshake_gen.py
 - jack_harvest.py
 - jack_harvest_lernen.py
+- jack_health.py
 - jack_heartbeat.py
 - jack_heat_protection.py
 - jack_hey.py
@@ -194,14 +195,16 @@ Stand: 2026-08-24T14:36:16.143779
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2755
+- Erinnerungen: 2756
 - Dienste:
-run: jack_cortex: (pid 31932) 2982s
-run: jack_telegram: (pid 16528) 7089s
-run: jack_autolearn: (pid 25851) 6599s
+run: jack_cortex: (pid 31932) 3162s
+run: jack_telegram: (pid 13970) 3s
+run: jack_autolearn: (pid 25851) 6779s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+cfbb065 feat(mission): Ergebnis in jack_missions.db loggen
+31f3cdc feat: jack_health.py - Dienste/SSH/Heartbeats Snapshot
 0682254 fix(autolearn): auto_fix Genesis deaktiviert (BLOCK3)
 47dd4ba security(overmind): heat overmind-level + purge auto_fix
 c397977 security(overmind): hard ALLOWED/FORBIDDEN + fail-closed
@@ -215,8 +218,6 @@ e5c3adb docs: JACK_MISSION_v1 template for Cloud/Gemini roadmaps
 2a4bb50 feat(tg): /mission runs jack_mission_run
 a9c2947 feat(mission): runner mission_active -> overmind
 de808a2 feat(mission): JACK_MISSION_v1 schema + health test mission
-faaf82b feat(overmind): skills_list action
-bb567b9 feat(overmind): skip API teacher under heat protection
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -249,4 +250,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 17/300 | Vision 0/40 | Tokens 108194
+Heute: Text 18/300 | Vision 0/40 | Tokens 112905
