@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T07:02:51.745292)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T07:05:50.010461)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T07:02:51.727193
+Stand: 2026-08-24T07:05:50.000154
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -193,12 +193,13 @@ Stand: 2026-08-24T07:02:51.727193
 - Offene Fehler: 0
 - Erinnerungen: 2581
 - Dienste:
-run: jack_cortex: (pid 11260) 55978s
-down: jack_telegram: 0s, normally up, want up
-down: jack_autolearn: 521s, normally up
+run: jack_cortex: (pid 11260) 56156s
+run: jack_telegram: (pid 9416) 131s
+down: jack_autolearn: 699s, normally up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+d5e3144 fix(talk): restore + UI on raw text, env only for LLM
 b30cf4d fix(talk): UI gate on raw text; env inject only for LLM (no false /kill)
 d5fdaf0 fix(exec): UI intent only on action words; stop as whole word
 f82d813 fix: restore jack_talk syntax; safe env inject; adb heal abs path
@@ -213,7 +214,6 @@ d3d86ff fix: adb heal call site + inject environment_now into talk path
 5c79686 feat(autolearn): SSH skill cmds only xiaomi-jack + deny list
 95a43e8 feat(operator): whitelist before execute_actions shell
 0238240 feat(intent): UI gate via jack_exec.handle_ui_intent before keyword/gemini
-77abb72 fix(gemini): init circuit-breaker globals _CB_RESET_AT/_CB_FAILS
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -246,4 +246,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 41308
+Heute: Text 8/300 | Vision 0/40 | Tokens 61144
