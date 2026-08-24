@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T16:07:11.212178)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T16:10:12.509621)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T16:07:11.201991
+Stand: 2026-08-24T16:10:12.498050
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -198,14 +198,15 @@ Stand: 2026-08-24T16:07:11.201991
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2790
+- Erinnerungen: 2791
 - Dienste:
-run: jack_cortex: (pid 31932) 8437s
-run: jack_telegram: (pid 13970) 5278s
-run: jack_autolearn: (pid 25851) 12054s
+run: jack_cortex: (pid 31932) 8618s
+run: jack_telegram: (pid 13970) 5459s
+run: jack_autolearn: (pid 25851) 12235s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+69ebf5a feat: jack_net_discover - Xiaomi IP im Hotspot-Subnetz finden + Config updaten
 b67f410 feat: step_guard aktiv, deadman, mission-queue, ui_agent als Experiment
 305f412 chore: env_now nach Session-Batch 24.08
 f61015e fix(mission): fail-closed + DB-Log stabil (DONE_ALL ohne Scope-Bug)
@@ -220,7 +221,6 @@ c397977 security(overmind): hard ALLOWED/FORBIDDEN + fail-closed
 3ba33cf chore: State-Dateien + focus_state in gitignore
 f322a49 fix: IP 10.229.239.131 + gitignore Runtime-Artefakte
 c602451 feat: Xiaomi Boot-Script fuer Wireless ADB auto-start nach Reboot
-365636c Fix: Xiaomi IP 10.229.239.131 ueberall aktualisiert nach Subnetz-Wechsel
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
