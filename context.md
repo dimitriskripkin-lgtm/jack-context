@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T08:31:10.349718)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T08:32:16.875930)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T08:31:10.337555
+Stand: 2026-08-24T08:32:16.865000
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -193,14 +193,15 @@ Stand: 2026-08-24T08:31:10.337555
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2598
+- Erinnerungen: 2599
 - Dienste:
-run: jack_cortex: (pid 11260) 61277s
-run: jack_telegram: (pid 21161) 2821s
-run: jack_autolearn: (pid 14129) 4817s
+run: jack_cortex: (pid 11260) 61343s
+run: jack_telegram: (pid 21161) 2887s
+run: jack_autolearn: (pid 14129) 4883s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+08e1677 tune(waechter): HEARTBEAT 300->120 for tighter pulse
 90f1a73 feat(overmind): throttle API teacher to 180s
 797f873 feat(overmind): richer status action payload
 11ea660 feat(overmind): execute sv_status action
@@ -215,7 +216,6 @@ b30cf4d fix(talk): UI gate on raw text; env inject only for LLM (no false /kill)
 d5fdaf0 fix(exec): UI intent only on action words; stop as whole word
 f82d813 fix: restore jack_talk syntax; safe env inject; adb heal abs path
 d3d86ff fix: adb heal call site + inject environment_now into talk path
-14df3c7 feat: environment_now for JACK awareness + waechter ADB heal hook
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -248,4 +248,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 9/300 | Vision 0/40 | Tokens 61144
+Heute: Text 9/300 | Vision 0/40 | Tokens 66395
