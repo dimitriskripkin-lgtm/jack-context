@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T14:39:17.953039)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T14:42:17.907504)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T14:39:17.941045
+Stand: 2026-08-24T14:42:17.887146
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -195,14 +195,16 @@ Stand: 2026-08-24T14:39:17.941045
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2756
+- Erinnerungen: 2757
 - Dienste:
-run: jack_cortex: (pid 31932) 3163s
-run: jack_telegram: (pid 13970) 4s
-run: jack_autolearn: (pid 25851) 6780s
+run: jack_cortex: (pid 31932) 3343s
+run: jack_telegram: (pid 13970) 184s
+run: jack_autolearn: (pid 25851) 6960s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+1ee8cd8 docs: BLOCK5 ControlMaster \~110ms, Session-Stand
+811b759 feat(tg): /overmind zeigt Health + Overmind Output
 cfbb065 feat(mission): Ergebnis in jack_missions.db loggen
 31f3cdc feat: jack_health.py - Dienste/SSH/Heartbeats Snapshot
 0682254 fix(autolearn): auto_fix Genesis deaktiviert (BLOCK3)
@@ -216,8 +218,6 @@ c602451 feat: Xiaomi Boot-Script fuer Wireless ADB auto-start nach Reboot
 e5c3adb docs: JACK_MISSION_v1 template for Cloud/Gemini roadmaps
 7d4f1ce chore(mission): print fail ids on partial done
 2a4bb50 feat(tg): /mission runs jack_mission_run
-a9c2947 feat(mission): runner mission_active -> overmind
-de808a2 feat(mission): JACK_MISSION_v1 schema + health test mission
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
