@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-24T06:50:44.543630)
+# JACK LIVE-KONTEXT (auto, 2026-08-24T06:53:42.912573)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-24T06:50:44.530238
+Stand: 2026-08-24T06:53:42.894041
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -191,14 +191,16 @@ Stand: 2026-08-24T06:50:44.530238
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 2578
+- Erinnerungen: 2579
 - Dienste:
-run: jack_cortex: (pid 11260) 55251s
-run: jack_telegram: (pid 22004) 0s
-run: jack_autolearn: (pid 449) 41151s
+run: jack_cortex: (pid 11260) 55429s
+run: jack_telegram: (pid 25464) 32s
+run: jack_autolearn: (pid 449) 41329s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+d5fdaf0 fix(exec): UI intent only on action words; stop as whole word
+f82d813 fix: restore jack_talk syntax; safe env inject; adb heal abs path
 d3d86ff fix: adb heal call site + inject environment_now into talk path
 14df3c7 feat: environment_now for JACK awareness + waechter ADB heal hook
 315eaf3 fix: skills db absolute path; adb heal requires status device
@@ -212,8 +214,6 @@ d3d86ff fix: adb heal call site + inject environment_now into talk path
 0238240 feat(intent): UI gate via jack_exec.handle_ui_intent before keyword/gemini
 77abb72 fix(gemini): init circuit-breaker globals _CB_RESET_AT/_CB_FAILS
 890dace fix(exec): forsche/chrome via short SSH timeout, no hang on am start
-978b0f6 feat: UI intent gate on talk_to_gemini + waechter heartbeat sv restart
-faceb0e feat(voice): UI intents before Gemini - forsche/tap/kill via jack_exec
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -246,4 +246,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [2026-08-21 10:42:40] SHADOW-FIXER | Keine offenen Fehler
 
 ## Budget heute
-Heute: Text 6/300 | Vision 0/40 | Tokens 36077
+Heute: Text 6/300 | Vision 0/40 | Tokens 41308
