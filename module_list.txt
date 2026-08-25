@@ -95,7 +95,7 @@
 -rw-------. 1 u0_a400 u0_a400  3791 Aug 23 01:40 /data/data/com.termux/files/home/jack/jack_nav_learn.py
 -rw-------. 1 u0_a400 u0_a400  9177 Aug 20 17:29 /data/data/com.termux/files/home/jack/jack_navi.py
 -rw-------. 1 u0_a400 u0_a400   473 Aug 24 18:29 /data/data/com.termux/files/home/jack/jack_nc.py
--rwx------. 1 u0_a400 u0_a400  4353 Aug 24 16:08 /data/data/com.termux/files/home/jack/jack_net_discover.py
+-rwx------. 1 u0_a400 u0_a400  1398 Aug 25 02:25 /data/data/com.termux/files/home/jack/jack_net_discover.py
 -rw-------. 1 u0_a400 u0_a400   479 Aug 17 20:42 /data/data/com.termux/files/home/jack/jack_observer.py
 -rw-------. 1 u0_a400 u0_a400  9261 Aug 23 19:17 /data/data/com.termux/files/home/jack/jack_operator.py
 -rw-------. 1 u0_a400 u0_a400  9068 Aug 18 17:28 /data/data/com.termux/files/home/jack/jack_oracle.py
