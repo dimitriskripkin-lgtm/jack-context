@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-25T08:19:07.793546)
+# JACK LIVE-KONTEXT (auto, 2026-08-25T08:22:09.669657)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-25T08:19:07.776185
+Stand: 2026-08-25T08:22:09.656769
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -206,14 +206,15 @@ Stand: 2026-08-25T08:19:07.776185
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 3259
+- Erinnerungen: 3260
 - Dienste:
-run: jack_cortex: (pid 17746) 23234s
-run: jack_telegram: (pid 18579) 8680s
-run: jack_autolearn: (pid 4364) 51981s
+run: jack_cortex: (pid 17746) 23416s
+run: jack_telegram: (pid 18579) 8862s
+run: jack_autolearn: (pid 4364) 52163s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+c2a4fd9 Sync: alle aktiven Module die live auf Honor laufen aber im Repo fehlten
 e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix verifiziert, Mission-Runner 3 neue Acts + expect-Logik
 43188d4 feat(waechter): graceful im Zyklus; docs Overmind/Mission
 7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
@@ -228,7 +229,6 @@ eef9484 docs+bridge: UI Drift-Regel, optional step_guard in jack_exec
 811b759 feat(tg): /overmind zeigt Health + Overmind Output
 cfbb065 feat(mission): Ergebnis in jack_missions.db loggen
 31f3cdc feat: jack_health.py - Dienste/SSH/Heartbeats Snapshot
-0682254 fix(autolearn): auto_fix Genesis deaktiviert (BLOCK3)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -261,4 +261,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 85/300 | Vision 0/40 | Tokens 284321
+Heute: Text 86/300 | Vision 0/40 | Tokens 289558
