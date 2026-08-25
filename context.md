@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-25T08:16:05.987506)
+# JACK LIVE-KONTEXT (auto, 2026-08-25T08:19:07.793546)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-25T08:16:05.970554
+Stand: 2026-08-25T08:19:07.776185
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -206,14 +206,15 @@ Stand: 2026-08-25T08:16:05.970554
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 3257
+- Erinnerungen: 3259
 - Dienste:
-run: jack_cortex: (pid 17746) 23052s
-run: jack_telegram: (pid 18579) 8498s
-run: jack_autolearn: (pid 4364) 51799s
+run: jack_cortex: (pid 17746) 23234s
+run: jack_telegram: (pid 18579) 8680s
+run: jack_autolearn: (pid 4364) 51981s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix verifiziert, Mission-Runner 3 neue Acts + expect-Logik
 43188d4 feat(waechter): graceful im Zyklus; docs Overmind/Mission
 7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
 1525ce8 docs: ui_agent README Experiment klar
@@ -228,7 +229,6 @@ eef9484 docs+bridge: UI Drift-Regel, optional step_guard in jack_exec
 cfbb065 feat(mission): Ergebnis in jack_missions.db loggen
 31f3cdc feat: jack_health.py - Dienste/SSH/Heartbeats Snapshot
 0682254 fix(autolearn): auto_fix Genesis deaktiviert (BLOCK3)
-47dd4ba security(overmind): heat overmind-level + purge auto_fix
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
