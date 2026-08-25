@@ -23,7 +23,7 @@
 -rw-------. 1 u0_a400 u0_a400  6444 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_bugfix_loop.py
 -rw-------. 1 u0_a400 u0_a400  4593 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_calltest.py
 -rw-------. 1 u0_a400 u0_a400 10980 Aug 17 18:33 /data/data/com.termux/files/home/jack/jack_chains.py
--rw-------. 1 u0_a400 u0_a400  3849 Aug 25 05:54 /data/data/com.termux/files/home/jack/jack_chat_router.py
+-rw-------. 1 u0_a400 u0_a400  3975 Aug 25 06:00 /data/data/com.termux/files/home/jack/jack_chat_router.py
 -rw-------. 1 u0_a400 u0_a400  1462 Aug 22 12:56 /data/data/com.termux/files/home/jack/jack_circuit_breaker.py
 -rw-------. 1 u0_a400 u0_a400  1564 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_claude.py
 -rwx------. 1 u0_a400 u0_a400  6607 Aug 24 13:57 /data/data/com.termux/files/home/jack/jack_cmd_crawler.py
@@ -43,7 +43,7 @@
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  4169 Aug 21 06:22 /data/data/com.termux/files/home/jack/jack_error_to_rule.py
 -rw-------. 1 u0_a400 u0_a400   808 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_errors_status.py
--rw-------. 1 u0_a400 u0_a400  7385 Aug 25 05:18 /data/data/com.termux/files/home/jack/jack_exec.py
+-rw-------. 1 u0_a400 u0_a400  7385 Aug 25 06:00 /data/data/com.termux/files/home/jack/jack_exec.py
 -rw-------. 1 u0_a400 u0_a400  1269 Aug 24 13:57 /data/data/com.termux/files/home/jack/jack_exec_parser.py
 -rw-------. 1 u0_a400 u0_a400  3298 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_explorer.py
 -rw-------. 1 u0_a400 u0_a400  5348 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_explorer_deep.py
