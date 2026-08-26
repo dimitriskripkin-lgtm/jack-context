@@ -95,7 +95,7 @@
 -rw-------. 1 u0_a400 u0_a400  1413 Aug 26 15:17 /data/data/com.termux/files/home/jack/jack_mission_pull.py
 -rwx------. 1 u0_a400 u0_a400  1149 Aug 24 14:54 /data/data/com.termux/files/home/jack/jack_mission_queue.py
 -rw-------. 1 u0_a400 u0_a400  2539 Aug 24 14:48 /data/data/com.termux/files/home/jack/jack_mission_run.py
--rw-------. 1 u0_a400 u0_a400  9679 Aug 26 16:31 /data/data/com.termux/files/home/jack/jack_mission_runner.py
+-rw-------. 1 u0_a400 u0_a400  9680 Aug 26 17:49 /data/data/com.termux/files/home/jack/jack_mission_runner.py
 -rw-------. 1 u0_a400 u0_a400 10017 Aug 18 10:23 /data/data/com.termux/files/home/jack/jack_missions.py
 -rw-------. 1 u0_a400 u0_a400  8680 Aug 22 17:28 /data/data/com.termux/files/home/jack/jack_monitor.py
 -rw-------. 1 u0_a400 u0_a400  3791 Aug 23 01:40 /data/data/com.termux/files/home/jack/jack_nav_learn.py
