@@ -15,7 +15,7 @@
 -rw-------. 1 u0_a400 u0_a400  1502 Aug 17 19:45 /data/data/com.termux/files/home/jack/jack_auto_ingest.py
 -rw-------. 1 u0_a400 u0_a400  8200 Aug 22 12:56 /data/data/com.termux/files/home/jack/jack_autofixer_shadow.py
 -rw-------. 1 u0_a400 u0_a400 13886 Aug 24 17:47 /data/data/com.termux/files/home/jack/jack_autolearn_loop.py
--rw-------. 1 u0_a400 u0_a400 20997 Aug 24 16:18 /data/data/com.termux/files/home/jack/jack_autonomous.py
+-rw-------. 1 u0_a400 u0_a400 21103 Aug 26 15:12 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  5031 Aug 17 11:15 /data/data/com.termux/files/home/jack/jack_briefing.py
 -rw-------. 1 u0_a400 u0_a400  2147 Aug 14 16:23 /data/data/com.termux/files/home/jack/jack_briefing_cron.py
 -rw-------. 1 u0_a400 u0_a400  1323 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_budget.py
@@ -34,7 +34,7 @@
 -rw-------. 1 u0_a400 u0_a400  1747 Aug 20 16:12 /data/data/com.termux/files/home/jack/jack_consolidate.py
 -rw-------. 1 u0_a400 u0_a400  1268 Aug 14 15:31 /data/data/com.termux/files/home/jack/jack_context_compress.py
 -rw-------. 1 u0_a400 u0_a400  5212 Aug 17 19:13 /data/data/com.termux/files/home/jack/jack_context_ingest.py
--rwx------. 1 u0_a400 u0_a400 10221 Aug 23 15:29 /data/data/com.termux/files/home/jack/jack_cortex.py
+-rwx------. 1 u0_a400 u0_a400 10370 Aug 26 15:12 /data/data/com.termux/files/home/jack/jack_cortex.py
 -rw-------. 1 u0_a400 u0_a400   724 Aug 16 11:31 /data/data/com.termux/files/home/jack/jack_critic.py
 -rw-------. 1 u0_a400 u0_a400  2382 Aug 23 01:03 /data/data/com.termux/files/home/jack/jack_curiosity.py
 -rw-------. 1 u0_a400 u0_a400  3586 Aug 14 15:47 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
@@ -90,10 +90,10 @@
 -rw-------. 1 u0_a400 u0_a400  2398 Aug 21 07:41 /data/data/com.termux/files/home/jack/jack_memory_pruning.py
 -rw-------. 1 u0_a400 u0_a400  1010 Aug 14 16:14 /data/data/com.termux/files/home/jack/jack_memory_stale.py
 -rw-------. 1 u0_a400 u0_a400  6796 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_memory_tree.py
--rw-------. 1 u0_a400 u0_a400  1402 Aug 25 08:05 /data/data/com.termux/files/home/jack/jack_mission_pull.py
+-rw-------. 1 u0_a400 u0_a400  1413 Aug 26 15:17 /data/data/com.termux/files/home/jack/jack_mission_pull.py
 -rwx------. 1 u0_a400 u0_a400  1149 Aug 24 14:54 /data/data/com.termux/files/home/jack/jack_mission_queue.py
 -rw-------. 1 u0_a400 u0_a400  2539 Aug 24 14:48 /data/data/com.termux/files/home/jack/jack_mission_run.py
--rw-------. 1 u0_a400 u0_a400  9156 Aug 26 01:13 /data/data/com.termux/files/home/jack/jack_mission_runner.py
+-rw-------. 1 u0_a400 u0_a400  9345 Aug 26 15:20 /data/data/com.termux/files/home/jack/jack_mission_runner.py
 -rw-------. 1 u0_a400 u0_a400 10017 Aug 18 10:23 /data/data/com.termux/files/home/jack/jack_missions.py
 -rw-------. 1 u0_a400 u0_a400  8680 Aug 22 17:28 /data/data/com.termux/files/home/jack/jack_monitor.py
 -rw-------. 1 u0_a400 u0_a400  3791 Aug 23 01:40 /data/data/com.termux/files/home/jack/jack_nav_learn.py
@@ -112,7 +112,7 @@
 -rw-------. 1 u0_a400 u0_a400  4193 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_patch_memory.py
 -rw-------. 1 u0_a400 u0_a400 11165 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_personality.py
 -rw-------. 1 u0_a400 u0_a400  4776 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_planner.py
--rw-------. 1 u0_a400 u0_a400  4484 Aug 24 18:29 /data/data/com.termux/files/home/jack/jack_publish.py
+-rw-------. 1 u0_a400 u0_a400  4548 Aug 26 15:22 /data/data/com.termux/files/home/jack/jack_publish.py
 -rw-------. 1 u0_a400 u0_a400   408 Aug 23 15:38 /data/data/com.termux/files/home/jack/jack_publisher_loop.py
 -rw-------. 1 u0_a400 u0_a400  1367 Aug 15 00:07 /data/data/com.termux/files/home/jack/jack_queue.py
 -rw-------. 1 u0_a400 u0_a400  5592 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_radar.py
