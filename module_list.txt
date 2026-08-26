@@ -70,7 +70,7 @@
 -rw-------. 1 u0_a400 u0_a400  2675 Aug 16 15:40 /data/data/com.termux/files/home/jack/jack_inbox.py
 -rw-------. 1 u0_a400 u0_a400  4843 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_install.py
 -rw-------. 1 u0_a400 u0_a400 17538 Aug 23 19:14 /data/data/com.termux/files/home/jack/jack_intent.py
--rw-------. 1 u0_a400 u0_a400  2535 Aug 26 07:05 /data/data/com.termux/files/home/jack/jack_intent_apps.py
+-rw-------. 1 u0_a400 u0_a400  2851 Aug 26 07:11 /data/data/com.termux/files/home/jack/jack_intent_apps.py
 -rw-------. 1 u0_a400 u0_a400  2243 Aug 21 07:33 /data/data/com.termux/files/home/jack/jack_intent_lookup.py
 -rwx------. 1 u0_a400 u0_a400  5139 Aug 20 01:23 /data/data/com.termux/files/home/jack/jack_intent_parser.py
 -rw-------. 1 u0_a400 u0_a400  5221 Aug 20 17:29 /data/data/com.termux/files/home/jack/jack_karte.py
@@ -162,6 +162,7 @@
 -rw-------. 1 u0_a400 u0_a400  6098 Aug 23 01:59 /data/data/com.termux/files/home/jack/jack_ui_read.py
 -rwxr-xr-x. 1 u0_a400 u0_a400  1434 Aug 26 06:53 /data/data/com.termux/files/home/jack/jack_ui_session.py
 -rw-------. 1 u0_a400 u0_a400  2302 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vecdb.py
+-rw-------. 1 u0_a400 u0_a400  1517 Aug 26 07:11 /data/data/com.termux/files/home/jack/jack_verify_gate.py
 -rw-------. 1 u0_a400 u0_a400  4913 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vinted_radar.py
 -rw-------. 1 u0_a400 u0_a400  2693 Aug 17 16:46 /data/data/com.termux/files/home/jack/jack_vision.py
 -rw-------. 1 u0_a400 u0_a400  3332 Aug 23 02:05 /data/data/com.termux/files/home/jack/jack_vision_once.py
