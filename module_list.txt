@@ -70,7 +70,7 @@
 -rw-------. 1 u0_a400 u0_a400  2675 Aug 16 15:40 /data/data/com.termux/files/home/jack/jack_inbox.py
 -rw-------. 1 u0_a400 u0_a400  4843 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_install.py
 -rw-------. 1 u0_a400 u0_a400 17538 Aug 23 19:14 /data/data/com.termux/files/home/jack/jack_intent.py
--rw-------. 1 u0_a400 u0_a400  2932 Aug 26 08:06 /data/data/com.termux/files/home/jack/jack_intent_apps.py
+-rw-------. 1 u0_a400 u0_a400  3141 Aug 26 08:07 /data/data/com.termux/files/home/jack/jack_intent_apps.py
 -rw-------. 1 u0_a400 u0_a400  2243 Aug 21 07:33 /data/data/com.termux/files/home/jack/jack_intent_lookup.py
 -rwx------. 1 u0_a400 u0_a400  5139 Aug 20 01:23 /data/data/com.termux/files/home/jack/jack_intent_parser.py
 -rw-------. 1 u0_a400 u0_a400  5221 Aug 20 17:29 /data/data/com.termux/files/home/jack/jack_karte.py
