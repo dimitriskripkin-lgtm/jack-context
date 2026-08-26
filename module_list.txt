@@ -37,6 +37,7 @@
 -rwx------. 1 u0_a400 u0_a400 10532 Aug 26 15:27 /data/data/com.termux/files/home/jack/jack_cortex.py
 -rw-------. 1 u0_a400 u0_a400   724 Aug 16 11:31 /data/data/com.termux/files/home/jack/jack_critic.py
 -rw-------. 1 u0_a400 u0_a400  2382 Aug 23 01:03 /data/data/com.termux/files/home/jack/jack_curiosity.py
+-rw-------. 1 u0_a400 u0_a400  1500 Aug 26 16:51 /data/data/com.termux/files/home/jack/jack_dash.py
 -rw-------. 1 u0_a400 u0_a400  3586 Aug 14 15:47 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
 -rwx------. 1 u0_a400 u0_a400  1282 Aug 26 12:37 /data/data/com.termux/files/home/jack/jack_deadman.py
