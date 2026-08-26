@@ -162,7 +162,7 @@
 -rwxr-xr-x. 1 u0_a400 u0_a400  1754 Aug 26 08:18 /data/data/com.termux/files/home/jack/jack_ui_nav.py
 -rw-------. 1 u0_a400 u0_a400  6098 Aug 23 01:59 /data/data/com.termux/files/home/jack/jack_ui_read.py
 -rwxr-xr-x. 1 u0_a400 u0_a400  1467 Aug 26 08:33 /data/data/com.termux/files/home/jack/jack_ui_session.py
--rwxr-xr-x. 1 u0_a400 u0_a400  8853 Aug 26 12:38 /data/data/com.termux/files/home/jack/jack_ui_type.py
+-rwxr-xr-x. 1 u0_a400 u0_a400 10517 Aug 26 12:44 /data/data/com.termux/files/home/jack/jack_ui_type.py
 -rw-------. 1 u0_a400 u0_a400  2302 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vecdb.py
 -rw-------. 1 u0_a400 u0_a400  1517 Aug 26 07:11 /data/data/com.termux/files/home/jack/jack_verify_gate.py
 -rw-------. 1 u0_a400 u0_a400  4913 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vinted_radar.py
@@ -188,7 +188,7 @@
 -rw-------. 1 u0_a400 u0_a400  6723 Aug 23 01:27 /data/data/com.termux/files/home/jack/jack_xiaomi_think.py
 -rw-------. 1 u0_a400 u0_a400  1120 Aug 21 05:51 /data/data/com.termux/files/home/jack/jack_xiaomi_unlock.py
 -rw-------. 1 u0_a400 u0_a400  6686 Aug 23 01:31 /data/data/com.termux/files/home/jack/jack_xiaomi_web.py
--rw-------. 1 u0_a400 u0_a400  4843 Aug 26 12:33 /data/data/com.termux/files/home/jack/jack_yt_hybrid.py
+-rw-------. 1 u0_a400 u0_a400  5101 Aug 26 12:44 /data/data/com.termux/files/home/jack/jack_yt_hybrid.py
 -rw-------. 1 u0_a400 u0_a400  3531 Aug 23 00:17 /data/data/com.termux/files/home/jack/jack_yt_sido.py
 -rw-------. 1 u0_a400 u0_a400  8477 Aug 23 15:24 /data/data/com.termux/files/home/jack/kortex_controller.py
 -rw-------. 1 u0_a400 u0_a400  3119 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_memory.py
