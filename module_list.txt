@@ -188,6 +188,7 @@
 -rw-------. 1 u0_a400 u0_a400  6723 Aug 23 01:27 /data/data/com.termux/files/home/jack/jack_xiaomi_think.py
 -rw-------. 1 u0_a400 u0_a400  1120 Aug 21 05:51 /data/data/com.termux/files/home/jack/jack_xiaomi_unlock.py
 -rw-------. 1 u0_a400 u0_a400  6686 Aug 23 01:31 /data/data/com.termux/files/home/jack/jack_xiaomi_web.py
+-rw-------. 1 u0_a400 u0_a400  4843 Aug 26 12:33 /data/data/com.termux/files/home/jack/jack_yt_hybrid.py
 -rw-------. 1 u0_a400 u0_a400  3531 Aug 23 00:17 /data/data/com.termux/files/home/jack/jack_yt_sido.py
 -rw-------. 1 u0_a400 u0_a400  8477 Aug 23 15:24 /data/data/com.termux/files/home/jack/kortex_controller.py
 -rw-------. 1 u0_a400 u0_a400  3119 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_memory.py
