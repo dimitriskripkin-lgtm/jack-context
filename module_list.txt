@@ -162,7 +162,7 @@
 -rwxr-xr-x. 1 u0_a400 u0_a400  1754 Aug 26 08:18 /data/data/com.termux/files/home/jack/jack_ui_nav.py
 -rw-------. 1 u0_a400 u0_a400  6098 Aug 23 01:59 /data/data/com.termux/files/home/jack/jack_ui_read.py
 -rwxr-xr-x. 1 u0_a400 u0_a400  1467 Aug 26 08:33 /data/data/com.termux/files/home/jack/jack_ui_session.py
--rwxr-xr-x. 1 u0_a400 u0_a400 10051 Aug 26 11:36 /data/data/com.termux/files/home/jack/jack_ui_type.py
+-rwxr-xr-x. 1 u0_a400 u0_a400 10060 Aug 26 12:02 /data/data/com.termux/files/home/jack/jack_ui_type.py
 -rw-------. 1 u0_a400 u0_a400  2302 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vecdb.py
 -rw-------. 1 u0_a400 u0_a400  1517 Aug 26 07:11 /data/data/com.termux/files/home/jack/jack_verify_gate.py
 -rw-------. 1 u0_a400 u0_a400  4913 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vinted_radar.py
