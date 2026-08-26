@@ -39,7 +39,7 @@
 -rw-------. 1 u0_a400 u0_a400  2382 Aug 23 01:03 /data/data/com.termux/files/home/jack/jack_curiosity.py
 -rw-------. 1 u0_a400 u0_a400  3586 Aug 14 15:47 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
--rwx------. 1 u0_a400 u0_a400  1210 Aug 24 14:54 /data/data/com.termux/files/home/jack/jack_deadman.py
+-rwx------. 1 u0_a400 u0_a400  1282 Aug 26 12:37 /data/data/com.termux/files/home/jack/jack_deadman.py
 -rw-------. 1 u0_a400 u0_a400  5131 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_delta.py
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  4169 Aug 21 06:22 /data/data/com.termux/files/home/jack/jack_error_to_rule.py
@@ -162,7 +162,7 @@
 -rwxr-xr-x. 1 u0_a400 u0_a400  1754 Aug 26 08:18 /data/data/com.termux/files/home/jack/jack_ui_nav.py
 -rw-------. 1 u0_a400 u0_a400  6098 Aug 23 01:59 /data/data/com.termux/files/home/jack/jack_ui_read.py
 -rwxr-xr-x. 1 u0_a400 u0_a400  1467 Aug 26 08:33 /data/data/com.termux/files/home/jack/jack_ui_session.py
--rwxr-xr-x. 1 u0_a400 u0_a400 10500 Aug 26 12:09 /data/data/com.termux/files/home/jack/jack_ui_type.py
+-rwxr-xr-x. 1 u0_a400 u0_a400  8853 Aug 26 12:38 /data/data/com.termux/files/home/jack/jack_ui_type.py
 -rw-------. 1 u0_a400 u0_a400  2302 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vecdb.py
 -rw-------. 1 u0_a400 u0_a400  1517 Aug 26 07:11 /data/data/com.termux/files/home/jack/jack_verify_gate.py
 -rw-------. 1 u0_a400 u0_a400  4913 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vinted_radar.py
