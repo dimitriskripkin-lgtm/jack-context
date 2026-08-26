@@ -158,7 +158,7 @@
 -rw-------. 1 u0_a400 u0_a400  2594 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_ui.py
 -rw-------. 1 u0_a400 u0_a400  6356 Aug 16 17:58 /data/data/com.termux/files/home/jack/jack_ui_agent.py
 -rw-------. 1 u0_a400 u0_a400  9982 Aug 23 17:46 /data/data/com.termux/files/home/jack/jack_ui_elements.py
--rwxr-xr-x. 1 u0_a400 u0_a400  1615 Aug 26 07:06 /data/data/com.termux/files/home/jack/jack_ui_nav.py
+-rwxr-xr-x. 1 u0_a400 u0_a400  1754 Aug 26 08:18 /data/data/com.termux/files/home/jack/jack_ui_nav.py
 -rw-------. 1 u0_a400 u0_a400  6098 Aug 23 01:59 /data/data/com.termux/files/home/jack/jack_ui_read.py
 -rwxr-xr-x. 1 u0_a400 u0_a400  1434 Aug 26 06:53 /data/data/com.termux/files/home/jack/jack_ui_session.py
 -rw-------. 1 u0_a400 u0_a400  2302 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_vecdb.py
