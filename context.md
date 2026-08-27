@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-27T02:42:58.069521)
+# JACK LIVE-KONTEXT (auto, 2026-08-27T02:44:42.958790)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-27T02:42:58.055106
+Stand: 2026-08-27T02:44:42.947458
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -219,9 +219,9 @@ Stand: 2026-08-27T02:42:58.055106
 - Offene Fehler: 15
 - Erinnerungen: 4290
 - Dienste:
-run: jack_cortex: (pid 14123) 2796s
-run: jack_telegram: (pid 11182) 1431s
-run: jack_autolearn: (pid 17276) 43575s
+run: jack_cortex: (pid 14123) 2900s
+run: jack_telegram: (pid 32031) 78s
+run: jack_autolearn: (pid 17276) 43679s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
@@ -272,4 +272,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 11/300 | Vision 0/40 | Tokens 20958
+Heute: Text 12/300 | Vision 0/40 | Tokens 22806
