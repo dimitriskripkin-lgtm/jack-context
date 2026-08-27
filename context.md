@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-27T15:54:52.764926)
+# JACK LIVE-KONTEXT (auto, 2026-08-27T15:57:53.505688)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-27T15:54:52.750340
+Stand: 2026-08-27T15:57:53.491992
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -218,14 +218,15 @@ Stand: 2026-08-27T15:54:52.750340
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 4638
+- Erinnerungen: 4639
 - Dienste:
-run: jack_cortex: (pid 14123) 50310s
-run: jack_telegram: (pid 13188) 11737s
-run: jack_autolearn: (pid 17276) 91089s
+run: jack_cortex: (pid 14123) 50491s
+run: jack_telegram: (pid 13188) 11918s
+run: jack_autolearn: (pid 17276) 91270s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+2812d59 Fix: Health-Trigger nur auf User-Satz, Halluzinations-Anweisung entschaerft
 c2a4fd9 Sync: alle aktiven Module die live auf Honor laufen aber im Repo fehlten
 e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix verifiziert, Mission-Runner 3 neue Acts + expect-Logik
 43188d4 feat(waechter): graceful im Zyklus; docs Overmind/Mission
@@ -240,7 +241,6 @@ eef9484 docs+bridge: UI Drift-Regel, optional step_guard in jack_exec
 1ee8cd8 docs: BLOCK5 ControlMaster \~110ms, Session-Stand
 811b759 feat(tg): /overmind zeigt Health + Overmind Output
 cfbb065 feat(mission): Ergebnis in jack_missions.db loggen
-31f3cdc feat: jack_health.py - Dienste/SSH/Heartbeats Snapshot
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
