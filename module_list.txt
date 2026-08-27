@@ -40,8 +40,9 @@
 -rw-------. 1 u0_a400 u0_a400  1500 Aug 26 16:51 /data/data/com.termux/files/home/jack/jack_dash.py
 -rw-------. 1 u0_a400 u0_a400  3586 Aug 14 15:47 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
--rwx------. 1 u0_a400 u0_a400  1282 Aug 26 12:37 /data/data/com.termux/files/home/jack/jack_deadman.py
+-rwx------. 1 u0_a400 u0_a400  1427 Aug 27 11:50 /data/data/com.termux/files/home/jack/jack_deadman.py
 -rw-------. 1 u0_a400 u0_a400  5131 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_delta.py
+-rw-------. 1 u0_a400 u0_a400   338 Aug 27 11:48 /data/data/com.termux/files/home/jack/jack_dm_gate.py
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  4169 Aug 21 06:22 /data/data/com.termux/files/home/jack/jack_error_to_rule.py
 -rw-------. 1 u0_a400 u0_a400   808 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_errors_status.py
