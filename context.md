@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T14:51:35.924445)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T14:54:37.629447)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T14:51:35.911504
+Stand: 2026-08-31T14:54:37.618654
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -226,14 +226,15 @@ Stand: 2026-08-31T14:51:35.911504
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6659
+- Erinnerungen: 6661
 - Dienste:
-run: jack_cortex: (pid 9958) 28575s
-run: jack_telegram: (pid 23340) 1535s
-run: jack_autolearn: (pid 21049) 35937s
+run: jack_cortex: (pid 9958) 28757s
+run: jack_telegram: (pid 23340) 1717s
+run: jack_autolearn: (pid 21049) 36119s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+9f3341d fix: oracle bare excepts, logger unified complete
 0bdf652 feat: logger unified, mission-gen live, C+B done
 08b5fdd fix: expect_min in grep_count, archive false positives, chk_mv 5/5 done
 07d0413 feat: dedup approvals, 18 overnight missions
@@ -248,7 +249,6 @@ f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewies
 2a2fa59 fix: Import-Fehler jack_cmd_handler — Zeile 20 korrigiert
 c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
 a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hauptseite bereinigt
-bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
