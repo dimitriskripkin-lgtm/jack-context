@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T06:54:39.526311)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T06:57:41.133607)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T06:54:39.515250
+Stand: 2026-08-31T06:57:41.119438
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -223,14 +223,15 @@ Stand: 2026-08-31T06:54:39.515250
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6438
+- Erinnerungen: 6439
 - Dienste:
-run: jack_cortex: (pid 30738) 504s
-run: jack_telegram: (pid 1499) 2260s
-run: jack_autolearn: (pid 21049) 7321s
+run: jack_cortex: (pid 9958) 141s
+run: jack_telegram: (pid 1499) 2442s
+run: jack_autolearn: (pid 21049) 7503s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+8586d0e fix: gate_in_bridge, talk hardcoded paths, cortex typos, 32 new missions
 2a2fa59 fix: Import-Fehler jack_cmd_handler — Zeile 20 korrigiert
 c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
 a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hauptseite bereinigt
@@ -245,7 +246,6 @@ e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix v
 7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
 1525ce8 docs: ui_agent README Experiment klar
 cdcb919 feat(adb_heal): Zähler + unauthorized Erkennung; net_discover
-69ebf5a feat: jack_net_discover - Xiaomi IP im Hotspot-Subnetz finden + Config updaten
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
