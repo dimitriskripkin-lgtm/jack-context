@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T05:57:21.298818)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T06:00:21.385727)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T05:57:21.286758
+Stand: 2026-08-31T06:00:21.364116
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-31T05:57:21.286758
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (204)
+## Aktive Module (205)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -94,6 +94,7 @@ Stand: 2026-08-31T05:57:21.286758
 - jack_intent_parser.py
 - jack_karte.py
 - jack_karte_loop.py
+- jack_keyboards.py
 - jack_learn.py
 - jack_lerner.py
 - jack_live_bridge.py
@@ -221,14 +222,15 @@ Stand: 2026-08-31T05:57:21.286758
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6410
+- Erinnerungen: 6411
 - Dienste:
-run: jack_cortex: (pid 13707) 6040s
-run: jack_telegram: (pid 12646) 361s
-run: jack_autolearn: (pid 21049) 3883s
+run: jack_cortex: (pid 13707) 6220s
+run: jack_telegram: (pid 19488) 69s
+run: jack_autolearn: (pid 21049) 4063s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hauptseite bereinigt
 bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
 9364f1d fix: Bug A — Health-Trigger nur auf user_query Tag, nicht ganzen Prompt
 551a15b feat: GitHub-Bridge — Mission-Sync + Status-Publisher
@@ -243,7 +245,6 @@ cdcb919 feat(adb_heal): Zähler + unauthorized Erkennung; net_discover
 69ebf5a feat: jack_net_discover - Xiaomi IP im Hotspot-Subnetz finden + Config updaten
 b67f410 feat: step_guard aktiv, deadman, mission-queue, ui_agent als Experiment
 305f412 chore: env_now nach Session-Batch 24.08
-f61015e fix(mission): fail-closed + DB-Log stabil (DONE_ALL ohne Scope-Bug)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
