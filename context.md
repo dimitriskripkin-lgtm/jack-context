@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T14:57:37.909844)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T15:00:39.600501)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T14:57:37.891093
+Stand: 2026-08-31T15:00:39.586477
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -227,14 +227,15 @@ Stand: 2026-08-31T14:57:37.891093
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6662
+- Erinnerungen: 6664
 - Dienste:
-run: jack_cortex: (pid 9958) 28937s
-run: jack_telegram: (pid 23340) 1897s
-run: jack_autolearn: (pid 21049) 36299s
+run: jack_cortex: (pid 9958) 29119s
+run: jack_telegram: (pid 23340) 2079s
+run: jack_autolearn: (pid 21049) 36481s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+eecf678 feat: jack_testbed 100%, selftest main guard, cortex logging fix
 9f3341d fix: oracle bare excepts, logger unified complete
 0bdf652 feat: logger unified, mission-gen live, C+B done
 08b5fdd fix: expect_min in grep_count, archive false positives, chk_mv 5/5 done
@@ -249,7 +250,6 @@ f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewies
 8586d0e fix: gate_in_bridge, talk hardcoded paths, cortex typos, 32 new missions
 2a2fa59 fix: Import-Fehler jack_cmd_handler — Zeile 20 korrigiert
 c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
-a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hauptseite bereinigt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
