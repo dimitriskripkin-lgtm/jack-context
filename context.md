@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T14:48:35.671807)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T14:51:35.924445)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T14:48:35.655977
+Stand: 2026-08-31T14:51:35.911504
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -226,14 +226,15 @@ Stand: 2026-08-31T14:48:35.655977
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6658
+- Erinnerungen: 6659
 - Dienste:
-run: jack_cortex: (pid 9958) 28395s
-run: jack_telegram: (pid 23340) 1355s
-run: jack_autolearn: (pid 21049) 35757s
+run: jack_cortex: (pid 9958) 28575s
+run: jack_telegram: (pid 23340) 1535s
+run: jack_autolearn: (pid 21049) 35937s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+0bdf652 feat: logger unified, mission-gen live, C+B done
 08b5fdd fix: expect_min in grep_count, archive false positives, chk_mv 5/5 done
 07d0413 feat: dedup approvals, 18 overnight missions
 f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
@@ -248,7 +249,6 @@ f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewies
 c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
 a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hauptseite bereinigt
 bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
-9364f1d fix: Bug A — Health-Trigger nur auf user_query Tag, nicht ganzen Prompt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
