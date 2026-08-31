@@ -1,23 +1,23 @@
 {
-  "ts": "2026-08-31T15:00:00",
+  "ts": "2026-08-31T18:00:01",
   "missions": {
     "done": 340,
     "fail": 0,
     "pending": 0
   },
   "heartbeats": {
-    "jack_missions": "14s ago",
-    "jack_autolearn": "380s ago",
-    "jack_publisher": "140s ago",
-    "jack_waechter": "85s ago",
-    "jack_cortex": "10s ago",
-    "jack_telegram": "0s ago"
+    "jack_missions": "23s ago",
+    "jack_autolearn": "373s ago",
+    "jack_publisher": "74s ago",
+    "jack_waechter": "107s ago",
+    "jack_cortex": "36s ago",
+    "jack_telegram": "2s ago"
   },
   "open_fails": [],
   "budget": {
     "datum": "2026-08-31",
-    "text": 12,
+    "text": 19,
     "vision": 0,
-    "tokens": 58473
+    "tokens": 70914
   }
 }
