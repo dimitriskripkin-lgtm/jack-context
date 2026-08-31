@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T05:39:15.514347)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T05:42:15.589523)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T05:39:15.494634
+Stand: 2026-08-31T05:42:15.575579
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-31T05:39:15.494634
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (203)
+## Aktive Module (204)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -163,6 +163,7 @@ Stand: 2026-08-31T05:39:15.494634
 - jack_skills_db.py
 - jack_snapshot.py
 - jack_state.py
+- jack_status_report.py
 - jack_stress.py
 - jack_subagent.py
 - jack_system_tools.py
@@ -220,14 +221,15 @@ Stand: 2026-08-31T05:39:15.494634
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6401
+- Erinnerungen: 6402
 - Dienste:
-run: jack_cortex: (pid 13707) 4954s
-run: jack_telegram: (pid 13188) 320400s
-run: jack_autolearn: (pid 21049) 2797s
+run: jack_cortex: (pid 13707) 5134s
+run: jack_telegram: (pid 13188) 320580s
+run: jack_autolearn: (pid 21049) 2977s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+551a15b feat: GitHub-Bridge — Mission-Sync + Status-Publisher
 cc9ce02 feat: jack_ollama_gate — Ollama on-demand, Temp-Gate 52C, 90s Idle-Stop
 2812d59 Fix: Health-Trigger nur auf User-Satz, Halluzinations-Anweisung entschaerft
 c2a4fd9 Sync: alle aktiven Module die live auf Honor laufen aber im Repo fehlten
@@ -242,7 +244,6 @@ b67f410 feat: step_guard aktiv, deadman, mission-queue, ui_agent als Experiment
 f61015e fix(mission): fail-closed + DB-Log stabil (DONE_ALL ohne Scope-Bug)
 eef9484 docs+bridge: UI Drift-Regel, optional step_guard in jack_exec
 1ee8cd8 docs: BLOCK5 ControlMaster \~110ms, Session-Stand
-811b759 feat(tg): /overmind zeigt Health + Overmind Output
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
