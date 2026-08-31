@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T14:30:29.262680)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T14:33:29.665942)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T14:30:29.247288
+Stand: 2026-08-31T14:33:29.651523
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -225,14 +225,15 @@ Stand: 2026-08-31T14:30:29.247288
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6649
+- Erinnerungen: 6650
 - Dienste:
-run: jack_cortex: (pid 9958) 27309s
-run: jack_telegram: (pid 23340) 269s
-run: jack_autolearn: (pid 21049) 34671s
+run: jack_cortex: (pid 9958) 27489s
+run: jack_telegram: (pid 23340) 449s
+run: jack_autolearn: (pid 21049) 34851s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+07d0413 feat: dedup approvals, 18 overnight missions
 f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
 58c1b67 feat: shadow-staging — JACK patcht in shadow/, wartet Freigabe, approve/reject per Command
 8e897b0 fix: archive false positive fails, selftest 100%
@@ -247,7 +248,6 @@ a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hau
 bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
 9364f1d fix: Bug A — Health-Trigger nur auf user_query Tag, nicht ganzen Prompt
 551a15b feat: GitHub-Bridge — Mission-Sync + Status-Publisher
-cc9ce02 feat: jack_ollama_gate — Ollama on-demand, Temp-Gate 52C, 90s Idle-Stop
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
