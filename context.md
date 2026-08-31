@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T07:33:53.128753)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T07:36:54.840741)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T07:33:53.116392
+Stand: 2026-08-31T07:36:54.826616
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -223,14 +223,15 @@ Stand: 2026-08-31T07:33:53.116392
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6457
+- Erinnerungen: 6458
 - Dienste:
-run: jack_cortex: (pid 9958) 2313s
-run: jack_telegram: (pid 1499) 4614s
-run: jack_autolearn: (pid 21049) 9675s
+run: jack_cortex: (pid 9958) 2494s
+run: jack_telegram: (pid 1499) 4795s
+run: jack_autolearn: (pid 21049) 9856s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+06b885a fix: bug_c heartbeat live probe, bug_d graph guard, gate_in_bridge
 8586d0e fix: gate_in_bridge, talk hardcoded paths, cortex typos, 32 new missions
 2a2fa59 fix: Import-Fehler jack_cmd_handler — Zeile 20 korrigiert
 c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
@@ -245,7 +246,6 @@ e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix v
 43188d4 feat(waechter): graceful im Zyklus; docs Overmind/Mission
 7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
 1525ce8 docs: ui_agent README Experiment klar
-cdcb919 feat(adb_heal): Zähler + unauthorized Erkennung; net_discover
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
