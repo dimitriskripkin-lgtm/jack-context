@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T14:39:32.055376)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T14:42:33.599851)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T14:39:32.045050
+Stand: 2026-08-31T14:42:33.587400
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-08-31T14:39:32.045050
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (208)
+## Aktive Module (209)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -112,6 +112,7 @@ Stand: 2026-08-31T14:39:32.045050
 - jack_memory_pruning.py
 - jack_memory_stale.py
 - jack_memory_tree.py
+- jack_mission_gen.py
 - jack_mission_pull.py
 - jack_mission_queue.py
 - jack_mission_run.py
@@ -225,14 +226,15 @@ Stand: 2026-08-31T14:39:32.045050
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6653
+- Erinnerungen: 6655
 - Dienste:
-run: jack_cortex: (pid 9958) 27852s
-run: jack_telegram: (pid 23340) 812s
-run: jack_autolearn: (pid 21049) 35214s
+run: jack_cortex: (pid 9958) 28033s
+run: jack_telegram: (pid 23340) 993s
+run: jack_autolearn: (pid 21049) 35395s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+08b5fdd fix: expect_min in grep_count, archive false positives, chk_mv 5/5 done
 07d0413 feat: dedup approvals, 18 overnight missions
 f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
 58c1b67 feat: shadow-staging — JACK patcht in shadow/, wartet Freigabe, approve/reject per Command
@@ -247,7 +249,6 @@ c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
 a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hauptseite bereinigt
 bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
 9364f1d fix: Bug A — Health-Trigger nur auf user_query Tag, nicht ganzen Prompt
-551a15b feat: GitHub-Bridge — Mission-Sync + Status-Publisher
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
