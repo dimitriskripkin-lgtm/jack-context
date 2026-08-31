@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-31T21:00:01",
+  "ts": "2026-09-01T00:00:00",
   "missions": {
     "done": 547,
     "fail": 224,
     "pending": 0
   },
   "heartbeats": {
-    "jack_missions": "9s ago",
-    "jack_autolearn": "368s ago",
-    "jack_publisher": "9s ago",
-    "jack_waechter": "24s ago",
-    "jack_cortex": "0s ago",
-    "jack_telegram": "1s ago"
+    "jack_missions": "24s ago",
+    "jack_autolearn": "361s ago",
+    "jack_publisher": "127s ago",
+    "jack_waechter": "77s ago",
+    "jack_cortex": "24s ago",
+    "jack_telegram": "0s ago"
   },
   "open_fails": [
     "nacht_exc_diag_snapshot.json",
@@ -37,8 +37,8 @@
   ],
   "budget": {
     "datum": "2026-08-31",
-    "text": 30,
+    "text": 31,
     "vision": 0,
-    "tokens": 92079
+    "tokens": 97344
   }
 }
