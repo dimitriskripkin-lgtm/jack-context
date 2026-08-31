@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T12:47:54.431072)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T12:50:55.376142)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T12:47:54.417951
+Stand: 2026-08-31T12:50:55.364262
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -225,14 +225,15 @@ Stand: 2026-08-31T12:47:54.417951
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6598
+- Erinnerungen: 6600
 - Dienste:
-run: jack_cortex: (pid 9958) 21154s
-run: jack_telegram: (pid 16555) 15596s
-run: jack_autolearn: (pid 21049) 28516s
+run: jack_cortex: (pid 9958) 21335s
+run: jack_telegram: (pid 16555) 15777s
+run: jack_autolearn: (pid 21049) 28697s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+2e39082 fix: selftest ollama check by-design-off, score 100%
 06b885a fix: bug_c heartbeat live probe, bug_d graph guard, gate_in_bridge
 8586d0e fix: gate_in_bridge, talk hardcoded paths, cortex typos, 32 new missions
 2a2fa59 fix: Import-Fehler jack_cmd_handler — Zeile 20 korrigiert
@@ -247,7 +248,6 @@ c2a4fd9 Sync: alle aktiven Module die live auf Honor laufen aber im Repo fehlten
 e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix verifiziert, Mission-Runner 3 neue Acts + expect-Logik
 43188d4 feat(waechter): graceful im Zyklus; docs Overmind/Mission
 7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
-1525ce8 docs: ui_agent README Experiment klar
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
