@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T14:00:18.656801)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T14:03:18.945985)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T14:00:18.639624
+Stand: 2026-08-31T14:03:18.932548
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -225,14 +225,15 @@ Stand: 2026-08-31T14:00:18.639624
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6634
+- Erinnerungen: 6635
 - Dienste:
-run: jack_cortex: (pid 9958) 25498s
-run: jack_telegram: (pid 16555) 19940s
-run: jack_autolearn: (pid 21049) 32860s
+run: jack_cortex: (pid 9958) 25678s
+run: jack_telegram: (pid 16555) 20120s
+run: jack_autolearn: (pid 21049) 33040s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+58c1b67 feat: shadow-staging — JACK patcht in shadow/, wartet Freigabe, approve/reject per Command
 8e897b0 fix: archive false positive fails, selftest 100%
 a12789f feat: autonomous fix-loop — JACK patcht MODULE_VERSION in 10 Module selbst
 f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewiesen
@@ -247,7 +248,6 @@ bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
 551a15b feat: GitHub-Bridge — Mission-Sync + Status-Publisher
 cc9ce02 feat: jack_ollama_gate — Ollama on-demand, Temp-Gate 52C, 90s Idle-Stop
 2812d59 Fix: Health-Trigger nur auf User-Satz, Halluzinations-Anweisung entschaerft
-c2a4fd9 Sync: alle aktiven Module die live auf Honor laufen aber im Repo fehlten
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
