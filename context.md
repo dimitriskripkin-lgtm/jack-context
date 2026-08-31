@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T14:27:27.511862)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T14:30:29.262680)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T14:27:27.499113
+Stand: 2026-08-31T14:30:29.247288
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -225,14 +225,15 @@ Stand: 2026-08-31T14:27:27.499113
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6647
+- Erinnerungen: 6649
 - Dienste:
-run: jack_cortex: (pid 9958) 27127s
-run: jack_telegram: (pid 23340) 87s
-run: jack_autolearn: (pid 21049) 34489s
+run: jack_cortex: (pid 9958) 27309s
+run: jack_telegram: (pid 23340) 269s
+run: jack_autolearn: (pid 21049) 34671s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
 58c1b67 feat: shadow-staging — JACK patcht in shadow/, wartet Freigabe, approve/reject per Command
 8e897b0 fix: archive false positive fails, selftest 100%
 a12789f feat: autonomous fix-loop — JACK patcht MODULE_VERSION in 10 Module selbst
@@ -247,7 +248,6 @@ bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
 9364f1d fix: Bug A — Health-Trigger nur auf user_query Tag, nicht ganzen Prompt
 551a15b feat: GitHub-Bridge — Mission-Sync + Status-Publisher
 cc9ce02 feat: jack_ollama_gate — Ollama on-demand, Temp-Gate 52C, 90s Idle-Stop
-2812d59 Fix: Health-Trigger nur auf User-Satz, Halluzinations-Anweisung entschaerft
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
