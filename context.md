@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T05:48:17.640235)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T05:51:19.325017)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T05:48:17.628342
+Stand: 2026-08-31T05:51:19.309880
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -221,14 +221,16 @@ Stand: 2026-08-31T05:48:17.628342
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6405
+- Erinnerungen: 6407
 - Dienste:
-run: jack_cortex: (pid 13707) 5496s
-run: jack_telegram: (pid 13188) 320942s
-run: jack_autolearn: (pid 21049) 3339s
+run: jack_cortex: (pid 13707) 5678s
+run: jack_telegram: (pid 8614) 181s
+run: jack_autolearn: (pid 21049) 3521s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
+9364f1d fix: Bug A — Health-Trigger nur auf user_query Tag, nicht ganzen Prompt
 551a15b feat: GitHub-Bridge — Mission-Sync + Status-Publisher
 cc9ce02 feat: jack_ollama_gate — Ollama on-demand, Temp-Gate 52C, 90s Idle-Stop
 2812d59 Fix: Health-Trigger nur auf User-Satz, Halluzinations-Anweisung entschaerft
@@ -242,8 +244,6 @@ cdcb919 feat(adb_heal): Zähler + unauthorized Erkennung; net_discover
 b67f410 feat: step_guard aktiv, deadman, mission-queue, ui_agent als Experiment
 305f412 chore: env_now nach Session-Batch 24.08
 f61015e fix(mission): fail-closed + DB-Log stabil (DONE_ALL ohne Scope-Bug)
-eef9484 docs+bridge: UI Drift-Regel, optional step_guard in jack_exec
-1ee8cd8 docs: BLOCK5 ControlMaster \~110ms, Session-Stand
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
