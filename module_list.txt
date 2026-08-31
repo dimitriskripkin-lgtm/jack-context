@@ -29,7 +29,7 @@
 -rw-------. 1 u0_a400 u0_a400  1462 Aug 22 12:56 /data/data/com.termux/files/home/jack/jack_circuit_breaker.py
 -rw-------. 1 u0_a400 u0_a400  1564 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_claude.py
 -rwx------. 1 u0_a400 u0_a400  6607 Aug 24 13:57 /data/data/com.termux/files/home/jack/jack_cmd_crawler.py
--rw-------. 1 u0_a400 u0_a400  1954 Aug 31 06:13 /data/data/com.termux/files/home/jack/jack_cmd_handler.py
+-rw-------. 1 u0_a400 u0_a400  4059 Aug 31 13:54 /data/data/com.termux/files/home/jack/jack_cmd_handler.py
 -rw-------. 1 u0_a400 u0_a400  4697 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_code_writer.py
 -rw-------. 1 u0_a400 u0_a400  3698 Aug 20 08:03 /data/data/com.termux/files/home/jack/jack_coder.py
 -rw-------. 1 u0_a400 u0_a400  1144 Aug 24 14:15 /data/data/com.termux/files/home/jack/jack_config.py
@@ -59,7 +59,7 @@
 -rw-------. 1 u0_a400 u0_a400  9496 Aug 31 13:45 /data/data/com.termux/files/home/jack/jack_gemini_bridge.py
 -rw-------. 1 u0_a400 u0_a400  2033 Aug 16 12:01 /data/data/com.termux/files/home/jack/jack_ghost.py
 -rwx------. 1 u0_a400 u0_a400  1492 Aug 24 16:16 /data/data/com.termux/files/home/jack/jack_graceful.py
--rw-------. 1 u0_a400 u0_a400  3651 Aug 31 13:45 /data/data/com.termux/files/home/jack/jack_graph.py
+-rw-------. 1 u0_a400 u0_a400  3651 Aug 31 13:55 /data/data/com.termux/files/home/jack/jack_graph.py
 -rw-------. 1 u0_a400 u0_a400  1589 Aug 17 17:51 /data/data/com.termux/files/home/jack/jack_grid_vision.py
 -rw-------. 1 u0_a400 u0_a400  1326 Aug 25 05:26 /data/data/com.termux/files/home/jack/jack_groq_bridge.py
 -rw-------. 1 u0_a400 u0_a400  5379 Aug 22 11:36 /data/data/com.termux/files/home/jack/jack_guard.py
