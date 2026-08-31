@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T06:15:26.938923)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T06:18:27.426981)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T06:15:26.927361
+Stand: 2026-08-31T06:18:27.411133
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -223,14 +223,15 @@ Stand: 2026-08-31T06:15:26.927361
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6418
+- Erinnerungen: 6420
 - Dienste:
-run: jack_cortex: (pid 13707) 7125s
-run: jack_telegram: (pid 31980) 0s
-run: jack_autolearn: (pid 21049) 4968s
+run: jack_cortex: (pid 13707) 7306s
+run: jack_telegram: (pid 1499) 88s
+run: jack_autolearn: (pid 21049) 5149s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+2a2fa59 fix: Import-Fehler jack_cmd_handler — Zeile 20 korrigiert
 c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
 a1fb4dd refactor: Keyboards extrahiert nach jack_keyboards.py, doppelte menu_hauptseite bereinigt
 bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
@@ -245,7 +246,6 @@ e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix v
 1525ce8 docs: ui_agent README Experiment klar
 cdcb919 feat(adb_heal): Zähler + unauthorized Erkennung; net_discover
 69ebf5a feat: jack_net_discover - Xiaomi IP im Hotspot-Subnetz finden + Config updaten
-b67f410 feat: step_guard aktiv, deadman, mission-queue, ui_agent als Experiment
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
