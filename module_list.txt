@@ -22,6 +22,7 @@
 -rw-------. 1 u0_a400 u0_a400   346 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_budget_status.py
 -rw-------. 1 u0_a400 u0_a400  9621 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_bug_fixer.py
 -rw-------. 1 u0_a400 u0_a400  6444 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_bugfix_loop.py
+-rw-------. 1 u0_a400 u0_a400 12461 Aug 31 08:27 /data/data/com.termux/files/home/jack/jack_callback_handler.py
 -rw-------. 1 u0_a400 u0_a400  4593 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_calltest.py
 -rw-------. 1 u0_a400 u0_a400 10980 Aug 17 18:33 /data/data/com.termux/files/home/jack/jack_chains.py
 -rw-------. 1 u0_a400 u0_a400  8501 Aug 31 05:55 /data/data/com.termux/files/home/jack/jack_chat_router.py
@@ -155,7 +156,7 @@
 -rw-------. 1 u0_a400 u0_a400  2560 Aug 21 08:15 /data/data/com.termux/files/home/jack/jack_system_tools.py
 -rw-------. 1 u0_a400 u0_a400 21657 Aug 31 06:45 /data/data/com.termux/files/home/jack/jack_talk.py
 -rw-------. 1 u0_a400 u0_a400  1415 Aug 27 12:21 /data/data/com.termux/files/home/jack/jack_talk_contract.py
--rw-------. 1 u0_a400 u0_a400 70284 Aug 31 08:21 /data/data/com.termux/files/home/jack/jack_telegram.py
+-rw-------. 1 u0_a400 u0_a400 58137 Aug 31 08:27 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  5133 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_thermal.py
 -rw-------. 1 u0_a400 u0_a400  3155 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_traceback.py
 -rw-------. 1 u0_a400 u0_a400 10366 Aug 24 14:18 /data/data/com.termux/files/home/jack/jack_tuev2.py
