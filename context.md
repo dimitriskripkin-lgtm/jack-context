@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T12:59:58.270279)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T13:02:59.137572)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T12:59:58.258251
+Stand: 2026-08-31T13:02:59.124703
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -225,14 +225,15 @@ Stand: 2026-08-31T12:59:58.258251
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6604
+- Erinnerungen: 6606
 - Dienste:
-run: jack_cortex: (pid 9958) 21878s
-run: jack_telegram: (pid 16555) 16320s
-run: jack_autolearn: (pid 21049) 29240s
+run: jack_cortex: (pid 9958) 22059s
+run: jack_telegram: (pid 16555) 16501s
+run: jack_autolearn: (pid 21049) 29421s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewiesen
 2e39082 fix: selftest ollama check by-design-off, score 100%
 06b885a fix: bug_c heartbeat live probe, bug_d graph guard, gate_in_bridge
 8586d0e fix: gate_in_bridge, talk hardcoded paths, cortex typos, 32 new missions
@@ -247,7 +248,6 @@ cc9ce02 feat: jack_ollama_gate — Ollama on-demand, Temp-Gate 52C, 90s Idle-Sto
 c2a4fd9 Sync: alle aktiven Module die live auf Honor laufen aber im Repo fehlten
 e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix verifiziert, Mission-Runner 3 neue Acts + expect-Logik
 43188d4 feat(waechter): graceful im Zyklus; docs Overmind/Mission
-7af83e0 feat: /mission next Queue, graceful pause bei Xiaomi offline
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
