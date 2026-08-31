@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T18:07:48.636645)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T18:10:50.251880)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T18:07:48.623432
+Stand: 2026-08-31T18:10:50.234809
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -227,14 +227,15 @@ Stand: 2026-08-31T18:07:48.623432
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6755
+- Erinnerungen: 6757
 - Dienste:
-run: jack_cortex: (pid 9958) 40348s
-run: jack_telegram: (pid 23340) 13308s
-run: jack_autolearn: (pid 21049) 47710s
+run: jack_cortex: (pid 9958) 40530s
+run: jack_telegram: (pid 23340) 13490s
+run: jack_autolearn: (pid 21049) 47892s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+36cb871 feat: bibi im graph, nacht-missions systemweiter check
 eecf678 feat: jack_testbed 100%, selftest main guard, cortex logging fix
 9f3341d fix: oracle bare excepts, logger unified complete
 0bdf652 feat: logger unified, mission-gen live, C+B done
@@ -249,7 +250,6 @@ f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewies
 06b885a fix: bug_c heartbeat live probe, bug_d graph guard, gate_in_bridge
 8586d0e fix: gate_in_bridge, talk hardcoded paths, cortex typos, 32 new missions
 2a2fa59 fix: Import-Fehler jack_cmd_handler — Zeile 20 korrigiert
-c55273e refactor: jack_cmd_handler.py — einfache Commands extrahiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
