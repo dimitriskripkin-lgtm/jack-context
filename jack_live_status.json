@@ -1,23 +1,44 @@
 {
-  "ts": "2026-08-31T18:00:01",
+  "ts": "2026-08-31T21:00:01",
   "missions": {
-    "done": 340,
-    "fail": 0,
+    "done": 547,
+    "fail": 224,
     "pending": 0
   },
   "heartbeats": {
-    "jack_missions": "23s ago",
-    "jack_autolearn": "373s ago",
-    "jack_publisher": "74s ago",
-    "jack_waechter": "107s ago",
-    "jack_cortex": "36s ago",
-    "jack_telegram": "2s ago"
+    "jack_missions": "9s ago",
+    "jack_autolearn": "368s ago",
+    "jack_publisher": "9s ago",
+    "jack_waechter": "24s ago",
+    "jack_cortex": "0s ago",
+    "jack_telegram": "1s ago"
   },
-  "open_fails": [],
+  "open_fails": [
+    "nacht_exc_diag_snapshot.json",
+    "nacht_exc_jack_autofixer_shadow.json",
+    "nacht_exc_jack_bugfix_loop.json",
+    "nacht_exc_jack_chains.json",
+    "nacht_exc_jack_circuit_breaker.json",
+    "nacht_exc_jack_config.json",
+    "nacht_exc_jack_explorer.json",
+    "nacht_exc_jack_explorer_deep.json",
+    "nacht_exc_jack_handshake_gen.json",
+    "nacht_exc_jack_heat_protection.json",
+    "nacht_exc_jack_inbox.json",
+    "nacht_exc_jack_intent.json",
+    "nacht_exc_jack_mission_gen.json",
+    "nacht_exc_jack_mission_runner.json",
+    "nacht_exc_jack_operator.json",
+    "nacht_exc_jack_orchestrator.json",
+    "nacht_exc_jack_outcome.json",
+    "nacht_exc_jack_personality.json",
+    "nacht_exc_jack_planner.json",
+    "nacht_exc_jack_skill_builder.json"
+  ],
   "budget": {
     "datum": "2026-08-31",
-    "text": 19,
+    "text": 30,
     "vision": 0,
-    "tokens": 70914
+    "tokens": 92079
   }
 }
