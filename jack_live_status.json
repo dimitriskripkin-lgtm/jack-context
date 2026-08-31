@@ -1,0 +1,44 @@
+{
+  "ts": "2026-08-31T05:39:45",
+  "missions": {
+    "done": 286,
+    "fail": 25,
+    "pending": 0
+  },
+  "heartbeats": {
+    "jack_missions": "29s ago",
+    "jack_autolearn": "426s ago",
+    "jack_publisher": "28s ago",
+    "jack_waechter": "51s ago",
+    "jack_cortex": "11s ago",
+    "jack_telegram": "4s ago"
+  },
+  "open_fails": [
+    "155.json",
+    "156.json",
+    "158.json",
+    "184.json",
+    "187.json",
+    "bug_a_fix_verify.json",
+    "bug_a_health_trigger.json",
+    "bug_b_free_edge.json",
+    "bug_e_persona_doppel.json",
+    "p1_gate_in_bridge.json",
+    "p1_groq_no_ssh.json",
+    "p1_nosecret_bridge.json",
+    "p1_notilde_cortex.json",
+    "p2_free_edge.json",
+    "p2_nosecret_telegram.json",
+    "p2_persona_single.json",
+    "p2_talk_contract.json",
+    "p3_deadman_fresh.json",
+    "071.json",
+    "078.json"
+  ],
+  "budget": {
+    "datum": "2026-08-31",
+    "text": 2,
+    "vision": 0,
+    "tokens": 9450
+  }
+}
