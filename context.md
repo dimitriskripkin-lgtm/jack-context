@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-08-31T13:48:15.083120)
+# JACK LIVE-KONTEXT (auto, 2026-08-31T13:51:15.238466)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-08-31T13:48:15.068827
+Stand: 2026-08-31T13:51:15.225151
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -225,14 +225,15 @@ Stand: 2026-08-31T13:48:15.068827
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 6628
+- Erinnerungen: 6629
 - Dienste:
-run: jack_cortex: (pid 9958) 24775s
-run: jack_telegram: (pid 16555) 19217s
-run: jack_autolearn: (pid 21049) 32137s
+run: jack_cortex: (pid 9958) 24955s
+run: jack_telegram: (pid 16555) 19397s
+run: jack_autolearn: (pid 21049) 32317s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+8e897b0 fix: archive false positive fails, selftest 100%
 a12789f feat: autonomous fix-loop — JACK patcht MODULE_VERSION in 10 Module selbst
 f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewiesen
 2e39082 fix: selftest ollama check by-design-off, score 100%
@@ -247,7 +248,6 @@ bc72e40 fix: Bug E — persona.md einmal cachen, Groq+Gemini-Pfad nutzen Cache
 cc9ce02 feat: jack_ollama_gate — Ollama on-demand, Temp-Gate 52C, 90s Idle-Stop
 2812d59 Fix: Health-Trigger nur auf User-Satz, Halluzinations-Anweisung entschaerft
 c2a4fd9 Sync: alle aktiven Module die live auf Honor laufen aber im Repo fehlten
-e045c54 Haertung: except-Klauseln gehaertet, Pfade auf expanduser, Sandbox-Fix verifiziert, Mission-Runner 3 neue Acts + expect-Logik
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
