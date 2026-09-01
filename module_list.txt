@@ -17,7 +17,7 @@
 -rw-------. 1 u0_a400 u0_a400  5796 Sep  1 05:38 /data/data/com.termux/files/home/jack/jack_autodoc.py
 -rw-------. 1 u0_a400 u0_a400  8210 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_autofixer_shadow.py
 -rw-------. 1 u0_a400 u0_a400 13905 Sep  1 04:13 /data/data/com.termux/files/home/jack/jack_autolearn_loop.py
--rw-------. 1 u0_a400 u0_a400 24703 Sep  1 05:38 /data/data/com.termux/files/home/jack/jack_autonomous.py
+-rw-------. 1 u0_a400 u0_a400 24799 Sep  1 05:40 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  5031 Aug 17 11:15 /data/data/com.termux/files/home/jack/jack_briefing.py
 -rw-------. 1 u0_a400 u0_a400  2147 Aug 14 16:23 /data/data/com.termux/files/home/jack/jack_briefing_cron.py
 -rw-------. 1 u0_a400 u0_a400  1323 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_budget.py
@@ -48,6 +48,7 @@
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
 -rwx------. 1 u0_a400 u0_a400  1454 Aug 27 11:53 /data/data/com.termux/files/home/jack/jack_deadman.py
 -rw-------. 1 u0_a400 u0_a400  5131 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_delta.py
+-rw-------. 1 u0_a400 u0_a400  4901 Sep  1 05:40 /data/data/com.termux/files/home/jack/jack_dep_map.py
 -rw-------. 1 u0_a400 u0_a400   338 Aug 27 11:48 /data/data/com.termux/files/home/jack/jack_dm_gate.py
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  4169 Aug 21 06:22 /data/data/com.termux/files/home/jack/jack_error_to_rule.py

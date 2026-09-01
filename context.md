@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T05:39:13.949669)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T05:41:15.411637)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T05:39:13.930786
+Stand: 2026-09-01T05:41:15.397319
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-09-01T05:39:13.930786
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (218)
+## Aktive Module (219)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -64,6 +64,7 @@ Stand: 2026-09-01T05:39:13.930786
 - jack_db_queue.py
 - jack_deadman.py
 - jack_delta.py
+- jack_dep_map.py
 - jack_dm_gate.py
 - jack_episoden.py
 - jack_error_to_rule.py
@@ -235,14 +236,16 @@ Stand: 2026-09-01T05:39:13.930786
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7094
+- Erinnerungen: 7095
 - Dienste:
-run: jack_cortex: (pid 9958) 81833s
-run: jack_telegram: (pid 1938) 5658s
-run: jack_autolearn: (pid 21049) 89195s
+run: jack_cortex: (pid 9958) 81955s
+run: jack_telegram: (pid 1938) 5780s
+run: jack_autolearn: (pid 21049) 89317s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+282babc feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
+f041862 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
 d178cc2 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
 c4cd007 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
 63a0bc0 fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
@@ -256,8 +259,6 @@ c4cdbea fix: 24 bare excepts systemweit — alle Module bereinigt
 36cb871 feat: bibi im graph, nacht-missions systemweiter check
 eecf678 feat: jack_testbed 100%, selftest main guard, cortex logging fix
 9f3341d fix: oracle bare excepts, logger unified complete
-0bdf652 feat: logger unified, mission-gen live, C+B done
-08b5fdd fix: expect_min in grep_count, archive false positives, chk_mv 5/5 done
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -290,4 +291,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 174/300 | Vision 0/40 | Tokens 216809
+Heute: Text 177/300 | Vision 0/40 | Tokens 219319
