@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T12:15:48.419478)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T12:18:49.304571)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T12:15:48.407084
+Stand: 2026-09-01T12:18:49.282779
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -239,14 +239,15 @@ Stand: 2026-09-01T12:15:48.407084
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7244
+- Erinnerungen: 7245
 - Dienste:
-run: jack_cortex: (pid 9958) 105628s
-run: jack_telegram: (pid 1938) 29453s
-run: jack_autolearn: (pid 21049) 112990s
+run: jack_cortex: (pid 9958) 105809s
+run: jack_telegram: (pid 1938) 29634s
+run: jack_autolearn: (pid 21049) 113171s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+1afdcad5 docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
 fd409161 fix: compile_ok import os lokal, test_kern robust
 e3535c53 fix: compile_ok os-Scope, intent-Test robust
 73a4ef70 fix: compile_ok unterstützt file-singular, test_kern 7/7
@@ -261,7 +262,6 @@ eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
 a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
 335b2aef fix: bare except → except Exception in allen Modulen
-ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert, send() fix
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -294,4 +294,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/40 | Vision 0/8 | Tokens 349390
+Heute: Text 300/300 | Vision 0/40 | Tokens 349390
