@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T12:00:43.155696)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T12:03:43.781631)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T12:00:43.139946
+Stand: 2026-09-01T12:03:43.758663
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-09-01T12:00:43.139946
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (221)
+## Aktive Module (222)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -187,6 +187,7 @@ Stand: 2026-09-01T12:00:43.139946
 - jack_telegram.py
 - jack_testbed.py
 - jack_thermal.py
+- jack_thermal_guard.py
 - jack_traceback.py
 - jack_tuev2.py
 - jack_tuev3.py
@@ -238,14 +239,17 @@ Stand: 2026-09-01T12:00:43.139946
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7232
+- Erinnerungen: 7233
 - Dienste:
-run: jack_cortex: (pid 9958) 104723s
-run: jack_telegram: (pid 1938) 28548s
-run: jack_autolearn: (pid 21049) 112085s
+run: jack_cortex: (pid 9958) 104903s
+run: jack_telegram: (pid 1938) 28728s
+run: jack_autolearn: (pid 21049) 112265s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+00d93fa5 fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
+74e90ac6 fix: jack_thermal_guard.py nachgeliefert
+05f55a5e feat: jack_thermal_guard + log_prune — Akku/Temp-Schutz in Analyzer+Autodoc
 fc38f5d7 feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
 eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
@@ -258,9 +262,6 @@ b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final 
 3bf8208f fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
 969c9c94 feat: jack_setup.sh + pytest tests/test_core.py — Industriestandard komplett
 8ac3f71f feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
-282babc4 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
-f041862f feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
-d178cc24 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -293,4 +294,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/300 | Vision 0/40 | Tokens 349390
+Heute: Text 300/40 | Vision 0/8 | Tokens 349390
