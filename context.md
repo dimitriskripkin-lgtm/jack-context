@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T12:30:54.477759)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T12:33:54.922567)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T12:30:54.463346
+Stand: 2026-09-01T12:33:54.909980
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -241,14 +241,16 @@ Stand: 2026-09-01T12:30:54.463346
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7251
+- Erinnerungen: 7252
 - Dienste:
-run: jack_cortex: (pid 9958) 106534s
-run: jack_telegram: (pid 1938) 30359s
-run: jack_autolearn: (pid 21049) 113896s
+run: jack_cortex: (pid 9958) 106714s
+run: jack_telegram: (pid 1938) 30539s
+run: jack_autolearn: (pid 21049) 114076s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+835b5146 fix: config_validator auf echte config.ini Struktur angepasst
+3d221689 fix: bridge indent, config get_param
 78ceb8f4 feat: circuit_breaker+secret_scanner+config_validator+/status
 1afdcad5 docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
 fd409161 fix: compile_ok import os lokal, test_kern robust
@@ -262,8 +264,6 @@ fc38f5d7 feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
 eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
 5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
-3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
-a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -296,4 +296,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/40 | Vision 0/8 | Tokens 349390
+Heute: Text 300/300 | Vision 0/40 | Tokens 349390
