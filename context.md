@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T03:56:17.934077)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T03:59:18.052643)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T03:56:17.922842
+Stand: 2026-09-01T03:59:18.038878
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -227,14 +227,15 @@ Stand: 2026-09-01T03:56:17.922842
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7044
+- Erinnerungen: 7046
 - Dienste:
-run: jack_cortex: (pid 9958) 75657s
-run: jack_telegram: (pid 23340) 48617s
-run: jack_autolearn: (pid 21049) 83019s
+run: jack_cortex: (pid 9958) 75838s
+run: jack_telegram: (pid 26647) 12s
+run: jack_autolearn: (pid 21049) 83200s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+e4cf611 fix: talk_contract +5 familien, persona schärfer — klarspam/kopf/tour verboten
 e5b9cf8 fix: MODULE_VERSION in alle Module, 24 bare excepts systemweit
 c4cdbea fix: 24 bare excepts systemweit — alle Module bereinigt
 36cb871 feat: bibi im graph, nacht-missions systemweiter check
@@ -249,7 +250,6 @@ f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
 a12789f feat: autonomous fix-loop — JACK patcht MODULE_VERSION in 10 Module selbst
 f89e978 feat: fix-mission-typ — JACK patcht sich selbst, autonomer loop bewiesen
 2e39082 fix: selftest ollama check by-design-off, score 100%
-06b885a fix: bug_c heartbeat live probe, bug_d graph guard, gate_in_bridge
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
