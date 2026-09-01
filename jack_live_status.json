@@ -1,44 +1,44 @@
 {
-  "ts": "2026-09-01T06:00:00",
+  "ts": "2026-09-01T09:00:00",
   "missions": {
-    "done": 1484,
-    "fail": 531,
-    "pending": 687
+    "done": 3444,
+    "fail": 124,
+    "pending": 184
   },
   "heartbeats": {
     "jack_missions": "0s ago",
-    "jack_autolearn": "337s ago",
-    "jack_publisher": "153s ago",
-    "jack_waechter": "7s ago",
-    "jack_cortex": "11s ago",
-    "jack_telegram": "3s ago"
+    "jack_autolearn": "327s ago",
+    "jack_publisher": "23s ago",
+    "jack_waechter": "57s ago",
+    "jack_cortex": "14s ago",
+    "jack_telegram": "2s ago"
   },
   "open_fails": [
-    "gen_sys_mv_jack_skill_lib_module_version_missing.json",
-    "ana_no_module_version_diag_full_dump_1788234881.json",
-    "ana_no_module_version_diag_snapshot_1788234881.json",
-    "ana_no_module_version_jack_accessibility_listener_1788234881.json",
-    "ana_no_module_version_jack_activity_logger_1788234881.json",
-    "ana_no_module_version_jack_adb_heal_1788234881.json",
-    "gen_sys_mv_jack_apk_lab_module_version_missing.json",
-    "gen_sys_mv_jack_circuit_breaker_module_version_missing.json",
-    "gen_sys_mv_jack_config_module_version_missing.json",
-    "gen_sys_mv_jack_critic_module_version_missing.json",
-    "chg_exc_jack_changelog.json",
-    "chg_exc_jack_code_analyzer.json",
-    "sys_mv_diag_full_dump.json",
-    "sys_mv_diag_snapshot.json",
-    "sys_mv_jack_accessibility_listener.json",
-    "sys_mv_jack_activity_logger.json",
-    "sys_mv_jack_adb_heal.json",
-    "sys_mv_jack_agent.json",
-    "sys_mv_jack_android.json",
-    "sys_mv_jack_anomaly.json"
+    "ana_hardcoded_path_DISABLED_jack_adb_heal_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_autolearn_loop_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_autonomous_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_callback_handler_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_chat_router_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_dm_gate_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_exec_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_intent_apps_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_learn_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_mission_runner_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_net_discover_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_overmind_client_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_publish_1788245682.json",
+    "ana_hardcoded_path_DISABLED_jack_telegram_1788245683.json",
+    "ana_hardcoded_path_DISABLED_jack_traceback_1788245683.json",
+    "ana_hardcoded_path_DISABLED_jack_ui_elements_1788245683.json",
+    "ana_no_module_version_diag_full_dump_1788245682.json",
+    "ana_no_module_version_diag_snapshot_1788245682.json",
+    "ana_no_module_version_jack_accessibility_listener_1788245682.json",
+    "ana_no_module_version_jack_activity_logger_1788245682.json"
   ],
   "budget": {
     "datum": "2026-09-01",
-    "text": 225,
+    "text": 300,
     "vision": 0,
-    "tokens": 274905
+    "tokens": 349390
   }
 }
