@@ -20,7 +20,7 @@
 -rw-------. 1 u0_a400 u0_a400 24986 Sep  1 09:35 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  5031 Aug 17 11:15 /data/data/com.termux/files/home/jack/jack_briefing.py
 -rw-------. 1 u0_a400 u0_a400  2147 Aug 14 16:23 /data/data/com.termux/files/home/jack/jack_briefing_cron.py
--rw-------. 1 u0_a400 u0_a400  1686 Sep  1 10:48 /data/data/com.termux/files/home/jack/jack_budget.py
+-rw-------. 1 u0_a400 u0_a400  1705 Sep  1 12:45 /data/data/com.termux/files/home/jack/jack_budget.py
 -rw-------. 1 u0_a400 u0_a400   346 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_budget_status.py
 -rw-------. 1 u0_a400 u0_a400  9621 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_bug_fixer.py
 -rw-------. 1 u0_a400 u0_a400  6454 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_bugfix_loop.py
