@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T06:18:37.063601)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T06:19:11.485412)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T06:18:37.049493
+Stand: 2026-09-01T06:19:11.475126
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -238,12 +238,13 @@ Stand: 2026-09-01T06:18:37.049493
 - Offene Fehler: 15
 - Erinnerungen: 7111
 - Dienste:
-run: jack_cortex: (pid 9958) 84197s
-run: jack_telegram: (pid 1938) 8022s
-run: jack_autolearn: (pid 21049) 91559s
+run: jack_cortex: (pid 9958) 84231s
+run: jack_telegram: (pid 1938) 8056s
+run: jack_autolearn: (pid 21049) 91593s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+b857dbf fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
 3bf8208 fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
 969c9c9 feat: jack_setup.sh + pytest tests/test_core.py — Industriestandard komplett
 8ac3f71 feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
@@ -258,7 +259,6 @@ cbf5a7f feat: jack_talk_trainer — Gemini lernt aus Breaches, autonomer Lern-Lo
 2c5fc1b fix: persona gehärtet — stresstest bestanden, 4/4 sauber
 e4cf611 fix: talk_contract +5 familien, persona schärfer — klarspam/kopf/tour verboten
 e5b9cf8 fix: MODULE_VERSION in alle Module, 24 bare excepts systemweit
-c4cdbea fix: 24 bare excepts systemweit — alle Module bereinigt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -291,4 +291,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 278/300 | Vision 0/40 | Tokens 319761
+Heute: Text 279/300 | Vision 0/40 | Tokens 319761
