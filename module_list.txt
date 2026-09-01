@@ -8,7 +8,7 @@
 -rw-------. 1 u0_a400 u0_a400  2422 Aug 23 01:10 /data/data/com.termux/files/home/jack/jack_anomaly.py
 -rwxr-xr-x. 1 u0_a400 u0_a400  2341 Aug 26 06:44 /data/data/com.termux/files/home/jack/jack_apk_lab.py
 -rw-------. 1 u0_a400 u0_a400  3269 Aug 23 15:36 /data/data/com.termux/files/home/jack/jack_approval.py
--rw-------. 1 u0_a400 u0_a400  2256 Sep  1 05:47 /data/data/com.termux/files/home/jack/jack_approval_digest.py
+-rw-------. 1 u0_a400 u0_a400  2248 Sep  1 06:22 /data/data/com.termux/files/home/jack/jack_approval_digest.py
 -rw-------. 1 u0_a400 u0_a400  1804 Aug 20 08:01 /data/data/com.termux/files/home/jack/jack_ast_gate.py
 -rwx------. 1 u0_a400 u0_a400  4319 Aug 24 14:18 /data/data/com.termux/files/home/jack/jack_audit.py
 -rw-------. 1 u0_a400 u0_a400  3594 Aug 17 19:28 /data/data/com.termux/files/home/jack/jack_audit_run.py
