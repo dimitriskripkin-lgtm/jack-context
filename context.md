@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T06:41:30.664025)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T06:42:52.405873)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T06:41:30.649206
+Stand: 2026-09-01T06:42:52.386422
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -238,12 +238,13 @@ Stand: 2026-09-01T06:41:30.649206
 - Offene Fehler: 15
 - Erinnerungen: 7122
 - Dienste:
-run: jack_cortex: (pid 9958) 85570s
-run: jack_telegram: (pid 1938) 9395s
-run: jack_autolearn: (pid 21049) 92932s
+run: jack_cortex: (pid 9958) 85652s
+run: jack_telegram: (pid 1938) 9477s
+run: jack_autolearn: (pid 21049) 93014s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
 5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
 3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
 a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
@@ -258,7 +259,6 @@ f041862f feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
 d178cc24 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
 c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
 63a0bc0d fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
-5426f9f2 feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
