@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T06:33:46.685301)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T06:35:26.671982)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T06:33:46.672899
+Stand: 2026-09-01T06:35:26.659043
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -236,14 +236,15 @@ Stand: 2026-09-01T06:33:46.672899
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7118
+- Erinnerungen: 7119
 - Dienste:
-run: jack_cortex: (pid 9958) 85106s
-run: jack_telegram: (pid 1938) 8931s
-run: jack_autolearn: (pid 21049) 92468s
+run: jack_cortex: (pid 9958) 85206s
+run: jack_telegram: (pid 1938) 9031s
+run: jack_autolearn: (pid 21049) 92568s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
 335b2aef fix: bare except → except Exception in allen Modulen
 ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert, send() fix
 b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
@@ -258,7 +259,6 @@ c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via 
 5426f9f2 feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
 3ec4da66 fix: stale mv_check archiviert, selftest 100%
 cbf5a7f2 feat: jack_talk_trainer — Gemini lernt aus Breaches, autonomer Lern-Loop
-2c5fc1b8 fix: persona gehärtet — stresstest bestanden, 4/4 sauber
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
