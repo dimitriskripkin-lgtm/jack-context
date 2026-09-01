@@ -1,16 +1,16 @@
 {
-  "ts": "2026-09-01T00:00:00",
+  "ts": "2026-09-01T03:00:00",
   "missions": {
     "done": 547,
     "fail": 224,
     "pending": 0
   },
   "heartbeats": {
-    "jack_missions": "24s ago",
-    "jack_autolearn": "361s ago",
-    "jack_publisher": "127s ago",
-    "jack_waechter": "77s ago",
-    "jack_cortex": "24s ago",
+    "jack_missions": "12s ago",
+    "jack_autolearn": "346s ago",
+    "jack_publisher": "63s ago",
+    "jack_waechter": "117s ago",
+    "jack_cortex": "4s ago",
     "jack_telegram": "0s ago"
   },
   "open_fails": [
@@ -36,9 +36,9 @@
     "nacht_exc_jack_skill_builder.json"
   ],
   "budget": {
-    "datum": "2026-08-31",
-    "text": 31,
+    "datum": "2026-09-01",
+    "text": 2,
     "vision": 0,
-    "tokens": 97344
+    "tokens": 10530
   }
 }
