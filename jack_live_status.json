@@ -1,40 +1,19 @@
 {
-  "ts": "2026-09-01T09:00:00",
+  "ts": "2026-09-01T12:00:00",
   "missions": {
-    "done": 3444,
-    "fail": 124,
-    "pending": 184
+    "done": 3490,
+    "fail": 0,
+    "pending": 7
   },
   "heartbeats": {
     "jack_missions": "0s ago",
-    "jack_autolearn": "327s ago",
-    "jack_publisher": "23s ago",
-    "jack_waechter": "57s ago",
-    "jack_cortex": "14s ago",
-    "jack_telegram": "2s ago"
+    "jack_autolearn": "302s ago",
+    "jack_publisher": "137s ago",
+    "jack_waechter": "10s ago",
+    "jack_cortex": "21s ago",
+    "jack_telegram": "1s ago"
   },
-  "open_fails": [
-    "ana_hardcoded_path_DISABLED_jack_adb_heal_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_autolearn_loop_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_autonomous_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_callback_handler_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_chat_router_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_dm_gate_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_exec_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_intent_apps_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_learn_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_mission_runner_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_net_discover_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_overmind_client_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_publish_1788245682.json",
-    "ana_hardcoded_path_DISABLED_jack_telegram_1788245683.json",
-    "ana_hardcoded_path_DISABLED_jack_traceback_1788245683.json",
-    "ana_hardcoded_path_DISABLED_jack_ui_elements_1788245683.json",
-    "ana_no_module_version_diag_full_dump_1788245682.json",
-    "ana_no_module_version_diag_snapshot_1788245682.json",
-    "ana_no_module_version_jack_accessibility_listener_1788245682.json",
-    "ana_no_module_version_jack_activity_logger_1788245682.json"
-  ],
+  "open_fails": [],
   "budget": {
     "datum": "2026-09-01",
     "text": 300,
