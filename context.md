@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T12:27:52.625623)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T12:30:53.090106)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T12:27:52.612374
+Stand: 2026-09-01T12:30:53.075034
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-09-01T12:27:52.612374
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (222)
+## Aktive Module (224)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -53,6 +53,7 @@ Stand: 2026-09-01T12:27:52.612374
 - jack_code_writer.py
 - jack_coder.py
 - jack_config.py
+- jack_config_validator.py
 - jack_consolidate.py
 - jack_context_compress.py
 - jack_context_ingest.py
@@ -163,6 +164,7 @@ Stand: 2026-09-01T12:27:52.612374
 - jack_screen_tracker.py
 - jack_seal.py
 - jack_seal_night.py
+- jack_secret_scanner.py
 - jack_self_audit.py
 - jack_self_improve.py
 - jack_selfsee.py
@@ -239,14 +241,15 @@ Stand: 2026-09-01T12:27:52.612374
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7250
+- Erinnerungen: 7251
 - Dienste:
-run: jack_cortex: (pid 9958) 106352s
-run: jack_telegram: (pid 1938) 30177s
-run: jack_autolearn: (pid 21049) 113714s
+run: jack_cortex: (pid 9958) 106533s
+run: jack_telegram: (pid 1938) 30358s
+run: jack_autolearn: (pid 21049) 113895s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+78ceb8f4 feat: circuit_breaker+secret_scanner+config_validator+/status
 1afdcad5 docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
 fd409161 fix: compile_ok import os lokal, test_kern robust
 e3535c53 fix: compile_ok os-Scope, intent-Test robust
@@ -261,7 +264,6 @@ eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
 3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
 a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
-335b2aef fix: bare except → except Exception in allen Modulen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -294,4 +296,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/40 | Vision 0/8 | Tokens 349390
+Heute: Text 300/300 | Vision 0/40 | Tokens 349390
