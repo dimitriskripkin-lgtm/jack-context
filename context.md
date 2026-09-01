@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T06:36:48.602122)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T06:38:28.463324)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T06:36:48.589101
+Stand: 2026-09-01T06:38:28.447251
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -238,12 +238,13 @@ Stand: 2026-09-01T06:36:48.589101
 - Offene Fehler: 15
 - Erinnerungen: 7120
 - Dienste:
-run: jack_cortex: (pid 9958) 85288s
-run: jack_telegram: (pid 1938) 9113s
-run: jack_autolearn: (pid 21049) 92650s
+run: jack_cortex: (pid 9958) 85388s
+run: jack_telegram: (pid 1938) 9213s
+run: jack_autolearn: (pid 21049) 92750s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
 a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
 335b2aef fix: bare except → except Exception in allen Modulen
 ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert, send() fix
@@ -258,7 +259,6 @@ c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via 
 63a0bc0d fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
 5426f9f2 feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
 3ec4da66 fix: stale mv_check archiviert, selftest 100%
-cbf5a7f2 feat: jack_talk_trainer — Gemini lernt aus Breaches, autonomer Lern-Loop
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
