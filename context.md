@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T06:38:28.463324)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T06:39:50.444316)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T06:38:28.447251
+Stand: 2026-09-01T06:39:50.431293
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -236,14 +236,15 @@ Stand: 2026-09-01T06:38:28.447251
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7120
+- Erinnerungen: 7121
 - Dienste:
-run: jack_cortex: (pid 9958) 85388s
-run: jack_telegram: (pid 1938) 9213s
-run: jack_autolearn: (pid 21049) 92750s
+run: jack_cortex: (pid 9958) 85470s
+run: jack_telegram: (pid 1938) 9295s
+run: jack_autolearn: (pid 21049) 92832s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
 3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
 a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
 335b2aef fix: bare except → except Exception in allen Modulen
@@ -258,7 +259,6 @@ d178cc24 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim,
 c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
 63a0bc0d fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
 5426f9f2 feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
-3ec4da66 fix: stale mv_check archiviert, selftest 100%
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
