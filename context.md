@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T04:56:51.649938)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T04:59:53.608903)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T04:56:51.635282
+Stand: 2026-09-01T04:59:53.593333
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -232,14 +232,15 @@ Stand: 2026-09-01T04:56:51.635282
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7073
+- Erinnerungen: 7074
 - Dienste:
-run: jack_cortex: (pid 9958) 79291s
-run: jack_telegram: (pid 1938) 3116s
-run: jack_autolearn: (pid 21049) 86653s
+run: jack_cortex: (pid 9958) 79473s
+run: jack_telegram: (pid 1938) 3298s
+run: jack_autolearn: (pid 21049) 86835s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+63a0bc0 fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
 5426f9f feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
 3ec4da6 fix: stale mv_check archiviert, selftest 100%
 cbf5a7f feat: jack_talk_trainer — Gemini lernt aus Breaches, autonomer Lern-Loop
@@ -254,7 +255,6 @@ eecf678 feat: jack_testbed 100%, selftest main guard, cortex logging fix
 08b5fdd fix: expect_min in grep_count, archive false positives, chk_mv 5/5 done
 07d0413 feat: dedup approvals, 18 overnight missions
 f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
-58c1b67 feat: shadow-staging — JACK patcht in shadow/, wartet Freigabe, approve/reject per Command
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -287,4 +287,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 99/300 | Vision 0/40 | Tokens 126102
+Heute: Text 102/300 | Vision 0/40 | Tokens 128790
