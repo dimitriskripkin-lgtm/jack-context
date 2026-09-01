@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T11:57:41.767273)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T12:00:43.155696)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T11:57:41.750635
+Stand: 2026-09-01T12:00:43.139946
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-09-01T11:57:41.750635
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (220)
+## Aktive Module (221)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -78,6 +78,7 @@ Stand: 2026-09-01T11:57:41.750635
 - jack_freigabe.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
+- jack_gemini_cache.py
 - jack_ghost.py
 - jack_graceful.py
 - jack_graph.py
@@ -237,14 +238,16 @@ Stand: 2026-09-01T11:57:41.750635
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7231
+- Erinnerungen: 7232
 - Dienste:
-run: jack_cortex: (pid 9958) 104541s
-run: jack_telegram: (pid 1938) 28366s
-run: jack_autolearn: (pid 21049) 111903s
+run: jack_cortex: (pid 9958) 104723s
+run: jack_telegram: (pid 1938) 28548s
+run: jack_autolearn: (pid 21049) 112085s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+fc38f5d7 feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
+eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
 5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
 3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
@@ -258,8 +261,6 @@ b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final 
 282babc4 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
 f041862f feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
 d178cc24 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
-c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
-63a0bc0d fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -292,4 +293,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/40 | Vision 0/8 | Tokens 349390
+Heute: Text 300/300 | Vision 0/40 | Tokens 349390
