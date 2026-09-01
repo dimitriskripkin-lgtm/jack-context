@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T13:46:37.994626)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T13:47:30.854248)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T13:46:37.980579
+Stand: 2026-09-01T13:47:30.842927
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -252,12 +252,13 @@ Stand: 2026-09-01T13:46:37.980579
 - Offene Fehler: 15
 - Erinnerungen: 7280
 - Dienste:
-run: jack_cortex: (pid 9958) 111077s
-run: jack_telegram: (pid 29130) 1175s
-run: jack_autolearn: (pid 21049) 118439s
+run: jack_cortex: (pid 9958) 111130s
+run: jack_telegram: (pid 29130) 1228s
+run: jack_autolearn: (pid 21049) 118492s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+3260b8ee fix: persona kern 2.9KB, talk→kern.md, trainer 8KB-Limit
 835b5146 fix: config_validator auf echte config.ini Struktur angepasst
 3d221689 fix: bridge indent, config get_param
 78ceb8f4 feat: circuit_breaker+secret_scanner+config_validator+/status
@@ -272,7 +273,6 @@ e3535c53 fix: compile_ok os-Scope, intent-Test robust
 fc38f5d7 feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
 eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
-5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -305,4 +305,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/300 | Vision 0/40 | Tokens 349390
+Heute 300/40 vis 0/8 tok 349390 eur 0.14/3
