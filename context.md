@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T06:25:15.350675)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T06:27:42.847777)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T06:25:15.335538
+Stand: 2026-09-01T06:27:42.830487
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -236,29 +236,29 @@ Stand: 2026-09-01T06:25:15.335538
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7114
+- Erinnerungen: 7115
 - Dienste:
-run: jack_cortex: (pid 9958) 84595s
-run: jack_telegram: (pid 1938) 8420s
-run: jack_autolearn: (pid 21049) 91957s
+run: jack_cortex: (pid 9958) 84742s
+run: jack_telegram: (pid 1938) 8567s
+run: jack_autolearn: (pid 21049) 92104s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
-b857dbf fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
-3bf8208 fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
-969c9c9 feat: jack_setup.sh + pytest tests/test_core.py — Industriestandard komplett
-8ac3f71 feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
-282babc feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
-f041862 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
-d178cc2 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
-c4cd007 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
-63a0bc0 fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
-5426f9f feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
-3ec4da6 fix: stale mv_check archiviert, selftest 100%
-cbf5a7f feat: jack_talk_trainer — Gemini lernt aus Breaches, autonomer Lern-Loop
-2c5fc1b fix: persona gehärtet — stresstest bestanden, 4/4 sauber
-e4cf611 fix: talk_contract +5 familien, persona schärfer — klarspam/kopf/tour verboten
-e5b9cf8 fix: MODULE_VERSION in alle Module, 24 bare excepts systemweit
+ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert, send() fix
+b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
+3bf8208f fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
+969c9c94 feat: jack_setup.sh + pytest tests/test_core.py — Industriestandard komplett
+8ac3f71f feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
+282babc4 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
+f041862f feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
+d178cc24 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
+c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
+63a0bc0d fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
+5426f9f2 feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
+3ec4da66 fix: stale mv_check archiviert, selftest 100%
+cbf5a7f2 feat: jack_talk_trainer — Gemini lernt aus Breaches, autonomer Lern-Loop
+2c5fc1b8 fix: persona gehärtet — stresstest bestanden, 4/4 sauber
+e4cf611c fix: talk_contract +5 familien, persona schärfer — klarspam/kopf/tour verboten
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -291,4 +291,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 289/300 | Vision 0/40 | Tokens 333468
+Heute: Text 292/300 | Vision 0/40 | Tokens 335973
