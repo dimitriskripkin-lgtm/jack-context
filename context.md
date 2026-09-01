@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T05:02:55.479667)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T05:05:57.753758)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T05:02:55.473603
+Stand: 2026-09-01T05:05:57.729762
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -232,14 +232,15 @@ Stand: 2026-09-01T05:02:55.473603
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7076
+- Erinnerungen: 7077
 - Dienste:
-run: jack_cortex: (pid 9958) 79655s
-run: jack_telegram: (pid 1938) 3480s
-run: jack_autolearn: (pid 21049) 87017s
+run: jack_cortex: (pid 9958) 79837s
+run: jack_telegram: (pid 1938) 3662s
+run: jack_autolearn: (pid 21049) 87199s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+c4cd007 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
 63a0bc0 fix: Analyzer FP-Patterns deaktiviert, Score 100%, Health+Changelog+Prioritizer live
 5426f9f feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
 3ec4da6 fix: stale mv_check archiviert, selftest 100%
@@ -254,7 +255,6 @@ eecf678 feat: jack_testbed 100%, selftest main guard, cortex logging fix
 0bdf652 feat: logger unified, mission-gen live, C+B done
 08b5fdd fix: expect_min in grep_count, archive false positives, chk_mv 5/5 done
 07d0413 feat: dedup approvals, 18 overnight missions
-f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -287,4 +287,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 108/300 | Vision 0/40 | Tokens 133834
+Heute: Text 111/300 | Vision 0/40 | Tokens 136404
