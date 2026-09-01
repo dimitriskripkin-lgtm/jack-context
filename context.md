@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T04:26:53.770862)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T04:29:33.809766)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T04:26:53.756540
+Stand: 2026-09-01T04:29:33.798528
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -229,14 +229,15 @@ Stand: 2026-09-01T04:26:53.756540
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7059
+- Erinnerungen: 7060
 - Dienste:
-run: jack_cortex: (pid 9958) 77493s
-run: jack_telegram: (pid 1938) 1318s
-run: jack_autolearn: (pid 21049) 84855s
+run: jack_cortex: (pid 9958) 77653s
+run: jack_telegram: (pid 1938) 1478s
+run: jack_autolearn: (pid 21049) 85015s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+5426f9f feat: jack_code_analyzer + 1027 missions — JACK erkennt selbst neue Probleme
 3ec4da6 fix: stale mv_check archiviert, selftest 100%
 cbf5a7f feat: jack_talk_trainer — Gemini lernt aus Breaches, autonomer Lern-Loop
 2c5fc1b fix: persona gehärtet — stresstest bestanden, 4/4 sauber
@@ -251,7 +252,6 @@ eecf678 feat: jack_testbed 100%, selftest main guard, cortex logging fix
 07d0413 feat: dedup approvals, 18 overnight missions
 f8f35b5 feat: telegram approve/reject buttons für shadow-staging live
 58c1b67 feat: shadow-staging — JACK patcht in shadow/, wartet Freigabe, approve/reject per Command
-8e897b0 fix: archive false positive fails, selftest 100%
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -284,4 +284,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 55/300 | Vision 0/40 | Tokens 80335
+Heute: Text 59/300 | Vision 0/40 | Tokens 88135
