@@ -1,44 +1,44 @@
 {
-  "ts": "2026-09-01T03:00:00",
+  "ts": "2026-09-01T06:00:00",
   "missions": {
-    "done": 547,
-    "fail": 224,
-    "pending": 0
+    "done": 1484,
+    "fail": 531,
+    "pending": 687
   },
   "heartbeats": {
-    "jack_missions": "12s ago",
-    "jack_autolearn": "346s ago",
-    "jack_publisher": "63s ago",
-    "jack_waechter": "117s ago",
-    "jack_cortex": "4s ago",
-    "jack_telegram": "0s ago"
+    "jack_missions": "0s ago",
+    "jack_autolearn": "337s ago",
+    "jack_publisher": "153s ago",
+    "jack_waechter": "7s ago",
+    "jack_cortex": "11s ago",
+    "jack_telegram": "3s ago"
   },
   "open_fails": [
-    "nacht_exc_diag_snapshot.json",
-    "nacht_exc_jack_autofixer_shadow.json",
-    "nacht_exc_jack_bugfix_loop.json",
-    "nacht_exc_jack_chains.json",
-    "nacht_exc_jack_circuit_breaker.json",
-    "nacht_exc_jack_config.json",
-    "nacht_exc_jack_explorer.json",
-    "nacht_exc_jack_explorer_deep.json",
-    "nacht_exc_jack_handshake_gen.json",
-    "nacht_exc_jack_heat_protection.json",
-    "nacht_exc_jack_inbox.json",
-    "nacht_exc_jack_intent.json",
-    "nacht_exc_jack_mission_gen.json",
-    "nacht_exc_jack_mission_runner.json",
-    "nacht_exc_jack_operator.json",
-    "nacht_exc_jack_orchestrator.json",
-    "nacht_exc_jack_outcome.json",
-    "nacht_exc_jack_personality.json",
-    "nacht_exc_jack_planner.json",
-    "nacht_exc_jack_skill_builder.json"
+    "gen_sys_mv_jack_skill_lib_module_version_missing.json",
+    "ana_no_module_version_diag_full_dump_1788234881.json",
+    "ana_no_module_version_diag_snapshot_1788234881.json",
+    "ana_no_module_version_jack_accessibility_listener_1788234881.json",
+    "ana_no_module_version_jack_activity_logger_1788234881.json",
+    "ana_no_module_version_jack_adb_heal_1788234881.json",
+    "gen_sys_mv_jack_apk_lab_module_version_missing.json",
+    "gen_sys_mv_jack_circuit_breaker_module_version_missing.json",
+    "gen_sys_mv_jack_config_module_version_missing.json",
+    "gen_sys_mv_jack_critic_module_version_missing.json",
+    "chg_exc_jack_changelog.json",
+    "chg_exc_jack_code_analyzer.json",
+    "sys_mv_diag_full_dump.json",
+    "sys_mv_diag_snapshot.json",
+    "sys_mv_jack_accessibility_listener.json",
+    "sys_mv_jack_activity_logger.json",
+    "sys_mv_jack_adb_heal.json",
+    "sys_mv_jack_agent.json",
+    "sys_mv_jack_android.json",
+    "sys_mv_jack_anomaly.json"
   ],
   "budget": {
     "datum": "2026-09-01",
-    "text": 2,
+    "text": 225,
     "vision": 0,
-    "tokens": 10530
+    "tokens": 274905
   }
 }
