@@ -1,0 +1,37 @@
+I built a self-healing AI system on two smartphones. No PC. No cloud. No budget. No degree.
+
+I drive refrigerated trucks on night shifts. Between 00:00 and 08:00 I deliver. After 08:00 I build.
+
+This is JACK — Just Autonomous Command Kit.
+
+Two Android phones connected via SSH. One thinks. One acts.
+
+What makes it different: JACK fixes itself.
+
+It scans its own code. It finds bugs. It writes fix proposals. It asks me before applying them. If a fix makes things worse, it automatically rolls back via a saved backup. Then it tells me what happened.
+
+All of this runs while I sleep.
+
+What JACK does today:
+
+→ Self-diagnosis: 7-point health check, score in percent, JSON snapshot
+→ Semantic code review: sends its own source to Gemini, gets back P0/P1/P2 findings as missions
+→ Auto-rollback: score dropped after a fix? Reverts automatically via .fix.bak
+→ Dependency map: knows all 212 of its own modules and their import relationships
+→ Automatic documentation: Gemini writes missing docstrings, staged for approval
+→ Mission system: tasks as JSON, prioritized 0-8, with a full approval gate
+→ Offline-first: local Ollama fallback when no internet
+
+500+ commits. 212 Python modules. 7/7 tests passing.
+
+Built entirely on a smartphone. One thumb. No IDE. No PC.
+
+The part I'm most proud of: I had zero programming background when I started. I didn't know what a class was. I learned everything by doing, by breaking things, and by refusing to stop.
+
+JACK is my proof that you don't need a degree to build something real. You need consistency.
+
+If you're working at the edge of AI and hardware — or if you just want to see what's possible with two phones and a lot of night shifts:
+
+github.com/dimitriskripkin-lgtm/jack-core
+
+#AI #EdgeAI #Android #Python #OpenSource #BuildInPublic #SelfHealing #MachineLearning #Automation
