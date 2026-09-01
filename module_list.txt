@@ -28,7 +28,7 @@
 -rw-------. 1 u0_a400 u0_a400 11981 Aug 31 14:04 /data/data/com.termux/files/home/jack/jack_callback_handler.py
 -rw-------. 1 u0_a400 u0_a400  4593 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_calltest.py
 -rw-------. 1 u0_a400 u0_a400 11000 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_chains.py
--rw-------. 1 u0_a400 u0_a400  2769 Sep  1 11:02 /data/data/com.termux/files/home/jack/jack_changelog.py
+-rw-------. 1 u0_a400 u0_a400  2849 Sep  1 14:23 /data/data/com.termux/files/home/jack/jack_changelog.py
 -rw-------. 1 u0_a400 u0_a400  8520 Sep  1 04:13 /data/data/com.termux/files/home/jack/jack_chat_router.py
 -rw-------. 1 u0_a400 u0_a400  1531 Sep  1 12:29 /data/data/com.termux/files/home/jack/jack_circuit_breaker.py
 -rw-------. 1 u0_a400 u0_a400  1564 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_claude.py
@@ -53,7 +53,7 @@
 -rwx------. 1 u0_a400 u0_a400  1454 Aug 27 11:53 /data/data/com.termux/files/home/jack/jack_deadman.py
 -rw-------. 1 u0_a400 u0_a400   269 Sep  1 12:58 /data/data/com.termux/files/home/jack/jack_degraded.py
 -rw-------. 1 u0_a400 u0_a400  5131 Aug 13 08:01 /data/data/com.termux/files/home/jack/jack_delta.py
--rw-------. 1 u0_a400 u0_a400  5121 Sep  1 12:16 /data/data/com.termux/files/home/jack/jack_dep_map.py
+-rw-------. 1 u0_a400 u0_a400  5205 Sep  1 14:25 /data/data/com.termux/files/home/jack/jack_dep_map.py
 -rw-------. 1 u0_a400 u0_a400   338 Aug 27 11:48 /data/data/com.termux/files/home/jack/jack_dm_gate.py
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  4169 Aug 21 06:22 /data/data/com.termux/files/home/jack/jack_error_to_rule.py
@@ -110,7 +110,7 @@
 -rw-------. 1 u0_a400 u0_a400  2398 Aug 21 07:41 /data/data/com.termux/files/home/jack/jack_memory_pruning.py
 -rw-------. 1 u0_a400 u0_a400  1010 Aug 14 16:14 /data/data/com.termux/files/home/jack/jack_memory_stale.py
 -rw-------. 1 u0_a400 u0_a400  6796 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_memory_tree.py
--rw-------. 1 u0_a400 u0_a400  5069 Sep  1 11:02 /data/data/com.termux/files/home/jack/jack_mission_gen.py
+-rw-------. 1 u0_a400 u0_a400  5215 Sep  1 14:23 /data/data/com.termux/files/home/jack/jack_mission_gen.py
 -rw-------. 1 u0_a400 u0_a400  1612 Sep  1 04:31 /data/data/com.termux/files/home/jack/jack_mission_prioritizer.py
 -rw-------. 1 u0_a400 u0_a400  1853 Sep  1 11:22 /data/data/com.termux/files/home/jack/jack_mission_pull.py
 -rwx------. 1 u0_a400 u0_a400  1149 Aug 24 14:54 /data/data/com.termux/files/home/jack/jack_mission_queue.py
@@ -161,7 +161,7 @@
 -rw-------. 1 u0_a400 u0_a400  6766 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_self_improve.py
 -rw-------. 1 u0_a400 u0_a400  7320 Aug 25 05:36 /data/data/com.termux/files/home/jack/jack_selfsee.py
 -rw-------. 1 u0_a400 u0_a400  3702 Sep  1 06:37 /data/data/com.termux/files/home/jack/jack_selftest.py
--rw-------. 1 u0_a400 u0_a400  4567 Sep  1 09:35 /data/data/com.termux/files/home/jack/jack_semantic_analyzer.py
+-rw-------. 1 u0_a400 u0_a400  4652 Sep  1 14:25 /data/data/com.termux/files/home/jack/jack_semantic_analyzer.py
 -rw-------. 1 u0_a400 u0_a400  3142 Aug 23 15:36 /data/data/com.termux/files/home/jack/jack_sensors.py
 -rw-------. 1 u0_a400 u0_a400  9745 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_skill_builder.py
 -rw-------. 1 u0_a400 u0_a400  2648 Aug 16 15:53 /data/data/com.termux/files/home/jack/jack_skill_lib.py
