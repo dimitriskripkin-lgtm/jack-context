@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T12:12:47.335377)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T12:15:48.419478)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T12:12:47.320445
+Stand: 2026-09-01T12:15:48.407084
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -239,14 +239,16 @@ Stand: 2026-09-01T12:12:47.320445
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7241
+- Erinnerungen: 7244
 - Dienste:
-run: jack_cortex: (pid 9958) 105447s
-run: jack_telegram: (pid 1938) 29272s
-run: jack_autolearn: (pid 21049) 112809s
+run: jack_cortex: (pid 9958) 105628s
+run: jack_telegram: (pid 1938) 29453s
+run: jack_autolearn: (pid 21049) 112990s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+fd409161 fix: compile_ok import os lokal, test_kern robust
+e3535c53 fix: compile_ok os-Scope, intent-Test robust
 73a4ef70 fix: compile_ok unterstützt file-singular, test_kern 7/7
 4382b001 fix: compile_ok prüft Datei-Existenz, Tests angepasst
 00d93fa5 fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
@@ -260,8 +262,6 @@ eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
 335b2aef fix: bare except → except Exception in allen Modulen
 ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert, send() fix
-b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
-3bf8208f fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -294,4 +294,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/300 | Vision 0/40 | Tokens 349390
+Heute: Text 300/40 | Vision 0/8 | Tokens 349390
