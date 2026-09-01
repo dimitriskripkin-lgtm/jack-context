@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T12:06:45.127406)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T12:09:46.418762)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T12:06:45.110618
+Stand: 2026-09-01T12:09:46.398287
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -239,14 +239,15 @@ Stand: 2026-09-01T12:06:45.110618
 
 ## System-Status
 - Offene Fehler: 15
-- Erinnerungen: 7236
+- Erinnerungen: 7238
 - Dienste:
-run: jack_cortex: (pid 9958) 105085s
-run: jack_telegram: (pid 1938) 28910s
-run: jack_autolearn: (pid 21049) 112447s
+run: jack_cortex: (pid 9958) 105266s
+run: jack_telegram: (pid 1938) 29091s
+run: jack_autolearn: (pid 21049) 112628s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+4382b001 fix: compile_ok prüft Datei-Existenz, Tests angepasst
 00d93fa5 fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
 74e90ac6 fix: jack_thermal_guard.py nachgeliefert
 05f55a5e feat: jack_thermal_guard + log_prune — Akku/Temp-Schutz in Analyzer+Autodoc
@@ -261,7 +262,6 @@ ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert,
 b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
 3bf8208f fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
 969c9c94 feat: jack_setup.sh + pytest tests/test_core.py — Industriestandard komplett
-8ac3f71f feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -294,4 +294,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute: Text 300/300 | Vision 0/40 | Tokens 349390
+Heute: Text 300/40 | Vision 0/8 | Tokens 349390
