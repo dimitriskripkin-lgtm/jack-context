@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-01T05:41:15.411637)
+# JACK LIVE-KONTEXT (auto, 2026-09-01T05:42:15.948672)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-01T05:41:15.397319
+Stand: 2026-09-01T05:42:15.936886
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -238,12 +238,13 @@ Stand: 2026-09-01T05:41:15.397319
 - Offene Fehler: 15
 - Erinnerungen: 7095
 - Dienste:
-run: jack_cortex: (pid 9958) 81955s
-run: jack_telegram: (pid 1938) 5780s
-run: jack_autolearn: (pid 21049) 89317s
+run: jack_cortex: (pid 9958) 82015s
+run: jack_telegram: (pid 1938) 5840s
+run: jack_autolearn: (pid 21049) 89377s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+8ac3f71 feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
 282babc feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
 f041862 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
 d178cc2 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
@@ -258,7 +259,6 @@ e5b9cf8 fix: MODULE_VERSION in alle Module, 24 bare excepts systemweit
 c4cdbea fix: 24 bare excepts systemweit — alle Module bereinigt
 36cb871 feat: bibi im graph, nacht-missions systemweiter check
 eecf678 feat: jack_testbed 100%, selftest main guard, cortex logging fix
-9f3341d fix: oracle bare excepts, logger unified complete
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
