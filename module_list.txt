@@ -80,7 +80,7 @@
 -rw-------. 1 u0_a400 u0_a400  5581 Sep  1 05:24 /data/data/com.termux/files/home/jack/jack_harvest.py
 -rw-------. 1 u0_a400 u0_a400  2170 Sep  1 05:24 /data/data/com.termux/files/home/jack/jack_harvest_lernen.py
 -rw-------. 1 u0_a400 u0_a400  1175 Sep  1 12:58 /data/data/com.termux/files/home/jack/jack_hb_alarm.py
--rwx------. 1 u0_a400 u0_a400  1776 Aug 24 18:08 /data/data/com.termux/files/home/jack/jack_health.py
+-rwx------. 1 u0_a400 u0_a400  2355 Sep  2 14:19 /data/data/com.termux/files/home/jack/jack_health.py
 -rw-------. 1 u0_a400 u0_a400  2825 Sep  1 04:32 /data/data/com.termux/files/home/jack/jack_health_monitor.py
 -rw-------. 1 u0_a400 u0_a400  1728 Sep  1 05:05 /data/data/com.termux/files/home/jack/jack_heartbeat.py
 -rw-------. 1 u0_a400 u0_a400  7230 Sep  2 04:26 /data/data/com.termux/files/home/jack/jack_heat_protection.py
