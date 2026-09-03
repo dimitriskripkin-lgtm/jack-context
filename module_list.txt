@@ -98,7 +98,7 @@
 -rw-------. 1 u0_a400 u0_a400  3740 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_learn.py
 -rw-------. 1 u0_a400 u0_a400 10733 Aug 20 17:18 /data/data/com.termux/files/home/jack/jack_lerner.py
 -rw-------. 1 u0_a400 u0_a400  2883 Aug 24 18:29 /data/data/com.termux/files/home/jack/jack_live_bridge.py
--rw-------. 1 u0_a400 u0_a400  4269 Sep  1 12:58 /data/data/com.termux/files/home/jack/jack_log.py
+-rw-------. 1 u0_a400 u0_a400  7978 Sep  3 05:40 /data/data/com.termux/files/home/jack/jack_log.py
 -rw-------. 1 u0_a400 u0_a400   762 Aug 23 15:36 /data/data/com.termux/files/home/jack/jack_log_rotate.py
 -rw-------. 1 u0_a400 u0_a400  2133 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_logging.py
 -rw-------. 1 u0_a400 u0_a400  4387 Aug 13 13:23 /data/data/com.termux/files/home/jack/jack_lokal.py
