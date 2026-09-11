@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-07T19:14:06.756032)
+# JACK LIVE-KONTEXT (auto, 2026-09-11T05:04:53.612611)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-07T19:14:06.743266
+Stand: 2026-09-11T05:04:53.599329
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-09-07T19:14:06.743266
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (233)
+## Aktive Module (219)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -34,7 +34,6 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_autofixer_shadow.py
 - jack_autolearn_loop.py
 - jack_autonomous.py
-- jack_backoff.py
 - jack_briefing.py
 - jack_briefing_cron.py
 - jack_budget.py
@@ -54,20 +53,16 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_code_writer.py
 - jack_coder.py
 - jack_config.py
-- jack_config_validator.py
 - jack_consolidate.py
 - jack_context_compress.py
 - jack_context_ingest.py
-- jack_corr.py
 - jack_cortex.py
 - jack_critic.py
 - jack_curiosity.py
 - jack_dash.py
 - jack_db_optimizer.py
 - jack_db_queue.py
-- jack_deadletter.py
 - jack_deadman.py
-- jack_degraded.py
 - jack_delta.py
 - jack_dep_map.py
 - jack_dm_gate.py
@@ -76,7 +71,6 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_errors_status.py
 - jack_exec.py
 - jack_exec_parser.py
-- jack_explain_last.py
 - jack_explorer.py
 - jack_explorer_deep.py
 - jack_faehigkeiten.py
@@ -84,7 +78,6 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_freigabe.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
-- jack_gemini_cache.py
 - jack_ghost.py
 - jack_graceful.py
 - jack_graph.py
@@ -95,7 +88,6 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_handshake_gen.py
 - jack_harvest.py
 - jack_harvest_lernen.py
-- jack_hb_alarm.py
 - jack_health.py
 - jack_health_monitor.py
 - jack_heartbeat.py
@@ -155,8 +147,6 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_publish.py
 - jack_publisher_loop.py
 - jack_queue.py
-- jack_queue_gate.py
-- jack_quota.py
 - jack_radar.py
 - jack_react.py
 - jack_read_curl.py
@@ -166,13 +156,11 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_sanity.py
 - jack_scheduler.py
 - jack_schema.py
-- jack_score_avg.py
 - jack_scout.py
 - jack_screen_mapper.py
 - jack_screen_tracker.py
 - jack_seal.py
 - jack_seal_night.py
-- jack_secret_scanner.py
 - jack_self_audit.py
 - jack_self_improve.py
 - jack_selfsee.py
@@ -186,7 +174,6 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_skills.py
 - jack_skills_db.py
 - jack_snapshot.py
-- jack_staged_preview.py
 - jack_state.py
 - jack_status_report.py
 - jack_stress.py
@@ -198,7 +185,6 @@ Stand: 2026-09-07T19:14:06.743266
 - jack_telegram.py
 - jack_testbed.py
 - jack_thermal.py
-- jack_thermal_guard.py
 - jack_traceback.py
 - jack_tuev2.py
 - jack_tuev3.py
@@ -249,30 +235,30 @@ Stand: 2026-09-07T19:14:06.743266
 - wirkungs_check.py
 
 ## System-Status
-- Offene Fehler: 15
-- Erinnerungen: 10301
+- Offene Fehler: 1
+- Erinnerungen: 12342
 - Dienste:
-run: jack_cortex: (pid 22284) 0s
-run: jack_telegram: (pid 22282) 0s
-down: jack_autolearn: 0s
+run: jack_cortex: (pid 19393) 10548s
+run: jack_telegram: (pid 20286) 2368s
+down: jack_autolearn: 294647s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
-b75ca8b3 fix: talk Groq-fail→Ollama direkt, nie Gemini für TALK-Lane
-3260b8ee fix: persona kern 2.9KB, talk→kern.md, trainer 8KB-Limit
-835b5146 fix: config_validator auf echte config.ini Struktur angepasst
-3d221689 fix: bridge indent, config get_param
-78ceb8f4 feat: circuit_breaker+secret_scanner+config_validator+/status
-1afdcad5 docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
-fd409161 fix: compile_ok import os lokal, test_kern robust
-e3535c53 fix: compile_ok os-Scope, intent-Test robust
-73a4ef70 fix: compile_ok unterstützt file-singular, test_kern 7/7
-4382b001 fix: compile_ok prüft Datei-Existenz, Tests angepasst
-00d93fa5 fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
-74e90ac6 fix: jack_thermal_guard.py nachgeliefert
-05f55a5e feat: jack_thermal_guard + log_prune — Akku/Temp-Schutz in Analyzer+Autodoc
-fc38f5d7 feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
-eeb25ef6 feat: jack_schema.py — Mission-Validation, in Runner eingebaut
+bc6b09ca Update README.md
+873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
+5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
+3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
+a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
+335b2aef fix: bare except → except Exception in allen Modulen
+ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert, send() fix
+b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
+3bf8208f fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
+969c9c94 feat: jack_setup.sh + pytest tests/test_core.py — Industriestandard komplett
+8ac3f71f feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
+282babc4 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
+f041862f feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
+d178cc24 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
+c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
