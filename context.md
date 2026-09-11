@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-11T05:16:59.647918)
+# JACK LIVE-KONTEXT (auto, 2026-09-11T05:35:01.619381)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-11T05:16:59.635378
+Stand: 2026-09-11T05:35:01.608384
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-09-11T05:16:59.635378
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (224)
+## Aktive Module (233)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -34,6 +34,7 @@ Stand: 2026-09-11T05:16:59.635378
 - jack_autofixer_shadow.py
 - jack_autolearn_loop.py
 - jack_autonomous.py
+- jack_backoff.py
 - jack_briefing.py
 - jack_briefing_cron.py
 - jack_budget.py
@@ -57,13 +58,16 @@ Stand: 2026-09-11T05:16:59.635378
 - jack_consolidate.py
 - jack_context_compress.py
 - jack_context_ingest.py
+- jack_corr.py
 - jack_cortex.py
 - jack_critic.py
 - jack_curiosity.py
 - jack_dash.py
 - jack_db_optimizer.py
 - jack_db_queue.py
+- jack_deadletter.py
 - jack_deadman.py
+- jack_degraded.py
 - jack_delta.py
 - jack_dep_map.py
 - jack_dm_gate.py
@@ -72,6 +76,7 @@ Stand: 2026-09-11T05:16:59.635378
 - jack_errors_status.py
 - jack_exec.py
 - jack_exec_parser.py
+- jack_explain_last.py
 - jack_explorer.py
 - jack_explorer_deep.py
 - jack_faehigkeiten.py
@@ -90,6 +95,7 @@ Stand: 2026-09-11T05:16:59.635378
 - jack_handshake_gen.py
 - jack_harvest.py
 - jack_harvest_lernen.py
+- jack_hb_alarm.py
 - jack_health.py
 - jack_health_monitor.py
 - jack_heartbeat.py
@@ -150,6 +156,7 @@ Stand: 2026-09-11T05:16:59.635378
 - jack_publisher_loop.py
 - jack_queue.py
 - jack_queue_gate.py
+- jack_quota.py
 - jack_radar.py
 - jack_react.py
 - jack_read_curl.py
@@ -159,6 +166,7 @@ Stand: 2026-09-11T05:16:59.635378
 - jack_sanity.py
 - jack_scheduler.py
 - jack_schema.py
+- jack_score_avg.py
 - jack_scout.py
 - jack_screen_mapper.py
 - jack_screen_tracker.py
@@ -178,6 +186,7 @@ Stand: 2026-09-11T05:16:59.635378
 - jack_skills.py
 - jack_skills_db.py
 - jack_snapshot.py
+- jack_staged_preview.py
 - jack_state.py
 - jack_status_report.py
 - jack_stress.py
@@ -241,29 +250,29 @@ Stand: 2026-09-11T05:16:59.635378
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 12347
+- Erinnerungen: 12355
 - Dienste:
-run: jack_cortex: (pid 19393) 11274s
-run: jack_telegram: (pid 20286) 3094s
-down: jack_autolearn: 295373s
+run: jack_cortex: (pid 19393) 12356s
+run: jack_telegram: (pid 20286) 4176s
+down: jack_autolearn: 296455s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
-0dde4169 fix: config_validator auf echte config.ini Struktur angepasst
-cf245c94 fix: bridge indent, config get_param
-46bcc18c feat: circuit_breaker+secret_scanner+config_validator+/status
-e08553aa docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
-a9778f8a fix: compile_ok import os lokal, test_kern robust
-75a3e481 fix: compile_ok os-Scope, intent-Test robust
-9500f089 fix: compile_ok unterstützt file-singular, test_kern 7/7
-e0eaa31d fix: compile_ok prüft Datei-Existenz, Tests angepasst
-91f66b8b fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
-527ce90d fix: jack_thermal_guard.py nachgeliefert
-f63c5567 feat: jack_thermal_guard + log_prune — Akku/Temp-Schutz in Analyzer+Autodoc
-bc9f1cce feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
-0f3d0dba feat: jack_schema.py — Mission-Validation, in Runner eingebaut
-bc6b09ca Update README.md
-873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
+f7cadb0f Laufzeitzustand aus dem Index entfernt (bleibt lokal)
+4796c337 Aufraeumen: alte Staged-Vorschlaege raus, Laufzeitzustand aus dem Index
+a929a42a Haertung 01.-11.09.: Soll-Listen konsistent, Health ehrlich, Groq-Limit diagnostiziert
+b75ca8b3 fix: talk Groq-fail→Ollama direkt, nie Gemini für TALK-Lane
+3260b8ee fix: persona kern 2.9KB, talk→kern.md, trainer 8KB-Limit
+835b5146 fix: config_validator auf echte config.ini Struktur angepasst
+3d221689 fix: bridge indent, config get_param
+78ceb8f4 feat: circuit_breaker+secret_scanner+config_validator+/status
+1afdcad5 docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
+fd409161 fix: compile_ok import os lokal, test_kern robust
+e3535c53 fix: compile_ok os-Scope, intent-Test robust
+73a4ef70 fix: compile_ok unterstützt file-singular, test_kern 7/7
+4382b001 fix: compile_ok prüft Datei-Existenz, Tests angepasst
+00d93fa5 fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
+74e90ac6 fix: jack_thermal_guard.py nachgeliefert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
