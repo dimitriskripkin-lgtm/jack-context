@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-11T05:04:53.612611)
+# JACK LIVE-KONTEXT (auto, 2026-09-11T05:10:55.450215)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-11T05:04:53.599329
+Stand: 2026-09-11T05:10:55.439192
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-09-11T05:04:53.599329
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (219)
+## Aktive Module (224)
 - diag_full_dump.py
 - diag_snapshot.py
 - jack_accessibility_listener.py
@@ -53,6 +53,7 @@ Stand: 2026-09-11T05:04:53.599329
 - jack_code_writer.py
 - jack_coder.py
 - jack_config.py
+- jack_config_validator.py
 - jack_consolidate.py
 - jack_context_compress.py
 - jack_context_ingest.py
@@ -78,6 +79,7 @@ Stand: 2026-09-11T05:04:53.599329
 - jack_freigabe.py
 - jack_gedanken.py
 - jack_gemini_bridge.py
+- jack_gemini_cache.py
 - jack_ghost.py
 - jack_graceful.py
 - jack_graph.py
@@ -147,6 +149,7 @@ Stand: 2026-09-11T05:04:53.599329
 - jack_publish.py
 - jack_publisher_loop.py
 - jack_queue.py
+- jack_queue_gate.py
 - jack_radar.py
 - jack_react.py
 - jack_read_curl.py
@@ -161,6 +164,7 @@ Stand: 2026-09-11T05:04:53.599329
 - jack_screen_tracker.py
 - jack_seal.py
 - jack_seal_night.py
+- jack_secret_scanner.py
 - jack_self_audit.py
 - jack_self_improve.py
 - jack_selfsee.py
@@ -185,6 +189,7 @@ Stand: 2026-09-11T05:04:53.599329
 - jack_telegram.py
 - jack_testbed.py
 - jack_thermal.py
+- jack_thermal_guard.py
 - jack_traceback.py
 - jack_tuev2.py
 - jack_tuev3.py
@@ -236,29 +241,29 @@ Stand: 2026-09-11T05:04:53.599329
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 12342
+- Erinnerungen: 12344
 - Dienste:
-run: jack_cortex: (pid 19393) 10548s
-run: jack_telegram: (pid 20286) 2368s
-down: jack_autolearn: 294647s
+run: jack_cortex: (pid 19393) 10910s
+run: jack_telegram: (pid 20286) 2730s
+down: jack_autolearn: 295009s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+be92bbce fix: config_validator auf echte config.ini Struktur angepasst
+f2d451b0 fix: bridge indent, config get_param
+3ead8189 feat: circuit_breaker+secret_scanner+config_validator+/status
+4a90b9fb docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
+f1bafd41 fix: compile_ok import os lokal, test_kern robust
+ee40e230 fix: compile_ok os-Scope, intent-Test robust
+b6f106ab fix: compile_ok unterstützt file-singular, test_kern 7/7
+342f8508 fix: compile_ok prüft Datei-Existenz, Tests angepasst
+72f863da fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
+cc83d41e fix: jack_thermal_guard.py nachgeliefert
+44bc3822 feat: jack_thermal_guard + log_prune — Akku/Temp-Schutz in Analyzer+Autodoc
+ae1e669a feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
+b9e0acbb feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 bc6b09ca Update README.md
 873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
-5492a504 fix: Analyzer auf bare_except-only, version_autofix+logging archiviert
-3ea09e1d fix: selftest missions threshold fail<25, no_module_version FPs archiviert
-a2b35673 fix: FP-Missions archiviert, pending_approvals bereinigt, security/arch FPs entfernt
-335b2aef fix: bare except → except Exception in allen Modulen
-ed09393c fix: Ollama off-by-design kein false ERROR, hardcoded_path deaktiviert, send() fix
-b857dbfd fix: Analyzer Dedup auf done+fail+archive erweitert, FP-Missions final bereinigt
-3bf8208f fix: Analyzer Dedup gegen done+archive, 7/7 pytest grün, FP-Fails archiviert
-969c9c94 feat: jack_setup.sh + pytest tests/test_core.py — Industriestandard komplett
-8ac3f71f feat: jack_dep_map — Import-Graph 212 Module, 5 zirkuläre Imports erkannt
-282babc4 feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
-f041862f feat: jack_autodoc — Gemini schreibt Docstrings automatisch (staged)
-d178cc24 feat: jack_approval_digest + approve_all/reject_all, log_decision Shim, kein Timeout
-c4cd0073 feat: jack_log.py — zentraler Logger, Core-Module migriert, Rest via Missions
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
