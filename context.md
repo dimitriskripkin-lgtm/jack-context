@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-11T05:10:55.450215)
+# JACK LIVE-KONTEXT (auto, 2026-09-11T05:13:57.539400)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-11T05:10:55.439192
+Stand: 2026-09-11T05:13:57.526046
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -241,27 +241,27 @@ Stand: 2026-09-11T05:10:55.439192
 
 ## System-Status
 - Offene Fehler: 1
-- Erinnerungen: 12344
+- Erinnerungen: 12346
 - Dienste:
-run: jack_cortex: (pid 19393) 10910s
-run: jack_telegram: (pid 20286) 2730s
-down: jack_autolearn: 295009s
+run: jack_cortex: (pid 19393) 11092s
+run: jack_telegram: (pid 20286) 2912s
+down: jack_autolearn: 295191s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
-be92bbce fix: config_validator auf echte config.ini Struktur angepasst
-f2d451b0 fix: bridge indent, config get_param
-3ead8189 feat: circuit_breaker+secret_scanner+config_validator+/status
-4a90b9fb docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
-f1bafd41 fix: compile_ok import os lokal, test_kern robust
-ee40e230 fix: compile_ok os-Scope, intent-Test robust
-b6f106ab fix: compile_ok unterstützt file-singular, test_kern 7/7
-342f8508 fix: compile_ok prüft Datei-Existenz, Tests angepasst
-72f863da fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
-cc83d41e fix: jack_thermal_guard.py nachgeliefert
-44bc3822 feat: jack_thermal_guard + log_prune — Akku/Temp-Schutz in Analyzer+Autodoc
-ae1e669a feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
-b9e0acbb feat: jack_schema.py — Mission-Validation, in Runner eingebaut
+1177e4bf fix: config_validator auf echte config.ini Struktur angepasst
+e399c318 fix: bridge indent, config get_param
+73dc7d1d feat: circuit_breaker+secret_scanner+config_validator+/status
+036d402c docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
+63aaefeb fix: compile_ok import os lokal, test_kern robust
+b4be5ec3 fix: compile_ok os-Scope, intent-Test robust
+ea3abf1a fix: compile_ok unterstützt file-singular, test_kern 7/7
+0da0a6a0 fix: compile_ok prüft Datei-Existenz, Tests angepasst
+36b21321 fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
+5f804375 fix: jack_thermal_guard.py nachgeliefert
+69ea8dad feat: jack_thermal_guard + log_prune — Akku/Temp-Schutz in Analyzer+Autodoc
+525e4638 feat: jack_gemini_cache.py — Context Caching, Budget-Schutz
+21c2848a feat: jack_schema.py — Mission-Validation, in Runner eingebaut
 bc6b09ca Update README.md
 873b9742 fix: Analyzer bare_except-only, FP-Kategorien final bereinigt, Score 100% stabil
 
