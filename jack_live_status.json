@@ -1,5 +1,5 @@
 {
-  "ts": "2026-09-14T12:00:00",
+  "ts": "2026-09-14T15:00:01",
   "missions": {
     "done": 23,
     "fail": 0,
@@ -7,11 +7,11 @@
   },
   "heartbeats": {
     "jack_missions": "15s ago",
-    "jack_autolearn": "951388s ago",
-    "jack_publisher": "951075s ago",
-    "jack_waechter": "12s ago",
-    "jack_cortex": "25s ago",
-    "jack_telegram": "3s ago"
+    "jack_autolearn": "962188s ago",
+    "jack_publisher": "961875s ago",
+    "jack_waechter": "78s ago",
+    "jack_cortex": "58s ago",
+    "jack_telegram": "2s ago"
   },
   "open_fails": [],
   "budget": {
