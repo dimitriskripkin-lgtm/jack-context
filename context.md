@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-09-11T05:35:01.619381)
+# JACK LIVE-KONTEXT (auto, 2026-10-06T00:12:55.778085)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-09-11T05:35:01.608384
+Stand: 2026-10-06T00:12:55.767976
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,16 +13,16 @@ Stand: 2026-09-11T05:35:01.608384
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (233)
+## Aktive Module (210)
 - diag_full_dump.py
 - diag_snapshot.py
+- harness.py
 - jack_accessibility_listener.py
 - jack_activity_logger.py
+- jack_acts.py
 - jack_adb_heal.py
 - jack_agent.py
 - jack_android.py
-- jack_anomaly.py
-- jack_apk_lab.py
 - jack_approval.py
 - jack_approval_digest.py
 - jack_ast_gate.py
@@ -34,9 +34,7 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_autofixer_shadow.py
 - jack_autolearn_loop.py
 - jack_autonomous.py
-- jack_backoff.py
 - jack_briefing.py
-- jack_briefing_cron.py
 - jack_budget.py
 - jack_budget_status.py
 - jack_bug_fixer.py
@@ -54,29 +52,24 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_code_writer.py
 - jack_coder.py
 - jack_config.py
-- jack_config_validator.py
-- jack_consolidate.py
 - jack_context_compress.py
 - jack_context_ingest.py
 - jack_corr.py
 - jack_cortex.py
 - jack_critic.py
 - jack_curiosity.py
-- jack_dash.py
 - jack_db_optimizer.py
 - jack_db_queue.py
 - jack_deadletter.py
-- jack_deadman.py
 - jack_degraded.py
 - jack_delta.py
 - jack_dep_map.py
-- jack_dm_gate.py
 - jack_episoden.py
+- jack_error_door.py
 - jack_error_to_rule.py
 - jack_errors_status.py
 - jack_exec.py
 - jack_exec_parser.py
-- jack_explain_last.py
 - jack_explorer.py
 - jack_explorer_deep.py
 - jack_faehigkeiten.py
@@ -92,7 +85,6 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_groq_bridge.py
 - jack_guard.py
 - jack_haliza.py
-- jack_handshake_gen.py
 - jack_harvest.py
 - jack_harvest_lernen.py
 - jack_hb_alarm.py
@@ -109,22 +101,18 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_intent_lookup.py
 - jack_intent_parser.py
 - jack_karte.py
-- jack_karte_loop.py
 - jack_keyboards.py
 - jack_learn.py
 - jack_lerner.py
 - jack_live_bridge.py
 - jack_log.py
-- jack_log_rotate.py
 - jack_logging.py
 - jack_lokal.py
 - jack_loop.py
 - jack_math.py
 - jack_mcp_server.py
 - jack_memory.py
-- jack_memory_maintenance.py
 - jack_memory_pruning.py
-- jack_memory_stale.py
 - jack_memory_tree.py
 - jack_mission_gen.py
 - jack_mission_prioritizer.py
@@ -132,13 +120,11 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_mission_queue.py
 - jack_mission_run.py
 - jack_mission_runner.py
-- jack_mission_sync.py
 - jack_missions.py
 - jack_monitor.py
 - jack_nav_learn.py
 - jack_navi.py
 - jack_nc.py
-- jack_net_discover.py
 - jack_observer.py
 - jack_ollama_gate.py
 - jack_operator.py
@@ -147,21 +133,21 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_outcome.py
 - jack_outcome_tracker.py
 - jack_overmind_client.py
-- jack_overmind_state.py
 - jack_patch.py
 - jack_patch_memory.py
 - jack_personality.py
 - jack_planner.py
+- jack_pruefstand.py
 - jack_publish.py
 - jack_publisher_loop.py
 - jack_queue.py
 - jack_queue_gate.py
 - jack_quota.py
+- jack_qwen_client.py
 - jack_radar.py
 - jack_react.py
-- jack_read_curl.py
+- jack_read_door.py
 - jack_reflexion.py
-- jack_rhythm.py
 - jack_router.py
 - jack_sanity.py
 - jack_scheduler.py
@@ -170,9 +156,7 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_scout.py
 - jack_screen_mapper.py
 - jack_screen_tracker.py
-- jack_seal.py
-- jack_seal_night.py
-- jack_secret_scanner.py
+- jack_sehen.py
 - jack_self_audit.py
 - jack_self_improve.py
 - jack_selfsee.py
@@ -186,12 +170,10 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_skills.py
 - jack_skills_db.py
 - jack_snapshot.py
-- jack_staged_preview.py
+- jack_stand.py
 - jack_state.py
-- jack_status_report.py
 - jack_stress.py
 - jack_subagent.py
-- jack_system_tools.py
 - jack_talk.py
 - jack_talk_contract.py
 - jack_talk_trainer.py
@@ -200,16 +182,11 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_thermal.py
 - jack_thermal_guard.py
 - jack_traceback.py
-- jack_tuev2.py
 - jack_tuev3.py
-- jack_tuev4.py
-- jack_tuev5.py
-- jack_tuev6.py
-- jack_tuev7.py
+- jack_tun.py
 - jack_ui.py
 - jack_ui_agent.py
 - jack_ui_elements.py
-- jack_ui_learn.py
 - jack_ui_nav.py
 - jack_ui_read.py
 - jack_ui_session.py
@@ -228,9 +205,9 @@ Stand: 2026-09-11T05:35:01.608384
 - jack_voice_processor.py
 - jack_voice_router.py
 - jack_voraussetzung.py
-- jack_web_agent.py
 - jack_web_ingest.py
 - jack_whisper_async.py
+- jack_whitelist_guard.py
 - jack_wissen_ernte.py
 - jack_wissen_tief.py
 - jack_workers.py
@@ -245,34 +222,35 @@ Stand: 2026-09-11T05:35:01.608384
 - kortex_controller.py
 - kortex_memory.py
 - kortex_profile_updater.py
-- kortex_sensor_daemon.py
+- patch_template.py
 - wirkungs_check.py
 
 ## System-Status
-- Offene Fehler: 1
-- Erinnerungen: 12355
+- Offene Fehler: 0
+- Erinnerungen: 9446
 - Dienste:
-run: jack_cortex: (pid 19393) 12356s
-run: jack_telegram: (pid 20286) 4176s
-down: jack_autolearn: 296455s
+run: jack_cortex: (pid 28099) 563426s
+run: jack_telegram: (pid 8663) 68s
+run: jack_autolearn: (pid 6518) 17949s; warning: jack_autolearn/log: unable to open supervise/ok: file does not exist
+run: log: (pid 6518) 17949s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
-f7cadb0f Laufzeitzustand aus dem Index entfernt (bleibt lokal)
-4796c337 Aufraeumen: alte Staged-Vorschlaege raus, Laufzeitzustand aus dem Index
-a929a42a Haertung 01.-11.09.: Soll-Listen konsistent, Health ehrlich, Groq-Limit diagnostiziert
-b75ca8b3 fix: talk Groq-fail→Ollama direkt, nie Gemini für TALK-Lane
-3260b8ee fix: persona kern 2.9KB, talk→kern.md, trainer 8KB-Limit
-835b5146 fix: config_validator auf echte config.ini Struktur angepasst
-3d221689 fix: bridge indent, config get_param
-78ceb8f4 feat: circuit_breaker+secret_scanner+config_validator+/status
-1afdcad5 docs: zirkuläre Imports als lazy/safe dokumentiert — kein Fix nötig
-fd409161 fix: compile_ok import os lokal, test_kern robust
-e3535c53 fix: compile_ok os-Scope, intent-Test robust
-73a4ef70 fix: compile_ok unterstützt file-singular, test_kern 7/7
-4382b001 fix: compile_ok prüft Datei-Existenz, Tests angepasst
-00d93fa5 fix: Thermal-Guard MAX_TEMP 45→62C (Honor Normalbetrieb)
-74e90ac6 fix: jack_thermal_guard.py nachgeliefert
+80381c70 fix: Plan in Telegram als JSON, Intent im Planer
+52efc128 v35: plan_try/skill_confirm Skill-Werkstatt (JACK_TUNE_PLANTRY)
+8008b0d7 Stoppwort-Filter vor jack_read_door-Suche - Fallback jetzt live bewiesen (Gefunden (graph): Frau: Natascha)
+e467195f jack_read_door als letzten Fallback in _tools() eingebaut - zweite echte Aufrufstelle der neuen Tueren
+6d46e00a xiaomi_ssh_check nutzt jetzt jack_xiaomi.ssh() - erste echte Aufrufstelle der neuen Xiaomi-Tuer
+1f94fa69 /acts Chat-Befehl: eigenen Bug gefixt (String statt Liste sortiert), zeigt jetzt echte Act-Namen
+1f9c9e39 feat: Telegram kann die Act-Liste lesen
+1807802e feat: Kommando vor Tippen
+2708fd9f feat: Bedienbaum zuerst, Foto nur wenn leer
+531975d6 feat: Xiaomi-Tuer meldet weg statt Fehler
+53bd3ee1 feat: Xiaomi-Tuer, Lese-Tuer, Fehler-Tuer, zwei Prinzipien
+a62faa78 feat: MCP schreibt Herzschlag
+89ab8585 docs: Kontrolle-first statt Offline-first
+0ae58bee feat: Focus-Monitor schreibt Herzschlag
+24624ac5 feat: MCP und describe_system lesen jack_acts
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -305,4 +283,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute 0/40 vis 0/8 tok 0 eur 0.00/3
+Heute 0/300 vis 0/40 tok 0 eur 0.00/3
