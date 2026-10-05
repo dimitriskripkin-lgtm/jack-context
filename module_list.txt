@@ -120,7 +120,7 @@
 -rw-------. 1 u0_a400 u0_a400  3132 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_patch.py
 -rw-------. 1 u0_a400 u0_a400  4193 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_patch_memory.py
 -rw-------. 1 u0_a400 u0_a400 11175 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_personality.py
--rw-------. 1 u0_a400 u0_a400  5145 Oct  6 00:04 /data/data/com.termux/files/home/jack/jack_planner.py
+-rw-------. 1 u0_a400 u0_a400  5471 Oct  6 00:13 /data/data/com.termux/files/home/jack/jack_planner.py
 -rw-------. 1 u0_a400 u0_a400  5460 Oct  5 12:56 /data/data/com.termux/files/home/jack/jack_pruefstand.py
 -rw-------. 1 u0_a400 u0_a400  4548 Aug 26 15:22 /data/data/com.termux/files/home/jack/jack_publish.py
 -rw-------. 1 u0_a400 u0_a400   408 Aug 23 15:38 /data/data/com.termux/files/home/jack/jack_publisher_loop.py

@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-06T00:12:55.778085)
+# JACK LIVE-KONTEXT (auto, 2026-10-06T01:20:57.190925)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-06T00:12:55.767976
+Stand: 2026-10-06T01:20:57.179225
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -227,15 +227,16 @@ Stand: 2026-10-06T00:12:55.767976
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 9446
+- Erinnerungen: 9450
 - Dienste:
-run: jack_cortex: (pid 28099) 563426s
-run: jack_telegram: (pid 8663) 68s
-run: jack_autolearn: (pid 6518) 17949s; warning: jack_autolearn/log: unable to open supervise/ok: file does not exist
-run: log: (pid 6518) 17949s
+run: jack_cortex: (pid 28099) 567508s
+run: jack_telegram: (pid 8663) 4150s
+run: jack_autolearn: (pid 6518) 22031s; warning: jack_autolearn/log: unable to open supervise/ok: file does not exist
+run: log: (pid 6518) 22031s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+66f25c19 feat: Plan kann nach oben wischen, ohne PIN
 80381c70 fix: Plan in Telegram als JSON, Intent im Planer
 52efc128 v35: plan_try/skill_confirm Skill-Werkstatt (JACK_TUNE_PLANTRY)
 8008b0d7 Stoppwort-Filter vor jack_read_door-Suche - Fallback jetzt live bewiesen (Gefunden (graph): Frau: Natascha)
@@ -250,7 +251,6 @@ e467195f jack_read_door als letzten Fallback in _tools() eingebaut - zweite echt
 a62faa78 feat: MCP schreibt Herzschlag
 89ab8585 docs: Kontrolle-first statt Offline-first
 0ae58bee feat: Focus-Monitor schreibt Herzschlag
-24624ac5 feat: MCP und describe_system lesen jack_acts
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
