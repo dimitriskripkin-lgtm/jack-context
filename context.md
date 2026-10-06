@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-06T19:16:56.974225)
+# JACK LIVE-KONTEXT (auto, 2026-10-06T19:19:59.046790)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-06T19:16:56.961242
+Stand: 2026-10-06T19:19:59.030690
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -227,14 +227,15 @@ Stand: 2026-10-06T19:16:56.961242
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 9642
+- Erinnerungen: 9643
 - Dienste:
-run: jack_cortex: (pid 28518) 20568s
-run: jack_telegram: (pid 4691) 1694s
-down: jack_autolearn: 17039s, normally up; down: log: 0s, normally up, want up
+run: jack_cortex: (pid 28518) 20751s
+run: jack_telegram: (pid 4691) 1877s
+down: jack_autolearn: 17222s, normally up; down: log: 1s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+f92f5350 v38: Skill-Werkstatt Stufe 2 (skill_run), SKILLFIX/SKILLFIX2, su-Fallback-Fix
 af306116 v37: PLANGATE (exec-Filter fuer [[PLAN]]), PLAYBACK-Protokoll, Skill-Werkstatt (12 Skills), CLEARTASK, Betriebshandbuch-Nachzug
 2a7cb2d2 v36: Xiaomi-IP-Fix, SSHSYNC in find_xiaomi(), tote Threads raus (JACK_TUNE_DEADTHREADS)
 66f25c19 feat: Plan kann nach oben wischen, ohne PIN
@@ -249,7 +250,6 @@ e467195f jack_read_door als letzten Fallback in _tools() eingebaut - zweite echt
 2708fd9f feat: Bedienbaum zuerst, Foto nur wenn leer
 531975d6 feat: Xiaomi-Tuer meldet weg statt Fehler
 53bd3ee1 feat: Xiaomi-Tuer, Lese-Tuer, Fehler-Tuer, zwei Prinzipien
-a62faa78 feat: MCP schreibt Herzschlag
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
