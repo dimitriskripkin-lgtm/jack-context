@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-06T18:52:40.629896)
+# JACK LIVE-KONTEXT (auto, 2026-10-06T18:55:42.776549)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-06T18:52:40.613908
+Stand: 2026-10-06T18:55:42.763273
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -229,12 +229,13 @@ Stand: 2026-10-06T18:52:40.613908
 - Offene Fehler: 0
 - Erinnerungen: 9583
 - Dienste:
-run: jack_cortex: (pid 28518) 19112s
-run: jack_telegram: (pid 4691) 238s
-down: jack_autolearn: 15583s, normally up; down: log: 0s, normally up, want up
+run: jack_cortex: (pid 28518) 19294s
+run: jack_telegram: (pid 4691) 420s
+down: jack_autolearn: 15765s, normally up; down: log: 0s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+af306116 v37: PLANGATE (exec-Filter fuer [[PLAN]]), PLAYBACK-Protokoll, Skill-Werkstatt (12 Skills), CLEARTASK, Betriebshandbuch-Nachzug
 2a7cb2d2 v36: Xiaomi-IP-Fix, SSHSYNC in find_xiaomi(), tote Threads raus (JACK_TUNE_DEADTHREADS)
 66f25c19 feat: Plan kann nach oben wischen, ohne PIN
 80381c70 fix: Plan in Telegram als JSON, Intent im Planer
@@ -249,7 +250,6 @@ e467195f jack_read_door als letzten Fallback in _tools() eingebaut - zweite echt
 531975d6 feat: Xiaomi-Tuer meldet weg statt Fehler
 53bd3ee1 feat: Xiaomi-Tuer, Lese-Tuer, Fehler-Tuer, zwei Prinzipien
 a62faa78 feat: MCP schreibt Herzschlag
-89ab8585 docs: Kontrolle-first statt Offline-first
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
