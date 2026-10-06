@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-06T19:44:15.591341)
+# JACK LIVE-KONTEXT (auto, 2026-10-06T19:47:17.824480)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-06T19:44:15.579526
+Stand: 2026-10-06T19:47:17.806254
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -227,14 +227,15 @@ Stand: 2026-10-06T19:44:15.579526
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 9703
+- Erinnerungen: 9708
 - Dienste:
-run: jack_cortex: (pid 28518) 22207s
-run: jack_telegram: (pid 4691) 3333s
-down: jack_autolearn: 18678s, normally up; down: log: 1s, normally up, want up
+run: jack_cortex: (pid 28518) 22389s
+run: jack_telegram: (pid 4691) 3515s
+down: jack_autolearn: 18860s, normally up; down: log: 1s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+17934d30 fix: URL und App-Schliessen durch die Root-Tuer
 d6d9976b fix: offizieller Xiaomi-Weg ist Root, Pruefung zeigt uid 0
 c0113895 fix: Einstellungsseite immer mit Root, nicht erst im Notbehelf
 f92f5350 v38: Skill-Werkstatt Stufe 2 (skill_run), SKILLFIX/SKILLFIX2, su-Fallback-Fix
@@ -249,7 +250,6 @@ e467195f jack_read_door als letzten Fallback in _tools() eingebaut - zweite echt
 1f94fa69 /acts Chat-Befehl: eigenen Bug gefixt (String statt Liste sortiert), zeigt jetzt echte Act-Namen
 1f9c9e39 feat: Telegram kann die Act-Liste lesen
 1807802e feat: Kommando vor Tippen
-2708fd9f feat: Bedienbaum zuerst, Foto nur wenn leer
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
