@@ -167,7 +167,7 @@
 -rw-------. 1 u0_a400 u0_a400  1733 Sep 14 13:26 /data/data/com.termux/files/home/jack/jack_thermal_guard.py
 -rw-------. 1 u0_a400 u0_a400  3155 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_traceback.py
 -rw-------. 1 u0_a400 u0_a400  7671 Sep 14 05:22 /data/data/com.termux/files/home/jack/jack_tuev3.py
--rw-------. 1 u0_a400 u0_a400   702 Oct  6 16:54 /data/data/com.termux/files/home/jack/jack_tun.py
+-rw-------. 1 u0_a400 u0_a400  1109 Oct  6 19:31 /data/data/com.termux/files/home/jack/jack_tun.py
 -rw-------. 1 u0_a400 u0_a400  2594 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_ui.py
 -rw-------. 1 u0_a400 u0_a400  6376 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_ui_agent.py
 -rw-------. 1 u0_a400 u0_a400 10123 Sep 14 05:24 /data/data/com.termux/files/home/jack/jack_ui_elements.py
