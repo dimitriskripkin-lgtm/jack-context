@@ -69,6 +69,7 @@
 -rw-------. 1 u0_a400 u0_a400  5291 Sep 14 16:11 /data/data/com.termux/files/home/jack/jack_groq_bridge.py
 -rw-------. 1 u0_a400 u0_a400  5398 Sep  1 05:23 /data/data/com.termux/files/home/jack/jack_guard.py
 -rw-------. 1 u0_a400 u0_a400  9529 Sep 11 08:43 /data/data/com.termux/files/home/jack/jack_haliza.py
+-rw-------. 1 u0_a400 u0_a400  5313 Oct  7 15:37 /data/data/com.termux/files/home/jack/jack_handbuch_gate.py
 -rw-------. 1 u0_a400 u0_a400  5581 Sep  1 05:24 /data/data/com.termux/files/home/jack/jack_harvest.py
 -rw-------. 1 u0_a400 u0_a400  2176 Sep 22 03:36 /data/data/com.termux/files/home/jack/jack_harvest_lernen.py
 -rw-------. 1 u0_a400 u0_a400  1195 Sep 12 14:04 /data/data/com.termux/files/home/jack/jack_hb_alarm.py
@@ -94,7 +95,7 @@
 -rw-------. 1 u0_a400 u0_a400  4645 Sep 11 10:14 /data/data/com.termux/files/home/jack/jack_lokal.py
 -rw-------. 1 u0_a400 u0_a400  3175 Sep 14 05:18 /data/data/com.termux/files/home/jack/jack_loop.py
 -rw-------. 1 u0_a400 u0_a400  3078 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_math.py
--rw-------. 1 u0_a400 u0_a400 12972 Oct  5 13:35 /data/data/com.termux/files/home/jack/jack_mcp_server.py
+-rw-------. 1 u0_a400 u0_a400 14449 Oct  7 15:38 /data/data/com.termux/files/home/jack/jack_mcp_server.py
 -rw-------. 1 u0_a400 u0_a400  2173 Sep 17 16:20 /data/data/com.termux/files/home/jack/jack_memory.py
 -rw-------. 1 u0_a400 u0_a400  2398 Aug 21 07:41 /data/data/com.termux/files/home/jack/jack_memory_pruning.py
 -rw-------. 1 u0_a400 u0_a400  6796 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_memory_tree.py
