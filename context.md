@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-08T17:19:14.830180)
+# JACK LIVE-KONTEXT (auto, 2026-10-08T17:21:40.816989)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-08T17:19:14.819289
+Stand: 2026-10-08T17:21:40.808660
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,11 +13,8 @@ Stand: 2026-10-08T17:19:14.819289
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (216)
-- diag_full_dump.py
+## Aktive Module (197)
 - diag_snapshot.py
-- harness.py
-- jack_accessibility_listener.py
 - jack_activity_logger.py
 - jack_acts.py
 - jack_adb_heal.py
@@ -29,7 +26,6 @@ Stand: 2026-10-08T17:19:14.819289
 - jack_ast_gate.py
 - jack_audit.py
 - jack_audit_run.py
-- jack_aufraeumen.py
 - jack_auto_ingest.py
 - jack_autodoc.py
 - jack_autofixer_shadow.py
@@ -41,7 +37,6 @@ Stand: 2026-10-08T17:19:14.819289
 - jack_bug_fixer.py
 - jack_bugfix_loop.py
 - jack_callback_handler.py
-- jack_calltest.py
 - jack_chains.py
 - jack_changelog.py
 - jack_chat_router.py
@@ -97,7 +92,6 @@ Stand: 2026-10-08T17:19:14.819289
 - jack_hey.py
 - jack_improve.py
 - jack_inbox.py
-- jack_install.py
 - jack_intent.py
 - jack_intent_apps.py
 - jack_intent_lookup.py
@@ -125,22 +119,17 @@ Stand: 2026-10-08T17:19:14.819289
 - jack_mission_runner.py
 - jack_missions.py
 - jack_monitor.py
-- jack_nav_learn.py
-- jack_navi.py
 - jack_nc.py
 - jack_observer.py
 - jack_ollama_gate.py
 - jack_operator.py
 - jack_oracle.py
-- jack_orchestrator.py
 - jack_outcome.py
 - jack_outcome_tracker.py
 - jack_overmind_client.py
 - jack_patch.py
 - jack_patch_memory.py
-- jack_personality.py
 - jack_planner.py
-- jack_pruefstand.py
 - jack_publish.py
 - jack_publisher_loop.py
 - jack_pyflakes_lauf.py
@@ -149,19 +138,15 @@ Stand: 2026-10-08T17:19:14.819289
 - jack_quota.py
 - jack_qwen_client.py
 - jack_radar.py
-- jack_react.py
 - jack_read_door.py
 - jack_reflexion.py
 - jack_router.py
 - jack_sandbox.py
 - jack_sanity.py
 - jack_scheduler.py
-- jack_schema.py
 - jack_score_avg.py
 - jack_scout.py
 - jack_screen_mapper.py
-- jack_screen_tracker.py
-- jack_sehen.py
 - jack_self_audit.py
 - jack_self_improve.py
 - jack_selfsee.py
@@ -184,7 +169,6 @@ Stand: 2026-10-08T17:19:14.819289
 - jack_talk_trainer.py
 - jack_telegram.py
 - jack_telemetry.py
-- jack_testbed.py
 - jack_thermal.py
 - jack_thermal_guard.py
 - jack_traceback.py
@@ -201,10 +185,8 @@ Stand: 2026-10-08T17:19:14.819289
 - jack_verify_gate.py
 - jack_vinted_radar.py
 - jack_vision.py
-- jack_vision_once.py
 - jack_vision_selector.py
 - jack_voice.py
-- jack_voice_chat_live.py
 - jack_voice_el.py
 - jack_voice_handler.py
 - jack_voice_live.py
@@ -228,16 +210,15 @@ Stand: 2026-10-08T17:19:14.819289
 - kortex_controller.py
 - kortex_memory.py
 - kortex_profile_updater.py
-- patch_template.py
 - wirkungs_check.py
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 10199
+- Erinnerungen: 10204
 - Dienste:
-run: jack_cortex: (pid 13459) 4502s
-run: jack_telegram: (pid 13384) 4504s
-run: jack_autolearn: (pid 7906) 3229s; down: log: 0s, normally up, want up
+run: jack_cortex: (pid 15850) 9s
+run: jack_telegram: (pid 15695) 12s
+run: jack_autolearn: (pid 16092) 2s; down: log: 0s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
