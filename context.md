@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-08T16:45:40.420048)
+# JACK LIVE-KONTEXT (auto, 2026-10-08T16:48:43.486185)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-08T16:45:40.408172
+Stand: 2026-10-08T16:48:43.475075
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -233,14 +233,15 @@ Stand: 2026-10-08T16:45:40.408172
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 10177
+- Erinnerungen: 10181
 - Dienste:
-run: jack_cortex: (pid 13459) 2488s
-run: jack_telegram: (pid 13384) 2490s
-run: jack_autolearn: (pid 7906) 1215s; down: log: 1s, normally up, want up
+run: jack_cortex: (pid 13459) 2671s
+run: jack_telegram: (pid 13384) 2673s
+run: jack_autolearn: (pid 7906) 1398s; down: log: 0s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+594a9b8f Telemetrie-Sampler (Honor+Xiaomi), Handbuch 245
 37f514a4 Feste Xiaomi-IP Fallbacks entfernt: autonomous ollama_gate screen_mapper cmd_crawler
 e5740bcb Lade-Ton: Vibration und Sprache unter 15 Prozent, Handbuch 243
 31ba8e18 Gateway Schnellpfad in run_shell, Handbuch 244
@@ -255,7 +256,6 @@ fb0ce252 feat: Lage in einem Rutsch, Wahl und Nachricht nur vorbereiten
 d6d9976b fix: offizieller Xiaomi-Weg ist Root, Pruefung zeigt uid 0
 c0113895 fix: Einstellungsseite immer mit Root, nicht erst im Notbehelf
 f92f5350 v38: Skill-Werkstatt Stufe 2 (skill_run), SKILLFIX/SKILLFIX2, su-Fallback-Fix
-af306116 v37: PLANGATE (exec-Filter fuer [[PLAN]]), PLAYBACK-Protokoll, Skill-Werkstatt (12 Skills), CLEARTASK, Betriebshandbuch-Nachzug
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
