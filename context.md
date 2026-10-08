@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-08T13:12:59.718955)
+# JACK LIVE-KONTEXT (auto, 2026-10-08T13:16:01.832836)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-08T13:12:59.705320
+Stand: 2026-10-08T13:16:01.818791
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -234,12 +234,13 @@ Stand: 2026-10-08T13:12:59.705320
 - Offene Fehler: 0
 - Erinnerungen: 9967
 - Dienste:
-run: jack_cortex: (pid 26690) 7943s
-run: jack_telegram: (pid 26783) 7940s
-run: jack_autolearn: (pid 12402) 10060s; down: log: 1s, normally up, want up
+run: jack_cortex: (pid 26690) 8125s
+run: jack_telegram: (pid 26783) 8122s
+run: jack_autolearn: (pid 12402) 10242s; down: log: 0s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+1b179244 Arbeitsplatz, Kanal, Pruefstand, Xiaomi-IP-Findung, Handbuch 231-240
 debb6ac1 feat: Sandbox uebt nur neben dem Kern
 fb0ce252 feat: Lage in einem Rutsch, Wahl und Nachricht nur vorbereiten
 16ec0318 fix: Telegram /ssh zu, kein Rohbefehl ans Xiaomi
@@ -254,7 +255,6 @@ af306116 v37: PLANGATE (exec-Filter fuer [[PLAN]]), PLAYBACK-Protokoll, Skill-We
 52efc128 v35: plan_try/skill_confirm Skill-Werkstatt (JACK_TUNE_PLANTRY)
 8008b0d7 Stoppwort-Filter vor jack_read_door-Suche - Fallback jetzt live bewiesen (Gefunden (graph): Frau: Natascha)
 e467195f jack_read_door als letzten Fallback in _tools() eingebaut - zweite echte Aufrufstelle der neuen Tueren
-6d46e00a xiaomi_ssh_check nutzt jetzt jack_xiaomi.ssh() - erste echte Aufrufstelle der neuen Xiaomi-Tuer
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
