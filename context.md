@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-08T13:49:27.329627)
+# JACK LIVE-KONTEXT (auto, 2026-10-08T13:52:29.520952)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-08T13:49:27.316184
+Stand: 2026-10-08T13:52:29.508267
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -232,14 +232,15 @@ Stand: 2026-10-08T13:49:27.316184
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 10009
+- Erinnerungen: 10020
 - Dienste:
-run: jack_cortex: (pid 26690) 10131s
-run: jack_telegram: (pid 26783) 10128s
-run: jack_autolearn: (pid 12402) 12248s; down: log: 1s, normally up, want up
+run: jack_cortex: (pid 26690) 10313s
+run: jack_telegram: (pid 26783) 10310s
+run: jack_autolearn: (pid 12402) 12430s; down: log: 0s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+6a0401db Stufe S git_publish, Auftrags-Schnittstelle, Handbuch 242
 aae25c01 Stufe R: feste Lese-Acts (ro_*), Handbuch 241
 1b179244 Arbeitsplatz, Kanal, Pruefstand, Xiaomi-IP-Findung, Handbuch 231-240
 debb6ac1 feat: Sandbox uebt nur neben dem Kern
@@ -254,7 +255,6 @@ af306116 v37: PLANGATE (exec-Filter fuer [[PLAN]]), PLAYBACK-Protokoll, Skill-We
 66f25c19 feat: Plan kann nach oben wischen, ohne PIN
 80381c70 fix: Plan in Telegram als JSON, Intent im Planer
 52efc128 v35: plan_try/skill_confirm Skill-Werkstatt (JACK_TUNE_PLANTRY)
-8008b0d7 Stoppwort-Filter vor jack_read_door-Suche - Fallback jetzt live bewiesen (Gefunden (graph): Frau: Natascha)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
