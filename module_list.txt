@@ -201,7 +201,7 @@
 -rw-------. 1 u0_a400 u0_a400  5803 Aug 20 17:18 /data/data/com.termux/files/home/jack/jack_wissen_tief.py
 -rw-------. 1 u0_a400 u0_a400  5100 Sep 11 09:35 /data/data/com.termux/files/home/jack/jack_workers.py
 -rw-------. 1 u0_a400 u0_a400  3731 Sep 22 03:36 /data/data/com.termux/files/home/jack/jack_write.py
--rw-------. 1 u0_a400 u0_a400  8438 Oct  6 20:16 /data/data/com.termux/files/home/jack/jack_xiaomi.py
+-rw-------. 1 u0_a400 u0_a400  8929 Oct  8 15:34 /data/data/com.termux/files/home/jack/jack_xiaomi.py
 -rw-------. 1 u0_a400 u0_a400  1182 Aug 14 22:31 /data/data/com.termux/files/home/jack/jack_xiaomi_inspector.py
 -rw-------. 1 u0_a400 u0_a400  6868 Sep 14 05:25 /data/data/com.termux/files/home/jack/jack_xiaomi_think.py
 -rw-------. 1 u0_a400 u0_a400  1120 Aug 21 05:51 /data/data/com.termux/files/home/jack/jack_xiaomi_unlock.py
