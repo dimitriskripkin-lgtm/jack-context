@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-08T19:38:26.337996)
+# JACK LIVE-KONTEXT (auto, 2026-10-08T19:41:28.330195)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-08T19:38:26.325076
+Stand: 2026-10-08T19:41:28.317123
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -215,14 +215,15 @@ Stand: 2026-10-08T19:38:26.325076
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 10236
+- Erinnerungen: 10243
 - Dienste:
-run: jack_cortex: (pid 15850) 8215s
-run: jack_telegram: (pid 15695) 8218s
-run: jack_autolearn: (pid 16092) 8208s; down: log: 1s, normally up, want up
+run: jack_cortex: (pid 15850) 8397s
+run: jack_telegram: (pid 15695) 8400s
+run: jack_autolearn: (pid 16092) 8390s; down: log: 0s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+7e8d8c19 MCP-Rollen-Zugang (jack_mcp_auth), Handbuch 248, gitignore
 b0ff17e1 Ausduennung (Stufe 1+2), Modulkarte, Onboarding neu, Handbuch 246/247
 594a9b8f Telemetrie-Sampler (Honor+Xiaomi), Handbuch 245
 37f514a4 Feste Xiaomi-IP Fallbacks entfernt: autonomous ollama_gate screen_mapper cmd_crawler
@@ -237,7 +238,6 @@ fb0ce252 feat: Lage in einem Rutsch, Wahl und Nachricht nur vorbereiten
 16ec0318 fix: Telegram /ssh zu, kein Rohbefehl ans Xiaomi
 17934d30 fix: URL und App-Schliessen durch die Root-Tuer
 d6d9976b fix: offizieller Xiaomi-Weg ist Root, Pruefung zeigt uid 0
-c0113895 fix: Einstellungsseite immer mit Root, nicht erst im Notbehelf
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
