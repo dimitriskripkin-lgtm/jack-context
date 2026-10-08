@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-08T16:06:08.699841)
+# JACK LIVE-KONTEXT (auto, 2026-10-08T16:09:10.976807)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-08T16:06:08.687404
+Stand: 2026-10-08T16:09:10.959966
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -232,14 +232,15 @@ Stand: 2026-10-08T16:06:08.687404
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 10128
+- Erinnerungen: 10129
 - Dienste:
-run: jack_cortex: (pid 13459) 116s
-run: jack_telegram: (pid 13384) 118s
-run: jack_autolearn: (pid 13574) 109s; down: log: 0s, normally up, want up
+run: jack_cortex: (pid 13459) 298s
+run: jack_telegram: (pid 13384) 300s
+run: jack_autolearn: (pid 13574) 291s; down: log: 0s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+31ba8e18 Gateway Schnellpfad in run_shell, Handbuch 244
 8dbc8d1f Gateway: Schutzschalter in run_shell, Umbau talk heartbeat wirkungs_check gemini_bridge, Lade-Alarm, Handbuch 243-244
 6a0401db Stufe S git_publish, Auftrags-Schnittstelle, Handbuch 242
 aae25c01 Stufe R: feste Lese-Acts (ro_*), Handbuch 241
@@ -254,7 +255,6 @@ f92f5350 v38: Skill-Werkstatt Stufe 2 (skill_run), SKILLFIX/SKILLFIX2, su-Fallba
 af306116 v37: PLANGATE (exec-Filter fuer [[PLAN]]), PLAYBACK-Protokoll, Skill-Werkstatt (12 Skills), CLEARTASK, Betriebshandbuch-Nachzug
 2a7cb2d2 v36: Xiaomi-IP-Fix, SSHSYNC in find_xiaomi(), tote Threads raus (JACK_TUNE_DEADTHREADS)
 66f25c19 feat: Plan kann nach oben wischen, ohne PIN
-80381c70 fix: Plan in Telegram als JSON, Intent im Planer
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
