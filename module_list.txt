@@ -40,7 +40,7 @@
 -rw-------. 1 u0_a400 u0_a400  1268 Aug 14 15:31 /data/data/com.termux/files/home/jack/jack_context_compress.py
 -rw-------. 1 u0_a400 u0_a400  5212 Aug 17 19:13 /data/data/com.termux/files/home/jack/jack_context_ingest.py
 -rw-------. 1 u0_a400 u0_a400  1648 Sep 17 07:00 /data/data/com.termux/files/home/jack/jack_corr.py
--rwx------. 1 u0_a400 u0_a400 11408 Oct  6 13:33 /data/data/com.termux/files/home/jack/jack_cortex.py
+-rwx------. 1 u0_a400 u0_a400 12664 Oct  8 10:33 /data/data/com.termux/files/home/jack/jack_cortex.py
 -rw-------. 1 u0_a400 u0_a400   724 Aug 16 11:31 /data/data/com.termux/files/home/jack/jack_critic.py
 -rw-------. 1 u0_a400 u0_a400  2335 Sep 14 05:15 /data/data/com.termux/files/home/jack/jack_curiosity.py
 -rw-------. 1 u0_a400 u0_a400  3586 Aug 14 15:47 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
