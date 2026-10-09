@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-09T01:58:23.425754)
+# JACK LIVE-KONTEXT (auto, 2026-10-09T02:01:25.366321)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-09T01:58:23.413715
+Stand: 2026-10-09T02:01:25.350922
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -215,14 +215,15 @@ Stand: 2026-10-09T01:58:23.413715
 
 ## System-Status
 - Offene Fehler: 0
-- Erinnerungen: 10274
+- Erinnerungen: 10278
 - Dienste:
-run: jack_cortex: (pid 15850) 31012s
-run: jack_telegram: (pid 549) 44s
-run: jack_autolearn: (pid 9701) 12772s; down: log: 0s, normally up, want up
+run: jack_cortex: (pid 15850) 31194s
+run: jack_telegram: (pid 549) 226s
+run: jack_autolearn: (pid 9701) 12954s; down: log: 1s, normally up, want up
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+1114e265 Sicherheitsfixes: Telegram nur Dima, Inbox-Gate, Secret-Sperre, Nachtlauf-Rechte; Handbuch 249
 7e8d8c19 MCP-Rollen-Zugang (jack_mcp_auth), Handbuch 248, gitignore
 b0ff17e1 Ausduennung (Stufe 1+2), Modulkarte, Onboarding neu, Handbuch 246/247
 594a9b8f Telemetrie-Sampler (Honor+Xiaomi), Handbuch 245
@@ -237,7 +238,6 @@ debb6ac1 feat: Sandbox uebt nur neben dem Kern
 fb0ce252 feat: Lage in einem Rutsch, Wahl und Nachricht nur vorbereiten
 16ec0318 fix: Telegram /ssh zu, kein Rohbefehl ans Xiaomi
 17934d30 fix: URL und App-Schliessen durch die Root-Tuer
-d6d9976b fix: offizieller Xiaomi-Weg ist Root, Pruefung zeigt uid 0
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
