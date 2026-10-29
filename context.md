@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-09T02:19:59.705570)
+# JACK LIVE-KONTEXT (auto, 2026-10-29T05:22:15.443068)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-09T02:19:59.691492
+Stand: 2026-10-29T05:22:15.430129
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,39 +13,44 @@ Stand: 2026-10-09T02:19:59.691492
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (200)
+## Aktive Module (246)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
 - jack_adb_heal.py
+- jack_aenderung.py
 - jack_agent.py
 - jack_android.py
+- jack_app_sperre.py
 - jack_approval.py
 - jack_approval_digest.py
 - jack_arbeitsplatz.py
+- jack_arena.py
+- jack_arena_lerner.py
+- jack_arena_runner.py
+- jack_arena_sandbox.py
 - jack_ast_gate.py
 - jack_audit.py
-- jack_audit_run.py
 - jack_auto_ingest.py
 - jack_autodoc.py
 - jack_autofixer_shadow.py
 - jack_autolearn_loop.py
 - jack_autonomous.py
+- jack_befehle.py
 - jack_briefing.py
 - jack_budget.py
 - jack_budget_status.py
-- jack_bug_fixer.py
 - jack_bugfix_loop.py
 - jack_callback_handler.py
 - jack_chains.py
 - jack_changelog.py
 - jack_chat_router.py
+- jack_chrome_card.py
 - jack_circuit_breaker.py
 - jack_claude.py
 - jack_cmd_crawler.py
 - jack_cmd_handler.py
 - jack_code_analyzer.py
-- jack_code_writer.py
 - jack_coder.py
 - jack_config.py
 - jack_context_compress.py
@@ -53,16 +58,16 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_corr.py
 - jack_cortex.py
 - jack_critic.py
-- jack_curiosity.py
 - jack_db_optimizer.py
 - jack_db_queue.py
 - jack_deadletter.py
+- jack_deadman.py
 - jack_degraded.py
 - jack_delta.py
 - jack_dep_map.py
+- jack_dialog.py
 - jack_dima_sig.py
 - jack_episoden.py
-- jack_error_door.py
 - jack_error_to_rule.py
 - jack_errors_status.py
 - jack_exec.py
@@ -70,6 +75,9 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_explorer.py
 - jack_explorer_deep.py
 - jack_faehigkeiten.py
+- jack_fahrt_digest.py
+- jack_fahrtlage.py
+- jack_finish_verify.py
 - jack_focus_monitor.py
 - jack_freigabe.py
 - jack_gedanken.py
@@ -83,6 +91,7 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_guard.py
 - jack_haliza.py
 - jack_handbuch_gate.py
+- jack_handy.py
 - jack_harvest.py
 - jack_harvest_lernen.py
 - jack_hb_alarm.py
@@ -90,26 +99,34 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_health_monitor.py
 - jack_heartbeat.py
 - jack_heat_protection.py
+- jack_heute.py
 - jack_hey.py
+- jack_honor_diag.py
 - jack_improve.py
 - jack_inbox.py
 - jack_intent.py
 - jack_intent_apps.py
 - jack_intent_lookup.py
-- jack_intent_parser.py
 - jack_kanal.py
 - jack_karte.py
 - jack_keyboards.py
+- jack_klingel.py
+- jack_korrektur.py
+- jack_lagebild.py
 - jack_learn.py
 - jack_lerner.py
+- jack_linkinbox.py
 - jack_live_bridge.py
 - jack_log.py
 - jack_logging.py
+- jack_logrot.py
 - jack_lokal.py
 - jack_loop.py
 - jack_math.py
 - jack_mcp_auth.py
+- jack_mcp_oauth.py
 - jack_mcp_server.py
+- jack_melderegel.py
 - jack_memory.py
 - jack_memory_pruning.py
 - jack_memory_tree.py
@@ -120,7 +137,13 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_mission_run.py
 - jack_mission_runner.py
 - jack_missions.py
+- jack_modelmap.py
 - jack_monitor.py
+- jack_musik_gut.py
+- jack_muster.py
+- jack_n8n.py
+- jack_n8n_google.py
+- jack_n8n_youtube.py
 - jack_nc.py
 - jack_observer.py
 - jack_ollama_gate.py
@@ -131,6 +154,7 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_overmind_client.py
 - jack_patch.py
 - jack_patch_memory.py
+- jack_phone_senses.py
 - jack_planner.py
 - jack_publish.py
 - jack_publisher_loop.py
@@ -141,6 +165,7 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_qwen_client.py
 - jack_radar.py
 - jack_read_door.py
+- jack_recovery.py
 - jack_reflexion.py
 - jack_router.py
 - jack_safe_text.py
@@ -150,6 +175,8 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_score_avg.py
 - jack_scout.py
 - jack_screen_mapper.py
+- jack_selbstbild.py
+- jack_selbstmodell.py
 - jack_self_audit.py
 - jack_self_improve.py
 - jack_selfsee.py
@@ -158,26 +185,41 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_sensors.py
 - jack_skill_builder.py
 - jack_skill_lib.py
-- jack_skill_self_creation.py
 - jack_skill_trainer.py
+- jack_skillidee.py
 - jack_skills.py
 - jack_skills_db.py
 - jack_snapshot.py
+- jack_spotify.py
+- jack_spotify_oauth.py
+- jack_spotify_play.py
+- jack_spotify_s1.py
+- jack_spotify_s1_play.py
+- jack_spotify_top.py
 - jack_stand.py
 - jack_state.py
 - jack_stress.py
 - jack_subagent.py
+- jack_suche.py
 - jack_talk.py
+- jack_talk_arena.py
 - jack_talk_contract.py
+- jack_talk_judge.py
+- jack_talk_probe.py
 - jack_talk_trainer.py
+- jack_tasker.py
+- jack_tatenwahrheit.py
 - jack_telegram.py
 - jack_telemetry.py
+- jack_termin.py
+- jack_termin_parse.py
+- jack_tg_send.py
 - jack_thermal.py
 - jack_thermal_guard.py
 - jack_traceback.py
 - jack_tuev3.py
 - jack_tun.py
-- jack_ui.py
+- jack_tunnel_watch.py
 - jack_ui_agent.py
 - jack_ui_elements.py
 - jack_ui_nav.py
@@ -199,15 +241,19 @@ Stand: 2026-10-09T02:19:59.691492
 - jack_web_ingest.py
 - jack_whisper_async.py
 - jack_whitelist_guard.py
+- jack_wissen.py
 - jack_wissen_ernte.py
 - jack_wissen_tief.py
 - jack_workers.py
 - jack_write.py
 - jack_xiaomi.py
 - jack_xiaomi_inspector.py
+- jack_xiaomi_notaus.py
+- jack_xiaomi_ports.py
 - jack_xiaomi_think.py
 - jack_xiaomi_unlock.py
 - jack_xiaomi_web.py
+- jack_xibreaker.py
 - jack_yt_hybrid.py
 - jack_yt_sido.py
 - kortex_controller.py
@@ -216,30 +262,30 @@ Stand: 2026-10-09T02:19:59.691492
 - wirkungs_check.py
 
 ## System-Status
-- Offene Fehler: 0
-- Erinnerungen: 10355
+- Offene Fehler: 2
+- Erinnerungen: 7792
 - Dienste:
-run: jack_cortex: (pid 15317) 832s
-run: jack_telegram: (pid 27460) 262s
-run: jack_autolearn: (pid 9701) 14068s; down: log: 0s, normally up, want up
+run: jack_cortex: (pid 18379) 0s; run: log: (pid 18375) 0s
+run: jack_telegram: (pid 18378) 0s; run: log: (pid 18376) 0s
+run: jack_autolearn: (pid 18386) 0s; run: log: (pid 18385) 0s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
-d233104c Audit-Log aus Tracking
-b69045da Tiefenanalyse B1-B3 realpath Pfadcheck, Dima-Signatur fuer Freigaben, sichere input-text-Eingabe
-1114e265 Sicherheitsfixes: Telegram nur Dima, Inbox-Gate, Secret-Sperre, Nachtlauf-Rechte; Handbuch 249
-7e8d8c19 MCP-Rollen-Zugang (jack_mcp_auth), Handbuch 248, gitignore
-b0ff17e1 Ausduennung (Stufe 1+2), Modulkarte, Onboarding neu, Handbuch 246/247
-594a9b8f Telemetrie-Sampler (Honor+Xiaomi), Handbuch 245
-37f514a4 Feste Xiaomi-IP Fallbacks entfernt: autonomous ollama_gate screen_mapper cmd_crawler
-e5740bcb Lade-Ton: Vibration und Sprache unter 15 Prozent, Handbuch 243
-31ba8e18 Gateway Schnellpfad in run_shell, Handbuch 244
-8dbc8d1f Gateway: Schutzschalter in run_shell, Umbau talk heartbeat wirkungs_check gemini_bridge, Lade-Alarm, Handbuch 243-244
-6a0401db Stufe S git_publish, Auftrags-Schnittstelle, Handbuch 242
-aae25c01 Stufe R: feste Lese-Acts (ro_*), Handbuch 241
-1b179244 Arbeitsplatz, Kanal, Pruefstand, Xiaomi-IP-Findung, Handbuch 231-240
-debb6ac1 feat: Sandbox uebt nur neben dem Kern
-fb0ce252 feat: Lage in einem Rutsch, Wahl und Nachricht nur vorbereiten
+455f2454 JACK_TUNE_I23_PIN: Xiaomi-Hostkey gepinnt (Gateway)
+47fa9f9d MODULKARTE: Nachtrag Attic Runde 4
+e993569e Kap 272: svlogd fuer 4 Dienste (JACK_TUNE_SVLOG)
+5a9aaa48 Attic: 3 belegte Waisen (Runde 4)
+1b91df29 JACK_TUNE_GROKBRIEF: Grok-Briefkasten mit Telegram-Ja/Nein (Kap 308)
+bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
+1f0132b7 Merge pull request #2 from dimitriskripkin-lgtm/schreibrechte-action
+4a5e0c5a NAMEN: taegliche Action fuer den Schreibrechte-Verlauf
+2fb90751 Merge pull request #1 from dimitriskripkin-lgtm/schreibrechte-gedaechtnis
+4c7c374e NAMEN/Jack: Barclay-Persona freigegeben von Dimitri (28.10.2026)
+67e8e244 NAMEN/Jack: Barclay-Persona Wichtigkeit 5 (Dimas Ja 28.10.2026)
+cf41a317 NAMEN/Jack: Barclay-Persona als Erinnerung (Dimitris Anweisung 28.10.2026)
+b5bceb74 Inventur: SKILLFAILCLOSED (Skill-Shell gesperrt) + I15 Termin-Lock
+a78d9432 JACK_TUNE_FAHRTLAGE: Lagebild fuer Grok-Bot/Tesla ins private Repo jack-gedaechtnis (Kap 308)
+3085daa0 NAMEN: gemeinsames Gedaechtnis (gedaechtnis.py) + Uebernommene Ideen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -272,4 +318,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute 0/300 vis 0/40 tok 0 eur 0.00/3
+Heute 0/10000 vis 0/100 tok 0 eur 0.00/8.00
