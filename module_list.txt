@@ -75,7 +75,7 @@
 -rw-------. 1 u0_a400 u0_a400  5437 Oct 26 05:47 /data/data/com.termux/files/home/jack/jack_guard.py
 -rw-------. 1 u0_a400 u0_a400  9529 Sep 11 08:43 /data/data/com.termux/files/home/jack/jack_haliza.py
 -rw-------. 1 u0_a400 u0_a400  5959 Oct 19 05:56 /data/data/com.termux/files/home/jack/jack_handbuch_gate.py
--rw-------. 1 u0_a400 u0_a400 10831 Oct 22 02:13 /data/data/com.termux/files/home/jack/jack_handy.py
+-rw-------. 1 u0_a400 u0_a400 11311 Oct 29 16:46 /data/data/com.termux/files/home/jack/jack_handy.py
 -rw-------. 1 u0_a400 u0_a400  5581 Sep  1 05:24 /data/data/com.termux/files/home/jack/jack_harvest.py
 -rw-------. 1 u0_a400 u0_a400  2176 Sep 22 03:36 /data/data/com.termux/files/home/jack/jack_harvest_lernen.py
 -rw-------. 1 u0_a400 u0_a400  1195 Sep 12 14:04 /data/data/com.termux/files/home/jack/jack_hb_alarm.py
@@ -193,7 +193,7 @@
 -rw-------. 1 u0_a400 u0_a400  4031 Oct  7 16:29 /data/data/com.termux/files/home/jack/jack_talk_trainer.py
 -rw-------. 1 u0_a400 u0_a400  2614 Oct 21 08:16 /data/data/com.termux/files/home/jack/jack_tasker.py
 -rw-------. 1 u0_a400 u0_a400  4444 Oct 27 06:28 /data/data/com.termux/files/home/jack/jack_tatenwahrheit.py
--rw-------. 1 u0_a400 u0_a400 75162 Oct 28 14:24 /data/data/com.termux/files/home/jack/jack_telegram.py
+-rw-------. 1 u0_a400 u0_a400 75730 Oct 29 16:46 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  4603 Oct  9 16:35 /data/data/com.termux/files/home/jack/jack_telemetry.py
 -rw-------. 1 u0_a400 u0_a400  3800 Oct 28 13:29 /data/data/com.termux/files/home/jack/jack_termin.py
 -rw-------. 1 u0_a400 u0_a400  5084 Oct 27 10:21 /data/data/com.termux/files/home/jack/jack_termin_parse.py

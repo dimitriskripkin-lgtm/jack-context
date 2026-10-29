@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-29T16:45:03.542212)
+# JACK LIVE-KONTEXT (auto, 2026-10-29T16:48:05.973623)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-29T16:45:03.530203
+Stand: 2026-10-29T16:48:05.958080
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -263,14 +263,15 @@ Stand: 2026-10-29T16:45:03.530203
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7839
+- Erinnerungen: 7848
 - Dienste:
-run: jack_cortex: (pid 18379) 40968s; run: log: (pid 18375) 40968s
-run: jack_telegram: (pid 31582) 35016s; run: log: (pid 18376) 40968s
-run: jack_autolearn: (pid 29145) 23677s; run: log: (pid 18385) 40968s
+run: jack_cortex: (pid 18379) 41150s; run: log: (pid 18375) 41150s
+run: jack_telegram: (pid 15444) 96s; run: log: (pid 18376) 41150s
+run: jack_autolearn: (pid 29145) 23859s; run: log: (pid 18385) 41150s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+45e21bf9 Musik: Spotify play erreicht Spotify auch wenn YouTube die Taste hat; Freitext Spotify play -> /musik (JACK_TUNE_MUSIKVORNE/MUSIKFREI)
 c8ce9d0c W2 Backup: Sicherung + Probe-Restore + Kopie aufs Xiaomi (JACK_TUNE_BACKUP_W2)
 eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
 62ba513c JACK_TUNE_I23C_PIN: letzte 5 Xiaomi-SSH-Wege gepinnt
@@ -285,7 +286,6 @@ bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
 1f0132b7 Merge pull request #2 from dimitriskripkin-lgtm/schreibrechte-action
 4a5e0c5a NAMEN: taegliche Action fuer den Schreibrechte-Verlauf
 2fb90751 Merge pull request #1 from dimitriskripkin-lgtm/schreibrechte-gedaechtnis
-4c7c374e NAMEN/Jack: Barclay-Persona freigegeben von Dimitri (28.10.2026)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
