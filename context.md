@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-29T05:52:43.403309)
+# JACK LIVE-KONTEXT (auto, 2026-10-29T05:55:45.799438)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-29T05:52:43.381457
+Stand: 2026-10-29T05:55:45.783522
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -263,14 +263,15 @@ Stand: 2026-10-29T05:52:43.381457
 
 ## System-Status
 - Offene Fehler: 2
-- Erinnerungen: 7795
+- Erinnerungen: 7798
 - Dienste:
-run: jack_cortex: (pid 18379) 1828s; run: log: (pid 18375) 1828s
-run: jack_telegram: (pid 18378) 1828s; run: log: (pid 18376) 1828s
-run: jack_autolearn: (pid 18386) 1828s; run: log: (pid 18385) 1828s
+run: jack_cortex: (pid 18379) 2010s; run: log: (pid 18375) 2010s
+run: jack_telegram: (pid 18378) 2010s; run: log: (pid 18376) 2010s
+run: jack_autolearn: (pid 18386) 2010s; run: log: (pid 18385) 2010s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
 455f2454 JACK_TUNE_I23_PIN: Xiaomi-Hostkey gepinnt (Gateway)
 47fa9f9d MODULKARTE: Nachtrag Attic Runde 4
 e993569e Kap 272: svlogd fuer 4 Dienste (JACK_TUNE_SVLOG)
@@ -285,7 +286,6 @@ bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
 cf41a317 NAMEN/Jack: Barclay-Persona als Erinnerung (Dimitris Anweisung 28.10.2026)
 b5bceb74 Inventur: SKILLFAILCLOSED (Skill-Shell gesperrt) + I15 Termin-Lock
 a78d9432 JACK_TUNE_FAHRTLAGE: Lagebild fuer Grok-Bot/Tesla ins private Repo jack-gedaechtnis (Kap 308)
-3085daa0 NAMEN: gemeinsames Gedaechtnis (gedaechtnis.py) + Uebernommene Ideen
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
