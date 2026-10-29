@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-29T16:48:05.973623)
+# JACK LIVE-KONTEXT (auto, 2026-10-29T16:51:08.122146)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-29T16:48:05.958080
+Stand: 2026-10-29T16:51:08.107922
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -263,14 +263,15 @@ Stand: 2026-10-29T16:48:05.958080
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7848
+- Erinnerungen: 7855
 - Dienste:
-run: jack_cortex: (pid 18379) 41150s; run: log: (pid 18375) 41150s
-run: jack_telegram: (pid 15444) 96s; run: log: (pid 18376) 41150s
-run: jack_autolearn: (pid 29145) 23859s; run: log: (pid 18385) 41150s
+run: jack_cortex: (pid 18379) 41333s; run: log: (pid 18375) 41333s
+run: jack_telegram: (pid 19975) 24s; run: log: (pid 18376) 41333s
+run: jack_autolearn: (pid 29145) 24042s; run: log: (pid 18385) 41333s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+221a8668 Musik: YouTube gibt die Medientaste frei, wenn es nicht spielt (JACK_TUNE_MUSIKTASTE)
 45e21bf9 Musik: Spotify play erreicht Spotify auch wenn YouTube die Taste hat; Freitext Spotify play -> /musik (JACK_TUNE_MUSIKVORNE/MUSIKFREI)
 c8ce9d0c W2 Backup: Sicherung + Probe-Restore + Kopie aufs Xiaomi (JACK_TUNE_BACKUP_W2)
 eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
@@ -285,7 +286,6 @@ e993569e Kap 272: svlogd fuer 4 Dienste (JACK_TUNE_SVLOG)
 bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
 1f0132b7 Merge pull request #2 from dimitriskripkin-lgtm/schreibrechte-action
 4a5e0c5a NAMEN: taegliche Action fuer den Schreibrechte-Verlauf
-2fb90751 Merge pull request #1 from dimitriskripkin-lgtm/schreibrechte-gedaechtnis
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
