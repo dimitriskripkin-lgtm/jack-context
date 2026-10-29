@@ -21,7 +21,7 @@
 -rw-------. 1 u0_a400 u0_a400 18831 Oct 28 13:29 /data/data/com.termux/files/home/jack/jack_autolearn_loop.py
 -rw-------. 1 u0_a400 u0_a400 37886 Oct 28 10:56 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  3160 Oct 24 14:13 /data/data/com.termux/files/home/jack/jack_befehle.py
--rw-------. 1 u0_a400 u0_a400  5740 Oct 21 09:38 /data/data/com.termux/files/home/jack/jack_briefing.py
+-rw-------. 1 u0_a400 u0_a400  6369 Oct 29 07:56 /data/data/com.termux/files/home/jack/jack_briefing.py
 -rw-------. 1 u0_a400 u0_a400  3517 Oct 26 07:36 /data/data/com.termux/files/home/jack/jack_budget.py
 -rw-------. 1 u0_a400 u0_a400   346 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_budget_status.py
 -rw-------. 1 u0_a400 u0_a400  6533 Oct 11 17:44 /data/data/com.termux/files/home/jack/jack_bugfix_loop.py
@@ -157,14 +157,14 @@
 -rw-------. 1 u0_a400 u0_a400  2621 Oct  9 04:03 /data/data/com.termux/files/home/jack/jack_sanity.py
 -rw-------. 1 u0_a400 u0_a400  1225 Aug 14 15:31 /data/data/com.termux/files/home/jack/jack_scheduler.py
 -rw-------. 1 u0_a400 u0_a400   819 Sep 11 05:33 /data/data/com.termux/files/home/jack/jack_score_avg.py
--rw-------. 1 u0_a400 u0_a400  9743 Oct 29 07:01 /data/data/com.termux/files/home/jack/jack_scout.py
+-rw-------. 1 u0_a400 u0_a400  9830 Oct 29 07:56 /data/data/com.termux/files/home/jack/jack_scout.py
 -rwx------. 1 u0_a400 u0_a400  8142 Oct 29 07:01 /data/data/com.termux/files/home/jack/jack_screen_mapper.py
 -rw-------. 1 u0_a400 u0_a400  7183 Oct 24 14:13 /data/data/com.termux/files/home/jack/jack_selbstbild.py
 -rw-------. 1 u0_a400 u0_a400  1213 Oct  9 05:03 /data/data/com.termux/files/home/jack/jack_selbstmodell.py
 -rw-------. 1 u0_a400 u0_a400  3681 Sep 14 09:26 /data/data/com.termux/files/home/jack/jack_self_audit.py
 -rw-------. 1 u0_a400 u0_a400  6812 Sep 17 15:58 /data/data/com.termux/files/home/jack/jack_self_improve.py
 -rw-------. 1 u0_a400 u0_a400  8851 Oct  3 17:59 /data/data/com.termux/files/home/jack/jack_selfsee.py
--rw-------. 1 u0_a400 u0_a400  4975 Oct 24 12:53 /data/data/com.termux/files/home/jack/jack_selftest.py
+-rw-------. 1 u0_a400 u0_a400  9606 Oct 29 07:56 /data/data/com.termux/files/home/jack/jack_selftest.py
 -rw-------. 1 u0_a400 u0_a400  4652 Sep 11 05:33 /data/data/com.termux/files/home/jack/jack_semantic_analyzer.py
 -rw-------. 1 u0_a400 u0_a400  3110 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_sensors.py
 -rw-------. 1 u0_a400 u0_a400  9745 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_skill_builder.py

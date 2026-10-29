@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-29T07:54:35.765382)
+# JACK LIVE-KONTEXT (auto, 2026-10-29T07:57:38.377662)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-29T07:54:35.753006
+Stand: 2026-10-29T07:57:38.358834
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -263,14 +263,15 @@ Stand: 2026-10-29T07:54:35.753006
 
 ## System-Status
 - Offene Fehler: 2
-- Erinnerungen: 7812
+- Erinnerungen: 7817
 - Dienste:
-run: jack_cortex: (pid 18379) 9140s; run: log: (pid 18375) 9140s
-run: jack_telegram: (pid 31582) 3188s; run: log: (pid 18376) 9140s
-run: jack_autolearn: (pid 8882) 619s; run: log: (pid 18385) 9140s
+run: jack_cortex: (pid 18379) 9323s; run: log: (pid 18375) 9323s
+run: jack_telegram: (pid 31582) 3371s; run: log: (pid 18376) 9323s
+run: jack_autolearn: (pid 20622) 66s; run: log: (pid 18385) 9323s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
 62ba513c JACK_TUNE_I23C_PIN: letzte 5 Xiaomi-SSH-Wege gepinnt
 a3d9bc4c JACK_TUNE_I23B_PIN: 6 Altwege auf gepinnten Xiaomi-Hostkey
 b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
@@ -285,7 +286,6 @@ bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
 2fb90751 Merge pull request #1 from dimitriskripkin-lgtm/schreibrechte-gedaechtnis
 4c7c374e NAMEN/Jack: Barclay-Persona freigegeben von Dimitri (28.10.2026)
 67e8e244 NAMEN/Jack: Barclay-Persona Wichtigkeit 5 (Dimas Ja 28.10.2026)
-cf41a317 NAMEN/Jack: Barclay-Persona als Erinnerung (Dimitris Anweisung 28.10.2026)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
