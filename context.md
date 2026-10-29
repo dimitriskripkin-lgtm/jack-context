@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-29T06:59:43.920451)
+# JACK LIVE-KONTEXT (auto, 2026-10-29T07:02:46.537554)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-29T06:59:43.886343
+Stand: 2026-10-29T07:02:46.530636
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -263,14 +263,15 @@ Stand: 2026-10-29T06:59:43.886343
 
 ## System-Status
 - Offene Fehler: 2
-- Erinnerungen: 7801
+- Erinnerungen: 7807
 - Dienste:
-run: jack_cortex: (pid 18379) 5848s; run: log: (pid 18375) 5848s
-run: jack_telegram: (pid 18378) 5848s; run: log: (pid 18376) 5848s
-run: jack_autolearn: (pid 18386) 5848s; run: log: (pid 18385) 5848s
+run: jack_cortex: (pid 18379) 6031s; run: log: (pid 18375) 6031s
+run: jack_telegram: (pid 31582) 79s; run: log: (pid 18376) 6031s
+run: jack_autolearn: (pid 18386) 6031s; run: log: (pid 18385) 6031s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+62ba513c JACK_TUNE_I23C_PIN: letzte 5 Xiaomi-SSH-Wege gepinnt
 a3d9bc4c JACK_TUNE_I23B_PIN: 6 Altwege auf gepinnten Xiaomi-Hostkey
 b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
 455f2454 JACK_TUNE_I23_PIN: Xiaomi-Hostkey gepinnt (Gateway)
@@ -285,7 +286,6 @@ bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
 4c7c374e NAMEN/Jack: Barclay-Persona freigegeben von Dimitri (28.10.2026)
 67e8e244 NAMEN/Jack: Barclay-Persona Wichtigkeit 5 (Dimas Ja 28.10.2026)
 cf41a317 NAMEN/Jack: Barclay-Persona als Erinnerung (Dimitris Anweisung 28.10.2026)
-b5bceb74 Inventur: SKILLFAILCLOSED (Skill-Shell gesperrt) + I15 Termin-Lock
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
