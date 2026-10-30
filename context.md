@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-30T03:02:55.144290)
+# JACK LIVE-KONTEXT (auto, 2026-10-30T03:05:57.340596)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-30T03:02:55.131437
+Stand: 2026-10-30T03:05:57.329793
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-10-30T03:02:55.131437
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (246)
+## Aktive Module (247)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -241,6 +241,7 @@ Stand: 2026-10-30T03:02:55.131437
 - jack_web_ingest.py
 - jack_whisper_async.py
 - jack_whitelist_guard.py
+- jack_wirkungsfilter.py
 - jack_wissen.py
 - jack_wissen_ernte.py
 - jack_wissen_tief.py
@@ -263,14 +264,15 @@ Stand: 2026-10-30T03:02:55.131437
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7867
+- Erinnerungen: 7875
 - Dienste:
-run: jack_cortex: (pid 18379) 78040s; run: log: (pid 18375) 78040s
-run: jack_telegram: (pid 23317) 36528s; run: log: (pid 18376) 78040s
-run: jack_autolearn: (pid 29145) 60749s; run: log: (pid 18385) 78040s
+run: jack_cortex: (pid 18379) 78222s; run: log: (pid 18375) 78222s
+run: jack_telegram: (pid 619) 50s; run: log: (pid 18376) 78222s
+run: jack_autolearn: (pid 29145) 60931s; run: log: (pid 18385) 78222s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+539a2243 Z1c: Wirkungsfilter fuer TALK + S2 erkennt erfundene Musik-Taten (JACK_TUNE_Z1_WIRKUNG/Z1C_S2MUSIK)
 6d88d43d Musik: Freitext naechstes Lied, zurueck, vor, pause, play -> /musik (JACK_TUNE_MUSIKWORTE)
 221a8668 Musik: YouTube gibt die Medientaste frei, wenn es nicht spielt (JACK_TUNE_MUSIKTASTE)
 45e21bf9 Musik: Spotify play erreicht Spotify auch wenn YouTube die Taste hat; Freitext Spotify play -> /musik (JACK_TUNE_MUSIKVORNE/MUSIKFREI)
@@ -285,7 +287,6 @@ e993569e Kap 272: svlogd fuer 4 Dienste (JACK_TUNE_SVLOG)
 5a9aaa48 Attic: 3 belegte Waisen (Runde 4)
 1b91df29 JACK_TUNE_GROKBRIEF: Grok-Briefkasten mit Telegram-Ja/Nein (Kap 308)
 bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
-1f0132b7 Merge pull request #2 from dimitriskripkin-lgtm/schreibrechte-action
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).

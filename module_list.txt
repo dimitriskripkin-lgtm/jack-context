@@ -185,14 +185,14 @@
 -rw-------. 1 u0_a400 u0_a400  5736 Aug 18 10:06 /data/data/com.termux/files/home/jack/jack_stress.py
 -rw-------. 1 u0_a400 u0_a400  2792 Sep 14 13:26 /data/data/com.termux/files/home/jack/jack_subagent.py
 -rw-------. 1 u0_a400 u0_a400  5161 Oct  9 13:58 /data/data/com.termux/files/home/jack/jack_suche.py
--rw-------. 1 u0_a400 u0_a400 35952 Oct 27 06:28 /data/data/com.termux/files/home/jack/jack_talk.py
+-rw-------. 1 u0_a400 u0_a400 36096 Oct 30 03:05 /data/data/com.termux/files/home/jack/jack_talk.py
 -rw-------. 1 u0_a400 u0_a400  8547 Oct 12 13:51 /data/data/com.termux/files/home/jack/jack_talk_arena.py
 -rw-------. 1 u0_a400 u0_a400  2379 Sep  1 03:56 /data/data/com.termux/files/home/jack/jack_talk_contract.py
 -rw-------. 1 u0_a400 u0_a400 29063 Oct 12 14:08 /data/data/com.termux/files/home/jack/jack_talk_judge.py
 -rw-------. 1 u0_a400 u0_a400 17561 Oct 12 14:08 /data/data/com.termux/files/home/jack/jack_talk_probe.py
 -rw-------. 1 u0_a400 u0_a400  4031 Oct  7 16:29 /data/data/com.termux/files/home/jack/jack_talk_trainer.py
 -rw-------. 1 u0_a400 u0_a400  2614 Oct 21 08:16 /data/data/com.termux/files/home/jack/jack_tasker.py
--rw-------. 1 u0_a400 u0_a400  4444 Oct 27 06:28 /data/data/com.termux/files/home/jack/jack_tatenwahrheit.py
+-rw-------. 1 u0_a400 u0_a400  4854 Oct 30 03:04 /data/data/com.termux/files/home/jack/jack_tatenwahrheit.py
 -rw-------. 1 u0_a400 u0_a400 75433 Oct 29 16:54 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  4603 Oct  9 16:35 /data/data/com.termux/files/home/jack/jack_telemetry.py
 -rw-------. 1 u0_a400 u0_a400  3800 Oct 28 13:29 /data/data/com.termux/files/home/jack/jack_termin.py
@@ -225,6 +225,7 @@
 -rw-------. 1 u0_a400 u0_a400  3583 Aug 14 22:44 /data/data/com.termux/files/home/jack/jack_web_ingest.py
 -rw-------. 1 u0_a400 u0_a400   796 Aug 14 16:14 /data/data/com.termux/files/home/jack/jack_whisper_async.py
 -rw-------. 1 u0_a400 u0_a400  3708 Oct 19 04:22 /data/data/com.termux/files/home/jack/jack_whitelist_guard.py
+-rw-------. 1 u0_a400 u0_a400  4253 Oct 30 03:04 /data/data/com.termux/files/home/jack/jack_wirkungsfilter.py
 -rw-------. 1 u0_a400 u0_a400 11714 Oct 14 15:29 /data/data/com.termux/files/home/jack/jack_wissen.py
 -rw-------. 1 u0_a400 u0_a400  3819 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_wissen_ernte.py
 -rw-------. 1 u0_a400 u0_a400  5768 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_wissen_tief.py
