@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-31T17:40:40.958931)
+# JACK LIVE-KONTEXT (auto, 2026-10-31T17:43:43.078637)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-31T17:40:40.937716
+Stand: 2026-10-31T17:43:43.068473
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -265,14 +265,16 @@ Stand: 2026-10-31T17:40:40.937716
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7561
+- Erinnerungen: 7565
 - Dienste:
-run: jack_cortex: (pid 18379) 217105s; run: log: (pid 18375) 217105s
-run: jack_telegram: (pid 27397) 2075s; run: log: (pid 18376) 217105s
-run: jack_autolearn: (pid 17111) 2916s; run: log: (pid 18385) 217105s
+run: jack_cortex: (pid 18379) 217288s; run: log: (pid 18375) 217288s
+run: jack_telegram: (pid 27397) 2258s; run: log: (pid 18376) 217288s
+run: jack_autolearn: (pid 17111) 3099s; run: log: (pid 18385) 217288s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
+b6f0905e Kap 311: W4 Livebeleg SHADOW_OK
 c1770309 W4: Provenance-Schattenmodus fuer MCP-Missionen, nur Audit (JACK_TUNE_PROVENANCE_SHADOW)
 db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLICH)
 9fb94d93 Telegram: /vorschau ohne ID zeigt Vorschlagsliste (JACK_TUNE_VORSCHAUHILFE)
@@ -286,8 +288,6 @@ f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUN
 c8ce9d0c W2 Backup: Sicherung + Probe-Restore + Kopie aufs Xiaomi (JACK_TUNE_BACKUP_W2)
 eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
 62ba513c JACK_TUNE_I23C_PIN: letzte 5 Xiaomi-SSH-Wege gepinnt
-a3d9bc4c JACK_TUNE_I23B_PIN: 6 Altwege auf gepinnten Xiaomi-Hostkey
-b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
