@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-31T16:58:11.484803)
+# JACK LIVE-KONTEXT (auto, 2026-10-31T17:01:13.399804)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-31T16:58:11.468230
+Stand: 2026-10-31T17:01:13.385545
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -264,14 +264,15 @@ Stand: 2026-10-31T16:58:11.468230
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7532
+- Erinnerungen: 7537
 - Dienste:
-run: jack_cortex: (pid 18379) 214556s; run: log: (pid 18375) 214556s
-run: jack_telegram: (pid 4096) 42825s; run: log: (pid 18376) 214556s
-run: jack_autolearn: (pid 17111) 367s; run: log: (pid 18385) 214556s
+run: jack_cortex: (pid 18379) 214738s; run: log: (pid 18375) 214738s
+run: jack_telegram: (pid 23012) 11s; run: log: (pid 18376) 214738s
+run: jack_autolearn: (pid 17111) 549s; run: log: (pid 18385) 214738s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+79c1222d Z2b: Vorschlaege-Frage zeigt direkt die Kurzliste (JACK_TUNE_Z2B_KURZLISTE)
 f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUNE_Z1D)
 539a2243 Z1c: Wirkungsfilter fuer TALK + S2 erkennt erfundene Musik-Taten (JACK_TUNE_Z1_WIRKUNG/Z1C_S2MUSIK)
 6d88d43d Musik: Freitext naechstes Lied, zurueck, vor, pause, play -> /musik (JACK_TUNE_MUSIKWORTE)
@@ -286,7 +287,6 @@ b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
 47fa9f9d MODULKARTE: Nachtrag Attic Runde 4
 e993569e Kap 272: svlogd fuer 4 Dienste (JACK_TUNE_SVLOG)
 5a9aaa48 Attic: 3 belegte Waisen (Runde 4)
-1b91df29 JACK_TUNE_GROKBRIEF: Grok-Briefkasten mit Telegram-Ja/Nein (Kap 308)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
