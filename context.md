@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-31T18:32:17.318238)
+# JACK LIVE-KONTEXT (auto, 2026-10-31T18:35:19.466373)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-31T18:32:17.304688
+Stand: 2026-10-31T18:35:19.453212
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-10-31T18:32:17.304688
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (249)
+## Aktive Module (250)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -36,6 +36,7 @@ Stand: 2026-10-31T18:32:17.304688
 - jack_autofixer_shadow.py
 - jack_autolearn_loop.py
 - jack_autonomous.py
+- jack_befehl_frei.py
 - jack_befehle.py
 - jack_briefing.py
 - jack_budget.py
@@ -266,14 +267,15 @@ Stand: 2026-10-31T18:32:17.304688
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7570
+- Erinnerungen: 7574
 - Dienste:
-run: jack_cortex: (pid 18379) 220202s; run: log: (pid 18375) 220202s
-run: jack_telegram: (pid 27397) 5172s; run: log: (pid 18376) 220202s
-run: jack_autolearn: (pid 17111) 6013s; run: log: (pid 18385) 220202s
+run: jack_cortex: (pid 18379) 220384s; run: log: (pid 18375) 220384s
+run: jack_telegram: (pid 32279) 143s; run: log: (pid 18376) 220384s
+run: jack_autolearn: (pid 17111) 6195s; run: log: (pid 18385) 220384s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
 7d3ce7f7 jack_svneustart: Dienste sicher neu starten, Tunnel-Waechter nutzt es (JACK_TUNE_SVNEUSTART)
 b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
 b6f0905e Kap 311: W4 Livebeleg SHADOW_OK
@@ -288,7 +290,6 @@ f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUN
 221a8668 Musik: YouTube gibt die Medientaste frei, wenn es nicht spielt (JACK_TUNE_MUSIKTASTE)
 45e21bf9 Musik: Spotify play erreicht Spotify auch wenn YouTube die Taste hat; Freitext Spotify play -> /musik (JACK_TUNE_MUSIKVORNE/MUSIKFREI)
 c8ce9d0c W2 Backup: Sicherung + Probe-Restore + Kopie aufs Xiaomi (JACK_TUNE_BACKUP_W2)
-eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
