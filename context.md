@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-31T17:31:34.544609)
+# JACK LIVE-KONTEXT (auto, 2026-10-31T17:34:36.728094)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-31T17:31:34.533351
+Stand: 2026-10-31T17:34:36.714144
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -264,14 +264,15 @@ Stand: 2026-10-31T17:31:34.533351
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7553
+- Erinnerungen: 7557
 - Dienste:
-run: jack_cortex: (pid 18379) 216559s; run: log: (pid 18375) 216559s
-run: jack_telegram: (pid 27397) 1529s; run: log: (pid 18376) 216559s
-run: jack_autolearn: (pid 17111) 2370s; run: log: (pid 18385) 216559s
+run: jack_cortex: (pid 18379) 216741s; run: log: (pid 18375) 216741s
+run: jack_telegram: (pid 27397) 1711s; run: log: (pid 18376) 216741s
+run: jack_autolearn: (pid 17111) 2552s; run: log: (pid 18385) 216741s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLICH)
 9fb94d93 Telegram: /vorschau ohne ID zeigt Vorschlagsliste (JACK_TUNE_VORSCHAUHILFE)
 2f52cae0 Tunnel-Waechter: sv wartet cloudflared-Grace-Period ab (JACK_TUNE_TUNNELGRACE)
 79c1222d Z2b: Vorschlaege-Frage zeigt direkt die Kurzliste (JACK_TUNE_Z2B_KURZLISTE)
@@ -286,7 +287,6 @@ eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
 a3d9bc4c JACK_TUNE_I23B_PIN: 6 Altwege auf gepinnten Xiaomi-Hostkey
 b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
 455f2454 JACK_TUNE_I23_PIN: Xiaomi-Hostkey gepinnt (Gateway)
-47fa9f9d MODULKARTE: Nachtrag Attic Runde 4
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
