@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-31T17:52:49.352281)
+# JACK LIVE-KONTEXT (auto, 2026-10-31T17:55:51.347323)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-31T17:52:49.333377
+Stand: 2026-10-31T17:55:51.333950
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-10-31T17:52:49.333377
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (248)
+## Aktive Module (249)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -202,6 +202,7 @@ Stand: 2026-10-31T17:52:49.333377
 - jack_stress.py
 - jack_subagent.py
 - jack_suche.py
+- jack_svneustart.py
 - jack_talk.py
 - jack_talk_arena.py
 - jack_talk_contract.py
@@ -265,14 +266,15 @@ Stand: 2026-10-31T17:52:49.333377
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7566
+- Erinnerungen: 7570
 - Dienste:
-run: jack_cortex: (pid 18379) 217834s; run: log: (pid 18375) 217834s
-run: jack_telegram: (pid 27397) 2804s; run: log: (pid 18376) 217834s
-run: jack_autolearn: (pid 17111) 3645s; run: log: (pid 18385) 217834s
+run: jack_cortex: (pid 18379) 218016s; run: log: (pid 18375) 218016s
+run: jack_telegram: (pid 27397) 2986s; run: log: (pid 18376) 218016s
+run: jack_autolearn: (pid 17111) 3827s; run: log: (pid 18385) 218016s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+7d3ce7f7 jack_svneustart: Dienste sicher neu starten, Tunnel-Waechter nutzt es (JACK_TUNE_SVNEUSTART)
 b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
 b6f0905e Kap 311: W4 Livebeleg SHADOW_OK
 c1770309 W4: Provenance-Schattenmodus fuer MCP-Missionen, nur Audit (JACK_TUNE_PROVENANCE_SHADOW)
@@ -287,7 +289,6 @@ f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUN
 45e21bf9 Musik: Spotify play erreicht Spotify auch wenn YouTube die Taste hat; Freitext Spotify play -> /musik (JACK_TUNE_MUSIKVORNE/MUSIKFREI)
 c8ce9d0c W2 Backup: Sicherung + Probe-Restore + Kopie aufs Xiaomi (JACK_TUNE_BACKUP_W2)
 eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
-62ba513c JACK_TUNE_I23C_PIN: letzte 5 Xiaomi-SSH-Wege gepinnt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
