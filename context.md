@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-31T17:34:36.728094)
+# JACK LIVE-KONTEXT (auto, 2026-10-31T17:37:38.732360)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-31T17:34:36.714144
+Stand: 2026-10-31T17:37:38.720675
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-10-31T17:34:36.714144
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (247)
+## Aktive Module (248)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -156,6 +156,7 @@ Stand: 2026-10-31T17:34:36.714144
 - jack_patch_memory.py
 - jack_phone_senses.py
 - jack_planner.py
+- jack_provenance_shadow.py
 - jack_publish.py
 - jack_publisher_loop.py
 - jack_pyflakes_lauf.py
@@ -264,14 +265,15 @@ Stand: 2026-10-31T17:34:36.714144
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7557
+- Erinnerungen: 7561
 - Dienste:
-run: jack_cortex: (pid 18379) 216741s; run: log: (pid 18375) 216741s
-run: jack_telegram: (pid 27397) 1711s; run: log: (pid 18376) 216741s
-run: jack_autolearn: (pid 17111) 2552s; run: log: (pid 18385) 216741s
+run: jack_cortex: (pid 18379) 216923s; run: log: (pid 18375) 216923s
+run: jack_telegram: (pid 27397) 1893s; run: log: (pid 18376) 216923s
+run: jack_autolearn: (pid 17111) 2734s; run: log: (pid 18385) 216923s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+c1770309 W4: Provenance-Schattenmodus fuer MCP-Missionen, nur Audit (JACK_TUNE_PROVENANCE_SHADOW)
 db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLICH)
 9fb94d93 Telegram: /vorschau ohne ID zeigt Vorschlagsliste (JACK_TUNE_VORSCHAUHILFE)
 2f52cae0 Tunnel-Waechter: sv wartet cloudflared-Grace-Period ab (JACK_TUNE_TUNNELGRACE)
@@ -286,7 +288,6 @@ eb5c1348 W1 Scout-RC-Fix + W3 erweiterter Selbsttest (18 Checks)
 62ba513c JACK_TUNE_I23C_PIN: letzte 5 Xiaomi-SSH-Wege gepinnt
 a3d9bc4c JACK_TUNE_I23B_PIN: 6 Altwege auf gepinnten Xiaomi-Hostkey
 b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
-455f2454 JACK_TUNE_I23_PIN: Xiaomi-Hostkey gepinnt (Gateway)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
