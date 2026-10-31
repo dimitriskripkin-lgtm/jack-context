@@ -225,7 +225,7 @@
 -rw-------. 1 u0_a400 u0_a400  3583 Aug 14 22:44 /data/data/com.termux/files/home/jack/jack_web_ingest.py
 -rw-------. 1 u0_a400 u0_a400   796 Aug 14 16:14 /data/data/com.termux/files/home/jack/jack_whisper_async.py
 -rw-------. 1 u0_a400 u0_a400  3708 Oct 19 04:22 /data/data/com.termux/files/home/jack/jack_whitelist_guard.py
--rw-------. 1 u0_a400 u0_a400  4253 Oct 30 03:04 /data/data/com.termux/files/home/jack/jack_wirkungsfilter.py
+-rw-------. 1 u0_a400 u0_a400  5185 Oct 31 05:04 /data/data/com.termux/files/home/jack/jack_wirkungsfilter.py
 -rw-------. 1 u0_a400 u0_a400 11714 Oct 14 15:29 /data/data/com.termux/files/home/jack/jack_wissen.py
 -rw-------. 1 u0_a400 u0_a400  3819 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_wissen_ernte.py
 -rw-------. 1 u0_a400 u0_a400  5768 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_wissen_tief.py

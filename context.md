@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-10-31T05:03:25.328872)
+# JACK LIVE-KONTEXT (auto, 2026-10-31T05:06:27.491385)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-10-31T05:03:25.317108
+Stand: 2026-10-31T05:06:27.476826
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -264,14 +264,15 @@ Stand: 2026-10-31T05:03:25.317108
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7530
+- Erinnerungen: 7532
 - Dienste:
-run: jack_cortex: (pid 18379) 171670s; run: log: (pid 18375) 171670s
-run: jack_telegram: (pid 619) 93498s; run: log: (pid 18376) 171670s
-run: jack_autolearn: (pid 29145) 154379s; run: log: (pid 18385) 171670s
+run: jack_cortex: (pid 18379) 171852s; run: log: (pid 18375) 171852s
+run: jack_telegram: (pid 4096) 121s; run: log: (pid 18376) 171852s
+run: jack_autolearn: (pid 29145) 154561s; run: log: (pid 18385) 171852s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUNE_Z1D)
 539a2243 Z1c: Wirkungsfilter fuer TALK + S2 erkennt erfundene Musik-Taten (JACK_TUNE_Z1_WIRKUNG/Z1C_S2MUSIK)
 6d88d43d Musik: Freitext naechstes Lied, zurueck, vor, pause, play -> /musik (JACK_TUNE_MUSIKWORTE)
 221a8668 Musik: YouTube gibt die Medientaste frei, wenn es nicht spielt (JACK_TUNE_MUSIKTASTE)
@@ -286,7 +287,6 @@ b6df4679 START_HIER/Kap 292: Shizuku unterwegs per Xiaomi-Hotspot
 e993569e Kap 272: svlogd fuer 4 Dienste (JACK_TUNE_SVLOG)
 5a9aaa48 Attic: 3 belegte Waisen (Runde 4)
 1b91df29 JACK_TUNE_GROKBRIEF: Grok-Briefkasten mit Telegram-Ja/Nein (Kap 308)
-bd0faee4 NAMEN: Schreibrechte-Verlauf 2026-10-28
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
