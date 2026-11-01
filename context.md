@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-01T15:05:47.337553)
+# JACK LIVE-KONTEXT (auto, 2026-11-01T15:08:49.333909)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-01T15:05:47.325386
+Stand: 2026-11-01T15:08:49.317967
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -269,14 +269,16 @@ Stand: 2026-11-01T15:05:47.325386
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7626
+- Erinnerungen: 7635
 - Dienste:
-run: jack_cortex: (pid 18379) 294212s; run: log: (pid 18375) 294212s
-run: jack_telegram: (pid 28300) 5499s; run: log: (pid 18376) 294212s
-run: jack_autolearn: (pid 17111) 80023s; run: log: (pid 18385) 294212s
+run: jack_cortex: (pid 18379) 294394s; run: log: (pid 18375) 294394s
+run: jack_telegram: (pid 31492) 29s; run: log: (pid 18376) 294394s
+run: jack_autolearn: (pid 30061) 102s; run: log: (pid 18385) 294394s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+a22196a9 Block I: Knopf-Zustellung mit Telegram-Beleg + Protokoll (Kap 299)
+b449467e Autolearn: Health-Check ohne Zwischenablage/Toast-Nebenwirkung (JACK_TUNE_HEALTHSTILL)
 0c66e7be Block H: Freigabe-Knopf fuer Schritt-Tagebuch, live gegen Test-Playlist (Kap 313)
 27857731 F-Pilot: Schritt-Tagebuch live gegen Test-Playlist getestet (Kap 313)
 fd26b186 Kap 307: OAuth in Produktion, Zugaenge neu verbunden
@@ -290,8 +292,6 @@ c1770309 W4: Provenance-Schattenmodus fuer MCP-Missionen, nur Audit (JACK_TUNE_P
 db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLICH)
 9fb94d93 Telegram: /vorschau ohne ID zeigt Vorschlagsliste (JACK_TUNE_VORSCHAUHILFE)
 2f52cae0 Tunnel-Waechter: sv wartet cloudflared-Grace-Period ab (JACK_TUNE_TUNNELGRACE)
-79c1222d Z2b: Vorschlaege-Frage zeigt direkt die Kurzliste (JACK_TUNE_Z2B_KURZLISTE)
-f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUNE_Z1D)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).

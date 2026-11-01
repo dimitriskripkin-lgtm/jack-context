@@ -18,7 +18,7 @@
 -rw-------. 1 u0_a400 u0_a400  1502 Aug 17 19:45 /data/data/com.termux/files/home/jack/jack_auto_ingest.py
 -rw-------. 1 u0_a400 u0_a400  6559 Oct  9 20:32 /data/data/com.termux/files/home/jack/jack_autodoc.py
 -rw-------. 1 u0_a400 u0_a400  8780 Oct 17 11:38 /data/data/com.termux/files/home/jack/jack_autofixer_shadow.py
--rw-------. 1 u0_a400 u0_a400 18831 Oct 28 13:29 /data/data/com.termux/files/home/jack/jack_autolearn_loop.py
+-rw-------. 1 u0_a400 u0_a400 19159 Nov  1 15:06 /data/data/com.termux/files/home/jack/jack_autolearn_loop.py
 -rw-------. 1 u0_a400 u0_a400 37886 Oct 28 10:56 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  2950 Oct 31 18:32 /data/data/com.termux/files/home/jack/jack_befehl_frei.py
 -rw-------. 1 u0_a400 u0_a400  5274 Oct 31 17:01 /data/data/com.termux/files/home/jack/jack_befehle.py
@@ -198,11 +198,11 @@
 -rw-------. 1 u0_a400 u0_a400  4031 Oct  7 16:29 /data/data/com.termux/files/home/jack/jack_talk_trainer.py
 -rw-------. 1 u0_a400 u0_a400  2614 Oct 21 08:16 /data/data/com.termux/files/home/jack/jack_tasker.py
 -rw-------. 1 u0_a400 u0_a400  4854 Oct 30 03:04 /data/data/com.termux/files/home/jack/jack_tatenwahrheit.py
--rw-------. 1 u0_a400 u0_a400 75606 Nov  1 13:33 /data/data/com.termux/files/home/jack/jack_telegram.py
+-rw-------. 1 u0_a400 u0_a400 76354 Nov  1 15:08 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  4603 Oct  9 16:35 /data/data/com.termux/files/home/jack/jack_telemetry.py
 -rw-------. 1 u0_a400 u0_a400  3800 Oct 28 13:29 /data/data/com.termux/files/home/jack/jack_termin.py
 -rw-------. 1 u0_a400 u0_a400  5084 Oct 27 10:21 /data/data/com.termux/files/home/jack/jack_termin_parse.py
--rw-------. 1 u0_a400 u0_a400  8977 Oct 26 05:47 /data/data/com.termux/files/home/jack/jack_tg_send.py
+-rw-------. 1 u0_a400 u0_a400  9229 Nov  1 15:08 /data/data/com.termux/files/home/jack/jack_tg_send.py
 -rw-------. 1 u0_a400 u0_a400  5264 Sep 14 13:26 /data/data/com.termux/files/home/jack/jack_thermal.py
 -rw-------. 1 u0_a400 u0_a400  1733 Sep 14 13:26 /data/data/com.termux/files/home/jack/jack_thermal_guard.py
 -rw-------. 1 u0_a400 u0_a400  3155 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_traceback.py
