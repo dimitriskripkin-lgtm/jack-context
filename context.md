@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-01T12:58:12.538948)
+# JACK LIVE-KONTEXT (auto, 2026-11-01T13:01:14.489270)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-01T12:58:12.526655
+Stand: 2026-11-01T13:01:14.475227
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -267,14 +267,15 @@ Stand: 2026-11-01T12:58:12.526655
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7597
+- Erinnerungen: 7600
 - Dienste:
-run: jack_cortex: (pid 18379) 286557s; run: log: (pid 18375) 286557s
-run: jack_telegram: (pid 32279) 66316s; run: log: (pid 18376) 286557s
-run: jack_autolearn: (pid 17111) 72368s; run: log: (pid 18385) 286557s
+run: jack_cortex: (pid 18379) 286739s; run: log: (pid 18375) 286739s
+run: jack_telegram: (pid 32279) 66498s; run: log: (pid 18376) 286739s
+run: jack_autolearn: (pid 17111) 72550s; run: log: (pid 18385) 286739s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+fd26b186 Kap 307: OAuth in Produktion, Zugaenge neu verbunden
 ca2ccd1a docs: Startseite + Datenschutz fuer Google-OAuth (GitHub Pages)
 c62797a1 Playlist-Rettung fertig 817/817, Cron stillgelegt
 e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
@@ -289,7 +290,6 @@ db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLIC
 f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUNE_Z1D)
 539a2243 Z1c: Wirkungsfilter fuer TALK + S2 erkennt erfundene Musik-Taten (JACK_TUNE_Z1_WIRKUNG/Z1C_S2MUSIK)
 6d88d43d Musik: Freitext naechstes Lied, zurueck, vor, pause, play -> /musik (JACK_TUNE_MUSIKWORTE)
-221a8668 Musik: YouTube gibt die Medientaste frei, wenn es nicht spielt (JACK_TUNE_MUSIKTASTE)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
