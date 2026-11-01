@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-01T13:10:20.577719)
+# JACK LIVE-KONTEXT (auto, 2026-11-01T13:13:22.723640)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-01T13:10:20.563606
+Stand: 2026-11-01T13:13:22.712630
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -267,14 +267,15 @@ Stand: 2026-11-01T13:10:20.563606
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7610
+- Erinnerungen: 7612
 - Dienste:
-run: jack_cortex: (pid 18379) 287285s; run: log: (pid 18375) 287285s
-run: jack_telegram: (pid 32279) 67044s; run: log: (pid 18376) 287285s
-run: jack_autolearn: (pid 17111) 73096s; run: log: (pid 18385) 287285s
+run: jack_cortex: (pid 18379) 287467s; run: log: (pid 18375) 287467s
+run: jack_telegram: (pid 32279) 67226s; run: log: (pid 18376) 287467s
+run: jack_autolearn: (pid 17111) 73278s; run: log: (pid 18385) 287467s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+27857731 F-Pilot: Schritt-Tagebuch live gegen Test-Playlist getestet (Kap 313)
 fd26b186 Kap 307: OAuth in Produktion, Zugaenge neu verbunden
 ca2ccd1a docs: Startseite + Datenschutz fuer Google-OAuth (GitHub Pages)
 c62797a1 Playlist-Rettung fertig 817/817, Cron stillgelegt
@@ -289,7 +290,6 @@ db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLIC
 79c1222d Z2b: Vorschlaege-Frage zeigt direkt die Kurzliste (JACK_TUNE_Z2B_KURZLISTE)
 f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUNE_Z1D)
 539a2243 Z1c: Wirkungsfilter fuer TALK + S2 erkennt erfundene Musik-Taten (JACK_TUNE_Z1_WIRKUNG/Z1C_S2MUSIK)
-6d88d43d Musik: Freitext naechstes Lied, zurueck, vor, pause, play -> /musik (JACK_TUNE_MUSIKWORTE)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
