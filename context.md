@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-01T01:34:39.055920)
+# JACK LIVE-KONTEXT (auto, 2026-11-01T01:37:41.180032)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-01T01:34:39.041438
+Stand: 2026-11-01T01:37:41.164676
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -267,14 +267,15 @@ Stand: 2026-11-01T01:34:39.041438
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7585
+- Erinnerungen: 7589
 - Dienste:
-run: jack_cortex: (pid 18379) 245544s; run: log: (pid 18375) 245544s
-run: jack_telegram: (pid 32279) 25303s; run: log: (pid 18376) 245544s
-run: jack_autolearn: (pid 17111) 31355s; run: log: (pid 18385) 245544s
+run: jack_cortex: (pid 18379) 245726s; run: log: (pid 18375) 245726s
+run: jack_telegram: (pid 32279) 25485s; run: log: (pid 18376) 245726s
+run: jack_autolearn: (pid 17111) 31537s; run: log: (pid 18385) 245726s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+c62797a1 Playlist-Rettung fertig 817/817, Cron stillgelegt
 e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
 7d3ce7f7 jack_svneustart: Dienste sicher neu starten, Tunnel-Waechter nutzt es (JACK_TUNE_SVNEUSTART)
 b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
@@ -289,7 +290,6 @@ f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUN
 6d88d43d Musik: Freitext naechstes Lied, zurueck, vor, pause, play -> /musik (JACK_TUNE_MUSIKWORTE)
 221a8668 Musik: YouTube gibt die Medientaste frei, wenn es nicht spielt (JACK_TUNE_MUSIKTASTE)
 45e21bf9 Musik: Spotify play erreicht Spotify auch wenn YouTube die Taste hat; Freitext Spotify play -> /musik (JACK_TUNE_MUSIKVORNE/MUSIKFREI)
-c8ce9d0c W2 Backup: Sicherung + Probe-Restore + Kopie aufs Xiaomi (JACK_TUNE_BACKUP_W2)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
