@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-01T14:26:18.735097)
+# JACK LIVE-KONTEXT (auto, 2026-11-01T14:29:21.077058)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-01T14:26:18.720609
+Stand: 2026-11-01T14:29:21.063811
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -269,14 +269,15 @@ Stand: 2026-11-01T14:26:18.720609
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7621
+- Erinnerungen: 7624
 - Dienste:
-run: jack_cortex: (pid 18379) 291843s; run: log: (pid 18375) 291843s
-run: jack_telegram: (pid 28300) 3130s; run: log: (pid 18376) 291843s
-run: jack_autolearn: (pid 17111) 77654s; run: log: (pid 18385) 291843s
+run: jack_cortex: (pid 18379) 292026s; run: log: (pid 18375) 292026s
+run: jack_telegram: (pid 28300) 3313s; run: log: (pid 18376) 292026s
+run: jack_autolearn: (pid 17111) 77837s; run: log: (pid 18385) 292026s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+0c66e7be Block H: Freigabe-Knopf fuer Schritt-Tagebuch, live gegen Test-Playlist (Kap 313)
 27857731 F-Pilot: Schritt-Tagebuch live gegen Test-Playlist getestet (Kap 313)
 fd26b186 Kap 307: OAuth in Produktion, Zugaenge neu verbunden
 ca2ccd1a docs: Startseite + Datenschutz fuer Google-OAuth (GitHub Pages)
@@ -291,7 +292,6 @@ db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLIC
 2f52cae0 Tunnel-Waechter: sv wartet cloudflared-Grace-Period ab (JACK_TUNE_TUNNELGRACE)
 79c1222d Z2b: Vorschlaege-Frage zeigt direkt die Kurzliste (JACK_TUNE_Z2B_KURZLISTE)
 f2b81a47 Z1d: Wirkungsfilter faengt Pauschal- und Modul-Wirkungsclaims (JACK_TUNE_Z1D)
-539a2243 Z1c: Wirkungsfilter fuer TALK + S2 erkennt erfundene Musik-Taten (JACK_TUNE_Z1_WIRKUNG/Z1C_S2MUSIK)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
