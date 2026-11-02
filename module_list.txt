@@ -4,7 +4,7 @@
 -rw-------. 1 u0_a400 u0_a400  2169 Oct  7 14:18 /data/data/com.termux/files/home/jack/jack_adb_heal.py
 -rw-------. 1 u0_a400 u0_a400 10148 Oct 24 12:53 /data/data/com.termux/files/home/jack/jack_aenderung.py
 -rw-------. 1 u0_a400 u0_a400  2429 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_agent.py
--rw-------. 1 u0_a400 u0_a400 18808 Oct  9 12:51 /data/data/com.termux/files/home/jack/jack_android.py
+-rw-------. 1 u0_a400 u0_a400 19387 Nov  2 16:26 /data/data/com.termux/files/home/jack/jack_android.py
 -rw-------. 1 u0_a400 u0_a400   788 Oct 27 03:30 /data/data/com.termux/files/home/jack/jack_app_sperre.py
 -rw-------. 1 u0_a400 u0_a400  3269 Aug 23 15:36 /data/data/com.termux/files/home/jack/jack_approval.py
 -rw-------. 1 u0_a400 u0_a400  2248 Sep  1 06:22 /data/data/com.termux/files/home/jack/jack_approval_digest.py
@@ -27,7 +27,7 @@
 -rw-------. 1 u0_a400 u0_a400   346 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_budget_status.py
 -rw-------. 1 u0_a400 u0_a400  6533 Oct 11 17:44 /data/data/com.termux/files/home/jack/jack_bugfix_loop.py
 -rw-------. 1 u0_a400 u0_a400 13521 Oct  7 13:26 /data/data/com.termux/files/home/jack/jack_callback_handler.py
--rw-------. 1 u0_a400 u0_a400  7605 Oct 19 06:05 /data/data/com.termux/files/home/jack/jack_chains.py
+-rw-------. 1 u0_a400 u0_a400  7782 Nov  2 16:26 /data/data/com.termux/files/home/jack/jack_chains.py
 -rw-------. 1 u0_a400 u0_a400  2874 Sep 11 05:33 /data/data/com.termux/files/home/jack/jack_changelog.py
 -rw-------. 1 u0_a400 u0_a400 34981 Nov  2 11:26 /data/data/com.termux/files/home/jack/jack_chat_router.py
 -rw-------. 1 u0_a400 u0_a400  5690 Oct 26 09:00 /data/data/com.termux/files/home/jack/jack_chrome_card.py
@@ -101,7 +101,7 @@
 -rw-------. 1 u0_a400 u0_a400  3759 Sep 14 04:12 /data/data/com.termux/files/home/jack/jack_learn.py
 -rw-------. 1 u0_a400 u0_a400 10740 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_lerner.py
 -rw-------. 1 u0_a400 u0_a400  2187 Oct 23 15:20 /data/data/com.termux/files/home/jack/jack_linkinbox.py
--rw-------. 1 u0_a400 u0_a400  2907 Oct  9 12:51 /data/data/com.termux/files/home/jack/jack_live_bridge.py
+-rw-------. 1 u0_a400 u0_a400  3541 Nov  2 16:26 /data/data/com.termux/files/home/jack/jack_live_bridge.py
 -rw-------. 1 u0_a400 u0_a400  8660 Sep 11 07:03 /data/data/com.termux/files/home/jack/jack_log.py
 -rw-------. 1 u0_a400 u0_a400  2133 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_logging.py
 -rw-------. 1 u0_a400 u0_a400  1405 Oct  9 16:35 /data/data/com.termux/files/home/jack/jack_logrot.py
@@ -135,7 +135,6 @@
 -rw-------. 1 u0_a400 u0_a400   473 Aug 24 18:29 /data/data/com.termux/files/home/jack/jack_nc.py
 -rw-------. 1 u0_a400 u0_a400  1116 Oct 19 05:17 /data/data/com.termux/files/home/jack/jack_observer.py
 -rw-------. 1 u0_a400 u0_a400  4939 Oct  8 16:32 /data/data/com.termux/files/home/jack/jack_ollama_gate.py
--rw-------. 1 u0_a400 u0_a400  9283 Oct  9 12:51 /data/data/com.termux/files/home/jack/jack_operator.py
 -rw-------. 1 u0_a400 u0_a400  9316 Oct 21 09:38 /data/data/com.termux/files/home/jack/jack_oracle.py
 -rw-------. 1 u0_a400 u0_a400  2984 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_outcome.py
 -rw-------. 1 u0_a400 u0_a400  1931 Aug 21 06:49 /data/data/com.termux/files/home/jack/jack_outcome_tracker.py

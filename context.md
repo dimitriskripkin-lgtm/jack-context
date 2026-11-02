@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-02T16:26:40.559214)
+# JACK LIVE-KONTEXT (auto, 2026-11-02T16:29:43.701597)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-02T16:26:40.547537
+Stand: 2026-11-02T16:29:43.688359
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-02T16:26:40.547537
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (253)
+## Aktive Module (252)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -151,7 +151,6 @@ Stand: 2026-11-02T16:26:40.547537
 - jack_nc.py
 - jack_observer.py
 - jack_ollama_gate.py
-- jack_operator.py
 - jack_oracle.py
 - jack_outcome.py
 - jack_outcome_tracker.py
@@ -270,14 +269,15 @@ Stand: 2026-11-02T16:26:40.547537
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7740
+- Erinnerungen: 7742
 - Dienste:
-run: jack_cortex: (pid 8317) 29573s; run: log: (pid 18375) 385465s
-run: jack_telegram: (pid 22775) 17913s; run: log: (pid 18376) 385465s
-run: jack_autolearn: (pid 9907) 29451s; run: log: (pid 18385) 385465s
+run: jack_cortex: (pid 8317) 29756s; run: log: (pid 18375) 385648s
+run: jack_telegram: (pid 31073) 90s; run: log: (pid 18376) 385648s
+run: jack_autolearn: (pid 9907) 29634s; run: log: (pid 18385) 385648s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
 e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetzt, Nachttest, Arbeitsregeln-Spiegel
 adef8ee9 exec Timeout beendet Prozessgruppe H1c, Arena grep-Sperre und Holdout-Fix, Lerner v5, Handbuch
 a22196a9 Block I: Knopf-Zustellung mit Telegram-Beleg + Protokoll (Kap 299)
@@ -292,7 +292,6 @@ e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
 b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
 b6f0905e Kap 311: W4 Livebeleg SHADOW_OK
 c1770309 W4: Provenance-Schattenmodus fuer MCP-Missionen, nur Audit (JACK_TUNE_PROVENANCE_SHADOW)
-db398309 Z3b: taegliches Backup 03:43 Honor+Xiaomi+n8n (JACK_TUNE_BACKUP_TAEGLICH)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
