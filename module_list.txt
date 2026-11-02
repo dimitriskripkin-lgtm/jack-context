@@ -11,7 +11,7 @@
 -rw-------. 1 u0_a400 u0_a400  6777 Oct  9 17:31 /data/data/com.termux/files/home/jack/jack_arbeitsplatz.py
 -rw-------. 1 u0_a400 u0_a400 19929 Oct 11 22:14 /data/data/com.termux/files/home/jack/jack_arena.py
 -rw-------. 1 u0_a400 u0_a400 17036 Nov  2 06:22 /data/data/com.termux/files/home/jack/jack_arena_lerner.py
--rw-------. 1 u0_a400 u0_a400 53641 Oct 12 10:48 /data/data/com.termux/files/home/jack/jack_arena_runner.py
+-rw-------. 1 u0_a400 u0_a400 57704 Nov  2 08:06 /data/data/com.termux/files/home/jack/jack_arena_runner.py
 -rw-------. 1 u0_a400 u0_a400 32624 Oct 12 02:21 /data/data/com.termux/files/home/jack/jack_arena_sandbox.py
 -rw-------. 1 u0_a400 u0_a400  1804 Aug 20 08:01 /data/data/com.termux/files/home/jack/jack_ast_gate.py
 -rwx------. 1 u0_a400 u0_a400  4342 Oct  7 22:03 /data/data/com.termux/files/home/jack/jack_audit.py
