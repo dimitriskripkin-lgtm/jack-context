@@ -55,7 +55,7 @@
 -rw-------. 1 u0_a400 u0_a400  4583 Aug 13 01:13 /data/data/com.termux/files/home/jack/jack_episoden.py
 -rw-------. 1 u0_a400 u0_a400  4634 Oct  9 02:22 /data/data/com.termux/files/home/jack/jack_error_to_rule.py
 -rw-------. 1 u0_a400 u0_a400   808 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_errors_status.py
--rw-------. 1 u0_a400 u0_a400  8306 Oct 28 10:57 /data/data/com.termux/files/home/jack/jack_exec.py
+-rw-------. 1 u0_a400 u0_a400 12544 Nov  2 09:50 /data/data/com.termux/files/home/jack/jack_exec.py
 -rw-------. 1 u0_a400 u0_a400  1506 Oct  9 02:15 /data/data/com.termux/files/home/jack/jack_exec_parser.py
 -rw-------. 1 u0_a400 u0_a400  3653 Sep 16 04:16 /data/data/com.termux/files/home/jack/jack_explorer.py
 -rw-------. 1 u0_a400 u0_a400  5408 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_explorer_deep.py
