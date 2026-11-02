@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-02T17:12:16.540890)
+# JACK LIVE-KONTEXT (auto, 2026-11-02T17:15:18.923952)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-02T17:12:16.528293
+Stand: 2026-11-02T17:15:18.909770
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -267,14 +267,15 @@ Stand: 2026-11-02T17:12:16.528293
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7745
+- Erinnerungen: 7749
 - Dienste:
-run: jack_cortex: (pid 8317) 32309s; run: log: (pid 18375) 388201s
-run: jack_telegram: (pid 26418) 48s; run: log: (pid 18376) 388201s
-run: jack_autolearn: (pid 9907) 32187s; run: log: (pid 18385) 388201s
+run: jack_cortex: (pid 8317) 32491s; run: log: (pid 18375) 388383s
+run: jack_telegram: (pid 26418) 230s; run: log: (pid 18376) 388383s
+run: jack_autolearn: (pid 9907) 32369s; run: log: (pid 18385) 388383s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+124211ec START_HIER Kurzfassung, README Stand 2.11., Nachttest-Gruenmeldung, 3 tote Shell-Module ins Attic
 624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
 e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetzt, Nachttest, Arbeitsregeln-Spiegel
 adef8ee9 exec Timeout beendet Prozessgruppe H1c, Arena grep-Sperre und Holdout-Fix, Lerner v5, Handbuch
@@ -289,7 +290,6 @@ e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
 7d3ce7f7 jack_svneustart: Dienste sicher neu starten, Tunnel-Waechter nutzt es (JACK_TUNE_SVNEUSTART)
 b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
 b6f0905e Kap 311: W4 Livebeleg SHADOW_OK
-c1770309 W4: Provenance-Schattenmodus fuer MCP-Missionen, nur Audit (JACK_TUNE_PROVENANCE_SHADOW)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
