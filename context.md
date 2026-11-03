@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-03T01:49:18.957389)
+# JACK LIVE-KONTEXT (auto, 2026-11-03T01:52:21.189146)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-03T01:49:18.944504
+Stand: 2026-11-03T01:52:21.177871
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -267,14 +267,15 @@ Stand: 2026-11-03T01:49:18.944504
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7753
+- Erinnerungen: 7754
 - Dienste:
-run: jack_cortex: (pid 10896) 0s; run: log: (pid 18375) 419223s
-run: jack_telegram: (pid 10796) 1s; run: log: (pid 18376) 419223s
-run: jack_autolearn: (pid 9907) 63209s; run: log: (pid 18385) 419223s
+run: jack_cortex: (pid 10896) 183s; run: log: (pid 18375) 419406s
+run: jack_telegram: (pid 10796) 184s; run: log: (pid 18376) 419406s
+run: jack_autolearn: (pid 9907) 63392s; run: log: (pid 18385) 419406s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftraege archiviert
 124211ec START_HIER Kurzfassung, README Stand 2.11., Nachttest-Gruenmeldung, 3 tote Shell-Module ins Attic
 624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
 e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetzt, Nachttest, Arbeitsregeln-Spiegel
@@ -289,7 +290,6 @@ c62797a1 Playlist-Rettung fertig 817/817, Cron stillgelegt
 e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
 7d3ce7f7 jack_svneustart: Dienste sicher neu starten, Tunnel-Waechter nutzt es (JACK_TUNE_SVNEUSTART)
 b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
-b6f0905e Kap 311: W4 Livebeleg SHADOW_OK
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
