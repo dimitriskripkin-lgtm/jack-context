@@ -170,7 +170,7 @@
 -rw-------. 1 u0_a400 u0_a400  9606 Oct 29 07:56 /data/data/com.termux/files/home/jack/jack_selftest.py
 -rw-------. 1 u0_a400 u0_a400  4652 Sep 11 05:33 /data/data/com.termux/files/home/jack/jack_semantic_analyzer.py
 -rw-------. 1 u0_a400 u0_a400  3110 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_sensors.py
--rw-------. 1 u0_a400 u0_a400  9745 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_skill_builder.py
+-rw-------. 1 u0_a400 u0_a400  9290 Nov  3 01:47 /data/data/com.termux/files/home/jack/jack_skill_builder.py
 -rw-------. 1 u0_a400 u0_a400  2648 Aug 16 15:53 /data/data/com.termux/files/home/jack/jack_skill_lib.py
 -rw-------. 1 u0_a400 u0_a400  3827 Oct 28 13:29 /data/data/com.termux/files/home/jack/jack_skill_trainer.py
 -rw-------. 1 u0_a400 u0_a400  2865 Oct  9 13:52 /data/data/com.termux/files/home/jack/jack_skillidee.py
@@ -235,7 +235,7 @@
 -rw-------. 1 u0_a400 u0_a400  5768 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_wissen_tief.py
 -rw-------. 1 u0_a400 u0_a400  5100 Sep 11 09:35 /data/data/com.termux/files/home/jack/jack_workers.py
 -rw-------. 1 u0_a400 u0_a400  3731 Sep 22 03:36 /data/data/com.termux/files/home/jack/jack_write.py
--rw-------. 1 u0_a400 u0_a400 10614 Oct 29 04:09 /data/data/com.termux/files/home/jack/jack_xiaomi.py
+-rw-------. 1 u0_a400 u0_a400 10737 Nov  3 01:47 /data/data/com.termux/files/home/jack/jack_xiaomi.py
 -rw-------. 1 u0_a400 u0_a400  1182 Aug 14 22:31 /data/data/com.termux/files/home/jack/jack_xiaomi_inspector.py
 -rw-------. 1 u0_a400 u0_a400  2480 Oct 27 08:29 /data/data/com.termux/files/home/jack/jack_xiaomi_notaus.py
 -rw-------. 1 u0_a400 u0_a400  2134 Oct  9 12:34 /data/data/com.termux/files/home/jack/jack_xiaomi_ports.py
