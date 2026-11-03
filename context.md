@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-03T08:51:55.322360)
+# JACK LIVE-KONTEXT (auto, 2026-11-03T08:54:57.627747)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-03T08:51:55.310568
+Stand: 2026-11-03T08:54:57.609896
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -271,14 +271,15 @@ Stand: 2026-11-03T08:51:55.310568
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7809
+- Erinnerungen: 7816
 - Dienste:
-run: jack_cortex: (pid 10896) 25357s; run: log: (pid 18375) 444580s
-run: jack_telegram: (pid 10796) 25358s; run: log: (pid 18376) 444580s
-run: jack_autolearn: (pid 28530) 12974s; run: log: (pid 18385) 444580s
+run: jack_cortex: (pid 10913) 102s; run: log: (pid 18375) 444762s
+run: jack_telegram: (pid 10796) 25540s; run: log: (pid 18376) 444762s
+run: jack_autolearn: (pid 28530) 13156s; run: log: (pid 18385) 444762s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+2a6e016c C1: Oracle-Sicherheitsfix F1-F4, Notbremse-Wiederanlauf B3, Handbuch Nachttest/Briefing/Kalender-Sync
 e8042d46 Doku 03.11.: Handbuch 307 Nachtrag (Kalender, Notbremse, B4b), offen, entscheidungen; YouTube-Sync B4b
 0121dace Schicht-Briefing 23:45 (Wetter, Fristen, Systemlage, Freigaben), Nachttest meldet nur Rot
 e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftraege archiviert
@@ -293,7 +294,6 @@ b449467e Autolearn: Health-Check ohne Zwischenablage/Toast-Nebenwirkung (JACK_TU
 fd26b186 Kap 307: OAuth in Produktion, Zugaenge neu verbunden
 ca2ccd1a docs: Startseite + Datenschutz fuer Google-OAuth (GitHub Pages)
 c62797a1 Playlist-Rettung fertig 817/817, Cron stillgelegt
-e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
