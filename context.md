@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-03T04:09:10.023500)
+# JACK LIVE-KONTEXT (auto, 2026-11-03T04:12:12.278769)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-03T04:09:10.010637
+Stand: 2026-11-03T04:12:12.265100
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-03T04:09:10.010637
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (250)
+## Aktive Module (252)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -175,6 +175,8 @@ Stand: 2026-11-03T04:09:10.010637
 - jack_sandbox.py
 - jack_sanity.py
 - jack_scheduler.py
+- jack_schicht_kalender_sync.py
+- jack_schichtbriefing.py
 - jack_score_avg.py
 - jack_scout.py
 - jack_screen_mapper.py
@@ -267,14 +269,15 @@ Stand: 2026-11-03T04:09:10.010637
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7763
+- Erinnerungen: 7770
 - Dienste:
-run: jack_cortex: (pid 10896) 8392s; run: log: (pid 18375) 427615s
-run: jack_telegram: (pid 10796) 8393s; run: log: (pid 18376) 427615s
-run: jack_autolearn: (pid 9907) 71601s; run: log: (pid 18385) 427615s
+run: jack_cortex: (pid 10896) 8574s; run: log: (pid 18375) 427797s
+run: jack_telegram: (pid 10796) 8575s; run: log: (pid 18376) 427797s
+run: jack_autolearn: (pid 9907) 71783s; run: log: (pid 18385) 427797s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+0121dace Schicht-Briefing 23:45 (Wetter, Fristen, Systemlage, Freigaben), Nachttest meldet nur Rot
 e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftraege archiviert
 124211ec START_HIER Kurzfassung, README Stand 2.11., Nachttest-Gruenmeldung, 3 tote Shell-Module ins Attic
 624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
@@ -289,7 +292,6 @@ ca2ccd1a docs: Startseite + Datenschutz fuer Google-OAuth (GitHub Pages)
 c62797a1 Playlist-Rettung fertig 817/817, Cron stillgelegt
 e8e9f69f Block E: Freitext fuer Timer/Akku/Standort/Lage (JACK_TUNE_E_FREITEXT)
 7d3ce7f7 jack_svneustart: Dienste sicher neu starten, Tunnel-Waechter nutzt es (JACK_TUNE_SVNEUSTART)
-b3d972c9 W5: Handbuch-Drift Kap 02/03/07 korrigiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
