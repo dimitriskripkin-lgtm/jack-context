@@ -107,7 +107,7 @@
 -rw-------. 1 u0_a400 u0_a400  4645 Sep 11 10:14 /data/data/com.termux/files/home/jack/jack_lokal.py
 -rw-------. 1 u0_a400 u0_a400  3175 Sep 14 05:18 /data/data/com.termux/files/home/jack/jack_loop.py
 -rw-------. 1 u0_a400 u0_a400  3078 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_math.py
--rw-------. 1 u0_a400 u0_a400 16010 Oct 31 17:36 /data/data/com.termux/files/home/jack/jack_mcp_auth.py
+-rw-------. 1 u0_a400 u0_a400 19154 Nov  3 09:48 /data/data/com.termux/files/home/jack/jack_mcp_auth.py
 -rw-------. 1 u0_a400 u0_a400 14783 Oct  9 20:01 /data/data/com.termux/files/home/jack/jack_mcp_oauth.py
 -rw-------. 1 u0_a400 u0_a400 20371 Nov  2 11:26 /data/data/com.termux/files/home/jack/jack_mcp_server.py
 -rw-------. 1 u0_a400 u0_a400  5488 Oct 26 05:46 /data/data/com.termux/files/home/jack/jack_melderegel.py
@@ -119,7 +119,7 @@
 -rw-------. 1 u0_a400 u0_a400  3796 Oct 26 09:00 /data/data/com.termux/files/home/jack/jack_mission_pull.py
 -rwx------. 1 u0_a400 u0_a400  1149 Aug 24 14:54 /data/data/com.termux/files/home/jack/jack_mission_queue.py
 -rw-------. 1 u0_a400 u0_a400  2539 Aug 24 14:48 /data/data/com.termux/files/home/jack/jack_mission_run.py
--rw-------. 1 u0_a400 u0_a400 83664 Nov  2 15:56 /data/data/com.termux/files/home/jack/jack_mission_runner.py
+-rw-------. 1 u0_a400 u0_a400 85755 Nov  3 09:48 /data/data/com.termux/files/home/jack/jack_mission_runner.py
 -rw-------. 1 u0_a400 u0_a400 14829 Aug 31 13:45 /data/data/com.termux/files/home/jack/jack_missions.py
 -rw-------. 1 u0_a400 u0_a400  1972 Oct 17 11:58 /data/data/com.termux/files/home/jack/jack_modelmap.py
 -rw-------. 1 u0_a400 u0_a400  8714 Oct 26 05:47 /data/data/com.termux/files/home/jack/jack_monitor.py
