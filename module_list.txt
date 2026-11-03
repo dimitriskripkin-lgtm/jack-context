@@ -246,7 +246,7 @@
 -rw-------. 1 u0_a400 u0_a400  6829 Sep 14 05:25 /data/data/com.termux/files/home/jack/jack_xiaomi_web.py
 -rw-------. 1 u0_a400 u0_a400  1026 Oct 17 12:08 /data/data/com.termux/files/home/jack/jack_xibreaker.py
 -rw-------. 1 u0_a400 u0_a400  5187 Nov  3 05:57 /data/data/com.termux/files/home/jack/jack_youtube_playlist.py
--rw-------. 1 u0_a400 u0_a400  6738 Nov  3 05:57 /data/data/com.termux/files/home/jack/jack_youtube_sync.py
+-rw-------. 1 u0_a400 u0_a400  6740 Nov  3 06:11 /data/data/com.termux/files/home/jack/jack_youtube_sync.py
 -rw-------. 1 u0_a400 u0_a400  5101 Aug 26 12:44 /data/data/com.termux/files/home/jack/jack_yt_hybrid.py
 -rw-------. 1 u0_a400 u0_a400  3531 Aug 23 00:17 /data/data/com.termux/files/home/jack/jack_yt_sido.py
 -rw-------. 1 u0_a400 u0_a400  3119 Aug 12 12:32 /data/data/com.termux/files/home/jack/kortex_memory.py
