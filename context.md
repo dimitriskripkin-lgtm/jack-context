@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-03T09:13:12.043568)
+# JACK LIVE-KONTEXT (auto, 2026-11-03T09:16:14.326326)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-03T09:13:12.029753
+Stand: 2026-11-03T09:16:14.311734
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -271,14 +271,15 @@ Stand: 2026-11-03T09:13:12.029753
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7821
+- Erinnerungen: 7832
 - Dienste:
-run: jack_cortex: (pid 10913) 1197s; run: log: (pid 18375) 445857s
-run: jack_telegram: (pid 10796) 26635s; run: log: (pid 18376) 445857s
-run: jack_autolearn: (pid 28530) 14251s; run: log: (pid 18385) 445857s
+run: jack_cortex: (pid 10913) 1379s; run: log: (pid 18375) 446039s
+run: jack_telegram: (pid 10796) 26817s; run: log: (pid 18376) 446039s
+run: jack_autolearn: (pid 28530) 14433s; run: log: (pid 18385) 446039s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+7677393e CI neu: Smoke-Tests Syntax+Geheimnisse, kaputtes cortex_replay_guarded raus
 2a6e016c C1: Oracle-Sicherheitsfix F1-F4, Notbremse-Wiederanlauf B3, Handbuch Nachttest/Briefing/Kalender-Sync
 e8042d46 Doku 03.11.: Handbuch 307 Nachtrag (Kalender, Notbremse, B4b), offen, entscheidungen; YouTube-Sync B4b
 0121dace Schicht-Briefing 23:45 (Wetter, Fristen, Systemlage, Freigaben), Nachttest meldet nur Rot
@@ -293,7 +294,6 @@ b449467e Autolearn: Health-Check ohne Zwischenablage/Toast-Nebenwirkung (JACK_TU
 27857731 F-Pilot: Schritt-Tagebuch live gegen Test-Playlist getestet (Kap 313)
 fd26b186 Kap 307: OAuth in Produktion, Zugaenge neu verbunden
 ca2ccd1a docs: Startseite + Datenschutz fuer Google-OAuth (GitHub Pages)
-c62797a1 Playlist-Rettung fertig 817/817, Cron stillgelegt
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
