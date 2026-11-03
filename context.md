@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-03T12:42:56.069805)
+# JACK LIVE-KONTEXT (auto, 2026-11-03T12:45:58.545619)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-03T12:42:56.052980
+Stand: 2026-11-03T12:45:58.527826
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -273,9 +273,9 @@ Stand: 2026-11-03T12:42:56.052980
 - Offene Fehler: 3
 - Erinnerungen: 7863
 - Dienste:
-run: jack_cortex: (pid 19818) 4095s; run: log: (pid 18375) 458441s
-run: jack_telegram: (pid 19805) 4095s; run: log: (pid 18376) 458441s
-run: jack_autolearn: (pid 27589) 3360s; run: log: (pid 18385) 458441s
+run: jack_cortex: (pid 19818) 4277s; run: log: (pid 18375) 458623s
+run: jack_telegram: (pid 19805) 4277s; run: log: (pid 18376) 458623s
+run: jack_autolearn: (pid 27589) 3542s; run: log: (pid 18385) 458623s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
