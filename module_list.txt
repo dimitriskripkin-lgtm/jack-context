@@ -91,7 +91,7 @@
 -rw-------. 1 u0_a400 u0_a400 17762 Oct 29 07:01 /data/data/com.termux/files/home/jack/jack_intent.py
 -rw-------. 1 u0_a400 u0_a400  3141 Aug 26 08:07 /data/data/com.termux/files/home/jack/jack_intent_apps.py
 -rw-------. 1 u0_a400 u0_a400  2243 Aug 21 07:33 /data/data/com.termux/files/home/jack/jack_intent_lookup.py
--rw-------. 1 u0_a400 u0_a400  6263 Oct  9 17:31 /data/data/com.termux/files/home/jack/jack_kanal.py
+-rw-------. 1 u0_a400 u0_a400  6319 Nov  3 11:48 /data/data/com.termux/files/home/jack/jack_kanal.py
 -rw-------. 1 u0_a400 u0_a400  5727 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_karte.py
 -rw-------. 1 u0_a400 u0_a400  1240 Sep  1 03:37 /data/data/com.termux/files/home/jack/jack_keyboards.py
 -rw-------. 1 u0_a400 u0_a400  3112 Oct 26 09:32 /data/data/com.termux/files/home/jack/jack_klingel.py
