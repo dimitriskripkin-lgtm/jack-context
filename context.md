@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-03T11:33:00.799727)
+# JACK LIVE-KONTEXT (auto, 2026-11-03T11:36:03.113788)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-03T11:33:00.787995
+Stand: 2026-11-03T11:36:03.101044
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -271,14 +271,15 @@ Stand: 2026-11-03T11:33:00.787995
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7849
+- Erinnerungen: 7853
 - Dienste:
-run: jack_cortex: (pid 10913) 9585s; run: log: (pid 18375) 454245s
-run: jack_telegram: (pid 10796) 35023s; run: log: (pid 18376) 454245s
-run: jack_autolearn: (pid 28530) 22639s; run: log: (pid 18385) 454245s
+run: jack_cortex: (pid 19818) 82s; run: log: (pid 18375) 454428s
+run: jack_telegram: (pid 19805) 82s; run: log: (pid 18376) 454428s
+run: jack_autolearn: (pid 19879) 81s; run: log: (pid 18385) 454428s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+1a3beda5 Grok G4 G5 G7 G8 G9 Fixes eingebaut: Inbox, Root-Quoting, Telegram, n8n, Dauerlaeufer
 9cecb003 Grok G2/G3 Sicherheitsfixes Runner + MCP-Auth eingebaut, Doku
 7677393e CI neu: Smoke-Tests Syntax+Geheimnisse, kaputtes cortex_replay_guarded raus
 2a6e016c C1: Oracle-Sicherheitsfix F1-F4, Notbremse-Wiederanlauf B3, Handbuch Nachttest/Briefing/Kalender-Sync
@@ -293,7 +294,6 @@ a22196a9 Block I: Knopf-Zustellung mit Telegram-Beleg + Protokoll (Kap 299)
 b449467e Autolearn: Health-Check ohne Zwischenablage/Toast-Nebenwirkung (JACK_TUNE_HEALTHSTILL)
 0c66e7be Block H: Freigabe-Knopf fuer Schritt-Tagebuch, live gegen Test-Playlist (Kap 313)
 27857731 F-Pilot: Schritt-Tagebuch live gegen Test-Playlist getestet (Kap 313)
-fd26b186 Kap 307: OAuth in Produktion, Zugaenge neu verbunden
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
