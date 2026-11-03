@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-03T12:00:21.176932)
+# JACK LIVE-KONTEXT (auto, 2026-11-03T12:03:23.652605)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-03T12:00:21.159017
+Stand: 2026-11-03T12:03:23.638502
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -271,14 +271,16 @@ Stand: 2026-11-03T12:00:21.159017
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7858
+- Erinnerungen: 7863
 - Dienste:
-run: jack_cortex: (pid 19818) 1540s; run: log: (pid 18375) 455886s
-run: jack_telegram: (pid 19805) 1540s; run: log: (pid 18376) 455886s
-run: jack_autolearn: (pid 27589) 805s; run: log: (pid 18385) 455886s
+run: jack_cortex: (pid 19818) 1722s; run: log: (pid 18375) 456068s
+run: jack_telegram: (pid 19805) 1722s; run: log: (pid 18376) 456068s
+run: jack_autolearn: (pid 27589) 987s; run: log: (pid 18385) 456068s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+8a4650b4 Kap 321/322 Status LIVE statt Entwurf
+786943a1 G11 Bestandsaufnahme (Grok) mit Claude-Korrekturen im Arbeitsplatz, Kap 320-322 Status korrigiert
 1a3beda5 Grok G4 G5 G7 G8 G9 Fixes eingebaut: Inbox, Root-Quoting, Telegram, n8n, Dauerlaeufer
 9cecb003 Grok G2/G3 Sicherheitsfixes Runner + MCP-Auth eingebaut, Doku
 7677393e CI neu: Smoke-Tests Syntax+Geheimnisse, kaputtes cortex_replay_guarded raus
@@ -292,8 +294,6 @@ e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetz
 adef8ee9 exec Timeout beendet Prozessgruppe H1c, Arena grep-Sperre und Holdout-Fix, Lerner v5, Handbuch
 a22196a9 Block I: Knopf-Zustellung mit Telegram-Beleg + Protokoll (Kap 299)
 b449467e Autolearn: Health-Check ohne Zwischenablage/Toast-Nebenwirkung (JACK_TUNE_HEALTHSTILL)
-0c66e7be Block H: Freigabe-Knopf fuer Schritt-Tagebuch, live gegen Test-Playlist (Kap 313)
-27857731 F-Pilot: Schritt-Tagebuch live gegen Test-Playlist getestet (Kap 313)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
