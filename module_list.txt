@@ -157,6 +157,7 @@
 -rw-------. 1 u0_a400 u0_a400  2086 Oct  5 13:50 /data/data/com.termux/files/home/jack/jack_read_door.py
 -rw-------. 1 u0_a400 u0_a400  7136 Oct 17 12:19 /data/data/com.termux/files/home/jack/jack_recovery.py
 -rw-------. 1 u0_a400 u0_a400  4986 Aug 13 01:14 /data/data/com.termux/files/home/jack/jack_reflexion.py
+-rw-------. 1 u0_a400 u0_a400  4282 Nov  4 05:38 /data/data/com.termux/files/home/jack/jack_restore.py
 -rw-------. 1 u0_a400 u0_a400  2432 Sep 22 03:36 /data/data/com.termux/files/home/jack/jack_router.py
 -rw-------. 1 u0_a400 u0_a400   414 Oct  9 02:05 /data/data/com.termux/files/home/jack/jack_safe_text.py
 -rw-------. 1 u0_a400 u0_a400  1989 Oct  6 20:38 /data/data/com.termux/files/home/jack/jack_sandbox.py

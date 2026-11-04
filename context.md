@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T05:35:47.632254)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T05:38:49.891146)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T05:35:47.615688
+Stand: 2026-11-04T05:38:49.876352
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-04T05:35:47.615688
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (257)
+## Aktive Module (258)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -173,6 +173,7 @@ Stand: 2026-11-04T05:35:47.615688
 - jack_read_door.py
 - jack_recovery.py
 - jack_reflexion.py
+- jack_restore.py
 - jack_router.py
 - jack_safe_text.py
 - jack_sandbox.py
@@ -274,14 +275,15 @@ Stand: 2026-11-04T05:35:47.615688
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7887
+- Erinnerungen: 7893
 - Dienste:
-run: jack_cortex: (pid 17154) 269s; run: log: (pid 18375) 519212s
-run: jack_telegram: (pid 18530) 204s; run: log: (pid 18376) 519212s
-run: jack_autolearn: (pid 17186) 269s; run: log: (pid 18385) 519212s
+run: jack_cortex: (pid 17154) 451s; run: log: (pid 18375) 519394s
+run: jack_telegram: (pid 18530) 386s; run: log: (pid 18376) 519394s
+run: jack_autolearn: (pid 17186) 451s; run: log: (pid 18385) 519394s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+73ce1ef3 Grok G14: jack_restore.py, Backup-Stempel, Notfall-Checkliste im Arbeitsplatz
 15a94619 Grok G12 G13 G15 G16 + ChatGPT C3 eingebaut: Journal, Audit, Zeitmessung, read_files, Injection-Probe
 2a96fc92 Sitzungsprotokoll-Regel (privat/ gitignored), Grok G12-G17 notiert
 8a4650b4 Kap 321/322 Status LIVE statt Entwurf
@@ -296,7 +298,6 @@ e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftra
 124211ec START_HIER Kurzfassung, README Stand 2.11., Nachttest-Gruenmeldung, 3 tote Shell-Module ins Attic
 624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
 e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetzt, Nachttest, Arbeitsregeln-Spiegel
-adef8ee9 exec Timeout beendet Prozessgruppe H1c, Arena grep-Sperre und Holdout-Fix, Lerner v5, Handbuch
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
