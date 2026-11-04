@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T15:12:01.827391)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T15:15:04.095279)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T15:12:01.814183
+Stand: 2026-11-04T15:15:04.080239
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -286,14 +286,15 @@ Stand: 2026-11-04T15:12:01.814183
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7972
+- Erinnerungen: 7975
 - Dienste:
-run: jack_cortex: (pid 17154) 34843s; run: log: (pid 18375) 553786s
-run: jack_telegram: (pid 18530) 34778s; run: log: (pid 18376) 553786s
-run: jack_autolearn: (pid 17186) 34843s; run: log: (pid 18385) 553786s
+run: jack_cortex: (pid 17154) 35026s; run: log: (pid 18375) 553969s
+run: jack_telegram: (pid 18530) 34961s; run: log: (pid 18376) 553969s
+run: jack_autolearn: (pid 17186) 35026s; run: log: (pid 18385) 553969s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+5337f6e8 Grok G24: GET /telefon/lagebericht fuer ElevenLabs-Webhook (nur Rolle telefon)
 0722127d Grok G22: MCP-Rolle telefon (nur lagebericht, Rate-Limit, Notaus) fuer ElevenLabs-JACK
 aec8085e C6 jack_lagebericht.py (DWD live ok), G23 YouTube-Aufraeumen/Vorschlag, jack_n8n_api workflow_get
 3cfb2312 Grok G20 Gegenpruefung: Boost-TTL nur bei Wait, Journal-Skip prueft Act
@@ -308,7 +309,6 @@ e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Ueb
 1a3beda5 Grok G4 G5 G7 G8 G9 Fixes eingebaut: Inbox, Root-Quoting, Telegram, n8n, Dauerlaeufer
 9cecb003 Grok G2/G3 Sicherheitsfixes Runner + MCP-Auth eingebaut, Doku
 7677393e CI neu: Smoke-Tests Syntax+Geheimnisse, kaputtes cortex_replay_guarded raus
-2a6e016c C1: Oracle-Sicherheitsfix F1-F4, Notbremse-Wiederanlauf B3, Handbuch Nachttest/Briefing/Kalender-Sync
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
