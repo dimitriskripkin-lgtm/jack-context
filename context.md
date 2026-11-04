@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T06:06:12.997451)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T06:09:15.194903)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T06:06:12.983747
+Stand: 2026-11-04T06:09:15.182827
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-04T06:06:12.983747
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (258)
+## Aktive Module (264)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -90,6 +90,7 @@ Stand: 2026-11-04T06:06:12.983747
 - jack_graceful.py
 - jack_graph.py
 - jack_grid_vision.py
+- jack_grok_ci.py
 - jack_groq_bridge.py
 - jack_guard.py
 - jack_haliza.py
@@ -110,6 +111,7 @@ Stand: 2026-11-04T06:06:12.983747
 - jack_intent.py
 - jack_intent_apps.py
 - jack_intent_lookup.py
+- jack_job.py
 - jack_kanal.py
 - jack_karte.py
 - jack_keyboards.py
@@ -142,11 +144,13 @@ Stand: 2026-11-04T06:06:12.983747
 - jack_missions.py
 - jack_modelmap.py
 - jack_monitor.py
+- jack_msg_register.py
 - jack_musik_gut.py
 - jack_musikgut_approval.py
 - jack_musikgut_remote.py
 - jack_muster.py
 - jack_n8n.py
+- jack_n8n_api.py
 - jack_n8n_google.py
 - jack_n8n_youtube.py
 - jack_nachttest.py
@@ -230,6 +234,7 @@ Stand: 2026-11-04T06:06:12.983747
 - jack_tuev3.py
 - jack_tun.py
 - jack_tunnel_watch.py
+- jack_uebergabe.py
 - jack_ui_agent.py
 - jack_ui_elements.py
 - jack_ui_nav.py
@@ -255,6 +260,7 @@ Stand: 2026-11-04T06:06:12.983747
 - jack_wissen.py
 - jack_wissen_ernte.py
 - jack_wissen_tief.py
+- jack_wochenbericht.py
 - jack_workers.py
 - jack_write.py
 - jack_xiaomi.py
@@ -275,14 +281,15 @@ Stand: 2026-11-04T06:06:12.983747
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7894
+- Erinnerungen: 7903
 - Dienste:
-run: jack_cortex: (pid 17154) 2094s; run: log: (pid 18375) 521037s
-run: jack_telegram: (pid 18530) 2029s; run: log: (pid 18376) 521037s
-run: jack_autolearn: (pid 17186) 2094s; run: log: (pid 18385) 521037s
+run: jack_cortex: (pid 17154) 2277s; run: log: (pid 18375) 521220s
+run: jack_telegram: (pid 18530) 2212s; run: log: (pid 18376) 521220s
+run: jack_autolearn: (pid 17186) 2277s; run: log: (pid 18385) 521220s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Uebergabe Doku-Waechter
 73ce1ef3 Grok G14: jack_restore.py, Backup-Stempel, Notfall-Checkliste im Arbeitsplatz
 15a94619 Grok G12 G13 G15 G16 + ChatGPT C3 eingebaut: Journal, Audit, Zeitmessung, read_files, Injection-Probe
 2a96fc92 Sitzungsprotokoll-Regel (privat/ gitignored), Grok G12-G17 notiert
@@ -297,7 +304,6 @@ e8042d46 Doku 03.11.: Handbuch 307 Nachtrag (Kalender, Notbremse, B4b), offen, e
 e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftraege archiviert
 124211ec START_HIER Kurzfassung, README Stand 2.11., Nachttest-Gruenmeldung, 3 tote Shell-Module ins Attic
 624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
-e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetzt, Nachttest, Arbeitsregeln-Spiegel
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
