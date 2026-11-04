@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T05:29:43.253179)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T05:32:45.449718)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T05:29:43.240494
+Stand: 2026-11-04T05:32:45.441812
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-04T05:29:43.240494
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (254)
+## Aktive Module (257)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -31,6 +31,8 @@ Stand: 2026-11-04T05:29:43.240494
 - jack_arena_sandbox.py
 - jack_ast_gate.py
 - jack_audit.py
+- jack_audit_dauer.py
+- jack_audit_report.py
 - jack_autodoc.py
 - jack_autofixer_shadow.py
 - jack_autolearn_loop.py
@@ -41,6 +43,7 @@ Stand: 2026-11-04T05:29:43.240494
 - jack_budget.py
 - jack_budget_status.py
 - jack_bugfix_loop.py
+- jack_c3_injection_probe.py
 - jack_callback_handler.py
 - jack_chains.py
 - jack_changelog.py
@@ -271,14 +274,15 @@ Stand: 2026-11-04T05:29:43.240494
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7874
+- Erinnerungen: 7885
 - Dienste:
-run: jack_cortex: (pid 19818) 64502s; run: log: (pid 18375) 518848s
-run: jack_telegram: (pid 19805) 64502s; run: log: (pid 18376) 518848s
-run: jack_autolearn: (pid 27886) 42896s; run: log: (pid 18385) 518848s
+run: jack_cortex: (pid 17154) 87s; run: log: (pid 18375) 519030s
+run: jack_telegram: (pid 18530) 22s; run: log: (pid 18376) 519030s
+run: jack_autolearn: (pid 17186) 87s; run: log: (pid 18385) 519030s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+15a94619 Grok G12 G13 G15 G16 + ChatGPT C3 eingebaut: Journal, Audit, Zeitmessung, read_files, Injection-Probe
 2a96fc92 Sitzungsprotokoll-Regel (privat/ gitignored), Grok G12-G17 notiert
 8a4650b4 Kap 321/322 Status LIVE statt Entwurf
 786943a1 G11 Bestandsaufnahme (Grok) mit Claude-Korrekturen im Arbeitsplatz, Kap 320-322 Status korrigiert
@@ -293,7 +297,6 @@ e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftra
 624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
 e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetzt, Nachttest, Arbeitsregeln-Spiegel
 adef8ee9 exec Timeout beendet Prozessgruppe H1c, Arena grep-Sperre und Holdout-Fix, Lerner v5, Handbuch
-a22196a9 Block I: Knopf-Zustellung mit Telegram-Beleg + Protokoll (Kap 299)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
