@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T08:01:38.701032)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T08:04:40.978305)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T08:01:38.684223
+Stand: 2026-11-04T08:04:40.967612
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -281,14 +281,15 @@ Stand: 2026-11-04T08:01:38.684223
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7903
+- Erinnerungen: 7910
 - Dienste:
-run: jack_cortex: (pid 17154) 9020s; run: log: (pid 18375) 527963s
-run: jack_telegram: (pid 18530) 8955s; run: log: (pid 18376) 527963s
-run: jack_autolearn: (pid 17186) 9020s; run: log: (pid 18385) 527963s
+run: jack_cortex: (pid 17154) 9202s; run: log: (pid 18375) 528145s
+run: jack_telegram: (pid 18530) 9137s; run: log: (pid 18376) 528145s
+run: jack_autolearn: (pid 17186) 9202s; run: log: (pid 18385) 528145s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+d0cbe8d7 Grok G19 Runner-Takt 0.1s bei Boost, create_mission-Warteschleife 0.1s
 e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Uebergabe Doku-Waechter
 73ce1ef3 Grok G14: jack_restore.py, Backup-Stempel, Notfall-Checkliste im Arbeitsplatz
 15a94619 Grok G12 G13 G15 G16 + ChatGPT C3 eingebaut: Journal, Audit, Zeitmessung, read_files, Injection-Probe
@@ -303,7 +304,6 @@ e8042d46 Doku 03.11.: Handbuch 307 Nachtrag (Kalender, Notbremse, B4b), offen, e
 0121dace Schicht-Briefing 23:45 (Wetter, Fristen, Systemlage, Freigaben), Nachttest meldet nur Rot
 e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftraege archiviert
 124211ec START_HIER Kurzfassung, README Stand 2.11., Nachttest-Gruenmeldung, 3 tote Shell-Module ins Attic
-624a4b3e S2 eval durch json ersetzt, TTS ohne Shell, Android-Quoting, jack_operator ins Attic
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
