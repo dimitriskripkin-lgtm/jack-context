@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T11:22:25.610723)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T11:25:35.530025)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T11:22:25.594059
+Stand: 2026-11-04T11:25:35.516271
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -283,14 +283,15 @@ Stand: 2026-11-04T11:22:25.594059
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7924
+- Erinnerungen: 7928
 - Dienste:
-run: jack_cortex: (pid 17154) 21067s; run: log: (pid 18375) 540010s
-run: jack_telegram: (pid 18530) 21002s; run: log: (pid 18376) 540010s
-run: jack_autolearn: (pid 17186) 21067s; run: log: (pid 18385) 540010s
+run: jack_cortex: (pid 17154) 21257s; run: log: (pid 18375) 540200s
+run: jack_telegram: (pid 18530) 21192s; run: log: (pid 18376) 540200s
+run: jack_autolearn: (pid 17186) 21257s; run: log: (pid 18385) 540200s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+3cfb2312 Grok G20 Gegenpruefung: Boost-TTL nur bei Wait, Journal-Skip prueft Act
 93b673e4 C5 Mail-Grossputz (jack_mail_putz, Regeln), jack_n8n_gmail.py, G19-Messung
 d0cbe8d7 Grok G19 Runner-Takt 0.1s bei Boost, create_mission-Warteschleife 0.1s
 e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Uebergabe Doku-Waechter
@@ -305,7 +306,6 @@ e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Ueb
 2a6e016c C1: Oracle-Sicherheitsfix F1-F4, Notbremse-Wiederanlauf B3, Handbuch Nachttest/Briefing/Kalender-Sync
 e8042d46 Doku 03.11.: Handbuch 307 Nachtrag (Kalender, Notbremse, B4b), offen, entscheidungen; YouTube-Sync B4b
 0121dace Schicht-Briefing 23:45 (Wetter, Fristen, Systemlage, Freigaben), Nachttest meldet nur Rot
-e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftraege archiviert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
