@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T04:47:11.319786)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T04:50:13.775522)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T04:47:11.307509
+Stand: 2026-11-04T04:50:13.762643
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -271,14 +271,15 @@ Stand: 2026-11-04T04:47:11.307509
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7867
+- Erinnerungen: 7871
 - Dienste:
-run: jack_cortex: (pid 19818) 61950s; run: log: (pid 18375) 516296s
-run: jack_telegram: (pid 19805) 61950s; run: log: (pid 18376) 516296s
-run: jack_autolearn: (pid 27886) 40344s; run: log: (pid 18385) 516296s
+run: jack_cortex: (pid 19818) 62132s; run: log: (pid 18375) 516478s
+run: jack_telegram: (pid 19805) 62132s; run: log: (pid 18376) 516478s
+run: jack_autolearn: (pid 27886) 40526s; run: log: (pid 18385) 516478s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+2a96fc92 Sitzungsprotokoll-Regel (privat/ gitignored), Grok G12-G17 notiert
 8a4650b4 Kap 321/322 Status LIVE statt Entwurf
 786943a1 G11 Bestandsaufnahme (Grok) mit Claude-Korrekturen im Arbeitsplatz, Kap 320-322 Status korrigiert
 1a3beda5 Grok G4 G5 G7 G8 G9 Fixes eingebaut: Inbox, Root-Quoting, Telegram, n8n, Dauerlaeufer
@@ -293,7 +294,6 @@ e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftra
 e53edf60 H2 klare Ablehnungsmeldungen, S1b jack_notify durch jack_tg_send ersetzt, Nachttest, Arbeitsregeln-Spiegel
 adef8ee9 exec Timeout beendet Prozessgruppe H1c, Arena grep-Sperre und Holdout-Fix, Lerner v5, Handbuch
 a22196a9 Block I: Knopf-Zustellung mit Telegram-Beleg + Protokoll (Kap 299)
-b449467e Autolearn: Health-Check ohne Zwischenablage/Toast-Nebenwirkung (JACK_TUNE_HEALTHSTILL)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
