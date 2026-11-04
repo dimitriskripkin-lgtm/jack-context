@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T13:12:46.382512)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T13:16:02.192640)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T13:12:46.361886
+Stand: 2026-11-04T13:16:02.170663
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-04T13:12:46.361886
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (266)
+## Aktive Module (269)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -117,6 +117,7 @@ Stand: 2026-11-04T13:12:46.361886
 - jack_keyboards.py
 - jack_klingel.py
 - jack_korrektur.py
+- jack_lagebericht.py
 - jack_lagebild.py
 - jack_learn.py
 - jack_lerner.py
@@ -273,8 +274,10 @@ Stand: 2026-11-04T13:12:46.361886
 - jack_xiaomi_unlock.py
 - jack_xiaomi_web.py
 - jack_xibreaker.py
+- jack_youtube_aufraeumen.py
 - jack_youtube_playlist.py
 - jack_youtube_sync.py
+- jack_youtube_vorschlag.py
 - jack_yt_hybrid.py
 - jack_yt_sido.py
 - kortex_memory.py
@@ -283,14 +286,15 @@ Stand: 2026-11-04T13:12:46.361886
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7947
+- Erinnerungen: 7954
 - Dienste:
-run: jack_cortex: (pid 17154) 27688s; run: log: (pid 18375) 546631s
-run: jack_telegram: (pid 18530) 27623s; run: log: (pid 18376) 546631s
-run: jack_autolearn: (pid 17186) 27688s; run: log: (pid 18385) 546631s
+run: jack_cortex: (pid 17154) 27884s; run: log: (pid 18375) 546827s
+run: jack_telegram: (pid 18530) 27819s; run: log: (pid 18376) 546827s
+run: jack_autolearn: (pid 17186) 27884s; run: log: (pid 18385) 546827s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+aec8085e C6 jack_lagebericht.py (DWD live ok), G23 YouTube-Aufraeumen/Vorschlag, jack_n8n_api workflow_get
 3cfb2312 Grok G20 Gegenpruefung: Boost-TTL nur bei Wait, Journal-Skip prueft Act
 93b673e4 C5 Mail-Grossputz (jack_mail_putz, Regeln), jack_n8n_gmail.py, G19-Messung
 d0cbe8d7 Grok G19 Runner-Takt 0.1s bei Boost, create_mission-Warteschleife 0.1s
@@ -305,7 +309,6 @@ e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Ueb
 7677393e CI neu: Smoke-Tests Syntax+Geheimnisse, kaputtes cortex_replay_guarded raus
 2a6e016c C1: Oracle-Sicherheitsfix F1-F4, Notbremse-Wiederanlauf B3, Handbuch Nachttest/Briefing/Kalender-Sync
 e8042d46 Doku 03.11.: Handbuch 307 Nachtrag (Kalender, Notbremse, B4b), offen, entscheidungen; YouTube-Sync B4b
-0121dace Schicht-Briefing 23:45 (Wetter, Fristen, Systemlage, Freigaben), Nachttest meldet nur Rot
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
