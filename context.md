@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-04T09:57:13.121769)
+# JACK LIVE-KONTEXT (auto, 2026-11-04T10:00:15.584296)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-04T09:57:13.109744
+Stand: 2026-11-04T10:00:15.564845
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-04T09:57:13.109744
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (265)
+## Aktive Module (266)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -127,6 +127,7 @@ Stand: 2026-11-04T09:57:13.109744
 - jack_logrot.py
 - jack_lokal.py
 - jack_loop.py
+- jack_mail_putz.py
 - jack_math.py
 - jack_mcp_auth.py
 - jack_mcp_oauth.py
@@ -282,14 +283,15 @@ Stand: 2026-11-04T09:57:13.109744
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7919
+- Erinnerungen: 7924
 - Dienste:
-run: jack_cortex: (pid 17154) 15955s; run: log: (pid 18375) 534898s
-run: jack_telegram: (pid 18530) 15890s; run: log: (pid 18376) 534898s
-run: jack_autolearn: (pid 17186) 15955s; run: log: (pid 18385) 534898s
+run: jack_cortex: (pid 17154) 16137s; run: log: (pid 18375) 535080s
+run: jack_telegram: (pid 18530) 16072s; run: log: (pid 18376) 535080s
+run: jack_autolearn: (pid 17186) 16137s; run: log: (pid 18385) 535080s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+93b673e4 C5 Mail-Grossputz (jack_mail_putz, Regeln), jack_n8n_gmail.py, G19-Messung
 d0cbe8d7 Grok G19 Runner-Takt 0.1s bei Boost, create_mission-Warteschleife 0.1s
 e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Uebergabe Doku-Waechter
 73ce1ef3 Grok G14: jack_restore.py, Backup-Stempel, Notfall-Checkliste im Arbeitsplatz
@@ -304,7 +306,6 @@ e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Ueb
 e8042d46 Doku 03.11.: Handbuch 307 Nachtrag (Kalender, Notbremse, B4b), offen, entscheidungen; YouTube-Sync B4b
 0121dace Schicht-Briefing 23:45 (Wetter, Fristen, Systemlage, Freigaben), Nachttest meldet nur Rot
 e7268e0c K2 speichere_skill eine kanonische Fassung, Xiaomi-Timeout-Text, auftraege archiviert
-124211ec START_HIER Kurzfassung, README Stand 2.11., Nachttest-Gruenmeldung, 3 tote Shell-Module ins Attic
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).

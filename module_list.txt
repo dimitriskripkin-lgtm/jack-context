@@ -111,6 +111,7 @@
 -rw-------. 1 u0_a400 u0_a400  1638 Nov  4 05:31 /data/data/com.termux/files/home/jack/jack_logrot.py
 -rw-------. 1 u0_a400 u0_a400  4645 Sep 11 10:14 /data/data/com.termux/files/home/jack/jack_lokal.py
 -rw-------. 1 u0_a400 u0_a400  3175 Sep 14 05:18 /data/data/com.termux/files/home/jack/jack_loop.py
+-rw-------. 1 u0_a400 u0_a400  9484 Nov  4 09:58 /data/data/com.termux/files/home/jack/jack_mail_putz.py
 -rw-------. 1 u0_a400 u0_a400  3078 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_math.py
 -rw-------. 1 u0_a400 u0_a400 20679 Nov  4 05:31 /data/data/com.termux/files/home/jack/jack_mcp_auth.py
 -rw-------. 1 u0_a400 u0_a400 14783 Oct  9 20:01 /data/data/com.termux/files/home/jack/jack_mcp_oauth.py
