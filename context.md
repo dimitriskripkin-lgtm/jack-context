@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-05T05:02:27.939661)
+# JACK LIVE-KONTEXT (auto, 2026-11-05T05:05:29.975052)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-05T05:02:27.920570
+Stand: 2026-11-05T05:05:29.959773
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-05T05:02:27.920570
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (269)
+## Aktive Module (270)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -26,6 +26,7 @@ Stand: 2026-11-05T05:02:27.920570
 - jack_approval_digest.py
 - jack_arbeitsplatz.py
 - jack_arena.py
+- jack_arena_bruecke.py
 - jack_arena_lerner.py
 - jack_arena_runner.py
 - jack_arena_sandbox.py
@@ -286,14 +287,15 @@ Stand: 2026-11-05T05:02:27.920570
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7307
+- Erinnerungen: 7312
 - Dienste:
-run: jack_cortex: (pid 17154) 84669s; run: log: (pid 18375) 603612s
-run: jack_telegram: (pid 18530) 84604s; run: log: (pid 18376) 603612s
-run: jack_autolearn: (pid 18450) 30214s; run: log: (pid 18385) 603612s
+run: jack_cortex: (pid 17154) 84851s; run: log: (pid 18375) 603794s
+run: jack_telegram: (pid 18530) 84786s; run: log: (pid 18376) 603794s
+run: jack_autolearn: (pid 18450) 30396s; run: log: (pid 18385) 603794s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+9bb0061f G21 Arena-Bruecke live: neu jack_arena_bruecke.py, Tests 18/18, Smoke gruen
 5337f6e8 Grok G24: GET /telefon/lagebericht fuer ElevenLabs-Webhook (nur Rolle telefon)
 0722127d Grok G22: MCP-Rolle telefon (nur lagebericht, Rate-Limit, Notaus) fuer ElevenLabs-JACK
 aec8085e C6 jack_lagebericht.py (DWD live ok), G23 YouTube-Aufraeumen/Vorschlag, jack_n8n_api workflow_get
@@ -308,7 +310,6 @@ e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Ueb
 786943a1 G11 Bestandsaufnahme (Grok) mit Claude-Korrekturen im Arbeitsplatz, Kap 320-322 Status korrigiert
 1a3beda5 Grok G4 G5 G7 G8 G9 Fixes eingebaut: Inbox, Root-Quoting, Telegram, n8n, Dauerlaeufer
 9cecb003 Grok G2/G3 Sicherheitsfixes Runner + MCP-Auth eingebaut, Doku
-7677393e CI neu: Smoke-Tests Syntax+Geheimnisse, kaputtes cortex_replay_guarded raus
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
