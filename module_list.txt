@@ -102,7 +102,7 @@
 -rw-------. 1 u0_a400 u0_a400  1240 Sep  1 03:37 /data/data/com.termux/files/home/jack/jack_keyboards.py
 -rw-------. 1 u0_a400 u0_a400  3112 Oct 26 09:32 /data/data/com.termux/files/home/jack/jack_klingel.py
 -rw-------. 1 u0_a400 u0_a400  2205 Oct  9 13:36 /data/data/com.termux/files/home/jack/jack_korrektur.py
--rw-------. 1 u0_a400 u0_a400 24518 Nov  4 13:12 /data/data/com.termux/files/home/jack/jack_lagebericht.py
+-rw-------. 1 u0_a400 u0_a400 24517 Nov  5 06:09 /data/data/com.termux/files/home/jack/jack_lagebericht.py
 -rw-------. 1 u0_a400 u0_a400  6176 Oct 22 03:13 /data/data/com.termux/files/home/jack/jack_lagebild.py
 -rw-------. 1 u0_a400 u0_a400  3759 Sep 14 04:12 /data/data/com.termux/files/home/jack/jack_learn.py
 -rw-------. 1 u0_a400 u0_a400 10740 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_lerner.py
