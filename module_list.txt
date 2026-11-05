@@ -69,6 +69,7 @@
 -rw-------. 1 u0_a400 u0_a400  2531 Oct 17 11:50 /data/data/com.termux/files/home/jack/jack_focus_monitor.py
 -rw-------. 1 u0_a400 u0_a400  4858 Oct  7 22:19 /data/data/com.termux/files/home/jack/jack_freigabe.py
 -rw-------. 1 u0_a400 u0_a400 30201 Nov  5 12:48 /data/data/com.termux/files/home/jack/jack_funk.py
+-rw-------. 1 u0_a400 u0_a400  2610 Nov  5 12:54 /data/data/com.termux/files/home/jack/jack_funk_mess.py
 -rw-------. 1 u0_a400 u0_a400  3193 Sep  1 05:26 /data/data/com.termux/files/home/jack/jack_gedanken.py
 -rw-------. 1 u0_a400 u0_a400 13576 Oct 26 08:13 /data/data/com.termux/files/home/jack/jack_gemini_bridge.py
 -rw-------. 1 u0_a400 u0_a400  3824 Sep 19 15:11 /data/data/com.termux/files/home/jack/jack_gemini_cache.py
