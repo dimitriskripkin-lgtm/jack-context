@@ -263,6 +263,7 @@
 -rw-------. 1 u0_a400 u0_a400  6829 Sep 14 05:25 /data/data/com.termux/files/home/jack/jack_xiaomi_web.py
 -rw-------. 1 u0_a400 u0_a400  1026 Oct 17 12:08 /data/data/com.termux/files/home/jack/jack_xibreaker.py
 -rw-------. 1 u0_a400 u0_a400  7273 Nov  4 13:13 /data/data/com.termux/files/home/jack/jack_youtube_aufraeumen.py
+-rw-------. 1 u0_a400 u0_a400 23555 Nov  6 04:20 /data/data/com.termux/files/home/jack/jack_youtube_neu.py
 -rw-------. 1 u0_a400 u0_a400  5529 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_youtube_playlist.py
 -rw-------. 1 u0_a400 u0_a400  9328 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_youtube_sync.py
 -rw-------. 1 u0_a400 u0_a400  5312 Nov  4 13:13 /data/data/com.termux/files/home/jack/jack_youtube_vorschlag.py
