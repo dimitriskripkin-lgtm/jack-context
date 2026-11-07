@@ -104,7 +104,7 @@
 -rw-------. 1 u0_a400 u0_a400  1240 Sep  1 03:37 /data/data/com.termux/files/home/jack/jack_keyboards.py
 -rw-------. 1 u0_a400 u0_a400  3112 Oct 26 09:32 /data/data/com.termux/files/home/jack/jack_klingel.py
 -rw-------. 1 u0_a400 u0_a400  2205 Oct  9 13:36 /data/data/com.termux/files/home/jack/jack_korrektur.py
--rw-------. 1 u0_a400 u0_a400 24621 Nov  7 15:38 /data/data/com.termux/files/home/jack/jack_lagebericht.py
+-rw-------. 1 u0_a400 u0_a400 24629 Nov  7 15:39 /data/data/com.termux/files/home/jack/jack_lagebericht.py
 -rw-------. 1 u0_a400 u0_a400  6176 Oct 22 03:13 /data/data/com.termux/files/home/jack/jack_lagebild.py
 -rw-------. 1 u0_a400 u0_a400  3759 Sep 14 04:12 /data/data/com.termux/files/home/jack/jack_learn.py
 -rw-------. 1 u0_a400 u0_a400 10740 Oct 29 05:55 /data/data/com.termux/files/home/jack/jack_lerner.py
@@ -117,9 +117,9 @@
 -rw-------. 1 u0_a400 u0_a400  3175 Sep 14 05:18 /data/data/com.termux/files/home/jack/jack_loop.py
 -rw-------. 1 u0_a400 u0_a400  9484 Nov  4 09:58 /data/data/com.termux/files/home/jack/jack_mail_putz.py
 -rw-------. 1 u0_a400 u0_a400  3078 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_math.py
--rw-------. 1 u0_a400 u0_a400 24586 Nov  6 07:51 /data/data/com.termux/files/home/jack/jack_mcp_auth.py
+-rw-------. 1 u0_a400 u0_a400 26522 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_mcp_auth.py
 -rw-------. 1 u0_a400 u0_a400 14783 Oct  9 20:01 /data/data/com.termux/files/home/jack/jack_mcp_oauth.py
--rw-------. 1 u0_a400 u0_a400 42674 Nov  5 06:31 /data/data/com.termux/files/home/jack/jack_mcp_server.py
+-rw-------. 1 u0_a400 u0_a400 46145 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_mcp_server.py
 -rw-------. 1 u0_a400 u0_a400  5488 Oct 26 05:46 /data/data/com.termux/files/home/jack/jack_melderegel.py
 -rw-------. 1 u0_a400 u0_a400  2173 Sep 17 16:20 /data/data/com.termux/files/home/jack/jack_memory.py
 -rw-------. 1 u0_a400 u0_a400  2398 Aug 21 07:41 /data/data/com.termux/files/home/jack/jack_memory_pruning.py
@@ -213,7 +213,10 @@
 -rw-------. 1 u0_a400 u0_a400  4031 Oct  7 16:29 /data/data/com.termux/files/home/jack/jack_talk_trainer.py
 -rw-------. 1 u0_a400 u0_a400  2614 Oct 21 08:16 /data/data/com.termux/files/home/jack/jack_tasker.py
 -rw-------. 1 u0_a400 u0_a400  4854 Oct 30 03:04 /data/data/com.termux/files/home/jack/jack_tatenwahrheit.py
+-rw-------. 1 u0_a400 u0_a400  5423 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_telefon_aktion.py
+-rw-------. 1 u0_a400 u0_a400  6563 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_telefon_gespraech.py
 -rw-------. 1 u0_a400 u0_a400  7722 Nov  5 06:31 /data/data/com.termux/files/home/jack/jack_telefon_lesen.py
+-rw-------. 1 u0_a400 u0_a400  4186 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_telefon_messen.py
 -rw-------. 1 u0_a400 u0_a400 82934 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_telegram.py
 -rw-------. 1 u0_a400 u0_a400  4603 Oct  9 16:35 /data/data/com.termux/files/home/jack/jack_telemetry.py
 -rw-------. 1 u0_a400 u0_a400  3800 Oct 28 13:29 /data/data/com.termux/files/home/jack/jack_termin.py
