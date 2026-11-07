@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-07T22:30:37.225045)
+# JACK LIVE-KONTEXT (auto, 2026-11-07T22:33:39.469496)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-07T22:30:37.211330
+Stand: 2026-11-07T22:33:39.456583
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-07T22:30:37.211330
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 7108
+- Erinnerungen: 7113
 - Dienste:
-run: jack_cortex: (pid 17154) 320359s; run: log: (pid 18375) 839302s
-run: jack_telegram: (pid 18530) 320294s; run: log: (pid 18376) 839302s
-run: jack_autolearn: (pid 20509) 124s; run: log: (pid 18385) 839302s
+run: jack_cortex: (pid 17154) 320541s; run: log: (pid 18375) 839484s
+run: jack_telegram: (pid 18530) 320476s; run: log: (pid 18376) 839484s
+run: jack_autolearn: (pid 20509) 306s; run: log: (pid 18385) 839484s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+b05f7b5f Telefon Stufe 2 (messen/aktion/erinnerung/merken), Lagebericht Xiaomi-Probe-Fix, Kap 323/326 (07.11.2026)
 dbad2fdc Telefon: JACK erklaert sich (Kap 323), R2 Schluesseldateien gesperrt, R4 lagebericht im Thread
 9bb0061f G21 Arena-Bruecke live: neu jack_arena_bruecke.py, Tests 18/18, Smoke gruen
 5337f6e8 Grok G24: GET /telefon/lagebericht fuer ElevenLabs-Webhook (nur Rolle telefon)
@@ -316,7 +317,6 @@ e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Ueb
 2a96fc92 Sitzungsprotokoll-Regel (privat/ gitignored), Grok G12-G17 notiert
 8a4650b4 Kap 321/322 Status LIVE statt Entwurf
 786943a1 G11 Bestandsaufnahme (Grok) mit Claude-Korrekturen im Arbeitsplatz, Kap 320-322 Status korrigiert
-1a3beda5 Grok G4 G5 G7 G8 G9 Fixes eingebaut: Inbox, Root-Quoting, Telegram, n8n, Dauerlaeufer
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
