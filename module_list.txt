@@ -117,9 +117,9 @@
 -rw-------. 1 u0_a400 u0_a400  3175 Sep 14 05:18 /data/data/com.termux/files/home/jack/jack_loop.py
 -rw-------. 1 u0_a400 u0_a400  9484 Nov  4 09:58 /data/data/com.termux/files/home/jack/jack_mail_putz.py
 -rw-------. 1 u0_a400 u0_a400  3078 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_math.py
--rw-------. 1 u0_a400 u0_a400 26522 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_mcp_auth.py
+-rw-------. 1 u0_a400 u0_a400 26569 Nov  7 16:05 /data/data/com.termux/files/home/jack/jack_mcp_auth.py
 -rw-------. 1 u0_a400 u0_a400 14783 Oct  9 20:01 /data/data/com.termux/files/home/jack/jack_mcp_oauth.py
--rw-------. 1 u0_a400 u0_a400 46145 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_mcp_server.py
+-rw-------. 1 u0_a400 u0_a400 46495 Nov  7 16:05 /data/data/com.termux/files/home/jack/jack_mcp_server.py
 -rw-------. 1 u0_a400 u0_a400  5488 Oct 26 05:46 /data/data/com.termux/files/home/jack/jack_melderegel.py
 -rw-------. 1 u0_a400 u0_a400  2173 Sep 17 16:20 /data/data/com.termux/files/home/jack/jack_memory.py
 -rw-------. 1 u0_a400 u0_a400  2398 Aug 21 07:41 /data/data/com.termux/files/home/jack/jack_memory_pruning.py
@@ -214,7 +214,7 @@
 -rw-------. 1 u0_a400 u0_a400  2614 Oct 21 08:16 /data/data/com.termux/files/home/jack/jack_tasker.py
 -rw-------. 1 u0_a400 u0_a400  4854 Oct 30 03:04 /data/data/com.termux/files/home/jack/jack_tatenwahrheit.py
 -rw-------. 1 u0_a400 u0_a400  5423 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_telefon_aktion.py
--rw-------. 1 u0_a400 u0_a400  6563 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_telefon_gespraech.py
+-rw-------. 1 u0_a400 u0_a400  8717 Nov  7 16:05 /data/data/com.termux/files/home/jack/jack_telefon_gespraech.py
 -rw-------. 1 u0_a400 u0_a400  7722 Nov  5 06:31 /data/data/com.termux/files/home/jack/jack_telefon_lesen.py
 -rw-------. 1 u0_a400 u0_a400  4186 Nov  7 15:41 /data/data/com.termux/files/home/jack/jack_telefon_messen.py
 -rw-------. 1 u0_a400 u0_a400 82934 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_telegram.py
