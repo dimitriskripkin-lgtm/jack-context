@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T06:41:38.242494)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T06:44:40.437705)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T06:41:38.228010
+Stand: 2026-11-11T06:44:40.423171
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-11T06:41:38.228010
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5104
+- Erinnerungen: 5108
 - Dienste:
-run: jack_cortex: (pid 32362) 9663s; run: log: (pid 32358) 9663s
-run: jack_telegram: (pid 32375) 9663s; run: log: (pid 32374) 9663s
-run: jack_autolearn: (pid 32363) 9663s; run: log: (pid 32361) 9663s
+run: jack_cortex: (pid 32362) 9845s; run: log: (pid 32358) 9845s
+run: jack_telegram: (pid 32375) 9845s; run: log: (pid 32374) 9845s
+run: jack_autolearn: (pid 32363) 9845s; run: log: (pid 32361) 9845s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+a13c01c9 tmp aus Git-Index genommen und in gitignore, Dateien bleiben lokal
 55e12ad9 Attic aus Git-Index genommen (bleibt lokal)
 b0a3f4d7 Autorotation Arbeitsplatz, Handbuch 234 und 327 Suno
 b05f7b5f Telefon Stufe 2 (messen/aktion/erinnerung/merken), Lagebericht Xiaomi-Probe-Fix, Kap 323/326 (07.11.2026)
@@ -316,7 +317,6 @@ d0cbe8d7 Grok G19 Runner-Takt 0.1s bei Boost, create_mission-Warteschleife 0.1s
 e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Uebergabe Doku-Waechter
 73ce1ef3 Grok G14: jack_restore.py, Backup-Stempel, Notfall-Checkliste im Arbeitsplatz
 15a94619 Grok G12 G13 G15 G16 + ChatGPT C3 eingebaut: Journal, Audit, Zeitmessung, read_files, Injection-Probe
-2a96fc92 Sitzungsprotokoll-Regel (privat/ gitignored), Grok G12-G17 notiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
