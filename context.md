@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T05:49:59.133402)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T05:53:01.440744)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T05:49:59.118679
+Stand: 2026-11-11T05:53:01.425182
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-11T05:49:59.118679
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5098
+- Erinnerungen: 5100
 - Dienste:
-run: jack_cortex: (pid 32362) 6564s; run: log: (pid 32358) 6564s
-run: jack_telegram: (pid 32375) 6564s; run: log: (pid 32374) 6564s
-run: jack_autolearn: (pid 32363) 6564s; run: log: (pid 32361) 6564s
+run: jack_cortex: (pid 32362) 6746s; run: log: (pid 32358) 6746s
+run: jack_telegram: (pid 32375) 6746s; run: log: (pid 32374) 6746s
+run: jack_autolearn: (pid 32363) 6746s; run: log: (pid 32361) 6746s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+b0a3f4d7 Autorotation Arbeitsplatz, Handbuch 234 und 327 Suno
 b05f7b5f Telefon Stufe 2 (messen/aktion/erinnerung/merken), Lagebericht Xiaomi-Probe-Fix, Kap 323/326 (07.11.2026)
 dbad2fdc Telefon: JACK erklaert sich (Kap 323), R2 Schluesseldateien gesperrt, R4 lagebericht im Thread
 9bb0061f G21 Arena-Bruecke live: neu jack_arena_bruecke.py, Tests 18/18, Smoke gruen
@@ -316,7 +317,6 @@ e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Ueb
 15a94619 Grok G12 G13 G15 G16 + ChatGPT C3 eingebaut: Journal, Audit, Zeitmessung, read_files, Injection-Probe
 2a96fc92 Sitzungsprotokoll-Regel (privat/ gitignored), Grok G12-G17 notiert
 8a4650b4 Kap 321/322 Status LIVE statt Entwurf
-786943a1 G11 Bestandsaufnahme (Grok) mit Claude-Korrekturen im Arbeitsplatz, Kap 320-322 Status korrigiert
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
