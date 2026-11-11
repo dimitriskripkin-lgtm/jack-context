@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T15:33:34.161755)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T15:36:36.402035)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T15:33:34.148665
+Stand: 2026-11-11T15:36:36.388288
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -295,14 +295,15 @@ Stand: 2026-11-11T15:33:34.148665
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5233
+- Erinnerungen: 5242
 - Dienste:
-run: jack_cortex: (pid 32362) 41579s; run: log: (pid 32358) 41579s
-run: jack_telegram: (pid 32375) 41579s; run: log: (pid 32374) 41579s
-run: jack_autolearn: (pid 16100) 19974s; run: log: (pid 32361) 41579s
+run: jack_cortex: (pid 32362) 41761s; run: log: (pid 32358) 41761s
+run: jack_telegram: (pid 32375) 41761s; run: log: (pid 32374) 41761s
+run: jack_autolearn: (pid 16100) 20156s; run: log: (pid 32361) 41761s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+40f831f0 Kap 345 ARBEITSWEISE_KI als Master im Spiegel, START_HIER-Zeiger, Grok INV-10 abgelegt
 4f00f9c5 Termux-Widget: nur JACK-Dashboard und JACK-anrufen, Rest ins Attic, Kap 344 Nachtrag
 f5730c7f Handbuch 15 Ersatzkapitel INV-5 (INV-7 geprueft), Board v0 jack_board.py, Kap 344
 be03e757 ARBEITSWEISE_KI und Lernjournal, MAXKETTE 30 auf 100, Kap 235, START_HIER-Zeiger, Grok INV-8 abgelegt
@@ -317,7 +318,6 @@ b05f7b5f Telefon Stufe 2 (messen/aktion/erinnerung/merken), Lagebericht Xiaomi-P
 dbad2fdc Telefon: JACK erklaert sich (Kap 323), R2 Schluesseldateien gesperrt, R4 lagebericht im Thread
 9bb0061f G21 Arena-Bruecke live: neu jack_arena_bruecke.py, Tests 18/18, Smoke gruen
 5337f6e8 Grok G24: GET /telefon/lagebericht fuer ElevenLabs-Webhook (nur Rolle telefon)
-0722127d Grok G22: MCP-Rolle telefon (nur lagebericht, Rate-Limit, Notaus) fuer ElevenLabs-JACK
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
