@@ -24,6 +24,7 @@
 -rw-------. 1 u0_a400 u0_a400 38350 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_autonomous.py
 -rw-------. 1 u0_a400 u0_a400  2950 Oct 31 18:32 /data/data/com.termux/files/home/jack/jack_befehl_frei.py
 -rw-------. 1 u0_a400 u0_a400  5274 Oct 31 17:01 /data/data/com.termux/files/home/jack/jack_befehle.py
+-rw-r--r--. 1 u0_a400 u0_a400 12429 Nov 11 15:18 /data/data/com.termux/files/home/jack/jack_board.py
 -rw-------. 1 u0_a400 u0_a400  6369 Oct 29 07:56 /data/data/com.termux/files/home/jack/jack_briefing.py
 -rw-------. 1 u0_a400 u0_a400  3517 Oct 26 07:36 /data/data/com.termux/files/home/jack/jack_budget.py
 -rw-------. 1 u0_a400 u0_a400   346 Aug 18 10:39 /data/data/com.termux/files/home/jack/jack_budget_status.py

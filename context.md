@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T15:15:20.638575)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T15:18:23.050457)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T15:15:20.626604
+Stand: 2026-11-11T15:18:23.037112
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-11T15:15:20.626604
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (277)
+## Aktive Module (278)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -40,6 +40,7 @@ Stand: 2026-11-11T15:15:20.626604
 - jack_autonomous.py
 - jack_befehl_frei.py
 - jack_befehle.py
+- jack_board.py
 - jack_briefing.py
 - jack_budget.py
 - jack_budget_status.py
@@ -294,11 +295,11 @@ Stand: 2026-11-11T15:15:20.626604
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5210
+- Erinnerungen: 5218
 - Dienste:
-run: jack_cortex: (pid 32362) 40485s; run: log: (pid 32358) 40485s
-run: jack_telegram: (pid 32375) 40485s; run: log: (pid 32374) 40485s
-run: jack_autolearn: (pid 16100) 18880s; run: log: (pid 32361) 40485s
+run: jack_cortex: (pid 32362) 40668s; run: log: (pid 32358) 40668s
+run: jack_telegram: (pid 32375) 40668s; run: log: (pid 32374) 40668s
+run: jack_autolearn: (pid 16100) 19063s; run: log: (pid 32361) 40668s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
