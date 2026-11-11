@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T18:32:58.892157)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T18:36:01.165580)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T18:32:58.875742
+Stand: 2026-11-11T18:36:01.150283
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-11T18:32:58.875742
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5283
+- Erinnerungen: 5286
 - Dienste:
-run: jack_cortex: (pid 32362) 52343s; run: log: (pid 32358) 52343s
-run: jack_telegram: (pid 13522) 4597s; run: log: (pid 32374) 52343s
-run: jack_autolearn: (pid 13521) 4597s; run: log: (pid 32361) 52343s
+run: jack_cortex: (pid 32362) 52526s; run: log: (pid 32358) 52526s
+run: jack_telegram: (pid 13522) 4780s; run: log: (pid 32374) 52526s
+run: jack_autolearn: (pid 13521) 4780s; run: log: (pid 32361) 52526s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+250dbce9 SEC-1E Nacharbeit: alte Stellen in Kap 132 und 222 als ueberholt markiert
 3e937904 SEC-1 eingebaut: S1 HARVESTSTOP, S4 WEBSSRF, S7 FAEHIGRC; Kap 132, 222, 143, 07
 d707acc2 Handbuch: INV-11 Korrekturen in Kap 135, 116, 187; jack_tuev3 ins Attic (Dima-Go), Kap 60 Vermerk
 1cc3d54d Handbuch: 29 Ersatzkapitel aus Grok INV-10 und INV-12 nach ChatGPT INV-11/13 eingespielt, Kap 60 tuev3 zurueck
@@ -316,7 +317,6 @@ a1a206ce VERTRAGSLISTE-1: eine Vertragsliste jack_nachttest.CONTRACTS, Briefing 
 48d5ade5 XIPATHSAFE2 (push_file_delta quotet Pfad), gitignore Webhook-Secret-Muster, Handbuch 307/332
 c87e1190 Handbuch 329-343: 15 neue Modulkapitel (Grok INV-3, live geprueft ChatGPT INV-4, 8 mit Korrektur)
 7eae3cca Inventur 11.11.: Briefing-Fix BRIEF_C3, Handbuch 67/89/307/320-322/328, n8n M1-Abhilfe dokumentiert
-a13c01c9 tmp aus Git-Index genommen und in gitignore, Dateien bleiben lokal
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
