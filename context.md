@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T17:17:01.817231)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T17:20:03.995843)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T17:17:01.803994
+Stand: 2026-11-11T17:20:03.977870
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-11T17:17:01.803994
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5280
+- Erinnerungen: 5283
 - Dienste:
-run: jack_cortex: (pid 32362) 47786s; run: log: (pid 32358) 47786s
-run: jack_telegram: (pid 13522) 40s; run: log: (pid 32374) 47786s
-run: jack_autolearn: (pid 13521) 40s; run: log: (pid 32361) 47786s
+run: jack_cortex: (pid 32362) 47968s; run: log: (pid 32358) 47968s
+run: jack_telegram: (pid 13522) 222s; run: log: (pid 32374) 47968s
+run: jack_autolearn: (pid 13521) 222s; run: log: (pid 32361) 47968s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+3e937904 SEC-1 eingebaut: S1 HARVESTSTOP, S4 WEBSSRF, S7 FAEHIGRC; Kap 132, 222, 143, 07
 d707acc2 Handbuch: INV-11 Korrekturen in Kap 135, 116, 187; jack_tuev3 ins Attic (Dima-Go), Kap 60 Vermerk
 1cc3d54d Handbuch: 29 Ersatzkapitel aus Grok INV-10 und INV-12 nach ChatGPT INV-11/13 eingespielt, Kap 60 tuev3 zurueck
 faa8c2a8 DBOPT_NOCOPY: keine 32-MB-Kopie von jack_memory.db je Waechter-Runde (Dima-Go), Kap 65
@@ -316,7 +317,6 @@ a1a206ce VERTRAGSLISTE-1: eine Vertragsliste jack_nachttest.CONTRACTS, Briefing 
 c87e1190 Handbuch 329-343: 15 neue Modulkapitel (Grok INV-3, live geprueft ChatGPT INV-4, 8 mit Korrektur)
 7eae3cca Inventur 11.11.: Briefing-Fix BRIEF_C3, Handbuch 67/89/307/320-322/328, n8n M1-Abhilfe dokumentiert
 a13c01c9 tmp aus Git-Index genommen und in gitignore, Dateien bleiben lokal
-55e12ad9 Attic aus Git-Index genommen (bleibt lokal)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
