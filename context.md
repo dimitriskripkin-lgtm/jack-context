@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T12:49:27.457980)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T12:52:29.629098)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T12:49:27.446458
+Stand: 2026-11-11T12:52:29.617062
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-11T12:49:27.446458
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5169
+- Erinnerungen: 5177
 - Dienste:
-run: jack_cortex: (pid 32362) 31732s; run: log: (pid 32358) 31732s
-run: jack_telegram: (pid 32375) 31732s; run: log: (pid 32374) 31732s
-run: jack_autolearn: (pid 16100) 10127s; run: log: (pid 32361) 31732s
+run: jack_cortex: (pid 32362) 31914s; run: log: (pid 32358) 31914s
+run: jack_telegram: (pid 32375) 31914s; run: log: (pid 32374) 31914s
+run: jack_autolearn: (pid 16100) 10309s; run: log: (pid 32361) 31914s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+48d5ade5 XIPATHSAFE2 (push_file_delta quotet Pfad), gitignore Webhook-Secret-Muster, Handbuch 307/332
 c87e1190 Handbuch 329-343: 15 neue Modulkapitel (Grok INV-3, live geprueft ChatGPT INV-4, 8 mit Korrektur)
 7eae3cca Inventur 11.11.: Briefing-Fix BRIEF_C3, Handbuch 67/89/307/320-322/328, n8n M1-Abhilfe dokumentiert
 a13c01c9 tmp aus Git-Index genommen und in gitignore, Dateien bleiben lokal
@@ -316,7 +317,6 @@ aec8085e C6 jack_lagebericht.py (DWD live ok), G23 YouTube-Aufraeumen/Vorschlag,
 3cfb2312 Grok G20 Gegenpruefung: Boost-TTL nur bei Wait, Journal-Skip prueft Act
 93b673e4 C5 Mail-Grossputz (jack_mail_putz, Regeln), jack_n8n_gmail.py, G19-Messung
 d0cbe8d7 Grok G19 Runner-Takt 0.1s bei Boost, create_mission-Warteschleife 0.1s
-e675a3bb Grok G17 Job-Modus + n8n-API, ChatGPT C4 MSG-Register Wochenbericht Uebergabe Doku-Waechter
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
