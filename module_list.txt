@@ -8,7 +8,7 @@
 -rw-------. 1 u0_a400 u0_a400   788 Oct 27 03:30 /data/data/com.termux/files/home/jack/jack_app_sperre.py
 -rw-------. 1 u0_a400 u0_a400  3269 Aug 23 15:36 /data/data/com.termux/files/home/jack/jack_approval.py
 -rw-------. 1 u0_a400 u0_a400  2248 Sep  1 06:22 /data/data/com.termux/files/home/jack/jack_approval_digest.py
--rw-------. 1 u0_a400 u0_a400  6777 Oct  9 17:31 /data/data/com.termux/files/home/jack/jack_arbeitsplatz.py
+-rw-------. 1 u0_a400 u0_a400  8120 Nov 11 04:46 /data/data/com.termux/files/home/jack/jack_arbeitsplatz.py
 -rw-------. 1 u0_a400 u0_a400 20815 Nov  5 05:03 /data/data/com.termux/files/home/jack/jack_arena.py
 -rw-------. 1 u0_a400 u0_a400 18862 Nov  5 05:03 /data/data/com.termux/files/home/jack/jack_arena_bruecke.py
 -rw-------. 1 u0_a400 u0_a400 29203 Nov  5 05:03 /data/data/com.termux/files/home/jack/jack_arena_lerner.py
