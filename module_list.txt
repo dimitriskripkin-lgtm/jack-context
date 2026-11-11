@@ -47,7 +47,7 @@
 -rw-------. 1 u0_a400 u0_a400  1648 Sep 17 07:00 /data/data/com.termux/files/home/jack/jack_corr.py
 -rwx------. 1 u0_a400 u0_a400 15003 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_cortex.py
 -rw-------. 1 u0_a400 u0_a400   724 Aug 16 11:31 /data/data/com.termux/files/home/jack/jack_critic.py
--rw-------. 1 u0_a400 u0_a400  3706 Nov 11 15:38 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
+-rw-------. 1 u0_a400 u0_a400  3764 Nov 11 15:46 /data/data/com.termux/files/home/jack/jack_db_optimizer.py
 -rw-------. 1 u0_a400 u0_a400  1910 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_db_queue.py
 -rw-------. 1 u0_a400 u0_a400   689 Sep 11 05:33 /data/data/com.termux/files/home/jack/jack_deadletter.py
 -rw-------. 1 u0_a400 u0_a400  1175 Oct 10 11:52 /data/data/com.termux/files/home/jack/jack_deadman.py

@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T15:45:46.187326)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T15:48:48.427134)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T15:45:46.174700
+Stand: 2026-11-11T15:48:48.412685
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -295,14 +295,15 @@ Stand: 2026-11-11T15:45:46.174700
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5251
+- Erinnerungen: 5256
 - Dienste:
-run: jack_cortex: (pid 32362) 42311s; run: log: (pid 32358) 42311s
-run: jack_telegram: (pid 32375) 42311s; run: log: (pid 32374) 42311s
-run: jack_autolearn: (pid 16100) 20706s; run: log: (pid 32361) 42311s
+run: jack_cortex: (pid 32362) 42493s; run: log: (pid 32358) 42493s
+run: jack_telegram: (pid 32375) 42493s; run: log: (pid 32374) 42493s
+run: jack_autolearn: (pid 16100) 20888s; run: log: (pid 32361) 42493s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+faa8c2a8 DBOPT_NOCOPY: keine 32-MB-Kopie von jack_memory.db je Waechter-Runde (Dima-Go), Kap 65
 864b16ef DBOPT_NOROLLBACK: keine Rueckkopie .bak ueber jack_memory.db (INV-9 S3), Kap 65 Nachtrag
 6048fbff Handbuch 15 Ersatzkapitel INV-8 (INV-9: 13 frei, 2 korrigiert), Stubs 59
 40f831f0 Kap 345 ARBEITSWEISE_KI als Master im Spiegel, START_HIER-Zeiger, Grok INV-10 abgelegt
@@ -317,7 +318,6 @@ a13c01c9 tmp aus Git-Index genommen und in gitignore, Dateien bleiben lokal
 55e12ad9 Attic aus Git-Index genommen (bleibt lokal)
 b0a3f4d7 Autorotation Arbeitsplatz, Handbuch 234 und 327 Suno
 b05f7b5f Telefon Stufe 2 (messen/aktion/erinnerung/merken), Lagebericht Xiaomi-Probe-Fix, Kap 323/326 (07.11.2026)
-dbad2fdc Telefon: JACK erklaert sich (Kap 323), R2 Schluesseldateien gesperrt, R4 lagebericht im Thread
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
