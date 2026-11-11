@@ -226,7 +226,6 @@
 -rw-------. 1 u0_a400 u0_a400  5264 Sep 14 13:26 /data/data/com.termux/files/home/jack/jack_thermal.py
 -rw-------. 1 u0_a400 u0_a400  1733 Sep 14 13:26 /data/data/com.termux/files/home/jack/jack_thermal_guard.py
 -rw-------. 1 u0_a400 u0_a400  3155 Aug 12 12:32 /data/data/com.termux/files/home/jack/jack_traceback.py
--rw-------. 1 u0_a400 u0_a400  7671 Sep 14 05:22 /data/data/com.termux/files/home/jack/jack_tuev3.py
 -rw-------. 1 u0_a400 u0_a400  1109 Oct  6 19:31 /data/data/com.termux/files/home/jack/jack_tun.py
 -rw-------. 1 u0_a400 u0_a400  7212 Oct 31 17:54 /data/data/com.termux/files/home/jack/jack_tunnel_watch.py
 -rw-------. 1 u0_a400 u0_a400  4989 Nov  4 06:06 /data/data/com.termux/files/home/jack/jack_uebergabe.py
