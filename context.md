@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T15:18:23.050457)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T15:21:25.307423)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T15:18:23.037112
+Stand: 2026-11-11T15:21:25.290044
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -295,14 +295,15 @@ Stand: 2026-11-11T15:18:23.037112
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5218
+- Erinnerungen: 5224
 - Dienste:
-run: jack_cortex: (pid 32362) 40668s; run: log: (pid 32358) 40668s
-run: jack_telegram: (pid 32375) 40668s; run: log: (pid 32374) 40668s
-run: jack_autolearn: (pid 16100) 19063s; run: log: (pid 32361) 40668s
+run: jack_cortex: (pid 32362) 40850s; run: log: (pid 32358) 40850s
+run: jack_telegram: (pid 32375) 40850s; run: log: (pid 32374) 40850s
+run: jack_autolearn: (pid 16100) 19245s; run: log: (pid 32361) 40850s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+f5730c7f Handbuch 15 Ersatzkapitel INV-5 (INV-7 geprueft), Board v0 jack_board.py, Kap 344
 be03e757 ARBEITSWEISE_KI und Lernjournal, MAXKETTE 30 auf 100, Kap 235, START_HIER-Zeiger, Grok INV-8 abgelegt
 a1a206ce VERTRAGSLISTE-1: eine Vertragsliste jack_nachttest.CONTRACTS, Briefing fail-closed (ChatGPT-Entwurf, Claude-Einbau)
 48d5ade5 XIPATHSAFE2 (push_file_delta quotet Pfad), gitignore Webhook-Secret-Muster, Handbuch 307/332
@@ -317,7 +318,6 @@ dbad2fdc Telefon: JACK erklaert sich (Kap 323), R2 Schluesseldateien gesperrt, R
 5337f6e8 Grok G24: GET /telefon/lagebericht fuer ElevenLabs-Webhook (nur Rolle telefon)
 0722127d Grok G22: MCP-Rolle telefon (nur lagebericht, Rate-Limit, Notaus) fuer ElevenLabs-JACK
 aec8085e C6 jack_lagebericht.py (DWD live ok), G23 YouTube-Aufraeumen/Vorschlag, jack_n8n_api workflow_get
-3cfb2312 Grok G20 Gegenpruefung: Boost-TTL nur bei Wait, Journal-Skip prueft Act
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
