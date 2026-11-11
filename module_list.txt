@@ -143,7 +143,7 @@
 -rw-------. 1 u0_a400 u0_a400  2528 Nov  4 09:56 /data/data/com.termux/files/home/jack/jack_n8n_gmail.py
 -rw-------. 1 u0_a400 u0_a400  2920 Oct 27 09:11 /data/data/com.termux/files/home/jack/jack_n8n_google.py
 -rw-------. 1 u0_a400 u0_a400  2545 Oct 27 10:31 /data/data/com.termux/files/home/jack/jack_n8n_youtube.py
--rw-------. 1 u0_a400 u0_a400 15140 Nov  4 05:32 /data/data/com.termux/files/home/jack/jack_nachttest.py
+-rw-------. 1 u0_a400 u0_a400 15008 Nov 11 13:08 /data/data/com.termux/files/home/jack/jack_nachttest.py
 -rw-------. 1 u0_a400 u0_a400   473 Aug 24 18:29 /data/data/com.termux/files/home/jack/jack_nc.py
 -rw-------. 1 u0_a400 u0_a400  1116 Oct 19 05:17 /data/data/com.termux/files/home/jack/jack_observer.py
 -rw-------. 1 u0_a400 u0_a400  4939 Oct  8 16:32 /data/data/com.termux/files/home/jack/jack_ollama_gate.py
@@ -174,7 +174,7 @@
 -rw-------. 1 u0_a400 u0_a400  2621 Oct  9 04:03 /data/data/com.termux/files/home/jack/jack_sanity.py
 -rw-------. 1 u0_a400 u0_a400  1225 Aug 14 15:31 /data/data/com.termux/files/home/jack/jack_scheduler.py
 -rw-------. 1 u0_a400 u0_a400  6053 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_schicht_kalender_sync.py
--rw-------. 1 u0_a400 u0_a400 11858 Nov 11 11:14 /data/data/com.termux/files/home/jack/jack_schichtbriefing.py
+-rw-------. 1 u0_a400 u0_a400 11993 Nov 11 13:08 /data/data/com.termux/files/home/jack/jack_schichtbriefing.py
 -rw-------. 1 u0_a400 u0_a400   819 Sep 11 05:33 /data/data/com.termux/files/home/jack/jack_score_avg.py
 -rw-------. 1 u0_a400 u0_a400  9830 Oct 29 07:56 /data/data/com.termux/files/home/jack/jack_scout.py
 -rwx------. 1 u0_a400 u0_a400  8142 Oct 29 07:01 /data/data/com.termux/files/home/jack/jack_screen_mapper.py
