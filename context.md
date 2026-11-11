@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-11T15:36:36.402035)
+# JACK LIVE-KONTEXT (auto, 2026-11-11T15:39:41.715708)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-11T15:36:36.388288
+Stand: 2026-11-11T15:39:41.703063
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -295,14 +295,16 @@ Stand: 2026-11-11T15:36:36.388288
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5242
+- Erinnerungen: 5251
 - Dienste:
-run: jack_cortex: (pid 32362) 41761s; run: log: (pid 32358) 41761s
-run: jack_telegram: (pid 32375) 41761s; run: log: (pid 32374) 41761s
-run: jack_autolearn: (pid 16100) 20156s; run: log: (pid 32361) 41761s
+run: jack_cortex: (pid 32362) 41946s; run: log: (pid 32358) 41946s
+run: jack_telegram: (pid 32375) 41946s; run: log: (pid 32374) 41946s
+run: jack_autolearn: (pid 16100) 20341s; run: log: (pid 32361) 41946s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+864b16ef DBOPT_NOROLLBACK: keine Rueckkopie .bak ueber jack_memory.db (INV-9 S3), Kap 65 Nachtrag
+6048fbff Handbuch 15 Ersatzkapitel INV-8 (INV-9: 13 frei, 2 korrigiert), Stubs 59
 40f831f0 Kap 345 ARBEITSWEISE_KI als Master im Spiegel, START_HIER-Zeiger, Grok INV-10 abgelegt
 4f00f9c5 Termux-Widget: nur JACK-Dashboard und JACK-anrufen, Rest ins Attic, Kap 344 Nachtrag
 f5730c7f Handbuch 15 Ersatzkapitel INV-5 (INV-7 geprueft), Board v0 jack_board.py, Kap 344
@@ -316,8 +318,6 @@ a13c01c9 tmp aus Git-Index genommen und in gitignore, Dateien bleiben lokal
 b0a3f4d7 Autorotation Arbeitsplatz, Handbuch 234 und 327 Suno
 b05f7b5f Telefon Stufe 2 (messen/aktion/erinnerung/merken), Lagebericht Xiaomi-Probe-Fix, Kap 323/326 (07.11.2026)
 dbad2fdc Telefon: JACK erklaert sich (Kap 323), R2 Schluesseldateien gesperrt, R4 lagebericht im Thread
-9bb0061f G21 Arena-Bruecke live: neu jack_arena_bruecke.py, Tests 18/18, Smoke gruen
-5337f6e8 Grok G24: GET /telefon/lagebericht fuer ElevenLabs-Webhook (nur Rolle telefon)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
