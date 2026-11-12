@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-12T07:49:48.605773)
+# JACK LIVE-KONTEXT (auto, 2026-11-12T07:52:50.621830)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-12T07:49:48.589494
+Stand: 2026-11-12T07:52:50.605629
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-12T07:49:48.589494
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5319
+- Erinnerungen: 5329
 - Dienste:
-run: jack_cortex: (pid 32362) 100153s; run: log: (pid 32358) 100153s
-run: jack_telegram: (pid 31192) 186s; run: log: (pid 32374) 100153s
-run: jack_autolearn: (pid 13521) 52407s; run: log: (pid 32361) 100153s
+run: jack_cortex: (pid 32362) 100335s; run: log: (pid 32358) 100335s
+run: jack_telegram: (pid 13366) 80s; run: log: (pid 32374) 100335s
+run: jack_autolearn: (pid 13521) 52589s; run: log: (pid 32361) 100335s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+e7fb222d SEC-3: approve_ID gesperrt (A1), Inbox-ts erst nach Erfolg (I1); Kap 12, 69, 123, 51
 df96f569 S2: Paketname-Pruefung in jack_explorer_deep (PAKETCHECK), Kap 66
 1091eb8d SEC-2 V1b: Sprach-Original 7 Tage halten, dann Attic (Dima A); Kap 29, 221
 a858cd01 SEC-2 eingebaut: S6 Inbox-Vorschlag, S5 approve_all gesperrt, V1a ogg bleibt; Kap 123, 12, 69, 221
@@ -316,7 +317,6 @@ faa8c2a8 DBOPT_NOCOPY: keine 32-MB-Kopie von jack_memory.db je Waechter-Runde (D
 4f00f9c5 Termux-Widget: nur JACK-Dashboard und JACK-anrufen, Rest ins Attic, Kap 344 Nachtrag
 f5730c7f Handbuch 15 Ersatzkapitel INV-5 (INV-7 geprueft), Board v0 jack_board.py, Kap 344
 be03e757 ARBEITSWEISE_KI und Lernjournal, MAXKETTE 30 auf 100, Kap 235, START_HIER-Zeiger, Grok INV-8 abgelegt
-a1a206ce VERTRAGSLISTE-1: eine Vertragsliste jack_nachttest.CONTRACTS, Briefing fail-closed (ChatGPT-Entwurf, Claude-Einbau)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
