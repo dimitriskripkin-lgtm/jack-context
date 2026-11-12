@@ -62,7 +62,7 @@
 -rw-------. 1 u0_a400 u0_a400 13021 Nov  3 11:34 /data/data/com.termux/files/home/jack/jack_exec.py
 -rw-------. 1 u0_a400 u0_a400  1506 Oct  9 02:15 /data/data/com.termux/files/home/jack/jack_exec_parser.py
 -rw-------. 1 u0_a400 u0_a400  3653 Sep 16 04:16 /data/data/com.termux/files/home/jack/jack_explorer.py
--rw-------. 1 u0_a400 u0_a400  5408 Sep  1 03:34 /data/data/com.termux/files/home/jack/jack_explorer_deep.py
+-rw-------. 1 u0_a400 u0_a400  5736 Nov 12 07:46 /data/data/com.termux/files/home/jack/jack_explorer_deep.py
 -rw-------. 1 u0_a400 u0_a400  6159 Nov 11 17:15 /data/data/com.termux/files/home/jack/jack_faehigkeiten.py
 -rw-------. 1 u0_a400 u0_a400  9332 Oct 21 09:44 /data/data/com.termux/files/home/jack/jack_fahrt_digest.py
 -rw-------. 1 u0_a400 u0_a400 10284 Oct 28 14:24 /data/data/com.termux/files/home/jack/jack_fahrtlage.py
