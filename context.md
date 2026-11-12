@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-12T04:14:01.892761)
+# JACK LIVE-KONTEXT (auto, 2026-11-12T04:17:04.217411)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-12T04:14:01.868502
+Stand: 2026-11-12T04:17:04.201250
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-12T04:14:01.868502
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 5305
+- Erinnerungen: 5312
 - Dienste:
-run: jack_cortex: (pid 32362) 87206s; run: log: (pid 32358) 87206s
-run: jack_telegram: (pid 2352) 183s; run: log: (pid 32374) 87206s
-run: jack_autolearn: (pid 13521) 39460s; run: log: (pid 32361) 87206s
+run: jack_cortex: (pid 32362) 87389s; run: log: (pid 32358) 87389s
+run: jack_telegram: (pid 16511) 61s; run: log: (pid 32374) 87389s
+run: jack_autolearn: (pid 13521) 39643s; run: log: (pid 32361) 87389s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+1091eb8d SEC-2 V1b: Sprach-Original 7 Tage halten, dann Attic (Dima A); Kap 29, 221
 a858cd01 SEC-2 eingebaut: S6 Inbox-Vorschlag, S5 approve_all gesperrt, V1a ogg bleibt; Kap 123, 12, 69, 221
 250dbce9 SEC-1E Nacharbeit: alte Stellen in Kap 132 und 222 als ueberholt markiert
 3e937904 SEC-1 eingebaut: S1 HARVESTSTOP, S4 WEBSSRF, S7 FAEHIGRC; Kap 132, 222, 143, 07
@@ -316,7 +317,6 @@ f5730c7f Handbuch 15 Ersatzkapitel INV-5 (INV-7 geprueft), Board v0 jack_board.p
 be03e757 ARBEITSWEISE_KI und Lernjournal, MAXKETTE 30 auf 100, Kap 235, START_HIER-Zeiger, Grok INV-8 abgelegt
 a1a206ce VERTRAGSLISTE-1: eine Vertragsliste jack_nachttest.CONTRACTS, Briefing fail-closed (ChatGPT-Entwurf, Claude-Einbau)
 48d5ade5 XIPATHSAFE2 (push_file_delta quotet Pfad), gitignore Webhook-Secret-Muster, Handbuch 307/332
-c87e1190 Handbuch 329-343: 15 neue Modulkapitel (Grok INV-3, live geprueft ChatGPT INV-4, 8 mit Korrektur)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
