@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-18T06:52:09.119464)
+# JACK LIVE-KONTEXT (auto, 2026-11-18T06:55:11.691394)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-18T06:52:09.105570
+Stand: 2026-11-18T06:55:11.677280
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -294,14 +294,15 @@ Stand: 2026-11-18T06:52:09.105570
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 3900
+- Erinnerungen: 3906
 - Dienste:
-run: jack_cortex: (pid 20623) 84420s; run: log: (pid 20622) 84420s
-run: jack_telegram: (pid 20624) 84420s; run: log: (pid 20617) 84420s
-run: jack_autolearn: (pid 20620) 84420s; run: log: (pid 20618) 84420s
+run: jack_cortex: (pid 20623) 84602s; run: log: (pid 20622) 84602s
+run: jack_telegram: (pid 20624) 84602s; run: log: (pid 20617) 84602s
+run: jack_autolearn: (pid 20620) 84602s; run: log: (pid 20618) 84602s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
+0868aa62 SEC-8: adb_heal Sperre+Pause, thermal_guard None+Trip-Zonen, yt_sido main, cmd_handler status; Kap 95 91 229 12
 557079ed Handbuch: 13 neue Kapitel 346-360 (INV-14/15/16), Nachtraege Kap 332 und 340
 651f8dad SEC-4: Voice-Aufraeumen mit Lock im finally (V2), autodoc stillgelegt (Dima B); Kap 29, 221, 51, 03
 e7fb222d SEC-3: approve_ID gesperrt (A1), Inbox-ts erst nach Erfolg (I1); Kap 12, 69, 123, 51
@@ -316,7 +317,6 @@ faa8c2a8 DBOPT_NOCOPY: keine 32-MB-Kopie von jack_memory.db je Waechter-Runde (D
 864b16ef DBOPT_NOROLLBACK: keine Rueckkopie .bak ueber jack_memory.db (INV-9 S3), Kap 65 Nachtrag
 6048fbff Handbuch 15 Ersatzkapitel INV-8 (INV-9: 13 frei, 2 korrigiert), Stubs 59
 40f831f0 Kap 345 ARBEITSWEISE_KI als Master im Spiegel, START_HIER-Zeiger, Grok INV-10 abgelegt
-4f00f9c5 Termux-Widget: nur JACK-Dashboard und JACK-anrufen, Rest ins Attic, Kap 344 Nachtrag
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
