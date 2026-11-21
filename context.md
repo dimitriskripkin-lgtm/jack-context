@@ -1,7 +1,7 @@
-# JACK LIVE-KONTEXT (auto, 2026-11-18T07:37:46.179605)
+# JACK LIVE-KONTEXT (auto, 2026-11-21T06:56:26.669807)
 
 # JACK PROJEKT-KONTEXT (auto-generiert)
-Stand: 2026-11-18T07:37:46.160048
+Stand: 2026-11-21T06:56:26.656959
 
 ## Owner / Kern
 - Owner: Dimitri
@@ -13,7 +13,7 @@ Stand: 2026-11-18T07:37:46.160048
 - Dima ist Dimitri.
 [PRIVAT GEFILTERT]
 [PRIVAT GEFILTERT]
-## Aktive Module (277)
+## Aktive Module (283)
 - diag_snapshot.py
 - jack_activity_logger.py
 - jack_acts.py
@@ -135,6 +135,8 @@ Stand: 2026-11-18T07:37:46.160048
 - jack_mail_putz.py
 - jack_math.py
 - jack_mcp_auth.py
+- jack_mcp_meter.py
+- jack_mcp_meter_woche.py
 - jack_mcp_oauth.py
 - jack_mcp_server.py
 - jack_melderegel.py
@@ -162,12 +164,14 @@ Stand: 2026-11-18T07:37:46.160048
 - jack_n8n_youtube.py
 - jack_nachttest.py
 - jack_nc.py
+- jack_nutzung.py
 - jack_observer.py
 - jack_ollama_gate.py
 - jack_oracle.py
 - jack_outcome.py
 - jack_outcome_tracker.py
 - jack_overmind_client.py
+- jack_overmind_state.py
 - jack_patch.py
 - jack_patch_memory.py
 - jack_phone_senses.py
@@ -195,6 +199,7 @@ Stand: 2026-11-18T07:37:46.160048
 - jack_score_avg.py
 - jack_scout.py
 - jack_screen_mapper.py
+- jack_sec13_autostart.py
 - jack_selbstbild.py
 - jack_selbstmodell.py
 - jack_self_audit.py
@@ -233,6 +238,7 @@ Stand: 2026-11-18T07:37:46.160048
 - jack_telefon_aktion.py
 - jack_telefon_gespraech.py
 - jack_telefon_lesen.py
+- jack_telefon_link.py
 - jack_telefon_messen.py
 - jack_telegram.py
 - jack_telemetry.py
@@ -294,29 +300,29 @@ Stand: 2026-11-18T07:37:46.160048
 
 ## System-Status
 - Offene Fehler: 3
-- Erinnerungen: 3914
+- Erinnerungen: 4292
 - Dienste:
-run: jack_cortex: (pid 20623) 87157s; run: log: (pid 20622) 87157s
-run: jack_telegram: (pid 20624) 87157s; run: log: (pid 20617) 87157s
-run: jack_autolearn: (pid 20620) 87157s; run: log: (pid 20618) 87157s
+run: jack_cortex: (pid 21109) 91272s; run: log: (pid 13924) 234723s
+run: jack_telegram: (pid 21112) 91272s; run: log: (pid 13917) 234723s
+run: jack_autolearn: (pid 31353) 98s; run: log: (pid 13927) 234723s
 fail: ollama: unable to change to service directory: file does not exist
 
 ## Letzte Aenderungen
-0868aa62 SEC-8: adb_heal Sperre+Pause, thermal_guard None+Trip-Zonen, yt_sido main, cmd_handler status; Kap 95 91 229 12
-557079ed Handbuch: 13 neue Kapitel 346-360 (INV-14/15/16), Nachtraege Kap 332 und 340
-651f8dad SEC-4: Voice-Aufraeumen mit Lock im finally (V2), autodoc stillgelegt (Dima B); Kap 29, 221, 51, 03
-e7fb222d SEC-3: approve_ID gesperrt (A1), Inbox-ts erst nach Erfolg (I1); Kap 12, 69, 123, 51
-df96f569 S2: Paketname-Pruefung in jack_explorer_deep (PAKETCHECK), Kap 66
-1091eb8d SEC-2 V1b: Sprach-Original 7 Tage halten, dann Attic (Dima A); Kap 29, 221
-a858cd01 SEC-2 eingebaut: S6 Inbox-Vorschlag, S5 approve_all gesperrt, V1a ogg bleibt; Kap 123, 12, 69, 221
-250dbce9 SEC-1E Nacharbeit: alte Stellen in Kap 132 und 222 als ueberholt markiert
-3e937904 SEC-1 eingebaut: S1 HARVESTSTOP, S4 WEBSSRF, S7 FAEHIGRC; Kap 132, 222, 143, 07
-d707acc2 Handbuch: INV-11 Korrekturen in Kap 135, 116, 187; jack_tuev3 ins Attic (Dima-Go), Kap 60 Vermerk
-1cc3d54d Handbuch: 29 Ersatzkapitel aus Grok INV-10 und INV-12 nach ChatGPT INV-11/13 eingespielt, Kap 60 tuev3 zurueck
-faa8c2a8 DBOPT_NOCOPY: keine 32-MB-Kopie von jack_memory.db je Waechter-Runde (Dima-Go), Kap 65
-864b16ef DBOPT_NOROLLBACK: keine Rueckkopie .bak ueber jack_memory.db (INV-9 S3), Kap 65 Nachtrag
-6048fbff Handbuch 15 Ersatzkapitel INV-8 (INV-9: 13 frei, 2 korrigiert), Stubs 59
-40f831f0 Kap 345 ARBEITSWEISE_KI als Master im Spiegel, START_HIER-Zeiger, Grok INV-10 abgelegt
+66967174 SKILL-PROMO: autolearn befoerdert nur noch zu TESTING, VERIFIED erst ab 3 Erfolgen, Kap 07
+cb6b1996 SEC-13: runit-Links nach jack/service erlaubt (SVCJACK), Soll-Liste von Dima erfasst, Nachttest-Probe gruen
+271f907c SEC-13 Autostart-Waechter live im Nachttest (JACK_TUNE_SEC13_WATCH), Kap 320/374, Kanal-Grenze 300
+09e383aa MCP-METER: Metadaten je MCP-Aufruf (nur Groessen) + Wochenauswertung, Schalter .mcp_meter_aus
+c3cb3bff SEC: runner OLD genau 1x (POLICY-1), close_app_xiaomi fullmatch (H1), write Pfadgate vor Backup (H2); jack_nutzung.py
+b1e8bab9 Handbuch: Kap 371 dima_sig, 372 nutzung, 373 audit_dauer (HANDBUCH-LUECKEN, geprueft Claude)
+af97fca5 Arena-Runner v5 RUNFMT: striktes final-Format, kein Auspacken, Formfehler mit Korrekturchance (Claude-Abnahme)
+fa78bd97 ARENA5 installiert, Prueffest 0e3c9832, Serie 1: 10/20 PASS, 0 falsche PASS, Kap 274
+db80b0b6 Arena Richter v6: required_trace Pflichtkette, JACK_TUNE_ARENA5_TRACE, Kap 274
+d2cc4c01 Backup: Xiaomi-Ausfall nicht mehr fatal, Meldung an Meldestelle (JACK_TUNE_BACKUP_XIFEHLER), Kap 310
+d9e504d7 START_HIER: Fusszeilen-Anker fuer Claude-Antworten
+63b0a951 Handbuch 274: Wiederholungsserien, deterministisch, Paket zu leicht
+20dbce23 Handbuch 274: erste volle Arena-Serie 19/20
+7531beba Handbuch 274: FORMFINAL2, Pilot 3/3, Prueffest 6cdef89d
+3b38fa9a Arena-Runner: FORMFINAL Formfehler-Meldung + FORMFINAL2 Schlussantwort ohne Huelle als final (Pilot 3/3 PASS)
 
 ## Architektur
 Host Honor Magic8 Pro (Termux), Slave Xiaomi 11T (SSH 10.244.147.131:8022).
@@ -349,4 +355,4 @@ Selbstlernen: jack_learn.py alle 2h. Interfaces: Telegram + Voice.
 [watchdog] jack_autolearn neugestartet
 
 ## Budget heute
-Heute 0/10000 vis 0/100 tok 0 eur 0.00/8.00
+Heute 0/10000 vis 0/100 tok 0 eur 0.02/8.00
